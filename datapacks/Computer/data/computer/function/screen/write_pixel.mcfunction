@@ -90,6 +90,6 @@ execute store result score input_7 scoretp_y_screen run scoreboard players get w
 execute store result score input_8 scoretp_y_screen run scoreboard players get write_8 Computer
 execute store result score input_9 scoretp_y_screen run scoreboard players get write_9 Computer
 
-function _em:scoretp/x_screen
-function _em:scoretp/y_screen
+function tp:scoretp/x_screen
+function tp:scoretp/y_screen
 execute at @s run execute store result entity @e[limit=1, type=minecraft:text_display,sort=nearest] background long 1 run scoreboard players get background Computer

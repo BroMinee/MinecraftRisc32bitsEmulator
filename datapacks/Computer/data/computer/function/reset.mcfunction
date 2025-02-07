@@ -124,12 +124,7 @@ scoreboard objectives add add32 dummy
 scoreboard objectives add read8 dummy
 
 
-scoreboard objectives add scoretp_x dummy
-scoreboard objectives add scoretp_y dummy
-scoreboard objectives add scoretp_z dummy
 
-scoreboard objectives add scoretp_x_screen dummy
-scoreboard objectives add scoretp_y_screen dummy
 
 function computer:screen/init_screen
 

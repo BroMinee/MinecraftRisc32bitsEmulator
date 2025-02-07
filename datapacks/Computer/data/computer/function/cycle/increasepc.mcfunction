@@ -141,6 +141,6 @@ scoreboard players operation input_5 scoretp_y = pc_29 Computer
 scoreboard players operation input_6 scoretp_y = pc_30 Computer
 scoreboard players operation input_7 scoretp_y = pc_31 Computer
 
-function _em:scoretp/x
-function _em:scoretp/y
-function _em:scoretp/z
+function tp:scoretp/x
+function tp:scoretp/y
+function tp:scoretp/z
