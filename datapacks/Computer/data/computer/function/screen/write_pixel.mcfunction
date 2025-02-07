@@ -66,7 +66,7 @@ execute if score input_23 A2 matches 1 run scoreboard players remove background 
 execute if score input_24 A2 matches 1 run scoreboard players remove background Computer 16777216
 # above 24 bit are not used in this case still compute since a2_32bits is a generic function
 
-execute if score input_24 A2 matches 1 run say Error input_24 should not be set when writing a pixel
+
 execute if score input_25 A2 matches 1 run say Error input_25 should not be set when writing a pixel
 execute if score input_26 A2 matches 1 run say Error input_26 should not be set when writing a pixel
 execute if score input_27 A2 matches 1 run say Error input_27 should not be set when writing a pixel
@@ -92,4 +92,4 @@ execute store result score input_9 scoretp_y_screen run scoreboard players get w
 
 function _em:scoretp/x_screen
 function _em:scoretp/y_screen
-execute at @s run execute as @e[limit=1, type=minecraft:text_display,sort=nearest] run execute store result entity @s background long 1 run scoreboard players get background Computer
+execute at @s run execute store result entity @e[limit=1, type=minecraft:text_display,sort=nearest] background long 1 run scoreboard players get background Computer

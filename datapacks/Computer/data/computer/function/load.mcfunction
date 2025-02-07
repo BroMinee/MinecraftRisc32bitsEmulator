@@ -120,6 +120,7 @@ summon armor_stand -4 -58 9 {CustomName:'[{"text":"screen"}]',CustomNameVisible:
 
 
 scoreboard objectives add A2 dummy
+scoreboard objectives add add32 dummy
 
 
 scoreboard objectives add scoretp_x dummy
