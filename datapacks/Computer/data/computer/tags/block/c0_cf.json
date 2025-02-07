@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:grass_block",
+      "minecraft:podzol",
+      "minecraft:mycelium",
+      "minecraft:dirt",
+      "minecraft:coarse_dirt",
+      "minecraft:rooted_dirt",
+      "minecraft:mud",
+      "minecraft:clay",
+      "minecraft:spawner",
+      "minecraft:honey_block",
+      "minecraft:ice",
+      "minecraft:packed_ice",
+      "minecraft:blue_ice",
+      "minecraft:snow_block",
+      "minecraft:moss_block",
+      "minecraft:calcite"
+    ]
+  }

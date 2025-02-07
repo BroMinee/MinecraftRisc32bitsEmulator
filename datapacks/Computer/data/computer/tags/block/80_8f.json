@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:warped_stem",
+      "minecraft:stripped_warped_stem",
+      "minecraft:warped_planks",
+      "minecraft:mud_bricks",
+      "minecraft:wet_sponge",
+      "minecraft:melon",
+      "minecraft:mushroom_stem",
+      "minecraft:pumpkin",
+      "minecraft:hay_block",
+      "minecraft:bee_nest",
+      "minecraft:sponge",
+      "minecraft:honeycomb_block",
+      "minecraft:sea_lantern",
+      "minecraft:prismarine",
+      "minecraft:prismarine_bricks",
+      "minecraft:dark_prismarine"
+    ]
+  }

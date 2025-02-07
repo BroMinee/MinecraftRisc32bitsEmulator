@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "pack_format": 61,
+        "description": "A emulator of a Risc V - 32 bits"
+    }
+}

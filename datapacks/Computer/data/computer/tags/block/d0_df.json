@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:tuff",
+      "minecraft:dripstone_block",
+      "minecraft:terracotta",
+      "minecraft:magma_block",
+      "minecraft:obsidian",
+      "minecraft:crying_obsidian",
+      "minecraft:glass",
+      "minecraft:crimson_nylium",
+      "minecraft:warped_nylium",
+      "minecraft:soul_sand",
+      "minecraft:soul_soil",
+      "minecraft:bone_block",
+      "minecraft:tinted_glass",
+      "minecraft:ochre_froglight",
+      "minecraft:verdant_froglight",
+      "minecraft:slime_block"
+    ]
+  }

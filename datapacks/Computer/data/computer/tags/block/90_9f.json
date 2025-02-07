@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:netherrack",
+      "minecraft:nether_bricks",
+      "minecraft:cracked_nether_bricks",
+      "minecraft:chiseled_nether_bricks",
+      "minecraft:red_nether_bricks",
+      "minecraft:basalt",
+      "minecraft:smooth_basalt",
+      "minecraft:polished_basalt",
+      "minecraft:pearlescent_froglight",
+      "minecraft:gilded_blackstone",
+      "minecraft:chiseled_polished_blackstone",
+      "minecraft:polished_blackstone",
+      "minecraft:polished_blackstone_bricks",
+      "minecraft:cracked_polished_blackstone_bricks",
+      "minecraft:end_stone",
+      "minecraft:end_stone_bricks"
+    ]
+  }
