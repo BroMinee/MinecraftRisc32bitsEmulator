@@ -3,7 +3,7 @@ execute if block ~ ~ ~ minecraft:purpur_pillar run function computer:read/sub/su
 execute if block ~ ~ ~ minecraft:coal_block run function computer:read/sub/sub/a2
 execute if block ~ ~ ~ minecraft:iron_block run function computer:read/sub/sub/a3
 execute if block ~ ~ ~ minecraft:gold_block run function computer:read/sub/sub/a4
-execute if block ~ ~ ~ minecraft:redstone_block run function computer:read/sub/sub/a5
+execute if block ~ ~ ~ minecraft:chiseled_stone_bricks run function computer:read/sub/sub/a5
 execute if block ~ ~ ~ minecraft:emerald_block run function computer:read/sub/sub/a6
 execute if block ~ ~ ~ minecraft:lapis_block run function computer:read/sub/sub/a7
 execute if block ~ ~ ~ minecraft:diamond_block run function computer:read/sub/sub/a8
