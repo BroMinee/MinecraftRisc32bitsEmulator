@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:white_concrete run function computer:read/sub/sub/40
+execute if block ~ ~ ~ minecraft:orange_concrete run function computer:read/sub/sub/41
+execute if block ~ ~ ~ minecraft:magenta_concrete run function computer:read/sub/sub/42
+execute if block ~ ~ ~ minecraft:light_blue_concrete run function computer:read/sub/sub/43
+execute if block ~ ~ ~ minecraft:yellow_concrete run function computer:read/sub/sub/44
+execute if block ~ ~ ~ minecraft:lime_concrete run function computer:read/sub/sub/45
+execute if block ~ ~ ~ minecraft:pink_concrete run function computer:read/sub/sub/46
+execute if block ~ ~ ~ minecraft:gray_concrete run function computer:read/sub/sub/47
+execute if block ~ ~ ~ minecraft:light_gray_concrete run function computer:read/sub/sub/48
+execute if block ~ ~ ~ minecraft:cyan_concrete run function computer:read/sub/sub/49
+execute if block ~ ~ ~ minecraft:purple_concrete run function computer:read/sub/sub/4a
+execute if block ~ ~ ~ minecraft:blue_concrete run function computer:read/sub/sub/4b
+execute if block ~ ~ ~ minecraft:brown_concrete run function computer:read/sub/sub/4c
+execute if block ~ ~ ~ minecraft:green_concrete run function computer:read/sub/sub/4d
+execute if block ~ ~ ~ minecraft:red_concrete run function computer:read/sub/sub/4e
+execute if block ~ ~ ~ minecraft:black_concrete run function computer:read/sub/sub/4f

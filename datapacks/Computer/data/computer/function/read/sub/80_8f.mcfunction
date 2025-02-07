@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:warped_stem run function computer:read/sub/sub/80
+execute if block ~ ~ ~ minecraft:stripped_warped_stem run function computer:read/sub/sub/81
+execute if block ~ ~ ~ minecraft:warped_planks run function computer:read/sub/sub/82
+execute if block ~ ~ ~ minecraft:mud_bricks run function computer:read/sub/sub/83
+execute if block ~ ~ ~ minecraft:wet_sponge run function computer:read/sub/sub/84
+execute if block ~ ~ ~ minecraft:melon run function computer:read/sub/sub/85
+execute if block ~ ~ ~ minecraft:mushroom_stem run function computer:read/sub/sub/86
+execute if block ~ ~ ~ minecraft:pumpkin run function computer:read/sub/sub/87
+execute if block ~ ~ ~ minecraft:hay_block run function computer:read/sub/sub/88
+execute if block ~ ~ ~ minecraft:bee_nest run function computer:read/sub/sub/89
+execute if block ~ ~ ~ minecraft:sponge run function computer:read/sub/sub/8a
+execute if block ~ ~ ~ minecraft:honeycomb_block run function computer:read/sub/sub/8b
+execute if block ~ ~ ~ minecraft:sea_lantern run function computer:read/sub/sub/8c
+execute if block ~ ~ ~ minecraft:prismarine run function computer:read/sub/sub/8d
+execute if block ~ ~ ~ minecraft:prismarine_bricks run function computer:read/sub/sub/8e
+execute if block ~ ~ ~ minecraft:dark_prismarine run function computer:read/sub/sub/8f

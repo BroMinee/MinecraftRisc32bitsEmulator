@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:grass_block run function computer:read/sub/sub/c0
+execute if block ~ ~ ~ minecraft:podzol run function computer:read/sub/sub/c1
+execute if block ~ ~ ~ minecraft:mycelium run function computer:read/sub/sub/c2
+execute if block ~ ~ ~ minecraft:dirt run function computer:read/sub/sub/c3
+execute if block ~ ~ ~ minecraft:coarse_dirt run function computer:read/sub/sub/c4
+execute if block ~ ~ ~ minecraft:rooted_dirt run function computer:read/sub/sub/c5
+execute if block ~ ~ ~ minecraft:mud run function computer:read/sub/sub/c6
+execute if block ~ ~ ~ minecraft:clay run function computer:read/sub/sub/c7
+execute if block ~ ~ ~ minecraft:spawner run function computer:read/sub/sub/c8
+execute if block ~ ~ ~ minecraft:honey_block run function computer:read/sub/sub/c9
+execute if block ~ ~ ~ minecraft:ice run function computer:read/sub/sub/ca
+execute if block ~ ~ ~ minecraft:packed_ice run function computer:read/sub/sub/cb
+execute if block ~ ~ ~ minecraft:blue_ice run function computer:read/sub/sub/cc
+execute if block ~ ~ ~ minecraft:snow_block run function computer:read/sub/sub/cd
+execute if block ~ ~ ~ minecraft:moss_block run function computer:read/sub/sub/ce
+execute if block ~ ~ ~ minecraft:calcite run function computer:read/sub/sub/cf

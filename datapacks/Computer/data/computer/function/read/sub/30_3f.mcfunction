@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:white_wool run function computer:read/sub/sub/30
+execute if block ~ ~ ~ minecraft:orange_wool run function computer:read/sub/sub/31
+execute if block ~ ~ ~ minecraft:magenta_wool run function computer:read/sub/sub/32
+execute if block ~ ~ ~ minecraft:light_blue_wool run function computer:read/sub/sub/33
+execute if block ~ ~ ~ minecraft:yellow_wool run function computer:read/sub/sub/34
+execute if block ~ ~ ~ minecraft:lime_wool run function computer:read/sub/sub/35
+execute if block ~ ~ ~ minecraft:pink_wool run function computer:read/sub/sub/36
+execute if block ~ ~ ~ minecraft:gray_wool run function computer:read/sub/sub/37
+execute if block ~ ~ ~ minecraft:light_gray_wool run function computer:read/sub/sub/38
+execute if block ~ ~ ~ minecraft:cyan_wool run function computer:read/sub/sub/39
+execute if block ~ ~ ~ minecraft:purple_wool run function computer:read/sub/sub/3a
+execute if block ~ ~ ~ minecraft:blue_wool run function computer:read/sub/sub/3b
+execute if block ~ ~ ~ minecraft:brown_wool run function computer:read/sub/sub/3c
+execute if block ~ ~ ~ minecraft:green_wool run function computer:read/sub/sub/3d
+execute if block ~ ~ ~ minecraft:red_wool run function computer:read/sub/sub/3e
+execute if block ~ ~ ~ minecraft:black_wool run function computer:read/sub/sub/3f

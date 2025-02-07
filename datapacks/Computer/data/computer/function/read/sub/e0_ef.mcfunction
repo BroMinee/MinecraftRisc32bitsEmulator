@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:coal_ore run function computer:read/sub/sub/e0
+execute if block ~ ~ ~ minecraft:deepslate_coal_ore run function computer:read/sub/sub/e1
+execute if block ~ ~ ~ minecraft:iron_ore run function computer:read/sub/sub/e2
+execute if block ~ ~ ~ minecraft:deepslate_iron_ore run function computer:read/sub/sub/e3
+execute if block ~ ~ ~ minecraft:copper_ore run function computer:read/sub/sub/e4
+execute if block ~ ~ ~ minecraft:deepslate_copper_ore run function computer:read/sub/sub/e5
+execute if block ~ ~ ~ minecraft:gold_ore run function computer:read/sub/sub/e6
+execute if block ~ ~ ~ minecraft:deepslate_gold_ore run function computer:read/sub/sub/e7
+execute if block ~ ~ ~ minecraft:redstone_ore run function computer:read/sub/sub/e8
+execute if block ~ ~ ~ minecraft:deepslate_redstone_ore run function computer:read/sub/sub/e9
+execute if block ~ ~ ~ minecraft:emerald_ore run function computer:read/sub/sub/ea
+execute if block ~ ~ ~ minecraft:deepslate_emerald_ore run function computer:read/sub/sub/eb
+execute if block ~ ~ ~ minecraft:lapis_ore run function computer:read/sub/sub/ec
+execute if block ~ ~ ~ minecraft:deepslate_lapis_ore run function computer:read/sub/sub/ed
+execute if block ~ ~ ~ minecraft:diamond_ore run function computer:read/sub/sub/ee
+execute if block ~ ~ ~ minecraft:deepslate_diamond_ore run function computer:read/sub/sub/ef

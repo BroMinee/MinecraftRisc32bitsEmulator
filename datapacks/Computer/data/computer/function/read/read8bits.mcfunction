@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ #computer:0_f run function computer:read/sub/0_0f
+execute if block ~ ~ ~ #computer:10_1f run function computer:read/sub/10_1f
+execute if block ~ ~ ~ #computer:20_2f run function computer:read/sub/20_2f
+execute if block ~ ~ ~ #computer:30_3f run function computer:read/sub/30_3f
+execute if block ~ ~ ~ #computer:40_4f run function computer:read/sub/40_4f
+execute if block ~ ~ ~ #computer:50_5f run function computer:read/sub/50_5f
+execute if block ~ ~ ~ #computer:60_6f run function computer:read/sub/60_6f
+execute if block ~ ~ ~ #computer:70_7f run function computer:read/sub/70_7f
+execute if block ~ ~ ~ #computer:80_8f run function computer:read/sub/80_8f
+execute if block ~ ~ ~ #computer:90_9f run function computer:read/sub/90_9f
+execute if block ~ ~ ~ #computer:a0_af run function computer:read/sub/a0_af
+execute if block ~ ~ ~ #computer:b0_bf run function computer:read/sub/b0_bf
+execute if block ~ ~ ~ #computer:c0_cf run function computer:read/sub/c0_cf
+execute if block ~ ~ ~ #computer:d0_df run function computer:read/sub/d0_df
+execute if block ~ ~ ~ #computer:e0_ef run function computer:read/sub/e0_ef
+execute if block ~ ~ ~ #computer:f0_ff run function computer:read/sub/f0_ff

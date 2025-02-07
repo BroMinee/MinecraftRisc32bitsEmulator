@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:white_stained_glass run function computer:read/sub/sub/60
+execute if block ~ ~ ~ minecraft:orange_stained_glass run function computer:read/sub/sub/61
+execute if block ~ ~ ~ minecraft:magenta_stained_glass run function computer:read/sub/sub/62
+execute if block ~ ~ ~ minecraft:light_blue_stained_glass run function computer:read/sub/sub/63
+execute if block ~ ~ ~ minecraft:yellow_stained_glass run function computer:read/sub/sub/64
+execute if block ~ ~ ~ minecraft:lime_stained_glass run function computer:read/sub/sub/65
+execute if block ~ ~ ~ minecraft:pink_stained_glass run function computer:read/sub/sub/66
+execute if block ~ ~ ~ minecraft:gray_stained_glass run function computer:read/sub/sub/67
+execute if block ~ ~ ~ minecraft:light_gray_stained_glass run function computer:read/sub/sub/68
+execute if block ~ ~ ~ minecraft:cyan_stained_glass run function computer:read/sub/sub/69
+execute if block ~ ~ ~ minecraft:purple_stained_glass run function computer:read/sub/sub/6a
+execute if block ~ ~ ~ minecraft:blue_stained_glass run function computer:read/sub/sub/6b
+execute if block ~ ~ ~ minecraft:brown_stained_glass run function computer:read/sub/sub/6c
+execute if block ~ ~ ~ minecraft:green_stained_glass run function computer:read/sub/sub/6d
+execute if block ~ ~ ~ minecraft:red_stained_glass run function computer:read/sub/sub/6e
+execute if block ~ ~ ~ minecraft:black_stained_glass run function computer:read/sub/sub/6f

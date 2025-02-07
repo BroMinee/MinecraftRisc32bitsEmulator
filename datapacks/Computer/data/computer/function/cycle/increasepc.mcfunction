@@ -1,7 +1,8 @@
 # PC = PC + 4
 scoreboard players set input_r_0 add32 0
 scoreboard players set input_r_1 add32 0
-scoreboard players set input_r_2 add32 1
+scoreboard players set input_r_2 add32 0
+# TODO PUT INPUT_R_2 TO 1
 scoreboard players set input_r_3 add32 0
 scoreboard players set input_r_4 add32 0
 scoreboard players set input_r_5 add32 0

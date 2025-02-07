@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:nether_gold_ore run function computer:read/sub/sub/f0
+execute if block ~ ~ ~ minecraft:nether_quartz_ore run function computer:read/sub/sub/f1
+execute if block ~ ~ ~ minecraft:ancient_debris run function computer:read/sub/sub/f2
+execute if block ~ ~ ~ minecraft:raw_iron_block run function computer:read/sub/sub/f3
+execute if block ~ ~ ~ minecraft:raw_copper_block run function computer:read/sub/sub/f4
+execute if block ~ ~ ~ minecraft:raw_gold_block run function computer:read/sub/sub/f5
+execute if block ~ ~ ~ minecraft:glowstone run function computer:read/sub/sub/f6
+execute if block ~ ~ ~ minecraft:amethyst_block run function computer:read/sub/sub/f7
+execute if block ~ ~ ~ minecraft:budding_amethyst run function computer:read/sub/sub/f8
+execute if block ~ ~ ~ minecraft:note_block run function computer:read/sub/sub/f9
+execute if block ~ ~ ~ minecraft:brown_mushroom_block run function computer:read/sub/sub/fa
+execute if block ~ ~ ~ minecraft:red_mushroom_block run function computer:read/sub/sub/fb
+execute if block ~ ~ ~ minecraft:nether_wart_block run function computer:read/sub/sub/fc
+execute if block ~ ~ ~ minecraft:warped_wart_block run function computer:read/sub/sub/fd
+execute if block ~ ~ ~ minecraft:shroomlight run function computer:read/sub/sub/fe
+execute if block ~ ~ ~ minecraft:redstone_lamp run function computer:read/sub/sub/ff

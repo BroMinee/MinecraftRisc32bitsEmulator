@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:tuff run function computer:read/sub/sub/d0
+execute if block ~ ~ ~ minecraft:dripstone_block run function computer:read/sub/sub/d1
+execute if block ~ ~ ~ minecraft:terracotta run function computer:read/sub/sub/d2
+execute if block ~ ~ ~ minecraft:magma_block run function computer:read/sub/sub/d3
+execute if block ~ ~ ~ minecraft:obsidian run function computer:read/sub/sub/d4
+execute if block ~ ~ ~ minecraft:crying_obsidian run function computer:read/sub/sub/d5
+execute if block ~ ~ ~ minecraft:glass run function computer:read/sub/sub/d6
+execute if block ~ ~ ~ minecraft:crimson_nylium run function computer:read/sub/sub/d7
+execute if block ~ ~ ~ minecraft:warped_nylium run function computer:read/sub/sub/d8
+execute if block ~ ~ ~ minecraft:soul_sand run function computer:read/sub/sub/d9
+execute if block ~ ~ ~ minecraft:soul_soil run function computer:read/sub/sub/da
+execute if block ~ ~ ~ minecraft:bone_block run function computer:read/sub/sub/db
+execute if block ~ ~ ~ minecraft:tinted_glass run function computer:read/sub/sub/dc
+execute if block ~ ~ ~ minecraft:ochre_froglight run function computer:read/sub/sub/dd
+execute if block ~ ~ ~ minecraft:verdant_froglight run function computer:read/sub/sub/de
+execute if block ~ ~ ~ minecraft:slime_block run function computer:read/sub/sub/df

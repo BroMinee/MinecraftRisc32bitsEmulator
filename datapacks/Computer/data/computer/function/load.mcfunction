@@ -83,7 +83,7 @@ scoreboard players set 268435456 FixedValue 268435456
 
 
 kill @e[type=armor_stand]
-summon armor_stand -4 -58 3 {CustomName:'[{"text":"pc"}]',CustomNameVisible:1b,Team:RED, Tags:["pc"], NoGravity:1b}
+summon armor_stand 0 0 0 {CustomName:'[{"text":"pc"}]',CustomNameVisible:1b,Team:RED, Tags:["pc"], NoGravity:1b}
 summon armor_stand -4 -58 1 {CustomName:'[{"text":"zero"}]',CustomNameVisible:1b,Team:RED}
 summon armor_stand -4 -58 -1 {CustomName:'[{"text":"ra"}]',CustomNameVisible:1b,Team:RED}
 summon armor_stand -4 -58 -3 {CustomName:'[{"text":"sp"}]',CustomNameVisible:1b,Team:RED}
@@ -121,6 +121,7 @@ summon armor_stand -4 -58 9 {CustomName:'[{"text":"screen"}]',CustomNameVisible:
 
 scoreboard objectives add A2 dummy
 scoreboard objectives add add32 dummy
+scoreboard objectives add read8 dummy
 
 
 scoreboard objectives add scoretp_x dummy

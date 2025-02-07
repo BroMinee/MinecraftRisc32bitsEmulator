@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:oxidized_copper run function computer:read/sub/sub/b0
+execute if block ~ ~ ~ minecraft:oxidized_cut_copper run function computer:read/sub/sub/b1
+execute if block ~ ~ ~ minecraft:waxed_copper_block run function computer:read/sub/sub/b2
+execute if block ~ ~ ~ minecraft:waxed_cut_copper run function computer:read/sub/sub/b3
+execute if block ~ ~ ~ minecraft:waxed_exposed_copper run function computer:read/sub/sub/b4
+execute if block ~ ~ ~ minecraft:waxed_exposed_cut_copper run function computer:read/sub/sub/b5
+execute if block ~ ~ ~ minecraft:waxed_weathered_copper run function computer:read/sub/sub/b6
+execute if block ~ ~ ~ minecraft:waxed_weathered_cut_copper run function computer:read/sub/sub/b7
+execute if block ~ ~ ~ minecraft:waxed_oxidized_copper run function computer:read/sub/sub/b8
+execute if block ~ ~ ~ minecraft:waxed_oxidized_cut_copper run function computer:read/sub/sub/b9
+execute if block ~ ~ ~ minecraft:dried_kelp_block run function computer:read/sub/sub/ba
+execute if block ~ ~ ~ minecraft:dead_tube_coral_block run function computer:read/sub/sub/bb
+execute if block ~ ~ ~ minecraft:dead_brain_coral_block run function computer:read/sub/sub/bc
+execute if block ~ ~ ~ minecraft:dead_bubble_coral_block run function computer:read/sub/sub/bd
+execute if block ~ ~ ~ minecraft:dead_fire_coral_block run function computer:read/sub/sub/be
+execute if block ~ ~ ~ minecraft:dead_horn_coral_block run function computer:read/sub/sub/bf

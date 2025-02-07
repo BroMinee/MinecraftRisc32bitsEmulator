@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:white_terracotta run function computer:read/sub/sub/70
+execute if block ~ ~ ~ minecraft:orange_terracotta run function computer:read/sub/sub/71
+execute if block ~ ~ ~ minecraft:magenta_terracotta run function computer:read/sub/sub/72
+execute if block ~ ~ ~ minecraft:light_blue_terracotta run function computer:read/sub/sub/73
+execute if block ~ ~ ~ minecraft:yellow_terracotta run function computer:read/sub/sub/74
+execute if block ~ ~ ~ minecraft:lime_terracotta run function computer:read/sub/sub/75
+execute if block ~ ~ ~ minecraft:pink_terracotta run function computer:read/sub/sub/76
+execute if block ~ ~ ~ minecraft:gray_terracotta run function computer:read/sub/sub/77
+execute if block ~ ~ ~ minecraft:light_gray_terracotta run function computer:read/sub/sub/78
+execute if block ~ ~ ~ minecraft:cyan_terracotta run function computer:read/sub/sub/79
+execute if block ~ ~ ~ minecraft:purple_terracotta run function computer:read/sub/sub/7a
+execute if block ~ ~ ~ minecraft:blue_terracotta run function computer:read/sub/sub/7b
+execute if block ~ ~ ~ minecraft:brown_terracotta run function computer:read/sub/sub/7c
+execute if block ~ ~ ~ minecraft:green_terracotta run function computer:read/sub/sub/7d
+execute if block ~ ~ ~ minecraft:red_terracotta run function computer:read/sub/sub/7e
+execute if block ~ ~ ~ minecraft:black_terracotta run function computer:read/sub/sub/7f

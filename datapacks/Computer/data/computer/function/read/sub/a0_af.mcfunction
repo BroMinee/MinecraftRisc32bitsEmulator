@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:purpur_block run function computer:read/sub/sub/a0
+execute if block ~ ~ ~ minecraft:purpur_pillar run function computer:read/sub/sub/a1
+execute if block ~ ~ ~ minecraft:coal_block run function computer:read/sub/sub/a2
+execute if block ~ ~ ~ minecraft:iron_block run function computer:read/sub/sub/a3
+execute if block ~ ~ ~ minecraft:gold_block run function computer:read/sub/sub/a4
+execute if block ~ ~ ~ minecraft:redstone_block run function computer:read/sub/sub/a5
+execute if block ~ ~ ~ minecraft:emerald_block run function computer:read/sub/sub/a6
+execute if block ~ ~ ~ minecraft:lapis_block run function computer:read/sub/sub/a7
+execute if block ~ ~ ~ minecraft:diamond_block run function computer:read/sub/sub/a8
+execute if block ~ ~ ~ minecraft:netherite_block run function computer:read/sub/sub/a9
+execute if block ~ ~ ~ minecraft:quartz_block run function computer:read/sub/sub/aa
+execute if block ~ ~ ~ minecraft:chiseled_quartz_block run function computer:read/sub/sub/ab
+execute if block ~ ~ ~ minecraft:quartz_bricks run function computer:read/sub/sub/ac
+execute if block ~ ~ ~ minecraft:quartz_pillar run function computer:read/sub/sub/ad
+execute if block ~ ~ ~ minecraft:muddy_mangrove_roots run function computer:read/sub/sub/ae
+execute if block ~ ~ ~ minecraft:target run function computer:read/sub/sub/af

@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:air run function computer:read/sub/sub/00
+execute if block ~ ~ ~ minecraft:oak_planks run function computer:read/sub/sub/01
+execute if block ~ ~ ~ minecraft:spruce_planks run function computer:read/sub/sub/02
+execute if block ~ ~ ~ minecraft:birch_planks run function computer:read/sub/sub/03
+execute if block ~ ~ ~ minecraft:jungle_planks run function computer:read/sub/sub/04
+execute if block ~ ~ ~ minecraft:acacia_planks run function computer:read/sub/sub/05
+execute if block ~ ~ ~ minecraft:dark_oak_planks run function computer:read/sub/sub/06
+execute if block ~ ~ ~ minecraft:mangrove_planks run function computer:read/sub/sub/07
+execute if block ~ ~ ~ minecraft:crimson_planks run function computer:read/sub/sub/08
+execute if block ~ ~ ~ minecraft:stone run function computer:read/sub/sub/09
+execute if block ~ ~ ~ minecraft:cobblestone run function computer:read/sub/sub/0a
+execute if block ~ ~ ~ minecraft:mossy_cobblestone run function computer:read/sub/sub/0b
+execute if block ~ ~ ~ minecraft:smooth_stone run function computer:read/sub/sub/0c
+execute if block ~ ~ ~ minecraft:stone_bricks run function computer:read/sub/sub/0d
+execute if block ~ ~ ~ minecraft:mossy_stone_bricks run function computer:read/sub/sub/0e
+execute if block ~ ~ ~ minecraft:granite run function computer:read/sub/sub/0f

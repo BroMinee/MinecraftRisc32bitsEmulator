@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:oak_log run function computer:read/sub/sub/20
+execute if block ~ ~ ~ minecraft:spruce_log run function computer:read/sub/sub/21
+execute if block ~ ~ ~ minecraft:birch_log run function computer:read/sub/sub/22
+execute if block ~ ~ ~ minecraft:jungle_log run function computer:read/sub/sub/23
+execute if block ~ ~ ~ minecraft:acacia_log run function computer:read/sub/sub/24
+execute if block ~ ~ ~ minecraft:dark_oak_log run function computer:read/sub/sub/25
+execute if block ~ ~ ~ minecraft:mangrove_log run function computer:read/sub/sub/26
+execute if block ~ ~ ~ minecraft:crimson_stem run function computer:read/sub/sub/27
+execute if block ~ ~ ~ minecraft:stripped_oak_log run function computer:read/sub/sub/28
+execute if block ~ ~ ~ minecraft:stripped_spruce_log run function computer:read/sub/sub/29
+execute if block ~ ~ ~ minecraft:stripped_birch_log run function computer:read/sub/sub/2a
+execute if block ~ ~ ~ minecraft:stripped_jungle_log run function computer:read/sub/sub/2b
+execute if block ~ ~ ~ minecraft:stripped_acacia_log run function computer:read/sub/sub/2c
+execute if block ~ ~ ~ minecraft:stripped_dark_oak_log run function computer:read/sub/sub/2d
+execute if block ~ ~ ~ minecraft:stripped_mangrove_log run function computer:read/sub/sub/2e
+execute if block ~ ~ ~ minecraft:stripped_crimson_stem run function computer:read/sub/sub/2f

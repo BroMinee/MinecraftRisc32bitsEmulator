@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:polished_granite run function computer:read/sub/sub/10
+execute if block ~ ~ ~ minecraft:diorite run function computer:read/sub/sub/11
+execute if block ~ ~ ~ minecraft:polished_diorite run function computer:read/sub/sub/12
+execute if block ~ ~ ~ minecraft:andesite run function computer:read/sub/sub/13
+execute if block ~ ~ ~ minecraft:polished_andesite run function computer:read/sub/sub/14
+execute if block ~ ~ ~ minecraft:deepslate run function computer:read/sub/sub/15
+execute if block ~ ~ ~ minecraft:cobbled_deepslate run function computer:read/sub/sub/16
+execute if block ~ ~ ~ minecraft:chiseled_deepslate run function computer:read/sub/sub/17
+execute if block ~ ~ ~ minecraft:polished_deepslate run function computer:read/sub/sub/18
+execute if block ~ ~ ~ minecraft:deepslate_bricks run function computer:read/sub/sub/19
+execute if block ~ ~ ~ minecraft:cracked_deepslate_bricks run function computer:read/sub/sub/1a
+execute if block ~ ~ ~ minecraft:deepslate_tiles run function computer:read/sub/sub/1b
+execute if block ~ ~ ~ minecraft:cracked_deepslate_tiles run function computer:read/sub/sub/1c
+execute if block ~ ~ ~ minecraft:reinforced_deepslate run function computer:read/sub/sub/1d
+execute if block ~ ~ ~ minecraft:bricks run function computer:read/sub/sub/1e
+execute if block ~ ~ ~ minecraft:packed_mud run function computer:read/sub/sub/1f

@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:netherrack run function computer:read/sub/sub/90
+execute if block ~ ~ ~ minecraft:nether_bricks run function computer:read/sub/sub/91
+execute if block ~ ~ ~ minecraft:cracked_nether_bricks run function computer:read/sub/sub/92
+execute if block ~ ~ ~ minecraft:chiseled_nether_bricks run function computer:read/sub/sub/93
+execute if block ~ ~ ~ minecraft:red_nether_bricks run function computer:read/sub/sub/94
+execute if block ~ ~ ~ minecraft:basalt run function computer:read/sub/sub/95
+execute if block ~ ~ ~ minecraft:smooth_basalt run function computer:read/sub/sub/96
+execute if block ~ ~ ~ minecraft:polished_basalt run function computer:read/sub/sub/97
+execute if block ~ ~ ~ minecraft:pearlescent_froglight run function computer:read/sub/sub/98
+execute if block ~ ~ ~ minecraft:gilded_blackstone run function computer:read/sub/sub/99
+execute if block ~ ~ ~ minecraft:chiseled_polished_blackstone run function computer:read/sub/sub/9a
+execute if block ~ ~ ~ minecraft:polished_blackstone run function computer:read/sub/sub/9b
+execute if block ~ ~ ~ minecraft:polished_blackstone_bricks run function computer:read/sub/sub/9c
+execute if block ~ ~ ~ minecraft:cracked_polished_blackstone_bricks run function computer:read/sub/sub/9d
+execute if block ~ ~ ~ minecraft:end_stone run function computer:read/sub/sub/9e
+execute if block ~ ~ ~ minecraft:end_stone_bricks run function computer:read/sub/sub/9f
