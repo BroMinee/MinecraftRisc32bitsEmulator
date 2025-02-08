@@ -15,6 +15,60 @@
 # register
 - max value of each register 0xffff_ffff
 
+# instruction set
+- ❌ lui
+- ❌ auipc
+- ❌ addi
+- ❌ slti
+- ❌ sltiu
+- ❌ xori
+- ❌ ori
+- ❌ andi
+- ❌ slli
+- ❌ srli
+- ❌ srai
+- ❌ add
+- ❌ sub
+- ❌ sll
+- ❌ slt
+- ❌ sltu
+- ❌ xor
+- ❌ srl
+- ❌ sra
+- ❌ or
+- ❌ and
+- ❌ fence
+- ❌ fence.i
+- ❌ csrrw
+- ❌ csrrs
+- ❌ csrrc
+- ❌ csrrwi
+- ❌ csrrsi
+- ❌ csrrci
+- ❌ ecall
+- ❌ ebreak
+- ❌ uret
+- ❌ sret
+- ❌ mret
+- ❌ wfi
+- ❌ sfence.vma
+- ❌ lb
+- ❌ lh
+- ❌ w
+- ❌ lbu
+- ❌ lhu
+- ❌ sb
+- ❌ sh
+- ❌ sw
+- ❌ jal
+- ❌ jalr
+- ❌ beq
+- ❌ bne
+- ❌ blt
+- ❌ bge
+- ❌ bltu
+- ❌ bǥeu
+...
 
 # Question why not increasing the max address ?
 It's not possible to store value in the address if the chunk is not loaded, using 0x3ff_ffff.
