@@ -1,12 +1,14 @@
 # screen specification
-- 32x32
-- 1024 pixels
+- 64x64
+- 4096 pixels
 - 16 777 216 colors
 -  bits / pixel
 - 24 address = 1 pixel
-- total of 0x1440 address
-- start at 0x8000, end at 0x8400
-- first row end at 0x8020
+- total of 0x1000 address
+- start at 0x8000, end at 0x8fff
+- first row end at 0x803f
+
+**Highly recommended to use Lunar Client or similar Launcher for FPS optimization since 4096 entities are used just for the screen**
 
 # address
 - from 0x0000 to 0x3ff_ffff

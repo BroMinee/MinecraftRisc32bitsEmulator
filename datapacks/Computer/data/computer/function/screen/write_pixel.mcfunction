@@ -76,19 +76,21 @@ execute if score input_30 A2 matches 1 run say Error input_30 should not be set 
 execute if score input_31 A2 matches 1 run say Error input_31 should not be set when writing a pixel
 
 
-tp @s 1 32 3
+tp @s 1 64 3
 
 execute store result score input_0 scoretp_x_screen run scoreboard players get write_0 Computer
 execute store result score input_1 scoretp_x_screen run scoreboard players get write_1 Computer
 execute store result score input_2 scoretp_x_screen run scoreboard players get write_2 Computer
 execute store result score input_3 scoretp_x_screen run scoreboard players get write_3 Computer
 execute store result score input_4 scoretp_x_screen run scoreboard players get write_4 Computer
+execute store result score input_5 scoretp_x_screen run scoreboard players get write_5 Computer
 
-execute store result score input_5 scoretp_y_screen run scoreboard players get write_5 Computer
 execute store result score input_6 scoretp_y_screen run scoreboard players get write_6 Computer
 execute store result score input_7 scoretp_y_screen run scoreboard players get write_7 Computer
 execute store result score input_8 scoretp_y_screen run scoreboard players get write_8 Computer
 execute store result score input_9 scoretp_y_screen run scoreboard players get write_9 Computer
+execute store result score input_10 scoretp_y_screen run scoreboard players get write_10 Computer
+execute store result score input_11 scoretp_y_screen run scoreboard players get write_11 Computer
 
 function tp:scoretp/x_screen
 function tp:scoretp/y_screen
