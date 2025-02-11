@@ -38,23 +38,12 @@
 - ❌ or
 - ❌ and
 - ❌ fence
-- ❌ fence.i
-- ❌ csrrw
-- ❌ csrrs
-- ❌ csrrc
-- ❌ csrrwi
-- ❌ csrrsi
-- ❌ csrrci
+- ❌ fence.tso
 - ❌ ecall
 - ❌ ebreak
-- ❌ uret
-- ❌ sret
-- ❌ mret
-- ❌ wfi
-- ❌ sfence.vma
 - ❌ lb
 - ❌ lh
-- ❌ w
+- ❌ lw
 - ❌ lbu
 - ❌ lhu
 - ❌ sb
@@ -67,7 +56,9 @@
 - ❌ blt
 - ❌ bge
 - ❌ bltu
-- ❌ bǥeu
+- ❌ bgeu
+- ❌ pause
+
 ...
 
 # Question why not increasing the max address ?
