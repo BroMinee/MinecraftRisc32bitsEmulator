@@ -1,4 +1,5 @@
-
+# input input_l_[0-31] add32 AND input_r_[0-31] add32
+# output input_l_[0-31] add32
 scoreboard players set C add32 0
 
 scoreboard players operation input_l_0 add32 += input_r_0 add32

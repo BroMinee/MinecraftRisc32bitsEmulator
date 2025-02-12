@@ -131,7 +131,7 @@ scoreboard players operation input_l_29 add32 = input_29 A2
 scoreboard players operation input_l_30 add32 = input_30 A2
 scoreboard players operation input_l_31 add32 = input_31 A2
 
-function computer:alu/add32bits
+function computer:alu/add_32bits
 
 scoreboard players operation input_0 A2 = input_l_0 add32
 scoreboard players operation input_1 A2 = input_l_1 add32

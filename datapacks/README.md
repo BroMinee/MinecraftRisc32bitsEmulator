@@ -20,7 +20,7 @@
 # instruction set
 - ❌ lui
 - ❌ auipc
-- ❌ addi
+- ✅ addi
 - ❌ slti
 - ❌ sltiu
 - ❌ xori
@@ -60,7 +60,8 @@
 - ❌ bltu
 - ❌ bgeu
 - ❌ pause
-- ❌ nop (addi [x0] 0)
+- ❌ nop (addi x0, x0, 0)
+- ❌ mv (addi rd,rs1, 0)
 ...
 
 # Question why not increasing the max address ?

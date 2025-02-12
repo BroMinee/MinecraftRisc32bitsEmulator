@@ -65,7 +65,7 @@ scoreboard players operation input_l_29 add32 = pc_29 Computer
 scoreboard players operation input_l_30 add32 = pc_30 Computer
 scoreboard players operation input_l_31 add32 = pc_31 Computer
 
-function computer:alu/add32bits
+function computer:alu/add_32bits
 
 scoreboard players operation pc_0 Computer = input_l_0 add32
 scoreboard players operation pc_1 Computer = input_l_1 add32
