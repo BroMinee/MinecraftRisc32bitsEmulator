@@ -5,16 +5,13 @@ tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,
 # tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"Error: Not Yet Implemented addi","bold":true,"color":"red"}]
 scoreboard players add found Computer 1
 
-# add sign-extended 12-bit immediate to register rs1, and store the result in register rd.
-# copy rs1 to rd
-# process check if the immediate value is negatif
-# if it is, complement a2 and add 1 to it (12 bits only)
-# then add it to the result
+# addi [rd], [rs], [imm]
+# rd =rs1 + imm
 
-function computer:misc/load_rs_15_19
+function computer:misc/load_rs1_15_19
 function computer:misc/load_rd_7_11
 
-function computer:misc/copy_rs_to_rd
+function computer:misc/copy_rs1_to_rd
 
 scoreboard players operation input_l_0 add32 = rd_0 Computer
 scoreboard players operation input_l_1 add32 = rd_1 Computer
@@ -106,8 +103,6 @@ execute if score read_31 Computer matches 1 run scoreboard players set input_r_2
 execute if score read_31 Computer matches 1 run scoreboard players set input_r_29 add32 1
 execute if score read_31 Computer matches 1 run scoreboard players set input_r_30 add32 1
 execute if score read_31 Computer matches 1 run scoreboard players set input_r_31 add32 1
-
-function computer:debug/register/pre_debug_rd_x3
 
 function computer:alu/add_32bits
 

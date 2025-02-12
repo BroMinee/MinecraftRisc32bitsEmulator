@@ -1,6 +1,5 @@
 # no input
-# output output rd_[0-31] Computer
-
+# output rd_[0-31] Computer
 
 scoreboard players add found Computer 1
 
