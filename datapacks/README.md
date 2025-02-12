@@ -60,7 +60,7 @@
 - ❌ bltu
 - ❌ bgeu
 - ❌ pause
-
+- ❌ nop (addi [x0] 0)
 ...
 
 # Question why not increasing the max address ?
