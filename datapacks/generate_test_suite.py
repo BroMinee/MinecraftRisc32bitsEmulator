@@ -360,7 +360,6 @@ with open("./Computer/data/computer/function/tests/testsuite.mcfunction", 'w') a
             f.write('function computer:reset\n')
         
         with open(f"./Computer/data/computer/function/tests/test/{file}_run.mcfunction", 'w') as f:
-            f.write('tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Starting X","bold":true,"color":"dark_green"}]\n'.replace("X", file))
             for i in range(meta_data["cycle"]):
                 f.write(f"function computer:cycle/do_cycle\n")
 

@@ -64,6 +64,11 @@
 - ❌ mv (addi rd,rs1, 0)
 ...
 
+# How to run the testsuite
+run python3 generate_test_suite.py
+/reload
+/function computer:tests/testsuite
+
 # Question why not increasing the max address ?
 It's not possible to store value in the address if the chunk is not loaded, using 0x3ff_ffff.
 The memory goes from -512 0 -512 to 512 256 512
