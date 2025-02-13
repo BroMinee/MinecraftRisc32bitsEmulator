@@ -28,6 +28,10 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_test
+# lui
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lui_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lui_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lui_test
 # sh
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sh_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sh_run
