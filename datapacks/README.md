@@ -49,7 +49,7 @@
 - ❌ lbu
 - ❌ lhu
 - ❌ sb
-- ❌ sh
+- ✅ sh
 - ✅ sw
 - ❌ jal
 - ❌ jalr
