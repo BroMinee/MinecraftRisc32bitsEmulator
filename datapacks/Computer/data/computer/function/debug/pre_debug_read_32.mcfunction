@@ -94,5 +94,4 @@ function computer:debug/convert_8bits_to_hex
 data modify storage computer:memory hexa[7] set string storage computer:memory hex_tmp
 
 
-data modify storage computer:memory type set value "Opcode read"
 function computer:debug/printf
