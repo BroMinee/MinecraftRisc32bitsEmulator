@@ -45,7 +45,7 @@
 - ❌ ebreak
 - ❌ lb
 - ❌ lh
-- ❌ lw
+- ✅ lw
 - ✅ lbu
 - ✅ lhu
 - ❌ sb
