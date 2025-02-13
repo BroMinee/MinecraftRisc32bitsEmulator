@@ -13,12 +13,6 @@ function computer:misc/copy_rs1_to_rd
 
 scoreboard players set keep_going Computer 0
 
-scoreboard players operation rs2_0 add12 = input_l_0 add12
-scoreboard players operation rs2_1 add12 = input_l_1 add12
-scoreboard players operation rs2_2 add12 = input_l_2 add12
-scoreboard players operation rs2_3 add12 = input_l_3 add12
-scoreboard players operation rs2_4 add12 = input_l_4 add12
-
 execute if score rs2_0 Computer matches 1 run scoreboard players set keep_going Computer 1
 execute if score rs2_1 Computer matches 1 run scoreboard players set keep_going Computer 1
 execute if score rs2_2 Computer matches 1 run scoreboard players set keep_going Computer 1

@@ -44,6 +44,14 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/sh2_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_test
+# slli
+execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_test
+# slli_0
+execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_0_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_0_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_0_test
 # sll_0
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_0_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_0_run
