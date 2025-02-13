@@ -67,13 +67,13 @@ execute if score input_24 A2 matches 1 run scoreboard players remove background 
 # above 24 bit are not used in this case still compute since a2_32bits is a generic function
 
 
-execute if score input_25 A2 matches 1 run say Error input_25 should not be set when writing a pixel
-execute if score input_26 A2 matches 1 run say Error input_26 should not be set when writing a pixel
-execute if score input_27 A2 matches 1 run say Error input_27 should not be set when writing a pixel
-execute if score input_28 A2 matches 1 run say Error input_28 should not be set when writing a pixel
-execute if score input_29 A2 matches 1 run say Error input_29 should not be set when writing a pixel
-execute if score input_30 A2 matches 1 run say Error input_30 should not be set when writing a pixel
-execute if score input_31 A2 matches 1 run say Error input_31 should not be set when writing a pixel
+execute if score input_25 A2 matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error input_25 should not be set when writing a pixel","bold":true,"color":"dark_red"}]
+execute if score input_26 A2 matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error input_26 should not be set when writing a pixel","bold":true,"color":"dark_red"}]
+execute if score input_27 A2 matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error input_27 should not be set when writing a pixel","bold":true,"color":"dark_red"}]
+execute if score input_28 A2 matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error input_28 should not be set when writing a pixel","bold":true,"color":"dark_red"}]
+execute if score input_29 A2 matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error input_29 should not be set when writing a pixel","bold":true,"color":"dark_red"}]
+execute if score input_30 A2 matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error input_30 should not be set when writing a pixel","bold":true,"color":"dark_red"}]
+execute if score input_31 A2 matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error input_31 should not be set when writing a pixel","bold":true,"color":"dark_red"}]
 
 
 tp @s 1 64 3

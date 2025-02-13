@@ -50,7 +50,7 @@
 - ❌ lhu
 - ❌ sb
 - ❌ sh
-- ❌ sw
+- ✅ sw
 - ❌ jal
 - ❌ jalr
 - ❌ beq

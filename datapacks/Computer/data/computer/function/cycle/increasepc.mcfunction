@@ -102,9 +102,9 @@ scoreboard players operation pc_31 Computer = input_l_31 add32
 
 
 tp @s 0 0 0
+execute if score pc_0 Computer matches 1.. run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error pc_0 must be 0 (align by 4)","bold":true,"color":"dark_red"}] 
+execute if score pc_1 Computer matches 1.. run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error pc_1 must be 0 (align by 4)","bold":true,"color":"dark_red"}]
 
-execute if score pc_0 Computer matches 1.. run say Error pc_0 must be 0 (align by 4)
-execute if score pc_1 Computer matches 1.. run say Error pc_1 must be 0 (align by 4)
 
 scoreboard players operation input_0 scoretp_x = pc_0 Computer
 scoreboard players operation input_1 scoretp_x = pc_1 Computer
