@@ -46,7 +46,7 @@
 - ❌ lb
 - ❌ lh
 - ❌ lw
-- ❌ lbu
+- ✅ lbu
 - ✅ lhu
 - ❌ sb
 - ✅ sh
