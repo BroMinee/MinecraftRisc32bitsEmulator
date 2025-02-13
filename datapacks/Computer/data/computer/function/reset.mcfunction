@@ -125,10 +125,10 @@ scoreboard objectives add add32 dummy
 scoreboard objectives add add12 dummy
 scoreboard objectives add read8 dummy
 
+scoreboard objectives add tests dummy
+
 scoreboard players set increase_pc Computer 1
-
-
 
 function computer:screen/init_screen
 
-tellraw @a {"text":"Hello World!","color":"gold"}
+tellraw @a {"text":"PC reset successfully","color":"gold"}
