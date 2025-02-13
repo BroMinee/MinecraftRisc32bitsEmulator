@@ -1,0 +1,25 @@
+setblock 3 0 0 minecraft:andesite
+setblock 2 0 0 minecraft:oak_planks
+setblock 1 0 0 minecraft:white_stained_glass
+setblock 0 0 0 minecraft:yellow_concrete
+setblock 7 0 0 minecraft:waxed_cut_copper
+setblock 6 0 0 minecraft:diorite
+setblock 5 0 0 minecraft:diorite
+setblock 4 0 0 minecraft:air
+setblock 11 0 0 minecraft:chiseled_nether_bricks
+setblock 10 0 0 minecraft:air
+setblock 9 0 0 minecraft:air
+setblock 8 0 0 minecraft:spruce_planks
+setblock 15 0 0 minecraft:waxed_cut_copper
+setblock 14 0 0 minecraft:diorite
+setblock 13 0 0 minecraft:diorite
+setblock 12 0 0 minecraft:air
+setblock 19 0 0 minecraft:chiseled_nether_bricks
+setblock 18 0 0 minecraft:air
+setblock 17 0 0 minecraft:nether_gold_ore
+setblock 16 0 0 minecraft:oak_planks
+setblock 23 0 0 minecraft:light_blue_wool
+setblock 22 0 0 minecraft:polished_diorite
+setblock 21 0 0 minecraft:diorite
+setblock 20 0 0 minecraft:air
+function computer:reset

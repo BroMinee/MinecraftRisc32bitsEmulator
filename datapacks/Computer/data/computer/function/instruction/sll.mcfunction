@@ -1,3 +1,33 @@
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running sll","color":"gold"}]
-tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"Error: Not Yet Implemented sll","bold":true,"color":"red"}]
+# tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"Error: Not Yet Implemented sll","bold":true,"color":"red"}]
 scoreboard players add found Computer 1
+
+function computer:misc/load_rd_7_11
+
+function computer:misc/load_rs1_15_19
+function computer:misc/load_rs2_20_24
+
+function computer:misc/copy_rs1_to_rd
+
+
+
+scoreboard players set keep_going Computer 0
+
+scoreboard players operation rs2_0 add12 = input_l_0 add12
+scoreboard players operation rs2_1 add12 = input_l_1 add12
+scoreboard players operation rs2_2 add12 = input_l_2 add12
+scoreboard players operation rs2_3 add12 = input_l_3 add12
+scoreboard players operation rs2_4 add12 = input_l_4 add12
+
+execute if score rs2_0 Computer matches 1 run scoreboard players set keep_going Computer 1
+execute if score rs2_1 Computer matches 1 run scoreboard players set keep_going Computer 1
+execute if score rs2_2 Computer matches 1 run scoreboard players set keep_going Computer 1
+execute if score rs2_3 Computer matches 1 run scoreboard players set keep_going Computer 1
+execute if score rs2_4 Computer matches 1 run scoreboard players set keep_going Computer 1
+
+scoreboard players set count Computer 1
+execute if score keep_going Computer matches 1 run function computer:alu/shift_rd_left_based_on_rs2_5bits
+
+execute if score count Computer matches 32.. run tellraw @a[tag=ERROR] [{"text":"Error: sll, recursive function as been called more than 31 times","color": "red","bold": true}]
+
+function computer:misc/update_rd_7_11

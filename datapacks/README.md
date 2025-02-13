@@ -31,7 +31,7 @@
 - ❌ srai
 - ❌ add
 - ❌ sub
-- ❌ sll
+- ✅ sll
 - ❌ slt
 - ❌ sltu
 - ❌ xor

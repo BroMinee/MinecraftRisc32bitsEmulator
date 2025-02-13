@@ -22,3 +22,4 @@ setblock 23 0 0 minecraft:light_blue_wool
 setblock 22 0 0 minecraft:cracked_nether_bricks
 setblock 21 0 0 minecraft:diorite
 setblock 20 0 0 minecraft:air
+function computer:reset
