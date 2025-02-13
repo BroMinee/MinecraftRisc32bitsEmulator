@@ -26,7 +26,7 @@
 - ❌ xori
 - ❌ ori
 - ❌ andi
-- ❌ slli
+- ✅ slli
 - ❌ srli
 - ❌ srai
 - ✅ add
