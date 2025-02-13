@@ -272,9 +272,14 @@ def parse_metadata(file, meta_data, line):
         meta_data["pc"] = int(match.group(1), base=16)
         return
     
-    match = re.search(r"x([0-9]) ([0-9a-f]+)", line)
+    match = re.search(r"x([0-9]{1,2}) ([0-9a-f]+)", line)
     if match:
         meta_data[f"x{match.group(1)}"] = int(match.group(2), base=16)
+        return
+    
+    match = re.search(r"memory\[([0-9a-f]+)\] ([0-9a-f]+)", line)
+    if match:
+        meta_data[f"memory{match.group(1)}"] = int(match.group(2), base=16)
         return
 
 def test_register(file, register_name, value):
@@ -285,6 +290,26 @@ def test_register(file, register_name, value):
         cmd += 'execute unless score REGISTER_NAME_INDEX Computer matches EXPECTED run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text": "REGISTER_NAME_INDEX: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"text":"EXPECTED","bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"REGISTER_NAME_INDEX","objective":"Computer"},"bold":true,"color":"red"}]\n'.replace("EXPECTED", value_bin[31-i]).replace("REGISTER_NAME", register_name).replace("INDEX", str(i))
     return cmd
 
+def convert_address_to_xyz(address):
+    origin = [0, 0, 0]
+    x = (3 - (address % 4) + (address // 4) * 4 + origin[0]) % 4096
+    y = address // (4096 * 4096) + origin[1]
+    z = address // 4096 + origin[2]
+    return x, y, z
+
+def test_memory(file, address_hex, value_dec_32):
+    value_hex_32 = format(value_dec_32, '08x')
+    value_dec = [int(value_hex_32[6:], base=16), int(value_hex_32[4:6], base=16), int(value_hex_32[2:4], base=16), int(value_hex_32[0:2], base=16)]
+    cmd = ""
+    address = int(address_hex, base=16)
+    for i in range(4):
+        x,y,z = convert_address_to_xyz(address)
+        block =minecraft_blocks[value_dec[i]]
+        address += 1
+        cmd += f"execute unless block {x} {y} {z} {block} run scoreboard players set {file} tests 0\n"
+
+    return cmd
+
 files = os.listdir("./tests")
 
 with open("./Computer/data/computer/function/tests/testsuite.mcfunction", 'w') as f_testsuite:
@@ -293,11 +318,14 @@ with open("./Computer/data/computer/function/tests/testsuite.mcfunction", 'w') a
     f_testsuite.write("tag @s remove DEBUG\n")
 
     for file in files:
+        print(f"Processing {file}")
         with open(f"./tests/{file}", 'r') as f:
             lines = []
             meta_data = {"cycle": -1, "pc": 0x0}
             for line in f.readlines():
                 line = line.strip()
+                if line.startswith("###"):
+                    continue
                 if line.startswith("##"):
                     parse_metadata(file, meta_data, line)
                 if line == "" or line.startswith("#"):
@@ -309,8 +337,7 @@ with open("./Computer/data/computer/function/tests/testsuite.mcfunction", 'w') a
 
             if meta_data["cycle"] == -1:
                 raise Exception(f"Cycle not found in {file}")
-            print(program)
-            print(meta_data)
+            
         
 
         if len(program) % 2 != 0:
@@ -321,14 +348,11 @@ with open("./Computer/data/computer/function/tests/testsuite.mcfunction", 'w') a
 
         address = 0
         origin = [0, 0, 0]
-        
 
         with open(f"./Computer/data/computer/function/tests/test/{file}_load.mcfunction", 'w') as f:
             for i in range(0, len(program), 2):
                 block = int(program[i:i+2], 16)
-                x = (3 - (address % 4) + (address // 4) * 4 + origin[0]) % 4096
-                y = address // (4096 * 4096) + origin[1]
-                z = address // 4096 + origin[2]
+                x, y, z = convert_address_to_xyz(address)
                 if block >= len(minecraft_blocks):
                     raise Exception(f"Invalid block {block} at address {address}")
                 f.write(f"setblock {x} {y} {z} {minecraft_blocks[block]}\n")
@@ -347,6 +371,13 @@ with open("./Computer/data/computer/function/tests/testsuite.mcfunction", 'w') a
             for i in range(32):
                 if f"x{i}" in meta_data:
                     f.write(test_register(file, f"x{i}", meta_data[f"x{i}"]))
+                else:
+                    f.write(test_register(file, f"x{i}", 0))
+            memory_keys= meta_data.keys()
+            # filter memory keys
+            
+            for memory_hex in [key[len("memory"):] for key in memory_keys if key.startswith("memory")]:
+                f.write(test_memory(file, memory_hex, meta_data[f"memory{memory_hex}"]))
 
             f.write('execute if score X tests matches 1 run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Test X passed","bold":true,"color":"green"}]\n'.replace("X", file))
             f.write('execute if score X tests matches 0 run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Test X failed","bold":true,"color":"red"}]\n'.replace("X", file))

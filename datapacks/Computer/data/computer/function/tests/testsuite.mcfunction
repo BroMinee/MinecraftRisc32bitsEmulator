@@ -12,4 +12,28 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_all_reg_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_neg_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_neg_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_neg_test
+# bltu_forward_backward
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_forward_backward_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_forward_backward_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_forward_backward_test
+# lbu
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_test
+# lhu
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_test
+# sh
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sh_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sh_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sh_test
+# sh2
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sh2_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sh2_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sh2_test
+# sw
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sw_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sw_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sw_test
 execute if score hasDebugTag tests matches 1 run tag @s add DEBUG

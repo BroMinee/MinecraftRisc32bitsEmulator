@@ -130,5 +130,6 @@ scoreboard objectives add tests dummy
 scoreboard players set increase_pc Computer 1
 
 function computer:screen/init_screen
+function computer:reset_scoreboard
 
 tellraw @a {"text":"PC reset successfully","color":"gold"}
