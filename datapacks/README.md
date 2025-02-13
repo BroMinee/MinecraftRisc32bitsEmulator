@@ -57,7 +57,7 @@
 - ❌ bne
 - ❌ blt
 - ❌ bge
-- ❌ bltu
+- ✅ bltu
 - ❌ bgeu
 - ❌ pause
 - ❌ nop (addi x0, x0, 0)
