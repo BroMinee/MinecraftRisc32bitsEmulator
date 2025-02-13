@@ -1,5 +1,9 @@
 execute as @s[tag=DEBUG] run scoreboard players set hasDebugTag tests 1
 tag @s remove DEBUG
+# add
+execute as @e[tag=pc,limit=1] run function computer:tests/test/add_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/add_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/add_test
 # addi
 execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_run

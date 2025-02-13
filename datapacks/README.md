@@ -29,7 +29,7 @@
 - ❌ slli
 - ❌ srli
 - ❌ srai
-- ❌ add
+- ✅ add
 - ❌ sub
 - ✅ sll
 - ❌ slt

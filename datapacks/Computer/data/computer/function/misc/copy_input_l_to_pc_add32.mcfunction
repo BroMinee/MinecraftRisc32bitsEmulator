@@ -1,3 +1,6 @@
+# input input_l_[0-31] add32
+# output pc_[0-31] Computer
+
 scoreboard players operation pc_0 Computer = input_l_0 add32
 scoreboard players operation pc_1 Computer = input_l_1 add32
 scoreboard players operation pc_2 Computer = input_l_2 add32
