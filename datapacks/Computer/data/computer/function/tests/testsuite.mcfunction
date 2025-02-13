@@ -24,6 +24,10 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_equal_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_forward_backward_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_forward_backward_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_forward_backward_test
+# jal
+execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_test
 # lbu
 execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_run

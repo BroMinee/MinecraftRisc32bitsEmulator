@@ -51,7 +51,7 @@
 - ❌ sb
 - ✅ sh
 - ✅ sw
-- ❌ jal
+- ✅ jal
 - ❌ jalr
 - ❌ beq
 - ❌ bne

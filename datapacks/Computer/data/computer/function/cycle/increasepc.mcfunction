@@ -1,36 +1,5 @@
 # PC = PC + 4
-scoreboard players set input_r_0 add32 0
-scoreboard players set input_r_1 add32 0
-scoreboard players set input_r_2 add32 1
-scoreboard players set input_r_3 add32 0
-scoreboard players set input_r_4 add32 0
-scoreboard players set input_r_5 add32 0
-scoreboard players set input_r_6 add32 0
-scoreboard players set input_r_7 add32 0
-scoreboard players set input_r_8 add32 0
-scoreboard players set input_r_9 add32 0
-scoreboard players set input_r_10 add32 0
-scoreboard players set input_r_11 add32 0
-scoreboard players set input_r_12 add32 0
-scoreboard players set input_r_13 add32 0
-scoreboard players set input_r_14 add32 0
-scoreboard players set input_r_15 add32 0
-scoreboard players set input_r_16 add32 0
-scoreboard players set input_r_17 add32 0
-scoreboard players set input_r_18 add32 0
-scoreboard players set input_r_19 add32 0
-scoreboard players set input_r_20 add32 0
-scoreboard players set input_r_21 add32 0
-scoreboard players set input_r_22 add32 0
-scoreboard players set input_r_23 add32 0
-scoreboard players set input_r_24 add32 0
-scoreboard players set input_r_25 add32 0
-scoreboard players set input_r_26 add32 0
-scoreboard players set input_r_27 add32 0
-scoreboard players set input_r_28 add32 0
-scoreboard players set input_r_29 add32 0
-scoreboard players set input_r_30 add32 0
-scoreboard players set input_r_31 add32 0
+function computer:misc/set_input_r_4_add32
 
 function computer:misc/copy_pc_to_input_l_add32
 
