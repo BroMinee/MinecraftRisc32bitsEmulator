@@ -62,7 +62,7 @@
 - ❌ pause
 - ❌ nop (addi x0, x0, 0)
 - ❌ mv (addi rd,rs1, 0)
-...
+
 
 # How to run the testsuite
 run python3 generate_test_suite.py

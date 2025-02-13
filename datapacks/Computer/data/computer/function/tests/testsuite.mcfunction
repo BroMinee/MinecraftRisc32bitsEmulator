@@ -12,6 +12,10 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_all_reg_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_neg_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_neg_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_neg_test
+# bltu_equal
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_equal_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_equal_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_equal_test
 # bltu_forward_backward
 execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_forward_backward_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_forward_backward_run
