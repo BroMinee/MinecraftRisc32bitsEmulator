@@ -28,6 +28,10 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_forward_back
 execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_test
+# jalr
+execute as @e[tag=pc,limit=1] run function computer:tests/test/jalr_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/jalr_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/jalr_test
 # lbu
 execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_run

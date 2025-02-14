@@ -52,7 +52,7 @@
 - ✅ sh
 - ✅ sw
 - ✅ jal
-- ❌ jalr
+- ✅ jalr
 - ❌ beq
 - ❌ bne
 - ❌ blt
