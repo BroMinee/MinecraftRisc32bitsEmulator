@@ -1,5 +1,6 @@
+# input read_[7-11/25-31]
+# offset[12|10:5] - offset[4:1|11]
 function computer:misc/copy_pc_to_input_l_add32
-
 
 scoreboard players set input_r_0 add32 0
 scoreboard players operation input_r_1 add32 = read_8 Computer

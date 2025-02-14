@@ -1,0 +1,25 @@
+setblock 3 0 0 minecraft:gray_wool
+setblock 2 0 0 minecraft:oak_planks
+setblock 1 0 0 minecraft:light_gray_stained_glass
+setblock 0 0 0 minecraft:coarse_dirt
+setblock 7 0 0 minecraft:andesite
+setblock 6 0 0 minecraft:oak_planks
+setblock 5 0 0 minecraft:orange_stained_glass
+setblock 4 0 0 minecraft:yellow_concrete
+setblock 11 0 0 minecraft:chiseled_nether_bricks
+setblock 10 0 0 minecraft:orange_glazed_terracotta
+setblock 9 0 0 minecraft:diorite
+setblock 8 0 0 minecraft:white_concrete
+setblock 15 0 0 minecraft:chiseled_nether_bricks
+setblock 14 0 0 minecraft:dripstone_block
+setblock 13 0 0 minecraft:diorite
+setblock 12 0 0 minecraft:white_concrete
+setblock 19 0 0 minecraft:andesite
+setblock 18 0 0 minecraft:magenta_glazed_terracotta
+setblock 17 0 0 minecraft:spruce_log
+setblock 16 0 0 minecraft:white_concrete
+setblock 23 0 0 minecraft:chiseled_nether_bricks
+setblock 22 0 0 minecraft:magenta_glazed_terracotta
+setblock 21 0 0 minecraft:nether_quartz_ore
+setblock 20 0 0 minecraft:white_concrete
+function computer:reset

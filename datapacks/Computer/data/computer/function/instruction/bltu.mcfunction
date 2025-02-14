@@ -7,7 +7,7 @@ function computer:misc/load_rs1_15_19
 function computer:misc/load_rs2_20_24
 
 
-function computer:alu/compare_unsigned_rs1_rs2
+function computer:alu/compare_lower_strict_unsigned_rs1_rs2
 
 # if rs1 < rs2 take branch
-execute if score compare Computer matches 1 run function computer:instruction/bltu_branch
+execute if score compare Computer matches 1 run function computer:misc/take_branch

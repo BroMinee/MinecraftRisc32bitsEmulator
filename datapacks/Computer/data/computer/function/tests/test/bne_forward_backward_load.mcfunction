@@ -1,0 +1,25 @@
+setblock 3 0 0 minecraft:chiseled_nether_bricks
+setblock 2 0 0 minecraft:air
+setblock 1 0 0 minecraft:white_concrete
+setblock 0 0 0 minecraft:air
+setblock 7 0 0 minecraft:andesite
+setblock 6 0 0 minecraft:oak_planks
+setblock 5 0 0 minecraft:air
+setblock 4 0 0 minecraft:air
+setblock 11 0 0 minecraft:light_blue_stained_glass
+setblock 10 0 0 minecraft:red_nether_bricks
+setblock 9 0 0 minecraft:oak_log
+setblock 8 0 0 minecraft:air
+setblock 15 0 0 minecraft:andesite
+setblock 14 0 0 minecraft:air
+setblock 13 0 0 minecraft:air
+setblock 12 0 0 minecraft:air
+setblock 19 0 0 minecraft:andesite
+setblock 18 0 0 minecraft:oak_planks
+setblock 17 0 0 minecraft:diorite
+setblock 16 0 0 minecraft:air
+setblock 23 0 0 minecraft:deepslate_iron_ore
+setblock 22 0 0 minecraft:end_stone
+setblock 21 0 0 minecraft:oak_log
+setblock 20 0 0 minecraft:shroomlight
+function computer:reset

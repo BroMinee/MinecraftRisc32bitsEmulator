@@ -18,7 +18,7 @@
 - max value of each register 0xffff_ffff
 
 # instruction set
-- ❌ lui
+- ✅ lui
 - ❌ auipc
 - ✅ addi
 - ❌ slti
@@ -28,7 +28,7 @@
 - ❌ andi
 - ✅ slli
 - ✅ srli
-- ❌ srai
+- ✅ srai
 - ✅ add
 - ❌ sub
 - ✅ sll
@@ -36,7 +36,7 @@
 - ❌ sltu
 - ❌ xor
 - ✅ srl
-- ❌ sra
+- ✅ sra
 - ❌ or
 - ❌ and
 - ❌ fence
@@ -53,15 +53,15 @@
 - ✅ sw
 - ✅ jal
 - ✅ jalr
-- ❌ beq
-- ❌ bne
-- ❌ blt
-- ❌ bge
+- ✅ beq
+- ✅ bne
+- ✅ blt
+- ✅ bge
 - ✅ bltu
 - ❌ bgeu
 - ❌ pause
-- ❌ nop (addi x0, x0, 0)
-- ❌ mv (addi rd,rs1, 0)
+- ✅ nop (addi x0, x0, 0)
+- ✅ mv (addi rd,rs1, 0)
 
 
 # How to run the testsuite

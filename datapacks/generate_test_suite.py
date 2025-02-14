@@ -328,6 +328,7 @@ with open("./Computer/data/computer/function/tests/testsuite.mcfunction", 'w') a
                     continue
                 if line.startswith("##"):
                     parse_metadata(file, meta_data, line)
+                    continue
                 if line == "" or line.startswith("#"):
                     continue
                 lines.append(line)
