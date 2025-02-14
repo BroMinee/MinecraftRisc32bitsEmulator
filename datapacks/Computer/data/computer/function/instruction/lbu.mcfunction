@@ -102,7 +102,7 @@ scoreboard players operation rd_4 Computer = read_4 Computer
 scoreboard players operation rd_5 Computer = read_5 Computer
 scoreboard players operation rd_6 Computer = read_6 Computer
 scoreboard players operation rd_7 Computer = read_7 Computer
-scoreboard players operation rd_8 Computer = read_8 Computer
+scoreboard players set rd_8 Computer 0
 scoreboard players set rd_9 Computer 0
 scoreboard players set rd_10 Computer 0
 scoreboard players set rd_11 Computer 0
