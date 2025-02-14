@@ -44,7 +44,7 @@
 - ❌ ecall
 - ❌ ebreak
 - ❌ lb
-- ❌ lh
+- ✅ lh
 - ✅ lw
 - ✅ lbu
 - ✅ lhu
