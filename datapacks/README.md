@@ -58,7 +58,7 @@
 - ✅ blt
 - ✅ bge
 - ✅ bltu
-- ❌ bgeu
+- ✅ bgeu
 - ❌ pause
 - ✅ nop (addi x0, x0, 0)
 - ✅ mv (addi rd,rs1, 0)

@@ -60,6 +60,50 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_positif
 execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_positif_positif_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_positif_positif_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_positif_positif_test
+# bgeu_equal_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_equal_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_equal_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_equal_negatif_test
+# bgeu_equal_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_equal_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_equal_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_equal_positif_test
+# bgeu_forward_backward
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_forward_backward_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_forward_backward_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_forward_backward_test
+# bgeu_greater_negatif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_negatif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_negatif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_negatif_negatif_test
+# bgeu_greater_negatif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_negatif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_negatif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_negatif_positif_test
+# bgeu_greater_positif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_positif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_positif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_positif_negatif_test
+# bgeu_greater_positif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_positif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_positif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_positif_positif_test
+# bgeu_lower_negatif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_negatif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_negatif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_negatif_negatif_test
+# bgeu_lower_negatif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_negatif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_negatif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_negatif_positif_test
+# bgeu_lower_positif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_positif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_positif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_positif_negatif_test
+# bgeu_lower_positif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_positif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_positif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_positif_positif_test
 # bge_equal_negatif
 execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_equal_negatif_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_equal_negatif_run
