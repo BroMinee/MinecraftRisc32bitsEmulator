@@ -27,7 +27,7 @@
 - ❌ ori
 - ❌ andi
 - ✅ slli
-- ❌ srli
+- ✅ srli
 - ❌ srai
 - ✅ add
 - ❌ sub
@@ -35,7 +35,7 @@
 - ❌ slt
 - ❌ sltu
 - ❌ xor
-- ❌ srl
+- ✅ srl
 - ❌ sra
 - ❌ or
 - ❌ and

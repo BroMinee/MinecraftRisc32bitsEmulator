@@ -76,6 +76,14 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_0_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_0_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_0_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_0_test
+# srli
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srli_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srli_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srli_test
+# srli_0
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srli_0_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srli_0_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srli_0_test
 # srl_0
 execute as @e[tag=pc,limit=1] run function computer:tests/test/srl_0_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/srl_0_run
