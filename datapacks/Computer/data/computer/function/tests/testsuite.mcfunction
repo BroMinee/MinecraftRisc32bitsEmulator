@@ -36,10 +36,42 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/jalr_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_test
+# lbu_offset
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_offset_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_offset_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_offset_test
+# lb_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_negatif_test
+# lb_offset
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_offset_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_offset_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_offset_test
+# lb_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_positif_test
 # lhu
 execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_test
+# lhu_offset
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_offset_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_offset_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_offset_test
+# lh_negative
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_negative_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_negative_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_negative_test
+# lh_offset
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_offset_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_offset_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_offset_test
+# lh_positive
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_positive_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_positive_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_positive_test
 # lui
 execute as @e[tag=pc,limit=1] run function computer:tests/test/lui_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/lui_run

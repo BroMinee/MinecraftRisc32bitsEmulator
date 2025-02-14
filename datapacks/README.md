@@ -43,7 +43,7 @@
 - ❌ fence.tso
 - ❌ ecall
 - ❌ ebreak
-- ❌ lb
+- ✅ lb
 - ✅ lh
 - ✅ lw
 - ✅ lbu
