@@ -19,7 +19,7 @@ execute if score rs2_2 Computer matches 1 run scoreboard players set keep_going 
 execute if score rs2_3 Computer matches 1 run scoreboard players set keep_going Computer 1
 execute if score rs2_4 Computer matches 1 run scoreboard players set keep_going Computer 1
 
-scoreboard players set count Computer 1
+scoreboard players set count Computer 0
 execute if score keep_going Computer matches 1 run function computer:alu/shift_rd_left_based_on_rs2_5bits
 
 execute if score count Computer matches 32.. run tellraw @a[tag=ERROR] [{"text":"Error: sll, recursive function as been called more than 31 times","color": "red","bold": true}]

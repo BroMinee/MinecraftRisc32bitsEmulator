@@ -4,7 +4,7 @@
 # MUST be called when rs2 is NOT 0 since it does 1 shift and recall itself using rs2[0-4] = 0b00000
 
 scoreboard players add count Computer 1
-function computer:alu/shift_rd_left_1
+function computer:alu/shift_rd_right_1
 
 scoreboard players operation input_l_0 add12 = rs2_0 Computer
 scoreboard players operation input_l_1 add12 = rs2_1 Computer
@@ -35,4 +35,4 @@ execute if score rs2_2 Computer matches 1 run scoreboard players set keep_going 
 execute if score rs2_3 Computer matches 1 run scoreboard players set keep_going Computer 1
 execute if score rs2_4 Computer matches 1 run scoreboard players set keep_going Computer 1
 
-execute if score keep_going Computer matches 1 run execute unless score count Computer matches 32.. run function computer:alu/shift_rd_left_based_on_rs2_5bits
+execute if score keep_going Computer matches 1 run execute unless score count Computer matches 32.. run function computer:alu/shift_rd_right_based_on_rs2_5bits
