@@ -16,6 +16,10 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_all_reg_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_neg_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_neg_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_neg_test
+# auipc
+execute as @e[tag=pc,limit=1] run function computer:tests/test/auipc_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/auipc_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/auipc_test
 # beq_equal_negatif
 execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_equal_negatif_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_equal_negatif_run

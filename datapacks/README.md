@@ -19,7 +19,7 @@
 
 # instruction set
 - ✅ lui
-- ❌ auipc
+- ✅ auipc
 - ✅ addi
 - ❌ slti
 - ❌ sltiu
