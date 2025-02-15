@@ -412,4 +412,12 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/srl_0_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sw_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sw_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sw_test
+# xor
+execute as @e[tag=pc,limit=1] run function computer:tests/test/xor_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/xor_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/xor_test
+# xori
+execute as @e[tag=pc,limit=1] run function computer:tests/test/xori_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/xori_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/xori_test
 execute if score hasDebugTag tests matches 1 run tag @s add DEBUG

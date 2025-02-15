@@ -23,7 +23,7 @@
 - ✅ addi
 - ❌ slti
 - ❌ sltiu
-- ❌ xori
+- ✅ xori
 - ❌ ori
 - ❌ andi
 - ✅ slli
@@ -34,7 +34,7 @@
 - ✅ sll
 - ❌ slt
 - ❌ sltu
-- ❌ xor
+- ✅ xor
 - ✅ srl
 - ✅ sra
 - ❌ or
@@ -62,6 +62,7 @@
 - ❌ pause
 - ✅ nop (addi x0, x0, 0)
 - ✅ mv (addi rd,rs1, 0)
+- ✅ not (xori, rd, s1, -1)
 
 
 # How to run the testsuite
