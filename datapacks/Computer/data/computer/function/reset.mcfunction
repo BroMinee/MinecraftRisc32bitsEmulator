@@ -126,6 +126,7 @@ scoreboard objectives add add12 dummy
 scoreboard objectives add read8 dummy
 scoreboard objectives add xor dummy
 scoreboard objectives add or dummy
+scoreboard objectives add and dummy
 
 scoreboard objectives add tests dummy
 

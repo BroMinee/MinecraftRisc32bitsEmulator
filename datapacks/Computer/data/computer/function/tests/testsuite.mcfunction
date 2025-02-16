@@ -16,6 +16,14 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_all_reg_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_neg_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_neg_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_neg_test
+# and
+execute as @e[tag=pc,limit=1] run function computer:tests/test/and_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/and_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/and_test
+# andi
+execute as @e[tag=pc,limit=1] run function computer:tests/test/andi_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/andi_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/andi_test
 # auipc
 execute as @e[tag=pc,limit=1] run function computer:tests/test/auipc_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/auipc_run

@@ -24,8 +24,8 @@
 - ❌ slti
 - ❌ sltiu
 - ✅ xori
-- ❌ ori
-- ❌ andi
+- ✅ ori
+- ✅ andi
 - ✅ slli
 - ✅ srli
 - ✅ srai
@@ -37,8 +37,8 @@
 - ✅ xor
 - ✅ srl
 - ✅ sra
-- ❌ or
-- ❌ and
+- ✅ or
+- ✅ and
 - ❌ fence
 - ❌ fence.tso
 - ❌ ecall
