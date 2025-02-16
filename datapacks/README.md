@@ -30,7 +30,7 @@
 - ✅ srli
 - ✅ srai
 - ✅ add
-- ❌ sub
+- ✅ sub
 - ✅ sll
 - ❌ slt
 - ❌ sltu

@@ -1,3 +1,6 @@
+# input input_[0-31] A2
+# output input_[0-31] A2
+
 scoreboard players operation input_0 A2 += 1 FixedValue
 scoreboard players operation input_1 A2 += 1 FixedValue
 scoreboard players operation input_2 A2 += 1 FixedValue

@@ -424,6 +424,10 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/srli_0_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/srl_0_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/srl_0_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/srl_0_test
+# sub
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sub_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sub_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sub_test
 # sw
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sw_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sw_run
