@@ -48,7 +48,7 @@
 - ✅ lw
 - ✅ lbu
 - ✅ lhu
-- ❌ sb
+- ✅ sb
 - ✅ sh
 - ✅ sw
 - ✅ jal

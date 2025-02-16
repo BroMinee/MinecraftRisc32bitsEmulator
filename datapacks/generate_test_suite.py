@@ -307,6 +307,7 @@ def test_memory(file, address_hex, value_dec_32):
         block =minecraft_blocks[value_dec[i]]
         address += 1
         cmd += f"execute unless block {x} {y} {z} {block} run scoreboard players set {file} tests 0\n"
+        cmd += 'execute unless block X Y Z BLOCK run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Memory[","bold":true,"color":"dark_green"},{"text":"ADDRESS","bold":true,"color":"red"},{"text":"]","bold":true,"color":"dark_green"},{"text":" expected ","bold":true,"color":"gold"},{"text":"VALUE","bold":true,"color":"red"}, {"text":" (X Y Z)","bold":true,"color":"gold"}]\n'.replace("ADDRESS", format(address, "08x")).replace("VALUE", format(value_dec[i], '02x')).replace("BLOCK", block).replace("X", str(x)).replace("Y", str(y)).replace("Z", str(z))
 
     return cmd
 

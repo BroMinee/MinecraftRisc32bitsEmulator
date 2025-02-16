@@ -368,6 +368,10 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/or_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/ori_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/ori_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/ori_test
+# sb
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sb_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sb_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sb_test
 # sh
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sh_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sh_run
