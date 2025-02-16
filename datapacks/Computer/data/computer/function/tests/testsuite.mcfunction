@@ -352,6 +352,14 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/mv_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/nop_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/nop_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/nop_test
+# or
+execute as @e[tag=pc,limit=1] run function computer:tests/test/or_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/or_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/or_test
+# ori
+execute as @e[tag=pc,limit=1] run function computer:tests/test/ori_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/ori_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/ori_test
 # sh
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sh_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sh_run
