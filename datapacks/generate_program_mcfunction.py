@@ -257,6 +257,13 @@ minecraft_blocks = [
     "minecraft:redstone_lamp"
 ]
 
+def convert_address_to_xyz(address):
+    origin = [0, 0, 0]
+    x = (3 - (address % 4) + (address // 4) * 4 + origin[0]) % 4096
+    y = address // (4096 * 4096) + origin[1]
+    z = address // 4096 + origin[2]
+    return x, y, -z
+
 with open("output_dump.txt", 'r') as f:
     lines = f.readlines()
     lines = ["".join(line.strip().split("|")[0].split(" ")[1:]) for line in lines]
@@ -270,15 +277,13 @@ if any([int(program[i:i+2], 16) >= len(minecraft_blocks) for i in range(0, len(p
     raise Exception("Invalid block in data")
 
 address = 0
-origin = [0, 0, 0]
 with open(r"Computer\data\computer\function\program.mcfunction", 'w') as f:
     for i in range(0, len(program), 2):
         block = int(program[i:i+2], 16)
-        x = (3 - (address % 4) + (address // 4) * 4 + origin[0]) % 4096
-        y = address // (4096 * 4096) + origin[1]
-        z = address // 4096 + origin[2]
+        x,y,z = convert_address_to_xyz(address)
         if block >= len(minecraft_blocks):
             raise Exception(f"Invalid block {block} at address {address}")
         f.write(f"setblock {x} {y} {z} {minecraft_blocks[block]}\n")
         address += 1
 
+print("Done")

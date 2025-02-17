@@ -295,7 +295,7 @@ def convert_address_to_xyz(address):
     x = (3 - (address % 4) + (address // 4) * 4 + origin[0]) % 4096
     y = address // (4096 * 4096) + origin[1]
     z = address // 4096 + origin[2]
-    return x, y, z
+    return x, y, -z
 
 def test_memory(file, address_hex, value_dec_32):
     value_hex_32 = format(value_dec_32, '08x')
