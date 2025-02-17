@@ -1,7 +1,7 @@
 # should be runned as pc armor stand
 # read pc_[0-31] Computer
 
-tp @s 0 0 0
+tp @s 0 0 -1
 
 execute if score pc_0 Computer matches 1.. run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error pc_0 must be 0 (align by 4)","bold":true,"color":"dark_red"}] 
 execute if score pc_1 Computer matches 1.. run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error pc_1 must be 0 (align by 4)","bold":true,"color":"dark_red"}]

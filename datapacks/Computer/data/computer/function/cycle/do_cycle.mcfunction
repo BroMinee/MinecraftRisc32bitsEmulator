@@ -1,4 +1,5 @@
 # should be run "as" armor stand PC
+scoreboard players add cycle Computer 1
 data modify storage computer:memory type set value "Opcode read"
 function computer:cycle/readopcode
 function computer:instruction/_dispatcher

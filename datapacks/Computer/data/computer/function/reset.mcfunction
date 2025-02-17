@@ -81,10 +81,11 @@ scoreboard players set 1048576 FixedValue 1048576
 scoreboard players set 16777216 FixedValue 16777216 
 scoreboard players set 268435456 FixedValue 268435456
 
+scoreboard players set cycle Computer 0
 
 kill @e[type=armor_stand]
-summon armor_stand 3 0 0 {CustomName:'[{"text":"pc"}]',CustomNameVisible:1b,Team:RED, Tags:["pc"], NoGravity:1b}
-summon armor_stand 3 0 0 {CustomName:'[{"text":"write"}]',CustomNameVisible:1b,Team:RED, Tags:["write"], NoGravity:1b}
+summon armor_stand 3 0 -1 {CustomName:'[{"text":"pc"}]',CustomNameVisible:1b,Team:RED, Tags:["pc"], NoGravity:1b}
+summon armor_stand 3 0 -1 {CustomName:'[{"text":"write"}]',CustomNameVisible:1b,Team:RED, Tags:["write"], NoGravity:1b}
 summon armor_stand -4 -58 1 {CustomName:'[{"text":"zero"}]',CustomNameVisible:1b,Team:RED}
 summon armor_stand -4 -58 -1 {CustomName:'[{"text":"ra"}]',CustomNameVisible:1b,Team:RED}
 summon armor_stand -4 -58 -3 {CustomName:'[{"text":"sp"}]',CustomNameVisible:1b,Team:RED}

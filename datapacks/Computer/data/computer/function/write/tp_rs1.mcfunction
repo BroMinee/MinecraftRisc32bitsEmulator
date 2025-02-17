@@ -1,5 +1,5 @@
 # use rs1 as teleport destination
-tp @s 0 0 0
+tp @s 0 0 -1
 
 execute if score rs1_0 Computer matches 1.. run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error rs1_0 must be 0 (align by 4)","bold":true,"color":"dark_red"}]
 execute if score rs1_1 Computer matches 1.. run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error rs1_1 must be 0 (align by 4)","bold":true,"color":"dark_red"}]

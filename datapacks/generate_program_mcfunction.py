@@ -258,7 +258,7 @@ minecraft_blocks = [
 ]
 
 def convert_address_to_xyz(address):
-    origin = [0, 0, 0]
+    origin = [0, 0, 1]
     x = (3 - (address % 4) + (address // 4) * 4 + origin[0]) % 4096
     y = address // (4096 * 4096) + origin[1]
     z = address // 4096 + origin[2]

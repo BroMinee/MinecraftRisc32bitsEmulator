@@ -32,5 +32,6 @@ execute if score pc_29 Computer matches 0 run scoreboard players add run Compute
 execute if score pc_30 Computer matches 0 run scoreboard players add run Computer 1
 execute if score pc_31 Computer matches 0 run scoreboard players add run Computer 1
 execute unless score run Computer matches 32 run function computer:cycle/do_cycle
+execute unless score run Computer matches 32 run function computer:program/run_fibo_47
 execute if score run Computer matches 32 run say Result :
 execute if score run Computer matches 32 run function computer:debug/register/pre_debug_rd_x6
