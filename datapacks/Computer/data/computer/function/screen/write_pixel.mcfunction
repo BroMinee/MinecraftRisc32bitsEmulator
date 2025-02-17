@@ -76,7 +76,7 @@ execute if score input_30 A2 matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"
 execute if score input_31 A2 matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error input_31 should not be set when writing a pixel","bold":true,"color":"dark_red"}]
 
 
-tp @s 1 64 3
+tp @s 1.0 32.5 3
 
 execute store result score input_0 scoretp_x_screen run scoreboard players get write_0 Computer
 execute store result score input_1 scoretp_x_screen run scoreboard players get write_1 Computer
