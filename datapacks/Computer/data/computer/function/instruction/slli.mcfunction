@@ -1,6 +1,6 @@
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running slli","color":"gold"}]
 # tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"Error: Not Yet Implemented slli","bold":true,"color":"red"}]
-scoreboard players add found Computer 1
+scoreboard players add found_dispatcher Computer 1
 
 function computer:misc/load_rd_7_11
 
@@ -28,5 +28,6 @@ scoreboard players set count Computer 0
 execute if score keep_going Computer matches 1 run function computer:alu/shift_rd_left_based_on_rs2_5bits
 
 execute if score count Computer matches 32.. run tellraw @a[tag=ERROR] [{"text":"Error: slli, recursive function as been called more than 31 times","color": "red","bold": true}]
+execute if score count Computer matches 32.. run scoreboard players set error Computer 1
 
 function computer:misc/update_rd_7_11

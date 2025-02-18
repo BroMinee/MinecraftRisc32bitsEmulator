@@ -1,7 +1,7 @@
 
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running sw","color":"gold"}]
 # tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"Error: Not Yet Implemented sw","bold":true,"color":"red"}]
-scoreboard players add found Computer 1
+scoreboard players add found_dispatcher Computer 1
 
 # sw [rs2], [imm]([rs1])
 # memory[rs1+imm] =rs2 as (32 bits) SHOULD be aligned to 4 bytes

@@ -1,6 +1,6 @@
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running lw","color":"gold"}]
 # tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"Error: Not Yet Implemented lw","bold":true,"color":"red"}]
-scoreboard players add found Computer 1
+scoreboard players add found_dispatcher Computer 1
 
 
 # lw [rd], [imm]([rs1])
@@ -53,6 +53,7 @@ function computer:alu/add_32bits
 function computer:misc/copy_input_l_to_rs1_add32
 
 execute as @e[limit=1,type=armor_stand,tag=write] run function computer:write/tp_rs1
+data modify storage computer:memory type set value "read32 bits LW"
 execute as @e[limit=1,type=armor_stand,tag=write] run function computer:read/read32bits
 
 scoreboard players operation rd_0 Computer = read_0 Computer
