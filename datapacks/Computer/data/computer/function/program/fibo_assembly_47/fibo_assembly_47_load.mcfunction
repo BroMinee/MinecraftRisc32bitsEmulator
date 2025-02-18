@@ -20,7 +20,7 @@ setblock -495 0 -512 minecraft:air
 setblock -496 0 -512 minecraft:air
 setblock -489 0 -512 minecraft:mud_bricks
 setblock -490 0 -512 minecraft:iron_block
-setblock -491 0 -512 minecraft:light_blue_concrete
+setblock -491 0 -512 minecraft:mud_bricks
 setblock -492 0 -512 minecraft:dark_oak_planks
 setblock -485 0 -512 minecraft:andesite
 setblock -486 0 -512 minecraft:jungle_planks
@@ -114,8 +114,8 @@ setblock -397 0 -512 minecraft:chiseled_nether_bricks
 setblock -398 0 -512 minecraft:crimson_planks
 setblock -399 0 -512 minecraft:purpur_block
 setblock -400 0 -512 minecraft:air
-setblock -393 0 -512 minecraft:air
-setblock -394 0 -512 minecraft:air
+setblock -393 0 -512 minecraft:gray_stained_glass
+setblock -394 0 -512 minecraft:warped_stem
 setblock -395 0 -512 minecraft:air
 setblock -396 0 -512 minecraft:air
 setblock -389 0 -512 minecraft:air
@@ -4210,8 +4210,12 @@ setblock -397 0 -508 minecraft:air
 setblock -398 0 -508 minecraft:air
 setblock -399 0 -508 minecraft:air
 setblock -400 0 -508 minecraft:air
-setblock -393 0 -508 minecraft:stripped_crimson_stem
+setblock -393 0 -508 minecraft:air
 setblock -394 0 -508 minecraft:air
 setblock -395 0 -508 minecraft:air
 setblock -396 0 -508 minecraft:air
+setblock -389 0 -508 minecraft:stripped_crimson_stem
+setblock -390 0 -508 minecraft:air
+setblock -391 0 -508 minecraft:air
+setblock -392 0 -508 minecraft:air
 function computer:reset

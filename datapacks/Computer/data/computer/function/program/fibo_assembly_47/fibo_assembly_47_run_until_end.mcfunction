@@ -1,0 +1,2 @@
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run execute if score cycle Computer matches ..5000 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run execute if score cycle Computer matches ..5000 run function computer:program/fibo_assembly_47/fibo_assembly_47_run_until_end
