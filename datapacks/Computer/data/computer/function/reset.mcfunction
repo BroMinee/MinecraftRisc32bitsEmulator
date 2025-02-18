@@ -82,6 +82,8 @@ scoreboard players set 16777216 FixedValue 16777216
 scoreboard players set 268435456 FixedValue 268435456
 
 scoreboard players set cycle Computer 0
+scoreboard players set error Computer 0
+scoreboard players set done Computer 0
 
 kill @e[type=armor_stand]
 summon armor_stand -509 0 -512 {CustomName:'[{"text":"pc"}]',CustomNameVisible:1b,Team:RED, Tags:["pc"], NoGravity:1b}

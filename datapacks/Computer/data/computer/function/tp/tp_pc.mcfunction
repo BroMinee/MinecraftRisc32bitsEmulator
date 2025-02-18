@@ -4,7 +4,10 @@
 tp @s -512 0 -512
 
 execute if score pc_0 Computer matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error pc_0 must be 0 (align by 4)","bold":true,"color":"dark_red"}] 
+execute if score pc_0 Computer matches 1 run scoreboard players set error Computer 1 
 execute if score pc_1 Computer matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error pc_1 must be 0 (align by 4)","bold":true,"color":"dark_red"}]
+execute if score pc_1 Computer matches 1 run scoreboard players set error Computer 1 
+
 execute if score pc_28 Computer matches 1 run tellraw @a[tag=WARNING] [{"text":""},{"text":""},{"text":"[WARNING] - ","bold":true,"color":"dark_purple"},{"text":"[TP PC]: pc_28 will by ignored","bold":true,"color":"light_purple"}]
 execute if score pc_29 Computer matches 1 run tellraw @a[tag=WARNING] [{"text":""},{"text":""},{"text":"[WARNING] - ","bold":true,"color":"dark_purple"},{"text":"[TP PC]: pc_29 will by ignored","bold":true,"color":"light_purple"}]
 execute if score pc_30 Computer matches 1 run tellraw @a[tag=WARNING] [{"text":""},{"text":""},{"text":"[WARNING] - ","bold":true,"color":"dark_purple"},{"text":"[TP PC]: pc_30 will by ignored","bold":true,"color":"light_purple"}]

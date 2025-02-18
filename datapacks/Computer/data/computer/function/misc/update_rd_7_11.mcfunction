@@ -73,3 +73,4 @@ execute if score read_cpy_11 Computer matches 1 run execute if score read_cpy_10
 
 execute if score found Computer matches 0 run tellraw @a[tag=ERROR] ["",{"text":"Error: [update_rd_7_11] No register found","color":"red","bold": true}]
 execute if score found Computer matches 2.. run tellraw @a[tag=ERROR] ["",{"text":"Error: [update_rd_7_11] Two registers found","color":"red","bold": true}]
+execute unless score found Computer matches 1 run scoreboard players set error Computer 1 

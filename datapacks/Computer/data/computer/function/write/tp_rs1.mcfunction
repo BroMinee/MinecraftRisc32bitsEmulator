@@ -1,8 +1,8 @@
 # use rs1 as teleport destination
 tp @s -512 0 -512
 
-execute if score rs1_0 Computer matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error rs1_0 must be 0 (align by 4)","bold":true,"color":"dark_red"}]
-execute if score rs1_1 Computer matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error rs1_1 must be 0 (align by 4)","bold":true,"color":"dark_red"}]
+execute if score rs1_0 Computer matches 1 run tellraw @a[tag=WARNING] [{"text":""},{"text":""},{"text":"[WARNING] - ","bold":true,"color":"dark_purple"},{"text":"[TP rs1] rs1_0 must be 0 (align by 4)","bold":true,"color":"light_purple"}]
+execute if score rs1_1 Computer matches 1 run tellraw @a[tag=WARNING] [{"text":""},{"text":""},{"text":"[WARNING] - ","bold":true,"color":"dark_purple"},{"text":"[TP rs1] rs1_1 must be 0 (align by 4)","bold":true,"color":"light_purple"}]
 execute if score rs1_28 Computer matches 1 run tellraw @a[tag=WARNING] [{"text":""},{"text":""},{"text":"[WARNING] - ","bold":true,"color":"dark_purple"},{"text":"[TP rs1]: rs1_28 will by ignored","bold":true,"color":"light_purple"}]
 execute if score rs1_29 Computer matches 1 run tellraw @a[tag=WARNING] [{"text":""},{"text":""},{"text":"[WARNING] - ","bold":true,"color":"dark_purple"},{"text":"[TP rs1]: rs1_29 will by ignored","bold":true,"color":"light_purple"}]
 execute if score rs1_30 Computer matches 1 run tellraw @a[tag=WARNING] [{"text":""},{"text":""},{"text":"[WARNING] - ","bold":true,"color":"dark_purple"},{"text":"[TP rs1]: rs1_30 will by ignored","bold":true,"color":"light_purple"}]
