@@ -1,13 +1,13 @@
-setblock 3 0 -1 minecraft:chiseled_nether_bricks
-setblock 2 0 -1 minecraft:air
-setblock 1 0 -1 minecraft:nether_gold_ore
-setblock 0 0 -1 minecraft:black_terracotta
-setblock 7 0 -1 minecraft:andesite
-setblock 6 0 -1 minecraft:oak_planks
-setblock 5 0 -1 minecraft:nether_gold_ore
-setblock 4 0 -1 minecraft:black_terracotta
-setblock 11 0 -1 minecraft:deepslate_iron_ore
-setblock 10 0 -1 minecraft:nether_wart_block
-setblock 9 0 -1 minecraft:oak_log
-setblock 8 0 -1 minecraft:shroomlight
+setblock -509 0 -512 minecraft:chiseled_nether_bricks
+setblock -510 0 -512 minecraft:air
+setblock -511 0 -512 minecraft:nether_gold_ore
+setblock -512 0 -512 minecraft:black_terracotta
+setblock -505 0 -512 minecraft:andesite
+setblock -506 0 -512 minecraft:oak_planks
+setblock -507 0 -512 minecraft:nether_gold_ore
+setblock -508 0 -512 minecraft:black_terracotta
+setblock -501 0 -512 minecraft:deepslate_iron_ore
+setblock -502 0 -512 minecraft:nether_wart_block
+setblock -503 0 -512 minecraft:oak_log
+setblock -504 0 -512 minecraft:shroomlight
 function computer:reset

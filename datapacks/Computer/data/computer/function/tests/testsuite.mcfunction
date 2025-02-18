@@ -1,5 +1,7 @@
 execute as @s[tag=DEBUG] run scoreboard players set hasDebugTag tests 1
 tag @s remove DEBUG
+execute as @s[tag=WARNING] run scoreboard players set hasWarningTag tests 1
+tag @s remove WARNING
 # add
 execute as @e[tag=pc,limit=1] run function computer:tests/test/add_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/add_run
@@ -445,3 +447,4 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/xori_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/xori_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/xori_test
 execute if score hasDebugTag tests matches 1 run tag @s add DEBUG
+execute if score hasWarningTag tests matches 1 run tag @s add WARNING

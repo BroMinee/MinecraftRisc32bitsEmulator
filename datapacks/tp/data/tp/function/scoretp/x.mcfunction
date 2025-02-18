@@ -1,6 +1,6 @@
-execute if score input_11 scoretp_x matches 1 at @s run tp @s ~2048 ~ ~
+# execute if score input_11 scoretp_x matches 1 at @s run tp @s ~2048 ~ ~
 
-execute if score input_10 scoretp_x matches 1 at @s run tp @s ~1024 ~ ~
+# execute if score input_10 scoretp_x matches 1 at @s run tp @s ~1024 ~ ~
 
 execute if score input_9 scoretp_x matches 1 at @s run tp @s ~512 ~ ~
 

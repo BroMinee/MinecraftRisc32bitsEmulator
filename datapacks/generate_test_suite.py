@@ -291,11 +291,11 @@ def test_register(file, register_name, value):
     return cmd
 
 def convert_address_to_xyz(address):
-    origin = [0, 0, 1]
-    x = (3 - (address % 4) + (address // 4) * 4 + origin[0]) % 4096
-    y = address // (4096 * 4096) + origin[1]
-    z = address // 4096 + origin[2]
-    return x, y, -z
+    origin = [-512, 0, -512]
+    x = (3 - (address % 4) + (address // 4) * 4 ) % 1024 + origin[0]
+    y = address // (1024 * 1024) + origin[1]
+    z = address // 1024 + origin[2]
+    return x, y, z
 
 def test_memory(file, address_hex, value_dec_32):
     value_hex_32 = format(value_dec_32, '08x')
@@ -317,6 +317,8 @@ with open("./Computer/data/computer/function/tests/testsuite.mcfunction", 'w') a
 
     f_testsuite.write("execute as @s[tag=DEBUG] run scoreboard players set hasDebugTag tests 1\n")
     f_testsuite.write("tag @s remove DEBUG\n")
+    f_testsuite.write("execute as @s[tag=WARNING] run scoreboard players set hasWarningTag tests 1\n")
+    f_testsuite.write("tag @s remove WARNING\n")
 
     for file in files:
         print(f"Processing {file}")
@@ -389,5 +391,6 @@ with open("./Computer/data/computer/function/tests/testsuite.mcfunction", 'w') a
         f_testsuite.write(f"execute as @e[tag=pc,limit=1] run function computer:tests/test/{file}_test\n")
     
     f_testsuite.write("execute if score hasDebugTag tests matches 1 run tag @s add DEBUG\n")
+    f_testsuite.write("execute if score hasWarningTag tests matches 1 run tag @s add WARNING\n")
 
 

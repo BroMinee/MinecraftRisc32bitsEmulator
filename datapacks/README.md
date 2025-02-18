@@ -11,8 +11,8 @@
 **Highly recommended to use Lunar Client or similar Launcher for FPS optimization since 4096 entities are used just for the screen**
 
 # address
-- from 0x0000 to 0x3ff_ffff
-(limited by chunk loading distance)
+- from 0x0000 to 0x0fff_ffff
+(limited by chunk loading distance) The range [1000_0000, ffff_ffff] is mapped at [0000_0000, 7fff_ffff] 
 
 # register
 - max value of each register 0xffff_ffff

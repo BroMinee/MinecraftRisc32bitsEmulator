@@ -1,13 +1,13 @@
-setblock 3 0 -1 minecraft:chiseled_nether_bricks
-setblock 2 0 -1 minecraft:air
-setblock 1 0 -1 minecraft:white_wool
-setblock 0 0 -1 minecraft:stone
-setblock 7 0 -1 minecraft:jungle_log
-setblock 6 0 -1 minecraft:polished_andesite
-setblock 5 0 -1 minecraft:polished_granite
-setblock 4 0 -1 minecraft:air
-setblock 11 0 -1 minecraft:mud_bricks
-setblock 10 0 -1 minecraft:warped_stem
-setblock 9 0 -1 minecraft:nether_gold_ore
-setblock 8 0 -1 minecraft:oak_planks
+setblock -509 0 -512 minecraft:chiseled_nether_bricks
+setblock -510 0 -512 minecraft:air
+setblock -511 0 -512 minecraft:white_wool
+setblock -512 0 -512 minecraft:stone
+setblock -505 0 -512 minecraft:jungle_log
+setblock -506 0 -512 minecraft:polished_andesite
+setblock -507 0 -512 minecraft:polished_granite
+setblock -508 0 -512 minecraft:air
+setblock -501 0 -512 minecraft:mud_bricks
+setblock -502 0 -512 minecraft:warped_stem
+setblock -503 0 -512 minecraft:nether_gold_ore
+setblock -504 0 -512 minecraft:oak_planks
 function computer:reset

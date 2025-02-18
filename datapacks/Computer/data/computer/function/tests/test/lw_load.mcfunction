@@ -1,5 +1,5 @@
-setblock 3 0 -1 minecraft:birch_planks
-setblock 2 0 -1 minecraft:spruce_log
-setblock 1 0 -1 minecraft:air
-setblock 0 0 -1 minecraft:air
+setblock -509 0 -512 minecraft:birch_planks
+setblock -510 0 -512 minecraft:spruce_log
+setblock -511 0 -512 minecraft:air
+setblock -512 0 -512 minecraft:air
 function computer:reset

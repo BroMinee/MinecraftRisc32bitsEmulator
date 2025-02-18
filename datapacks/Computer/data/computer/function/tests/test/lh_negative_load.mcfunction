@@ -1,9 +1,9 @@
-setblock 3 0 -1 minecraft:chiseled_nether_bricks
-setblock 2 0 -1 minecraft:warped_stem
-setblock 1 0 -1 minecraft:air
-setblock 0 0 -1 minecraft:polished_granite
-setblock 7 0 -1 minecraft:mud_bricks
-setblock 6 0 -1 minecraft:polished_granite
-setblock 5 0 -1 minecraft:air
-setblock 4 0 -1 minecraft:air
+setblock -509 0 -512 minecraft:chiseled_nether_bricks
+setblock -510 0 -512 minecraft:warped_stem
+setblock -511 0 -512 minecraft:air
+setblock -512 0 -512 minecraft:polished_granite
+setblock -505 0 -512 minecraft:mud_bricks
+setblock -506 0 -512 minecraft:polished_granite
+setblock -507 0 -512 minecraft:air
+setblock -508 0 -512 minecraft:air
 function computer:reset

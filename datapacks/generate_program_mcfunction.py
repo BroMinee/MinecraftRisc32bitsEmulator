@@ -256,13 +256,12 @@ minecraft_blocks = [
     "minecraft:shroomlight",
     "minecraft:redstone_lamp"
 ]
-
 def convert_address_to_xyz(address):
-    origin = [0, 0, 1]
-    x = (3 - (address % 4) + (address // 4) * 4 + origin[0]) % 4096
-    y = address // (4096 * 4096) + origin[1]
-    z = address // 4096 + origin[2]
-    return x, y, -z
+    origin = [-512, 0, -512]
+    x = (3 - (address % 4) + (address // 4) * 4 ) % 1024 + origin[0]
+    y = address // (1024 * 1024) + origin[1]
+    z = address // 1024 + origin[2]
+    return x, y, z
 
 with open("output_dump.txt", 'r') as f:
     lines = f.readlines()
@@ -285,5 +284,5 @@ with open(r"Computer\data\computer\function\program.mcfunction", 'w') as f:
             raise Exception(f"Invalid block {block} at address {address}")
         f.write(f"setblock {x} {y} {z} {minecraft_blocks[block]}\n")
         address += 1
-
+    f.write(f"function computer:reset\n")
 print("Done")
