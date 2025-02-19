@@ -276,7 +276,8 @@ if any([int(program[i:i+2], 16) >= len(minecraft_blocks) for i in range(0, len(p
     raise Exception("Invalid block in data")
 
 address = 0
-with open(r"Computer\data\computer\function\program.mcfunction", 'w') as f:
+MAX_CYCLE=500000
+with open(r"Computer\data\computer\function\program_load.mcfunction", 'w') as f:
     for i in range(0, len(program), 2):
         block = int(program[i:i+2], 16)
         x,y,z = convert_address_to_xyz(address)
@@ -285,4 +286,17 @@ with open(r"Computer\data\computer\function\program.mcfunction", 'w') as f:
         f.write(f"setblock {x} {y} {z} {minecraft_blocks[block]}\n")
         address += 1
     f.write(f"function computer:reset\n")
+
+with open(r"Computer\data\computer\function\program_run_until_end.mcfunction", 'w') as f:
+    f.write(f"execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run execute if score cycle Computer matches ..{MAX_CYCLE} run function computer:cycle/do_cycle\n")
+    f.write(f"execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run execute if score cycle Computer matches ..{MAX_CYCLE} run function computer:program_run_until_end\n")
+
+with open(r"Computer\data\computer\function\program_run.mcfunction", 'w') as f:
+    f.write(f"# load\n")
+    f.write(f"function computer:program_load\n\n")
+    f.write(f"# run\n")
+    f.write(f"execute as @e[tag=pc, limit=1] run function computer:program_run_until_end\n\n")
+    f.write(f"# end\n")
+    f.write('execute if score error Computer matches 1 run tellraw @a [{"text":"Error: ","color":"red","bold":true},{"text":"Program has been stopped","color":"red"}]\n')
+    f.write('execute if score done Computer matches 1 run tellraw @a [{"text":""},{"text":"---","obfuscated":true,"color":"green"},{"text":" Program has been completed ","bold":true,"underlined":true,"color":"green"},{"text":"---","obfuscated":true,"color":"green"}]\n')
 print("Done")

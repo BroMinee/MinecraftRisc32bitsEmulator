@@ -5,8 +5,9 @@
 -  bits / pixel
 - 24 address = 1 pixel
 - total of 0x1000 address
-- start at 0x8000, end at 0x8fff
-- first row end at 0x803f
+- start at 0x0FFF_0000, end at 0x0FFF_C000
+- warning writing between [0x0FFF_C000 and 0x0FFF_FFFF] will cause pixel rewriting
+- first row end at 0xFFF0_00FF
 
 **Highly recommended to use Lunar Client or similar Launcher for FPS optimization since 4096 entities are used just for the screen**
 
@@ -73,3 +74,6 @@ run python3 generate_test_suite.py
 # Question why not increasing the max address ?
 It's not possible to store value in the address if the chunk is not loaded, using 0x3ff_ffff.
 The memory goes from -512 0 -512 to 512 256 512
+
+# Note
+About 500 instructions by seconds

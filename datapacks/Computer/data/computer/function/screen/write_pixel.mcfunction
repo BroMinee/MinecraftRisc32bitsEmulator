@@ -1,31 +1,33 @@
+# input rs2_[0-31] Computer (for pixel color)
+# input rs1_[0-11] Computer (for pixel position)
 # Selector as = @e[tag=screen]
 
-tellraw @a[tag=debug] {"text":"Writing a pixel screen!","color":"gold"}
+tellraw @a[tag=DEBUG] {"text":"Writing a pixel screen!","color":"gold"}
 
-scoreboard players operation input_0 A2 = read_0 Computer
-scoreboard players operation input_1 A2 = read_1 Computer
-scoreboard players operation input_2 A2 = read_2 Computer
-scoreboard players operation input_3 A2 = read_3 Computer
-scoreboard players operation input_4 A2 = read_4 Computer
-scoreboard players operation input_5 A2 = read_5 Computer
-scoreboard players operation input_6 A2 = read_6 Computer
-scoreboard players operation input_7 A2 = read_7 Computer
-scoreboard players operation input_8 A2 = read_8 Computer
-scoreboard players operation input_9 A2 = read_9 Computer
-scoreboard players operation input_10 A2 = read_10 Computer
-scoreboard players operation input_11 A2 = read_11 Computer
-scoreboard players operation input_12 A2 = read_12 Computer
-scoreboard players operation input_13 A2 = read_13 Computer
-scoreboard players operation input_14 A2 = read_14 Computer
-scoreboard players operation input_15 A2 = read_15 Computer
-scoreboard players operation input_16 A2 = read_16 Computer
-scoreboard players operation input_17 A2 = read_17 Computer
-scoreboard players operation input_18 A2 = read_18 Computer
-scoreboard players operation input_19 A2 = read_19 Computer
-scoreboard players operation input_20 A2 = read_20 Computer
-scoreboard players operation input_21 A2 = read_21 Computer
-scoreboard players operation input_22 A2 = read_22 Computer
-scoreboard players operation input_23 A2 = read_23 Computer
+scoreboard players operation input_0 A2 = rs2_0 Computer
+scoreboard players operation input_1 A2 = rs2_1 Computer
+scoreboard players operation input_2 A2 = rs2_2 Computer
+scoreboard players operation input_3 A2 = rs2_3 Computer
+scoreboard players operation input_4 A2 = rs2_4 Computer
+scoreboard players operation input_5 A2 = rs2_5 Computer
+scoreboard players operation input_6 A2 = rs2_6 Computer
+scoreboard players operation input_7 A2 = rs2_7 Computer
+scoreboard players operation input_8 A2 = rs2_8 Computer
+scoreboard players operation input_9 A2 = rs2_9 Computer
+scoreboard players operation input_10 A2 = rs2_10 Computer
+scoreboard players operation input_11 A2 = rs2_11 Computer
+scoreboard players operation input_12 A2 = rs2_12 Computer
+scoreboard players operation input_13 A2 = rs2_13 Computer
+scoreboard players operation input_14 A2 = rs2_14 Computer
+scoreboard players operation input_15 A2 = rs2_15 Computer
+scoreboard players operation input_16 A2 = rs2_16 Computer
+scoreboard players operation input_17 A2 = rs2_17 Computer
+scoreboard players operation input_18 A2 = rs2_18 Computer
+scoreboard players operation input_19 A2 = rs2_19 Computer
+scoreboard players operation input_20 A2 = rs2_20 Computer
+scoreboard players operation input_21 A2 = rs2_21 Computer
+scoreboard players operation input_22 A2 = rs2_22 Computer
+scoreboard players operation input_23 A2 = rs2_23 Computer
 scoreboard players set input_24 A2 1
 scoreboard players set input_25 A2 1
 scoreboard players set input_26 A2 1
@@ -84,19 +86,25 @@ execute if score input_31 A2 matches 1 run scoreboard players set error Computer
 
 tp @s 1.0 32.5 3
 
-execute store result score input_0 scoretp_x_screen run scoreboard players get write_0 Computer
-execute store result score input_1 scoretp_x_screen run scoreboard players get write_1 Computer
-execute store result score input_2 scoretp_x_screen run scoreboard players get write_2 Computer
-execute store result score input_3 scoretp_x_screen run scoreboard players get write_3 Computer
-execute store result score input_4 scoretp_x_screen run scoreboard players get write_4 Computer
-execute store result score input_5 scoretp_x_screen run scoreboard players get write_5 Computer
+execute if score rs1_0 Computer matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Pixel write rs1_0 must be 0 (align by 4)","bold":true,"color":"dark_red"}] 
+execute if score rs1_0 Computer matches 1 run scoreboard players set error Computer 1 
+execute if score rs1_1 Computer matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Pixel write rs1_1 must be 0 (align by 4)","bold":true,"color":"dark_red"}]
+execute if score rs1_1 Computer matches 1 run scoreboard players set error Computer 1 
 
-execute store result score input_6 scoretp_y_screen run scoreboard players get write_6 Computer
-execute store result score input_7 scoretp_y_screen run scoreboard players get write_7 Computer
-execute store result score input_8 scoretp_y_screen run scoreboard players get write_8 Computer
-execute store result score input_9 scoretp_y_screen run scoreboard players get write_9 Computer
-execute store result score input_10 scoretp_y_screen run scoreboard players get write_10 Computer
-execute store result score input_11 scoretp_y_screen run scoreboard players get write_11 Computer
+
+scoreboard players operation input_0 scoretp_x_screen = rs1_2 Computer
+scoreboard players operation input_1 scoretp_x_screen = rs1_3 Computer
+scoreboard players operation input_2 scoretp_x_screen = rs1_4 Computer
+scoreboard players operation input_3 scoretp_x_screen = rs1_5 Computer
+scoreboard players operation input_4 scoretp_x_screen = rs1_6 Computer
+scoreboard players operation input_5 scoretp_x_screen = rs1_7 Computer
+
+scoreboard players operation input_6 scoretp_y_screen = rs1_8 Computer
+scoreboard players operation input_7 scoretp_y_screen = rs1_9 Computer
+scoreboard players operation input_8 scoretp_y_screen = rs1_10 Computer
+scoreboard players operation input_9 scoretp_y_screen = rs1_11 Computer
+scoreboard players operation input_10 scoretp_y_screen = rs1_12 Computer
+scoreboard players operation input_11 scoretp_y_screen = rs1_13 Computer
 
 function tp:scoretp/x_screen
 function tp:scoretp/y_screen
