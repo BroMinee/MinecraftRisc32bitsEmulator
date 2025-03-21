@@ -1,25 +1,25 @@
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle
+execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run function computer:cycle/do_cycle

@@ -11,7 +11,7 @@ team remove GOLD
 team remove BLUE
 data remove storage computer:memory hexa
 data remove storage computer:memory bin
-
+data remove storage computer:memory mul
 
 
 scoreboard objectives add FixedValue dummy

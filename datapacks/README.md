@@ -64,6 +64,7 @@
 - ✅ nop (addi x0, x0, 0)
 - ✅ mv (addi rd,rs1, 0)
 - ✅ not (xori, rd, s1, -1)
+- ✅ mul
 
 
 # How to run the testsuite
