@@ -1,0 +1,34 @@
+# output input_l_[0-31] add32
+
+scoreboard players set input_l_0 add32 0
+scoreboard players set input_l_1 add32 0
+scoreboard players set input_l_2 add32 0
+scoreboard players set input_l_3 add32 0
+scoreboard players set input_l_4 add32 0
+scoreboard players set input_l_5 add32 0
+scoreboard players set input_l_6 add32 0
+scoreboard players set input_l_7 add32 0
+scoreboard players set input_l_8 add32 0
+scoreboard players set input_l_9 add32 0
+scoreboard players set input_l_10 add32 0
+scoreboard players set input_l_11 add32 0
+scoreboard players set input_l_12 add32 0
+scoreboard players set input_l_13 add32 0
+scoreboard players set input_l_14 add32 0
+scoreboard players set input_l_15 add32 0
+scoreboard players set input_l_16 add32 0
+scoreboard players set input_l_17 add32 0
+scoreboard players set input_l_18 add32 0
+scoreboard players set input_l_19 add32 0
+scoreboard players set input_l_20 add32 0
+scoreboard players set input_l_21 add32 0
+scoreboard players set input_l_22 add32 0
+scoreboard players set input_l_23 add32 0
+scoreboard players set input_l_24 add32 0
+scoreboard players set input_l_25 add32 0
+scoreboard players set input_l_26 add32 0
+scoreboard players set input_l_27 add32 0
+scoreboard players set input_l_28 add32 0
+scoreboard players set input_l_29 add32 0
+scoreboard players set input_l_30 add32 0
+scoreboard players set input_l_31 add32 0

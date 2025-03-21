@@ -2,6 +2,7 @@
 # output input_[0-11] A2
 # perform a 12-bit arithmetic operation
 # MUST be called when rs2 is NOT 0 since it does 1 shift and recall itself using rs2[0-4] = 0b00000
+# MUST SET count Computer to 0 before calling this function
 
 scoreboard players add count Computer 1
 function computer:alu/shift_rd_left_1

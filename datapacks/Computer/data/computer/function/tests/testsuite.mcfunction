@@ -354,6 +354,26 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/lw_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/lw_offset_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/lw_offset_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/lw_offset_test
+# mul_0
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_0_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_0_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_0_test
+# mul_1
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_1_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_1_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_1_test
+# mul_2
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_2_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_2_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_2_test
+# mul_n_n_overflow
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_n_overflow_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_n_overflow_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_n_overflow_test
+# mul_n_p
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_p_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_p_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_p_test
 # mv
 execute as @e[tag=pc,limit=1] run function computer:tests/test/mv_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/mv_run
