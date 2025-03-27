@@ -68,7 +68,7 @@
 - ❌ mulh
 - ❌ mulhsu
 - ❌ mulhu
-- ❌ div
+- ✅ div
 - ✅ divu
 - ❌ rem
 - ❌ remu

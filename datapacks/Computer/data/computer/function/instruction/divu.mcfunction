@@ -6,7 +6,7 @@ scoreboard players add found_dispatcher Computer 1
 function computer:misc/load_rs1_15_19
 function computer:misc/load_rs2_20_24
 
-# div
+# divu
 
 data modify storage computer:memory div_res set value []
 data modify storage computer:memory div set value [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]

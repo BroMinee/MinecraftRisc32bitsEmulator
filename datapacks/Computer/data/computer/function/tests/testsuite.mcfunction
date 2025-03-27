@@ -310,14 +310,46 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_2_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_3_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_3_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_3_test
+# divu_n_n
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_n_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_n_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_n_test
 # divu_n_p
 execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_p_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_p_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_p_test
+# divu_p_n
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_p_n_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_p_n_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_p_n_test
 # div_0
 execute as @e[tag=pc,limit=1] run function computer:tests/test/div_0_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/div_0_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/div_0_test
+# div_1
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_1_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_1_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_1_test
+# div_2
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_2_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_2_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_2_test
+# div_3
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_3_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_3_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_3_test
+# div_n_n
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_n_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_n_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_n_test
+# div_n_p
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_p_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_p_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_p_test
+# div_p_n
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_p_n_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_p_n_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_p_n_test
 # jal
 execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_run

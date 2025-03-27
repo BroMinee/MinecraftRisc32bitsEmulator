@@ -1,0 +1,25 @@
+setblock -509 0 -512 minecraft:waxed_weathered_cut_copper
+setblock -510 0 -512 minecraft:air
+setblock -511 0 -512 minecraft:polished_granite
+setblock -512 0 -512 minecraft:air
+setblock -505 0 -512 minecraft:chiseled_nether_bricks
+setblock -506 0 -512 minecraft:warped_stem
+setblock -507 0 -512 minecraft:air
+setblock -508 0 -512 minecraft:diorite
+setblock -501 0 -512 minecraft:gray_wool
+setblock -502 0 -512 minecraft:oak_planks
+setblock -503 0 -512 minecraft:polished_granite
+setblock -504 0 -512 minecraft:air
+setblock -497 0 -512 minecraft:andesite
+setblock -498 0 -512 minecraft:oak_planks
+setblock -499 0 -512 minecraft:oak_planks
+setblock -500 0 -512 minecraft:diorite
+setblock -493 0 -512 minecraft:waxed_cut_copper
+setblock -494 0 -512 minecraft:orange_concrete
+setblock -495 0 -512 minecraft:diorite
+setblock -496 0 -512 minecraft:spruce_planks
+setblock -489 0 -512 minecraft:light_blue_wool
+setblock -490 0 -512 minecraft:mycelium
+setblock -491 0 -512 minecraft:oak_log
+setblock -492 0 -512 minecraft:spruce_planks
+function computer:reset
