@@ -294,6 +294,30 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_positif
 execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_positif_positif_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_positif_positif_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_positif_positif_test
+# divu_0
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_0_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_0_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_0_test
+# divu_1
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_1_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_1_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_1_test
+# divu_2
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_2_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_2_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_2_test
+# divu_3
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_3_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_3_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_3_test
+# divu_n_p
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_p_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_p_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_p_test
+# div_0
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_0_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_0_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_0_test
 # jal
 execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_run

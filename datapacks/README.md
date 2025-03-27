@@ -65,6 +65,13 @@
 - ✅ mv (addi rd,rs1, 0)
 - ✅ not (xori, rd, s1, -1)
 - ✅ mul
+- ❌ mulh
+- ❌ mulhsu
+- ❌ mulhu
+- ❌ div
+- ✅ divu
+- ❌ rem
+- ❌ remu
 
 
 # How to run the testsuite
