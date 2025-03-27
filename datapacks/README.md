@@ -70,7 +70,7 @@
 - ❌ mulhu
 - ✅ div
 - ✅ divu
-- ❌ rem
+- ✅ rem
 - ✅ remu
 
 

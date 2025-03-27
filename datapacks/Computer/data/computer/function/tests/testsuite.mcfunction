@@ -474,6 +474,34 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_n_p_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_p_n_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_p_n_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_p_n_test
+# rem_0
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_0_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_0_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_0_test
+# rem_1
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_1_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_1_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_1_test
+# rem_2
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_2_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_2_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_2_test
+# rem_3
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_3_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_3_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_3_test
+# rem_n_n
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_n_n_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_n_n_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_n_n_test
+# rem_n_p
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_n_p_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_n_p_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_n_p_test
+# rem_p_n
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_p_n_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_p_n_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_p_n_test
 # sb
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sb_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sb_run

@@ -9,7 +9,7 @@ function computer:misc/load_rs2_20_24
 # divu
 function computer:alu/divu
 
-
+# copy remaining to rd
 function computer:misc/copy_input_l_to_rd_add32
 
 # # update
