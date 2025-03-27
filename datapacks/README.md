@@ -71,7 +71,7 @@
 - ✅ div
 - ✅ divu
 - ❌ rem
-- ❌ remu
+- ✅ remu
 
 
 # How to run the testsuite
