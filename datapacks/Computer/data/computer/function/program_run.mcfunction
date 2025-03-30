@@ -5,5 +5,5 @@ function computer:program_load
 execute as @e[tag=pc, limit=1] run function computer:program_run_until_end
 
 # end
-execute if score error Computer matches 1 run tellraw @a [{"text":"Error: ","color":"red","bold":true},{"text":"Program has been stopped","color":"red"}]
-execute if score done Computer matches 1 run tellraw @a [{"text":""},{"text":"---","obfuscated":true,"color":"green"},{"text":" Program has been completed ","bold":true,"underlined":true,"color":"green"},{"text":"---","obfuscated":true,"color":"green"}]
+execute if score error stats matches 1 run tellraw @a [{"text":"Error: ","color":"red","bold":true},{"text":"Program has been stopped","color":"red"}]
+execute if score done stats matches 1 run tellraw @a [{"text":""},{"text":"---","obfuscated":true,"color":"green"},{"text":" Program has been completed ","bold":true,"underlined":true,"color":"green"},{"text":"---","obfuscated":true,"color":"green"}]
