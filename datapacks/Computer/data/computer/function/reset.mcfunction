@@ -3,7 +3,6 @@ gamerule maxCommandChainLength 2147483647
 
 scoreboard objectives remove FixedValue
 scoreboard objectives remove Computer
-scoreboard objectives remove goto
 
 team remove RED
 team remove GREEN
@@ -16,30 +15,7 @@ data remove storage computer:memory mul
 
 scoreboard objectives add FixedValue dummy
 scoreboard objectives add Computer dummy
-scoreboard objectives add r0 dummy
-scoreboard objectives add r1 dummy
-scoreboard objectives add r2 dummy
-scoreboard objectives add r3 dummy
-scoreboard objectives add r4 dummy
-scoreboard objectives add r5 dummy
-scoreboard objectives add r6 dummy
-scoreboard objectives add r7 dummy
-scoreboard objectives add r8 dummy
-scoreboard objectives add r9 dummy
-scoreboard objectives add r10 dummy
-scoreboard objectives add r11 dummy
-scoreboard objectives add r12 dummy
-scoreboard objectives add sp dummy
-scoreboard objectives add lr dummy
-scoreboard objectives add pc dummy
-scoreboard objectives add cpsr dummy
-scoreboard objectives add cpsr_new dummy
-scoreboard objectives add spsr dummy
-scoreboard objectives add goto dummy
-scoreboard objectives add read dummy
-scoreboard objectives add output_register dummy
-scoreboard objectives add input_register dummy
-scoreboard objectives add convert_register dummy
+scoreboard objectives add stats dummy
 
 
 scoreboard objectives setdisplay sidebar Computer
@@ -81,45 +57,15 @@ scoreboard players set 1048576 FixedValue 1048576
 scoreboard players set 16777216 FixedValue 16777216 
 scoreboard players set 268435456 FixedValue 268435456
 
-scoreboard players set cycle Computer 0
-scoreboard players set error Computer 0
-scoreboard players set done Computer 0
+scoreboard players set cycle stats 0
+scoreboard players set read stats 0
+scoreboard players set write stats 0
+scoreboard players set error stats 0
+scoreboard players set done stats 0
 
 kill @e[type=armor_stand]
 summon armor_stand -509 0 -512 {CustomName:'[{"text":"pc"}]',CustomNameVisible:1b,Team:RED, Tags:["pc"], NoGravity:1b}
 summon armor_stand -509 0 -512 {CustomName:'[{"text":"write"}]',CustomNameVisible:1b,Team:RED, Tags:["write"], NoGravity:1b}
-summon armor_stand -4 -58 1 {CustomName:'[{"text":"zero"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand -4 -58 -1 {CustomName:'[{"text":"ra"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand -4 -58 -3 {CustomName:'[{"text":"sp"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand -4 -58 -5 {CustomName:'[{"text":"gp"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand -2 -58 -7 {CustomName:'[{"text":"tp"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 0 -58 -7 {CustomName:'[{"text":"t0"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 2 -58 -7 {CustomName:'[{"text":"t1"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 4 -58 -7 {CustomName:'[{"text":"t2"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 6 -58 -7 {CustomName:'[{"text":"s0"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 8 -58 -7 {CustomName:'[{"text":"s1"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 10 -58 -5 {CustomName:'[{"text":"a0"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 10 -58 -3 {CustomName:'[{"text":"a1"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 10 -58 -1 {CustomName:'[{"text":"a2"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 10 -58 1 {CustomName:'[{"text":"a3"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 10 -58 3 {CustomName:'[{"text":"a4"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 10 -58 5 {CustomName:'[{"text":"a5"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 10 -58 7 {CustomName:'[{"text":"a6"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 10 -58 9 {CustomName:'[{"text":"a7"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 10 -58 11 {CustomName:'[{"text":"s2"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 10 -58 13 {CustomName:'[{"text":"s3"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 10 -58 15 {CustomName:'[{"text":"s4"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 10 -58 17 {CustomName:'[{"text":"s5"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 8 -58 19 {CustomName:'[{"text":"s6"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 6 -58 19 {CustomName:'[{"text":"s7"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 4 -58 19 {CustomName:'[{"text":"s8"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 2 -58 19 {CustomName:'[{"text":"s9"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand 0 -58 19 {CustomName:'[{"text":"s10"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand -2 -58 19 {CustomName:'[{"text":"s11"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand -4 -58 17 {CustomName:'[{"text":"t3"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand -4 -58 15 {CustomName:'[{"text":"t4"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand -4 -58 13 {CustomName:'[{"text":"t5"}]',CustomNameVisible:1b,Team:RED}
-summon armor_stand -4 -58 11 {CustomName:'[{"text":"t6"}]',CustomNameVisible:1b,Team:RED}
 summon armor_stand -4 -58 9 {CustomName:'[{"text":"screen"}]',CustomNameVisible:1b,Team:RED, Tags:["screen"], NoGravity:1b}
 
 

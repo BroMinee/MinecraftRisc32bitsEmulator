@@ -288,8 +288,8 @@ with open(r"Computer\data\computer\function\program_load.mcfunction", 'w') as f:
     f.write(f"function computer:reset\n")
 
 with open(r"Computer\data\computer\function\program_run_until_end.mcfunction", 'w') as f:
-    f.write(f"execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run execute if score cycle Computer matches ..{MAX_CYCLE} run function computer:cycle/do_cycle\n")
-    f.write(f"execute unless score error Computer matches 1 run execute unless score done Computer matches 1 run execute if score cycle Computer matches ..{MAX_CYCLE} run function computer:program_run_until_end\n")
+    f.write(f"execute unless score error stats matches 1 run execute unless score done stats matches 1 run execute if score cycle stats matches ..{MAX_CYCLE} run function computer:cycle/do_cycle\n")
+    f.write(f"execute unless score error stats matches 1 run execute unless score done stats matches 1 run execute if score cycle stats matches ..{MAX_CYCLE} run function computer:program_run_until_end\n")
 
 with open(r"Computer\data\computer\function\program_run.mcfunction", 'w') as f:
     f.write(f"# load\n")
@@ -297,6 +297,6 @@ with open(r"Computer\data\computer\function\program_run.mcfunction", 'w') as f:
     f.write(f"# run\n")
     f.write(f"execute as @e[tag=pc, limit=1] run function computer:program_run_until_end\n\n")
     f.write(f"# end\n")
-    f.write('execute if score error Computer matches 1 run tellraw @a [{"text":"Error: ","color":"red","bold":true},{"text":"Program has been stopped","color":"red"}]\n')
-    f.write('execute if score done Computer matches 1 run tellraw @a [{"text":""},{"text":"---","obfuscated":true,"color":"green"},{"text":" Program has been completed ","bold":true,"underlined":true,"color":"green"},{"text":"---","obfuscated":true,"color":"green"}]\n')
+    f.write('execute if score error stats matches 1 run tellraw @a [{"text":"Error: ","color":"red","bold":true},{"text":"Program has been stopped","color":"red"}]\n')
+    f.write('execute if score done stats matches 1 run tellraw @a [{"text":""},{"text":"---","obfuscated":true,"color":"green"},{"text":" Program has been completed ","bold":true,"underlined":true,"color":"green"},{"text":"---","obfuscated":true,"color":"green"}]\n')
 print("Done")

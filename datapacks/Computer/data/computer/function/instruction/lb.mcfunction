@@ -2,6 +2,7 @@ tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,
 # tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"Error: Not Yet Implemented lb","bold":true,"color":"red"}]
 scoreboard players add found_dispatcher Computer 1
 
+scoreboard players add read stats 1
 
 # lhu [rd], [imm]([rs1])
 # rd = memory[rs1+imm] as (8 bits sign extended to 32) SHOULD be aligned to 4 bytes
