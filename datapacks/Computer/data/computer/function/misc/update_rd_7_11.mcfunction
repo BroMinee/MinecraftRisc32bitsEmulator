@@ -1,3 +1,4 @@
+# WARNING : THIS IS USING INTEGER REGISTER
 # input read_cpy_[7-11] Computer
 # output x[0-31]_[0-31] Computer
 scoreboard players set found Computer 0
