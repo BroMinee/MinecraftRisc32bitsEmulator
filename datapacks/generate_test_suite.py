@@ -277,6 +277,11 @@ def parse_metadata(file, meta_data, line):
         meta_data[f"x{match.group(1)}"] = int(match.group(2), base=16)
         return
     
+    match = re.search(r"f([0-9]{1,2}) ([0-9a-f]+)", line)
+    if match:
+        meta_data[f"f{match.group(1)}"] = int(match.group(2), base=16)
+        return
+    
     match = re.search(r"memory\[([0-9a-f]+)\] ([0-9a-f]+)", line)
     if match:
         meta_data[f"memory{match.group(1)}"] = int(match.group(2), base=16)
@@ -372,10 +377,17 @@ with open("./Computer/data/computer/function/tests/testsuite.mcfunction", 'w') a
             f.write(f'scoreboard players set {file} tests 1\n')
             f.write(test_register(file, "pc", meta_data["pc"]))
             for i in range(32):
+                # int registers
                 if f"x{i}" in meta_data:
                     f.write(test_register(file, f"x{i}", meta_data[f"x{i}"]))
                 else:
                     f.write(test_register(file, f"x{i}", 0))
+
+                # float registers
+                if f"f{i}" in meta_data:
+                    f.write(test_register(file, f"f{i}", meta_data[f"f{i}"]))
+                else:
+                    f.write(test_register(file, f"f{i}", 0))
             memory_keys= meta_data.keys()
             # filter memory keys
             
