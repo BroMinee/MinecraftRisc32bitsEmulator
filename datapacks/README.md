@@ -96,7 +96,7 @@
 - ❌ fcvt.s.w
 - ❌ fcvt.s.wu
 - ❌ fmv.w.x
-- ❌ flw
+- ✅ flw
 - ❌ fsw
 
 

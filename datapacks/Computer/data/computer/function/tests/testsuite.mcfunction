@@ -350,6 +350,14 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_p_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/div_p_n_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/div_p_n_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/div_p_n_test
+# flw
+execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_test
+# flw_offset
+execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_offset_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_offset_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_offset_test
 # jal
 execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_run
