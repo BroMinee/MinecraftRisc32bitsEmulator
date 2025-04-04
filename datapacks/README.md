@@ -88,7 +88,7 @@
 - ❌ fmax.s
 - ❌ fcvt.w.s
 - ❌ fcvt.wu.s
-- ❌ fmv.x.w
+- ✅ fmv.x.w
 - ❌ feq.s
 - ❌ flt.s
 - ❌ fle.s
