@@ -95,7 +95,7 @@
 - ❌ fclass.s
 - ❌ fcvt.s.w
 - ❌ fcvt.s.wu
-- ❌ fmv.w.x
+- ✅ fmv.w.x
 - ✅ flw
 - ❌ fsw
 
