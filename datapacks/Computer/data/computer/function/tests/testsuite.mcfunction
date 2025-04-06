@@ -350,6 +350,46 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_p_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/div_p_n_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/div_p_n_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/div_p_n_test
+# fadd.s_-0.3_plus_0.3
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.3_plus_0.3_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.3_plus_0.3_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.3_plus_0.3_test
+# fadd.s_-0.3_plus_0.5
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.3_plus_0.5_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.3_plus_0.5_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.3_plus_0.5_test
+# fadd.s_-0.5_plus_0.3
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.5_plus_0.3_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.5_plus_0.3_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.5_plus_0.3_test
+# fadd.s_-15.165_plus-184896.3125
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-15.165_plus-184896.3125_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-15.165_plus-184896.3125_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-15.165_plus-184896.3125_test
+# fadd.s_0.1_plus_0.2
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_0.1_plus_0.2_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_0.1_plus_0.2_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_0.1_plus_0.2_test
+# fadd.s_0_plus_0.3
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_0_plus_0.3_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_0_plus_0.3_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_0_plus_0.3_test
+# fadd.s_1e38_plus_1e-38
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_1e38_plus_1e-38_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_1e38_plus_1e-38_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_1e38_plus_1e-38_test
+# fadd.s_same_exponent
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_same_exponent_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_same_exponent_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_same_exponent_test
+# fadd.s_test_all
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_all_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_all_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_all_test
+# fadd.s_test_overflow
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_overflow_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_overflow_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_overflow_test
 # flw
 execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_run

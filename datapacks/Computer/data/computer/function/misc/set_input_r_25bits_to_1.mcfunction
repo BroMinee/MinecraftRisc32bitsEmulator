@@ -1,0 +1,34 @@
+# output input_r_[0-31] add25
+
+scoreboard players set input_r_0 add25 1
+scoreboard players set input_r_1 add25 0
+scoreboard players set input_r_2 add25 0
+scoreboard players set input_r_3 add25 0
+scoreboard players set input_r_4 add25 0
+scoreboard players set input_r_5 add25 0
+scoreboard players set input_r_6 add25 0
+scoreboard players set input_r_7 add25 0
+scoreboard players set input_r_8 add25 0
+scoreboard players set input_r_9 add25 0
+scoreboard players set input_r_10 add25 0
+scoreboard players set input_r_11 add25 0
+scoreboard players set input_r_12 add25 0
+scoreboard players set input_r_13 add25 0
+scoreboard players set input_r_14 add25 0
+scoreboard players set input_r_15 add25 0
+scoreboard players set input_r_16 add25 0
+scoreboard players set input_r_17 add25 0
+scoreboard players set input_r_18 add25 0
+scoreboard players set input_r_19 add25 0
+scoreboard players set input_r_20 add25 0
+scoreboard players set input_r_21 add25 0
+scoreboard players set input_r_22 add25 0
+scoreboard players set input_r_23 add25 0
+scoreboard players set input_r_24 add25 0
+scoreboard players set input_r_25 add25 0
+scoreboard players set input_r_26 add25 0
+scoreboard players set input_r_27 add25 0
+scoreboard players set input_r_28 add25 0
+scoreboard players set input_r_29 add25 0
+scoreboard players set input_r_30 add25 0
+scoreboard players set input_r_31 add25 0
