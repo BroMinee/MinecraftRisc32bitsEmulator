@@ -72,7 +72,7 @@
 - ✅ divu
 - ✅ rem
 - ✅ remu
-- ❌ fmadd.s
+- ✅ fmadd.s
 - ❌ fmsub.s
 - ❌ fnmsub.s
 - ❌ fnmadd.s

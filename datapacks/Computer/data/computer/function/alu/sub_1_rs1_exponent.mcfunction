@@ -1,0 +1,7 @@
+function computer:misc/copy_rs1_exponent_input_l_add8
+
+function computer:misc/set_input_r_8bits_to_minus_1
+
+function computer:alu/add_8bits
+
+function computer:misc/copy_input_l_add8_rs1_exponent
