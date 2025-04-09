@@ -406,6 +406,10 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.w.x_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.x.w_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.x.w_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.x.w_test
+# fsw
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fsw_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fsw_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fsw_test
 # jal
 execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_run

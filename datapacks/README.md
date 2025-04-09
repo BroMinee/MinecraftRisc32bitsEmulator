@@ -72,11 +72,11 @@
 - ✅ divu
 - ✅ rem
 - ✅ remu
-- ✅ fmadd.s
+- ❌ fmadd.s
 - ❌ fmsub.s
 - ❌ fnmsub.s
 - ❌ fnmadd.s
-- ❌ fadd.s
+- ✅ fadd.s
 - ❌ fsub.s
 - ❌ fmul.s
 - ❌ fdiv.s
@@ -97,7 +97,7 @@
 - ❌ fcvt.s.wu
 - ✅ fmv.w.x
 - ✅ flw
-- ❌ fsw
+- ✅ fsw
 
 
 
