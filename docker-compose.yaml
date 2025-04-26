@@ -1,0 +1,8 @@
+services:
+  risc32_imc:
+    image: vijaysoilspy/risc32_imc
+    container_name: risc32_imc_container
+    volumes:
+      - ./datapacks:/datapacks
+
+    entrypoint: /datapacks/compiler.sh /datapacks/main.c
