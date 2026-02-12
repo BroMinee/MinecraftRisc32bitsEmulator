@@ -10,6 +10,6 @@ with open("../Computer/data/computer/function/screen/init_screen.mcfunction", 'w
     f.write("kill @e[type=text_display]\n")
     for x in range(0, 64):
         for y in range(0, 64):
-            f.write('summon text_display X Y 4.001 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[Wf,Hf,Hf]},text:\'{"text":"x", "bold": True}\', text_opacity:4, background:-16777216}\n'.replace("X", str(1.22 + x*COEF)).replace("Y", str(1 + y*COEF)).replace("W", str(PIXEL_SIZE[0])).replace("H", str(PIXEL_SIZE[1])))
+            f.write('summon text_display X Y 4.001 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[Wf,Hf,Hf]},text:{"text":"x", "bold": True}, text_opacity:4, background:-16777216}\n'.replace("X", str(1.22 + x*COEF)).replace("Y", str(1 + y*COEF)).replace("W", str(PIXEL_SIZE[0])).replace("H", str(PIXEL_SIZE[1])))
 
 print("Done")
