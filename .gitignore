@@ -1,5 +1,4 @@
 entities/
-data/raids.dat
 DIM-1/data/raids.dat
 DIM1/data/raids_end.dat
 playerdata/
@@ -9,3 +8,9 @@ lunar_hosted_world_data.json
 session.lock
 datapacks/tempCodeRunnerFile.py
 datapacks/scripts/tempCodeRunnerFile.py
+/minimap/
+/data/
+/poi/
+/region/
+level.dat
+level.dat_old
