@@ -1,5 +1,5 @@
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running sb","color":"gold"}]
-# tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"Error: Not Yet Implemented sb","bold":true,"color":"red"}]
+
 scoreboard players add found_dispatcher Computer 1
 scoreboard players add write stats 1
 
