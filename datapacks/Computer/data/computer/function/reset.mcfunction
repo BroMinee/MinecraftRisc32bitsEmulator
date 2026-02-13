@@ -1,5 +1,5 @@
-gamerule commandModificationBlockLimit 2147483647
-gamerule maxCommandChainLength 2147483647
+gamerule max_block_modifications 2147483647
+gamerule max_command_sequence_length 2147483647
 
 scoreboard objectives remove FixedValue
 scoreboard objectives remove Computer
@@ -84,7 +84,7 @@ scoreboard objectives add and dummy
 scoreboard objectives add tests dummy
 
 scoreboard players set increase_pc Computer 1
-gamerule spawnChunkRadius 32
+gamerule respawn_radius 32
 
 function computer:screen/init_screen
 function computer:reset_scoreboard

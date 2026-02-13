@@ -1,0 +1,9 @@
+services:
+  riscv:
+    image: ghcr.io/brominee/minecraftrisc32bitsemulator:latest
+    container_name: riscv-toolchain
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+
+    entrypoint: /workspace/compiler.sh /workspace/main.c

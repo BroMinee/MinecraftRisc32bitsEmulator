@@ -44,6 +44,7 @@ void draw_char(int x, int y, char c, uint8_t r, uint8_t g, uint8_t b);
 void draw_string(int x, int y, const char *str, uint8_t r, uint8_t g, uint8_t b);
 char *my_itoa(uint32_t value, char *s);
 uint32_t fibo(uint16_t n);
+void close_display();
 
 int main() {
 
@@ -59,9 +60,9 @@ int main() {
 	draw_string(0, 0, myString, 0, 255, 0);
 
 
-    #ifdef LOCAL
+#ifdef LOCAL
     free(myString);
-    #endif
+#endif
 #ifdef LOCAL
     SDL_Delay(10000);
 #endif
