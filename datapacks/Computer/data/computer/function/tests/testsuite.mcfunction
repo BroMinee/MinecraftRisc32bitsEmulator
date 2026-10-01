@@ -2,641 +2,645 @@ execute as @s[tag=DEBUG] run scoreboard players set hasDebugTag tests 1
 tag @s remove DEBUG
 execute as @s[tag=WARNING] run scoreboard players set hasWarningTag tests 1
 tag @s remove WARNING
-# add
-execute as @e[tag=pc,limit=1] run function computer:tests/test/add_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/add_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/add_test
-# addi
-execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_test
-# addi_all_reg
-execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_all_reg_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_all_reg_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_all_reg_test
-# addi_neg
-execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_neg_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_neg_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_neg_test
-# and
-execute as @e[tag=pc,limit=1] run function computer:tests/test/and_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/and_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/and_test
 # andi
 execute as @e[tag=pc,limit=1] run function computer:tests/test/andi_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/andi_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/andi_test
-# auipc
-execute as @e[tag=pc,limit=1] run function computer:tests/test/auipc_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/auipc_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/auipc_test
-# beq_equal_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_equal_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_equal_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_equal_negatif_test
-# beq_equal_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_equal_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_equal_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_equal_positif_test
-# beq_forward_backward
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_forward_backward_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_forward_backward_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_forward_backward_test
-# beq_greater_negatif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_negatif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_negatif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_negatif_negatif_test
-# beq_greater_negatif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_negatif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_negatif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_negatif_positif_test
-# beq_greater_positif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_positif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_positif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_positif_negatif_test
-# beq_greater_positif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_positif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_positif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_positif_positif_test
-# beq_lower_negatif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_negatif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_negatif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_negatif_negatif_test
-# beq_lower_negatif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_negatif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_negatif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_negatif_positif_test
-# beq_lower_positif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_positif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_positif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_positif_negatif_test
-# beq_lower_positif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_positif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_positif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_positif_positif_test
-# bgeu_equal_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_equal_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_equal_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_equal_negatif_test
-# bgeu_equal_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_equal_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_equal_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_equal_positif_test
-# bgeu_forward_backward
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_forward_backward_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_forward_backward_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_forward_backward_test
-# bgeu_greater_negatif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_negatif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_negatif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_negatif_negatif_test
-# bgeu_greater_negatif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_negatif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_negatif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_negatif_positif_test
-# bgeu_greater_positif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_positif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_positif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_positif_negatif_test
-# bgeu_greater_positif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_positif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_positif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_positif_positif_test
-# bgeu_lower_negatif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_negatif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_negatif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_negatif_negatif_test
-# bgeu_lower_negatif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_negatif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_negatif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_negatif_positif_test
-# bgeu_lower_positif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_positif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_positif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_positif_negatif_test
-# bgeu_lower_positif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_positif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_positif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_positif_positif_test
-# bge_equal_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_equal_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_equal_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_equal_negatif_test
-# bge_equal_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_equal_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_equal_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_equal_positif_test
-# bge_forward_backward
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_forward_backward_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_forward_backward_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_forward_backward_test
-# bge_greater_negatif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_negatif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_negatif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_negatif_negatif_test
-# bge_greater_negatif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_negatif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_negatif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_negatif_positif_test
-# bge_greater_positif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_positif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_positif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_positif_negatif_test
-# bge_greater_positif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_positif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_positif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_positif_positif_test
-# bge_lower_negatif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_negatif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_negatif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_negatif_negatif_test
-# bge_lower_negatif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_negatif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_negatif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_negatif_positif_test
-# bge_lower_positif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_positif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_positif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_positif_negatif_test
-# bge_lower_positif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_positif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_positif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_positif_positif_test
-# bltu_equal_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_equal_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_equal_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_equal_negatif_test
-# bltu_equal_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_equal_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_equal_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_equal_positif_test
-# bltu_forward_backward
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_forward_backward_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_forward_backward_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_forward_backward_test
-# bltu_greater_negatif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_negatif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_negatif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_negatif_negatif_test
-# bltu_greater_negatif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_negatif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_negatif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_negatif_positif_test
-# bltu_greater_positif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_positif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_positif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_positif_negatif_test
-# bltu_greater_positif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_positif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_positif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_positif_positif_test
-# bltu_lower_negatif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_negatif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_negatif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_negatif_negatif_test
-# bltu_lower_negatif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_negatif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_negatif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_negatif_positif_test
-# bltu_lower_positif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_positif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_positif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_positif_negatif_test
-# bltu_lower_positif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_positif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_positif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_positif_positif_test
-# blt_equal_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_equal_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_equal_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_equal_negatif_test
-# blt_equal_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_equal_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_equal_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_equal_positif_test
-# blt_forward_backward
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_forward_backward_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_forward_backward_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_forward_backward_test
-# blt_greater_negatif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_negatif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_negatif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_negatif_negatif_test
-# blt_greater_negatif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_negatif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_negatif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_negatif_positif_test
 # blt_greater_positif_negatif
 execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_positif_negatif_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_positif_negatif_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_positif_negatif_test
-# blt_greater_positif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_positif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_positif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_positif_positif_test
-# blt_lower_negatif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_negatif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_negatif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_negatif_negatif_test
-# blt_lower_negatif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_negatif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_negatif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_negatif_positif_test
-# blt_lower_positif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_positif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_positif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_positif_negatif_test
-# blt_lower_positif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_positif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_positif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_positif_positif_test
-# bne_equal_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_equal_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_equal_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_equal_negatif_test
-# bne_equal_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_equal_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_equal_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_equal_positif_test
-# bne_forward_backward
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_forward_backward_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_forward_backward_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_forward_backward_test
-# bne_greater_negatif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_negatif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_negatif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_negatif_negatif_test
-# bne_greater_negatif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_negatif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_negatif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_negatif_positif_test
-# bne_greater_positif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_positif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_positif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_positif_negatif_test
-# bne_greater_positif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_positif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_positif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_positif_positif_test
-# bne_lower_negatif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_negatif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_negatif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_negatif_negatif_test
-# bne_lower_negatif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_negatif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_negatif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_negatif_positif_test
-# bne_lower_positif_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_positif_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_positif_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_positif_negatif_test
-# bne_lower_positif_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_positif_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_positif_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_positif_positif_test
-# divu_0
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_0_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_0_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_0_test
-# divu_1
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_1_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_1_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_1_test
-# divu_2
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_2_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_2_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_2_test
-# divu_3
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_3_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_3_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_3_test
-# divu_n_n
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_n_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_n_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_n_test
-# divu_n_p
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_p_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_p_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_p_test
-# divu_p_n
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_p_n_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_p_n_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_p_n_test
-# div_0
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_0_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_0_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_0_test
-# div_1
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_1_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_1_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_1_test
-# div_2
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_2_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_2_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_2_test
-# div_3
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_3_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_3_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_3_test
-# div_n_n
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_n_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_n_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_n_test
-# div_n_p
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_p_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_p_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_p_test
-# div_p_n
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_p_n_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_p_n_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/div_p_n_test
-# fadd.s_-0.3_plus_0.3
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.3_plus_0.3_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.3_plus_0.3_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.3_plus_0.3_test
-# fadd.s_-0.3_plus_0.5
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.3_plus_0.5_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.3_plus_0.5_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.3_plus_0.5_test
-# fadd.s_-0.5_plus_0.3
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.5_plus_0.3_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.5_plus_0.3_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.5_plus_0.3_test
-# fadd.s_-15.165_plus-184896.3125
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-15.165_plus-184896.3125_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-15.165_plus-184896.3125_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-15.165_plus-184896.3125_test
-# fadd.s_0.1_plus_0.2
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_0.1_plus_0.2_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_0.1_plus_0.2_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_0.1_plus_0.2_test
-# fadd.s_0_plus_0.3
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_0_plus_0.3_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_0_plus_0.3_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_0_plus_0.3_test
-# fadd.s_1e38_plus_1e-38
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_1e38_plus_1e-38_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_1e38_plus_1e-38_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_1e38_plus_1e-38_test
-# fadd.s_same_exponent
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_same_exponent_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_same_exponent_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_same_exponent_test
-# fadd.s_test_all
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_all_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_all_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_all_test
-# fadd.s_test_overflow
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_overflow_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_overflow_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_overflow_test
-# flw
-execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_test
-# flw_offset
-execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_offset_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_offset_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_offset_test
-# fmv.w.x
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.w.x_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.w.x_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.w.x_test
-# fmv.x.w
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.x.w_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.x.w_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.x.w_test
-# fsw
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fsw_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fsw_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/fsw_test
-# jal
-execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_test
-# jalr
-execute as @e[tag=pc,limit=1] run function computer:tests/test/jalr_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/jalr_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/jalr_test
-# lbu
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_test
-# lbu_offset
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_offset_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_offset_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_offset_test
-# lb_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_negatif_test
-# lb_offset
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_offset_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_offset_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_offset_test
-# lb_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_positif_test
-# lhu
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_test
-# lhu_offset
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_offset_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_offset_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_offset_test
-# lh_negative
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_negative_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_negative_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_negative_test
-# lh_offset
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_offset_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_offset_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_offset_test
-# lh_positive
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_positive_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_positive_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_positive_test
-# lui
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lui_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lui_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lui_test
-# lw
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lw_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lw_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lw_test
-# lw_offset
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lw_offset_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lw_offset_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/lw_offset_test
-# mul_0
-execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_0_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_0_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_0_test
-# mul_1
-execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_1_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_1_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_1_test
-# mul_2
-execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_2_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_2_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_2_test
-# mul_n_n_overflow
-execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_n_overflow_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_n_overflow_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_n_overflow_test
-# mul_n_p
-execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_p_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_p_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_p_test
-# mv
-execute as @e[tag=pc,limit=1] run function computer:tests/test/mv_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/mv_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/mv_test
-# nop
-execute as @e[tag=pc,limit=1] run function computer:tests/test/nop_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/nop_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/nop_test
-# or
-execute as @e[tag=pc,limit=1] run function computer:tests/test/or_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/or_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/or_test
-# ori
-execute as @e[tag=pc,limit=1] run function computer:tests/test/ori_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/ori_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/ori_test
-# remu_0
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_0_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_0_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_0_test
-# remu_1
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_1_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_1_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_1_test
-# remu_2
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_2_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_2_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_2_test
-# remu_3
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_3_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_3_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_3_test
-# remu_n_n
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_n_n_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_n_n_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_n_n_test
-# remu_n_p
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_n_p_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_n_p_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_n_p_test
-# remu_p_n
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_p_n_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_p_n_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_p_n_test
-# rem_0
-execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_0_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_0_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_0_test
-# rem_1
-execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_1_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_1_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_1_test
-# rem_2
-execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_2_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_2_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_2_test
-# rem_3
-execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_3_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_3_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_3_test
-# rem_n_n
-execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_n_n_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_n_n_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_n_n_test
 # rem_n_p
 execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_n_p_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_n_p_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_n_p_test
-# rem_p_n
-execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_p_n_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_p_n_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_p_n_test
-# sb
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sb_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sb_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sb_test
-# sh
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sh_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sh_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sh_test
-# sh2
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sh2_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sh2_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sh2_test
-# sll
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_test
-# slli
-execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_test
-# slli_0
-execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_0_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_0_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_0_test
-# sll_0
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_0_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_0_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_0_test
-# sra
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sra_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sra_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sra_test
-# srai_0
-execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_0_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_0_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_0_test
-# srai_negatif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_negatif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_negatif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_negatif_test
-# srai_positif
-execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_positif_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_positif_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_positif_test
-# sra_0
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sra_0_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sra_0_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sra_0_test
-# srli
-execute as @e[tag=pc,limit=1] run function computer:tests/test/srli_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/srli_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/srli_test
-# srli_0
-execute as @e[tag=pc,limit=1] run function computer:tests/test/srli_0_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/srli_0_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/srli_0_test
+# fadd.s_0.1_plus_0.2
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_0.1_plus_0.2_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_0.1_plus_0.2_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_0.1_plus_0.2_test
+# bltu_greater_negatif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_negatif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_negatif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_negatif_positif_test
+# bge_equal_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_equal_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_equal_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_equal_negatif_test
+# divu_0
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_0_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_0_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_0_test
+# rem_2
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_2_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_2_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_2_test
+# bgeu_greater_positif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_positif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_positif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_positif_positif_test
+# bne_forward_backward
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_forward_backward_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_forward_backward_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_forward_backward_test
+# divu_2
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_2_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_2_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_2_test
+# bne_greater_negatif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_negatif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_negatif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_negatif_positif_test
+# add
+execute as @e[tag=pc,limit=1] run function computer:tests/test/add_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/add_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/add_test
+# bltu_equal_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_equal_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_equal_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_equal_negatif_test
 # srl_0
 execute as @e[tag=pc,limit=1] run function computer:tests/test/srl_0_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/srl_0_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/srl_0_test
-# sub
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sub_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sub_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sub_test
-# sw
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sw_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sw_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/sw_test
-# xor
-execute as @e[tag=pc,limit=1] run function computer:tests/test/xor_load
-execute as @e[tag=pc,limit=1] run function computer:tests/test/xor_run
-execute as @e[tag=pc,limit=1] run function computer:tests/test/xor_test
+# sll
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_test
+# lb_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_negatif_test
+# bne_lower_negatif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_negatif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_negatif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_negatif_negatif_test
+# blt_greater_negatif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_negatif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_negatif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_negatif_negatif_test
+# bgeu_greater_positif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_positif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_positif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_positif_negatif_test
+# nop
+execute as @e[tag=pc,limit=1] run function computer:tests/test/nop_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/nop_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/nop_test
+# bltu_equal_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_equal_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_equal_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_equal_positif_test
+# rem_3
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_3_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_3_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_3_test
+# div_n_n
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_n_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_n_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_n_test
+# mul_0
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_0_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_0_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_0_test
+# bne_greater_negatif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_negatif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_negatif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_negatif_negatif_test
 # xori
 execute as @e[tag=pc,limit=1] run function computer:tests/test/xori_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/xori_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/xori_test
+# or
+execute as @e[tag=pc,limit=1] run function computer:tests/test/or_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/or_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/or_test
+# divu_1
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_1_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_1_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_1_test
+# bltu_lower_negatif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_negatif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_negatif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_negatif_positif_test
+# blt_greater_positif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_positif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_positif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_positif_positif_test
+# remu_3
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_3_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_3_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_3_test
+# mul_n_n_overflow
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_n_overflow_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_n_overflow_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_n_overflow_test
+# fadd.s_-0.3_plus_0.5
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.3_plus_0.5_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.3_plus_0.5_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.3_plus_0.5_test
+# bgeu_lower_negatif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_negatif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_negatif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_negatif_positif_test
+# blt_lower_negatif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_negatif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_negatif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_negatif_negatif_test
+# lh_positive
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_positive_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_positive_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_positive_test
+# beq_greater_positif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_positif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_positif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_positif_positif_test
+# ori
+execute as @e[tag=pc,limit=1] run function computer:tests/test/ori_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/ori_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/ori_test
+# bne_lower_positif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_positif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_positif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_positif_negatif_test
+# remu_2
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_2_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_2_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_2_test
+# rem_1
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_1_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_1_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_1_test
+# fadd.s_-0.5_plus_0.3
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.5_plus_0.3_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.5_plus_0.3_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.5_plus_0.3_test
+# auipc
+execute as @e[tag=pc,limit=1] run function computer:tests/test/auipc_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/auipc_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/auipc_test
+# mul_2
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_2_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_2_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_2_test
+# bge_lower_negatif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_negatif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_negatif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_negatif_positif_test
+# blt_greater_negatif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_negatif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_negatif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_greater_negatif_positif_test
+# bge_forward_backward
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_forward_backward_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_forward_backward_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_forward_backward_test
+# sub
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sub_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sub_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sub_test
+# bgeu_lower_negatif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_negatif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_negatif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_negatif_negatif_test
+# bne_lower_positif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_positif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_positif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_positif_positif_test
+# bltu_greater_negatif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_negatif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_negatif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_negatif_negatif_test
+# beq_lower_negatif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_negatif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_negatif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_negatif_negatif_test
+# beq_greater_negatif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_negatif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_negatif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_negatif_negatif_test
+# blt_lower_positif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_positif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_positif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_positif_positif_test
+# beq_equal_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_equal_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_equal_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_equal_positif_test
+# fadd.s_more
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_more_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_more_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_more_test
+# rem_0
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_0_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_0_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_0_test
+# sra
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sra_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sra_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sra_test
+# lhu_offset
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_offset_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_offset_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_offset_test
+# slli_0
+execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_0_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_0_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_0_test
+# lh_negative
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_negative_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_negative_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_negative_test
+# beq_greater_negatif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_negatif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_negatif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_negatif_positif_test
+# divu_3
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_3_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_3_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_3_test
+# addi
+execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_test
+# sb
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sb_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sb_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sb_test
+# sll_0
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_0_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_0_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sll_0_test
+# beq_greater_positif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_positif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_positif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_greater_positif_negatif_test
+# bltu_lower_positif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_positif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_positif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_positif_positif_test
+# sw
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sw_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sw_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sw_test
+# remu_n_p
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_n_p_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_n_p_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_n_p_test
+# bge_greater_positif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_positif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_positif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_positif_positif_test
+# blt_lower_positif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_positif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_positif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_positif_negatif_test
+# lbu_offset
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_offset_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_offset_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_offset_test
+# lhu
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lhu_test
+# div_p_n
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_p_n_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_p_n_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_p_n_test
+# bgeu_greater_negatif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_negatif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_negatif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_negatif_negatif_test
+# lw_offset
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lw_offset_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lw_offset_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lw_offset_test
+# bgeu_forward_backward
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_forward_backward_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_forward_backward_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_forward_backward_test
+# mul_n_p
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_p_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_p_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_p_test
+# addi_neg
+execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_neg_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_neg_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_neg_test
+# jalr
+execute as @e[tag=pc,limit=1] run function computer:tests/test/jalr_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/jalr_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/jalr_test
+# lui
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lui_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lui_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lui_test
+# bgeu_greater_negatif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_negatif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_negatif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_greater_negatif_positif_test
+# fadd.s_1e38_plus_1e-38
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_1e38_plus_1e-38_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_1e38_plus_1e-38_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_1e38_plus_1e-38_test
+# rem_n_n
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_n_n_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_n_n_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_n_n_test
+# divu_n_p
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_p_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_p_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_p_test
+# flw
+execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_test
+# bltu_greater_positif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_positif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_positif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_positif_positif_test
+# fsw
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fsw_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fsw_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fsw_test
+# bge_lower_positif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_positif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_positif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_positif_positif_test
+# lh_offset
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_offset_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_offset_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lh_offset_test
+# fmv.x.w
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.x.w_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.x.w_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.x.w_test
+# mv
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mv_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mv_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mv_test
+# srli
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srli_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srli_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srli_test
+# beq_lower_negatif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_negatif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_negatif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_negatif_positif_test
+# flw_offset
+execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_offset_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_offset_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_offset_test
+# bge_greater_negatif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_negatif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_negatif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_negatif_positif_test
+# bne_equal_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_equal_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_equal_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_equal_positif_test
+# bne_equal_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_equal_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_equal_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_equal_negatif_test
+# bge_greater_positif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_positif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_positif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_positif_negatif_test
+# bge_lower_negatif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_negatif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_negatif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_negatif_negatif_test
+# srai_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_positif_test
+# xor
+execute as @e[tag=pc,limit=1] run function computer:tests/test/xor_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/xor_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/xor_test
+# rem_p_n
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_p_n_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_p_n_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/rem_p_n_test
+# remu_p_n
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_p_n_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_p_n_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_p_n_test
+# remu_0
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_0_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_0_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_0_test
+# blt_equal_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_equal_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_equal_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_equal_negatif_test
+# fadd.s_test_all
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_all_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_all_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_all_test
+# fadd.s_same_exponent
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_same_exponent_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_same_exponent_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_same_exponent_test
+# mul_1
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_1_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_1_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_1_test
+# bne_greater_positif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_positif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_positif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_positif_negatif_test
+# srli_0
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srli_0_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srli_0_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srli_0_test
+# divu_p_n
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_p_n_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_p_n_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_p_n_test
+# div_2
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_2_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_2_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_2_test
+# fadd.s_test_overflow
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_overflow_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_overflow_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_overflow_test
+# blt_equal_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_equal_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_equal_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_equal_positif_test
+# sra_0
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sra_0_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sra_0_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sra_0_test
+# remu_1
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_1_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_1_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_1_test
+# beq_lower_positif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_positif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_positif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_positif_positif_test
+# addi_all_reg
+execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_all_reg_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_all_reg_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/addi_all_reg_test
+# fadd.s_-15.165_plus-184896.3125
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-15.165_plus-184896.3125_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-15.165_plus-184896.3125_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-15.165_plus-184896.3125_test
+# lbu
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lbu_test
+# div_n_p
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_p_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_p_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_n_p_test
+# sh2
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sh2_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sh2_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sh2_test
+# srai_0
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_0_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_0_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_0_test
+# lb_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_positif_test
+# div_0
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_0_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_0_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_0_test
+# bltu_lower_negatif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_negatif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_negatif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_negatif_negatif_test
+# sh
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sh_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sh_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sh_test
+# bgeu_lower_positif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_positif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_positif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_positif_positif_test
+# div_3
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_3_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_3_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_3_test
+# slli
+execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_test
+# bne_lower_negatif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_negatif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_negatif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_lower_negatif_positif_test
+# div_1
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_1_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_1_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/div_1_test
+# blt_forward_backward
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_forward_backward_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_forward_backward_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_forward_backward_test
+# bgeu_equal_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_equal_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_equal_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_equal_positif_test
+# blt_lower_negatif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_negatif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_negatif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/blt_lower_negatif_positif_test
+# beq_lower_positif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_positif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_positif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_lower_positif_negatif_test
+# and
+execute as @e[tag=pc,limit=1] run function computer:tests/test/and_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/and_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/and_test
+# bge_greater_negatif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_negatif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_negatif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_greater_negatif_negatif_test
+# bltu_lower_positif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_positif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_positif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_positif_negatif_test
+# bgeu_lower_positif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_positif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_positif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_lower_positif_negatif_test
+# bge_lower_positif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_positif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_positif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_positif_negatif_test
+# bltu_forward_backward
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_forward_backward_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_forward_backward_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_forward_backward_test
+# srai_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_negatif_test
+# beq_equal_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_equal_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_equal_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_equal_negatif_test
+# remu_n_n
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_n_n_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_n_n_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/remu_n_n_test
+# bge_equal_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_equal_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_equal_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_equal_positif_test
+# bgeu_equal_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_equal_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_equal_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bgeu_equal_negatif_test
+# fadd.s_0_plus_0.3
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_0_plus_0.3_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_0_plus_0.3_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_0_plus_0.3_test
+# jal
+execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/jal_test
+# bltu_greater_positif_negatif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_positif_negatif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_positif_negatif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_greater_positif_negatif_test
+# bne_greater_positif_positif
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_positif_positif_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_positif_positif_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/bne_greater_positif_positif_test
+# fmv.w.x
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.w.x_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.w.x_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.w.x_test
+# beq_forward_backward
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_forward_backward_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_forward_backward_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/beq_forward_backward_test
+# divu_n_n
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_n_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_n_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/divu_n_n_test
+# lb_offset
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_offset_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_offset_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_offset_test
+# fadd.s_-0.3_plus_0.3
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.3_plus_0.3_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.3_plus_0.3_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_-0.3_plus_0.3_test
+# lw
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lw_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lw_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/lw_test
 execute if score hasDebugTag tests matches 1 run tag @s add DEBUG
 execute if score hasWarningTag tests matches 1 run tag @s add WARNING
