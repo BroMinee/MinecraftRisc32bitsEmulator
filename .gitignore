@@ -1,6 +1,3 @@
-entities/
-DIM-1/data/raids.dat
-DIM1/data/raids_end.dat
 playerdata/
 stats/
 advancements/
@@ -10,7 +7,20 @@ datapacks/tempCodeRunnerFile.py
 datapacks/scripts/tempCodeRunnerFile.py
 /minimap/
 /data/
-/poi/
-/region/
 level.dat
 level.dat_old
+players/
+
+# Ignorer nether and end
+dimensions/minecraft/the_nether/
+dimensions/minecraft/the_end/
+
+# Include spawn chunk only
+dimensions/minecraft/overworld/region/*
+!dimensions/minecraft/overworld/region/r.0.0.mca
+
+dimensions/minecraft/overworld/entities/*
+!dimensions/minecraft/overworld/entities/r.0.0.mca
+
+dimensions/minecraft/overworld/poi/*
+!dimensions/minecraft/overworld/poi/r.0.0.mca
