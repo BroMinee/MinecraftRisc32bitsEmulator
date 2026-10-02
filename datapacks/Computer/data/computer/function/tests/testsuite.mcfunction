@@ -406,6 +406,10 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_offset_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_offset_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_offset_test
+# fmax.s
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmax.s_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmax.s_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmax.s_test
 # fmin.s
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmin.s_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmin.s_run

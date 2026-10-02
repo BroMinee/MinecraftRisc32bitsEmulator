@@ -120,7 +120,7 @@ or this one to do it faster
 - ❌ fsgnjn.s
 - ❌ fsgnjx.s
 - ✅ fmin.s
-- ❌ fmax.s
+- ✅ fmax.s
 - ❌ fcvt.w.s
 - ❌ fcvt.wu.s
 - ✅ fmv.x.w
