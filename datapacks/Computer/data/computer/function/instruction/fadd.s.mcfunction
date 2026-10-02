@@ -36,6 +36,9 @@ scoreboard players operation rs1_lower Computer = compare Computer
 function computer:alu/compare_lower_strict_unsigned_rs1_mantissa_rs2_mantissa
 scoreboard players operation rs1_lower_mantissa Computer = compare Computer
 
+# when exponents are equal, use mantissa comparison to determine rs1_lower
+execute if score equal_exponent Computer matches 1 run scoreboard players operation rs1_lower Computer = rs1_lower_mantissa Computer
+
 # when count is 0 we set the 22 bits by a 1
 scoreboard players set count Computer 0
 execute if score equal_exponent Computer matches 0 run execute if score rs1_lower Computer matches 1 run function computer:alu/shift_right_rs1_mantissa_until_exponent_are_equal
