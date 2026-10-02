@@ -325,7 +325,7 @@ with open("./Computer/data/computer/function/tests/testsuite.mcfunction", 'w') a
     f_testsuite.write("execute as @s[tag=WARNING] run scoreboard players set hasWarningTag tests 1\n")
     f_testsuite.write("tag @s remove WARNING\n")
 
-    for file in files:
+    for file in sorted(files):
         print(f"Processing {file}")
         with open(f"./tests/{file}", 'r') as f:
             lines = []
