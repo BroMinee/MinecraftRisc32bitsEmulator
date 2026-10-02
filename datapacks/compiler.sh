@@ -28,24 +28,24 @@ OBJCOPY="riscv32-unknown-linux-gnu-objcopy"
 # Compile C file
 if [ "$EXTENSION" == "c" ]; then
     echo "Compiling C file: $SOURCE_FILE"
-    $COMPILER -march=rv32im -O3 -mabi=ilp32 -ffreestanding -nostdlib -c "$SOURCE_FILE" -o "$OBJ_FILE"
+    $COMPILER -march=rv32imf -O3 -mabi=ilp32f -ffreestanding -nostdlib -c "$SOURCE_FILE" -o "$OBJ_FILE"
     if [ $? -ne 0 ]; then
         echo "Error: Compilation of C file failed."
         exit 2
     fi
-    $COMPILER -march=rv32im -O3 -mabi=ilp32 -ffreestanding -nostdlib -S "$SOURCE_FILE"
+    $COMPILER -march=rv32imf -O3 -mabi=ilp32f -ffreestanding -nostdlib -S "$SOURCE_FILE"
     if [ $? -ne 0 ]; then
 	echo "Error: Compilation of C file failed (compiler)."
         exit 2
     fi
 elif [ "$EXTENSION" == "s" ]; then
     echo "Compiling s file: $SOURCE_FILE"
-    $COMPILER -march=rv32im -mabi=ilp32 -c "$SOURCE_FILE" -o "$OBJ_FILE"
+    $COMPILER -march=rv32imf -mabi=ilp32f -c "$SOURCE_FILE" -o "$OBJ_FILE"
     if [ $? -ne 0 ]; then
         echo "Error: Compilation of s file failed."
         exit 2
     fi
-    $COMPILER -march=rv32im -mabi=ilp32 -S "$SOURCE_FILE"
+    $COMPILER -march=rv32imf -mabi=ilp32f -S "$SOURCE_FILE"
     if [ $? -ne 0 ]; then
 	echo "Error: Compilation of s file failed (compiler)."
         exit 2
