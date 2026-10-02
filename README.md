@@ -112,7 +112,7 @@ or this one to do it faster
 - ❌ fnmsub.s
 - ❌ fnmadd.s
 - ✅ fadd.s
-- ❌ fsub.s
+- ✅ fsub.s
 - ❌ fmul.s
 - ❌ fdiv.s
 - ❌ fsqrt.s

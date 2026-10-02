@@ -414,6 +414,10 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/bge_lower_negatif
 execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_positif_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_positif_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/srai_positif_test
+# fsub.s
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fsub.s_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fsub.s_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fsub.s_test
 # xor
 execute as @e[tag=pc,limit=1] run function computer:tests/test/xor_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/xor_run

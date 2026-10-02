@@ -30,7 +30,8 @@ scoreboard players operation input_l_4 add25 = input_l_3 add25
 scoreboard players operation input_l_3 add25 = input_l_2 add25
 scoreboard players operation input_l_2 add25 = input_l_1 add25
 scoreboard players operation input_l_1 add25 = input_l_0 add25
-scoreboard players set input_l_0 add25 0
+execute if score nb_shifting_mantissa Computer matches 1 run scoreboard players operation input_l_0 add25 = fadd_last_bit Computer
+execute if score nb_shifting_mantissa Computer matches 2.. run scoreboard players set input_l_0 add25 0
 
 
 execute if score nb_shifting_mantissa Computer matches 23 run tellraw @a[tag=ERROR] ["",{"text":"Error: [shift_left_input_l_add_25_until_alignement] 23 cycles reteched","color":"red","bold": true}]
