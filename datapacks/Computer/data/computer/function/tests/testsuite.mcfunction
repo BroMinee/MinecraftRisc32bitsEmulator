@@ -518,6 +518,10 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/lb_positif_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/div_0_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/div_0_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/div_0_test
+# fadd.s_guard_bit
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_guard_bit_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_guard_bit_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_guard_bit_test
 # bltu_lower_negatif_negatif
 execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_negatif_negatif_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/bltu_lower_negatif_negatif_run

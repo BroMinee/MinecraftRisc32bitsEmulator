@@ -71,6 +71,9 @@ execute if score sub Computer matches 1 run execute if score rs1_lower Computer 
 
 function computer:alu/add_25bits
 
+# when sub=1 and guard bit was 1, decrement result by 1 to account for the
+# fractional guard bit lost during mantissa alignment shift
+execute if score sub Computer matches 1 run execute if score fadd_last_bit Computer matches 1 run function computer:alu/sub_1_input_l_add25
 
 scoreboard players set fadd_is_zero Computer 0
 execute if score input_l_0 add25 matches 0 run execute if score input_l_1 add25 matches 0 run execute if score input_l_2 add25 matches 0 run execute if score input_l_3 add25 matches 0 run execute if score input_l_4 add25 matches 0 run execute if score input_l_5 add25 matches 0 run execute if score input_l_6 add25 matches 0 run execute if score input_l_7 add25 matches 0 run execute if score input_l_8 add25 matches 0 run execute if score input_l_9 add25 matches 0 run execute if score input_l_10 add25 matches 0 run execute if score input_l_11 add25 matches 0 run execute if score input_l_12 add25 matches 0 run execute if score input_l_13 add25 matches 0 run execute if score input_l_14 add25 matches 0 run execute if score input_l_15 add25 matches 0 run execute if score input_l_16 add25 matches 0 run execute if score input_l_17 add25 matches 0 run execute if score input_l_18 add25 matches 0 run execute if score input_l_19 add25 matches 0 run execute if score input_l_20 add25 matches 0 run execute if score input_l_21 add25 matches 0 run execute if score input_l_22 add25 matches 0 run execute if score input_l_23 add25 matches 0 run execute if score input_l_24 add25 matches 0 run scoreboard players set fadd_is_zero Computer 1
@@ -86,10 +89,11 @@ execute if score fadd_is_zero Computer matches 0 run execute if score input_l_24
 # if n-1 is 0 when nothing
 scoreboard players set fadd_round Computer 0
 # if n-1 is 1 and there has been more than two '1'  discarded then we round up
-execute if score fadd_last_bit Computer matches 1 run execute if score fadd_nb_1_discarded Computer matches 2.. run scoreboard players set fadd_round Computer 1
+# rounding only applies for addition (sub=0), not subtraction - guard bit is handled by decrement+left-shift insertion
+execute if score sub Computer matches 0 run execute if score fadd_last_bit Computer matches 1 run execute if score fadd_nb_1_discarded Computer matches 2.. run scoreboard players set fadd_round Computer 1
 
 # if n-1 is 1 and there has been less or equal than one '1' discarded then we round up if least significat bit is 1
-execute if score fadd_last_bit Computer matches 1 run execute if score fadd_nb_1_discarded Computer matches 1 run execute if score input_l_0 add25 matches 1 run scoreboard players set fadd_round Computer 1
+execute if score sub Computer matches 0 run execute if score fadd_last_bit Computer matches 1 run execute if score fadd_nb_1_discarded Computer matches 1 run execute if score input_l_0 add25 matches 1 run scoreboard players set fadd_round Computer 1
 
 execute if score fadd_round Computer matches 1 run function computer:misc/set_input_r_25bits_to_1
 execute if score fadd_round Computer matches 1 run function computer:alu/add_25bits
