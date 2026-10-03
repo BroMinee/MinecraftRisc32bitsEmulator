@@ -622,6 +622,10 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_0_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_0_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/slli_0_test
+# sltu
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sltu_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sltu_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/sltu_test
 # sra
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sra_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/sra_run

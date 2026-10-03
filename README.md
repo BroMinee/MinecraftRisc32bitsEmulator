@@ -184,7 +184,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `sub`       |
 | ✅     | `sll`       |
 | ❌     | `slt`       |
-| ❌     | `sltu`      |
+| ✅     | `sltu`      |
 | ✅     | `xor`       |
 | ✅     | `srl`       |
 | ✅     | `sra`       |
