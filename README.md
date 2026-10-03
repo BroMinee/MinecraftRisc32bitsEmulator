@@ -269,7 +269,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `feq.s`     |
 | ✅     | `flt.s`     |
 | ✅     | `fle.s`     |
-| ❌     | `fclass.s`  |
+| ✅     | `fclass.s`  |
 | ❌     | `fcvt.s.w`  |
 | ❌     | `fcvt.s.wu` |
 | ✅     | `fmv.w.x`   |
