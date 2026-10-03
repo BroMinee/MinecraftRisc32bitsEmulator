@@ -238,7 +238,7 @@ The following table lists the supported and unsupported instructions.
 | ------ | ----------- |
 | ✅     | `mul`       |
 | ❌     | `mulh`      |
-| ❌     | `mulhsu`    |
+| ✅     | `mulhsu`    |
 | ✅     | `mulhu`     |
 | ✅     | `div`       |
 | ✅     | `divu`      |

@@ -1,0 +1,64 @@
+00000000  93 00 30 00 13 01 50 00  b3 a1 20 02 13 02 f0 ff  |..0...P... .....|
+00000010  93 02 20 00 33 23 52 02  93 03 f0 ff 13 04 10 00  |.. .3#R.........|
+00000020  b3 a4 83 02 13 05 00 00  b7 35 00 00 93 85 95 03  |.........5......|
+00000030  33 26 b5 02 b7 06 00 80  93 86 f6 ff 13 07 20 00  |3&............ .|
+00000040  b3 a7 e6 02 13 08 e0 ff  93 08 f0 ff 33 29 18 03  |............3)..|
+00000050  93 09 10 00 13 0a f0 ff  b3 aa 49 03 13 0b f0 ff  |..........I.....|
+00000060  93 0b f0 ff 33 2c 7b 03  b7 0c 00 80 13 0d 20 00  |....3,{....... .|
+00000070  b3 ad ac 03                                       |....|
+00000074
+
+# li x1, 3
+# li x2, 5
+# mulhsu x3, x1, x2        # upper(3*5) = 0 -> x3 = 0
+# li x4, -1
+# li x5, 2
+# mulhsu x6, x4, x5        # upper(-1*2) = 0xFFFFFFFF -> x6 = 0xFFFFFFFF
+# li x7, -1
+# li x8, 1
+# mulhsu x9, x7, x8        # upper(-1*1) = 0xFFFFFFFF -> x9 = 0xFFFFFFFF
+# li x10, 0
+# lui x11, 0x3
+# addi x11, x11, 0x039
+# mulhsu x12, x10, x11     # upper(0) = 0 -> x12 = 0
+# lui x13, 0x80000
+# addi x13, x13, -1
+# li x14, 2
+# mulhsu x15, x13, x14     # upper(0x7FFFFFFF*2) = 0 -> x15 = 0
+# li x16, -2
+# li x17, -1
+# mulhsu x18, x16, x17     # upper(-2 * 0xFFFFFFFF) = 0xFFFFFFFE -> x18 = 0xFFFFFFFE
+# li x19, 1
+# li x20, -1
+# mulhsu x21, x19, x20     # upper(1 * 0xFFFFFFFF) = 0 -> x21 = 0
+# li x22, -1
+# li x23, -1
+# mulhsu x24, x22, x23     # upper(-1 * 0xFFFFFFFF) = 0xFFFFFFFF -> x24 = 0xFFFFFFFF
+# lui x25, 0x80000
+# li x26, 2
+# mulhsu x27, x25, x26     # upper(-2147483648 * 2) = 0xFFFFFFFF -> x27 = 0xFFFFFFFF
+
+## cycle 29
+## pc 00000074
+## x1 00000003
+## x2 00000005
+## x4 ffffffff
+## x5 00000002
+## x6 ffffffff
+## x7 ffffffff
+## x8 00000001
+## x9 ffffffff
+## x11 00003039
+## x13 7fffffff
+## x14 00000002
+## x16 fffffffe
+## x17 ffffffff
+## x18 fffffffe
+## x19 00000001
+## x20 ffffffff
+## x22 ffffffff
+## x23 ffffffff
+## x24 ffffffff
+## x25 80000000
+## x26 00000002
+## x27 ffffffff
