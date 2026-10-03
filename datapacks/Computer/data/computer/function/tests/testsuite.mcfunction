@@ -398,6 +398,10 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_all_t
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_overflow_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_overflow_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_overflow_test
+# feq.s
+execute as @e[tag=pc,limit=1] run function computer:tests/test/feq.s_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/feq.s_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/feq.s_test
 # flw
 execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_run
