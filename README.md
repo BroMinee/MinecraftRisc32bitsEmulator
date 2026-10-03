@@ -258,7 +258,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `fmul.s`    |
 | ❌     | `fdiv.s`    |
 | ❌     | `fsqrt.s`   |
-| ❌     | `fsgnj.s`   |
+| ✅     | `fsgnj.s`   |
 | ❌     | `fsgnjn.s`  |
 | ❌     | `fsgnjx.s`  |
 | ✅     | `fmin.s`    |
