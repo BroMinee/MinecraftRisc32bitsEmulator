@@ -267,8 +267,8 @@ The following table lists the supported and unsupported instructions.
 | ❌     | `fcvt.wu.s` |
 | ✅     | `fmv.x.w`   |
 | ✅     | `feq.s`     |
-| ❌     | `flt.s`     |
-| ❌     | `fle.s`     |
+| ✅     | `flt.s`     |
+| ✅     | `fle.s`     |
 | ❌     | `fclass.s`  |
 | ❌     | `fcvt.s.w`  |
 | ❌     | `fcvt.s.wu` |
