@@ -522,6 +522,10 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_n_overflow_
 execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_p_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_p_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/mul_n_p_test
+# mulh
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mulh_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mulh_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/mulh_test
 # mulhsu
 execute as @e[tag=pc,limit=1] run function computer:tests/test/mulhsu_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/mulhsu_run
