@@ -173,7 +173,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `auipc`     |
 | ✅     | `addi`      |
 | ❌     | `slti`      |
-| ❌     | `sltiu`     |
+| ✅     | `sltiu`     |
 | ✅     | `xori`      |
 | ✅     | `ori`       |
 | ✅     | `andi`      |
