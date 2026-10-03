@@ -402,6 +402,10 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_overf
 execute as @e[tag=pc,limit=1] run function computer:tests/test/feq.s_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/feq.s_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/feq.s_test
+# fle.s
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fle.s_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fle.s_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fle.s_test
 # flw
 execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_run
