@@ -430,6 +430,14 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/fmax.s_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmin.s_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmin.s_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmin.s_test
+# fmul.s
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul.s_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul.s_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul.s_test
+# fmul.s_more
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul.s_more_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul.s_more_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul.s_more_test
 # fmv.w.x
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.w.x_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.w.x_run
