@@ -418,6 +418,14 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/fcvt.w.s_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fcvt.wu.s_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fcvt.wu.s_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fcvt.wu.s_test
+# fdiv.s
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fdiv.s_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fdiv.s_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fdiv.s_test
+# fdiv.s_more
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fdiv.s_more_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fdiv.s_more_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fdiv.s_more_test
 # feq.s
 execute as @e[tag=pc,limit=1] run function computer:tests/test/feq.s_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/feq.s_run
