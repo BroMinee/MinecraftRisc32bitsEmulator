@@ -434,6 +434,10 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/fmax.s_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmin.s_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmin.s_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmin.s_test
+# fmsub.s
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmsub.s_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmsub.s_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmsub.s_test
 # fmul.s
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul.s_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul.s_run

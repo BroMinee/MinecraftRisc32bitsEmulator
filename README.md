@@ -250,7 +250,7 @@ The following table lists the supported and unsupported instructions.
 | Status | Instruction |
 | ------ | ----------- |
 | ✅     | `fmadd.s`   |
-| ❌     | `fmsub.s`   |
+| ✅     | `fmsub.s`   |
 | ❌     | `fnmsub.s`  |
 | ❌     | `fnmadd.s`  |
 | ✅     | `fadd.s`    |
