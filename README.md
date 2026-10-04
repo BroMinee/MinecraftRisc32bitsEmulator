@@ -264,7 +264,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `fmin.s`    |
 | ✅     | `fmax.s`    |
 | ✅     | `fcvt.w.s`  |
-| ❌     | `fcvt.wu.s` |
+| ✅     | `fcvt.wu.s` |
 | ✅     | `fmv.x.w`   |
 | ✅     | `feq.s`     |
 | ✅     | `flt.s`     |
