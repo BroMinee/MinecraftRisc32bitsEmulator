@@ -1,0 +1,7 @@
+# Two's complement of rd using A2 objective
+
+function computer:misc/copy_rd_to_a2
+
+function computer:alu/a2_32bits
+
+function computer:misc/copy_input_a2_to_rd
