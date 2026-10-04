@@ -454,6 +454,10 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.w.x_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.x.w_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.x.w_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.x.w_test
+# fnmadd.s
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmadd.s_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmadd.s_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmadd.s_test
 # fnmsub.s
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmsub.s_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmsub.s_run
