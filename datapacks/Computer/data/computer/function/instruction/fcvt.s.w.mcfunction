@@ -47,7 +47,7 @@ execute if score fcvt_zero Computer matches 1 run function computer:misc/reset_r
 execute if score fcvt_zero Computer matches 1 run function computer:misc/update_rd_7_11_f
 
 # If negative, take two's complement to get absolute value
-execute if score fcvt_zero Computer matches 0 run execute if score rs1_31 Computer matches 1 run function computer:alu/fcvt_s_w_negate_rs1
+execute if score fcvt_zero Computer matches 0 run execute if score rs1_31 Computer matches 1 run function computer:alu/negate_rs1
 
 # Find leading 1 position and build float
 execute if score fcvt_zero Computer matches 0 run function computer:alu/fcvt_s_w_convert

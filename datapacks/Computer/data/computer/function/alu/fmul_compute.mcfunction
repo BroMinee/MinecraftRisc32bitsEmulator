@@ -1,8 +1,6 @@
 # fmul.s rd, rs1, rs2 : rd = rs1 * rs2 (IEEE 754 single-precision)
 
-# ============================================================
 # STEP 0: Detect special values
-# ============================================================
 
 # Check if rs1 exponent is all zeros (subnormal or zero)
 scoreboard players set fmul_rs1_exp_zero Computer 1
@@ -124,16 +122,12 @@ execute if score fmul_rs1_exp_ff Computer matches 1 run execute if score fmul_rs
 scoreboard players set fmul_rs2_is_inf Computer 0
 execute if score fmul_rs2_exp_ff Computer matches 1 run execute if score fmul_rs2_man_zero Computer matches 1 run scoreboard players set fmul_rs2_is_inf Computer 1
 
-# ============================================================
 # STEP 1: Compute sign = rs1_31 XOR rs2_31
-# ============================================================
 scoreboard players set fmul_sign Computer 0
 execute if score rs1_31 Computer matches 0 run execute if score rs2_31 Computer matches 1 run scoreboard players set fmul_sign Computer 1
 execute if score rs1_31 Computer matches 1 run execute if score rs2_31 Computer matches 0 run scoreboard players set fmul_sign Computer 1
 
-# ============================================================
 # STEP 2: Handle special cases
-# ============================================================
 # fmul_special = 1 means we skip normal computation
 scoreboard players set fmul_special Computer 0
 
@@ -238,9 +232,7 @@ execute if score fmul_special Computer matches 0 run execute if score fmul_rs2_i
 execute if score fmul_rs2_is_zero Computer matches 1 run execute if score fmul_rs1_is_inf Computer matches 0 run execute if score fmul_rs1_is_nan Computer matches 0 run function computer:misc/reset_rd
 execute if score fmul_rs2_is_zero Computer matches 1 run execute if score fmul_rs1_is_inf Computer matches 0 run execute if score fmul_rs1_is_nan Computer matches 0 run scoreboard players operation rd_31 Computer = fmul_sign Computer
 
-# ============================================================
 # STEP 3: Normal multiplication (only if fmul_special == 0)
-# ============================================================
 
 # Build 24-bit mantissas with implicit leading 1 (for normals)
 # For subnormals (exp=0), no implicit 1
@@ -303,17 +295,13 @@ execute if score fmul_special Computer matches 0 run scoreboard players operatio
 execute if score fmul_special Computer matches 0 run scoreboard players set fmul_b_23 Computer 0
 execute if score fmul_special Computer matches 0 run execute if score fmul_rs2_exp_zero Computer matches 0 run scoreboard players set fmul_b_23 Computer 1
 
-# ============================================================
 # STEP 4: 24x24 bit binary multiplication using shift-and-add
 # Result: 48-bit product in fmul_prod_0..47
-# ============================================================
 execute if score fmul_special Computer matches 0 run function computer:alu/fmul_multiply_mantissa
 
-# ============================================================
 # STEP 7: Compute exponent
 # exp_sum = rs1_exp + rs2_exp - 127 (bias)
 # For subnormals, effective exponent is 1 (not 0)
-# ============================================================
 
 # Convert rs1 exponent to decimal
 execute if score fmul_special Computer matches 0 run scoreboard players set fmul_exp_a Computer 0
@@ -345,12 +333,10 @@ execute if score fmul_special Computer matches 0 run scoreboard players operatio
 execute if score fmul_special Computer matches 0 run scoreboard players operation fmul_exp_result Computer += fmul_exp_b Computer
 execute if score fmul_special Computer matches 0 run scoreboard players remove fmul_exp_result Computer 127
 
-# ============================================================
 # STEP 8: Normalize the product
 # If prod_47 == 1: shift right by 1, exp++
 # If prod_47 == 0 and prod_46 == 1: already normalized (for normal*normal)
 # If prod_47 == 0 and prod_46 == 0: subnormal product, need to shift left
-# ============================================================
 
 # If bit 47 is set, we need to shift the mantissa right by 1 and increment exponent
 execute if score fmul_special Computer matches 0 run execute if score fmul_prod_47 Computer matches 1 run scoreboard players add fmul_exp_result Computer 1
@@ -454,11 +440,9 @@ execute if score fmul_special Computer matches 0 run execute if score fmul_prod_
 execute if score fmul_special Computer matches 0 run execute if score fmul_prod_47 Computer matches 0 run scoreboard players operation rd_21 Computer = fmul_prod_44 Computer
 execute if score fmul_special Computer matches 0 run execute if score fmul_prod_47 Computer matches 0 run scoreboard players operation rd_22 Computer = fmul_prod_45 Computer
 
-# ============================================================
 # STEP 9: Handle subnormal product (leading zeros in mantissa)
 # When both inputs are subnormal or the product is very small,
 # prod_47 and prod_46 may both be 0. We need to left-shift and decrement exponent.
-# ============================================================
 
 # For subnormal inputs, the product may have leading zeros.
 # We need to normalize: shift left until the MSB is at position 46 (of the 48-bit product)
@@ -532,9 +516,7 @@ execute if score fmul_special Computer matches 0 run execute if score fmul_prod_
 # Normalize regardless of exponent - underflow handler will fix exp later
 execute if score fmul_special Computer matches 0 run execute if score fmul_prod_47 Computer matches 0 run execute if score fmul_prod_46 Computer matches 0 run function computer:alu/fmul_normalize_left
 
-# ============================================================
 # STEP 10: Handle underflow BEFORE rounding
-# ============================================================
 
 # Underflow: exp_result <= 0 -> result is subnormal or zero
 # For exp_result = 0: subnormal, shift mantissa right by 1
@@ -542,9 +524,7 @@ execute if score fmul_special Computer matches 0 run execute if score fmul_prod_
 # This must happen before rounding so guard/round/sticky are correct
 execute if score fmul_special Computer matches 0 run execute if score fmul_exp_result Computer matches ..0 run function computer:alu/fmul_handle_underflow
 
-# ============================================================
 # STEP 11: RNE Rounding
-# ============================================================
 # round_up if:
 #   guard=1 AND (round=1 OR sticky=1)  -> round up (GRS > 100)
 #   guard=1 AND round=0 AND sticky=0 AND rd_0=1 -> round up (tie, LSB=1, round to even)
@@ -562,9 +542,7 @@ execute if score fmul_special Computer matches 0 run execute if score fmul_do_ro
 execute if score fmul_special Computer matches 0 run execute if score fmul_do_round Computer matches 1 run function computer:misc/copy_input_l_add25_to_rd_mantissa
 execute if score fmul_special Computer matches 0 run execute if score fmul_do_round Computer matches 1 run execute if score input_l_23 add25 matches 1 run scoreboard players add fmul_exp_result Computer 1
 
-# ============================================================
 # STEP 12: Handle overflow of exponent
-# ============================================================
 
 # Overflow: exp_result >= 255 -> result is infinity
 execute if score fmul_special Computer matches 0 run scoreboard players set fmul_overflow Computer 0
@@ -574,9 +552,7 @@ execute if score fmul_special Computer matches 0 run execute if score fmul_overf
 execute if score fmul_special Computer matches 0 run execute if score fmul_overflow Computer matches 1 run scoreboard players operation rd_31 Computer = fmul_sign Computer
 execute if score fmul_special Computer matches 0 run execute if score fmul_overflow Computer matches 1 run scoreboard players set fmul_special Computer 1
 
-# ============================================================
 # STEP 12: Set exponent in rd (convert decimal back to bits)
-# ============================================================
 execute if score fmul_special Computer matches 0 run scoreboard players operation fmul_tmp Computer = fmul_exp_result Computer
 execute if score fmul_special Computer matches 0 run scoreboard players operation rd_23 Computer = fmul_tmp Computer
 execute if score fmul_special Computer matches 0 run scoreboard players operation rd_23 Computer %= 2 FixedValue
