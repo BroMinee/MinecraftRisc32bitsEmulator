@@ -260,7 +260,7 @@ The following table lists the supported and unsupported instructions.
 | ❌     | `fsqrt.s`   |
 | ✅     | `fsgnj.s`   |
 | ✅     | `fsgnjn.s`  |
-| ❌     | `fsgnjx.s`  |
+| ✅     | `fsgnjx.s`  |
 | ✅     | `fmin.s`    |
 | ✅     | `fmax.s`    |
 | ❌     | `fcvt.w.s`  |
