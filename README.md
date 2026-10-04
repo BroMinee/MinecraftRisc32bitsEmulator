@@ -271,7 +271,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `fle.s`     |
 | ✅     | `fclass.s`  |
 | ✅     | `fcvt.s.w`  |
-| ❌     | `fcvt.s.wu` |
+| ✅     | `fcvt.s.wu` |
 | ✅     | `fmv.w.x`   |
 # Running the Test Suite in Minecraft
 
