@@ -1,0 +1,5 @@
+# Float arith (1010011): fadd.s, fsub.s, fmul.s, fdiv.s, fsqrt.s, fsgnj, fmin/max, fcvt, fmv, feq/flt/fle, fclass (20 instr)
+execute if score read_cpy_3 Computer matches 0 run execute if score read_cpy_2 Computer matches 0 run execute if score read_cpy_25 Computer matches 0 run execute if score read_cpy_26 Computer matches 0 run function computer:instruction/fmadd.s
+execute if score read_cpy_3 Computer matches 0 run execute if score read_cpy_2 Computer matches 1 run execute if score read_cpy_25 Computer matches 0 run execute if score read_cpy_26 Computer matches 0 run function computer:instruction/fmsub.s
+execute if score read_cpy_3 Computer matches 1 run execute if score read_cpy_2 Computer matches 0 run execute if score read_cpy_25 Computer matches 0 run execute if score read_cpy_26 Computer matches 0 run function computer:instruction/fnmsub.s
+execute if score read_cpy_3 Computer matches 1 run execute if score read_cpy_2 Computer matches 1 run execute if score read_cpy_25 Computer matches 0 run execute if score read_cpy_26 Computer matches 0 run function computer:instruction/fnmadd.s

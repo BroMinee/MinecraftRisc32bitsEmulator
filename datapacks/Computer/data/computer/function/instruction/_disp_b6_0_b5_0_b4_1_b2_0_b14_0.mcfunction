@@ -1,0 +1,5 @@
+# I-type (0010011) funct3[14]=0: addi, slti, sltiu, xori
+execute if score read_cpy_13 Computer matches 0 run execute if score read_cpy_12 Computer matches 0 run function computer:instruction/addi
+execute if score read_cpy_13 Computer matches 0 run execute if score read_cpy_12 Computer matches 1 run execute if score read_cpy_25 Computer matches 0 run execute if score read_cpy_26 Computer matches 0 run execute if score read_cpy_27 Computer matches 0 run execute if score read_cpy_28 Computer matches 0 run execute if score read_cpy_29 Computer matches 0 run execute if score read_cpy_30 Computer matches 0 run execute if score read_cpy_31 Computer matches 0 run function computer:instruction/slli
+execute if score read_cpy_13 Computer matches 1 run execute if score read_cpy_12 Computer matches 0 run function computer:instruction/slti
+execute if score read_cpy_13 Computer matches 1 run execute if score read_cpy_12 Computer matches 1 run function computer:instruction/sltiu
