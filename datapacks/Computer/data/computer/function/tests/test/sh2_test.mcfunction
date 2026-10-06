@@ -1,4 +1,5 @@
 scoreboard players set sh2 tests 1
+scoreboard players add total tests 1
 execute unless score pc_0 Computer matches 0 run scoreboard players set sh2 tests 0
 execute unless score pc_0 Computer matches 0 run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text": "pc_0: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"text":"0","bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"pc_0","objective":"Computer"},"bold":true,"color":"red"}]
 execute unless score pc_1 Computer matches 0 run scoreboard players set sh2 tests 0
@@ -4169,3 +4170,6 @@ execute unless block -384 0 -512 minecraft:black_terracotta run scoreboard playe
 execute unless block -384 0 -512 minecraft:black_terracotta run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Memory[","bold":true,"color":"dark_green"},{"text":"00000084","bold":true,"color":"red"},{"text":"]","bold":true,"color":"dark_green"},{"text":" expected ","bold":true,"color":"gold"},{"text":"7f","bold":true,"color":"red"}, {"text":" (-384 0 -512)","bold":true,"color":"gold"}]
 execute if score sh2 tests matches 1 run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Test sh2 passed","bold":true,"color":"green"}]
 execute if score sh2 tests matches 0 run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Test sh2 failed","bold":true,"color":"red"}]
+execute if score sh2 tests matches 1 run scoreboard players add successed tests 1
+execute if score sh2 tests matches 0 run scoreboard players add failed tests 1
+execute if score sh2 tests matches 0 run data modify storage computer:test failed append value "sh2"

@@ -1,4 +1,5 @@
 scoreboard players set bge_lower_negatif_negatif tests 1
+scoreboard players add total tests 1
 execute unless score pc_0 Computer matches 0 run scoreboard players set bge_lower_negatif_negatif tests 0
 execute unless score pc_0 Computer matches 0 run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text": "pc_0: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"text":"0","bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"pc_0","objective":"Computer"},"bold":true,"color":"red"}]
 execute unless score pc_1 Computer matches 0 run scoreboard players set bge_lower_negatif_negatif tests 0
@@ -4161,3 +4162,6 @@ execute unless score f31_31 Computer matches 0 run scoreboard players set bge_lo
 execute unless score f31_31 Computer matches 0 run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text": "f31_31: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"text":"0","bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"f31_31","objective":"Computer"},"bold":true,"color":"red"}]
 execute if score bge_lower_negatif_negatif tests matches 1 run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Test bge_lower_negatif_negatif passed","bold":true,"color":"green"}]
 execute if score bge_lower_negatif_negatif tests matches 0 run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Test bge_lower_negatif_negatif failed","bold":true,"color":"red"}]
+execute if score bge_lower_negatif_negatif tests matches 1 run scoreboard players add successed tests 1
+execute if score bge_lower_negatif_negatif tests matches 0 run scoreboard players add failed tests 1
+execute if score bge_lower_negatif_negatif tests matches 0 run data modify storage computer:test failed append value "bge_lower_negatif_negatif"

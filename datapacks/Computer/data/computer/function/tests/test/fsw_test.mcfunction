@@ -1,4 +1,5 @@
 scoreboard players set fsw tests 1
+scoreboard players add total tests 1
 execute unless score pc_0 Computer matches 0 run scoreboard players set fsw tests 0
 execute unless score pc_0 Computer matches 0 run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text": "pc_0: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"text":"0","bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"pc_0","objective":"Computer"},"bold":true,"color":"red"}]
 execute unless score pc_1 Computer matches 0 run scoreboard players set fsw tests 0
@@ -4185,3 +4186,6 @@ execute unless block -380 0 -512 minecraft:dead_fire_coral_block run scoreboard 
 execute unless block -380 0 -512 minecraft:dead_fire_coral_block run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Memory[","bold":true,"color":"dark_green"},{"text":"00000088","bold":true,"color":"red"},{"text":"]","bold":true,"color":"dark_green"},{"text":" expected ","bold":true,"color":"gold"},{"text":"be","bold":true,"color":"red"}, {"text":" (-380 0 -512)","bold":true,"color":"gold"}]
 execute if score fsw tests matches 1 run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Test fsw passed","bold":true,"color":"green"}]
 execute if score fsw tests matches 0 run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Test fsw failed","bold":true,"color":"red"}]
+execute if score fsw tests matches 1 run scoreboard players add successed tests 1
+execute if score fsw tests matches 0 run scoreboard players add failed tests 1
+execute if score fsw tests matches 0 run data modify storage computer:test failed append value "fsw"

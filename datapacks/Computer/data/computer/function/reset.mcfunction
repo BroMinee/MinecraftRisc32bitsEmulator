@@ -3,6 +3,9 @@ gamerule max_command_sequence_length 2147483647
 
 scoreboard objectives remove FixedValue
 scoreboard objectives remove Computer
+scoreboard objectives remove stats
+# Volontary excluded 'tests' because it's used for the testsuite
+# scoreboard objectives remove tests
 
 team remove RED
 team remove GREEN

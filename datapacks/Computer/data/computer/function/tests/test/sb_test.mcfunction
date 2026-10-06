@@ -1,4 +1,5 @@
 scoreboard players set sb tests 1
+scoreboard players add total tests 1
 execute unless score pc_0 Computer matches 0 run scoreboard players set sb tests 0
 execute unless score pc_0 Computer matches 0 run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text": "pc_0: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"text":"0","bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"pc_0","objective":"Computer"},"bold":true,"color":"red"}]
 execute unless score pc_1 Computer matches 0 run scoreboard players set sb tests 0
@@ -4201,3 +4202,6 @@ execute unless block -484 0 -512 minecraft:air run scoreboard players set sb tes
 execute unless block -484 0 -512 minecraft:air run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Memory[","bold":true,"color":"dark_green"},{"text":"00000020","bold":true,"color":"red"},{"text":"]","bold":true,"color":"dark_green"},{"text":" expected ","bold":true,"color":"gold"},{"text":"00","bold":true,"color":"red"}, {"text":" (-484 0 -512)","bold":true,"color":"gold"}]
 execute if score sb tests matches 1 run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Test sb passed","bold":true,"color":"green"}]
 execute if score sb tests matches 0 run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Test sb failed","bold":true,"color":"red"}]
+execute if score sb tests matches 1 run scoreboard players add successed tests 1
+execute if score sb tests matches 0 run scoreboard players add failed tests 1
+execute if score sb tests matches 0 run data modify storage computer:test failed append value "sb"

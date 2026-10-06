@@ -2,6 +2,10 @@ execute as @s[tag=DEBUG] run scoreboard players set hasDebugTag tests 1
 tag @s remove DEBUG
 execute as @s[tag=WARNING] run scoreboard players set hasWarningTag tests 1
 tag @s remove WARNING
+scoreboard players set failed tests 0
+scoreboard players set successed tests 0
+scoreboard players set total tests 0
+data modify storage computer:test failed set value []
 # add
 execute as @e[tag=pc,limit=1] run function computer:tests/test/add_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/add_run
@@ -762,5 +766,7 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/xor_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/xori_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/xori_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/xori_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Number of fails","bold":true,"color":"gold"},{"text":" (","bold":true,"color":"gold"},{"score":{"name":"failed","objective":"tests"},"bold":true,"color":"red"},{"text":" out of ","bold":true,"color":"green"},{"score":{"name":"total","objective":"tests"},"bold":true,"color":"gold"},{"text":" tests","bold":true,"color":"green"},{"text":")","bold":true,"color":"gold"}]
+execute if data storage computer:test failed[0] run function computer:tests/show_failed_tests
 execute if score hasDebugTag tests matches 1 run tag @s add DEBUG
 execute if score hasWarningTag tests matches 1 run tag @s add WARNING

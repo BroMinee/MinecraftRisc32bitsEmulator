@@ -324,6 +324,10 @@ with open("./Computer/data/computer/function/tests/testsuite.mcfunction", 'w') a
     f_testsuite.write("tag @s remove DEBUG\n")
     f_testsuite.write("execute as @s[tag=WARNING] run scoreboard players set hasWarningTag tests 1\n")
     f_testsuite.write("tag @s remove WARNING\n")
+    f_testsuite.write("scoreboard players set failed tests 0\n")
+    f_testsuite.write("scoreboard players set successed tests 0\n")
+    f_testsuite.write("scoreboard players set total tests 0\n")
+    f_testsuite.write("data modify storage computer:test failed set value []\n")
 
     for file in sorted(files):
         print(f"Processing {file}")
@@ -375,6 +379,7 @@ with open("./Computer/data/computer/function/tests/testsuite.mcfunction", 'w') a
         with open(f"./Computer/data/computer/function/tests/test/{file}_test.mcfunction", 'w') as f:
             # valid test = 1
             f.write(f'scoreboard players set {file} tests 1\n')
+            f.write('scoreboard players add total tests 1\n')
             f.write(test_register(file, "pc", meta_data["pc"]))
             for i in range(32):
                 # int registers
@@ -396,13 +401,21 @@ with open("./Computer/data/computer/function/tests/testsuite.mcfunction", 'w') a
 
             f.write('execute if score X tests matches 1 run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Test X passed","bold":true,"color":"green"}]\n'.replace("X", file))
             f.write('execute if score X tests matches 0 run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Test X failed","bold":true,"color":"red"}]\n'.replace("X", file))
+            f.write(f'execute if score {file} tests matches 1 run scoreboard players add successed tests 1\n')
+            f.write(f'execute if score {file} tests matches 0 run scoreboard players add failed tests 1\n')
+            f.write(f'execute if score {file} tests matches 0 run data modify storage computer:test failed append value "{file}"\n')
+
         
         f_testsuite.write(f"# {file}\n")
         f_testsuite.write(f"execute as @e[tag=pc,limit=1] run function computer:tests/test/{file}_load\n")
         f_testsuite.write(f"execute as @e[tag=pc,limit=1] run function computer:tests/test/{file}_run\n")
         f_testsuite.write(f"execute as @e[tag=pc,limit=1] run function computer:tests/test/{file}_test\n")
     
+    # print 55/57 {"nbt":"type","storage":"computer:memory","color":"dark_green"}
+    f_testsuite.write('tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Number of fails","bold":true,"color":"gold"},{"text":" (","bold":true,"color":"gold"},{"score":{"name":"failed","objective":"tests"},"bold":true,"color":"red"},{"text":" out of ","bold":true,"color":"green"},{"score":{"name":"total","objective":"tests"},"bold":true,"color":"gold"},{"text":" tests","bold":true,"color":"green"},{"text":")","bold":true,"color":"gold"}]\n')
+    f_testsuite.write('execute if data storage computer:test failed[0] run function computer:tests/show_failed_tests\n')
     f_testsuite.write("execute if score hasDebugTag tests matches 1 run tag @s add DEBUG\n")
     f_testsuite.write("execute if score hasWarningTag tests matches 1 run tag @s add WARNING\n")
+    
 
 
