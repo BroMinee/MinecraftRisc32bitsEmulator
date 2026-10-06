@@ -1,0 +1,25 @@
+setblock -509 0 -512 minecraft:waxed_weathered_cut_copper
+setblock -510 0 -512 minecraft:netherrack
+setblock -511 0 -512 minecraft:light_blue_stained_glass
+setblock -512 0 -512 minecraft:crimson_nylium
+setblock -505 0 -512 minecraft:light_blue_glazed_terracotta
+setblock -506 0 -512 minecraft:warped_stem
+setblock -507 0 -512 minecraft:air
+setblock -508 0 -512 minecraft:nether_gold_ore
+setblock -501 0 -512 minecraft:gray_wool
+setblock -502 0 -512 minecraft:spruce_log
+setblock -503 0 -512 minecraft:netherrack
+setblock -504 0 -512 minecraft:mangrove_log
+setblock -497 0 -512 minecraft:andesite
+setblock -498 0 -512 minecraft:oak_planks
+setblock -499 0 -512 minecraft:dripstone_block
+setblock -500 0 -512 minecraft:crimson_nylium
+setblock -493 0 -512 minecraft:magma_block
+setblock -494 0 -512 minecraft:air
+setblock -495 0 -512 minecraft:oak_planks
+setblock -496 0 -512 minecraft:nether_gold_ore
+setblock -489 0 -512 minecraft:magma_block
+setblock -490 0 -512 minecraft:blue_terracotta
+setblock -491 0 -512 minecraft:polished_granite
+setblock -492 0 -512 minecraft:polished_granite
+function computer:reset

@@ -402,6 +402,10 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_all_t
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_overflow_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_overflow_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd.s_test_overflow_test
+# fadd_debug
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd_debug_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd_debug_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fadd_debug_test
 # fclass.s
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fclass.s_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fclass.s_run
@@ -430,6 +434,14 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/fdiv.s_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fdiv.s_more_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fdiv.s_more_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fdiv.s_more_test
+# fdiv.s_more2
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fdiv.s_more2_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fdiv.s_more2_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fdiv.s_more2_test
+# fdiv.s_more3
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fdiv.s_more3_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fdiv.s_more3_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fdiv.s_more3_test
 # feq.s
 execute as @e[tag=pc,limit=1] run function computer:tests/test/feq.s_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/feq.s_run
@@ -454,6 +466,14 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/flw_offset_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmadd.s_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmadd.s_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmadd.s_test
+# fmadd.s_more
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmadd.s_more_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmadd.s_more_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmadd.s_more_test
+# fmadd.s_more2
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmadd.s_more2_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmadd.s_more2_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmadd.s_more2_test
 # fmax.s
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmax.s_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmax.s_run
@@ -466,6 +486,18 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/fmin.s_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmsub.s_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmsub.s_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmsub.s_test
+# fmsub.s_more
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmsub.s_more_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmsub.s_more_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmsub.s_more_test
+# fmsub.s_more2
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmsub.s_more2_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmsub.s_more2_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmsub.s_more2_test
+# fmsub_debug
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmsub_debug_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmsub_debug_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmsub_debug_test
 # fmul.s
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul.s_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul.s_run
@@ -474,6 +506,14 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul.s_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul.s_more_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul.s_more_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul.s_more_test
+# fmul_debug
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul_debug_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul_debug_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul_debug_test
+# fmul_debug2
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul_debug2_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul_debug2_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fmul_debug2_test
 # fmv.w.x
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.w.x_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.w.x_run
@@ -486,10 +526,26 @@ execute as @e[tag=pc,limit=1] run function computer:tests/test/fmv.x.w_test
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmadd.s_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmadd.s_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmadd.s_test
+# fnmadd.s_more
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmadd.s_more_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmadd.s_more_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmadd.s_more_test
+# fnmadd.s_more2
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmadd.s_more2_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmadd.s_more2_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmadd.s_more2_test
 # fnmsub.s
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmsub.s_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmsub.s_run
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmsub.s_test
+# fnmsub.s_more
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmsub.s_more_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmsub.s_more_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmsub.s_more_test
+# fnmsub.s_more2
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmsub.s_more2_load
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmsub.s_more2_run
+execute as @e[tag=pc,limit=1] run function computer:tests/test/fnmsub.s_more2_test
 # fsgnj.s
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fsgnj.s_load
 execute as @e[tag=pc,limit=1] run function computer:tests/test/fsgnj.s_run
