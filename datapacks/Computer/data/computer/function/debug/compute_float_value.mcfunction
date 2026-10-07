@@ -98,3 +98,4 @@ execute if score #debug_case Computer matches 0 run data modify storage computer
 execute if score #debug_case Computer matches 2 run data modify storage computer:memory debug_float set compute default float computer:debug_subnormal_value
 
 execute if score #debug_case Computer matches 0..2 if score #debug_sign Computer matches 1 run data modify storage computer:memory debug_float set compute default float computer:debug_negate
+data modify storage computer:memory debug_float set string storage computer:memory debug_float
