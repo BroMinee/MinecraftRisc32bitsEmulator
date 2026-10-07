@@ -57,7 +57,8 @@ fi
 
 # Link the object file
 echo "Linking $OBJ_FILE to $ELF_FILE..."
-$LINKER -Ttext=0x0000 -o "$ELF_FILE" "$OBJ_FILE"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+$LINKER -T "$SCRIPT_DIR/linker.ld" -o "$ELF_FILE" "$OBJ_FILE"
 if [ $? -ne 0 ]; then
     echo "Error: Linking failed."
     exit 5
