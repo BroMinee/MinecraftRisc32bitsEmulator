@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:mul",
+  "inputs": [
+    {
+      "type": "minecraft:storage",
+      "storage": "computer:memory",
+      "path": "debug_float",
+      "fallback": 0.0
+    },
+    -1.0
+  ]
+}

@@ -260,7 +260,7 @@ data modify storage computer:memory hexa[7] set string storage computer:memory h
 
 
 data modify storage computer:memory type set value "Updated f{i}"
-function computer:debug/printf""")
+function computer:debug/printff""")
 
 
 print("Done")

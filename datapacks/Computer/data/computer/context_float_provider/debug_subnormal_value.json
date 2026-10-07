@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:mul",
+  "inputs": [
+    "computer:debug_mantissa_subnormal",
+    {
+      "type": "minecraft:pow",
+      "base": 2.0,
+      "exponent": -126.0
+    }
+  ]
+}

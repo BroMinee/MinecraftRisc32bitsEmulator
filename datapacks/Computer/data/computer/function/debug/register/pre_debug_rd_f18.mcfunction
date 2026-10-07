@@ -93,4 +93,4 @@ data modify storage computer:memory hexa[7] set string storage computer:memory h
 
 
 data modify storage computer:memory type set value "Updated f18"
-function computer:debug/printf
+function computer:debug/printff

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:mul",
+  "inputs": [
+    "computer:debug_mantissa_normal",
+    {
+      "type": "minecraft:pow",
+      "base": 2.0,
+      "exponent": {
+        "type": "minecraft:from_int",
+        "input": {
+          "type": "minecraft:storage",
+          "storage": "computer:memory",
+          "path": "debug_real_exp",
+          "fallback": 0
+        }
+      }
+    }
+  ]
+}

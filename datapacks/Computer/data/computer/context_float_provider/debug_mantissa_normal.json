@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:add",
+  "inputs": [
+    1.0,
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[22]", "fallback": 0}}, 0.5]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[21]", "fallback": 0}}, 0.25]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[20]", "fallback": 0}}, 0.125]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[19]", "fallback": 0}}, 0.0625]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[18]", "fallback": 0}}, 0.03125]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[17]", "fallback": 0}}, 0.015625]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[16]", "fallback": 0}}, 0.0078125]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[15]", "fallback": 0}}, 0.00390625]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[14]", "fallback": 0}}, 0.001953125]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[13]", "fallback": 0}}, 9.765625E-4]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[12]", "fallback": 0}}, 4.8828125E-4]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[11]", "fallback": 0}}, 2.44140625E-4]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[10]", "fallback": 0}}, 1.220703125E-4]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[9]", "fallback": 0}}, 6.103515625E-5]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[8]", "fallback": 0}}, 3.0517578125E-5]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[7]", "fallback": 0}}, 1.52587890625E-5]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[6]", "fallback": 0}}, 7.62939453125E-6]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[5]", "fallback": 0}}, 3.814697265625E-6]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[4]", "fallback": 0}}, 1.9073486328125E-6]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[3]", "fallback": 0}}, 9.5367431640625E-7]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[2]", "fallback": 0}}, 4.76837158203125E-7]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[1]", "fallback": 0}}, 2.384185791015625E-7]},
+    {"type": "minecraft:mul", "inputs": [{"type": "minecraft:from_int", "input": {"type": "minecraft:storage", "storage": "computer:memory", "path": "bin[0]", "fallback": 0}}, 1.1920928955078125E-7]}
+  ]
+}
