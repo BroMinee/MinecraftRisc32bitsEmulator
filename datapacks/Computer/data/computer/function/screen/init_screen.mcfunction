@@ -1,7 +1,18 @@
 # screen size 64x64
 # from 1 1 0 to 32 32 0
 # 4096 pixels
-fill 1 1 3 32 32 3 stone
+fill 1 1 3 32 39 3 stone
+fill 2 34 3 32 38 3 minecraft:redstone_lamp
+fill 29 34 3 29 38 3 stone
+fill 25 34 3 25 38 3 stone
+fill 21 34 3 21 38 3 stone
+fill 17 34 3 17 38 3 stone
+fill 13 34 3 13 38 3 stone
+fill 9 34 3 9 38 3 stone
+fill 5 34 3 5 38 3 stone
+fill 1 34 3 1 38 3 stone
+fill 32 34 2 2 38 2 minecraft:air
+
 kill @e[type=text_display]
 summon text_display 1.22 1.0 4.001 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2.5f,2.0f,2.0f]},text:{"text":"x", "bold": True}, text_opacity:4, background:-16777216}
 summon text_display 1.22 1.5 4.001 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2.5f,2.0f,2.0f]},text:{"text":"x", "bold": True}, text_opacity:4, background:-16777216}
