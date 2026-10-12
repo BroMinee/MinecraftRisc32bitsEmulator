@@ -1,5 +1,6 @@
 # should be run "as" armor stand PC
 scoreboard players add cycle stats 1
+function computer:cycle/random/write_32bits_random_to_memory
 data modify storage computer:memory type set value "Opcode read"
 function computer:cycle/readopcode
 function computer:instruction/_dispatcher

@@ -138,6 +138,17 @@ The last byte of the first row is located at `0x0FFF_00FF`, since each row occup
 
 > **Performance recommendation:** Using Lunar Client or a similar Minecraft launcher is highly recommended for FPS optimization, as the screen uses 4,096 entities.
 
+# Peripherals (Memory-Mapped I/O)
+
+All peripherals are accessed through memory-mapped I/O (MMIO). Reading from or writing to these addresses interacts directly with the corresponding hardware.
+
+## "Peripheral" Map
+
+| Address Range               | Peripheral         | Access | Description                                      |
+| --------------------------- | ------------------ | ------ | ------------------------------------------------ |
+| `0x0FFE_0200`               | Random             | Read   | Random value, changes every cycle                |
+| `0x0FFF_0000 - 0x0FFF_BFFF` | Screen             | Write  | 64×64 pixel display, 32 bits per pixel (RGB)     |
+
 # Memory Address Space
 
 The available address range is:
