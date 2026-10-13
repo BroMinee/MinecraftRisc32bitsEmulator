@@ -9,3 +9,5 @@ execute if score increase_pc Computer matches 0 run tellraw @a[tag=DEBUG] [{"tex
 execute if score increase_pc Computer matches 1 run function computer:cycle/increasepc
 
 scoreboard players set increase_pc Computer 1
+
+execute if block -253 255 385 minecraft:oak_planks run execute if block -254 255 385 minecraft:air run execute if block -255 255 385 minecraft:air run execute if block -256 255 385 minecraft:air run function computer:cycle/stdout/flush

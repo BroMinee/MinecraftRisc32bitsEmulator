@@ -46,8 +46,70 @@ char *my_itoa(uint32_t value, char *s);
 uint32_t fibo(uint16_t n);
 void close_display();
 
-int main() {
+#ifdef LOCAL
+#include <stdio.h>
+#define my_printf printf
+#else
+// Simple printf supporting %s, %d, %u, %x, %c, %%
+void my_printf(const char *fmt, ...) {
+    volatile char *buf = (volatile char *)0x0FFE0504;
+    volatile uint32_t *ctrl = (volatile uint32_t *)0x0FFE0500;
 
+    __builtin_va_list args;
+    __builtin_va_start(args, fmt);
+
+    int pos = 0;
+    while (*fmt && pos < 251) {
+        if (*fmt == '%') {
+            fmt++;
+            if (*fmt == 's') {
+                const char *s = __builtin_va_arg(args, const char *);
+                while (*s && pos < 251) buf[pos++] = *s++;
+            } else if (*fmt == 'd') {
+                int32_t v = __builtin_va_arg(args, int32_t);
+                if (v < 0) { buf[pos++] = '-'; v = -v; }
+                char tmp[11];
+                char *end = my_itoa((uint32_t)v, tmp);
+                for (char *p = tmp; p < end && pos < 251; p++)
+                    buf[pos++] = *p;
+            } else if (*fmt == 'u') {
+                uint32_t v = __builtin_va_arg(args, uint32_t);
+                char tmp[11];
+                char *end = my_itoa(v, tmp);
+                for (char *p = tmp; p < end && pos < 251; p++)
+                    buf[pos++] = *p;
+            } else if (*fmt == 'x') {
+                uint32_t v = __builtin_va_arg(args, uint32_t);
+                // Print hex without leading zeros
+                int started = 0;
+                for (int i = 28; i >= 0; i -= 4) {
+                    uint32_t nibble = (v >> i) & 0xF;
+                    if (nibble || started || i == 0) {
+                        started = 1;
+                        buf[pos++] = nibble < 10 ? '0' + nibble : 'a' + nibble - 10;
+                        if (pos >= 251) break;
+                    }
+                }
+            } else if (*fmt == 'c') {
+                int c = __builtin_va_arg(args, int);
+                buf[pos++] = (char)c;
+            } else if (*fmt == '%') {
+                buf[pos++] = '%';
+            }
+            fmt++;
+        } else {
+            buf[pos++] = *fmt++;
+        }
+    }
+    buf[pos] = '\0';
+
+    __builtin_va_end(args);
+
+    *ctrl = 1;
+}
+#endif
+
+int main() {
     init_display();
 
 	CREATE_STRING(myString, "fibo(00)=0000000000");
@@ -58,6 +120,8 @@ int main() {
 	my_itoa(n, myString+5);
 	my_itoa(res, myString+9);
 	draw_string(0, 0, myString, 0, 255, 0);
+
+    my_printf("fibo(%u) = %u", (uint32_t)n, res);
 
 
 #ifdef LOCAL
@@ -261,5 +325,5 @@ char *my_itoa(uint32_t value, char *s)
         value = value - nb_digits * (value / nb_digits);
         nb_digits /= 10;
     }
-    return s;
+    return s + i;
 }

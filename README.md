@@ -149,6 +149,8 @@ All peripherals are accessed through memory-mapped I/O (MMIO). Reading from or w
 | `0x0FFE_0000 - 0x0FFE_001C` | 7-Segment Displays | Write  | 8 displays, 4 bytes each                         |
 | `0x0FFE_0200 - 0x0FFE_0203` | Random             | Read   | Random value, changes every cycle                |
 | `0x0FFE_0300`               | Clock              | Read   | Cycle count since startup                        |
+| `0x0FFE_0500`               | Stdout Control     | Write  | Write `1` to send buffer to chat                 |
+| `0x0FFE_0504 - 0x0FFE_05FF` | Stdout Buffer      | Write  | Null-terminated string to display (max 252 bytes)|
 | `0x0FFF_0000 - 0x0FFF_BFFF` | Screen             | Write  | 64×64 pixel display, 32 bits per pixel (RGB)     |
 
 ## 7-Segment Displays
@@ -165,6 +167,14 @@ Eight 7-segment displays are mapped starting at `0x0FFE_0000`, each occupying 4 
 | `0x0FFE_0014`  | Digit 5            |
 | `0x0FFE_0018`  | Digit 6            |
 | `0x0FFE_001C`  | Digit 7 (rightmost)|
+
+## Stdout
+
+To print a message to the Minecraft chat, uses the util function my_printf in main.c
+
+```c
+my_printf("fibo(%u) = %u", n, res);
+```
 
 # Memory Address Space
 
