@@ -147,7 +147,8 @@ All peripherals are accessed through memory-mapped I/O (MMIO). Reading from or w
 | Address Range               | Peripheral         | Access | Description                                      |
 | --------------------------- | ------------------ | ------ | ------------------------------------------------ |
 | `0x0FFE_0000 - 0x0FFE_001C` | 7-Segment Displays | Write  | 8 displays, 4 bytes each                         |
-| `0x0FFE_0200`               | Random             | Read   | Random value, changes every cycle                |
+| `0x0FFE_0200 - 0x0FFE_0203` | Random             | Read   | Random value, changes every cycle                |
+| `0x0FFE_0300`               | Clock              | Read   | Cycle count since startup                        |
 | `0x0FFF_0000 - 0x0FFF_BFFF` | Screen             | Write  | 64×64 pixel display, 32 bits per pixel (RGB)     |
 
 ## 7-Segment Displays
