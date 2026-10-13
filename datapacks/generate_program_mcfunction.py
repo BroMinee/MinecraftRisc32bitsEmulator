@@ -1,3 +1,5 @@
+import os
+
 minecraft_blocks = [
     "minecraft:air",
     "minecraft:oak_planks",
@@ -275,9 +277,12 @@ if len(program) % 2 != 0:
 if any([int(program[i:i+2], 16) >= len(minecraft_blocks) for i in range(0, len(program), 2)]):
     raise Exception("Invalid block in data")
 
+
+FUNC_DIR = os.path.join("Computer", "data", "computer", "function")
+
 address = 0
 MAX_CYCLE=500000
-with open(r"Computer\data\computer\function\program_load.mcfunction", 'w') as f:
+with open(os.path.join(FUNC_DIR, "program_load.mcfunction"), 'w') as f:
     for i in range(0, len(program), 2):
         block = int(program[i:i+2], 16)
         x,y,z = convert_address_to_xyz(address)
@@ -287,11 +292,11 @@ with open(r"Computer\data\computer\function\program_load.mcfunction", 'w') as f:
         address += 1
     f.write(f"function computer:reset\n")
 
-with open(r"Computer\data\computer\function\program_run_until_end.mcfunction", 'w') as f:
+with open(os.path.join(FUNC_DIR, "program_run_until_end.mcfunction"), 'w') as f:
     f.write(f"execute unless score error stats matches 1 run execute unless score done stats matches 1 run execute if score cycle stats matches ..{MAX_CYCLE} run function computer:cycle/do_cycle\n")
     f.write(f"execute unless score error stats matches 1 run execute unless score done stats matches 1 run execute if score cycle stats matches ..{MAX_CYCLE} run function computer:program_run_until_end\n")
 
-with open(r"Computer\data\computer\function\program_run.mcfunction", 'w') as f:
+with open(os.path.join(FUNC_DIR, "program_run.mcfunction"), 'w') as f:
     f.write(f"# load\n")
     f.write(f"function computer:program_load\n\n")
     f.write(f"# run\n")
