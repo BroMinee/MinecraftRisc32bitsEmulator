@@ -83,10 +83,10 @@ setblock -256 255 385 minecraft:air
 
 
 kill @e[type=armor_stand]
-summon armor_stand -509 0 -512 {CustomName:'[{"text":"pc"}]',CustomNameVisible:1b,Team:RED, Tags:["pc"], NoGravity:1b}
-summon armor_stand -509 0 -512 {CustomName:'[{"text":"write"}]',CustomNameVisible:1b,Team:RED, Tags:["write"], NoGravity:1b}
-summon armor_stand -4 -58 9 {CustomName:'[{"text":"screen"}]',CustomNameVisible:1b,Team:RED, Tags:["screen"], NoGravity:1b}
-summon armor_stand 2 34 3 {CustomName:'[{"text":"7seg"}]',CustomNameVisible:1b,Team:RED, Tags:["7seg"], NoGravity:1b}
+summon armor_stand -509 0 -512 {CustomName:'[{"text":"pc"}]',CustomNameVisible:0b,Team:RED, Tags:["pc"], NoGravity:1b, Invisible:1b}
+summon armor_stand -509 0 -512 {CustomName:'[{"text":"write"}]',CustomNameVisible:0b,Team:RED, Tags:["write"], NoGravity:1b, Invisible:1b}
+summon armor_stand -4 -58 9 {CustomName:'[{"text":"screen"}]',CustomNameVisible:0b,Team:RED, Tags:["screen"], NoGravity:1b, Invisible:1b}
+summon armor_stand 2 34 3 {CustomName:'[{"text":"7seg"}]',CustomNameVisible:0b,Team:RED, Tags:["7seg"], NoGravity:1b, Invisible:1b}
 
 
 scoreboard objectives add A2 dummy

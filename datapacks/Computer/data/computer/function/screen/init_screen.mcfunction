@@ -1,16 +1,16 @@
 # screen size 64x64
 # from 1 1 0 to 32 32 0
 # 4096 pixels
-fill 1 1 3 32 39 3 stone
+fill 1 1 3 32 39 3 minecraft:quartz_block
 fill 2 34 3 32 38 3 minecraft:redstone_lamp
-fill 29 34 3 29 38 3 stone
-fill 25 34 3 25 38 3 stone
-fill 21 34 3 21 38 3 stone
-fill 17 34 3 17 38 3 stone
-fill 13 34 3 13 38 3 stone
-fill 9 34 3 9 38 3 stone
-fill 5 34 3 5 38 3 stone
-fill 1 34 3 1 38 3 stone
+fill 29 34 3 29 38 3 minecraft:quartz_block
+fill 25 34 3 25 38 3 minecraft:quartz_block
+fill 21 34 3 21 38 3 minecraft:quartz_block
+fill 17 34 3 17 38 3 minecraft:quartz_block
+fill 13 34 3 13 38 3 minecraft:quartz_block
+fill 9 34 3 9 38 3 minecraft:quartz_block
+fill 5 34 3 5 38 3 minecraft:quartz_block
+fill 1 34 3 1 38 3 minecraft:quartz_block
 fill 32 34 2 2 38 2 minecraft:air
 
 kill @e[type=text_display]

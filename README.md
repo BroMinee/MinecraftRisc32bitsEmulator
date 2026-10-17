@@ -127,6 +127,7 @@ All peripherals are accessed through memory-mapped I/O (MMIO). Reading from or w
 | Address Range               | Peripheral         | Access | Description                                      |
 | --------------------------- | ------------------ | ------ | ------------------------------------------------ |
 | `0x0FFE_0000 - 0x0FFE_001C` | 7-Segment Displays | Write  | 8 displays, 4 bytes each                         |
+| `0x0FFE_0100`               | Player Input       | Read   | Movement keys as a bitmask (see below)           |
 | `0x0FFE_0200 - 0x0FFE_0203` | Random             | Read   | Random value, changes every cycle                |
 | `0x0FFE_0300`               | Clock              | Read   | Cycle count since startup                        |
 | `0x0FFE_0500`               | Stdout Control     | Write  | Write `1` to send buffer to chat                 |
@@ -150,7 +151,28 @@ Eight 7-segment displays are mapped starting at `0x0FFE_0000`, each occupying 4 
 | `0x0FFE_0018`  | Digit 6            |
 | `0x0FFE_001C`  | Digit 7 (rightmost)|
 
-## Stdin
+## Player Input
+
+The player input register at `0x0FFE_0100` is a bitmask updated every cycle, reflecting the keys currently held by the nearest player:
+
+| Bit | Mask   | Key     |
+| --- | ------ | ------- |
+| 0   | `0x01` | Forward |
+| 1   | `0x02` | Backward|
+| 2   | `0x04` | Left    |
+| 3   | `0x08` | Right   |
+| 4   | `0x10` | Jump    |
+| 5   | `0x20` | Sneak   |
+| 6   | `0x40` | Sprint  |
+
+Example in C:
+
+```c
+volatile uint32_t *input = (volatile uint32_t *)0x0FFE0100;
+uint32_t keys = *input;
+if (keys & 0x01) { /* forward */ }
+if (keys & 0x10) { /* jump */ }
+```
 
 ## Stdout / Stdin
 
