@@ -262,10 +262,10 @@ def convert_address_to_xyz(address):
     origin = [-512, 0, -512]
     x = (3 - (address % 4) + (address // 4) * 4 ) % 1024 + origin[0]
     y = address // (1024 * 1024) + origin[1]
-    z = address // 1024 + origin[2]
+    z = (address // 1024) % 1024 + origin[2]
     return x, y, z
 
-with open("output_dump.txt", 'r') as f:
+with open(os.path.join("programs", "output_dump.txt"), 'r') as f:
     lines = f.readlines()
     lines = ["".join(line.strip().split("|")[0].split(" ")[1:]) for line in lines]
     program = "".join(lines)

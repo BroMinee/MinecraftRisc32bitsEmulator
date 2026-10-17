@@ -1,0 +1,5 @@
+*.o
+*.elf
+*.s
+main
+output_dump.txt

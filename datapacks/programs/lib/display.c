@@ -1,29 +1,12 @@
+#include "display.h"
 
-#include <stdint.h>
 #ifdef LOCAL
 #include <SDL2/SDL.h>
-#endif
-#define SCREEN_WIDTH  64
-#define SCREEN_HEIGHT 64
-#define SCREEN_START_ADDRESS 0x0FFF0000
-
-#ifdef LOCAL
-    #define CREATE_STRING(name, value) \
-        char *name = (char *)malloc(strlen(value) + 1); \
-        if (name) strcpy(name, value);
-#else
-    #define CREATE_STRING(name, value) \
-        const char name[] = value;
-#endif
-
-
-
-#ifdef LOCAL
 SDL_Window *window = NULL;
 SDL_Renderer *renderer = NULL;
 #endif
 
-void init_display() {
+void init_display(void) {
 #ifdef LOCAL
     SDL_Init(SDL_INIT_VIDEO);
     window = SDL_CreateWindow("SDL2 Screen", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, SCREEN_WIDTH * 10, SCREEN_HEIGHT * 10, SDL_WINDOW_SHOWN);
@@ -34,160 +17,14 @@ void init_display() {
 #endif
 }
 
-
-
-
-
-
-void write_pixel(uint16_t x, uint16_t y, uint16_t r, uint16_t g, uint16_t b);
-void draw_char(int x, int y, char c, uint8_t r, uint8_t g, uint8_t b);
-void draw_string(int x, int y, const char *str, uint8_t r, uint8_t g, uint8_t b);
-char *my_itoa(uint32_t value, char *s);
-uint32_t fibo(uint16_t n);
-void close_display();
-
+void close_display(void) {
 #ifdef LOCAL
-#include <stdio.h>
-#define my_printf printf
-#else
-// Simple printf supporting %s, %d, %u, %x, %c, %%
-void my_printf(const char *fmt, ...) {
-    volatile char *buf = (volatile char *)0x0FFE0504;
-    volatile uint32_t *ctrl = (volatile uint32_t *)0x0FFE0500;
-
-    __builtin_va_list args;
-    __builtin_va_start(args, fmt);
-
-    int pos = 0;
-    while (*fmt && pos < 251) {
-        if (*fmt == '%') {
-            fmt++;
-            if (*fmt == 's') {
-                const char *s = __builtin_va_arg(args, const char *);
-                while (*s && pos < 251) buf[pos++] = *s++;
-            } else if (*fmt == 'd') {
-                int32_t v = __builtin_va_arg(args, int32_t);
-                if (v < 0) { buf[pos++] = '-'; v = -v; }
-                char tmp[11];
-                char *end = my_itoa((uint32_t)v, tmp);
-                for (char *p = tmp; p < end && pos < 251; p++)
-                    buf[pos++] = *p;
-            } else if (*fmt == 'u') {
-                uint32_t v = __builtin_va_arg(args, uint32_t);
-                char tmp[11];
-                char *end = my_itoa(v, tmp);
-                for (char *p = tmp; p < end && pos < 251; p++)
-                    buf[pos++] = *p;
-            } else if (*fmt == 'x') {
-                uint32_t v = __builtin_va_arg(args, uint32_t);
-                // Print hex without leading zeros
-                int started = 0;
-                for (int i = 28; i >= 0; i -= 4) {
-                    uint32_t nibble = (v >> i) & 0xF;
-                    if (nibble || started || i == 0) {
-                        started = 1;
-                        buf[pos++] = nibble < 10 ? '0' + nibble : 'a' + nibble - 10;
-                        if (pos >= 251) break;
-                    }
-                }
-            } else if (*fmt == 'c') {
-                int c = __builtin_va_arg(args, int);
-                buf[pos++] = (char)c;
-            } else if (*fmt == '%') {
-                buf[pos++] = '%';
-            }
-            fmt++;
-        } else {
-            buf[pos++] = *fmt++;
-        }
-    }
-    buf[pos] = '\0';
-
-    __builtin_va_end(args);
-
-    *ctrl = 1;
-}
+    SDL_DestroyRenderer(renderer);
+    SDL_DestroyWindow(window);
+    SDL_Quit();
 #endif
-
-uint32_t my_atoi(const char *s) {
-    uint32_t result = 0;
-    while (*s >= '0' && *s <= '9') {
-        result = result * 10 + (*s - '0');
-        s++;
-    }
-    return result;
 }
 
-#ifdef LOCAL
-#include <string.h>
-const char *my_stdin(char *buf, uint32_t size) {
-    if (fgets(buf, size, stdin)) {
-        buf[strcspn(buf, "\n")] = '\0';
-    }
-    return buf;
-}
-#else
-const char *my_stdin(char *buf, uint32_t size) {
-    (void)buf;
-    (void)size;
-    volatile uint32_t *ctrl = (volatile uint32_t *)0x0FFE0600;
-    volatile char *input = (volatile char *)0x0FFE0604;
-    *ctrl = 1;
-    asm volatile("" ::: "memory");
-    return (const char *)input;
-}
-#endif
-
-int main() {
-    init_display();
-
-    my_printf("Enter a number:");
-
-    char stdin_buf[252];
-    const char *input = my_stdin(stdin_buf, sizeof(stdin_buf));
-    uint32_t n = my_atoi(input);
-
-    uint32_t res = fibo((uint16_t)n);
-    my_printf("fibo(%u) = %u", n, res);
-
-    char myBuf[32];
-    char *p = myBuf;
-    p[0]='f'; p[1]='i'; p[2]='b'; p[3]='o'; p[4]='('; p+=5;
-    p = my_itoa(n, p);
-    p[0]=')'; p[1]='='; p+=2;
-    p = my_itoa(res, p);
-    *p = '\0';
-    draw_string(0, 0, myBuf, 0, 255, 0);
-
-    close_display();
-    return 0;
-}
-
-uint32_t fibo(uint16_t n)
-{
-        if(n <2 ) return n;
-        uint32_t a = 0, b = 1, temp;
-        for (uint32_t i = 2; i <= n; i++)
-        {
-                temp = a + b;
-                a = b;
-                b = temp;
-        }
-        return b;
-}
-
- 
-
-
-
-void close_display() {
-    #ifdef LOCAL
-        SDL_DestroyRenderer(renderer);
-        SDL_DestroyWindow(window);
-        SDL_Quit();
-    #endif
-    }
-    
 void write_pixel(uint16_t x, uint16_t y, uint16_t r, uint16_t g, uint16_t b) {
     if (x >= SCREEN_WIDTH || y >= SCREEN_HEIGHT) {
         return;
@@ -335,24 +172,4 @@ void draw_string(int x, int y, const char *str, uint8_t r, uint8_t g, uint8_t b)
         x += 7;
         str++;
     }
-}
-
-char *my_itoa(uint32_t value, char *s)
-{
-    uint32_t tmp = value;
-    uint32_t nb_digits = 1;
-    while (tmp > 9)
-    {
-        nb_digits *= 10;
-        tmp /= 10;
-    }
-
-    uint32_t i = 0;
-    for (; nb_digits != 0; i++)
-    {
-        s[i] = value / nb_digits + '0';
-        value = value - nb_digits * (value / nb_digits);
-        nb_digits /= 10;
-    }
-    return s + i;
 }

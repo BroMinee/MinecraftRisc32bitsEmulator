@@ -6,4 +6,4 @@ services:
       - .:/workspace
     working_dir: /workspace
 
-    entrypoint: /workspace/compiler.sh /workspace/main.c
+    entrypoint: ["bash", "-c", "make -C /workspace/programs && python3 /workspace/generate_program_mcfunction.py"]

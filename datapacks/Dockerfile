@@ -44,6 +44,8 @@ RUN apt-get update && apt-get install -y \
     zlib1g \
     libexpat1 \
     bsdmainutils \
+    make \
+    python3 \
     && rm -rf /var/lib/apt/lists/*
 
 # Copier seulement le toolchain

@@ -24,61 +24,41 @@ The system features:
 
 Why not
 
-# When to code
+# How to code
 
 ## Editing the Code
 
-Edit `./datapacks/main.c` to write your program.
+Edit `./datapacks/programs/main.c` to write your program.
+
+Utility functions are available in `./datapacks/programs/lib/`:
+- `lib/stdio.h` / `lib/stdio.c` exposes `my_printf`, `my_stdin`, `my_atoi`, `my_itoa`
+- `lib/display.h` / `lib/display.c` exposes `init_display`, `close_display`, `write_pixel`, `draw_char`, `draw_string`
 
 To debug your program locally, compile it with GCC and the SDL2 library using the `-DLOCAL` flag.
-
-Take a look at `./datapacks/main.c` for examples of how to display text on the screen, particularly the `draw_string` and `draw_char` functions.
 
 ### Notes
 
 * Do not use any standard library functions.
-* String literals such as `const char my_string[] = "Minecraft";` are read-only by default. Use the `CREATE_STRING` macro to make strings writable, allowing the program to compile with SDL2.
-* See `./datapacks/main.c` for an example.
 
 # How to Cross-Compile
 
-## 1. Compile the Program
+## Compile and Generate
 
-Run the following commands:
+Run the following command from the `datapacks/` directory:
 
 ```bash
 cd datapacks
 docker compose up
 ```
 
-This runs `compiler.sh main.c` inside the container, which performs the following steps:
+This runs inside the Docker container:
 
-1. Compiles `main.c` into `main.o` using `riscv32-unknown-linux-gnu-gcc` with `-march=rv32imf -mabi=ilp32f`.
-2. Generates `main.s`, the assembly output.
-3. Links `main.o` into `main.elf` at address `0x0000`.
-4. Converts `main.elf` into `main`, a raw binary.
-5. Saves the hexadecimal dump to `output_dump.txt`.
+1. **Compiles** all source files (`main.c`, `lib/stdio.c`, `lib/display.c`) using `riscv32-unknown-linux-gnu-gcc` with `-march=rv32imf -mabi=ilp32f -O3`.
+2. **Links** the object files into `main.elf` at address `0x0000`.
+3. **Generates** `main.s` (disassembly of the final ELF), `main` (raw binary), and `output_dump.txt` (hexdump).
+4. **Converts** the hexdump into Minecraft functions via `generate_program_mcfunction.py`.
 
-### Compiling an Assembly File
-
-To compile a `.s` file instead of a `.c` file, change the entry point in `docker-compose.yml` to:
-
-```yaml
-entrypoint: /workspace/compiler.sh /workspace/main.s
-```
-
-Then write your assembly code in `./datapacks/main.s`.
-
-## 2. Generate the Minecraft Program
-
-Once `output_dump.txt` has been generated, run:
-
-```bash
-cd datapacks
-python3 generate_program_mcfunction.py
-```
-
-This converts the generated output into Minecraft functions.
+All build artifacts are produced in `datapacks/programs/`.
 
 # How to Load the Program in Minecraft
 
@@ -174,14 +154,14 @@ Eight 7-segment displays are mapped starting at `0x0FFE_0000`, each occupying 4 
 
 ## Stdout / Stdin
 
-To request a message from the user, uses the util function my_stdin in main.c
+To request a message from the user, use `my_stdin` from `lib/stdio.h`
 
 ```c
 char buf[252];
 const char *input = my_stdin(buf, sizeof(buf));
 ```
 
-To print a message to the Minecraft chat, uses the util function my_printf in main.c
+To print a message to the Minecraft chat, use `my_printf` from `lib/stdio.h`
 
 ```c
 my_printf("fibo(%u) = %u", n, res);
