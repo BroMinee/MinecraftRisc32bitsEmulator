@@ -10,15 +10,22 @@ void init_display(void) {
 #ifdef LOCAL
     SDL_Init(SDL_INIT_VIDEO);
     window = SDL_CreateWindow("SDL2 Screen", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, SCREEN_WIDTH * 10, SCREEN_HEIGHT * 10, SDL_WINDOW_SHOWN);
-    renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
+    renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_SOFTWARE);
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
     SDL_RenderClear(renderer);
     SDL_RenderPresent(renderer);
 #endif
 }
 
+void flush_display(void) {
+#ifdef LOCAL
+    SDL_RenderPresent(renderer);
+#endif
+}
+
 void close_display(void) {
 #ifdef LOCAL
+    SDL_Delay(5000);
     SDL_DestroyRenderer(renderer);
     SDL_DestroyWindow(window);
     SDL_Quit();
@@ -33,7 +40,6 @@ void write_pixel(uint16_t x, uint16_t y, uint16_t r, uint16_t g, uint16_t b) {
     SDL_SetRenderDrawColor(renderer, r, g, b, 255);
     SDL_Rect pixel = { x * 10, y * 10, 10, 10 };
     SDL_RenderFillRect(renderer, &pixel);
-    SDL_RenderPresent(renderer);
 #else
     uint32_t color = (r << 16) + (g << 8) + b;
     uint32_t *screen = (uint32_t *)SCREEN_START_ADDRESS;

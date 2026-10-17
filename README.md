@@ -32,7 +32,7 @@ Edit `./datapacks/programs/main.c` to write your program.
 
 Utility functions are available in `./datapacks/programs/lib/`:
 - `lib/stdio.h` / `lib/stdio.c` exposes `my_printf`, `my_stdin`, `my_atoi`, `my_itoa`
-- `lib/display.h` / `lib/display.c` exposes `init_display`, `close_display`, `write_pixel`, `draw_char`, `draw_string`
+- `lib/display.h` / `lib/display.c` exposes `init_display`, `close_display`, `write_pixel`, `draw_char`, `draw_string`, `flush_display`
 
 To debug your program locally, compile it with GCC and the SDL2 library using the `-DLOCAL` flag.
 
