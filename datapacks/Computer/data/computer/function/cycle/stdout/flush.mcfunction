@@ -1,6 +1,7 @@
 # Flush stdout buffer to chat
 
 data modify storage computer:memory stdout set value []
+data modify storage computer:memory stdout_text set value ""
 
 # Set rs1 to buffer start address (0x0FFE0504)
 scoreboard players set rs1_0 Computer 0

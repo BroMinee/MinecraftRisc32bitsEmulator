@@ -150,7 +150,9 @@ All peripherals are accessed through memory-mapped I/O (MMIO). Reading from or w
 | `0x0FFE_0200 - 0x0FFE_0203` | Random             | Read   | Random value, changes every cycle                |
 | `0x0FFE_0300`               | Clock              | Read   | Cycle count since startup                        |
 | `0x0FFE_0500`               | Stdout Control     | Write  | Write `1` to send buffer to chat                 |
-| `0x0FFE_0504 - 0x0FFE_05FF` | Stdout Buffer      | Write  | Null-terminated string to display (max 252 bytes)|
+| `0x0FFE_0504 - 0x0FFE_05FF` | Stdout Buffer      | Write  | Null-terminated string to display (max 251 chars + null)|
+| `0x0FFE_0600`               | Stdin Control      | Write  | Write `1` to request input (blocks CPU until received) |
+| `0x0FFE_0604 - 0x0FFE_06FF` | Stdin Buffer       | Read   | Null-terminated string from user (max 251 chars + null) |
 | `0x0FFF_0000 - 0x0FFF_BFFF` | Screen             | Write  | 64×64 pixel display, 32 bits per pixel (RGB)     |
 
 ## 7-Segment Displays
@@ -168,7 +170,16 @@ Eight 7-segment displays are mapped starting at `0x0FFE_0000`, each occupying 4 
 | `0x0FFE_0018`  | Digit 6            |
 | `0x0FFE_001C`  | Digit 7 (rightmost)|
 
-## Stdout
+## Stdin
+
+## Stdout / Stdin
+
+To request a message from the user, uses the util function my_stdin in main.c
+
+```c
+char buf[252];
+const char *input = my_stdin(buf, sizeof(buf));
+```
 
 To print a message to the Minecraft chat, uses the util function my_printf in main.c
 

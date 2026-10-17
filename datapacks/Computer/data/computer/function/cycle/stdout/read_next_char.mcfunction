@@ -7,6 +7,12 @@ execute if score read_0 read8 matches 0 run execute if score read_1 read8 matche
 
 function computer:cycle/stdout/byte_to_char
 
+# Concat the last appended char into stdout_text string
+data modify storage computer:memory concat_args set value {text: "", char: ""}
+data modify storage computer:memory concat_args.text set from storage computer:memory stdout_text
+data modify storage computer:memory concat_args.char set from storage computer:memory stdout[-1]
+function computer:cycle/stdout/concat_char with storage computer:memory concat_args
+
 function computer:misc/copy_rs1_to_input_l_add32
 function computer:misc/reset_input_r_32bits
 scoreboard players set input_r_0 add32 1

@@ -109,27 +109,56 @@ void my_printf(const char *fmt, ...) {
 }
 #endif
 
+uint32_t my_atoi(const char *s) {
+    uint32_t result = 0;
+    while (*s >= '0' && *s <= '9') {
+        result = result * 10 + (*s - '0');
+        s++;
+    }
+    return result;
+}
+
+#ifdef LOCAL
+#include <string.h>
+const char *my_stdin(char *buf, uint32_t size) {
+    if (fgets(buf, size, stdin)) {
+        buf[strcspn(buf, "\n")] = '\0';
+    }
+    return buf;
+}
+#else
+const char *my_stdin(char *buf, uint32_t size) {
+    (void)buf;
+    (void)size;
+    volatile uint32_t *ctrl = (volatile uint32_t *)0x0FFE0600;
+    volatile char *input = (volatile char *)0x0FFE0604;
+    *ctrl = 1;
+    asm volatile("" ::: "memory");
+    return (const char *)input;
+}
+#endif
+
 int main() {
     init_display();
 
-	CREATE_STRING(myString, "fibo(00)=0000000000");
-    
+    my_printf("Enter a number:");
 
-    uint16_t n = 47;
-	uint32_t res = fibo(n);
-	my_itoa(n, myString+5);
-	my_itoa(res, myString+9);
-	draw_string(0, 0, myString, 0, 255, 0);
+    char stdin_buf[252];
+    const char *input = my_stdin(stdin_buf, sizeof(stdin_buf));
+    uint32_t n = my_atoi(input);
 
-    my_printf("fibo(%u) = %u", (uint32_t)n, res);
+    uint32_t res = fibo((uint16_t)n);
+    my_printf("fibo(%u) = %u", n, res);
 
+    char myBuf[32];
+    char *p = myBuf;
+    p[0]='f'; p[1]='i'; p[2]='b'; p[3]='o'; p[4]='('; p+=5;
+    p = my_itoa(n, p);
+    p[0]=')'; p[1]='='; p+=2;
+    p = my_itoa(res, p);
+    *p = '\0';
+    draw_string(0, 0, myBuf, 0, 255, 0);
 
-#ifdef LOCAL
-    free(myString);
-#endif
-#ifdef LOCAL
-    SDL_Delay(10000);
-#endif
     close_display();
     return 0;
 }

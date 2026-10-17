@@ -14,6 +14,8 @@ team remove BLUE
 data remove storage computer:memory hexa
 data remove storage computer:memory bin
 data remove storage computer:memory mul
+data modify storage computer:memory stdout_text set value ""
+data modify storage computer:memory stdin_template set value '$(stdin_input)'
 
 
 scoreboard objectives add FixedValue dummy
@@ -65,6 +67,20 @@ scoreboard players set read stats 0
 scoreboard players set write stats 0
 scoreboard players set error stats 0
 scoreboard players set done stats 0
+
+# Reset stdin control (0x0FFE_0600) to 0 = no stdin pending
+setblock 3 255 385 minecraft:air
+setblock 2 255 385 minecraft:air
+setblock 1 255 385 minecraft:air
+setblock 0 255 385 minecraft:air
+
+# Reset stdout control (0x0FFE_0500) to 0 = no stdout pending
+setblock -253 255 385 minecraft:air
+setblock -254 255 385 minecraft:air
+setblock -255 255 385 minecraft:air
+setblock -256 255 385 minecraft:air
+
+
 
 kill @e[type=armor_stand]
 summon armor_stand -509 0 -512 {CustomName:'[{"text":"pc"}]',CustomNameVisible:1b,Team:RED, Tags:["pc"], NoGravity:1b}
