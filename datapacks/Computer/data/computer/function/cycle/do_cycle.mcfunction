@@ -7,6 +7,7 @@ execute if block 3 255 385 minecraft:oak_planks run execute if block 2 255 385 m
 
 scoreboard players add cycle stats 1
 function computer:cycle/random/write_32bits_random_to_memory
+function computer:cycle/input/write_keys_to_memory
 data modify storage computer:memory type set value "Opcode read"
 function computer:cycle/readopcode
 function computer:instruction/_dispatcher
