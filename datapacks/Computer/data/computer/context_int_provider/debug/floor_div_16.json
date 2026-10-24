@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:div",
+  "left": {
+    "type": "minecraft:sub",
+    "left": { "type": "minecraft:storage", "storage": "computer:debug", "path": "val" },
+    "right": "computer:debug/positive_mod_16"
+  },
+  "right": 16
+}

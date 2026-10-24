@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:mod",
+  "left": {
+    "type": "minecraft:add",
+    "inputs": [
+      {
+        "type": "minecraft:mod",
+        "left": { "type": "minecraft:storage", "storage": "computer:debug", "path": "val" },
+        "right": 16
+      },
+      16
+    ]
+  },
+  "right": 16
+}

@@ -2,7 +2,7 @@
 # input rs1_[0-11] Computer (for pixel position)
 # Selector as = @e[tag=screen]
 
-tellraw @a[tag=DEBUG] {"text":"Writing a pixel screen!","color":"gold"}
+function computer:debug/print_log {"message": '{"text":"Writing a pixel screen!","color":"gold"}'}
 
 scoreboard players operation input_0 A2 = rs2_0 Computer
 scoreboard players operation input_1 A2 = rs2_1 Computer
@@ -69,27 +69,18 @@ execute if score input_24 A2 matches 1 run scoreboard players remove background 
 # above 24 bit are not used in this case still compute since a2_32bits is a generic function
 
 
-execute if score input_25 A2 matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error input_25 should not be set when writing a pixel","bold":true,"color":"dark_red"}]
-execute if score input_25 A2 matches 1 run scoreboard players set error stats 1
-execute if score input_26 A2 matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error input_26 should not be set when writing a pixel","bold":true,"color":"dark_red"}]
-execute if score input_26 A2 matches 1 run scoreboard players set error stats 1
-execute if score input_27 A2 matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error input_27 should not be set when writing a pixel","bold":true,"color":"dark_red"}]
-execute if score input_27 A2 matches 1 run scoreboard players set error stats 1
-execute if score input_28 A2 matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error input_28 should not be set when writing a pixel","bold":true,"color":"dark_red"}]
-execute if score input_28 A2 matches 1 run scoreboard players set error stats 1
-execute if score input_29 A2 matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error input_29 should not be set when writing a pixel","bold":true,"color":"dark_red"}]
-execute if score input_29 A2 matches 1 run scoreboard players set error stats 1
-execute if score input_30 A2 matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error input_30 should not be set when writing a pixel","bold":true,"color":"dark_red"}]
-execute if score input_30 A2 matches 1 run scoreboard players set error stats 1
-execute if score input_31 A2 matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Error input_31 should not be set when writing a pixel","bold":true,"color":"dark_red"}]
-execute if score input_31 A2 matches 1 run scoreboard players set error stats 1
+execute if score input_25 A2 matches 1 run function computer:debug/print_error {"message": '{"text":"Error input_25 should not be set when writing a pixel","color":"dark_red"}'}
+execute if score input_26 A2 matches 1 run function computer:debug/print_error {"message": '{"text":"Error input_26 should not be set when writing a pixel","color":"dark_red"}'}
+execute if score input_27 A2 matches 1 run function computer:debug/print_error {"message": '{"text":"Error input_27 should not be set when writing a pixel","color":"dark_red"}'}
+execute if score input_28 A2 matches 1 run function computer:debug/print_error {"message": '{"text":"Error input_28 should not be set when writing a pixel","color":"dark_red"}'}
+execute if score input_29 A2 matches 1 run function computer:debug/print_error {"message": '{"text":"Error input_29 should not be set when writing a pixel","color":"dark_red"}'}
+execute if score input_30 A2 matches 1 run function computer:debug/print_error {"message": '{"text":"Error input_30 should not be set when writing a pixel","color":"dark_red"}'}
+execute if score input_31 A2 matches 1 run function computer:debug/print_error {"message": '{"text":"Error input_31 should not be set when writing a pixel","color":"dark_red"}'}
 
 tp @s 1.0 32.5 3
 
-execute if score rs1_0 Computer matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Pixel write rs1_0 must be 0 (align by 4)","bold":true,"color":"dark_red"}] 
-execute if score rs1_0 Computer matches 1 run scoreboard players set error stats 1 
-execute if score rs1_1 Computer matches 1 run tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"[ERROR] - ","bold":true,"color":"blue"},{"text":"Pixel write rs1_1 must be 0 (align by 4)","bold":true,"color":"dark_red"}]
-execute if score rs1_1 Computer matches 1 run scoreboard players set error stats 1 
+execute if score rs1_0 Computer matches 1 run function computer:debug/print_error {"message": '{"text":"Pixel write rs1_0 must be 0 (align by 4)","color":"dark_red"}'}
+execute if score rs1_1 Computer matches 1 run function computer:debug/print_error {"message": '{"text":"Pixel write rs1_1 must be 0 (align by 4)","color":"dark_red"}'}
 
 
 scoreboard players operation input_0 scoretp_x_screen = rs1_2 Computer

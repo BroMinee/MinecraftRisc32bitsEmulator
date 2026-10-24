@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:mul",
+  "inputs": [
+    {
+      "type": "minecraft:div",
+      "left": { "type": "minecraft:from_int", "input": { "type": "minecraft:storage", "storage": "computer:debug", "path": "mantissa" } },
+      "right": 8388608
+    },
+    {
+      "type": "minecraft:pow",
+      "base": 2.0,
+      "exponent": -126.0
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:sub",
+  "left": { "type": "minecraft:storage", "storage": "computer:debug", "path": "exponent" },
+  "right": 127
+}

@@ -13,7 +13,7 @@ execute if score stdin_index Computer matches 251 run scoreboard players set wri
 execute if score stdin_index Computer matches 251 run scoreboard players set write_6 Computer 0
 execute if score stdin_index Computer matches 251 run scoreboard players set write_7 Computer 0
 execute if score stdin_index Computer matches 251 run execute at @s run function computer:write/write_8bits
-execute if score stdin_index Computer matches 251 run tellraw @a [{"text":"[stdin] ","bold":true,"color":"green"},{"text":"Warning: input truncated to 251 characters","color":"yellow"}]
+execute if score stdin_index Computer matches 251 run function computer:debug/print_log {"message": '{"text":"[stdin] Warning: input truncated to 251 characters","color":"yellow"}'}
 execute if score stdin_index Computer matches 251 run return 0
 
 # Reset stdin_char before extraction (set string does nothing if index is out of bounds)

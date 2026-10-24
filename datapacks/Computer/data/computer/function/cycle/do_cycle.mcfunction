@@ -11,4 +11,4 @@ function computer:cycle/decode
 
 # Increment PC by 4 (unless jump/branch modified it)
 execute if data storage computer:cpu {increase_pc:1} run function computer:cycle/increment_pc
-execute unless data storage computer:cpu increase_pc run tellraw @a[tag=DEBUG] [{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"PC not increased (jump condition)","color": "gold", "bold": false}]
+execute unless data storage computer:cpu increase_pc run function computer:debug/print_log {"message": '{"text":"PC not increased (jump condition)","color":"gold"}'}

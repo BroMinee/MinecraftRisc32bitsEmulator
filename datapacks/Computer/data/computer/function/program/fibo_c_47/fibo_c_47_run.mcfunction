@@ -1,8 +1,9 @@
 # load
 function computer:program/fibo_c_47/fibo_c_47_load
 # run
-execute as @e[tag=pc, limit=1] run function computer:program/fibo_c_47/fibo_c_47_run_until_end
+function computer:program/fibo_c_47/fibo_c_47_run_until_end
 # end
-execute if score error stats matches 1 run tellraw @a [{"text":"Error: ","color":"red","bold":true},{"text":"Program has been stopped","color":"red"}]
-execute if score done stats matches 1 run tellraw @a [{"text":""},{"text":"---","obfuscated":true,"color":"green"},{"text":" Program has been completed ","bold":true,"underlined":true,"color":"green"},{"text":"---","obfuscated":true,"color":"green"}]
-function computer:debug/register/pre_debug_rd_x10
+execute if score error stats matches 1 run function computer:debug/print_error {"message": '{"text":"Program has been stopped","color":"red"}'}
+execute if score done stats matches 1 run function computer:debug/print_log {"message": '{"text":"Program has been completed","bold":true,"color":"green"}'}
+data modify storage computer:debug reg set value "x10"
+function computer:debug/register/print_int with storage computer:debug

@@ -13,7 +13,7 @@
 # Display 6: addr 0x0FFE_0018, bits 2-4 = 110, X=24
 # Display 7: addr 0x0FFE_001C, bits 2-4 = 111, X=28
 
-tellraw @a[tag=DEBUG] {"text":"Writing on 7-segment display!","color":"gold"}
+function computer:debug/print_log {"message": '{"text":"Writing on 7-segment display!","color":"gold"}'}
 
 execute if score rs1_2 Computer matches 0 run execute if score rs1_3 Computer matches 0 run execute if score rs1_4 Computer matches 0 run tp @s 2 34 3
 execute if score rs1_2 Computer matches 1 run execute if score rs1_3 Computer matches 0 run execute if score rs1_4 Computer matches 0 run tp @s 6 34 3

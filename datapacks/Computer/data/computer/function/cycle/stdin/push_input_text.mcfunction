@@ -43,7 +43,7 @@ execute as @e[limit=1,type=armor_stand,tag=write] run function computer:write/tp
 execute as @e[limit=1,type=armor_stand,tag=write] run function computer:cycle/stdin/write_next_char
 
 # Display what was received
-tellraw @a [{"text":"[stdin] ","bold":true,"color":"green"},{"nbt":"stdin_text","storage":"computer:memory","color":"white"}]
+function computer:debug/print_log {"message": '{"text":"[stdin] ","bold":true,"color":"green"},{"nbt":"stdin_text","storage":"computer:memory","color":"white"}'}
 
 # Reset stdin control to 0
 setblock 3 255 385 minecraft:air

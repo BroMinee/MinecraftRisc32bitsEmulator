@@ -1,0 +1,4 @@
+{
+  "type": "minecraft:negate",
+  "input": { "type": "minecraft:storage", "storage": "computer:debug", "path": "float" }
+}
