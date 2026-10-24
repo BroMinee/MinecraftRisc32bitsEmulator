@@ -1,0 +1,3 @@
+function computer:tests/__internal/beq_equal_positif_load
+function computer:tests/__internal/beq_equal_positif_run
+function computer:tests/__internal/beq_equal_positif_test

@@ -1,0 +1,3 @@
+function computer:tests/__internal/lh_negative_load
+function computer:tests/__internal/lh_negative_run
+function computer:tests/__internal/lh_negative_test

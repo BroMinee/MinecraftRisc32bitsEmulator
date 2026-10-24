@@ -1,0 +1,3 @@
+function computer:tests/__internal/bge_lower_positif_negatif_load
+function computer:tests/__internal/bge_lower_positif_negatif_run
+function computer:tests/__internal/bge_lower_positif_negatif_test

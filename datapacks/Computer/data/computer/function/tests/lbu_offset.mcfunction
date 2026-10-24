@@ -1,0 +1,3 @@
+function computer:tests/__internal/lbu_offset_load
+function computer:tests/__internal/lbu_offset_run
+function computer:tests/__internal/lbu_offset_test

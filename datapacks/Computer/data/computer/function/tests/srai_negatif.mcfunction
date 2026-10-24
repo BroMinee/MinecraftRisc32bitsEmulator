@@ -1,0 +1,3 @@
+function computer:tests/__internal/srai_negatif_load
+function computer:tests/__internal/srai_negatif_run
+function computer:tests/__internal/srai_negatif_test

@@ -1,0 +1,3 @@
+function computer:tests/__internal/fmul_debug2_load
+function computer:tests/__internal/fmul_debug2_run
+function computer:tests/__internal/fmul_debug2_test

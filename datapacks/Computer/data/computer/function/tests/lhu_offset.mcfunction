@@ -1,0 +1,3 @@
+function computer:tests/__internal/lhu_offset_load
+function computer:tests/__internal/lhu_offset_run
+function computer:tests/__internal/lhu_offset_test

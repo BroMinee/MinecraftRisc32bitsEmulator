@@ -1,0 +1,3 @@
+function computer:tests/__internal/mul_n_n_overflow_load
+function computer:tests/__internal/mul_n_n_overflow_run
+function computer:tests/__internal/mul_n_n_overflow_test

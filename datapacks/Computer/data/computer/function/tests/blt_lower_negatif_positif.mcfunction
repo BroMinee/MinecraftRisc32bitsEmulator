@@ -1,0 +1,3 @@
+function computer:tests/__internal/blt_lower_negatif_positif_load
+function computer:tests/__internal/blt_lower_negatif_positif_run
+function computer:tests/__internal/blt_lower_negatif_positif_test

@@ -1,0 +1,3 @@
+function computer:tests/__internal/bge_forward_backward_load
+function computer:tests/__internal/bge_forward_backward_run
+function computer:tests/__internal/bge_forward_backward_test

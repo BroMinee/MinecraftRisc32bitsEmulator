@@ -1,0 +1,3 @@
+function computer:tests/__internal/lb_positif_load
+function computer:tests/__internal/lb_positif_run
+function computer:tests/__internal/lb_positif_test

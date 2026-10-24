@@ -1,0 +1,3 @@
+function computer:tests/__internal/lw_offset_load
+function computer:tests/__internal/lw_offset_run
+function computer:tests/__internal/lw_offset_test

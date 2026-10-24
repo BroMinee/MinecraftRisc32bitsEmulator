@@ -1,0 +1,3 @@
+function computer:tests/__internal/bgeu_equal_negatif_load
+function computer:tests/__internal/bgeu_equal_negatif_run
+function computer:tests/__internal/bgeu_equal_negatif_test
