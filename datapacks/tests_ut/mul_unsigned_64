@@ -1,0 +1,10 @@
+## function computer:alu/int/mul_unsigned_64
+## inputs a b
+## outputs result result_hi
+
+0 0 0 0
+1 1 1 0
+2 3 6 0
+-1 -1 1 -2
+2147483647 2 -2 0
+-2147483648 2 0 1

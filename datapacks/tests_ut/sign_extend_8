@@ -1,0 +1,12 @@
+## function computer:alu/int/sign_extend_8
+## inputs a
+## outputs result
+
+0 0
+127 127
+128 -128
+255 -1
+256 0
+-1 -1
+50 50
+200 -56

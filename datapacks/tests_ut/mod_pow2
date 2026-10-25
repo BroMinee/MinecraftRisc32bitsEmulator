@@ -1,0 +1,13 @@
+## function computer:alu/int/mod_pow2
+## inputs a bits
+## outputs result
+
+0 1 0
+7 3 7
+8 3 0
+255 8 255
+256 8 0
+257 8 1
+2147483647 16 65535
+100 0 0
+12345 31 12345

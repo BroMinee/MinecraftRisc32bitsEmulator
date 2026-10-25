@@ -1,0 +1,12 @@
+## function computer:alu/int/mulhsu
+## inputs a b
+## outputs result
+
+0 0 0
+1 1 0
+-1 1 -1
+1 -1 0
+-1 -1 -1
+2147483647 2147483647 1073741823
+2147483647 2 0
+-2147483648 2 -1

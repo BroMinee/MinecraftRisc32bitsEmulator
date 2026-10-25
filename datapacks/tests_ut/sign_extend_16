@@ -1,0 +1,12 @@
+## function computer:alu/int/sign_extend_16
+## inputs a
+## outputs result
+
+0 0
+32767 32767
+32768 -32768
+65535 -1
+65536 0
+-1 -1
+100 100
+50000 -15536
