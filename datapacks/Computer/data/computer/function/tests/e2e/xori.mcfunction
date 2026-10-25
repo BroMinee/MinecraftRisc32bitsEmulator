@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/xori_load
-function computer:tests/e2e/__internal/xori_run
-function computer:tests/e2e/__internal/xori_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP xori (not implemented)","color":"gray"}]

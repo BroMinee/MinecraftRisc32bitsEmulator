@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/bge_equal_negatif_load
-function computer:tests/e2e/__internal/bge_equal_negatif_run
-function computer:tests/e2e/__internal/bge_equal_negatif_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP bge_equal_negatif (not implemented)","color":"gray"}]

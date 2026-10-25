@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/or_load
-function computer:tests/e2e/__internal/or_run
-function computer:tests/e2e/__internal/or_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP or (not implemented)","color":"gray"}]

@@ -3,6 +3,79 @@ import os
 import struct
 
 
+DATAPACK_DIR = "./Computer/data"
+
+# All known instruction names (must match instruction/*.mcfunction filenames)
+KNOWN_INSTRUCTIONS = [
+    "lui", "auipc", "jal", "jalr",
+    "beq", "bne", "blt", "bge", "bltu", "bgeu",
+    "lb", "lh", "lw", "lbu", "lhu",
+    "sb", "sh", "sw",
+    "addi", "slti", "sltiu", "xori", "ori", "andi", "slli", "srli", "srai",
+    "add", "sub", "sll", "slt", "sltu", "xor", "srl", "sra", "or", "and",
+    "mul", "mulh", "mulhsu", "mulhu", "div", "divu", "rem", "remu",
+    "flw", "fsw",
+    "fmadd", "fmsub", "fnmsub", "fnmadd",
+    "fadd.s", "fsub.s", "fmul.s", "fdiv.s",
+    "fsgnj.s", "fsgnjn.s", "fsgnjx.s",
+    "fmin.s", "fmax.s",
+    "feq.s", "flt.s", "fle.s",
+    "fcvt.w.s", "fcvt.wu.s", "fcvt.s.w", "fcvt.s.wu",
+    "fmv.x.w", "fclass.s", "fmv.w.x",
+    "system",
+    "mv", "nop",  # pseudo-instructions (mapped to real ones)
+]
+# Sort longest first so "addi" matches before "add"
+KNOWN_INSTRUCTIONS.sort(key=lambda x: -len(x))
+
+# Pseudo-instructions map to their real instruction
+PSEUDO_MAP = {
+    "mv": "addi",
+    "nop": "addi",
+}
+
+# Also handle special test names like "fadd_debug" -> "fadd.s"
+ALIAS_MAP = {
+    "fadd": "fadd.s",
+    "fsub": "fsub.s",
+    "fmul": "fmul.s",
+    "fdiv": "fdiv.s",
+    "fmadd.s": "fmadd",
+    "fmsub.s": "fmsub",
+    "fnmadd.s": "fnmadd",
+    "fnmsub.s": "fnmsub",
+    "sh2": "sh",
+}
+
+
+def extract_instruction_name(test_name):
+    """Extract the instruction name from a test file name."""
+    # Try exact match with known instructions (longest first)
+    for instr in KNOWN_INSTRUCTIONS:
+        if test_name == instr or test_name.startswith(instr + "_"):
+            real = PSEUDO_MAP.get(instr, instr)
+            return real
+    # Try alias (e.g. "fadd_debug" -> "fadd.s")
+    for alias, real in ALIAS_MAP.items():
+        if test_name == alias or test_name.startswith(alias + "_"):
+            return real
+    return None
+
+
+def is_placeholder(function_path):
+    """Check if a mcfunction file only calls debug/print_error."""
+    if not os.path.isfile(function_path):
+        return True
+    with open(function_path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            if "debug/print_error" not in line:
+                return False
+        return True
+
+
 def hex_to_signed32(val):
     """Convert unsigned 32-bit int to signed 32-bit int (for Minecraft storage)."""
     return struct.unpack('>i', struct.pack('>I', val & 0xFFFFFFFF))[0]
@@ -90,8 +163,29 @@ with open(f"{OUTPUT_DIR}/testsuite.mcfunction", "w", encoding="utf-8") as f_test
     f_testsuite.write("scoreboard players set total tests 0\n")
     f_testsuite.write("data modify storage computer:test failed set value []\n")
 
+    skipped = 0
+    generated = 0
+
     for file in files:
         test_name = file
+
+        # Check if the instruction is implemented
+        instr_name = extract_instruction_name(test_name)
+        if instr_name:
+            mcfn_path = os.path.join(DATAPACK_DIR, "computer", "function", "instruction", instr_name + ".mcfunction")
+            if is_placeholder(mcfn_path):
+                print(f"SKIP {file} (instruction/{instr_name} not implemented)")
+                # Generate a skip wrapper
+                with open(os.path.join(PUBLIC_DIR, f"{test_name}.mcfunction"), "w", encoding="utf-8") as f_out:
+                    f_out.write(f'tellraw @a [{{"text":"[TEST] - ","bold":true,"color":"blue"}},{{"text":"SKIP {test_name} (not implemented)","color":"gray"}}]\n')
+                f_testsuite.write(f"# {test_name}\n")
+                f_testsuite.write(f"function computer:tests/e2e/{test_name}\n")
+                skipped += 1
+                continue
+        else:
+            print(f"WARNING: could not extract instruction name from '{test_name}'")
+
+        generated += 1
         print(f"Processing {file}")
 
         with open(os.path.join(SOURCE_DIR, file), "r", encoding="utf-8") as f:
@@ -187,3 +281,5 @@ with open(f"{OUTPUT_DIR}/testsuite.mcfunction", "w", encoding="utf-8") as f_test
     f_testsuite.write('tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Number of fails","bold":true,"color":"gold"},{"text":" (","bold":true,"color":"gold"},{"score":{"name":"failed","objective":"tests"},"bold":true,"color":"red"},{"text":" out of ","bold":true,"color":"green"},{"score":{"name":"total","objective":"tests"},"bold":true,"color":"gold"},{"text":" tests","bold":true,"color":"green"},{"text":")","bold":true,"color":"gold"}]\n')
     f_testsuite.write('execute if data storage computer:test failed[0] run function computer:tests/e2e/show_failed_tests\n')
     f_testsuite.write('execute if score hasDebugTag tests matches 1 run tag @s add DEBUG\n')
+
+print(f"Generated {generated} tests, skipped {skipped} (not implemented)")

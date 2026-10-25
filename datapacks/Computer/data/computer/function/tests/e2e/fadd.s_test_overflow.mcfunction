@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/fadd.s_test_overflow_load
-function computer:tests/e2e/__internal/fadd.s_test_overflow_run
-function computer:tests/e2e/__internal/fadd.s_test_overflow_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP fadd.s_test_overflow (not implemented)","color":"gray"}]

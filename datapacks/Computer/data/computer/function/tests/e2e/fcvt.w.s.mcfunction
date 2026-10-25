@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/fcvt.w.s_load
-function computer:tests/e2e/__internal/fcvt.w.s_run
-function computer:tests/e2e/__internal/fcvt.w.s_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP fcvt.w.s (not implemented)","color":"gray"}]

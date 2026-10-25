@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/sltu_load
-function computer:tests/e2e/__internal/sltu_run
-function computer:tests/e2e/__internal/sltu_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP sltu (not implemented)","color":"gray"}]

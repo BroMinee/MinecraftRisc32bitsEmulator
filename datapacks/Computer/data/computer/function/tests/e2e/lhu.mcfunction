@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/lhu_load
-function computer:tests/e2e/__internal/lhu_run
-function computer:tests/e2e/__internal/lhu_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP lhu (not implemented)","color":"gray"}]

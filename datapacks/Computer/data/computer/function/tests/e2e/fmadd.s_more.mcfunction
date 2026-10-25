@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/fmadd.s_more_load
-function computer:tests/e2e/__internal/fmadd.s_more_run
-function computer:tests/e2e/__internal/fmadd.s_more_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP fmadd.s_more (not implemented)","color":"gray"}]

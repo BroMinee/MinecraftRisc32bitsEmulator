@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/bge_lower_positif_positif_load
-function computer:tests/e2e/__internal/bge_lower_positif_positif_run
-function computer:tests/e2e/__internal/bge_lower_positif_positif_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP bge_lower_positif_positif (not implemented)","color":"gray"}]

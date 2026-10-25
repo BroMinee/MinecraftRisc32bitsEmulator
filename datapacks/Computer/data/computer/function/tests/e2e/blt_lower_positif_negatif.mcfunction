@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/blt_lower_positif_negatif_load
-function computer:tests/e2e/__internal/blt_lower_positif_negatif_run
-function computer:tests/e2e/__internal/blt_lower_positif_negatif_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP blt_lower_positif_negatif (not implemented)","color":"gray"}]

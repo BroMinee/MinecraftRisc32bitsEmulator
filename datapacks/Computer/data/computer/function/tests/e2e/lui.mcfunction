@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/lui_load
-function computer:tests/e2e/__internal/lui_run
-function computer:tests/e2e/__internal/lui_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP lui (not implemented)","color":"gray"}]

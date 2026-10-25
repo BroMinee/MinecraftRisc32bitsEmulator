@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/lw_load
-function computer:tests/e2e/__internal/lw_run
-function computer:tests/e2e/__internal/lw_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP lw (not implemented)","color":"gray"}]

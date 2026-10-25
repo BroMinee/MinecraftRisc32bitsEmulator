@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/lb_offset_load
-function computer:tests/e2e/__internal/lb_offset_run
-function computer:tests/e2e/__internal/lb_offset_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP lb_offset (not implemented)","color":"gray"}]

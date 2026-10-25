@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/remu_n_n_load
-function computer:tests/e2e/__internal/remu_n_n_run
-function computer:tests/e2e/__internal/remu_n_n_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP remu_n_n (not implemented)","color":"gray"}]

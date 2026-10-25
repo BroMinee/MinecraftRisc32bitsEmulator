@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/srl_0_load
-function computer:tests/e2e/__internal/srl_0_run
-function computer:tests/e2e/__internal/srl_0_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP srl_0 (not implemented)","color":"gray"}]

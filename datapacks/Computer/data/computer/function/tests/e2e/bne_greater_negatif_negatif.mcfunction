@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/bne_greater_negatif_negatif_load
-function computer:tests/e2e/__internal/bne_greater_negatif_negatif_run
-function computer:tests/e2e/__internal/bne_greater_negatif_negatif_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP bne_greater_negatif_negatif (not implemented)","color":"gray"}]

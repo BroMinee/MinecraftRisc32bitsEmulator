@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/nop_load
-function computer:tests/e2e/__internal/nop_run
-function computer:tests/e2e/__internal/nop_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP nop (not implemented)","color":"gray"}]

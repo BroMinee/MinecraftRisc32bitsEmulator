@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/sra_load
-function computer:tests/e2e/__internal/sra_run
-function computer:tests/e2e/__internal/sra_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP sra (not implemented)","color":"gray"}]

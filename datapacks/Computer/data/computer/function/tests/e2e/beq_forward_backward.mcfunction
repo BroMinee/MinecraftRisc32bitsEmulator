@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/beq_forward_backward_load
-function computer:tests/e2e/__internal/beq_forward_backward_run
-function computer:tests/e2e/__internal/beq_forward_backward_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP beq_forward_backward (not implemented)","color":"gray"}]

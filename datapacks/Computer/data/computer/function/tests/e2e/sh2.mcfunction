@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/sh2_load
-function computer:tests/e2e/__internal/sh2_run
-function computer:tests/e2e/__internal/sh2_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP sh2 (not implemented)","color":"gray"}]

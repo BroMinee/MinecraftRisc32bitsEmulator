@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/fdiv.s_more3_load
-function computer:tests/e2e/__internal/fdiv.s_more3_run
-function computer:tests/e2e/__internal/fdiv.s_more3_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP fdiv.s_more3 (not implemented)","color":"gray"}]

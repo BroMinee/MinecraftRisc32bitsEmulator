@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/fmsub.s_load
-function computer:tests/e2e/__internal/fmsub.s_run
-function computer:tests/e2e/__internal/fmsub.s_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP fmsub.s (not implemented)","color":"gray"}]

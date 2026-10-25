@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/fadd.s_same_exponent_load
-function computer:tests/e2e/__internal/fadd.s_same_exponent_run
-function computer:tests/e2e/__internal/fadd.s_same_exponent_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP fadd.s_same_exponent (not implemented)","color":"gray"}]

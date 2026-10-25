@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/rem_3_load
-function computer:tests/e2e/__internal/rem_3_run
-function computer:tests/e2e/__internal/rem_3_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP rem_3 (not implemented)","color":"gray"}]

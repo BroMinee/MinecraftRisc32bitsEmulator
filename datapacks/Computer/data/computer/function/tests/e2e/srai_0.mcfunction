@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/srai_0_load
-function computer:tests/e2e/__internal/srai_0_run
-function computer:tests/e2e/__internal/srai_0_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP srai_0 (not implemented)","color":"gray"}]

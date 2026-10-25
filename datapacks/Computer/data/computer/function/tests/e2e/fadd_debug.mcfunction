@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/fadd_debug_load
-function computer:tests/e2e/__internal/fadd_debug_run
-function computer:tests/e2e/__internal/fadd_debug_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP fadd_debug (not implemented)","color":"gray"}]

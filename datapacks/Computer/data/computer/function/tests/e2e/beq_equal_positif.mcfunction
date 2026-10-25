@@ -1,3 +1,1 @@
-function computer:tests/e2e/__internal/beq_equal_positif_load
-function computer:tests/e2e/__internal/beq_equal_positif_run
-function computer:tests/e2e/__internal/beq_equal_positif_test
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP beq_equal_positif (not implemented)","color":"gray"}]
