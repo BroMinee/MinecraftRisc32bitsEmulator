@@ -2,6 +2,7 @@ gamerule max_block_modifications 2147483647
 gamerule max_command_sequence_length 2147483647
 
 scoreboard objectives remove stats
+scoreboard objectives remove alu
 # Volontary excluded 'tests' because it's used for the testsuite
 # scoreboard objectives remove tests
 
@@ -10,6 +11,7 @@ data modify storage computer:memory stdin_template set value '$(stdin_input)'
 
 
 scoreboard objectives add stats dummy
+scoreboard objectives add alu dummy
 scoreboard objectives add tests dummy
 
 

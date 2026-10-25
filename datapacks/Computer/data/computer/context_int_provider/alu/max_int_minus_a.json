@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:sub",
+  "left": 2147483647,
+  "right": {"type": "minecraft:storage", "storage": "computer:alu", "path": "a"}
+}

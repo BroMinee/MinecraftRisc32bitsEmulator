@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:add",
+  "inputs": [
+    {"type": "minecraft:storage", "storage": "computer:alu", "path": "a"},
+    {"type": "minecraft:storage", "storage": "computer:alu", "path": "b"}
+  ]
+}
