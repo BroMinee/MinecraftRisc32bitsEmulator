@@ -1,3 +1,6 @@
 # Inputs: computer:alu n
 # Outputs: computer:alu result
-function computer:debug/print_error {"message": {"text": "alu/pow2 not yet implemented", "color":"gold"}}
+# public static int pow2(int n) { return (int) Math.pow(2, n); }
+
+# return (int) Math.pow(2, n);
+data modify storage computer:alu result set compute default integer computer:alu/pow2
