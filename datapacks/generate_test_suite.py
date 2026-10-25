@@ -91,7 +91,7 @@ with open(f"{OUTPUT_DIR}/testsuite.mcfunction", "w", encoding="utf-8") as f_test
     f_testsuite.write("data modify storage computer:test failed set value []\n")
 
     for file in files:
-        test_name = os.path.splitext(file)[0]
+        test_name = file
         print(f"Processing {file}")
 
         with open(os.path.join(SOURCE_DIR, file), "r", encoding="utf-8") as f:

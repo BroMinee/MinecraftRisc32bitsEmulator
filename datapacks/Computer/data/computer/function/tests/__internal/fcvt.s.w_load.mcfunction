@@ -1,0 +1,21 @@
+data modify storage computer:ram_0 value set value 44040339
+data modify storage computer:ram_4 value set value -805240877
+data modify storage computer:ram_8 value set value -44040045
+data modify storage computer:ram_12 value set value -805241005
+data modify storage computer:ram_16 value set value 147
+data modify storage computer:ram_20 value set value -805241133
+data modify storage computer:ram_24 value set value 1048723
+data modify storage computer:ram_28 value set value -805241261
+data modify storage computer:ram_32 value set value -1048429
+data modify storage computer:ram_36 value set value -805241389
+data modify storage computer:ram_40 value set value -2147483465
+data modify storage computer:ram_44 value set value -999277
+data modify storage computer:ram_48 value set value -805241517
+data modify storage computer:ram_52 value set value -2147483465
+data modify storage computer:ram_56 value set value -805241645
+data modify storage computer:ram_60 value set value 268435603
+data modify storage computer:ram_64 value set value -805241773
+data modify storage computer:ram_68 value set value 16777399
+data modify storage computer:ram_72 value set value 1081491
+data modify storage computer:ram_76 value set value -805241901
+function computer:reset
