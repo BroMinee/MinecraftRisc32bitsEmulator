@@ -108,5 +108,5 @@ function computer:tests/ut/xor
 # xor_sign_bit
 function computer:tests/ut/xor_sign_bit
 
-tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"Results: ","bold":true,"color":"gold"},{"score":{"name":"_ut_total_fail","objective":"tests"},"bold":true,"color":"red"},{"text":" failures out of ","color":"gold"},{"score":{"name":"_ut_total_pass","objective":"tests"},"bold":true,"color":"green"},{"text":" functions tested","color":"gold"},{"text":" (47 skipped)","bold":true,"color":"gray"}]
+tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"Results: ","bold":true,"color":"gold"},{"score":{"name":"_ut_total_fail","objective":"tests"},"bold":true,"color":"red"},{"text":" failures out of ","color":"gold"},{"score":{"name":"_ut_total_pass","objective":"tests"},"bold":true,"color":"green"},{"text":" functions tested","color":"gold"},{"text":" (46 skipped)","bold":true,"color":"gray"}]
 execute if data storage computer:test ut_failed[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"Failed: ","bold":true,"color":"red"},{"storage":"computer:test","nbt":"ut_failed","color":"red"}]

@@ -30,6 +30,8 @@ data modify storage computer:ram_268370432 value set value 0
 # Reset stdout control (0x0FFE_0500 = 268370176) to 0 = no stdout pending
 data modify storage computer:ram_268370176 value set value 0
 
+data modify storage computer:alu stack set value []
+
 data modify storage computer:cpu pc set value 0
 data modify storage computer:cpu increase_pc set value 1
 

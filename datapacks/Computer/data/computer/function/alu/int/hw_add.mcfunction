@@ -2,6 +2,9 @@
 # Outputs: computer:alu result
 # public static int hwAdd(int a, int b) {
 
+# callee-save push
+function computer:alu/stack/hw_add_push
+
 execute store result score _a alu run data get storage computer:alu a
 execute store result score _b alu run data get storage computer:alu b
 
@@ -17,3 +20,6 @@ execute if score _a alu matches ..-1 if score _b alu < _limit alu run return run
 
 # return a + b;
 data modify storage computer:alu result set compute default integer computer:alu/hw_add
+
+# callee-save pop
+function computer:alu/stack/hw_add_pop
