@@ -220,42 +220,42 @@ The following table lists the supported and unsupported instructions.
 
 | Status | Instruction |
 | ------ | ----------- |
-| ✅     | `lui`       |
-| ✅     | `auipc`     |
-| ✅     | `addi`      |
-| ✅     | `slti`      |
-| ✅     | `sltiu`     |
-| ✅     | `xori`      |
-| ✅     | `ori`       |
-| ✅     | `andi`      |
-| ✅     | `slli`      |
-| ✅     | `srli`      |
-| ✅     | `srai`      |
-| ✅     | `add`       |
-| ✅     | `sub`       |
-| ✅     | `sll`       |
-| ✅     | `slt`       |
-| ✅     | `sltu`      |
-| ✅     | `xor`       |
-| ✅     | `srl`       |
-| ✅     | `sra`       |
-| ✅     | `or`        |
-| ✅     | `and`       |
+| ❌     | `lui`       |
+| ❌     | `auipc`     |
+| ❌     | `addi`      |
+| ❌     | `slti`      |
+| ❌     | `sltiu`     |
+| ❌     | `xori`      |
+| ❌     | `ori`       |
+| ❌     | `andi`      |
+| ❌     | `slli`      |
+| ❌     | `srli`      |
+| ❌     | `srai`      |
+| ❌     | `add`       |
+| ❌     | `sub`       |
+| ❌     | `sll`       |
+| ❌     | `slt`       |
+| ❌     | `sltu`      |
+| ❌     | `xor`       |
+| ❌     | `srl`       |
+| ❌     | `sra`       |
+| ❌     | `or`        |
+| ❌     | `and`       |
 
 ## Memory Instructions
 
 | Status | Instruction |
 | ------ | ----------- |
-| ✅     | `lb`        |
-| ✅     | `lh`        |
-| ✅     | `lw`        |
-| ✅     | `lbu`       |
-| ✅     | `lhu`       |
-| ✅     | `sb`        |
-| ✅     | `sh`        |
-| ✅     | `sw`        |
-| ✅     | `flw`       |
-| ✅     | `fsw`       |
+| ❌     | `lb`        |
+| ❌     | `lh`        |
+| ❌     | `lw`        |
+| ❌     | `lbu`       |
+| ❌     | `lhu`       |
+| ❌     | `sb`        |
+| ❌     | `sh`        |
+| ❌     | `sw`        |
+| ❌     | `flw`       |
+| ❌     | `fsw`       |
 
 ## Control Flow Instructions
 
@@ -266,64 +266,64 @@ The following table lists the supported and unsupported instructions.
 | ❌     | `ecall`     |
 | ❌     | `ebreak`    |
 | ❌     | `pause`     |
-| ✅     | `jal`       |
-| ✅     | `jalr`      |
-| ✅     | `beq`       |
-| ✅     | `bne`       |
-| ✅     | `blt`       |
-| ✅     | `bge`       |
-| ✅     | `bltu`      |
-| ✅     | `bgeu`      |
+| ❌     | `jal`       |
+| ❌     | `jalr`      |
+| ❌     | `beq`       |
+| ❌     | `bne`       |
+| ❌     | `blt`       |
+| ❌     | `bge`       |
+| ❌     | `bltu`      |
+| ❌     | `bgeu`      |
 
 ## Pseudo-Instructions
 
 | Status | Instruction | Equivalent         |
 | ------ | ----------- | ------------------ |
-| ✅     | `nop`       | `addi x0, x0, 0`   |
-| ✅     | `mv`        | `addi rd, rs1, 0`  |
-| ✅     | `not`       | `xori rd, rs1, -1` |
+| ❌     | `nop`       | `addi x0, x0, 0`   |
+| ❌     | `mv`        | `addi rd, rs1, 0`  |
+| ❌     | `not`       | `xori rd, rs1, -1` |
 
 ## Multiplication and Division Instructions
 
 | Status | Instruction |
 | ------ | ----------- |
-| ✅     | `mul`       |
-| ✅     | `mulh`      |
-| ✅     | `mulhsu`    |
-| ✅     | `mulhu`     |
-| ✅     | `div`       |
-| ✅     | `divu`      |
-| ✅     | `rem`       |
-| ✅     | `remu`      |
+| ❌     | `mul`       |
+| ❌     | `mulh`      |
+| ❌     | `mulhsu`    |
+| ❌     | `mulhu`     |
+| ❌     | `div`       |
+| ❌     | `divu`      |
+| ❌     | `rem`       |
+| ❌     | `remu`      |
 
 ## Floating-Point Instructions
 
 | Status | Instruction |
 | ------ | ----------- |
-| ✅     | `fmadd.s`   |
-| ✅     | `fmsub.s`   |
-| ✅     | `fnmsub.s`  |
-| ✅     | `fnmadd.s`  |
-| ✅     | `fadd.s`    |
-| ✅     | `fsub.s`    |
-| ✅     | `fmul.s`    |
-| ✅     | `fdiv.s`    |
+| ❌     | `fmadd.s`   |
+| ❌     | `fmsub.s`   |
+| ❌     | `fnmsub.s`  |
+| ❌     | `fnmadd.s`  |
+| ❌     | `fadd.s`    |
+| ❌     | `fsub.s`    |
+| ❌     | `fmul.s`    |
+| ❌     | `fdiv.s`    |
 | ❌     | `fsqrt.s`   |
-| ✅     | `fsgnj.s`   |
-| ✅     | `fsgnjn.s`  |
-| ✅     | `fsgnjx.s`  |
-| ✅     | `fmin.s`    |
-| ✅     | `fmax.s`    |
-| ✅     | `fcvt.w.s`  |
-| ✅     | `fcvt.wu.s` |
-| ✅     | `fmv.x.w`   |
-| ✅     | `feq.s`     |
-| ✅     | `flt.s`     |
-| ✅     | `fle.s`     |
-| ✅     | `fclass.s`  |
-| ✅     | `fcvt.s.w`  |
-| ✅     | `fcvt.s.wu` |
-| ✅     | `fmv.w.x`   |
+| ❌     | `fsgnj.s`   |
+| ❌     | `fsgnjn.s`  |
+| ❌     | `fsgnjx.s`  |
+| ❌     | `fmin.s`    |
+| ❌     | `fmax.s`    |
+| ❌     | `fcvt.w.s`  |
+| ❌     | `fcvt.wu.s` |
+| ❌     | `fmv.x.w`   |
+| ❌     | `feq.s`     |
+| ❌     | `flt.s`     |
+| ❌     | `fle.s`     |
+| ❌     | `fclass.s`  |
+| ❌     | `fcvt.s.w`  |
+| ❌     | `fcvt.s.wu` |
+| ❌     | `fmv.w.x`   |
 # Running the Test Suite in Minecraft
 
 Generate the test suite by running:
