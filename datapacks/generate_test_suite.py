@@ -278,7 +278,7 @@ with open(f"{OUTPUT_DIR}/testsuite.mcfunction", "w", encoding="utf-8") as f_test
         f_testsuite.write(f"# {test_name}\n")
         f_testsuite.write(f"function computer:tests/e2e/{test_name}\n")
 
-    f_testsuite.write('tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Number of fails","bold":true,"color":"gold"},{"text":" (","bold":true,"color":"gold"},{"score":{"name":"failed","objective":"tests"},"bold":true,"color":"red"},{"text":" out of ","bold":true,"color":"green"},{"score":{"name":"total","objective":"tests"},"bold":true,"color":"gold"},{"text":" tests","bold":true,"color":"green"},{"text":")","bold":true,"color":"gold"}]\n')
+    f_testsuite.write('tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Number of fails","bold":true,"color":"gold"},{"text":" (","bold":true,"color":"gold"},{"score":{"name":"failed","objective":"tests"},"bold":true,"color":"red"},{"text":" out of ","bold":true,"color":"green"},{"score":{"name":"total","objective":"tests"},"bold":true,"color":"gold"},{"text":" tests","bold":true,"color":"green"},{"text":")","bold":true,"color":"gold"}' + (f',{{"text":" ({skipped} skipped)","bold":true,"color":"gray"}}' if skipped > 0 else '') + ']\n')
     f_testsuite.write('execute if data storage computer:test failed[0] run function computer:tests/e2e/show_failed_tests\n')
     f_testsuite.write('execute if score hasDebugTag tests matches 1 run tag @s add DEBUG\n')
 

@@ -210,6 +210,8 @@ def main():
     testsuite_lines.append("data modify storage computer:test ut_failed set value []")
     testsuite_lines.append("")
 
+    skipped = 0
+
     for filename in files:
         filepath = os.path.join(SOURCE_DIR, filename)
         test_name = filename  # e.g. "add", "hw_add"
@@ -223,6 +225,7 @@ def main():
 
         if is_placeholder(function):
             print("  SKIP (not implemented)")
+            skipped += 1
             content = generate_skip_mcfunction(test_name, function)
         else:
             print("  function=%s inputs=%s outputs=%s cases=%d" % (function, inputs, outputs, len(cases)))
@@ -243,7 +246,9 @@ def main():
         '{"score":{"name":"_ut_total_fail","objective":"tests"},"bold":true,"color":"red"},'
         '{"text":" failures out of ","color":"gold"},'
         '{"score":{"name":"_ut_total_pass","objective":"tests"},"bold":true,"color":"green"},'
-        '{"text":" functions tested","color":"gold"}]'
+        '{"text":" functions tested","color":"gold"}'
+        + (',{"text":" (%d skipped)","bold":true,"color":"gray"}' % skipped if skipped > 0 else '')
+        + ']'
     )
     testsuite_lines.append(
         'execute if data storage computer:test ut_failed[0] run tellraw @a '
