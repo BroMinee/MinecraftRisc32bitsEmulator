@@ -155,6 +155,20 @@ def generate_test_mcfunction(test_name, function, inputs, outputs, cases):
                 % (expected, function.split(":")[-1], input_desc, out, expected)
             )
 
+        # Check stack is empty after call
+        lines.append(
+            "execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1"
+        )
+        input_desc = ",".join(str(v) for v in input_vals)
+        lines.append(
+            'execute if data storage computer:alu stack[0] run tellraw @a '
+            '[{"text":"[UT] - ","bold":true,"color":"blue"},'
+            '{"text":"FAIL ","bold":true,"color":"red"},'
+            '{"text":"%s(%s) ","color":"gold"},'
+            '{"text":"stack not empty after call","color":"red"}]'
+            % (function.split(":")[-1], input_desc)
+        )
+
         lines.append("")
 
     # -- Summary --
@@ -205,6 +219,7 @@ def main():
 
     testsuite_lines = []
     testsuite_lines.append("# ALU Unit Test Suite (auto-generated)")
+    testsuite_lines.append("function computer:reset")
     testsuite_lines.append("scoreboard players set _ut_total_pass tests 0")
     testsuite_lines.append("scoreboard players set _ut_total_fail tests 0")
     testsuite_lines.append("data modify storage computer:test ut_failed set value []")

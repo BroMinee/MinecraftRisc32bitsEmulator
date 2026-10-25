@@ -2,6 +2,6 @@
   "type": "minecraft:add",
   "inputs": [
     -2147483648,
-    {"type": "minecraft:storage", "storage": "computer:alu", "path": "b"}
+    {"type": "minecraft:storage", "storage": "computer:alu", "path": "stack[-1].b"}
   ]
 }

@@ -1,4 +1,5 @@
 # ALU Unit Test Suite (auto-generated)
+function computer:reset
 scoreboard players set _ut_total_pass tests 0
 scoreboard players set _ut_total_fail tests 0
 data modify storage computer:test ut_failed set value []
