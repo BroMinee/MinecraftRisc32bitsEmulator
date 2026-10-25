@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:mod",
+  "left": {
+    "type": "minecraft:add",
+    "inputs": [
+      {"type": "minecraft:mod", "left": {"type": "minecraft:storage", "storage": "computer:cpu", "path": "instruction"}, "right": 32768},
+      32768
+    ]
+  },
+  "right": 32768
+}

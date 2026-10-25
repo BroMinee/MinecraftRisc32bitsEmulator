@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:mod",
+  "left": {
+    "type": "minecraft:add",
+    "inputs": [
+      {
+        "type": "minecraft:mod",
+        "left": {
+          "type": "minecraft:div",
+          "left": {
+            "type": "minecraft:sub",
+            "left": {"type": "minecraft:storage", "storage": "computer:cpu", "path": "instruction"},
+            "right": "computer:mod/positive_4096"
+          },
+          "right": 4096
+        },
+        "right": 8
+      },
+      8
+    ]
+  },
+  "right": 8
+}

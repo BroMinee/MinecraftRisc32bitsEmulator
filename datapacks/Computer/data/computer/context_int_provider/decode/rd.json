@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:mod",
+  "left": {
+    "type": "minecraft:add",
+    "inputs": [
+      {
+        "type": "minecraft:mod",
+        "left": {
+          "type": "minecraft:div",
+          "left": {
+            "type": "minecraft:sub",
+            "left": {"type": "minecraft:storage", "storage": "computer:cpu", "path": "instruction"},
+            "right": "computer:decode/opcode"
+          },
+          "right": 128
+        },
+        "right": 32
+      },
+      32
+    ]
+  },
+  "right": 32
+}

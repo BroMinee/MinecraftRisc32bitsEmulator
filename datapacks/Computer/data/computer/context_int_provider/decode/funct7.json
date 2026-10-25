@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:div",
+  "left": {
+    "type": "minecraft:sub",
+    "left": {"type": "minecraft:storage", "storage": "computer:cpu", "path": "instruction"},
+    "right": "computer:mod/positive_33554432"
+  },
+  "right": 33554432
+}
