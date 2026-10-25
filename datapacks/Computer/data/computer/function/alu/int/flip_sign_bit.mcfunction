@@ -14,8 +14,7 @@ execute if score _a alu matches 0.. run function computer:alu/int/hw_sub
 execute if score _a alu matches 0.. run data modify storage computer:alu a set from storage computer:alu result
 execute if score _a alu matches 0.. run data modify storage computer:alu b set value 1
 execute if score _a alu matches 0.. run function computer:alu/int/hw_sub
-execute if score _a alu matches 0.. run function computer:alu/stack/flip_sign_bit_pop
-execute if score _a alu matches 0.. run return 0
+execute if score _a alu matches 0.. run return run function computer:alu/stack/flip_sign_bit_pop
 
 # return hwAdd(hwAdd(a, MAX_INT), 1);
 data modify storage computer:alu b set value 2147483647

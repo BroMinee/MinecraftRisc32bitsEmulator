@@ -10,11 +10,9 @@ execute store result score _b alu run data get storage computer:alu b
 
 # if (a == 0 || b == 0) return 0;
 execute if data storage computer:alu {a:0} run data modify storage computer:alu result set value 0
-execute if data storage computer:alu {a:0} run function computer:alu/stack/hw_mul_pop
-execute if data storage computer:alu {a:0} run return 0
+execute if data storage computer:alu {a:0} run return run function computer:alu/stack/hw_mul_pop
 execute if data storage computer:alu {b:0} run data modify storage computer:alu result set value 0
-execute if data storage computer:alu {b:0} run function computer:alu/stack/hw_mul_pop
-execute if data storage computer:alu {b:0} run return 0
+execute if data storage computer:alu {b:0} run return run function computer:alu/stack/hw_mul_pop
 
 # if (a == MIN_INT && b == -1) {
 execute if data storage computer:alu {a:-2147483648,b:-1} run return run function computer:debug/print_error {"message": {"text": "Signed 32-bit overflow in hw_mul", "color":"red"}}

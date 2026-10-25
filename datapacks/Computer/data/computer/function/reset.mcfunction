@@ -31,6 +31,7 @@ data modify storage computer:ram_268370432 value set value 0
 data modify storage computer:ram_268370176 value set value 0
 
 data modify storage computer:alu stack set value []
+data modify storage computer:alu _temp set value 0
 
 data modify storage computer:cpu pc set value 0
 data modify storage computer:cpu increase_pc set value 1

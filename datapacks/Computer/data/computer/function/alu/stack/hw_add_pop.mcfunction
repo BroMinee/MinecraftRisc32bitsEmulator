@@ -1,3 +1,5 @@
+data modify storage computer:alu _temp set from storage computer:alu stack[-1]
+data remove storage computer:alu stack[-1]
 execute store result score _limit alu run data get storage computer:alu stack[-1]
 data remove storage computer:alu stack[-1]
 execute store result score _b alu run data get storage computer:alu stack[-1]
