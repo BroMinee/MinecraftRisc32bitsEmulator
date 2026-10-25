@@ -1,0 +1,11 @@
+## function computer:alu/float/float_to_int_trunc
+## inputs a
+## outputs result
+
+1072902963 1
+-1074580685 -1
+0 0
+1056964608 0
+-1090519040 0
+1120495206 100
+-1026988442 -100

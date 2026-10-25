@@ -1,0 +1,10 @@
+## function computer:alu/float/unsigned_int_to_float
+## inputs a
+## outputs result
+
+0 0
+1 1065353216
+2147483647 1325400064
+-1 1333788672
+-2147483648 1325400064
+1000 1148846080
