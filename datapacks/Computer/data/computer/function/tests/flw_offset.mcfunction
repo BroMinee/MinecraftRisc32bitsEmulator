@@ -1,3 +1,0 @@
-function computer:tests/__internal/flw_offset_load
-function computer:tests/__internal/flw_offset_run
-function computer:tests/__internal/flw_offset_test

@@ -1,3 +1,0 @@
-function computer:tests/__internal/blt_forward_backward_load
-function computer:tests/__internal/blt_forward_backward_run
-function computer:tests/__internal/blt_forward_backward_test

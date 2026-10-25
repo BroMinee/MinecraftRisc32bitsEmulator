@@ -1,3 +1,0 @@
-function computer:tests/__internal/fmsub_debug_load
-function computer:tests/__internal/fmsub_debug_run
-function computer:tests/__internal/fmsub_debug_test

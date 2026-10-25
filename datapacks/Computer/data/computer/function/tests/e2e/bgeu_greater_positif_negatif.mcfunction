@@ -1,0 +1,3 @@
+function computer:tests/e2e/__internal/bgeu_greater_positif_negatif_load
+function computer:tests/e2e/__internal/bgeu_greater_positif_negatif_run
+function computer:tests/e2e/__internal/bgeu_greater_positif_negatif_test

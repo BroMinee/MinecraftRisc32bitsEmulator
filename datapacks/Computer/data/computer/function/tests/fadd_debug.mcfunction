@@ -1,3 +1,0 @@
-function computer:tests/__internal/fadd_debug_load
-function computer:tests/__internal/fadd_debug_run
-function computer:tests/__internal/fadd_debug_test

@@ -1,3 +1,0 @@
-function computer:tests/__internal/addi_all_reg_load
-function computer:tests/__internal/addi_all_reg_run
-function computer:tests/__internal/addi_all_reg_test

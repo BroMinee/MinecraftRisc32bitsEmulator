@@ -1,0 +1,3 @@
+function computer:tests/e2e/__internal/blt_lower_positif_positif_load
+function computer:tests/e2e/__internal/blt_lower_positif_positif_run
+function computer:tests/e2e/__internal/blt_lower_positif_positif_test

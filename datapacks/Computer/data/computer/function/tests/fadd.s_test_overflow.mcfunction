@@ -1,3 +1,0 @@
-function computer:tests/__internal/fadd.s_test_overflow_load
-function computer:tests/__internal/fadd.s_test_overflow_run
-function computer:tests/__internal/fadd.s_test_overflow_test

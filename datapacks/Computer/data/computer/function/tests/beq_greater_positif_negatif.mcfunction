@@ -1,3 +1,0 @@
-function computer:tests/__internal/beq_greater_positif_negatif_load
-function computer:tests/__internal/beq_greater_positif_negatif_run
-function computer:tests/__internal/beq_greater_positif_negatif_test

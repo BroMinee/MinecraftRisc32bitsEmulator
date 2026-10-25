@@ -1,0 +1,3 @@
+function computer:tests/e2e/__internal/bltu_equal_positif_load
+function computer:tests/e2e/__internal/bltu_equal_positif_run
+function computer:tests/e2e/__internal/bltu_equal_positif_test

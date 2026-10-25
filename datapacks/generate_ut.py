@@ -23,7 +23,7 @@ The generator:
      - Checks if function is implemented (calls with dummy input, checks error stats)
      - If not implemented, skips with a message
      - Otherwise runs all test cases and reports pass/fail
-  2. Creates tests/ut/ut_testsuite.mcfunction that calls all ut tests
+  2. Creates tests/ut/testsuite.mcfunction that calls all ut tests
 """
 
 import os
@@ -252,11 +252,11 @@ def main():
         '{"storage":"computer:test","nbt":"ut_failed","color":"red"}]'
     )
 
-    testsuite_path = os.path.join(OUTPUT_DIR, "ut_testsuite.mcfunction")
+    testsuite_path = os.path.join(OUTPUT_DIR, "testsuite.mcfunction")
     with open(testsuite_path, "w", encoding="utf-8") as f:
         f.write("\n".join(testsuite_lines) + "\n")
 
-    print("Generated %d UT test files + ut_testsuite.mcfunction" % len(files))
+    print("Generated %d UT test files + testsuite.mcfunction" % len(files))
 
 
 if __name__ == "__main__":

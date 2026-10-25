@@ -1,0 +1,3 @@
+function computer:tests/e2e/__internal/bne_lower_positif_negatif_load
+function computer:tests/e2e/__internal/bne_lower_positif_negatif_run
+function computer:tests/e2e/__internal/bne_lower_positif_negatif_test

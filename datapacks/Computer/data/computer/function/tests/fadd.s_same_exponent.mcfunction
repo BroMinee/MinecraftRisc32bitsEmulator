@@ -1,3 +1,0 @@
-function computer:tests/__internal/fadd.s_same_exponent_load
-function computer:tests/__internal/fadd.s_same_exponent_run
-function computer:tests/__internal/fadd.s_same_exponent_test

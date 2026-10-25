@@ -68,8 +68,8 @@ def parse_hexdump(lines):
     return [int(program[i:i+2], 16) for i in range(0, len(program), 2)]
 
 
-SOURCE_DIR = "./tests"
-OUTPUT_DIR = "./Computer/data/computer/function/tests"
+SOURCE_DIR = "./tests_e2e"
+OUTPUT_DIR = "./Computer/data/computer/function/tests/e2e"
 INTERNAL_DIR = os.path.join(OUTPUT_DIR, "__internal")
 PUBLIC_DIR = OUTPUT_DIR
 
@@ -116,13 +116,13 @@ with open(f"{OUTPUT_DIR}/testsuite.mcfunction", "w", encoding="utf-8") as f_test
         # Public wrapper function
         with open(os.path.join(PUBLIC_DIR, f"{test_name}.mcfunction"), "w", encoding="utf-8") as f_out:
             f_out.write(
-                f"function computer:tests/__internal/{test_name}_load\n"
+                f"function computer:tests/e2e/__internal/{test_name}_load\n"
             )
             f_out.write(
-                f"function computer:tests/__internal/{test_name}_run\n"
+                f"function computer:tests/e2e/__internal/{test_name}_run\n"
             )
             f_out.write(
-                f"function computer:tests/__internal/{test_name}_test\n"
+                f"function computer:tests/e2e/__internal/{test_name}_test\n"
             )
 
         # _load: write bytes into RAM storages + reset CPU
@@ -182,8 +182,8 @@ with open(f"{OUTPUT_DIR}/testsuite.mcfunction", "w", encoding="utf-8") as f_test
             f_out.write(f'execute if score {test_name} tests matches 0 run scoreboard players add failed tests 1\n')
             f_out.write(f'execute if score {test_name} tests matches 0 run data modify storage computer:test failed append value "{test_name}"\n')
         f_testsuite.write(f"# {test_name}\n")
-        f_testsuite.write(f"function computer:tests/{test_name}\n")
+        f_testsuite.write(f"function computer:tests/e2e/{test_name}\n")
 
     f_testsuite.write('tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Number of fails","bold":true,"color":"gold"},{"text":" (","bold":true,"color":"gold"},{"score":{"name":"failed","objective":"tests"},"bold":true,"color":"red"},{"text":" out of ","bold":true,"color":"green"},{"score":{"name":"total","objective":"tests"},"bold":true,"color":"gold"},{"text":" tests","bold":true,"color":"green"},{"text":")","bold":true,"color":"gold"}]\n')
-    f_testsuite.write('execute if data storage computer:test failed[0] run function computer:tests/show_failed_tests\n')
+    f_testsuite.write('execute if data storage computer:test failed[0] run function computer:tests/e2e/show_failed_tests\n')
     f_testsuite.write('execute if score hasDebugTag tests matches 1 run tag @s add DEBUG\n')

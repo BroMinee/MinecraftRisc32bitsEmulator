@@ -1,3 +1,0 @@
-function computer:tests/__internal/bltu_equal_negatif_load
-function computer:tests/__internal/bltu_equal_negatif_run
-function computer:tests/__internal/bltu_equal_negatif_test

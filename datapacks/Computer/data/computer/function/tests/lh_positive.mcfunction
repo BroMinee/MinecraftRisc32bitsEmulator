@@ -1,3 +1,0 @@
-function computer:tests/__internal/lh_positive_load
-function computer:tests/__internal/lh_positive_run
-function computer:tests/__internal/lh_positive_test

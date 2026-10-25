@@ -1,0 +1,3 @@
+function computer:tests/e2e/__internal/bne_forward_backward_load
+function computer:tests/e2e/__internal/bne_forward_backward_run
+function computer:tests/e2e/__internal/bne_forward_backward_test
