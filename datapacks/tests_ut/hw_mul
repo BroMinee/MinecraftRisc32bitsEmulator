@@ -1,6 +1,7 @@
 ## function computer:alu/int/hw_mul
 ## inputs a b
 ## outputs result
+## types int int int
 
 0 0 0
 0 2147483647 0
@@ -10,3 +11,6 @@
 -3 7 -21
 -3 -7 21
 46340 46340 2147395600
+2147483647 2 ERROR
+-2147483648 -1 ERROR
+46341 46341 ERROR

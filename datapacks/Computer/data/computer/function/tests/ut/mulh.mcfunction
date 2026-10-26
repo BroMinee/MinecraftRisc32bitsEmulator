@@ -80,6 +80,17 @@ execute unless score _ut_got tests matches -1073741824 run tellraw @a [{"text":"
 execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
 execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/int/mulh(2147483647,-2147483648) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
 
+data modify storage computer:alu a set value -2147483648
+data modify storage computer:alu b set value 2147483647
+scoreboard players set error stats 0
+function computer:alu/int/mulh
+execute store result score _ut_got tests run data get storage computer:alu result
+execute if score _ut_got tests matches -1073741824 run scoreboard players add _ut_pass tests 1
+execute unless score _ut_got tests matches -1073741824 run scoreboard players add _ut_fail tests 1
+execute unless score _ut_got tests matches -1073741824 run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/int/mulh(-2147483648,2147483647) ","color":"gold"},{"text":"result: expected -1073741824 got ","color":"white"},{"score":{"name":"_ut_got","objective":"tests"},"color":"red"}]
+execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
+execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/int/mulh(-2147483648,2147483647) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
+
 data modify storage computer:alu a set value 2147483647
 data modify storage computer:alu b set value 2
 scoreboard players set error stats 0
@@ -123,6 +134,17 @@ execute unless score _ut_got tests matches 0 run scoreboard players add _ut_fail
 execute unless score _ut_got tests matches 0 run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/int/mulh(-2147483648,-1) ","color":"gold"},{"text":"result: expected 0 got ","color":"white"},{"score":{"name":"_ut_got","objective":"tests"},"color":"red"}]
 execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
 execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/int/mulh(-2147483648,-1) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
+
+data modify storage computer:alu a set value 305419896
+data modify storage computer:alu b set value -1698898192
+scoreboard players set error stats 0
+function computer:alu/int/mulh
+execute store result score _ut_got tests run data get storage computer:alu result
+execute if score _ut_got tests matches -120810538 run scoreboard players add _ut_pass tests 1
+execute unless score _ut_got tests matches -120810538 run scoreboard players add _ut_fail tests 1
+execute unless score _ut_got tests matches -120810538 run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/int/mulh(305419896,-1698898192) ","color":"gold"},{"text":"result: expected -120810538 got ","color":"white"},{"score":{"name":"_ut_got","objective":"tests"},"color":"red"}]
+execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
+execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/int/mulh(305419896,-1698898192) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
 
 data modify storage computer:alu a set value 100000
 data modify storage computer:alu b set value 100000

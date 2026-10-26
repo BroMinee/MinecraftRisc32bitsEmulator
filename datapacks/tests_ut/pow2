@@ -1,6 +1,7 @@
 ## function computer:alu/int/pow2
 ## inputs n
 ## outputs result
+## types int int
 
 0 1
 1 2

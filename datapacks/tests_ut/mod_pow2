@@ -1,6 +1,7 @@
 ## function computer:alu/int/mod_pow2
 ## inputs a bits
 ## outputs result
+## types int int int
 
 0 1 0
 7 3 7

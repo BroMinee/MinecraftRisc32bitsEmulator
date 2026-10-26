@@ -36,6 +36,28 @@ execute unless score _ut_got tests matches 1 run tellraw @a [{"text":"[UT] - ","
 execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
 execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/int/remu(7,2) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
 
+data modify storage computer:alu a set value 2147483647
+data modify storage computer:alu b set value 2147483647
+scoreboard players set error stats 0
+function computer:alu/int/remu
+execute store result score _ut_got tests run data get storage computer:alu result
+execute if score _ut_got tests matches 0 run scoreboard players add _ut_pass tests 1
+execute unless score _ut_got tests matches 0 run scoreboard players add _ut_fail tests 1
+execute unless score _ut_got tests matches 0 run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/int/remu(2147483647,2147483647) ","color":"gold"},{"text":"result: expected 0 got ","color":"white"},{"score":{"name":"_ut_got","objective":"tests"},"color":"red"}]
+execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
+execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/int/remu(2147483647,2147483647) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
+
+data modify storage computer:alu a set value -2147483648
+data modify storage computer:alu b set value 1
+scoreboard players set error stats 0
+function computer:alu/int/remu
+execute store result score _ut_got tests run data get storage computer:alu result
+execute if score _ut_got tests matches 0 run scoreboard players add _ut_pass tests 1
+execute unless score _ut_got tests matches 0 run scoreboard players add _ut_fail tests 1
+execute unless score _ut_got tests matches 0 run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/int/remu(-2147483648,1) ","color":"gold"},{"text":"result: expected 0 got ","color":"white"},{"score":{"name":"_ut_got","objective":"tests"},"color":"red"}]
+execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
+execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/int/remu(-2147483648,1) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
+
 data modify storage computer:alu a set value -100
 data modify storage computer:alu b set value 7
 scoreboard players set error stats 0

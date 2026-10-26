@@ -1,6 +1,7 @@
 ## function computer:alu/int/hw_add
 ## inputs a b
 ## outputs result
+## types int int int
 
 0 0 0
 1 2 3
@@ -11,3 +12,7 @@
 2147483647 -1 2147483646
 -2147483648 1 -2147483647
 2147483647 -2147483648 -1
+2147483647 1 ERROR
+2147483647 2147483647 ERROR
+-2147483648 -1 ERROR
+-2147483648 -2147483648 ERROR

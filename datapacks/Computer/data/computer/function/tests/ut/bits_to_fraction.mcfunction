@@ -63,6 +63,16 @@ execute unless data storage computer:alu {result: 0.875f} run tellraw @a [{"text
 execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
 execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/bits_to_fraction(7340032,23) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
 
+data modify storage computer:alu a set value 8388607
+data modify storage computer:alu n set value 23
+scoreboard players set error stats 0
+function computer:alu/float/bits_to_fraction
+execute if data storage computer:alu {result: 0.9999998807907104f} run scoreboard players add _ut_pass tests 1
+execute unless data storage computer:alu {result: 0.9999998807907104f} run scoreboard players add _ut_fail tests 1
+execute unless data storage computer:alu {result: 0.9999998807907104f} run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/bits_to_fraction(8388607,23) ","color":"gold"},{"text":"result: expected 0.9999998807907104 got ","color":"white"},{"storage":"computer:alu","nbt":"result","color":"red"}]
+execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
+execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/bits_to_fraction(8388607,23) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
+
 data modify storage computer:alu a set value 1
 data modify storage computer:alu n set value 1
 scoreboard players set error stats 0
@@ -112,6 +122,46 @@ execute unless data storage computer:alu {result: 0.9375f} run scoreboard player
 execute unless data storage computer:alu {result: 0.9375f} run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/bits_to_fraction(15,4) ","color":"gold"},{"text":"result: expected 0.9375 got ","color":"white"},{"storage":"computer:alu","nbt":"result","color":"red"}]
 execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
 execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/bits_to_fraction(15,4) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
+
+data modify storage computer:alu a set value 4781507
+data modify storage computer:alu n set value 23
+scoreboard players set error stats 0
+function computer:alu/float/bits_to_fraction
+execute if data storage computer:alu {result: 0.5700000524520874f} run scoreboard players add _ut_pass tests 1
+execute unless data storage computer:alu {result: 0.5700000524520874f} run scoreboard players add _ut_fail tests 1
+execute unless data storage computer:alu {result: 0.5700000524520874f} run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/bits_to_fraction(4781507,23) ","color":"gold"},{"text":"result: expected 0.5700000524520874 got ","color":"white"},{"storage":"computer:alu","nbt":"result","color":"red"}]
+execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
+execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/bits_to_fraction(4781507,23) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
+
+data modify storage computer:alu a set value 838860
+data modify storage computer:alu n set value 23
+scoreboard players set error stats 0
+function computer:alu/float/bits_to_fraction
+execute if data storage computer:alu {result: 0.09999990463256836f} run scoreboard players add _ut_pass tests 1
+execute unless data storage computer:alu {result: 0.09999990463256836f} run scoreboard players add _ut_fail tests 1
+execute unless data storage computer:alu {result: 0.09999990463256836f} run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/bits_to_fraction(838860,23) ","color":"gold"},{"text":"result: expected 0.09999990463256836 got ","color":"white"},{"storage":"computer:alu","nbt":"result","color":"red"}]
+execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
+execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/bits_to_fraction(838860,23) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
+
+data modify storage computer:alu a set value 2516582
+data modify storage computer:alu n set value 23
+scoreboard players set error stats 0
+function computer:alu/float/bits_to_fraction
+execute if data storage computer:alu {result: 0.2999999523162842f} run scoreboard players add _ut_pass tests 1
+execute unless data storage computer:alu {result: 0.2999999523162842f} run scoreboard players add _ut_fail tests 1
+execute unless data storage computer:alu {result: 0.2999999523162842f} run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/bits_to_fraction(2516582,23) ","color":"gold"},{"text":"result: expected 0.2999999523162842 got ","color":"white"},{"storage":"computer:alu","nbt":"result","color":"red"}]
+execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
+execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/bits_to_fraction(2516582,23) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
+
+data modify storage computer:alu a set value 8387769
+data modify storage computer:alu n set value 23
+scoreboard players set error stats 0
+function computer:alu/float/bits_to_fraction
+execute if data storage computer:alu {result: 0.9998999834060669f} run scoreboard players add _ut_pass tests 1
+execute unless data storage computer:alu {result: 0.9998999834060669f} run scoreboard players add _ut_fail tests 1
+execute unless data storage computer:alu {result: 0.9998999834060669f} run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/bits_to_fraction(8387769,23) ","color":"gold"},{"text":"result: expected 0.9998999834060669 got ","color":"white"},{"storage":"computer:alu","nbt":"result","color":"red"}]
+execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
+execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/bits_to_fraction(8387769,23) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
 
 # Report results
 execute if score _ut_fail tests matches 0 run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"PASS bits_to_fraction ","bold":true,"color":"green"},{"text":"(","color":"gold"},{"score":{"name":"_ut_pass","objective":"tests"},"color":"green"},{"text":" checks)","color":"gold"}]

@@ -83,6 +83,26 @@ execute unless score _ut_got tests matches 2147483606 run tellraw @a [{"text":"[
 execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
 execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/int/flip_sign_bit(-42) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
 
+data modify storage computer:alu a set value 305419896
+scoreboard players set error stats 0
+function computer:alu/int/flip_sign_bit
+execute store result score _ut_got tests run data get storage computer:alu result
+execute if score _ut_got tests matches -1842063752 run scoreboard players add _ut_pass tests 1
+execute unless score _ut_got tests matches -1842063752 run scoreboard players add _ut_fail tests 1
+execute unless score _ut_got tests matches -1842063752 run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/int/flip_sign_bit(305419896) ","color":"gold"},{"text":"result: expected -1842063752 got ","color":"white"},{"score":{"name":"_ut_got","objective":"tests"},"color":"red"}]
+execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
+execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/int/flip_sign_bit(305419896) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
+
+data modify storage computer:alu a set value -559038737
+scoreboard players set error stats 0
+function computer:alu/int/flip_sign_bit
+execute store result score _ut_got tests run data get storage computer:alu result
+execute if score _ut_got tests matches 1588444911 run scoreboard players add _ut_pass tests 1
+execute unless score _ut_got tests matches 1588444911 run scoreboard players add _ut_fail tests 1
+execute unless score _ut_got tests matches 1588444911 run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/int/flip_sign_bit(-559038737) ","color":"gold"},{"text":"result: expected 1588444911 got ","color":"white"},{"score":{"name":"_ut_got","objective":"tests"},"color":"red"}]
+execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
+execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/int/flip_sign_bit(-559038737) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
+
 # Report results
 execute if score _ut_fail tests matches 0 run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"PASS flip_sign_bit ","bold":true,"color":"green"},{"text":"(","color":"gold"},{"score":{"name":"_ut_pass","objective":"tests"},"color":"green"},{"text":" checks)","color":"gold"}]
 execute unless score _ut_fail tests matches 0 run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL flip_sign_bit ","bold":true,"color":"red"},{"text":"(","color":"gold"},{"score":{"name":"_ut_fail","objective":"tests"},"color":"red"},{"text":" failures out of ","color":"gold"},{"score":{"name":"_ut_pass","objective":"tests"},"color":"green"},{"text":" + ","color":"gold"},{"score":{"name":"_ut_fail","objective":"tests"},"color":"red"},{"text":" checks)","color":"gold"}]

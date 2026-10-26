@@ -1,6 +1,7 @@
 ## function computer:alu/int/div
 ## inputs a b
 ## outputs result
+## types int int int
 
 10 3 3
 -10 3 -3

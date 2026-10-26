@@ -30,24 +30,6 @@ execute unless data storage computer:alu {result: -1.0f} run tellraw @a [{"text"
 execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
 execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/int_to_float(-1) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
 
-data modify storage computer:alu a set value 100
-scoreboard players set error stats 0
-function computer:alu/float/int_to_float
-execute if data storage computer:alu {result: 100.0f} run scoreboard players add _ut_pass tests 1
-execute unless data storage computer:alu {result: 100.0f} run scoreboard players add _ut_fail tests 1
-execute unless data storage computer:alu {result: 100.0f} run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/int_to_float(100) ","color":"gold"},{"text":"result: expected 100.0 got ","color":"white"},{"storage":"computer:alu","nbt":"result","color":"red"}]
-execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
-execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/int_to_float(100) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
-
-data modify storage computer:alu a set value -100
-scoreboard players set error stats 0
-function computer:alu/float/int_to_float
-execute if data storage computer:alu {result: -100.0f} run scoreboard players add _ut_pass tests 1
-execute unless data storage computer:alu {result: -100.0f} run scoreboard players add _ut_fail tests 1
-execute unless data storage computer:alu {result: -100.0f} run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/int_to_float(-100) ","color":"gold"},{"text":"result: expected -100.0 got ","color":"white"},{"storage":"computer:alu","nbt":"result","color":"red"}]
-execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
-execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/int_to_float(-100) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
-
 data modify storage computer:alu a set value 2147483647
 scoreboard players set error stats 0
 function computer:alu/float/int_to_float
@@ -83,6 +65,60 @@ execute unless data storage computer:alu {result: 16777216.0f} run scoreboard pl
 execute unless data storage computer:alu {result: 16777216.0f} run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/int_to_float(16777217) ","color":"gold"},{"text":"result: expected 16777216.0 got ","color":"white"},{"storage":"computer:alu","nbt":"result","color":"red"}]
 execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
 execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/int_to_float(16777217) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
+
+data modify storage computer:alu a set value 100
+scoreboard players set error stats 0
+function computer:alu/float/int_to_float
+execute if data storage computer:alu {result: 100.0f} run scoreboard players add _ut_pass tests 1
+execute unless data storage computer:alu {result: 100.0f} run scoreboard players add _ut_fail tests 1
+execute unless data storage computer:alu {result: 100.0f} run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/int_to_float(100) ","color":"gold"},{"text":"result: expected 100.0 got ","color":"white"},{"storage":"computer:alu","nbt":"result","color":"red"}]
+execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
+execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/int_to_float(100) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
+
+data modify storage computer:alu a set value -100
+scoreboard players set error stats 0
+function computer:alu/float/int_to_float
+execute if data storage computer:alu {result: -100.0f} run scoreboard players add _ut_pass tests 1
+execute unless data storage computer:alu {result: -100.0f} run scoreboard players add _ut_fail tests 1
+execute unless data storage computer:alu {result: -100.0f} run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/int_to_float(-100) ","color":"gold"},{"text":"result: expected -100.0 got ","color":"white"},{"storage":"computer:alu","nbt":"result","color":"red"}]
+execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
+execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/int_to_float(-100) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
+
+data modify storage computer:alu a set value 1000
+scoreboard players set error stats 0
+function computer:alu/float/int_to_float
+execute if data storage computer:alu {result: 1000.0f} run scoreboard players add _ut_pass tests 1
+execute unless data storage computer:alu {result: 1000.0f} run scoreboard players add _ut_fail tests 1
+execute unless data storage computer:alu {result: 1000.0f} run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/int_to_float(1000) ","color":"gold"},{"text":"result: expected 1000.0 got ","color":"white"},{"storage":"computer:alu","nbt":"result","color":"red"}]
+execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
+execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/int_to_float(1000) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
+
+data modify storage computer:alu a set value 1000000
+scoreboard players set error stats 0
+function computer:alu/float/int_to_float
+execute if data storage computer:alu {result: 1000000.0f} run scoreboard players add _ut_pass tests 1
+execute unless data storage computer:alu {result: 1000000.0f} run scoreboard players add _ut_fail tests 1
+execute unless data storage computer:alu {result: 1000000.0f} run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/int_to_float(1000000) ","color":"gold"},{"text":"result: expected 1000000.0 got ","color":"white"},{"storage":"computer:alu","nbt":"result","color":"red"}]
+execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
+execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/int_to_float(1000000) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
+
+data modify storage computer:alu a set value 42
+scoreboard players set error stats 0
+function computer:alu/float/int_to_float
+execute if data storage computer:alu {result: 42.0f} run scoreboard players add _ut_pass tests 1
+execute unless data storage computer:alu {result: 42.0f} run scoreboard players add _ut_fail tests 1
+execute unless data storage computer:alu {result: 42.0f} run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/int_to_float(42) ","color":"gold"},{"text":"result: expected 42.0 got ","color":"white"},{"storage":"computer:alu","nbt":"result","color":"red"}]
+execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
+execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/int_to_float(42) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
+
+data modify storage computer:alu a set value -42
+scoreboard players set error stats 0
+function computer:alu/float/int_to_float
+execute if data storage computer:alu {result: -42.0f} run scoreboard players add _ut_pass tests 1
+execute unless data storage computer:alu {result: -42.0f} run scoreboard players add _ut_fail tests 1
+execute unless data storage computer:alu {result: -42.0f} run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/int_to_float(-42) ","color":"gold"},{"text":"result: expected -42.0 got ","color":"white"},{"storage":"computer:alu","nbt":"result","color":"red"}]
+execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1
+execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL ","bold":true,"color":"red"},{"text":"alu/float/int_to_float(-42) ","color":"gold"},{"text":"stack not empty after call","color":"red"}]
 
 # Report results
 execute if score _ut_fail tests matches 0 run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"PASS int_to_float ","bold":true,"color":"green"},{"text":"(","color":"gold"},{"score":{"name":"_ut_pass","objective":"tests"},"color":"green"},{"text":" checks)","color":"gold"}]

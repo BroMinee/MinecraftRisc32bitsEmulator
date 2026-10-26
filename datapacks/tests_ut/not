@@ -1,6 +1,7 @@
 ## function computer:alu/int/not
 ## inputs a
 ## outputs result
+## types int int
 
 0 -1
 -1 0

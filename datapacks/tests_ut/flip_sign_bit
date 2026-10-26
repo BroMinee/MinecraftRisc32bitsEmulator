@@ -1,6 +1,7 @@
 ## function computer:alu/int/flip_sign_bit
 ## inputs a
 ## outputs result
+## types int int
 
 0 -2147483648
 1 -2147483647
@@ -10,3 +11,5 @@
 -2147483647 1
 42 -2147483606
 -42 2147483606
+305419896 -1842063752
+-559038737 1588444911

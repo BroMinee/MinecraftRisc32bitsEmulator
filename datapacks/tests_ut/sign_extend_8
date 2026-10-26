@@ -1,12 +1,19 @@
 ## function computer:alu/int/sign_extend_8
 ## inputs a
 ## outputs result
+## types int int
 
 0 0
 127 127
 128 -128
 255 -1
 256 0
+65408 -128
 -1 -1
+1 1
 50 50
 200 -56
+1000 -24
+-128 -128
+-2147483648 0
+2147483647 -1

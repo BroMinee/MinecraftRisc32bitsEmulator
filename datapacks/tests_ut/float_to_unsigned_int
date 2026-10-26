@@ -11,5 +11,4 @@
 2147483648.0 -2147483648
 4294967040.0 -256
 -1.0 0
-# NaN/Infinity inputs cannot be stored as NBT, removed
 4294967296.0 -1

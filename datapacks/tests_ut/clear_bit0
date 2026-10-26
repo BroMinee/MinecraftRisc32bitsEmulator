@@ -1,6 +1,7 @@
 ## function computer:alu/int/clear_bit0
 ## inputs a
 ## outputs result
+## types int int
 
 0 0
 1 0
@@ -12,3 +13,4 @@
 -2147483648 -2147483648
 -2147483647 -2147483648
 -559038737 -559038738
+305419897 305419896

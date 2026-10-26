@@ -1,6 +1,7 @@
 ## function computer:alu/int/sub
 ## inputs a b
 ## outputs result
+## types int int int
 
 0 0 0
 5 3 2
