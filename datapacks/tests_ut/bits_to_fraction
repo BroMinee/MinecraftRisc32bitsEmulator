@@ -1,0 +1,16 @@
+## function computer:alu/float/bits_to_fraction
+## inputs a n
+## outputs result
+## types int int float
+
+0 23 0.0
+4194304 23 0.5
+2097152 23 0.25
+6291456 23 0.75
+1048576 23 0.125
+7340032 23 0.875
+1 1 0.5
+0 1 0.0
+8 4 0.5
+12 4 0.75
+15 4 0.9375

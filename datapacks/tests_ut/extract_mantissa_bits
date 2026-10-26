@@ -1,0 +1,14 @@
+## function computer:alu/float/extract_mantissa_bits
+## inputs a n
+## outputs result
+## types float int int
+
+0.0 23 0
+0.5 23 4194304
+0.25 23 2097152
+0.75 23 6291456
+0.125 23 1048576
+0.875 23 7340032
+0.5 1 1
+0.5 4 8
+0.75 4 12

@@ -8,6 +8,8 @@ data modify storage computer:test ut_failed set value []
 function computer:tests/ut/add
 # and
 function computer:tests/ut/and
+# bits_to_fraction
+function computer:tests/ut/bits_to_fraction
 # bitwise_op
 function computer:tests/ut/bitwise_op
 # clear_bit0
@@ -22,6 +24,8 @@ function computer:tests/ut/copy_sign_bit
 function computer:tests/ut/div
 # divu
 function computer:tests/ut/divu
+# extract_mantissa_bits
+function computer:tests/ut/extract_mantissa_bits
 # flip_sign_bit
 function computer:tests/ut/flip_sign_bit
 # float_abs
@@ -109,5 +113,5 @@ function computer:tests/ut/xor
 # xor_sign_bit
 function computer:tests/ut/xor_sign_bit
 
-tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"Results: ","bold":true,"color":"gold"},{"score":{"name":"_ut_total_fail","objective":"tests"},"bold":true,"color":"red"},{"text":" failures out of ","color":"gold"},{"score":{"name":"_ut_total_pass","objective":"tests"},"bold":true,"color":"green"},{"text":" functions tested","color":"gold"},{"text":" (2 skipped)","bold":true,"color":"gray"}]
+tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"Results: ","bold":true,"color":"gold"},{"score":{"name":"_ut_total_fail","objective":"tests"},"bold":true,"color":"red"},{"text":" failures out of ","color":"gold"},{"score":{"name":"_ut_total_pass","objective":"tests"},"bold":true,"color":"green"},{"text":" functions tested","color":"gold"},{"text":" (4 skipped)","bold":true,"color":"gray"}]
 execute if data storage computer:test ut_failed[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"Failed: ","bold":true,"color":"red"},{"storage":"computer:test","nbt":"ut_failed","color":"red"}]
