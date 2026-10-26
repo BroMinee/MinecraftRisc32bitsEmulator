@@ -334,6 +334,8 @@ def generate_test_mcfunction(test_name, function, inputs, outputs, types, cases)
     )
 
     # Update global counters
+    lines.append("scoreboard players operation _ut_total_checks_pass tests += _ut_pass tests")
+    lines.append("scoreboard players operation _ut_total_checks_fail tests += _ut_fail tests")
     lines.append("scoreboard players add _ut_total_pass tests 1")
     lines.append("execute unless score _ut_fail tests matches 0 run scoreboard players add _ut_total_fail tests 1")
     lines.append(
@@ -363,6 +365,8 @@ def main():
     testsuite_lines.append("function computer:reset")
     testsuite_lines.append("scoreboard players set _ut_total_pass tests 0")
     testsuite_lines.append("scoreboard players set _ut_total_fail tests 0")
+    testsuite_lines.append("scoreboard players set _ut_total_checks_pass tests 0")
+    testsuite_lines.append("scoreboard players set _ut_total_checks_fail tests 0")
     testsuite_lines.append("data modify storage computer:test ut_failed set value []")
     testsuite_lines.append("")
 
@@ -396,6 +400,9 @@ def main():
 
     # Summary
     testsuite_lines.append("")
+    # Compute checks total = pass + fail
+    testsuite_lines.append("scoreboard players operation _ut_total_checks_total tests = _ut_total_checks_pass tests")
+    testsuite_lines.append("scoreboard players operation _ut_total_checks_total tests += _ut_total_checks_fail tests")
     testsuite_lines.append(
         'tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},'
         '{"text":"Results: ","bold":true,"color":"gold"},'
@@ -405,6 +412,14 @@ def main():
         '{"text":" functions tested","color":"gold"}'
         + (',{"text":" (%d skipped)","bold":true,"color":"gray"}' % skipped if skipped > 0 else '')
         + ']'
+    )
+    testsuite_lines.append(
+        'tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},'
+        '{"text":"Checks: ","bold":true,"color":"gold"},'
+        '{"score":{"name":"_ut_total_checks_pass","objective":"tests"},"bold":true,"color":"green"},'
+        '{"text":"/","color":"gold"},'
+        '{"score":{"name":"_ut_total_checks_total","objective":"tests"},"bold":true,"color":"gold"},'
+        '{"text":" passed","color":"gold"}]'
     )
     testsuite_lines.append(
         'execute if data storage computer:test ut_failed[0] run tellraw @a '

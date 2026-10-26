@@ -2,6 +2,8 @@
 function computer:reset
 scoreboard players set _ut_total_pass tests 0
 scoreboard players set _ut_total_fail tests 0
+scoreboard players set _ut_total_checks_pass tests 0
+scoreboard players set _ut_total_checks_fail tests 0
 data modify storage computer:test ut_failed set value []
 
 # add
@@ -113,5 +115,8 @@ function computer:tests/ut/xor
 # xor_sign_bit
 function computer:tests/ut/xor_sign_bit
 
+scoreboard players operation _ut_total_checks_total tests = _ut_total_checks_pass tests
+scoreboard players operation _ut_total_checks_total tests += _ut_total_checks_fail tests
 tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"Results: ","bold":true,"color":"gold"},{"score":{"name":"_ut_total_fail","objective":"tests"},"bold":true,"color":"red"},{"text":" failures out of ","color":"gold"},{"score":{"name":"_ut_total_pass","objective":"tests"},"bold":true,"color":"green"},{"text":" functions tested","color":"gold"}]
+tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"Checks: ","bold":true,"color":"gold"},{"score":{"name":"_ut_total_checks_pass","objective":"tests"},"bold":true,"color":"green"},{"text":"/","color":"gold"},{"score":{"name":"_ut_total_checks_total","objective":"tests"},"bold":true,"color":"gold"},{"text":" passed","color":"gold"}]
 execute if data storage computer:test ut_failed[0] run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"Failed: ","bold":true,"color":"red"},{"storage":"computer:test","nbt":"ut_failed","color":"red"}]

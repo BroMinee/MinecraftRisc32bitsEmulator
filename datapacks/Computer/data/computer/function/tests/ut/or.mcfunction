@@ -116,6 +116,8 @@ execute if data storage computer:alu stack[0] run tellraw @a [{"text":"[UT] - ",
 # Report results
 execute if score _ut_fail tests matches 0 run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"PASS or ","bold":true,"color":"green"},{"text":"(","color":"gold"},{"score":{"name":"_ut_pass","objective":"tests"},"color":"green"},{"text":" checks)","color":"gold"}]
 execute unless score _ut_fail tests matches 0 run tellraw @a [{"text":"[UT] - ","bold":true,"color":"blue"},{"text":"FAIL or ","bold":true,"color":"red"},{"text":"(","color":"gold"},{"score":{"name":"_ut_fail","objective":"tests"},"color":"red"},{"text":" failures out of ","color":"gold"},{"score":{"name":"_ut_pass","objective":"tests"},"color":"green"},{"text":" + ","color":"gold"},{"score":{"name":"_ut_fail","objective":"tests"},"color":"red"},{"text":" checks)","color":"gold"}]
+scoreboard players operation _ut_total_checks_pass tests += _ut_pass tests
+scoreboard players operation _ut_total_checks_fail tests += _ut_fail tests
 scoreboard players add _ut_total_pass tests 1
 execute unless score _ut_fail tests matches 0 run scoreboard players add _ut_total_fail tests 1
 execute unless score _ut_fail tests matches 0 run data modify storage computer:test ut_failed append value "or"
