@@ -234,7 +234,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `add`       |
 | ✅     | `sub`       |
 | ✅     | `sll`       |
-| ❌     | `slt`       |
+| ✅     | `slt`       |
 | ❌     | `sltu`      |
 | ❌     | `xor`       |
 | ❌     | `srl`       |
