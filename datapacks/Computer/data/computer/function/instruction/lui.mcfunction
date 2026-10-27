@@ -1,1 +1,7 @@
-function computer:debug/print_error {"message": {"text": "instruction/lui not yet implemented", "color":"gold"}}
+# Input:  computer:alu result (immU)
+# Output: computer:alu result
+# static int lui(final int imm) { return imm; }
+
+# identity function result is already in computer:alu result
+
+function computer:debug/print_log {"message": {"text": "Running lui", "color":"gold"}}
