@@ -231,7 +231,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `slli`      |
 | ✅     | `srli`      |
 | ✅     | `srai`      |
-| ❌     | `add`       |
+| ✅     | `add`       |
 | ❌     | `sub`       |
 | ❌     | `sll`       |
 | ❌     | `slt`       |
