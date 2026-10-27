@@ -21,4 +21,4 @@ function computer:alu/int/mask_low_bits
 
 # if SafeAdderInt.maskLowBits(SafeAdderInt.shrU(funct7(instr), 5), 1) != 0 -> SRAI, else -> SRLI
 execute unless data storage computer:alu {result: 0} run function computer:instruction/srai
-execute if data storage computer:alu {result: 0} run function copmuter:instruction/srli
+execute if data storage computer:alu {result: 0} run function computer:instruction/srli

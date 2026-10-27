@@ -229,7 +229,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `ori`       |
 | ✅     | `andi`      |
 | ✅     | `slli`      |
-| ❌     | `srli`      |
+| ✅     | `srli`      |
 | ❌     | `srai`      |
 | ❌     | `add`       |
 | ❌     | `sub`       |
