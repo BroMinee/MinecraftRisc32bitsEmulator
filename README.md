@@ -228,7 +228,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `xori`      |
 | ✅     | `ori`       |
 | ✅     | `andi`      |
-| ❌     | `slli`      |
+| ✅     | `slli`      |
 | ❌     | `srli`      |
 | ❌     | `srai`      |
 | ❌     | `add`       |
