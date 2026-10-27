@@ -236,7 +236,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `sll`       |
 | ✅     | `slt`       |
 | ✅     | `sltu`      |
-| ❌     | `xor`       |
+| ✅     | `xor`       |
 | ❌     | `srl`       |
 | ❌     | `sra`       |
 | ❌     | `or`        |

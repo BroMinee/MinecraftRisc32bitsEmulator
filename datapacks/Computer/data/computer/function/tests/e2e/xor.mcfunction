@@ -1,1 +1,3 @@
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP xor (not implemented)","color":"gray"}]
+function computer:tests/e2e/__internal/xor_load
+function computer:tests/e2e/__internal/xor_run
+function computer:tests/e2e/__internal/xor_test
