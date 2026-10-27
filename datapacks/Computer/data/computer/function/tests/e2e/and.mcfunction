@@ -1,1 +1,3 @@
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP and (not implemented)","color":"gray"}]
+function computer:tests/e2e/__internal/and_load
+function computer:tests/e2e/__internal/and_run
+function computer:tests/e2e/__internal/and_test

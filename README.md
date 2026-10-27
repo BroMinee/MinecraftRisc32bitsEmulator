@@ -240,7 +240,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `srl`       |
 | ✅     | `sra`       |
 | ✅     | `or`        |
-| ❌     | `and`       |
+| ✅     | `and`       |
 
 ## Memory Instructions
 
