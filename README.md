@@ -222,7 +222,7 @@ The following table lists the supported and unsupported instructions.
 | ------ | ----------- |
 | ✅     | `lui`       |
 | ❌     | `auipc`     |
-| ❌     | `addi`      |
+| ✅     | `addi`      |
 | ❌     | `slti`      |
 | ❌     | `sltiu`     |
 | ❌     | `xori`      |
@@ -279,8 +279,8 @@ The following table lists the supported and unsupported instructions.
 
 | Status | Instruction | Equivalent         |
 | ------ | ----------- | ------------------ |
-| ❌     | `nop`       | `addi x0, x0, 0`   |
-| ❌     | `mv`        | `addi rd, rs1, 0`  |
+| ✅     | `nop`       | `addi x0, x0, 0`   |
+| ✅     | `mv`        | `addi rd, rs1, 0`  |
 | ❌     | `not`       | `xori rd, rs1, -1` |
 
 ## Multiplication and Division Instructions

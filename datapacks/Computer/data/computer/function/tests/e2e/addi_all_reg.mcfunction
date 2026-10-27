@@ -1,1 +1,3 @@
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP addi_all_reg (not implemented)","color":"gray"}]
+function computer:tests/e2e/__internal/addi_all_reg_load
+function computer:tests/e2e/__internal/addi_all_reg_run
+function computer:tests/e2e/__internal/addi_all_reg_test

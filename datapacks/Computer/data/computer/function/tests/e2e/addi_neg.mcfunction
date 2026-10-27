@@ -1,1 +1,3 @@
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP addi_neg (not implemented)","color":"gray"}]
+function computer:tests/e2e/__internal/addi_neg_load
+function computer:tests/e2e/__internal/addi_neg_run
+function computer:tests/e2e/__internal/addi_neg_test

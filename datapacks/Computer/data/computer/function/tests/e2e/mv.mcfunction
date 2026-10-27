@@ -1,1 +1,3 @@
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP mv (not implemented)","color":"gray"}]
+function computer:tests/e2e/__internal/mv_load
+function computer:tests/e2e/__internal/mv_run
+function computer:tests/e2e/__internal/mv_test
