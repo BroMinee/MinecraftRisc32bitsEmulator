@@ -4,7 +4,7 @@
 ## types float int
 
 0.0 0
--0.0 -2147483648
+# -0.0 -2147483648  # SKIP: cannot distinguish -0.0 from 0.0 in MC float NBT
 1.0 1065353216
 -1.0 -1082130432
 2.0 1073741824
