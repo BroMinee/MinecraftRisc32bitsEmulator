@@ -1,0 +1,4 @@
+{
+  "type": "minecraft:abs",
+  "input": {"type": "minecraft:storage", "storage": "computer:alu", "path": "stack[-1].a"}
+}

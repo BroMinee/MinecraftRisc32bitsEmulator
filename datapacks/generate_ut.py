@@ -11,12 +11,14 @@ File format:
       ## function <namespace:path>      -- function to test
       ## inputs <name1> <name2> ...     -- input storage fields in computer:alu
       ## outputs <name1> <name2> ...    -- output storage fields in computer:alu
-  - Other lines are test cases: space-separated signed decimal values
-    matching inputs + outputs order.
-    Example for add (inputs: a b, outputs: result):
-      0 0 0
-      1 2 3
-      -1 1 0
+      ## types <type1> <type2> ...      -- optional: type per field (int or float), default all int
+  - Other lines are test cases: space-separated values matching inputs + outputs order.
+    - int values: signed decimal (e.g. 42, -1, 2147483647)
+    - float values: decimal with optional f suffix (e.g. 1.0, -3.14)
+    - ERROR as output value: expects the function to call print_error (error stats == 1)
+    Example for float_add (inputs: a b, outputs: result, types: float float float):
+      1.0 2.0 3.0
+      -1.0 1.0 0.0
 
 The generator:
   1. Creates tests/ut/<name>.mcfunction that:
@@ -28,6 +30,7 @@ The generator:
 
 import os
 import struct
+import math
 
 SOURCE_DIR = "./tests_ut"
 OUTPUT_DIR = "./Computer/data/computer/function/tests/ut"
@@ -58,11 +61,54 @@ def to_signed32(val):
     return struct.unpack('>i', struct.pack('>I', val & 0xFFFFFFFF))[0]
 
 
+def parse_float_value(s):
+    """Parse a float value from test file. Returns a float."""
+    s = s.strip().rstrip('f').rstrip('F')
+    if s.lower() == 'nan':
+        return float('nan')
+    if s.lower() == 'infinity' or s.lower() == 'inf':
+        return float('inf')
+    if s.lower() == '-infinity' or s.lower() == '-inf':
+        return float('-inf')
+    return float(s)
+
+
+def float_to_mc_literal(f):
+    """Convert a Python float to a Minecraft NBT float literal string."""
+    if math.isnan(f):
+        return "NaNf"
+    if math.isinf(f):
+        return "Infinityf" if f > 0 else "-Infinityf"
+    # Handle -0.0
+    if f == 0.0 and math.copysign(1.0, f) < 0:
+        return "-0.0f"
+    # Format with enough precision
+    s = repr(f)
+    if '.' not in s and 'e' not in s and 'E' not in s:
+        s += '.0'
+    return s + "f"
+
+
+def float_to_display(f):
+    """Human-readable display of a float value for error messages."""
+    if math.isnan(f):
+        return "NaN"
+    if math.isinf(f):
+        return "Inf" if f > 0 else "-Inf"
+    if f == 0.0 and math.copysign(1.0, f) < 0:
+        return "-0.0"
+    return repr(f)
+
+
 def parse_test_file(filepath):
-    """Parse a ut test definition file."""
+    """Parse a ut test definition file.
+    Returns (function, inputs, outputs, types, cases).
+    types is a list of 'int' or 'float' for each field (inputs + outputs).
+    """
     function = None
     inputs = []
     outputs = []
+    types = None
     cases = []
 
     with open(filepath, "r", encoding="utf-8") as f:
@@ -75,23 +121,35 @@ def parse_test_file(filepath):
                     inputs = line[len("## inputs "):].split()
                 elif line.startswith("## outputs "):
                     outputs = line[len("## outputs "):].split()
+                elif line.startswith("## types "):
+                    types = line[len("## types "):].split()
                 continue
-            # Test case line: space-separated signed decimal values
+            # Test case line: space-separated values
             parts = line.split()
-            if len(parts) != len(inputs) + len(outputs):
+            n_fields = len(inputs) + len(outputs)
+            if len(parts) != n_fields:
                 raise ValueError(
-                    f"Test case has {len(parts)} values, expected {len(inputs) + len(outputs)} "
+                    f"Test case has {len(parts)} values, expected {n_fields} "
                     f"(inputs: {inputs}, outputs: {outputs}): {line}"
                 )
-            values = [int(p) for p in parts]
-            cases.append(values)
+            cases.append(parts)  # keep as strings, parse later based on type
 
     if function is None:
         raise ValueError(f"No '## function' metadata in {filepath}")
     if not outputs:
         raise ValueError(f"No '## outputs' metadata in {filepath}")
 
-    return function, inputs, outputs, cases
+    # Default types: all int
+    n_fields = len(inputs) + len(outputs)
+    if types is None:
+        types = ["int"] * n_fields
+    if len(types) != n_fields:
+        raise ValueError(
+            f"types has {len(types)} entries, expected {n_fields} "
+            f"(inputs: {inputs}, outputs: {outputs})"
+        )
+
+    return function, inputs, outputs, types, cases
 
 
 def generate_skip_mcfunction(test_name, function):
@@ -104,13 +162,14 @@ def generate_skip_mcfunction(test_name, function):
     ) % (function, test_name)
 
 
-def generate_test_mcfunction(test_name, function, inputs, outputs, cases):
+def generate_test_mcfunction(test_name, function, inputs, outputs, types, cases):
     """Generate mcfunction content for a unit test."""
     lines = []
     num_inputs = len(inputs)
+    input_types = types[:num_inputs]
+    output_types = types[num_inputs:]
 
     lines.append("# auto-generated")
-
     lines.append("# Unit test for %s" % function)
 
     # -- Run actual test cases --
@@ -118,13 +177,18 @@ def generate_test_mcfunction(test_name, function, inputs, outputs, cases):
     lines.append("scoreboard players set _ut_fail tests 0")
     lines.append("")
 
-    for values in cases:
-        input_vals = values[:num_inputs]
-        output_vals = values[num_inputs:]
+    for raw_values in cases:
+        input_strs = raw_values[:num_inputs]
+        output_strs = raw_values[num_inputs:]
 
         # Set inputs
         for i, inp in enumerate(inputs):
-            lines.append("data modify storage computer:alu %s set value %d" % (inp, input_vals[i]))
+            if input_types[i] == "float":
+                fval = parse_float_value(input_strs[i])
+                mc_lit = float_to_mc_literal(fval)
+                lines.append("data modify storage computer:alu %s set value %s" % (inp, mc_lit))
+            else:
+                lines.append("data modify storage computer:alu %s set value %d" % (inp, int(input_strs[i])))
 
         # Reset error before call
         lines.append("scoreboard players set error stats 0")
@@ -132,34 +196,111 @@ def generate_test_mcfunction(test_name, function, inputs, outputs, cases):
         # Call function
         lines.append("function %s" % function)
 
+        # Build input description for error messages
+        input_descs = []
+        for i in range(num_inputs):
+            if input_types[i] == "float":
+                input_descs.append(float_to_display(parse_float_value(input_strs[i])))
+            else:
+                input_descs.append(input_strs[i])
+        input_desc = ",".join(input_descs)
+
         # Check each output
-        for j, out in enumerate(outputs):
-            expected = output_vals[j]
-            # Read result into scoreboard
-            lines.append("execute store result score _ut_got tests run data get storage computer:alu %s" % out)
-            # Compare
-            input_desc = ",".join(str(v) for v in input_vals)
+        # Special case: if ANY output is "ERROR", we expect error stats == 1
+        if any(s.upper() == "ERROR" for s in output_strs):
             lines.append(
-                "execute if score _ut_got tests matches %d run scoreboard players add _ut_pass tests 1" % expected
+                "execute if score error stats matches 1 "
+                "run scoreboard players add _ut_pass tests 1"
             )
             lines.append(
-                "execute unless score _ut_got tests matches %d run scoreboard players add _ut_fail tests 1" % expected
+                "execute unless score error stats matches 1 "
+                "run scoreboard players add _ut_fail tests 1"
             )
             lines.append(
-                'execute unless score _ut_got tests matches %d run tellraw @a '
+                'execute unless score error stats matches 1 run tellraw @a '
                 '[{"text":"[UT] - ","bold":true,"color":"blue"},'
                 '{"text":"FAIL ","bold":true,"color":"red"},'
                 '{"text":"%s(%s) ","color":"gold"},'
-                '{"text":"%s: expected %d got ","color":"white"},'
-                '{"score":{"name":"_ut_got","objective":"tests"},"color":"red"}]'
-                % (expected, function.split(":")[-1], input_desc, out, expected)
+                '{"text":"expected ERROR but no error","color":"white"}]'
+                % (function.split(":")[-1], input_desc)
             )
+            # Reset error and clean up stack for next test
+            lines.append("scoreboard players set error stats 0")
+            lines.append("data modify storage computer:alu stack set value []")
+
+            lines.append("")
+            continue
+
+        for j, out in enumerate(outputs):
+            if output_types[j] == "float":
+                fval = parse_float_value(output_strs[j])
+                mc_lit = float_to_mc_literal(fval)
+                display = float_to_display(fval)
+
+                if math.isnan(fval):
+                    # NaN: check that result is NaN using the fact that NaN != NaN
+                    # We store expected NaN, then check the result is also NaN
+                    # In MC NBT, {result: NaNf} should match NaN
+                    lines.append(
+                        "execute if data storage computer:alu {%s: %s} "
+                        "run scoreboard players add _ut_pass tests 1" % (out, mc_lit)
+                    )
+                    lines.append(
+                        "execute unless data storage computer:alu {%s: %s} "
+                        "run scoreboard players add _ut_fail tests 1" % (out, mc_lit)
+                    )
+                    lines.append(
+                        'execute unless data storage computer:alu {%s: %s} run tellraw @a '
+                        '[{"text":"[UT] - ","bold":true,"color":"blue"},'
+                        '{"text":"FAIL ","bold":true,"color":"red"},'
+                        '{"text":"%s(%s) ","color":"gold"},'
+                        '{"text":"%s: expected %s got ","color":"white"},'
+                        '{"storage":"computer:alu","nbt":"%s","color":"red"}]'
+                        % (out, mc_lit, function.split(":")[-1], input_desc, out, display, out)
+                    )
+                else:
+                    # Float comparison using NBT match
+                    lines.append(
+                        "execute if data storage computer:alu {%s: %s} "
+                        "run scoreboard players add _ut_pass tests 1" % (out, mc_lit)
+                    )
+                    lines.append(
+                        "execute unless data storage computer:alu {%s: %s} "
+                        "run scoreboard players add _ut_fail tests 1" % (out, mc_lit)
+                    )
+                    lines.append(
+                        'execute unless data storage computer:alu {%s: %s} run tellraw @a '
+                        '[{"text":"[UT] - ","bold":true,"color":"blue"},'
+                        '{"text":"FAIL ","bold":true,"color":"red"},'
+                        '{"text":"%s(%s) ","color":"gold"},'
+                        '{"text":"%s: expected %s got ","color":"white"},'
+                        '{"storage":"computer:alu","nbt":"%s","color":"red"}]'
+                        % (out, mc_lit, function.split(":")[-1], input_desc, out, display, out)
+                    )
+            else:
+                expected = int(output_strs[j])
+                # Int comparison using scoreboard
+                lines.append("execute store result score _ut_got tests run data get storage computer:alu %s" % out)
+                lines.append(
+                    "execute if score _ut_got tests matches %d run scoreboard players add _ut_pass tests 1" % expected
+                )
+                lines.append(
+                    "execute unless score _ut_got tests matches %d run scoreboard players add _ut_fail tests 1" % expected
+                )
+                lines.append(
+                    'execute unless score _ut_got tests matches %d run tellraw @a '
+                    '[{"text":"[UT] - ","bold":true,"color":"blue"},'
+                    '{"text":"FAIL ","bold":true,"color":"red"},'
+                    '{"text":"%s(%s) ","color":"gold"},'
+                    '{"text":"%s: expected %d got ","color":"white"},'
+                    '{"score":{"name":"_ut_got","objective":"tests"},"color":"red"}]'
+                    % (expected, function.split(":")[-1], input_desc, out, expected)
+                )
 
         # Check stack is empty after call
         lines.append(
             "execute if data storage computer:alu stack[0] run scoreboard players add _ut_fail tests 1"
         )
-        input_desc = ",".join(str(v) for v in input_vals)
         lines.append(
             'execute if data storage computer:alu stack[0] run tellraw @a '
             '[{"text":"[UT] - ","bold":true,"color":"blue"},'
@@ -233,7 +374,7 @@ def main():
         print("Processing UT: %s" % filename)
 
         try:
-            function, inputs, outputs, cases = parse_test_file(filepath)
+            function, inputs, outputs, types, cases = parse_test_file(filepath)
         except Exception as e:
             print("  ERROR: %s" % e)
             continue
@@ -243,8 +384,8 @@ def main():
             skipped += 1
             content = generate_skip_mcfunction(test_name, function)
         else:
-            print("  function=%s inputs=%s outputs=%s cases=%d" % (function, inputs, outputs, len(cases)))
-            content = generate_test_mcfunction(test_name, function, inputs, outputs, cases)
+            print("  function=%s inputs=%s outputs=%s types=%s cases=%d" % (function, inputs, outputs, types, len(cases)))
+            content = generate_test_mcfunction(test_name, function, inputs, outputs, types, cases)
 
         outpath = os.path.join(OUTPUT_DIR, "%s.mcfunction" % test_name)
         with open(outpath, "w", encoding="utf-8") as f:

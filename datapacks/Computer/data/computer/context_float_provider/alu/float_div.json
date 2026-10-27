@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:div",
+  "left": {"type": "minecraft:storage", "storage": "computer:alu", "path": "stack[-1].a"},
+  "right": {"type": "minecraft:storage", "storage": "computer:alu", "path": "stack[-1].b"}
+}

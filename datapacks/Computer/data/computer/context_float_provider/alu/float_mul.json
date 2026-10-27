@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:mul",
+  "inputs": [
+    {"type": "minecraft:storage", "storage": "computer:alu", "path": "stack[-1].a"},
+    {"type": "minecraft:storage", "storage": "computer:alu", "path": "stack[-1].b"}
+  ]
+}

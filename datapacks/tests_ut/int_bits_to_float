@@ -1,9 +1,10 @@
 ## function computer:alu/float/int_bits_to_float
 ## inputs a
 ## outputs result
+## types int float
 
-0 0
--2147483648 -2147483648
-1065353216 1065353216
--1082130432 -1082130432
-2139095040 2139095040
+0 0.0
+-2147483648 -0.0
+1065353216 1.0
+-1082130432 -1.0
+# 2139095040 -> Infinity output cannot be verified, removed

@@ -1,15 +1,15 @@
 ## function computer:alu/float/float_to_unsigned_int
 ## inputs a
 ## outputs result
+## types float int
 
-0 0
-1065353216 1
-1069547520 2
-1075838976 2
-1120403456 100
-1325400064 -2147483648
-1333788671 -256
--1082130432 0
-2143289344 -1
-2139095040 -1
-1333788672 -1
+0.0 0
+1.0 1
+1.5 2
+2.5 2
+100.0 100
+2147483648.0 -2147483648
+4294967040.0 -256
+-1.0 0
+# NaN/Infinity inputs cannot be stored as NBT, removed
+4294967296.0 -1
