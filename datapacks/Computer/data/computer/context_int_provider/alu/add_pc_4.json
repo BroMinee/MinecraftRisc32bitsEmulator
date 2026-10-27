@@ -1,7 +1,0 @@
-{
-  "type": "minecraft:add",
-  "inputs": [
-    {"type": "minecraft:storage", "storage": "computer:cpu", "path": "pc"},
-    4
-  ]
-}

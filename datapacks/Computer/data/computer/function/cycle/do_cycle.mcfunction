@@ -1,14 +1,18 @@
+# public void step() {
+# if (halted || error) return;
 execute if score error stats matches 1.. run return 0
 execute if score done stats matches 1.. run return 0
 
-# Fetch instruction from RAM at current PC
-# Read 32-bit word from storage computer:ram_<pc>
+# cycleCount = SafeAdderInt.add(cycleCount, 1);
 scoreboard players add cycle stats 1
+
+# int instr = mem.readWord(pc);
 function computer:cycle/fetch with storage computer:cpu
+data modify storage computer:cpu instr set from storage computer:alu result
+
+# int opcode = SafeAdderInt.maskLowBits(instr, 7);
+function computer:cpu/opcode
+data modify storage computer:cpu opcode set from storage computer:alu result
 
 # Decode + Execute
-function computer:cycle/decode
-
-# Increment PC by 4 (unless jump/branch modified it)
-execute if data storage computer:cpu {increase_pc:1} run function computer:cycle/increment_pc
-execute unless data storage computer:cpu increase_pc run function computer:debug/print_log {"message": '{"text":"PC not increased (jump condition)","color":"gold"}'}
+function computer:cycle/execute_opcode
