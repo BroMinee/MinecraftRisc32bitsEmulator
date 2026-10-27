@@ -239,7 +239,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `xor`       |
 | ✅     | `srl`       |
 | ✅     | `sra`       |
-| ❌     | `or`        |
+| ✅     | `or`        |
 | ❌     | `and`       |
 
 ## Memory Instructions
