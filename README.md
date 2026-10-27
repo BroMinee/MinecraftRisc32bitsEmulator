@@ -230,7 +230,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `andi`      |
 | ✅     | `slli`      |
 | ✅     | `srli`      |
-| ❌     | `srai`      |
+| ✅     | `srai`      |
 | ❌     | `add`       |
 | ❌     | `sub`       |
 | ❌     | `sll`       |
