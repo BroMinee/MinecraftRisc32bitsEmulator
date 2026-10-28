@@ -271,7 +271,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `beq`       |
 | ❌     | `bne`       |
 | ❌     | `blt`       |
-| ❌     | `bge`       |
+| ✅     | `bge`       |
 | ✅     | `bltu`      |
 | ❌     | `bgeu`      |
 
