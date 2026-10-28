@@ -10,10 +10,4 @@ data modify storage computer:ram_32 value set value -1072660781
 data modify storage computer:ram_36 value set value 1065353399
 data modify storage computer:ram_40 value set value -268402605
 data modify storage computer:ram_44 value set value -1072660909
-data modify storage computer:ram_48 value set value 2139095223
-data modify storage computer:ram_52 value set value -268402605
-data modify storage computer:ram_56 value set value -1072661037
-data modify storage computer:ram_60 value set value 2143289527
-data modify storage computer:ram_64 value set value -268402605
-data modify storage computer:ram_68 value set value -1072661165
 function computer:reset
