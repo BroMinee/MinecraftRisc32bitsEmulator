@@ -248,7 +248,7 @@ The following table lists the supported and unsupported instructions.
 | ------ | ----------- |
 | ✅     | `lb`        |
 | ✅     | `lh`        |
-| ❌     | `lw`        |
+| ✅     | `lw`        |
 | ❌     | `lbu`       |
 | ❌     | `lhu`       |
 | ❌     | `sb`        |
