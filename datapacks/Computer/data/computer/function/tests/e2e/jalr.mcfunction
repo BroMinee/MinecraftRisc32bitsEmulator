@@ -1,1 +1,3 @@
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP jalr (not implemented)","color":"gray"}]
+function computer:tests/e2e/__internal/jalr_load
+function computer:tests/e2e/__internal/jalr_run
+function computer:tests/e2e/__internal/jalr_test
