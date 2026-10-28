@@ -246,7 +246,7 @@ The following table lists the supported and unsupported instructions.
 
 | Status | Instruction |
 | ------ | ----------- |
-| ❌     | `lb`        |
+| ✅     | `lb`        |
 | ❌     | `lh`        |
 | ❌     | `lw`        |
 | ❌     | `lbu`       |

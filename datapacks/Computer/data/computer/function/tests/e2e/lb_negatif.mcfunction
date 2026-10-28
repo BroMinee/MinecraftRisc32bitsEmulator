@@ -1,1 +1,3 @@
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP lb_negatif (not implemented)","color":"gray"}]
+function computer:tests/e2e/__internal/lb_negatif_load
+function computer:tests/e2e/__internal/lb_negatif_run
+function computer:tests/e2e/__internal/lb_negatif_test
