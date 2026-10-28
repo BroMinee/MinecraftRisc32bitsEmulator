@@ -1,6 +1,6 @@
 scoreboard players set fmadd.s_more tests 1
 scoreboard players add total tests 1
-data modify storage computer:test expected set value 356
+data modify storage computer:test expected set value 264
 execute store result score _expected tests run data get storage computer:test expected
 execute store result score _got tests run data get storage computer:cpu pc
 execute unless score _got tests = _expected tests run scoreboard players set fmadd.s_more tests 0
@@ -285,12 +285,12 @@ execute store result score _expected tests run data get storage computer:test ex
 execute store result score _got tests run data get storage computer:cpu f23
 execute unless score _got tests = _expected tests run scoreboard players set fmadd.s_more tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f23: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
-data modify storage computer:test expected set value 2143289344
+data modify storage computer:test expected set value 0
 execute store result score _expected tests run data get storage computer:test expected
 execute store result score _got tests run data get storage computer:cpu f24
 execute unless score _got tests = _expected tests run scoreboard players set fmadd.s_more tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f24: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
-data modify storage computer:test expected set value 2139095040
+data modify storage computer:test expected set value 0
 execute store result score _expected tests run data get storage computer:test expected
 execute store result score _got tests run data get storage computer:cpu f25
 execute unless score _got tests = _expected tests run scoreboard players set fmadd.s_more tests 0
@@ -305,7 +305,7 @@ execute store result score _expected tests run data get storage computer:test ex
 execute store result score _got tests run data get storage computer:cpu f27
 execute unless score _got tests = _expected tests run scoreboard players set fmadd.s_more tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f27: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
-data modify storage computer:test expected set value 2139095040
+data modify storage computer:test expected set value 0
 execute store result score _expected tests run data get storage computer:test expected
 execute store result score _got tests run data get storage computer:cpu f28
 execute unless score _got tests = _expected tests run scoreboard players set fmadd.s_more tests 0
