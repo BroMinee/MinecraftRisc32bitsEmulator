@@ -292,7 +292,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `mulhsu`    |
 | ✅     | `mulhu`     |
 | ✅     | `div`       |
-| ❌     | `divu`      |
+| ✅     | `divu`      |
 | ❌     | `rem`       |
 | ❌     | `remu`      |
 

@@ -1,1 +1,3 @@
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP divu_3 (not implemented)","color":"gray"}]
+function computer:tests/e2e/__internal/divu_3_load
+function computer:tests/e2e/__internal/divu_3_run
+function computer:tests/e2e/__internal/divu_3_test
