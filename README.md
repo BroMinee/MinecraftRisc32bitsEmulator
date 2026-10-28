@@ -250,7 +250,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `lh`        |
 | ✅     | `lw`        |
 | ✅     | `lbu`       |
-| ❌     | `lhu`       |
+| ✅     | `lhu`       |
 | ❌     | `sb`        |
 | ❌     | `sh`        |
 | ❌     | `sw`        |
@@ -281,7 +281,7 @@ The following table lists the supported and unsupported instructions.
 | ------ | ----------- | ------------------ |
 | ✅     | `nop`       | `addi x0, x0, 0`   |
 | ✅     | `mv`        | `addi rd, rs1, 0`  |
-| ❌     | `not`       | `xori rd, rs1, -1` |
+| ✅     | `not`       | `xori rd, rs1, -1` |
 
 ## Multiplication and Division Instructions
 
