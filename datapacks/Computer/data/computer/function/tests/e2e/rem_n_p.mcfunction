@@ -1,1 +1,3 @@
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP rem_n_p (not implemented)","color":"gray"}]
+function computer:tests/e2e/__internal/rem_n_p_load
+function computer:tests/e2e/__internal/rem_n_p_run
+function computer:tests/e2e/__internal/rem_n_p_test

@@ -293,7 +293,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `mulhu`     |
 | ✅     | `div`       |
 | ✅     | `divu`      |
-| ❌     | `rem`       |
+| ✅     | `rem`       |
 | ❌     | `remu`      |
 
 ## Floating-Point Instructions
