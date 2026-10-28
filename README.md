@@ -273,7 +273,7 @@ The following table lists the supported and unsupported instructions.
 | ❌     | `blt`       |
 | ✅     | `bge`       |
 | ✅     | `bltu`      |
-| ❌     | `bgeu`      |
+| ✅     | `bgeu`      |
 
 ## Pseudo-Instructions
 
