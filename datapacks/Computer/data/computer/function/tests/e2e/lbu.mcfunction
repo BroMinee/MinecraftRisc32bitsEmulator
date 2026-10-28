@@ -1,1 +1,3 @@
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP lbu (not implemented)","color":"gray"}]
+function computer:tests/e2e/__internal/lbu_load
+function computer:tests/e2e/__internal/lbu_run
+function computer:tests/e2e/__internal/lbu_test

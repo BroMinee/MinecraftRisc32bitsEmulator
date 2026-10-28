@@ -412,6 +412,6 @@ function computer:tests/e2e/sw
 function computer:tests/e2e/xor
 # xori
 function computer:tests/e2e/xori
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Number of fails","bold":true,"color":"gold"},{"text":" (","bold":true,"color":"gold"},{"score":{"name":"failed","objective":"tests"},"bold":true,"color":"red"},{"text":" out of ","bold":true,"color":"green"},{"score":{"name":"total","objective":"tests"},"bold":true,"color":"gold"},{"text":" tests","bold":true,"color":"green"},{"text":")","bold":true,"color":"gold"},{"text":" (166 skipped)","bold":true,"color":"gray"}]
+tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Number of fails","bold":true,"color":"gold"},{"text":" (","bold":true,"color":"gold"},{"score":{"name":"failed","objective":"tests"},"bold":true,"color":"red"},{"text":" out of ","bold":true,"color":"green"},{"score":{"name":"total","objective":"tests"},"bold":true,"color":"gold"},{"text":" tests","bold":true,"color":"green"},{"text":")","bold":true,"color":"gold"},{"text":" (164 skipped)","bold":true,"color":"gray"}]
 execute if data storage computer:test failed[0] run function computer:tests/e2e/show_failed_tests
 execute if score hasDebugTag tests matches 1 run tag @s add DEBUG
