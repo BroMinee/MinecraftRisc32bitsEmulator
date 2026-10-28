@@ -252,7 +252,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `lbu`       |
 | ✅     | `lhu`       |
 | ✅     | `sb`        |
-| ❌     | `sh`        |
+| ✅     | `sh`        |
 | ❌     | `sw`        |
 | ❌     | `flw`       |
 | ❌     | `fsw`       |
