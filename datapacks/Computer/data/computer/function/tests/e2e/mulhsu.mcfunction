@@ -1,1 +1,3 @@
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP mulhsu (not implemented)","color":"gray"}]
+function computer:tests/e2e/__internal/mulhsu_load
+function computer:tests/e2e/__internal/mulhsu_run
+function computer:tests/e2e/__internal/mulhsu_test
