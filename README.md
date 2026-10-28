@@ -323,7 +323,7 @@ The following table lists the supported and unsupported instructions.
 | ❌     | `fclass.s`  |
 | ❌     | `fcvt.s.w`  |
 | ❌     | `fcvt.s.wu` |
-| ❌     | `fmv.w.x`   |
+| ✅     | `fmv.w.x`   |
 # Running the Test Suite in Minecraft
 
 Generate the test suite by running:
