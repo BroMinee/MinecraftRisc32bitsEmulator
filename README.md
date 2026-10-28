@@ -255,7 +255,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `sh`        |
 | ✅     | `sw`        |
 | ✅     | `flw`       |
-| ❌     | `fsw`       |
+| ✅     | `fsw`       |
 
 ## Control Flow Instructions
 
