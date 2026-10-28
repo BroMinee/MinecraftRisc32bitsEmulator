@@ -302,7 +302,7 @@ The following table lists the supported and unsupported instructions.
 | ------ | ----------- |
 | ✅     | `fmadd.s`   |
 | ✅     | `fmsub.s`   |
-| ❌     | `fnmsub.s`  |
+| ✅     | `fnmsub.s`  |
 | ❌     | `fnmadd.s`  |
 | ✅     | `fadd.s`    |
 | ✅     | `fsub.s`    |
