@@ -221,7 +221,7 @@ The following table lists the supported and unsupported instructions.
 | Status | Instruction |
 | ------ | ----------- |
 | ✅     | `lui`       |
-| ❌     | `auipc`     |
+| ✅     | `auipc`     |
 | ✅     | `addi`      |
 | ✅     | `slti`      |
 | ✅     | `sltiu`     |
