@@ -319,7 +319,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `fmv.x.w`   |
 | ✅     | `feq.s`     |
 | ✅     | `flt.s`     |
-| ❌     | `fle.s`     |
+| ✅     | `fle.s`     |
 | ❌     | `fclass.s`  |
 | ❌     | `fcvt.s.w`  |
 | ❌     | `fcvt.s.wu` |
