@@ -1,1 +1,3 @@
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP fadd.s_-0.3_plus_0.5 (not implemented)","color":"gray"}]
+function computer:tests/e2e/__internal/fadd.s_-0.3_plus_0.5_load
+function computer:tests/e2e/__internal/fadd.s_-0.3_plus_0.5_run
+function computer:tests/e2e/__internal/fadd.s_-0.3_plus_0.5_test

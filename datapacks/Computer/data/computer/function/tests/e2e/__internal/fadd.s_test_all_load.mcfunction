@@ -92,20 +92,4 @@ data modify storage computer:ram_360 value set value 686883091
 data modify storage computer:ram_364 value set value -268369709
 data modify storage computer:ram_368 value set value 1078355
 data modify storage computer:ram_372 value set value 62419
-data modify storage computer:ram_376 value set value 2139070647
-data modify storage computer:ram_380 value set value 2146467987
-data modify storage computer:ram_384 value set value -268402605
-data modify storage computer:ram_388 value set value 2134204727
-data modify storage computer:ram_392 value set value -1535049453
-data modify storage computer:ram_396 value set value -268369709
-data modify storage computer:ram_400 value set value 1078099
-data modify storage computer:ram_404 value set value 62163
-data modify storage computer:ram_408 value set value -8413001
-data modify storage computer:ram_412 value set value 2146467987
-data modify storage computer:ram_416 value set value -268402605
-data modify storage computer:ram_420 value set value -13278921
-data modify storage computer:ram_424 value set value -1535049453
-data modify storage computer:ram_428 value set value -268369709
-data modify storage computer:ram_432 value set value 1077843
-data modify storage computer:ram_436 value set value 61907
 function computer:reset

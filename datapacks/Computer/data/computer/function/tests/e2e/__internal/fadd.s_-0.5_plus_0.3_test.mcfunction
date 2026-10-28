@@ -1,6 +1,6 @@
 scoreboard players set fadd.s_-0.5_plus_0.3 tests 1
 scoreboard players add total tests 1
-data modify storage computer:test expected set value 32
+data modify storage computer:test expected set value 28
 execute store result score _expected tests run data get storage computer:test expected
 execute store result score _got tests run data get storage computer:cpu pc
 execute unless score _got tests = _expected tests run scoreboard players set fadd.s_-0.5_plus_0.3 tests 0
