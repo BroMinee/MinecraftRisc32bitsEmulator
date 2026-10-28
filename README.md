@@ -307,7 +307,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `fadd.s`    |
 | ✅     | `fsub.s`    |
 | ✅     | `fmul.s`    |
-| ❌     | `fdiv.s`    |
+| ✅     | `fdiv.s`    |
 | ❌     | `fsqrt.s`   |
 | ✅     | `fsgnj.s`   |
 | ✅     | `fsgnjn.s`  |
