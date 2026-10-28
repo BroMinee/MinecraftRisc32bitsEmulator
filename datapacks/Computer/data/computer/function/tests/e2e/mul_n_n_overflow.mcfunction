@@ -1,1 +1,3 @@
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP mul_n_n_overflow (not implemented)","color":"gray"}]
+function computer:tests/e2e/__internal/mul_n_n_overflow_load
+function computer:tests/e2e/__internal/mul_n_n_overflow_run
+function computer:tests/e2e/__internal/mul_n_n_overflow_test

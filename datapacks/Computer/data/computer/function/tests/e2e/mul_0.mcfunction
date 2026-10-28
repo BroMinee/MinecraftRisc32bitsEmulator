@@ -1,1 +1,3 @@
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP mul_0 (not implemented)","color":"gray"}]
+function computer:tests/e2e/__internal/mul_0_load
+function computer:tests/e2e/__internal/mul_0_run
+function computer:tests/e2e/__internal/mul_0_test
