@@ -23,6 +23,7 @@ scoreboard players set read stats 0
 scoreboard players set write stats 0
 scoreboard players set error stats 0
 scoreboard players set done stats 0
+scoreboard players set debug stats 0
 
 # Reset stdin control (0x0FFE_0600 = 268370432) to 0 = no stdin pending
 data modify storage computer:ram_268370432 value set value 0

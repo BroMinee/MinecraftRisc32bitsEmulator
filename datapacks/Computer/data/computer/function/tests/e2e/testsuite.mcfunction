@@ -1,5 +1,5 @@
-execute store success score hasDebugTests tests run execute if entity @s[tag=DEBUG]
-tag @s remove DEBUG
+scoreboard players operation hasDebugTests tests = debug stats
+scoreboard players set debug stats 0
 scoreboard players set failed tests 0
 scoreboard players set successed tests 0
 scoreboard players set total tests 0
@@ -414,4 +414,4 @@ function computer:tests/e2e/xor
 function computer:tests/e2e/xori
 tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Number of fails","bold":true,"color":"gold"},{"text":" (","bold":true,"color":"gold"},{"score":{"name":"failed","objective":"tests"},"bold":true,"color":"red"},{"text":" out of ","bold":true,"color":"green"},{"score":{"name":"total","objective":"tests"},"bold":true,"color":"gold"},{"text":" tests","bold":true,"color":"green"},{"text":")","bold":true,"color":"gold"},{"text":" (92 skipped)","bold":true,"color":"gray"}]
 execute if data storage computer:test failed[0] run function computer:tests/e2e/show_failed_tests
-execute if score hasDebugTag tests matches 1 run tag @s add DEBUG
+scoreboard players operation debug stats = hasDebugTests tests

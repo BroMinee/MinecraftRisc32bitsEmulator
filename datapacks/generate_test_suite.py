@@ -156,8 +156,8 @@ files = sorted(
 )
 
 with open(f"{OUTPUT_DIR}/testsuite.mcfunction", "w", encoding="utf-8") as f_testsuite:
-    f_testsuite.write('execute store success score hasDebugTests tests run execute if entity @s[tag=DEBUG]\n')
-    f_testsuite.write('tag @s remove DEBUG\n')
+    f_testsuite.write('scoreboard players operation hasDebugTests tests = debug stats\n')
+    f_testsuite.write('scoreboard players set debug stats 0\n')
     f_testsuite.write("scoreboard players set failed tests 0\n")
     f_testsuite.write("scoreboard players set successed tests 0\n")
     f_testsuite.write("scoreboard players set total tests 0\n")
@@ -280,6 +280,6 @@ with open(f"{OUTPUT_DIR}/testsuite.mcfunction", "w", encoding="utf-8") as f_test
 
     f_testsuite.write('tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Number of fails","bold":true,"color":"gold"},{"text":" (","bold":true,"color":"gold"},{"score":{"name":"failed","objective":"tests"},"bold":true,"color":"red"},{"text":" out of ","bold":true,"color":"green"},{"score":{"name":"total","objective":"tests"},"bold":true,"color":"gold"},{"text":" tests","bold":true,"color":"green"},{"text":")","bold":true,"color":"gold"}' + (f',{{"text":" ({skipped} skipped)","bold":true,"color":"gray"}}' if skipped > 0 else '') + ']\n')
     f_testsuite.write('execute if data storage computer:test failed[0] run function computer:tests/e2e/show_failed_tests\n')
-    f_testsuite.write('execute if score hasDebugTag tests matches 1 run tag @s add DEBUG\n')
+    f_testsuite.write('scoreboard players operation debug stats = hasDebugTests tests\n')
 
 print(f"Generated {generated} tests, skipped {skipped} (not implemented)")
