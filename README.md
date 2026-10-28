@@ -312,7 +312,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `fsgnj.s`   |
 | ✅     | `fsgnjn.s`  |
 | ✅     | `fsgnjx.s`  |
-| ❌     | `fmin.s`    |
+| ✅     | `fmin.s`    |
 | ❌     | `fmax.s`    |
 | ✅     | `fcvt.w.s`  |
 | ✅     | `fcvt.wu.s` |
