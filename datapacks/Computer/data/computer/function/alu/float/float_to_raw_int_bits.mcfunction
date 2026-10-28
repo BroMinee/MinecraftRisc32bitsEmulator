@@ -7,11 +7,11 @@ function computer:alu/stack/push
 data modify storage computer:alu stack[-1].a set from storage computer:alu a
 
 # --- Handle NaN: if (a != a) return 0x7FC00000 ---
-# NaN check: compute a - a. Normal/zero → 0.0f, NaN → NaN, Inf → NaN
+# NaN check: compute a - a. Normal/zero -> 0.0f, NaN -> NaN, Inf -> NaN
 data modify storage computer:alu b set from storage computer:alu a
 function computer:alu/float/float_sub
 data modify storage computer:alu stack[-1]._ama set from storage computer:alu result
-# If a - a != 0.0f → NaN or Inf input
+# If a - a != 0.0f -> NaN or Inf input
 data modify storage computer:alu _temp set from storage computer:alu stack[-1]._ama
 execute unless data storage computer:alu {_temp: 0.0f} unless data storage computer:alu {_temp: -0.0f} run data modify storage computer:alu stack[-1]._isNaN set value 1
 execute if data storage computer:alu {_temp: 0.0f} run data modify storage computer:alu stack[-1]._isNaN set value 0
@@ -26,14 +26,14 @@ data modify storage computer:alu _temp set from storage computer:alu stack[-1].a
 execute if data storage computer:alu {_temp: 0.0f} run data modify storage computer:alu result set value 0
 execute if data storage computer:alu {_temp: 0.0f} run return run function computer:alu/stack/pop
 # TODO: -0.0f cannot be distinguished from 0.0f via NBT match (both match {_temp: 0.0f})
-# -0.0f → 0x80000000 = -2147483648
+# -0.0f -> 0x80000000 = -2147483648
 # execute if data storage computer:alu {_temp: -0.0f} run data modify storage computer:alu result set value -2147483648
 # execute if data storage computer:alu {_temp: -0.0f} run return run function computer:alu/stack/pop
 
 # --- Sign bit ---
 data modify storage computer:alu stack[-1].sign set value 0
 data modify storage computer:alu stack[-1].abs set from storage computer:alu stack[-1].a
-# if (a < 0.0f): data get truncates float to int, negative float → negative int
+# if (a < 0.0f): data get truncates float to int, negative float -> negative int
 execute store result score _ai alu run data get storage computer:alu stack[-1].a
 execute if score _ai alu matches ..-1 run data modify storage computer:alu stack[-1].sign set value 1
 execute if score _ai alu matches ..-1 run data modify storage computer:alu a set from storage computer:alu stack[-1].a
@@ -56,7 +56,7 @@ execute store result score _sign alu run data get storage computer:alu stack[-1]
 execute if score _sign alu matches 0 if score _nc alu matches 1.. run data modify storage computer:alu stack[-1].abs set from storage computer:alu result
 
 # --- Handle infinity ---
-# if (abs == floatDiv(1.0f, 0.0f)) → inf
+# if (abs == floatDiv(1.0f, 0.0f)) -> inf
 # Check: floatSub(abs, abs) would be NaN for inf (0.0f for finite)
 # But we already filtered NaN. For inf: abs * 0 = NaN, or abs - abs = NaN
 # Simpler: floatDiv(abs, abs) = 1.0f for finite, NaN for inf

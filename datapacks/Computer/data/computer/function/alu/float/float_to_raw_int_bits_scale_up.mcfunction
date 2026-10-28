@@ -1,7 +1,7 @@
 # while (temp < 1.0f) { temp = floatMul(temp, 2.0f); exp = hwSub(exp, 1); }
 # Reads/writes: stack[-1].temp (float), stack[-1].exp (int)
 
-# if (temp >= 1.0f) return; — data get truncates float to int, < 1.0f → 0
+# if (temp >= 1.0f) return; — data get truncates float to int, < 1.0f -> 0
 execute store result score _t alu run data get storage computer:alu stack[-1].temp
 execute unless score _t alu matches 0 run return 0
 

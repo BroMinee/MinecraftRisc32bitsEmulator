@@ -4,7 +4,7 @@
 
 function computer:debug/print_log {"message": {"text": "Running sltiu", "color":"gold"}}
 
-# compareUnsigned(rs1, imm) → result < 0 means rs1 < imm unsigned
+# compareUnsigned(rs1, imm) -> result < 0 means rs1 < imm unsigned
 data modify storage computer:alu a set from storage computer:cpu rs1_val
 data modify storage computer:alu b set from storage computer:cpu imm
 function computer:alu/int/compare_unsigned

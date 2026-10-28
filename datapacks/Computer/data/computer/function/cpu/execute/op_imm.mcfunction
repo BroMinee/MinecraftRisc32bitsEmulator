@@ -22,7 +22,7 @@ data modify storage computer:alu bits set value 5
 function computer:alu/int/mask_low_bits
 data modify storage computer:cpu shamt set from storage computer:alu result
 
-# switch (funct3(instr)) { ... } → result in computer:alu result
+# switch (funct3(instr)) { ... } -> result in computer:alu result
 function computer:cpu/funct3
 data modify storage computer:cpu funct3 set from storage computer:alu result
 function computer:cpu/execute/op_imm_dispatch
