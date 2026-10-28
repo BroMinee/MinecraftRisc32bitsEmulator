@@ -1,1 +1,3 @@
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP beq_greater_positif_positif (not implemented)","color":"gray"}]
+function computer:tests/e2e/__internal/beq_greater_positif_positif_load
+function computer:tests/e2e/__internal/beq_greater_positif_positif_run
+function computer:tests/e2e/__internal/beq_greater_positif_positif_test

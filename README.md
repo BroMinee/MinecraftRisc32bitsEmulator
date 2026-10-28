@@ -268,7 +268,7 @@ The following table lists the supported and unsupported instructions.
 | ❌     | `pause`     |
 | ❌     | `jal`       |
 | ❌     | `jalr`      |
-| ❌     | `beq`       |
+| ✅     | `beq`       |
 | ❌     | `bne`       |
 | ❌     | `blt`       |
 | ❌     | `bge`       |
