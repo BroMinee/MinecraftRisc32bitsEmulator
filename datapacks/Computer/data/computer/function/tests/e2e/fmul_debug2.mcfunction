@@ -1,1 +1,3 @@
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP fmul_debug2 (not implemented)","color":"gray"}]
+function computer:tests/e2e/__internal/fmul_debug2_load
+function computer:tests/e2e/__internal/fmul_debug2_run
+function computer:tests/e2e/__internal/fmul_debug2_test
