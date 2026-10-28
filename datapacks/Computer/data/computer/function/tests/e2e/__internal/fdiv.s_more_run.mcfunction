@@ -60,9 +60,3 @@ function computer:cycle/do_cycle
 function computer:cycle/do_cycle
 function computer:cycle/do_cycle
 function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
-function computer:cycle/do_cycle
