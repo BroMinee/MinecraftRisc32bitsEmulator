@@ -270,7 +270,7 @@ The following table lists the supported and unsupported instructions.
 | ❌     | `jalr`      |
 | ✅     | `beq`       |
 | ✅     | `bne`       |
-| ❌     | `blt`       |
+| ✅     | `blt`       |
 | ✅     | `bge`       |
 | ✅     | `bltu`      |
 | ✅     | `bgeu`      |

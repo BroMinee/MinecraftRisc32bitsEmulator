@@ -1,1 +1,3 @@
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP blt_forward_backward (not implemented)","color":"gray"}]
+function computer:tests/e2e/__internal/blt_forward_backward_load
+function computer:tests/e2e/__internal/blt_forward_backward_run
+function computer:tests/e2e/__internal/blt_forward_backward_test
