@@ -1,1 +1,3 @@
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP div_3 (not implemented)","color":"gray"}]
+function computer:tests/e2e/__internal/div_3_load
+function computer:tests/e2e/__internal/div_3_run
+function computer:tests/e2e/__internal/div_3_test
