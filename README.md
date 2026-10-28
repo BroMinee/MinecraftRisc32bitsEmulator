@@ -266,7 +266,7 @@ The following table lists the supported and unsupported instructions.
 | ❌     | `ecall`     |
 | ❌     | `ebreak`    |
 | ❌     | `pause`     |
-| ❌     | `jal`       |
+| ✅     | `jal`       |
 | ✅     | `jalr`      |
 | ✅     | `beq`       |
 | ✅     | `bne`       |
