@@ -288,7 +288,7 @@ The following table lists the supported and unsupported instructions.
 | Status | Instruction |
 | ------ | ----------- |
 | ✅     | `mul`       |
-| ❌     | `mulh`      |
+| ✅     | `mulh`      |
 | ❌     | `mulhsu`    |
 | ❌     | `mulhu`     |
 | ❌     | `div`       |
