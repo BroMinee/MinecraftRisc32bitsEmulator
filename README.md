@@ -269,7 +269,7 @@ The following table lists the supported and unsupported instructions.
 | ❌     | `jal`       |
 | ❌     | `jalr`      |
 | ✅     | `beq`       |
-| ❌     | `bne`       |
+| ✅     | `bne`       |
 | ❌     | `blt`       |
 | ✅     | `bge`       |
 | ✅     | `bltu`      |

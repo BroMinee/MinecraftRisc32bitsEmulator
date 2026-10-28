@@ -1,1 +1,3 @@
-tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"SKIP bne_equal_positif (not implemented)","color":"gray"}]
+function computer:tests/e2e/__internal/bne_equal_positif_load
+function computer:tests/e2e/__internal/bne_equal_positif_run
+function computer:tests/e2e/__internal/bne_equal_positif_test
