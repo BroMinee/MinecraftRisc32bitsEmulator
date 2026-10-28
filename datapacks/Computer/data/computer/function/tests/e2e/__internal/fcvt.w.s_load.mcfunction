@@ -16,13 +16,4 @@ data modify storage computer:ram_56 value set value -1073709613
 data modify storage computer:ram_60 value set value 1069547703
 data modify storage computer:ram_64 value set value -268402605
 data modify storage computer:ram_68 value set value -1073709741
-data modify storage computer:ram_72 value set value 2139095223
-data modify storage computer:ram_76 value set value -268402605
-data modify storage computer:ram_80 value set value -1073709869
-data modify storage computer:ram_84 value set value -8388425
-data modify storage computer:ram_88 value set value -268402605
-data modify storage computer:ram_92 value set value -1073709997
-data modify storage computer:ram_96 value set value 2143289527
-data modify storage computer:ram_100 value set value -268402605
-data modify storage computer:ram_104 value set value -1073710125
 function computer:reset
