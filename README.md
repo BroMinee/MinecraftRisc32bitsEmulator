@@ -294,7 +294,7 @@ The following table lists the supported and unsupported instructions.
 | ✅     | `div`       |
 | ✅     | `divu`      |
 | ✅     | `rem`       |
-| ❌     | `remu`      |
+| ✅     | `remu`      |
 
 ## Floating-Point Instructions
 
