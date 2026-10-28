@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:float_value_check",
+  "value": {
+    "type": "minecraft:storage",
+    "storage": "computer:alu",
+    "path": "a"
+  },
+  "test": {
+    "max": {
+      "type": "minecraft:storage",
+      "storage": "computer:alu",
+      "path": "b"
+    }
+  }
+}

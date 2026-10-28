@@ -1,6 +1,6 @@
 scoreboard players set flt.s tests 1
 scoreboard players add total tests 1
-data modify storage computer:test expected set value 348
+data modify storage computer:test expected set value 208
 execute store result score _expected tests run data get storage computer:test expected
 execute store result score _got tests run data get storage computer:cpu pc
 execute unless score _got tests = _expected tests run scoreboard players set flt.s tests 0
@@ -100,12 +100,12 @@ execute store result score _expected tests run data get storage computer:test ex
 execute store result score _got tests run data get storage computer:cpu x18
 execute unless score _got tests = _expected tests run scoreboard players set flt.s tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"x18: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
-data modify storage computer:test expected set value 1
+data modify storage computer:test expected set value 0
 execute store result score _expected tests run data get storage computer:test expected
 execute store result score _got tests run data get storage computer:cpu x19
 execute unless score _got tests = _expected tests run scoreboard players set flt.s tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"x19: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
-data modify storage computer:test expected set value 1
+data modify storage computer:test expected set value 0
 execute store result score _expected tests run data get storage computer:test expected
 execute store result score _got tests run data get storage computer:cpu x20
 execute unless score _got tests = _expected tests run scoreboard players set flt.s tests 0
@@ -115,7 +115,7 @@ execute store result score _expected tests run data get storage computer:test ex
 execute store result score _got tests run data get storage computer:cpu x21
 execute unless score _got tests = _expected tests run scoreboard players set flt.s tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"x21: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
-data modify storage computer:test expected set value 1
+data modify storage computer:test expected set value 0
 execute store result score _expected tests run data get storage computer:test expected
 execute store result score _got tests run data get storage computer:cpu x22
 execute unless score _got tests = _expected tests run scoreboard players set flt.s tests 0
