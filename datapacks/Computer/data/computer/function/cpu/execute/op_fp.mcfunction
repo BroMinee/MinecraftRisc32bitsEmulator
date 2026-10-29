@@ -2,6 +2,8 @@
 # Output: None
 # Update: computer:cpu f<rd> or x<rd>, computer:cpu pc
 # private void execOpFP(final int instr) {
+#!jvmtimer end _disp_opcode_switch
+#!jvmtimer start _disp_decode_op_fp
 
 # int f7 = funct7(instr);
 function computer:cpu/funct7
@@ -23,6 +25,8 @@ data modify storage computer:cpu rs2 set from storage computer:alu result
 function computer:cpu/funct3
 data modify storage computer:cpu funct3 set from storage computer:alu result
 
+#!jvmtimer end _disp_decode_op_fp
+#!jvmtimer start _disp_funct7_switch
 # switch (f7) { ... }
 function computer:cpu/execute/op_fp_dispatch
 

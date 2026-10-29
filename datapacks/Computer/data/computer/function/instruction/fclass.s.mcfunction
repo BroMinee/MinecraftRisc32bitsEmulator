@@ -1,13 +1,18 @@
 #!jvmtimer end _dispatcher
 #!jvmtimer start fclass.s
-# Input:  computer:cpu rs1_val (IEEE 754 int bits)
+# Input:  computer:cpu rs1_val (float)
 # Output: computer:alu result (fclass bitmask)
 # static int fclass_s(int bits) {
 
 function computer:debug/print_log {"message": {"text": "Running fclass.s", "color":"gold"}}
 
-# int sign = maskLowBits(shrU(bits, 31), 1);
+# convert float -> int bits
 data modify storage computer:alu a set from storage computer:cpu rs1_val
+function computer:alu/float/float_to_raw_int_bits
+data modify storage computer:cpu _bits set from storage computer:alu result
+
+# int sign = maskLowBits(shrU(bits, 31), 1);
+data modify storage computer:alu a set from storage computer:cpu _bits
 data modify storage computer:alu shift set value 31
 function computer:alu/int/shr_u
 data modify storage computer:alu a set from storage computer:alu result
@@ -16,7 +21,7 @@ function computer:alu/int/mask_low_bits
 execute store result score _sign alu run data get storage computer:alu result
 
 # int exp = maskLowBits(shrU(bits, 23), 8);
-data modify storage computer:alu a set from storage computer:cpu rs1_val
+data modify storage computer:alu a set from storage computer:cpu _bits
 data modify storage computer:alu shift set value 23
 function computer:alu/int/shr_u
 data modify storage computer:alu a set from storage computer:alu result
@@ -25,7 +30,7 @@ function computer:alu/int/mask_low_bits
 execute store result score _exp alu run data get storage computer:alu result
 
 # int mantissa = maskLowBits(bits, 23);
-data modify storage computer:alu a set from storage computer:cpu rs1_val
+data modify storage computer:alu a set from storage computer:cpu _bits
 data modify storage computer:alu bits set value 23
 function computer:alu/int/mask_low_bits
 execute store result score _mant alu run data get storage computer:alu result

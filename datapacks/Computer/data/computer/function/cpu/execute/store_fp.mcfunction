@@ -2,6 +2,7 @@
 # Output: None
 # Update: RAM, computer:cpu pc
 # private void execStoreFP(final int instr) {
+#!jvmtimer end _disp_opcode_switch
 
 # int addr = SafeAdderInt.add(x[rs1(instr)], immS(instr));
 function computer:cpu/rs1

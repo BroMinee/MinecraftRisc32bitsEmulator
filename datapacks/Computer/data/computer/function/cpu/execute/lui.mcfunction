@@ -5,6 +5,7 @@
 #     x[rd(instr)] = Instructions.lui(immU(instr));
 #     pc = SafeAdderInt.add(pc, 4);
 # }
+#!jvmtimer end _disp_opcode_switch
 
 # int rd = rd(instr);
 function computer:cpu/rd

@@ -2,6 +2,8 @@
 # Output: None
 # Update: computer:cpu f<rd>, computer:cpu pc
 # private void execFNMSUB(final int instr) {
+#!jvmtimer end _disp_opcode_switch
+#!jvmtimer start _disp_decode_fnmsub
 
 # f[rd(instr)] = Instructions.fnmsub_s(f[rs1(instr)], f[rs2(instr)], f[rs3(instr)]);
 function computer:cpu/rd
@@ -16,6 +18,7 @@ function computer:cpu/rs3
 data modify storage computer:cpu rs3 set from storage computer:alu result
 function computer:cycle/load_frs3 with storage computer:cpu
 
+#!jvmtimer end _disp_decode_fnmsub
 function computer:instruction/fnmsub
 data modify storage computer:cpu rd_val set from storage computer:alu result
 function computer:cycle/write_frd with storage computer:cpu

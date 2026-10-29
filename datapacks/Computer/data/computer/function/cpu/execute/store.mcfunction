@@ -2,6 +2,8 @@
 # Output: None
 # Update: RAM, computer:cpu pc
 # private void execStore(final int instr) {
+#!jvmtimer end _disp_opcode_switch
+#!jvmtimer start _disp_decode_store
 
 # int addr = SafeAdderInt.add(x[rs1(instr)], immS(instr));
 function computer:cpu/rs1
@@ -21,6 +23,8 @@ function computer:cycle/load_rs2 with storage computer:cpu
 # switch (funct3(instr)) { ... }
 function computer:cpu/funct3
 data modify storage computer:cpu funct3 set from storage computer:alu result
+#!jvmtimer end _disp_decode_store
+#!jvmtimer start _disp_funct3_switch
 function computer:cpu/execute/store_dispatch
 
 # pc = SafeAdderInt.add(pc, 4);

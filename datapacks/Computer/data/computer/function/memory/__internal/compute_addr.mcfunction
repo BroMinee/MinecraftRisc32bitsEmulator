@@ -1,3 +1,4 @@
+#!jvmtimer start _mem_compute_addr
 # Compute memory address components from _mem_addr
 # Input:  computer:cpu _mem_addr
 # Output: computer:cpu _mem_word_addr, _mem_byte_off, _mem_shift, _mem_word
@@ -21,4 +22,5 @@ function computer:alu/int/shl
 data modify storage computer:cpu _mem_shift set from storage computer:alu result
 
 # Read the word from RAM
+#!jvmtimer end _mem_compute_addr
 function computer:memory/__internal/read_word with storage computer:cpu

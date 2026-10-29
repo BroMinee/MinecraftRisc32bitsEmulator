@@ -2,6 +2,7 @@
 # Output: None
 # Update: computer:cpu x<rd>, computer:cpu pc
 # private void execJAL(final int instr) {
+#!jvmtimer end _disp_opcode_switch
 
 # int rd = rd(instr);
 function computer:cpu/rd

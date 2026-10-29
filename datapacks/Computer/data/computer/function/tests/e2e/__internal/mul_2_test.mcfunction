@@ -166,163 +166,227 @@ execute store result score _got tests run data get storage computer:cpu x31
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"x31: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f0
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f0
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f0: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f1
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f1
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f1: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f2
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f2
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f2: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f3
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f3
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f3: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f4
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f4
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f4: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f5
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f5
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f5: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f6
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f6
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f6: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f7
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f7
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f7: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f8
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f8
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f8: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f9
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f9
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f9: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f10
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f10
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f10: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f11
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f11
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f11: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f12
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f12
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f12: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f13
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f13
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f13: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f14
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f14
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f14: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f15
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f15
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f15: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f16
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f16
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f16: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f17
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f17
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f17: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f18
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f18
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f18: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f19
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f19
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f19: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f20
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f20
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f20: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f21
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f21
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f21: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f22
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f22
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f22: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f23
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f23
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f23: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f24
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f24
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f24: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f25
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f25
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f25: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f26
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f26
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f26: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f27
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f27
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f27: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f28
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f28
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f28: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f29
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f29
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f29: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f30
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f30
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f30: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 data modify storage computer:test expected set value 0
+data modify storage computer:alu a set from storage computer:cpu f31
+function computer:alu/float/float_to_raw_int_bits
 execute store result score _expected tests run data get storage computer:test expected
-execute store result score _got tests run data get storage computer:cpu f31
+execute store result score _got tests run data get storage computer:alu result
 execute unless score _got tests = _expected tests run scoreboard players set mul_2 tests 0
 execute unless score _got tests = _expected tests run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"f31: ","bold":true,"color":"dark_green"},{"text":"expected ","bold":true,"color":"gold"},{"score":{"name":"_expected","objective":"tests"},"bold":true,"color":"red"},{"text":" got ","bold":true,"color":"gold"},{"score":{"name":"_got","objective":"tests"},"bold":true,"color":"red"}]
 execute if score mul_2 tests matches 1 run tellraw @a [{"text":"[TEST] - ","bold":true,"color":"blue"},{"text":"Test mul_2 passed","bold":true,"color":"green"}]

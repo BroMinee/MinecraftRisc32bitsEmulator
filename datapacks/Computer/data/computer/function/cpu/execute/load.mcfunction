@@ -2,6 +2,8 @@
 # Output: None
 # Update: computer:cpu x<rd>, computer:cpu pc
 # private void execLoad(final int instr) {
+#!jvmtimer end _disp_opcode_switch
+#!jvmtimer start _disp_decode_load
 
 # int rd = rd(instr);
 function computer:cpu/rd
@@ -20,6 +22,8 @@ data modify storage computer:cpu _mem_addr set from storage computer:alu result
 # switch (funct3(instr)) { ... } -> result in computer:alu result
 function computer:cpu/funct3
 data modify storage computer:cpu funct3 set from storage computer:alu result
+#!jvmtimer end _disp_decode_load
+#!jvmtimer start _disp_funct3_switch
 function computer:cpu/execute/load_dispatch
 
 # x[rd] = result

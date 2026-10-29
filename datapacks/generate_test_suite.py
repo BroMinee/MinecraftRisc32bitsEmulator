@@ -120,6 +120,24 @@ def test_register(file, register_name, value):
     return signed, cmd
 
 
+def test_float_register(file, register_name, value):
+    """Generate mcfunction commands to check a float register value.
+
+    Float registers store native floats. The expected value is given as raw IEEE 754 int bits.
+    We convert the actual float to int bits via float_to_raw_int_bits, then compare as int.
+    """
+    signed = hex_to_signed32(value)
+    cmd = ""
+    # Convert the float register value to int bits for comparison
+    cmd += f'data modify storage computer:alu a set from storage computer:cpu {register_name}\n'
+    cmd += f'function computer:alu/float/float_to_raw_int_bits\n'
+    cmd += f'execute store result score _expected tests run data get storage computer:test expected\n'
+    cmd += f'execute store result score _got tests run data get storage computer:alu result\n'
+    cmd += f'execute unless score _got tests = _expected tests run scoreboard players set {file} tests 0\n'
+    cmd += f'execute unless score _got tests = _expected tests run tellraw @a [{{"text":"[TEST] - ","bold":true,"color":"blue"}},{{"text":"{register_name}: ","bold":true,"color":"dark_green"}},{{"text":"expected ","bold":true,"color":"gold"}},{{"score":{{"name":"_expected","objective":"tests"}},"bold":true,"color":"red"}},{{"text":" got ","bold":true,"color":"gold"}},{{"score":{{"name":"_got","objective":"tests"}},"bold":true,"color":"red"}}]\n'
+    return signed, cmd
+
+
 def test_memory(file, address_hex, value_dec_32):
     """Generate mcfunction commands to check a 32-bit memory value stored as one word."""
     address = int(address_hex, base=16)
@@ -254,10 +272,10 @@ with open(f"{OUTPUT_DIR}/testsuite.mcfunction", "w", encoding="utf-8") as f_test
                 f_out.write(f'data modify storage computer:test expected set value {signed}\n')
                 f_out.write(cmd)
 
-            # Check all 32 float registers
+            # Check all 32 float registers (stored as native floats, compared via int bits)
             for i in range(32):
                 value = meta_data.get(f"f{i}", 0)
-                signed, cmd = test_register(test_name, f"f{i}", value)
+                signed, cmd = test_float_register(test_name, f"f{i}", value)
                 f_out.write(f'data modify storage computer:test expected set value {signed}\n')
                 f_out.write(cmd)
 

@@ -3,6 +3,7 @@
 #     switch (opcode) {
 
 # case 0x37: execLUI(instr); break;
+#!jvmtimer start _disp_opcode_switch
 execute if data storage computer:cpu {opcode: 55} run return run function computer:cpu/execute/lui
 
 # case 0x17: execAUIPC(instr); break;
@@ -52,6 +53,7 @@ execute if data storage computer:cpu {opcode: 83} run return run function comput
 
 # case 0x73: execSystem(instr); break;
 execute if data storage computer:cpu {opcode: 115} run return run function computer:cpu/execute/system
+#!jvmtimer end _disp_opcode_switch
 
 # case 0x00: halted = true; return;
 execute if data storage computer:cpu {opcode: 0} run tellraw @a "Opcode 0, program is finished ?"

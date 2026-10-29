@@ -2,6 +2,7 @@
 # Output: None
 # Update: computer:cpu f<rd>, computer:cpu pc
 # private void execLoadFP(final int instr) {
+#!jvmtimer end _disp_opcode_switch
 
 # int rd = rd(instr);
 function computer:cpu/rd

@@ -2,7 +2,7 @@
 # boolean isQuiet = maskLowBits(shrU(mantissa, 22), 1) != 0;
 # return isQuiet ? pow2(9) : pow2(8);
 
-data modify storage computer:alu a set from storage computer:cpu rs1_val
+data modify storage computer:alu a set from storage computer:cpu _bits
 data modify storage computer:alu bits set value 23
 function computer:alu/int/mask_low_bits
 data modify storage computer:alu a set from storage computer:alu result
