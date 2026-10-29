@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start fcvt.w.s
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running fcvt.w.s","color":"gold"}]
 # tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"Error: Not Yet Implemented fcvt.w.s","bold":true,"color":"red"}]
 # scoreboard players set error stats 1
@@ -9,3 +11,5 @@ function computer:misc/load_rs1_15_19_f
 function computer:alu/fcvt_w_s_convert
 
 function computer:misc/update_rd_7_11
+
+#!jvmtimer end fcvt.w.s

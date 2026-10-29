@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start fclass.s
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running fclass.s","color":"gold"}]
 # tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"Error: Not Yet Implemented fclass.s","bold":true,"color":"red"}]
 # scoreboard players set error stats 1
@@ -83,3 +85,5 @@ execute if score fclass_exp_ff Computer matches 1 run execute if score fclass_ma
 execute if score fclass_exp_ff Computer matches 1 run execute if score fclass_man_zero Computer matches 0 run execute if score rs1_22 Computer matches 1 run scoreboard players set rd_9 Computer 1
 
 function computer:misc/update_rd_7_11
+
+#!jvmtimer end fclass.s

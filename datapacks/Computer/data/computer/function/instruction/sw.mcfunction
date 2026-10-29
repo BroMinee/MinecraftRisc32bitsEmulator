@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start _v1_load_sw
 
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running sw","color":"gold"}]
 
@@ -12,8 +14,9 @@ function computer:misc/load_rs1_15_19
 
 # load rs2
 function computer:misc/load_rs2_20_24
+#!jvmtimer end _v1_load_sw
 
-
+#!jvmtimer start sw
 function computer:misc/copy_rs1_to_input_l_add32
 
 scoreboard players operation input_r_0 add32 = read_7 Computer
@@ -42,3 +45,5 @@ execute as @e[limit=1,type=armor_stand,tag=write] run function computer:write/tp
 execute as @e[limit=1,type=armor_stand,tag=write] run function computer:write/write_rs2_32bit
 execute if score rs1_31 Computer matches 0 run execute if score rs1_30 Computer matches 0 run execute if score rs1_29 Computer matches 0 run execute if score rs1_28 Computer matches 0 run execute if score rs1_27 Computer matches 1 run execute if score rs1_26 Computer matches 1 run execute if score rs1_25 Computer matches 1 run execute if score rs1_24 Computer matches 1 run execute if score rs1_23 Computer matches 1 run execute if score rs1_22 Computer matches 1 run execute if score rs1_21 Computer matches 1 run execute if score rs1_20 Computer matches 1 run execute if score rs1_19 Computer matches 1 run execute if score rs1_18 Computer matches 1 run execute if score rs1_17 Computer matches 1 run execute if score rs1_16 Computer matches 1 run execute as @e[limit=1,type=armor_stand,tag=screen] run function computer:screen/write_pixel
 execute if score rs1_31 Computer matches 0 run execute if score rs1_30 Computer matches 0 run execute if score rs1_29 Computer matches 0 run execute if score rs1_28 Computer matches 0 run execute if score rs1_27 Computer matches 1 run execute if score rs1_26 Computer matches 1 run execute if score rs1_25 Computer matches 1 run execute if score rs1_24 Computer matches 1 run execute if score rs1_23 Computer matches 1 run execute if score rs1_22 Computer matches 1 run execute if score rs1_21 Computer matches 1 run execute if score rs1_20 Computer matches 1 run execute if score rs1_19 Computer matches 1 run execute if score rs1_18 Computer matches 1 run execute if score rs1_17 Computer matches 1 run execute if score rs1_16 Computer matches 0 run execute if score rs1_15 Computer matches 0 run execute if score rs1_14 Computer matches 0 run execute if score rs1_13 Computer matches 0 run execute if score rs1_12 Computer matches 0 run execute if score rs1_11 Computer matches 0 run execute if score rs1_10 Computer matches 0 run execute if score rs1_9 Computer matches 0 run execute if score rs1_8 Computer matches 0 run execute if score rs1_7 Computer matches 0 run execute if score rs1_6 Computer matches 0 run execute if score rs1_5 Computer matches 0 run execute as @e[limit=1,type=armor_stand,tag=7seg] run execute at @s run function computer:7seg/write_7seg
+
+#!jvmtimer end sw

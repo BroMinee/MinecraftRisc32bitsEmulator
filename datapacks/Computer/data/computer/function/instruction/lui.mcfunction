@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start lui
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running lui","color":"gold"}]
 
 scoreboard players add found_dispatcher Computer 1
@@ -34,5 +36,8 @@ scoreboard players operation rd_28 Computer = read_28 Computer
 scoreboard players operation rd_29 Computer = read_29 Computer
 scoreboard players operation rd_30 Computer = read_30 Computer
 scoreboard players operation rd_31 Computer = read_31 Computer
+#!jvmtimer end lui
 
+#!jvmtimer start _v1_wb_lui
 function computer:misc/update_rd_7_11
+#!jvmtimer end _v1_wb_lui

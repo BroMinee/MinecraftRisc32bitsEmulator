@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start fcvt.wu.s
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running fcvt.wu.s","color":"gold"}]
 
 scoreboard players add found_dispatcher Computer 1
@@ -8,3 +10,5 @@ function computer:misc/load_rs1_15_19_f
 function computer:alu/fcvt_wu_s_convert
 
 function computer:misc/update_rd_7_11
+
+#!jvmtimer end fcvt.wu.s

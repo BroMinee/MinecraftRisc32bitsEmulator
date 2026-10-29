@@ -1,10 +1,14 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start _v1_load_fcvt.s.w
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running fcvt.s.w","color":"gold"}]
 
 scoreboard players add found_dispatcher Computer 1
 
 # fcvt.s.w rd, rs1: convert signed int32 (in integer reg) to float (in float reg)
 function computer:misc/load_rs1_15_19
+#!jvmtimer end _v1_load_fcvt.s.w
 
+#!jvmtimer start fcvt.s.w
 # Save sign
 scoreboard players operation fcvt_sign Computer = rs1_31 Computer
 
@@ -51,3 +55,5 @@ execute if score fcvt_zero Computer matches 0 run execute if score rs1_31 Comput
 
 # Find leading 1 position and build float
 execute if score fcvt_zero Computer matches 0 run function computer:alu/fcvt_s_w_convert
+
+#!jvmtimer end fcvt.s.w

@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start fdiv.s
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running fdiv.s","color":"gold"}]
 
 # tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"Error: Not Yet Implemented fdiv.s","bold":true,"color":"red"}]
@@ -304,3 +306,5 @@ execute if score fdiv_special Computer matches 0 run scoreboard players operatio
 execute if score fdiv_special Computer matches 0 run scoreboard players operation rd_31 Computer = fdiv_sign Computer
 
 function computer:misc/update_rd_7_11_f
+
+#!jvmtimer end fdiv.s

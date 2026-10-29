@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start mulhsu
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running mulhsu","color":"gold"}]
 # tellraw @a[tag=ERROR] [{"text":""},{"text":""},{"text":"Error: Not Yet Implemented mulhsu","bold":true,"color":"red"}]
 # scoreboard players set error stats 1
@@ -162,3 +164,5 @@ execute if score mulhsu_sign Computer matches 1 run scoreboard players operation
 execute if score mulhsu_sign Computer matches 1 run function computer:alu/subtract_a2_from_rd
 
 function computer:misc/update_rd_7_11
+
+#!jvmtimer end mulhsu

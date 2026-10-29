@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start _v1_load_addi
 # input read_[20-31] Computer AND rs1_0-11
 # output rd_[0-11] Computer
 
@@ -10,7 +12,9 @@ scoreboard players add found_dispatcher Computer 1
 
 function computer:misc/load_rs1_15_19
 function computer:misc/load_rd_7_11
+#!jvmtimer end _v1_load_addi
 
+#!jvmtimer start addi
 function computer:misc/copy_rs1_to_rd
 
 function computer:misc/copy_input_rd_to_input_l_add32
@@ -26,5 +30,8 @@ function computer:alu/add_32bits
 
 
 function computer:misc/copy_input_l_to_rd_add32
+#!jvmtimer end addi
 
+#!jvmtimer start _v1_wb_addi
 function computer:misc/update_rd_7_11
+#!jvmtimer end _v1_wb_addi

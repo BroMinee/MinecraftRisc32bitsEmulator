@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start fcvt.s.wu
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running fcvt.s.wu","color":"gold"}]
 
 scoreboard players add found_dispatcher Computer 1
@@ -49,3 +51,5 @@ execute if score fcvt_zero Computer matches 1 run function computer:misc/update_
 # Unsigned: leading bit can be 31, need to also check bit 31
 # Reuse the same convert function (fcvt_sign is already 0)
 execute if score fcvt_zero Computer matches 0 run function computer:alu/fcvt_s_w_convert
+
+#!jvmtimer end fcvt.s.wu

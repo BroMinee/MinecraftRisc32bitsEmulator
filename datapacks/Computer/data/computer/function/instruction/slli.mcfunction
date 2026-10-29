@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start slli
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running slli","color":"gold"}]
 
 scoreboard players add found_dispatcher Computer 1
@@ -31,3 +33,5 @@ execute if score count Computer matches 32.. run tellraw @a[tag=ERROR] [{"text":
 execute if score count Computer matches 32.. run scoreboard players set error stats 1
 
 function computer:misc/update_rd_7_11
+
+#!jvmtimer end slli

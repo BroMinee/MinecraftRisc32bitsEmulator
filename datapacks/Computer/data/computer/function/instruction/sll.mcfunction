@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start sll
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running sll","color":"gold"}]
 
 scoreboard players add found_dispatcher Computer 1
@@ -25,3 +27,5 @@ execute if score keep_going Computer matches 1 run function computer:alu/shift_r
 execute if score count Computer matches 32.. run tellraw @a[tag=ERROR] [{"text":"Error: sll, recursive function as been called more than 31 times","color": "red","bold": true}]
 execute if score count Computer matches 32.. run scoreboard players set error stats 1
 function computer:misc/update_rd_7_11
+
+#!jvmtimer end sll

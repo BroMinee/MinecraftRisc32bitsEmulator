@@ -1,10 +1,14 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start _v1_load_flt.s
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running flt.s","color":"gold"}]
 
 scoreboard players add found_dispatcher Computer 1
 
 function computer:misc/load_rs1_15_19_f
 function computer:misc/load_rs2_20_24_f
+#!jvmtimer end _v1_load_flt.s
 
+#!jvmtimer start flt.s
 # flt.s rd, rs1, rs2 - set integer rd = (rs1 < rs2) ? 1 : 0
 # Special case: +0.0 and -0.0 are equal, so neither is less than the other
 
@@ -20,4 +24,8 @@ execute if score fmin_both_zero Computer matches 0 run function computer:alu/com
 function computer:misc/reset_rd
 scoreboard players operation rd_0 Computer = compare Computer
 
+#!jvmtimer end flt.s
+
+#!jvmtimer start _v1_wb_flt.s
 function computer:misc/update_rd_7_11
+#!jvmtimer end _v1_wb_flt.s

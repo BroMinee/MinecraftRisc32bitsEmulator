@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start fnmadd.s
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running fnmadd.s","color":"gold"}]
 
 scoreboard players add found_dispatcher Computer 1
@@ -24,3 +26,5 @@ execute if score fcvt_temp Computer matches 1 run scoreboard players set rs2_31 
 function computer:alu/fadd_compute
 
 function computer:misc/update_rd_7_11_f
+
+#!jvmtimer end fnmadd.s

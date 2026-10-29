@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start sub
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running sub","color":"gold"}]
 
 scoreboard players add found_dispatcher Computer 1
@@ -14,3 +16,5 @@ function computer:misc/copy_rs1_to_input_l_add32
 function computer:alu/add_32bits
 function computer:misc/copy_input_l_to_rd_add32
 function computer:misc/update_rd_7_11
+
+#!jvmtimer end sub

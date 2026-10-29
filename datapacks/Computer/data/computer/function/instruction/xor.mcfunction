@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start xor
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running xor","color":"gold"}]
 
 scoreboard players add found_dispatcher Computer 1
@@ -12,3 +14,5 @@ function computer:alu/xor_32bits
 
 function computer:misc/copy_input_l_to_rd_xor
 function computer:misc/update_rd_7_11
+
+#!jvmtimer end xor

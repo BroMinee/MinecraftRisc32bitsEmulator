@@ -1,10 +1,14 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start _v1_load_fsub.s
 tellraw @a[tag=DEBUG] [{"text":""},{"text":""},{"text":"[DEBUG] - ","bold":true,"color":"blue"},{"text":"Running fsub.s","color":"gold"}]
 
 scoreboard players add found_dispatcher Computer 1
 
 function computer:misc/load_rs1_15_19_f
 function computer:misc/load_rs2_20_24_f
+#!jvmtimer end _v1_load_fsub.s
 
+#!jvmtimer start fsub.s
 # fsub.s = fadd.s with rs2 sign flipped
 # flip rs2 sign bit
 scoreboard players operation fsub_tmp Computer = rs2_31 Computer
@@ -137,5 +141,8 @@ execute if score fadd_is_zero Computer matches 0 run execute if score rs1_31 Com
 execute if score fadd_is_zero Computer matches 0 run execute if score rs1_31 Computer matches 1 run execute if score rs2_31 Computer matches 1 run scoreboard players set rd_31 Computer 1
 
 execute if score fadd_0_0 Computer matches 1 run function computer:misc/reset_rd
+#!jvmtimer end fsub.s
 
+#!jvmtimer start _v1_wb_fsub.s
 function computer:misc/update_rd_7_11_f
+#!jvmtimer end _v1_wb_fsub.s
