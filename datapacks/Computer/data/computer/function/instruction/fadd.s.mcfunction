@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start fadd.s
 # Input:  computer:cpu rs1_val, computer:cpu rs2_val (IEEE 754 int bits)
 # Output: computer:alu result (IEEE 754 int bits)
 # static int fadd_s(int frs1, int frs2) { return floatToRawIntBits(floatAdd(intBitsToFloat(frs1), intBitsToFloat(frs2))); }
@@ -21,3 +23,5 @@ function computer:alu/float/float_add
 # return floatToRawIntBits(res)
 data modify storage computer:alu a set from storage computer:alu result
 function computer:alu/float/float_to_raw_int_bits
+
+#!jvmtimer end fadd.s

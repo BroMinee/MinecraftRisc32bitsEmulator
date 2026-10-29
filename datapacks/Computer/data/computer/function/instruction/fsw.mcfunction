@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start fsw
 # Input:  computer:cpu _mem_addr, computer:cpu rs2_val
 # Output: None
 # Update: RAM at _mem_addr
@@ -7,3 +9,5 @@ function computer:debug/print_log {"message": {"text": "Running fsw", "color":"g
 
 data modify storage computer:alu a set from storage computer:cpu rs2_val
 function computer:memory/write_word
+
+#!jvmtimer end fsw

@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start sltiu
 # Input:  computer:cpu rs1_val, computer:cpu imm
 # Output: computer:alu result
 # static int sltiu(int rs1, int imm) { return (SafeAdderInt.compareUnsigned(rs1, imm) < 0) ? 1 : 0; }
@@ -11,3 +13,5 @@ function computer:alu/int/compare_unsigned
 execute store result score _cmp alu run data get storage computer:alu result
 data modify storage computer:alu result set value 0
 execute if score _cmp alu matches ..-1 run data modify storage computer:alu result set value 1
+
+#!jvmtimer end sltiu

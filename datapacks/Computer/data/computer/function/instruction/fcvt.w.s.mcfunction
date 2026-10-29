@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start fcvt.w.s
 # Input:  computer:cpu rs1_val (IEEE 754 int bits)
 # Output: computer:alu result (signed int)
 # static int fcvt_w_s(int frs1) {
@@ -43,3 +45,5 @@ execute if predicate computer:alu/float_le run return run data modify storage co
 # return floatRoundToInt(a)
 data modify storage computer:alu a set from storage computer:cpu _fa
 function computer:alu/float/float_round_to_int
+
+#!jvmtimer end fcvt.w.s

@@ -1,3 +1,4 @@
+#!jvmtimer start _dispatcher
 # protected void executeOpcode(int instr, int opcode) {
 #     switch (opcode) {
 

@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start fsub.s
 # Input:  computer:cpu rs1_val, computer:cpu rs2_val (IEEE 754 int bits)
 # Output: computer:alu result (IEEE 754 int bits)
 # static int fsub_s(int frs1, int frs2) { return floatToRawIntBits(floatSub(intBitsToFloat(frs1), intBitsToFloat(frs2))); }
@@ -17,3 +19,5 @@ function computer:alu/float/float_sub
 
 data modify storage computer:alu a set from storage computer:alu result
 function computer:alu/float/float_to_raw_int_bits
+
+#!jvmtimer end fsub.s

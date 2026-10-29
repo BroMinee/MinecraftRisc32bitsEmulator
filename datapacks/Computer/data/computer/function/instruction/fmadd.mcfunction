@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start fmadd
 # Input:  computer:cpu rs1_val, computer:cpu rs2_val, computer:cpu rs3_val (IEEE 754 int bits)
 # Output: computer:alu result (IEEE 754 int bits)
 # static int fmadd_s(int frs1, int frs2, int frs3) { return floatToRawIntBits(floatAdd(floatMul(intBitsToFloat(frs1), intBitsToFloat(frs2)), intBitsToFloat(frs3))); }
@@ -32,3 +34,5 @@ function computer:alu/float/float_add
 # return floatToRawIntBits(res)
 data modify storage computer:alu a set from storage computer:alu result
 function computer:alu/float/float_to_raw_int_bits
+
+#!jvmtimer end fmadd

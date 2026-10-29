@@ -1,3 +1,4 @@
+#!jvmtimer start do_cycle
 # public void step() {
 # if (halted || error) return;
 execute if score error stats matches 1.. run return 0
@@ -16,3 +17,4 @@ data modify storage computer:cpu opcode set from storage computer:alu result
 
 # Decode + Execute
 function computer:cycle/execute_opcode
+#!jvmtimer end do_cycle

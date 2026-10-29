@@ -1,3 +1,5 @@
+#!jvmtimer end _dispatcher
+#!jvmtimer start fmax.s
 # Input:  computer:cpu rs1_val, computer:cpu rs2_val (IEEE 754 int bits)
 # Output: computer:alu result (IEEE 754 int bits)
 # static int fmax_s(int frs1, int frs2) { ... return floatToRawIntBits(a > b ? a : b); }
@@ -23,3 +25,5 @@ execute unless predicate computer:alu/float_le run return run function computer:
 # a <= b, return b
 data modify storage computer:alu a set from storage computer:cpu _fb
 function computer:alu/float/float_to_raw_int_bits
+
+#!jvmtimer end fmax.s
