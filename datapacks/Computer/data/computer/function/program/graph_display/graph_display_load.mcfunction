@@ -1,10821 +1,2690 @@
-setblock -509 0 -512 minecraft:andesite
-setblock -510 0 -512 minecraft:oak_planks
-setblock -511 0 -512 minecraft:oak_planks
-setblock -512 0 -512 minecraft:obsidian
-setblock -505 0 -512 minecraft:jungle_log
-setblock -506 0 -512 minecraft:stripped_acacia_log
-setblock -507 0 -512 minecraft:stripped_warped_stem
-setblock -508 0 -512 minecraft:stripped_birch_log
-setblock -501 0 -512 minecraft:jungle_log
-setblock -502 0 -512 minecraft:stripped_birch_log
-setblock -503 0 -512 minecraft:nether_bricks
-setblock -504 0 -512 minecraft:stripped_birch_log
-setblock -497 0 -512 minecraft:jungle_log
-setblock -498 0 -512 minecraft:stripped_mangrove_log
-setblock -499 0 -512 minecraft:diorite
-setblock -500 0 -512 minecraft:stripped_birch_log
-setblock -493 0 -512 minecraft:jungle_log
-setblock -494 0 -512 minecraft:stripped_oak_log
-setblock -495 0 -512 minecraft:spruce_log
-setblock -496 0 -512 minecraft:stripped_jungle_log
-setblock -489 0 -512 minecraft:jungle_log
-setblock -490 0 -512 minecraft:mangrove_log
-setblock -491 0 -512 minecraft:orange_wool
-setblock -492 0 -512 minecraft:stripped_jungle_log
-setblock -485 0 -512 minecraft:jungle_log
-setblock -486 0 -512 minecraft:acacia_log
-setblock -487 0 -512 minecraft:orange_concrete
-setblock -488 0 -512 minecraft:stripped_jungle_log
-setblock -481 0 -512 minecraft:jungle_log
-setblock -482 0 -512 minecraft:birch_log
-setblock -483 0 -512 minecraft:orange_glazed_terracotta
-setblock -484 0 -512 minecraft:stripped_jungle_log
-setblock -477 0 -512 minecraft:jungle_log
-setblock -478 0 -512 minecraft:oak_log
-setblock -479 0 -512 minecraft:orange_stained_glass
-setblock -480 0 -512 minecraft:stripped_jungle_log
-setblock -473 0 -512 minecraft:jungle_log
-setblock -474 0 -512 minecraft:stripped_mangrove_log
-setblock -475 0 -512 minecraft:orange_terracotta
-setblock -476 0 -512 minecraft:stripped_spruce_log
-setblock -469 0 -512 minecraft:jungle_log
-setblock -470 0 -512 minecraft:stripped_acacia_log
-setblock -471 0 -512 minecraft:stripped_warped_stem
-setblock -472 0 -512 minecraft:stripped_spruce_log
-setblock -465 0 -512 minecraft:jungle_log
-setblock -466 0 -512 minecraft:stripped_birch_log
-setblock -467 0 -512 minecraft:nether_bricks
-setblock -468 0 -512 minecraft:stripped_spruce_log
-setblock -461 0 -512 minecraft:jungle_log
-setblock -462 0 -512 minecraft:stripped_oak_log
-setblock -463 0 -512 minecraft:purpur_pillar
-setblock -464 0 -512 minecraft:stripped_spruce_log
-setblock -457 0 -512 minecraft:jungle_log
-setblock -458 0 -512 minecraft:mangrove_log
-setblock -459 0 -512 minecraft:oxidized_cut_copper
-setblock -460 0 -512 minecraft:stripped_spruce_log
-setblock -453 0 -512 minecraft:crimson_stem
-setblock -454 0 -512 minecraft:stripped_mangrove_log
-setblock -455 0 -512 minecraft:stripped_warped_stem
-setblock -456 0 -512 minecraft:mangrove_log
-setblock -449 0 -512 minecraft:crimson_stem
-setblock -450 0 -512 minecraft:stripped_acacia_log
-setblock -451 0 -512 minecraft:nether_bricks
-setblock -452 0 -512 minecraft:mangrove_log
-setblock -445 0 -512 minecraft:crimson_stem
-setblock -446 0 -512 minecraft:stripped_birch_log
-setblock -447 0 -512 minecraft:spruce_log
-setblock -448 0 -512 minecraft:crimson_stem
-setblock -441 0 -512 minecraft:crimson_stem
-setblock -442 0 -512 minecraft:stripped_oak_log
-setblock -443 0 -512 minecraft:orange_wool
-setblock -444 0 -512 minecraft:crimson_stem
-setblock -437 0 -512 minecraft:crimson_stem
-setblock -438 0 -512 minecraft:mangrove_log
-setblock -439 0 -512 minecraft:orange_concrete
-setblock -440 0 -512 minecraft:crimson_stem
-setblock -433 0 -512 minecraft:crimson_stem
-setblock -434 0 -512 minecraft:acacia_log
-setblock -435 0 -512 minecraft:orange_glazed_terracotta
-setblock -436 0 -512 minecraft:crimson_stem
-setblock -429 0 -512 minecraft:crimson_stem
-setblock -430 0 -512 minecraft:birch_log
-setblock -431 0 -512 minecraft:orange_stained_glass
-setblock -432 0 -512 minecraft:crimson_stem
-setblock -425 0 -512 minecraft:crimson_stem
-setblock -426 0 -512 minecraft:oak_log
-setblock -427 0 -512 minecraft:orange_terracotta
-setblock -428 0 -512 minecraft:crimson_stem
-setblock -421 0 -512 minecraft:crimson_stem
-setblock -422 0 -512 minecraft:stripped_mangrove_log
-setblock -423 0 -512 minecraft:stripped_warped_stem
-setblock -424 0 -512 minecraft:dark_oak_log
-setblock -417 0 -512 minecraft:andesite
-setblock -418 0 -512 minecraft:jungle_planks
-setblock -419 0 -512 minecraft:air
-setblock -420 0 -512 minecraft:air
-setblock -413 0 -512 minecraft:deepslate_diamond_ore
-setblock -414 0 -512 minecraft:polished_granite
-setblock -415 0 -512 minecraft:tuff
-setblock -416 0 -512 minecraft:yellow_terracotta
-setblock -409 0 -512 minecraft:chiseled_nether_bricks
-setblock -410 0 -512 minecraft:jungle_planks
-setblock -411 0 -512 minecraft:air
-setblock -412 0 -512 minecraft:jungle_planks
-setblock -405 0 -512 minecraft:andesite
-setblock -406 0 -512 minecraft:mangrove_planks
-setblock -407 0 -512 minecraft:warped_stem
-setblock -408 0 -512 minecraft:spruce_planks
-setblock -401 0 -512 minecraft:chiseled_nether_bricks
-setblock -402 0 -512 minecraft:deepslate
-setblock -403 0 -512 minecraft:jungle_planks
-setblock -404 0 -512 minecraft:oak_planks
-setblock -397 0 -512 minecraft:chiseled_nether_bricks
-setblock -398 0 -512 minecraft:crying_obsidian
-setblock -399 0 -512 minecraft:acacia_planks
-setblock -400 0 -512 minecraft:oak_planks
-setblock -393 0 -512 minecraft:chiseled_nether_bricks
-setblock -394 0 -512 minecraft:dark_oak_planks
-setblock -395 0 -512 minecraft:mangrove_planks
-setblock -396 0 -512 minecraft:air
-setblock -389 0 -512 minecraft:andesite
-setblock -390 0 -512 minecraft:dark_oak_planks
-setblock -391 0 -512 minecraft:mangrove_planks
-setblock -392 0 -512 minecraft:air
-setblock -385 0 -512 minecraft:andesite
-setblock -386 0 -512 minecraft:acacia_planks
-setblock -387 0 -512 minecraft:air
-setblock -388 0 -512 minecraft:spruce_planks
-setblock -381 0 -512 minecraft:andesite
-setblock -382 0 -512 minecraft:jungle_planks
-setblock -383 0 -512 minecraft:polished_andesite
-setblock -384 0 -512 minecraft:air
-setblock -377 0 -512 minecraft:deepslate_diamond_ore
-setblock -378 0 -512 minecraft:polished_granite
-setblock -379 0 -512 minecraft:white_glazed_terracotta
-setblock -380 0 -512 minecraft:light_blue_terracotta
-setblock -373 0 -512 minecraft:deepslate_iron_ore
-setblock -374 0 -512 minecraft:polished_granite
-setblock -375 0 -512 minecraft:red_nether_bricks
-setblock -376 0 -512 minecraft:shroomlight
-setblock -369 0 -512 minecraft:andesite
-setblock -370 0 -512 minecraft:jungle_planks
-setblock -371 0 -512 minecraft:air
-setblock -372 0 -512 minecraft:air
-setblock -365 0 -512 minecraft:chiseled_nether_bricks
-setblock -366 0 -512 minecraft:jungle_planks
-setblock -367 0 -512 minecraft:air
-setblock -368 0 -512 minecraft:jungle_planks
-setblock -361 0 -512 minecraft:andesite
-setblock -362 0 -512 minecraft:mangrove_planks
-setblock -363 0 -512 minecraft:warped_stem
-setblock -364 0 -512 minecraft:spruce_planks
-setblock -357 0 -512 minecraft:andesite
-setblock -358 0 -512 minecraft:deepslate
-setblock -359 0 -512 minecraft:jungle_planks
-setblock -360 0 -512 minecraft:oak_planks
-setblock -353 0 -512 minecraft:andesite
-setblock -354 0 -512 minecraft:lime_glazed_terracotta
-setblock -355 0 -512 minecraft:acacia_planks
-setblock -356 0 -512 minecraft:oak_planks
-setblock -349 0 -512 minecraft:chiseled_nether_bricks
-setblock -350 0 -512 minecraft:dark_oak_planks
-setblock -351 0 -512 minecraft:mangrove_planks
-setblock -352 0 -512 minecraft:air
-setblock -345 0 -512 minecraft:andesite
-setblock -346 0 -512 minecraft:dark_oak_planks
-setblock -347 0 -512 minecraft:mangrove_planks
-setblock -348 0 -512 minecraft:air
-setblock -341 0 -512 minecraft:chiseled_nether_bricks
-setblock -342 0 -512 minecraft:acacia_planks
-setblock -343 0 -512 minecraft:air
-setblock -344 0 -512 minecraft:spruce_planks
-setblock -337 0 -512 minecraft:andesite
-setblock -338 0 -512 minecraft:jungle_planks
-setblock -339 0 -512 minecraft:polished_andesite
-setblock -340 0 -512 minecraft:air
-setblock -333 0 -512 minecraft:deepslate_diamond_ore
-setblock -334 0 -512 minecraft:polished_granite
-setblock -335 0 -512 minecraft:netherrack
-setblock -336 0 -512 minecraft:white_terracotta
-setblock -329 0 -512 minecraft:deepslate_iron_ore
-setblock -330 0 -512 minecraft:polished_granite
-setblock -331 0 -512 minecraft:red_nether_bricks
-setblock -332 0 -512 minecraft:shroomlight
-setblock -325 0 -512 minecraft:gray_wool
-setblock -326 0 -512 minecraft:dark_oak_log
-setblock -327 0 -512 minecraft:air
-setblock -328 0 -512 minecraft:air
-setblock -321 0 -512 minecraft:andesite
-setblock -322 0 -512 minecraft:acacia_planks
-setblock -323 0 -512 minecraft:lime_concrete
-setblock -324 0 -512 minecraft:purple_concrete
-setblock -317 0 -512 minecraft:deepslate_diamond_ore
-setblock -318 0 -512 minecraft:polished_granite
-setblock -319 0 -512 minecraft:netherrack
-setblock -320 0 -512 minecraft:spruce_planks
-setblock -313 0 -512 minecraft:andesite
-setblock -314 0 -512 minecraft:acacia_planks
-setblock -315 0 -512 minecraft:orange_concrete
-setblock -316 0 -512 minecraft:acacia_planks
-setblock -309 0 -512 minecraft:chiseled_nether_bricks
-setblock -310 0 -512 minecraft:acacia_planks
-setblock -311 0 -512 minecraft:grass_block
-setblock -312 0 -512 minecraft:granite
-setblock -305 0 -512 minecraft:deepslate_diamond_ore
-setblock -306 0 -512 minecraft:polished_granite
-setblock -307 0 -512 minecraft:polished_granite
-setblock -308 0 -512 minecraft:light_blue_stained_glass
-setblock -301 0 -512 minecraft:mud_bricks
-setblock -302 0 -512 minecraft:magenta_concrete
-setblock -303 0 -512 minecraft:acacia_planks
-setblock -304 0 -512 minecraft:air
-setblock -297 0 -512 minecraft:waxed_weathered_cut_copper
-setblock -298 0 -512 minecraft:green_wool
-setblock -299 0 -512 minecraft:air
-setblock -300 0 -512 minecraft:air
-setblock -293 0 -512 minecraft:gray_wool
-setblock -294 0 -512 minecraft:green_wool
-setblock -295 0 -512 minecraft:air
-setblock -296 0 -512 minecraft:air
-setblock -289 0 -512 minecraft:gray_wool
-setblock -290 0 -512 minecraft:pink_wool
-setblock -291 0 -512 minecraft:air
-setblock -292 0 -512 minecraft:air
-setblock -285 0 -512 minecraft:iron_block
-setblock -286 0 -512 minecraft:warped_planks
-setblock -287 0 -512 minecraft:stone_bricks
-setblock -288 0 -512 minecraft:mycelium
-setblock -281 0 -512 minecraft:jungle_log
-setblock -282 0 -512 minecraft:spruce_planks
-setblock -283 0 -512 minecraft:stone_bricks
-setblock -284 0 -512 minecraft:mycelium
-setblock -277 0 -512 minecraft:andesite
-setblock -278 0 -512 minecraft:stone
-setblock -279 0 -512 minecraft:acacia_planks
-setblock -280 0 -512 minecraft:air
-setblock -273 0 -512 minecraft:andesite
-setblock -274 0 -512 minecraft:dark_oak_planks
-setblock -275 0 -512 minecraft:pink_concrete
-setblock -276 0 -512 minecraft:gold_block
-setblock -269 0 -512 minecraft:light_blue_stained_glass
-setblock -270 0 -512 minecraft:warped_stem
-setblock -271 0 -512 minecraft:spruce_planks
-setblock -272 0 -512 minecraft:polished_granite
-setblock -265 0 -512 minecraft:waxed_weathered_cut_copper
-setblock -266 0 -512 minecraft:crimson_stem
-setblock -267 0 -512 minecraft:air
-setblock -268 0 -512 minecraft:air
-setblock -261 0 -512 minecraft:mangrove_planks
-setblock -262 0 -512 minecraft:emerald_block
-setblock -263 0 -512 minecraft:gray_concrete
-setblock -264 0 -512 minecraft:gray_glazed_terracotta
-setblock -257 0 -512 minecraft:waxed_weathered_cut_copper
-setblock -258 0 -512 minecraft:crimson_stem
-setblock -259 0 -512 minecraft:air
-setblock -260 0 -512 minecraft:air
-setblock -253 0 -512 minecraft:chiseled_nether_bricks
-setblock -254 0 -512 minecraft:pumpkin
-setblock -255 0 -512 minecraft:clay
-setblock -256 0 -512 minecraft:blue_concrete
-setblock -249 0 -512 minecraft:gray_wool
-setblock -250 0 -512 minecraft:pink_wool
-setblock -251 0 -512 minecraft:air
-setblock -252 0 -512 minecraft:air
-setblock -245 0 -512 minecraft:jungle_log
-setblock -246 0 -512 minecraft:mangrove_log
-setblock -247 0 -512 minecraft:nether_quartz_ore
-setblock -248 0 -512 minecraft:air
-setblock -241 0 -512 minecraft:andesite
-setblock -242 0 -512 minecraft:mossy_cobblestone
-setblock -243 0 -512 minecraft:polished_granite
-setblock -244 0 -512 minecraft:air
-setblock -237 0 -512 minecraft:andesite
-setblock -238 0 -512 minecraft:dark_oak_planks
-setblock -239 0 -512 minecraft:pink_concrete
-setblock -240 0 -512 minecraft:gold_block
-setblock -233 0 -512 minecraft:chiseled_nether_bricks
-setblock -234 0 -512 minecraft:mangrove_planks
-setblock -235 0 -512 minecraft:acacia_planks
-setblock -236 0 -512 minecraft:air
-setblock -229 0 -512 minecraft:andesite
-setblock -230 0 -512 minecraft:granite
-setblock -231 0 -512 minecraft:air
-setblock -232 0 -512 minecraft:air
-setblock -225 0 -512 minecraft:andesite
-setblock -226 0 -512 minecraft:crimson_planks
-setblock -227 0 -512 minecraft:air
-setblock -228 0 -512 minecraft:air
-setblock -221 0 -512 minecraft:chiseled_nether_bricks
-setblock -222 0 -512 minecraft:acacia_planks
-setblock -223 0 -512 minecraft:air
-setblock -224 0 -512 minecraft:air
-setblock -217 0 -512 minecraft:chiseled_nether_bricks
-setblock -218 0 -512 minecraft:mossy_stone_bricks
-setblock -219 0 -512 minecraft:air
-setblock -220 0 -512 minecraft:spruce_planks
-setblock -213 0 -512 minecraft:andesite
-setblock -214 0 -512 minecraft:mossy_stone_bricks
-setblock -215 0 -512 minecraft:warped_stem
-setblock -216 0 -512 minecraft:mangrove_planks
-setblock -209 0 -512 minecraft:andesite
-setblock -210 0 -512 minecraft:birch_planks
-setblock -211 0 -512 minecraft:air
-setblock -212 0 -512 minecraft:mangrove_planks
-setblock -205 0 -512 minecraft:chiseled_nether_bricks
-setblock -206 0 -512 minecraft:birch_planks
-setblock -207 0 -512 minecraft:netherrack
-setblock -208 0 -512 minecraft:dark_oak_planks
-setblock -201 0 -512 minecraft:chiseled_nether_bricks
-setblock -202 0 -512 minecraft:granite
-setblock -203 0 -512 minecraft:air
-setblock -204 0 -512 minecraft:air
-setblock -197 0 -512 minecraft:chiseled_nether_bricks
-setblock -198 0 -512 minecraft:dark_oak_planks
-setblock -199 0 -512 minecraft:polished_granite
-setblock -200 0 -512 minecraft:air
-setblock -193 0 -512 minecraft:light_blue_stained_glass
-setblock -194 0 -512 minecraft:prismarine_bricks
-setblock -195 0 -512 minecraft:terracotta
-setblock -196 0 -512 minecraft:spruce_log
-setblock -189 0 -512 minecraft:light_blue_stained_glass
-setblock -190 0 -512 minecraft:hay_block
-setblock -191 0 -512 minecraft:mycelium
-setblock -192 0 -512 minecraft:deepslate_tiles
-setblock -185 0 -512 minecraft:deepslate_iron_ore
-setblock -186 0 -512 minecraft:cracked_nether_bricks
-setblock -187 0 -512 minecraft:magenta_stained_glass
-setblock -188 0 -512 minecraft:pink_terracotta
-setblock -181 0 -512 minecraft:birch_planks
-setblock -182 0 -512 minecraft:clay
-setblock -183 0 -512 minecraft:chiseled_deepslate
-setblock -184 0 -512 minecraft:air
-setblock -177 0 -512 minecraft:light_blue_stained_glass
-setblock -178 0 -512 minecraft:cracked_deepslate_tiles
-setblock -179 0 -512 minecraft:gray_terracotta
-setblock -180 0 -512 minecraft:cracked_deepslate_bricks
-setblock -173 0 -512 minecraft:andesite
-setblock -174 0 -512 minecraft:polished_basalt
-setblock -175 0 -512 minecraft:dark_oak_log
-setblock -176 0 -512 minecraft:air
-setblock -169 0 -512 minecraft:light_blue_wool
-setblock -170 0 -512 minecraft:mangrove_planks
-setblock -171 0 -512 minecraft:gold_ore
-setblock -172 0 -512 minecraft:air
-setblock -165 0 -512 minecraft:crimson_stem
-setblock -166 0 -512 minecraft:oak_log
-setblock -167 0 -512 minecraft:clay
-setblock -168 0 -512 minecraft:jungle_planks
-setblock -161 0 -512 minecraft:light_blue_wool
-setblock -162 0 -512 minecraft:mangrove_planks
-setblock -163 0 -512 minecraft:waxed_weathered_copper
-setblock -164 0 -512 minecraft:air
-setblock -157 0 -512 minecraft:jungle_log
-setblock -158 0 -512 minecraft:air
-setblock -159 0 -512 minecraft:gray_stained_glass
-setblock -160 0 -512 minecraft:oak_planks
-setblock -153 0 -512 minecraft:mud_bricks
-setblock -154 0 -512 minecraft:mycelium
-setblock -155 0 -512 minecraft:crimson_stem
-setblock -156 0 -512 minecraft:air
-setblock -149 0 -512 minecraft:andesite
-setblock -150 0 -512 minecraft:pumpkin
-setblock -151 0 -512 minecraft:deepslate
-setblock -152 0 -512 minecraft:air
-setblock -145 0 -512 minecraft:chiseled_nether_bricks
-setblock -146 0 -512 minecraft:lime_terracotta
-setblock -147 0 -512 minecraft:amethyst_block
-setblock -148 0 -512 minecraft:granite
-setblock -141 0 -512 minecraft:andesite
-setblock -142 0 -512 minecraft:crimson_planks
-setblock -143 0 -512 minecraft:polished_granite
-setblock -144 0 -512 minecraft:air
-setblock -137 0 -512 minecraft:chiseled_nether_bricks
-setblock -138 0 -512 minecraft:pumpkin
-setblock -139 0 -512 minecraft:crimson_stem
-setblock -140 0 -512 minecraft:air
-setblock -133 0 -512 minecraft:chiseled_nether_bricks
-setblock -134 0 -512 minecraft:dark_oak_planks
-setblock -135 0 -512 minecraft:air
-setblock -136 0 -512 minecraft:air
-setblock -129 0 -512 minecraft:deepslate_iron_ore
-setblock -130 0 -512 minecraft:netherrack
-setblock -131 0 -512 minecraft:spruce_planks
-setblock -132 0 -512 minecraft:nether_wart_block
-setblock -125 0 -512 minecraft:andesite
-setblock -126 0 -512 minecraft:pumpkin
-setblock -127 0 -512 minecraft:granite
-setblock -128 0 -512 minecraft:air
-setblock -121 0 -512 minecraft:deepslate_iron_ore
-setblock -122 0 -512 minecraft:cobblestone
-setblock -123 0 -512 minecraft:granite
-setblock -124 0 -512 minecraft:white_terracotta
-setblock -117 0 -512 minecraft:jungle_log
-setblock -118 0 -512 minecraft:spruce_planks
-setblock -119 0 -512 minecraft:warped_wart_block
-setblock -120 0 -512 minecraft:dirt
-setblock -113 0 -512 minecraft:light_blue_stained_glass
-setblock -114 0 -512 minecraft:dark_oak_planks
-setblock -115 0 -512 minecraft:crimson_planks
-setblock -116 0 -512 minecraft:air
-setblock -109 0 -512 minecraft:iron_block
-setblock -110 0 -512 minecraft:warped_planks
-setblock -111 0 -512 minecraft:dead_bubble_coral_block
-setblock -112 0 -512 minecraft:mycelium
-setblock -105 0 -512 minecraft:chiseled_nether_bricks
-setblock -106 0 -512 minecraft:warped_planks
-setblock -107 0 -512 minecraft:acacia_planks
-setblock -108 0 -512 minecraft:air
-setblock -101 0 -512 minecraft:light_blue_stained_glass
-setblock -102 0 -512 minecraft:smooth_stone
-setblock -103 0 -512 minecraft:mangrove_planks
-setblock -104 0 -512 minecraft:jungle_planks
-setblock -97 0 -512 minecraft:chiseled_nether_bricks
-setblock -98 0 -512 minecraft:dark_oak_planks
-setblock -99 0 -512 minecraft:amethyst_block
-setblock -100 0 -512 minecraft:redstone_lamp
-setblock -93 0 -512 minecraft:chiseled_nether_bricks
-setblock -94 0 -512 minecraft:glowstone
-setblock -95 0 -512 minecraft:glowstone
-setblock -96 0 -512 minecraft:granite
-setblock -89 0 -512 minecraft:chiseled_nether_bricks
-setblock -90 0 -512 minecraft:mangrove_planks
-setblock -91 0 -512 minecraft:dark_oak_planks
-setblock -92 0 -512 minecraft:polished_andesite
-setblock -85 0 -512 minecraft:waxed_cut_copper
-setblock -86 0 -512 minecraft:mushroom_stem
-setblock -87 0 -512 minecraft:glowstone
-setblock -88 0 -512 minecraft:air
-setblock -81 0 -512 minecraft:gray_wool
-setblock -82 0 -512 minecraft:light_gray_wool
-setblock -83 0 -512 minecraft:air
-setblock -84 0 -512 minecraft:air
-setblock -77 0 -512 minecraft:waxed_cut_copper
-setblock -78 0 -512 minecraft:hay_block
-setblock -79 0 -512 minecraft:terracotta
-setblock -80 0 -512 minecraft:air
-setblock -73 0 -512 minecraft:andesite
-setblock -74 0 -512 minecraft:crimson_planks
-setblock -75 0 -512 minecraft:light_gray_wool
-setblock -76 0 -512 minecraft:waxed_oxidized_copper
-setblock -69 0 -512 minecraft:waxed_cut_copper
-setblock -70 0 -512 minecraft:pumpkin
-setblock -71 0 -512 minecraft:warped_nylium
-setblock -72 0 -512 minecraft:white_concrete
-setblock -65 0 -512 minecraft:birch_planks
-setblock -66 0 -512 minecraft:rooted_dirt
-setblock -67 0 -512 minecraft:dark_oak_planks
-setblock -68 0 -512 minecraft:air
-setblock -61 0 -512 minecraft:chiseled_nether_bricks
-setblock -62 0 -512 minecraft:amethyst_block
-setblock -63 0 -512 minecraft:amethyst_block
-setblock -64 0 -512 minecraft:granite
-setblock -57 0 -512 minecraft:chiseled_nether_bricks
-setblock -58 0 -512 minecraft:basalt
-setblock -59 0 -512 minecraft:crimson_stem
-setblock -60 0 -512 minecraft:air
-setblock -53 0 -512 minecraft:waxed_cut_copper
-setblock -54 0 -512 minecraft:acacia_planks
-setblock -55 0 -512 minecraft:waxed_weathered_copper
-setblock -56 0 -512 minecraft:air
-setblock -49 0 -512 minecraft:waxed_cut_copper
-setblock -50 0 -512 minecraft:mangrove_planks
-setblock -51 0 -512 minecraft:glowstone
-setblock -52 0 -512 minecraft:air
-setblock -45 0 -512 minecraft:jungle_log
-setblock -46 0 -512 minecraft:purpur_block
-setblock -47 0 -512 minecraft:acacia_planks
-setblock -48 0 -512 minecraft:jungle_planks
-setblock -41 0 -512 minecraft:jungle_log
-setblock -42 0 -512 minecraft:warped_stem
-setblock -43 0 -512 minecraft:lapis_block
-setblock -44 0 -512 minecraft:air
-setblock -37 0 -512 minecraft:chiseled_nether_bricks
-setblock -38 0 -512 minecraft:mushroom_stem
-setblock -39 0 -512 minecraft:glowstone
-setblock -40 0 -512 minecraft:redstone_lamp
-setblock -33 0 -512 minecraft:deepslate_iron_ore
-setblock -34 0 -512 minecraft:bricks
-setblock -35 0 -512 minecraft:warped_nylium
-setblock -36 0 -512 minecraft:nether_wart_block
-setblock -29 0 -512 minecraft:light_blue_wool
-setblock -30 0 -512 minecraft:mangrove_planks
-setblock -31 0 -512 minecraft:gray_glazed_terracotta
-setblock -32 0 -512 minecraft:air
-setblock -25 0 -512 minecraft:chiseled_nether_bricks
-setblock -26 0 -512 minecraft:magenta_terracotta
-setblock -27 0 -512 minecraft:amethyst_block
-setblock -28 0 -512 minecraft:granite
-setblock -21 0 -512 minecraft:iron_block
-setblock -22 0 -512 minecraft:warped_planks
-setblock -23 0 -512 minecraft:green_glazed_terracotta
-setblock -24 0 -512 minecraft:mycelium
-setblock -17 0 -512 minecraft:jungle_log
-setblock -18 0 -512 minecraft:spruce_planks
-setblock -19 0 -512 minecraft:stone_bricks
-setblock -20 0 -512 minecraft:mycelium
-setblock -13 0 -512 minecraft:waxed_weathered_cut_copper
-setblock -14 0 -512 minecraft:crimson_stem
-setblock -15 0 -512 minecraft:air
-setblock -16 0 -512 minecraft:air
-setblock -9 0 -512 minecraft:mangrove_planks
-setblock -10 0 -512 minecraft:emerald_block
-setblock -11 0 -512 minecraft:gray_concrete
-setblock -12 0 -512 minecraft:pink_glazed_terracotta
-setblock -5 0 -512 minecraft:waxed_weathered_cut_copper
-setblock -6 0 -512 minecraft:crimson_stem
-setblock -7 0 -512 minecraft:air
-setblock -8 0 -512 minecraft:air
-setblock -1 0 -512 minecraft:pumpkin
-setblock -2 0 -512 minecraft:chiseled_stone_bricks
-setblock -3 0 -512 minecraft:pumpkin
-setblock -4 0 -512 minecraft:pink_glazed_terracotta
-setblock 3 0 -512 minecraft:waxed_weathered_cut_copper
-setblock 2 0 -512 minecraft:crimson_stem
-setblock 1 0 -512 minecraft:air
-setblock 0 0 -512 minecraft:air
-setblock 7 0 -512 minecraft:mangrove_planks
-setblock 6 0 -512 minecraft:purpur_block
-setblock 5 0 -512 minecraft:pumpkin
-setblock 4 0 -512 minecraft:gray_glazed_terracotta
-setblock 11 0 -512 minecraft:waxed_weathered_cut_copper
-setblock 10 0 -512 minecraft:crimson_stem
-setblock 9 0 -512 minecraft:air
-setblock 8 0 -512 minecraft:air
-setblock 15 0 -512 minecraft:pumpkin
-setblock 14 0 -512 minecraft:iron_block
-setblock 13 0 -512 minecraft:mangrove_planks
-setblock 12 0 -512 minecraft:light_gray_glazed_terracotta
-setblock 19 0 -512 minecraft:waxed_weathered_cut_copper
-setblock 18 0 -512 minecraft:crimson_stem
-setblock 17 0 -512 minecraft:air
-setblock 16 0 -512 minecraft:air
-setblock 23 0 -512 minecraft:pumpkin
-setblock 22 0 -512 minecraft:purpur_block
-setblock 21 0 -512 minecraft:gray_concrete
-setblock 20 0 -512 minecraft:light_gray_glazed_terracotta
-setblock 27 0 -512 minecraft:waxed_weathered_cut_copper
-setblock 26 0 -512 minecraft:crimson_stem
-setblock 25 0 -512 minecraft:air
-setblock 24 0 -512 minecraft:air
-setblock 31 0 -512 minecraft:mangrove_planks
-setblock 30 0 -512 minecraft:iron_block
-setblock 29 0 -512 minecraft:gray_concrete
-setblock 28 0 -512 minecraft:gray_glazed_terracotta
-setblock 35 0 -512 minecraft:waxed_weathered_cut_copper
-setblock 34 0 -512 minecraft:crimson_stem
-setblock 33 0 -512 minecraft:air
-setblock 32 0 -512 minecraft:air
-setblock 39 0 -512 minecraft:pumpkin
-setblock 38 0 -512 minecraft:coal_block
-setblock 37 0 -512 minecraft:clay
-setblock 36 0 -512 minecraft:light_gray_glazed_terracotta
-setblock 43 0 -512 minecraft:waxed_weathered_cut_copper
-setblock 42 0 -512 minecraft:crimson_stem
-setblock 41 0 -512 minecraft:air
-setblock 40 0 -512 minecraft:air
-setblock 47 0 -512 minecraft:mangrove_planks
-setblock 46 0 -512 minecraft:coal_block
-setblock 45 0 -512 minecraft:mangrove_planks
-setblock 44 0 -512 minecraft:cyan_glazed_terracotta
-setblock 51 0 -512 minecraft:gray_wool
-setblock 50 0 -512 minecraft:stripped_crimson_stem
-setblock 49 0 -512 minecraft:air
-setblock 48 0 -512 minecraft:air
-setblock 55 0 -512 minecraft:gray_wool
-setblock 54 0 -512 minecraft:stripped_dark_oak_log
-setblock 53 0 -512 minecraft:air
-setblock 52 0 -512 minecraft:air
-setblock 59 0 -512 minecraft:waxed_weathered_cut_copper
-setblock 58 0 -512 minecraft:stripped_acacia_log
-setblock 57 0 -512 minecraft:air
-setblock 56 0 -512 minecraft:air
-setblock 63 0 -512 minecraft:gray_wool
-setblock 62 0 -512 minecraft:stripped_acacia_log
-setblock 61 0 -512 minecraft:air
-setblock 60 0 -512 minecraft:air
-setblock 67 0 -512 minecraft:waxed_weathered_cut_copper
-setblock 66 0 -512 minecraft:crimson_stem
-setblock 65 0 -512 minecraft:air
-setblock 64 0 -512 minecraft:air
-setblock 71 0 -512 minecraft:mangrove_planks
-setblock 70 0 -512 minecraft:stripped_mangrove_log
-setblock 69 0 -512 minecraft:calcite
-setblock 68 0 -512 minecraft:pink_glazed_terracotta
-setblock 75 0 -512 minecraft:pumpkin
-setblock 74 0 -512 minecraft:stripped_oak_log
-setblock 73 0 -512 minecraft:stone_bricks
-setblock 72 0 -512 minecraft:gray_glazed_terracotta
-setblock 79 0 -512 minecraft:mangrove_planks
-setblock 78 0 -512 minecraft:diamond_block
-setblock 77 0 -512 minecraft:blue_ice
-setblock 76 0 -512 minecraft:blue_glazed_terracotta
-setblock 83 0 -512 minecraft:mangrove_planks
-setblock 82 0 -512 minecraft:spruce_log
-setblock 81 0 -512 minecraft:sea_lantern
-setblock 80 0 -512 minecraft:lime_glazed_terracotta
-setblock 87 0 -512 minecraft:pumpkin
-setblock 86 0 -512 minecraft:purpur_pillar
-setblock 85 0 -512 minecraft:gray_concrete
-setblock 84 0 -512 minecraft:cyan_glazed_terracotta
-setblock 91 0 -512 minecraft:chiseled_nether_bricks
-setblock 90 0 -512 minecraft:stone
-setblock 89 0 -512 minecraft:dark_oak_planks
-setblock 88 0 -512 minecraft:jungle_planks
-setblock 95 0 -512 minecraft:chiseled_nether_bricks
-setblock 94 0 -512 minecraft:pearlescent_froglight
-setblock 93 0 -512 minecraft:birch_log
-setblock 92 0 -512 minecraft:air
-setblock 99 0 -512 minecraft:chiseled_nether_bricks
-setblock 98 0 -512 minecraft:granite
-setblock 97 0 -512 minecraft:oak_planks
-setblock 96 0 -512 minecraft:deepslate
-setblock 103 0 -512 minecraft:waxed_cut_copper
-setblock 102 0 -512 minecraft:hay_block
-setblock 101 0 -512 minecraft:light_gray_wool
-setblock 100 0 -512 minecraft:oak_planks
-setblock 107 0 -512 minecraft:chiseled_nether_bricks
-setblock 106 0 -512 minecraft:mossy_stone_bricks
-setblock 105 0 -512 minecraft:air
-setblock 104 0 -512 minecraft:air
-setblock 111 0 -512 minecraft:waxed_weathered_cut_copper
-setblock 110 0 -512 minecraft:stripped_jungle_log
-setblock 109 0 -512 minecraft:air
-setblock 108 0 -512 minecraft:air
-setblock 115 0 -512 minecraft:gray_wool
-setblock 114 0 -512 minecraft:acacia_log
-setblock 113 0 -512 minecraft:air
-setblock 112 0 -512 minecraft:air
-setblock 119 0 -512 minecraft:chiseled_nether_bricks
-setblock 118 0 -512 minecraft:acacia_planks
-setblock 117 0 -512 minecraft:oak_planks
-setblock 116 0 -512 minecraft:deepslate
-setblock 123 0 -512 minecraft:light_blue_stained_glass
-setblock 122 0 -512 minecraft:sponge
-setblock 121 0 -512 minecraft:spruce_planks
-setblock 120 0 -512 minecraft:polished_deepslate
-setblock 127 0 -512 minecraft:magma_block
-setblock 126 0 -512 minecraft:glowstone
-setblock 125 0 -512 minecraft:mossy_stone_bricks
-setblock 124 0 -512 minecraft:tuff
-setblock 131 0 -512 minecraft:mangrove_planks
-setblock 130 0 -512 minecraft:lapis_block
-setblock 129 0 -512 minecraft:packed_ice
-setblock 128 0 -512 minecraft:gray_glazed_terracotta
-setblock 135 0 -512 minecraft:pumpkin
-setblock 134 0 -512 minecraft:crimson_stem
-setblock 133 0 -512 minecraft:yellow_concrete
-setblock 132 0 -512 minecraft:lime_glazed_terracotta
-setblock 139 0 -512 minecraft:magma_block
-setblock 138 0 -512 minecraft:glowstone
-setblock 137 0 -512 minecraft:dark_oak_planks
-setblock 136 0 -512 minecraft:polished_granite
-setblock 143 0 -512 minecraft:light_blue_glazed_terracotta
-setblock 142 0 -512 minecraft:acacia_planks
-setblock 141 0 -512 minecraft:air
-setblock 140 0 -512 minecraft:nether_gold_ore
-setblock 147 0 -512 minecraft:gray_wool
-setblock 146 0 -512 minecraft:stripped_mangrove_log
-setblock 145 0 -512 minecraft:air
-setblock 144 0 -512 minecraft:air
-setblock 151 0 -512 minecraft:gray_wool
-setblock 150 0 -512 minecraft:dark_oak_log
-setblock 149 0 -512 minecraft:air
-setblock 148 0 -512 minecraft:air
-setblock 155 0 -512 minecraft:gray_wool
-setblock 154 0 -512 minecraft:jungle_log
-setblock 153 0 -512 minecraft:air
-setblock 152 0 -512 minecraft:air
-setblock 159 0 -512 minecraft:magma_block
-setblock 158 0 -512 minecraft:glowstone
-setblock 157 0 -512 minecraft:gold_ore
-setblock 156 0 -512 minecraft:polished_deepslate
-setblock 163 0 -512 minecraft:chiseled_nether_bricks
-setblock 162 0 -512 minecraft:sponge
-setblock 161 0 -512 minecraft:spruce_planks
-setblock 160 0 -512 minecraft:air
-setblock 167 0 -512 minecraft:andesite
-setblock 166 0 -512 minecraft:mossy_stone_bricks
-setblock 165 0 -512 minecraft:mossy_stone_bricks
-setblock 164 0 -512 minecraft:yellow_glazed_terracotta
-setblock 171 0 -512 minecraft:andesite
-setblock 170 0 -512 minecraft:acacia_planks
-setblock 169 0 -512 minecraft:lime_concrete
-setblock 168 0 -512 minecraft:red_concrete
-setblock 175 0 -512 minecraft:andesite
-setblock 174 0 -512 minecraft:birch_planks
-setblock 173 0 -512 minecraft:mud_bricks
-setblock 172 0 -512 minecraft:magenta_glazed_terracotta
-setblock 179 0 -512 minecraft:chiseled_nether_bricks
-setblock 178 0 -512 minecraft:dark_oak_planks
-setblock 177 0 -512 minecraft:dark_oak_planks
-setblock 176 0 -512 minecraft:air
-setblock 183 0 -512 minecraft:andesite
-setblock 182 0 -512 minecraft:pumpkin
-setblock 181 0 -512 minecraft:stone
-setblock 180 0 -512 minecraft:air
-setblock 187 0 -512 minecraft:chiseled_nether_bricks
-setblock 186 0 -512 minecraft:mangrove_planks
-setblock 185 0 -512 minecraft:air
-setblock 184 0 -512 minecraft:air
-setblock 191 0 -512 minecraft:andesite
-setblock 190 0 -512 minecraft:crimson_planks
-setblock 189 0 -512 minecraft:air
-setblock 188 0 -512 minecraft:oak_planks
-setblock 195 0 -512 minecraft:chiseled_nether_bricks
-setblock 194 0 -512 minecraft:jungle_planks
-setblock 193 0 -512 minecraft:white_concrete
-setblock 192 0 -512 minecraft:air
-setblock 199 0 -512 minecraft:andesite
-setblock 198 0 -512 minecraft:mossy_cobblestone
-setblock 197 0 -512 minecraft:white_glazed_terracotta
-setblock 196 0 -512 minecraft:air
-setblock 203 0 -512 minecraft:chiseled_nether_bricks
-setblock 202 0 -512 minecraft:mud_bricks
-setblock 201 0 -512 minecraft:granite
-setblock 200 0 -512 minecraft:air
-setblock 207 0 -512 minecraft:andesite
-setblock 206 0 -512 minecraft:sponge
-setblock 205 0 -512 minecraft:mossy_stone_bricks
-setblock 204 0 -512 minecraft:air
-setblock 211 0 -512 minecraft:chiseled_nether_bricks
-setblock 210 0 -512 minecraft:warped_planks
-setblock 209 0 -512 minecraft:acacia_planks
-setblock 208 0 -512 minecraft:air
-setblock 215 0 -512 minecraft:magma_block
-setblock 214 0 -512 minecraft:glowstone
-setblock 213 0 -512 minecraft:glowstone
-setblock 212 0 -512 minecraft:crimson_planks
-setblock 219 0 -512 minecraft:mud_bricks
-setblock 218 0 -512 minecraft:moss_block
-setblock 217 0 -512 minecraft:dark_oak_planks
-setblock 216 0 -512 minecraft:air
-setblock 223 0 -512 minecraft:light_blue_stained_glass
-setblock 222 0 -512 minecraft:red_stained_glass
-setblock 221 0 -512 minecraft:warped_nylium
-setblock 220 0 -512 minecraft:mossy_cobblestone
-setblock 227 0 -512 minecraft:chiseled_nether_bricks
-setblock 226 0 -512 minecraft:basalt
-setblock 225 0 -512 minecraft:stripped_mangrove_log
-setblock 224 0 -512 minecraft:air
-setblock 231 0 -512 minecraft:waxed_cut_copper
-setblock 230 0 -512 minecraft:melon
-setblock 229 0 -512 minecraft:chiseled_stone_bricks
-setblock 228 0 -512 minecraft:air
-setblock 235 0 -512 minecraft:mud_bricks
-setblock 234 0 -512 minecraft:chiseled_stone_bricks
-setblock 233 0 -512 minecraft:acacia_planks
-setblock 232 0 -512 minecraft:air
-setblock 239 0 -512 minecraft:gray_stained_glass
-setblock 238 0 -512 minecraft:warped_stem
-setblock 237 0 -512 minecraft:acacia_planks
-setblock 236 0 -512 minecraft:air
-setblock 243 0 -512 minecraft:birch_planks
-setblock 242 0 -512 minecraft:rooted_dirt
-setblock 241 0 -512 minecraft:chiseled_deepslate
-setblock 240 0 -512 minecraft:air
-setblock 247 0 -512 minecraft:deepslate_iron_ore
-setblock 246 0 -512 minecraft:cobbled_deepslate
-setblock 245 0 -512 minecraft:lime_stained_glass
-setblock 244 0 -512 minecraft:yellow_glazed_terracotta
-setblock 251 0 -512 minecraft:birch_planks
-setblock 250 0 -512 minecraft:clay
-setblock 249 0 -512 minecraft:crimson_stem
-setblock 248 0 -512 minecraft:air
-setblock 255 0 -512 minecraft:andesite
-setblock 254 0 -512 minecraft:acacia_planks
-setblock 253 0 -512 minecraft:warped_stem
-setblock 252 0 -512 minecraft:spruce_planks
-setblock 259 0 -512 minecraft:deepslate_iron_ore
-setblock 258 0 -512 minecraft:cobbled_deepslate
-setblock 257 0 -512 minecraft:lapis_block
-setblock 256 0 -512 minecraft:magenta_stained_glass
-setblock 263 0 -512 minecraft:andesite
-setblock 262 0 -512 minecraft:mangrove_planks
-setblock 261 0 -512 minecraft:air
-setblock 260 0 -512 minecraft:air
-setblock 267 0 -512 minecraft:birch_planks
-setblock 266 0 -512 minecraft:dark_oak_log
-setblock 265 0 -512 minecraft:podzol
-setblock 264 0 -512 minecraft:air
-setblock 271 0 -512 minecraft:light_blue_wool
-setblock 270 0 -512 minecraft:acacia_planks
-setblock 269 0 -512 minecraft:deepslate_copper_ore
-setblock 268 0 -512 minecraft:air
-setblock 275 0 -512 minecraft:andesite
-setblock 274 0 -512 minecraft:mangrove_planks
-setblock 273 0 -512 minecraft:chiseled_deepslate
-setblock 272 0 -512 minecraft:air
-setblock 279 0 -512 minecraft:waxed_cut_copper
-setblock 278 0 -512 minecraft:hay_block
-setblock 277 0 -512 minecraft:deepslate_gold_ore
-setblock 276 0 -512 minecraft:air
-setblock 283 0 -512 minecraft:birch_planks
-setblock 282 0 -512 minecraft:lime_concrete
-setblock 281 0 -512 minecraft:acacia_planks
-setblock 280 0 -512 minecraft:air
-setblock 287 0 -512 minecraft:mud_bricks
-setblock 286 0 -512 minecraft:spawner
-setblock 285 0 -512 minecraft:budding_amethyst
-setblock 284 0 -512 minecraft:redstone_lamp
-setblock 291 0 -512 minecraft:deepslate_iron_ore
-setblock 290 0 -512 minecraft:polished_blackstone_bricks
-setblock 289 0 -512 minecraft:diamond_block
-setblock 288 0 -512 minecraft:yellow_terracotta
-setblock 295 0 -512 minecraft:andesite
-setblock 294 0 -512 minecraft:acacia_planks
-setblock 293 0 -512 minecraft:white_concrete
-setblock 292 0 -512 minecraft:air
-setblock 299 0 -512 minecraft:deepslate_iron_ore
-setblock 298 0 -512 minecraft:polished_granite
-setblock 297 0 -512 minecraft:lapis_block
-setblock 296 0 -512 minecraft:shroomlight
-setblock 303 0 -512 minecraft:light_blue_wool
-setblock 302 0 -512 minecraft:mangrove_planks
-setblock 301 0 -512 minecraft:glowstone
-setblock 300 0 -512 minecraft:oak_planks
-setblock 307 0 -512 minecraft:chiseled_nether_bricks
-setblock 306 0 -512 minecraft:dark_oak_planks
-setblock 305 0 -512 minecraft:oxidized_copper
-setblock 304 0 -512 minecraft:air
-setblock 311 0 -512 minecraft:jungle_log
-setblock 310 0 -512 minecraft:air
-setblock 309 0 -512 minecraft:crimson_nylium
-setblock 308 0 -512 minecraft:polished_andesite
-setblock 315 0 -512 minecraft:mud_bricks
-setblock 314 0 -512 minecraft:mycelium
-setblock 313 0 -512 minecraft:gray_wool
-setblock 312 0 -512 minecraft:air
-setblock 319 0 -512 minecraft:andesite
-setblock 318 0 -512 minecraft:melon
-setblock 317 0 -512 minecraft:packed_mud
-setblock 316 0 -512 minecraft:air
-setblock 323 0 -512 minecraft:andesite
-setblock 322 0 -512 minecraft:granite
-setblock 321 0 -512 minecraft:polished_granite
-setblock 320 0 -512 minecraft:air
-setblock 327 0 -512 minecraft:chiseled_nether_bricks
-setblock 326 0 -512 minecraft:black_terracotta
-setblock 325 0 -512 minecraft:raw_gold_block
-setblock 324 0 -512 minecraft:granite
-setblock 331 0 -512 minecraft:chiseled_nether_bricks
-setblock 330 0 -512 minecraft:dark_oak_planks
-setblock 329 0 -512 minecraft:granite
-setblock 328 0 -512 minecraft:air
-setblock 335 0 -512 minecraft:chiseled_nether_bricks
-setblock 334 0 -512 minecraft:pumpkin
-setblock 333 0 -512 minecraft:gray_wool
-setblock 332 0 -512 minecraft:air
-setblock 339 0 -512 minecraft:deepslate_iron_ore
-setblock 338 0 -512 minecraft:smooth_basalt
-setblock 337 0 -512 minecraft:spruce_planks
-setblock 336 0 -512 minecraft:verdant_froglight
-setblock 343 0 -512 minecraft:black_stained_glass
-setblock 342 0 -512 minecraft:nether_gold_ore
-setblock 341 0 -512 minecraft:slime_block
-setblock 340 0 -512 minecraft:iron_ore
-setblock 347 0 -512 minecraft:mud_bricks
-setblock 346 0 -512 minecraft:mycelium
-setblock 345 0 -512 minecraft:chiseled_deepslate
-setblock 344 0 -512 minecraft:air
-setblock 351 0 -512 minecraft:chiseled_nether_bricks
-setblock 350 0 -512 minecraft:pumpkin
-setblock 349 0 -512 minecraft:chiseled_deepslate
-setblock 348 0 -512 minecraft:air
-setblock 355 0 -512 minecraft:deepslate_iron_ore
-setblock 354 0 -512 minecraft:end_stone
-setblock 353 0 -512 minecraft:spruce_planks
-setblock 352 0 -512 minecraft:tinted_glass
-setblock 359 0 -512 minecraft:black_stained_glass
-setblock 358 0 -512 minecraft:nether_gold_ore
-setblock 357 0 -512 minecraft:slime_block
-setblock 356 0 -512 minecraft:deepslate_coal_ore
-setblock 363 0 -512 minecraft:chiseled_nether_bricks
-setblock 362 0 -512 minecraft:melon
-setblock 361 0 -512 minecraft:amethyst_block
-setblock 360 0 -512 minecraft:redstone_lamp
-setblock 367 0 -512 minecraft:chiseled_nether_bricks
-setblock 366 0 -512 minecraft:raw_gold_block
-setblock 365 0 -512 minecraft:raw_gold_block
-setblock 364 0 -512 minecraft:granite
-setblock 371 0 -512 minecraft:chiseled_nether_bricks
-setblock 370 0 -512 minecraft:prismarine_bricks
-setblock 369 0 -512 minecraft:red_terracotta
-setblock 368 0 -512 minecraft:redstone_lamp
-setblock 375 0 -512 minecraft:chiseled_nether_bricks
-setblock 374 0 -512 minecraft:basalt
-setblock 373 0 -512 minecraft:dark_oak_log
-setblock 372 0 -512 minecraft:air
-setblock 379 0 -512 minecraft:waxed_cut_copper
-setblock 378 0 -512 minecraft:granite
-setblock 377 0 -512 minecraft:waxed_weathered_copper
-setblock 376 0 -512 minecraft:air
-setblock 383 0 -512 minecraft:chiseled_nether_bricks
-setblock 382 0 -512 minecraft:shroomlight
-setblock 381 0 -512 minecraft:shroomlight
-setblock 380 0 -512 minecraft:granite
-setblock 387 0 -512 minecraft:pumpkin
-setblock 386 0 -512 minecraft:lapis_block
-setblock 385 0 -512 minecraft:granite
-setblock 384 0 -512 minecraft:cobbled_deepslate
-setblock 391 0 -512 minecraft:deepslate_iron_ore
-setblock 390 0 -512 minecraft:purple_stained_glass
-setblock 389 0 -512 minecraft:bone_block
-setblock 388 0 -512 minecraft:stripped_jungle_log
-setblock 395 0 -512 minecraft:chiseled_nether_bricks
-setblock 394 0 -512 minecraft:end_stone
-setblock 393 0 -512 minecraft:stripped_mangrove_log
-setblock 392 0 -512 minecraft:air
-setblock 399 0 -512 minecraft:waxed_cut_copper
-setblock 398 0 -512 minecraft:prismarine_bricks
-setblock 397 0 -512 minecraft:red_stained_glass
-setblock 396 0 -512 minecraft:air
-setblock 403 0 -512 minecraft:mud_bricks
-setblock 402 0 -512 minecraft:muddy_mangrove_roots
-setblock 401 0 -512 minecraft:mossy_stone_bricks
-setblock 400 0 -512 minecraft:air
-setblock 407 0 -512 minecraft:gray_stained_glass
-setblock 406 0 -512 minecraft:warped_stem
-setblock 405 0 -512 minecraft:mossy_stone_bricks
-setblock 404 0 -512 minecraft:air
-setblock 411 0 -512 minecraft:chiseled_nether_bricks
-setblock 410 0 -512 minecraft:melon
-setblock 409 0 -512 minecraft:amethyst_block
-setblock 408 0 -512 minecraft:redstone_lamp
-setblock 415 0 -512 minecraft:chiseled_nether_bricks
-setblock 414 0 -512 minecraft:pumpkin
-setblock 413 0 -512 minecraft:deepslate_gold_ore
-setblock 412 0 -512 minecraft:redstone_lamp
-setblock 419 0 -512 minecraft:chiseled_nether_bricks
-setblock 418 0 -512 minecraft:amethyst_block
-setblock 417 0 -512 minecraft:amethyst_block
-setblock 416 0 -512 minecraft:granite
-setblock 423 0 -512 minecraft:chiseled_nether_bricks
-setblock 422 0 -512 minecraft:polished_basalt
-setblock 421 0 -512 minecraft:crimson_stem
-setblock 420 0 -512 minecraft:air
-setblock 427 0 -512 minecraft:waxed_cut_copper
-setblock 426 0 -512 minecraft:granite
-setblock 425 0 -512 minecraft:glowstone
-setblock 424 0 -512 minecraft:air
-setblock 431 0 -512 minecraft:chiseled_nether_bricks
-setblock 430 0 -512 minecraft:raw_gold_block
-setblock 429 0 -512 minecraft:raw_gold_block
-setblock 428 0 -512 minecraft:granite
-setblock 435 0 -512 minecraft:pumpkin
-setblock 434 0 -512 minecraft:lapis_block
-setblock 433 0 -512 minecraft:granite
-setblock 432 0 -512 minecraft:cobbled_deepslate
-setblock 439 0 -512 minecraft:chiseled_nether_bricks
-setblock 438 0 -512 minecraft:prismarine_bricks
-setblock 437 0 -512 minecraft:verdant_froglight
-setblock 436 0 -512 minecraft:redstone_lamp
-setblock 443 0 -512 minecraft:chiseled_nether_bricks
-setblock 442 0 -512 minecraft:end_stone_bricks
-setblock 441 0 -512 minecraft:dark_oak_log
-setblock 440 0 -512 minecraft:air
-setblock 447 0 -512 minecraft:waxed_cut_copper
-setblock 446 0 -512 minecraft:granite
-setblock 445 0 -512 minecraft:glowstone
-setblock 444 0 -512 minecraft:oak_planks
-setblock 451 0 -512 minecraft:chiseled_nether_bricks
-setblock 450 0 -512 minecraft:shroomlight
-setblock 449 0 -512 minecraft:shroomlight
-setblock 448 0 -512 minecraft:granite
-setblock 455 0 -512 minecraft:mangrove_planks
-setblock 454 0 -512 minecraft:lapis_block
-setblock 453 0 -512 minecraft:granite
-setblock 452 0 -512 minecraft:cobbled_deepslate
-setblock 459 0 -512 minecraft:deepslate_iron_ore
-setblock 458 0 -512 minecraft:redstone_ore
-setblock 457 0 -512 minecraft:obsidian
-setblock 456 0 -512 minecraft:light_blue_wool
-setblock 463 0 -512 minecraft:chiseled_nether_bricks
-setblock 462 0 -512 minecraft:end_stone
-setblock 461 0 -512 minecraft:stripped_mangrove_log
-setblock 460 0 -512 minecraft:air
-setblock 467 0 -512 minecraft:waxed_cut_copper
-setblock 466 0 -512 minecraft:prismarine_bricks
-setblock 465 0 -512 minecraft:moss_block
-setblock 464 0 -512 minecraft:oak_planks
-setblock 471 0 -512 minecraft:mud_bricks
-setblock 470 0 -512 minecraft:muddy_mangrove_roots
-setblock 469 0 -512 minecraft:mossy_stone_bricks
-setblock 468 0 -512 minecraft:air
-setblock 475 0 -512 minecraft:gray_stained_glass
-setblock 474 0 -512 minecraft:warped_stem
-setblock 473 0 -512 minecraft:mossy_stone_bricks
-setblock 472 0 -512 minecraft:air
-setblock 479 0 -512 minecraft:chiseled_nether_bricks
-setblock 478 0 -512 minecraft:basalt
-setblock 477 0 -512 minecraft:crimson_stem
-setblock 476 0 -512 minecraft:air
-setblock 483 0 -512 minecraft:waxed_cut_copper
-setblock 482 0 -512 minecraft:acacia_planks
-setblock 481 0 -512 minecraft:waxed_weathered_copper
-setblock 480 0 -512 minecraft:air
-setblock 487 0 -512 minecraft:chiseled_nether_bricks
-setblock 486 0 -512 minecraft:pumpkin
-setblock 485 0 -512 minecraft:chiseled_deepslate
-setblock 484 0 -512 minecraft:air
-setblock 491 0 -512 minecraft:crimson_stem
-setblock 490 0 -512 minecraft:purpur_block
-setblock 489 0 -512 minecraft:crying_obsidian
-setblock 488 0 -512 minecraft:cobbled_deepslate
-setblock 495 0 -512 minecraft:chiseled_nether_bricks
-setblock 494 0 -512 minecraft:amethyst_block
-setblock 493 0 -512 minecraft:amethyst_block
-setblock 492 0 -512 minecraft:granite
-setblock 499 0 -512 minecraft:andesite
-setblock 498 0 -512 minecraft:mangrove_planks
-setblock 497 0 -512 minecraft:gray_concrete
-setblock 496 0 -512 minecraft:air
-setblock 503 0 -512 minecraft:chiseled_nether_bricks
-setblock 502 0 -512 minecraft:mushroom_stem
-setblock 501 0 -512 minecraft:cobbled_deepslate
-setblock 500 0 -512 minecraft:air
-setblock 507 0 -512 minecraft:deepslate_iron_ore
-setblock 506 0 -512 minecraft:netherrack
-setblock 505 0 -512 minecraft:redstone_ore
-setblock 504 0 -512 minecraft:diamond_ore
-setblock 511 0 -512 minecraft:chiseled_nether_bricks
-setblock 510 0 -512 minecraft:melon
-setblock 509 0 -512 minecraft:spruce_planks
-setblock 508 0 -512 minecraft:air
-setblock -509 0 -511 minecraft:chiseled_nether_bricks
-setblock -510 0 -511 minecraft:dark_prismarine
-setblock -511 0 -511 minecraft:birch_planks
-setblock -512 0 -511 minecraft:air
-setblock -505 0 -511 minecraft:chiseled_nether_bricks
-setblock -506 0 -511 minecraft:mossy_stone_bricks
-setblock -507 0 -511 minecraft:cobblestone
-setblock -508 0 -511 minecraft:air
-setblock -501 0 -511 minecraft:chiseled_nether_bricks
-setblock -502 0 -511 minecraft:warped_planks
-setblock -503 0 -511 minecraft:cobblestone
-setblock -504 0 -511 minecraft:air
-setblock -497 0 -511 minecraft:pumpkin
-setblock -498 0 -511 minecraft:crimson_stem
-setblock -499 0 -511 minecraft:dark_oak_planks
-setblock -500 0 -511 minecraft:cobbled_deepslate
-setblock -493 0 -511 minecraft:light_blue_glazed_terracotta
-setblock -494 0 -511 minecraft:pumpkin
-setblock -495 0 -511 minecraft:waxed_exposed_cut_copper
-setblock -496 0 -511 minecraft:oak_log
-setblock -489 0 -511 minecraft:magma_block
-setblock -490 0 -511 minecraft:polished_basalt
-setblock -491 0 -511 minecraft:waxed_weathered_cut_copper
-setblock -492 0 -511 minecraft:purpur_block
-setblock -485 0 -511 minecraft:crimson_stem
-setblock -486 0 -511 minecraft:purpur_block
-setblock -487 0 -511 minecraft:redstone_lamp
-setblock -488 0 -511 minecraft:air
-setblock -481 0 -511 minecraft:light_blue_stained_glass
-setblock -482 0 -511 minecraft:wet_sponge
-setblock -483 0 -511 minecraft:mangrove_planks
-setblock -484 0 -511 minecraft:air
-setblock -477 0 -511 minecraft:light_blue_glazed_terracotta
-setblock -478 0 -511 minecraft:pumpkin
-setblock -479 0 -511 minecraft:amethyst_block
-setblock -480 0 -511 minecraft:oak_log
-setblock -473 0 -511 minecraft:magma_block
-setblock -474 0 -511 minecraft:chiseled_deepslate
-setblock -475 0 -511 minecraft:glowstone
-setblock -476 0 -511 minecraft:purpur_block
-setblock -469 0 -511 minecraft:magma_block
-setblock -470 0 -511 minecraft:acacia_planks
-setblock -471 0 -511 minecraft:deepslate_gold_ore
-setblock -472 0 -511 minecraft:oak_log
-setblock -465 0 -511 minecraft:light_blue_stained_glass
-setblock -466 0 -511 minecraft:wet_sponge
-setblock -467 0 -511 minecraft:mangrove_planks
-setblock -468 0 -511 minecraft:air
-setblock -461 0 -511 minecraft:light_blue_glazed_terracotta
-setblock -462 0 -511 minecraft:mushroom_stem
-setblock -463 0 -511 minecraft:amethyst_block
-setblock -464 0 -511 minecraft:oak_log
-setblock -457 0 -511 minecraft:chiseled_nether_bricks
-setblock -458 0 -511 minecraft:prismarine_bricks
-setblock -459 0 -511 minecraft:bricks
-setblock -460 0 -511 minecraft:air
-setblock -453 0 -511 minecraft:chiseled_nether_bricks
-setblock -454 0 -511 minecraft:mangrove_planks
-setblock -455 0 -511 minecraft:air
-setblock -456 0 -511 minecraft:jungle_planks
-setblock -449 0 -511 minecraft:chiseled_nether_bricks
-setblock -450 0 -511 minecraft:dark_prismarine
-setblock -451 0 -511 minecraft:black_concrete
-setblock -452 0 -511 minecraft:air
-setblock -445 0 -511 minecraft:deepslate_iron_ore
-setblock -446 0 -511 minecraft:polished_blackstone_bricks
-setblock -447 0 -511 minecraft:shroomlight
-setblock -448 0 -511 minecraft:iron_ore
-setblock -441 0 -511 minecraft:magma_block
-setblock -442 0 -511 minecraft:gray_terracotta
-setblock -443 0 -511 minecraft:gold_ore
-setblock -444 0 -511 minecraft:crimson_planks
-setblock -437 0 -511 minecraft:waxed_weathered_cut_copper
-setblock -438 0 -511 minecraft:crimson_stem
-setblock -439 0 -511 minecraft:air
-setblock -440 0 -511 minecraft:air
-setblock -433 0 -511 minecraft:pumpkin
-setblock -434 0 -511 minecraft:emerald_block
-setblock -435 0 -511 minecraft:gray_concrete
-setblock -436 0 -511 minecraft:brown_glazed_terracotta
-setblock -429 0 -511 minecraft:chiseled_nether_bricks
-setblock -430 0 -511 minecraft:wet_sponge
-setblock -431 0 -511 minecraft:acacia_planks
-setblock -432 0 -511 minecraft:air
-setblock -425 0 -511 minecraft:magma_block
-setblock -426 0 -511 minecraft:polished_basalt
-setblock -427 0 -511 minecraft:crimson_nylium
-setblock -428 0 -511 minecraft:purpur_block
-setblock -421 0 -511 minecraft:light_blue_stained_glass
-setblock -422 0 -511 minecraft:prismarine_bricks
-setblock -423 0 -511 minecraft:mangrove_planks
-setblock -424 0 -511 minecraft:air
-setblock -417 0 -511 minecraft:waxed_weathered_cut_copper
-setblock -418 0 -511 minecraft:crimson_stem
-setblock -419 0 -511 minecraft:air
-setblock -420 0 -511 minecraft:air
-setblock -413 0 -511 minecraft:pumpkin
-setblock -414 0 -511 minecraft:emerald_block
-setblock -415 0 -511 minecraft:clay
-setblock -416 0 -511 minecraft:pink_glazed_terracotta
-setblock -409 0 -511 minecraft:waxed_weathered_cut_copper
-setblock -410 0 -511 minecraft:crimson_stem
-setblock -411 0 -511 minecraft:air
-setblock -412 0 -511 minecraft:air
-setblock -405 0 -511 minecraft:pumpkin
-setblock -406 0 -511 minecraft:lapis_block
-setblock -407 0 -511 minecraft:mangrove_planks
-setblock -408 0 -511 minecraft:gray_glazed_terracotta
-setblock -401 0 -511 minecraft:magma_block
-setblock -402 0 -511 minecraft:lime_terracotta
-setblock -403 0 -511 minecraft:crimson_nylium
-setblock -404 0 -511 minecraft:crimson_planks
-setblock -397 0 -511 minecraft:light_blue_glazed_terracotta
-setblock -398 0 -511 minecraft:pink_terracotta
-setblock -399 0 -511 minecraft:glass
-setblock -400 0 -511 minecraft:air
-setblock -393 0 -511 minecraft:waxed_weathered_cut_copper
-setblock -394 0 -511 minecraft:crimson_stem
-setblock -395 0 -511 minecraft:air
-setblock -396 0 -511 minecraft:air
-setblock -389 0 -511 minecraft:mangrove_planks
-setblock -390 0 -511 minecraft:lapis_block
-setblock -391 0 -511 minecraft:pumpkin
-setblock -392 0 -511 minecraft:brown_glazed_terracotta
-setblock -385 0 -511 minecraft:mangrove_planks
-setblock -386 0 -511 minecraft:netherite_block
-setblock -387 0 -511 minecraft:packed_ice
-setblock -388 0 -511 minecraft:gray_glazed_terracotta
-setblock -381 0 -511 minecraft:andesite
-setblock -382 0 -511 minecraft:cobblestone
-setblock -383 0 -511 minecraft:air
-setblock -384 0 -511 minecraft:air
-setblock -377 0 -511 minecraft:blue_concrete
-setblock -378 0 -511 minecraft:raw_copper_block
-setblock -379 0 -511 minecraft:deepslate_gold_ore
-setblock -380 0 -511 minecraft:light_gray_glazed_terracotta
-setblock -373 0 -511 minecraft:dirt
-setblock -374 0 -511 minecraft:note_block
-setblock -375 0 -511 minecraft:deepslate_gold_ore
-setblock -376 0 -511 minecraft:white_stained_glass
-setblock -369 0 -511 minecraft:chiseled_nether_bricks
-setblock -370 0 -511 minecraft:cobblestone
-setblock -371 0 -511 minecraft:nether_gold_ore
-setblock -372 0 -511 minecraft:redstone_lamp
-setblock -365 0 -511 minecraft:andesite
-setblock -366 0 -511 minecraft:mossy_cobblestone
-setblock -367 0 -511 minecraft:nether_gold_ore
-setblock -368 0 -511 minecraft:birch_planks
-setblock -361 0 -511 minecraft:chiseled_nether_bricks
-setblock -362 0 -511 minecraft:mossy_cobblestone
-setblock -363 0 -511 minecraft:air
-setblock -364 0 -511 minecraft:jungle_planks
-setblock -357 0 -511 minecraft:magma_block
-setblock -358 0 -511 minecraft:raw_copper_block
-setblock -359 0 -511 minecraft:bee_nest
-setblock -360 0 -511 minecraft:crimson_planks
-setblock -353 0 -511 minecraft:black_stained_glass
-setblock -354 0 -511 minecraft:air
-setblock -355 0 -511 minecraft:air
-setblock -356 0 -511 minecraft:jungle_planks
-setblock -349 0 -511 minecraft:deepslate_iron_ore
-setblock -350 0 -511 minecraft:coarse_dirt
-setblock -351 0 -511 minecraft:stone
-setblock -352 0 -511 minecraft:polished_deepslate
-setblock -345 0 -511 minecraft:waxed_cut_copper
-setblock -346 0 -511 minecraft:stone
-setblock -347 0 -511 minecraft:blue_wool
-setblock -348 0 -511 minecraft:orange_concrete
-setblock -341 0 -511 minecraft:deepslate_iron_ore
-setblock -342 0 -511 minecraft:polished_blackstone_bricks
-setblock -343 0 -511 minecraft:mangrove_planks
-setblock -344 0 -511 minecraft:acacia_log
-setblock -337 0 -511 minecraft:chiseled_nether_bricks
-setblock -338 0 -511 minecraft:basalt
-setblock -339 0 -511 minecraft:stone
-setblock -340 0 -511 minecraft:oak_planks
-setblock -333 0 -511 minecraft:chiseled_nether_bricks
-setblock -334 0 -511 minecraft:crying_obsidian
-setblock -335 0 -511 minecraft:acacia_planks
-setblock -336 0 -511 minecraft:oak_planks
-setblock -329 0 -511 minecraft:chiseled_nether_bricks
-setblock -330 0 -511 minecraft:sponge
-setblock -331 0 -511 minecraft:stone
-setblock -332 0 -511 minecraft:air
-setblock -325 0 -511 minecraft:andesite
-setblock -326 0 -511 minecraft:deepslate
-setblock -327 0 -511 minecraft:cobblestone
-setblock -328 0 -511 minecraft:oak_planks
-setblock -321 0 -511 minecraft:andesite
-setblock -322 0 -511 minecraft:lime_glazed_terracotta
-setblock -323 0 -511 minecraft:acacia_planks
-setblock -324 0 -511 minecraft:oak_planks
-setblock -317 0 -511 minecraft:andesite
-setblock -318 0 -511 minecraft:mangrove_planks
-setblock -319 0 -511 minecraft:air
-setblock -320 0 -511 minecraft:air
-setblock -313 0 -511 minecraft:chiseled_nether_bricks
-setblock -314 0 -511 minecraft:dark_oak_planks
-setblock -315 0 -511 minecraft:nether_gold_ore
-setblock -316 0 -511 minecraft:granite
-setblock -309 0 -511 minecraft:andesite
-setblock -310 0 -511 minecraft:dark_oak_planks
-setblock -311 0 -511 minecraft:air
-setblock -312 0 -511 minecraft:air
-setblock -305 0 -511 minecraft:andesite
-setblock -306 0 -511 minecraft:cobblestone
-setblock -307 0 -511 minecraft:cracked_deepslate_bricks
-setblock -308 0 -511 minecraft:air
-setblock -301 0 -511 minecraft:deepslate_diamond_ore
-setblock -302 0 -511 minecraft:polished_granite
-setblock -303 0 -511 minecraft:netherrack
-setblock -304 0 -511 minecraft:stripped_mangrove_log
-setblock -297 0 -511 minecraft:chiseled_nether_bricks
-setblock -298 0 -511 minecraft:wet_sponge
-setblock -299 0 -511 minecraft:yellow_concrete
-setblock -300 0 -511 minecraft:air
-setblock -293 0 -511 minecraft:light_blue_stained_glass
-setblock -294 0 -511 minecraft:dark_oak_planks
-setblock -295 0 -511 minecraft:purple_terracotta
-setblock -296 0 -511 minecraft:black_terracotta
-setblock -289 0 -511 minecraft:pumpkin
-setblock -290 0 -511 minecraft:lapis_block
-setblock -291 0 -511 minecraft:jungle_planks
-setblock -292 0 -511 minecraft:air
-setblock -285 0 -511 minecraft:chiseled_nether_bricks
-setblock -286 0 -511 minecraft:pumpkin
-setblock -287 0 -511 minecraft:cracked_deepslate_bricks
-setblock -288 0 -511 minecraft:air
-setblock -281 0 -511 minecraft:waxed_cut_copper
-setblock -282 0 -511 minecraft:gray_wool
-setblock -283 0 -511 minecraft:nether_gold_ore
-setblock -284 0 -511 minecraft:air
-setblock -277 0 -511 minecraft:magma_block
-setblock -278 0 -511 minecraft:amethyst_block
-setblock -279 0 -511 minecraft:pumpkin
-setblock -280 0 -511 minecraft:crimson_planks
-setblock -273 0 -511 minecraft:light_blue_wool
-setblock -274 0 -511 minecraft:gray_wool
-setblock -275 0 -511 minecraft:white_concrete
-setblock -276 0 -511 minecraft:oak_planks
-setblock -269 0 -511 minecraft:waxed_cut_copper
-setblock -270 0 -511 minecraft:amethyst_block
-setblock -271 0 -511 minecraft:deepslate_gold_ore
-setblock -272 0 -511 minecraft:air
-setblock -265 0 -511 minecraft:magma_block
-setblock -266 0 -511 minecraft:amethyst_block
-setblock -267 0 -511 minecraft:polished_basalt
-setblock -268 0 -511 minecraft:polished_deepslate
-setblock -261 0 -511 minecraft:magma_block
-setblock -262 0 -511 minecraft:amethyst_block
-setblock -263 0 -511 minecraft:crimson_stem
-setblock -264 0 -511 minecraft:diorite
-setblock -257 0 -511 minecraft:magma_block
-setblock -258 0 -511 minecraft:gilded_blackstone
-setblock -259 0 -511 minecraft:mangrove_planks
-setblock -260 0 -511 minecraft:grass_block
-setblock -253 0 -511 minecraft:deepslate_iron_ore
-setblock -254 0 -511 minecraft:white_glazed_terracotta
-setblock -255 0 -511 minecraft:blue_wool
-setblock -256 0 -511 minecraft:red_mushroom_block
-setblock -249 0 -511 minecraft:light_blue_stained_glass
-setblock -250 0 -511 minecraft:end_stone
-setblock -251 0 -511 minecraft:mangrove_planks
-setblock -252 0 -511 minecraft:pink_terracotta
-setblock -245 0 -511 minecraft:chiseled_nether_bricks
-setblock -246 0 -511 minecraft:acacia_planks
-setblock -247 0 -511 minecraft:air
-setblock -248 0 -511 minecraft:air
-setblock -241 0 -511 minecraft:chiseled_nether_bricks
-setblock -242 0 -511 minecraft:cobblestone
-setblock -243 0 -511 minecraft:air
-setblock -244 0 -511 minecraft:air
-setblock -237 0 -511 minecraft:black_stained_glass
-setblock -238 0 -511 minecraft:nether_gold_ore
-setblock -239 0 -511 minecraft:end_stone_bricks
-setblock -240 0 -511 minecraft:brown_mushroom_block
-setblock -233 0 -511 minecraft:pumpkin
-setblock -234 0 -511 minecraft:crimson_stem
-setblock -235 0 -511 minecraft:mangrove_planks
-setblock -236 0 -511 minecraft:air
-setblock -229 0 -511 minecraft:chiseled_nether_bricks
-setblock -230 0 -511 minecraft:basalt
-setblock -231 0 -511 minecraft:crimson_stem
-setblock -232 0 -511 minecraft:air
-setblock -225 0 -511 minecraft:waxed_cut_copper
-setblock -226 0 -511 minecraft:acacia_planks
-setblock -227 0 -511 minecraft:waxed_weathered_copper
-setblock -228 0 -511 minecraft:air
-setblock -221 0 -511 minecraft:chiseled_nether_bricks
-setblock -222 0 -511 minecraft:pumpkin
-setblock -223 0 -511 minecraft:chiseled_deepslate
-setblock -224 0 -511 minecraft:air
-setblock -217 0 -511 minecraft:chiseled_nether_bricks
-setblock -218 0 -511 minecraft:amethyst_block
-setblock -219 0 -511 minecraft:amethyst_block
-setblock -220 0 -511 minecraft:granite
-setblock -213 0 -511 minecraft:crimson_stem
-setblock -214 0 -511 minecraft:purpur_block
-setblock -215 0 -511 minecraft:raw_gold_block
-setblock -216 0 -511 minecraft:cobbled_deepslate
-setblock -209 0 -511 minecraft:black_stained_glass
-setblock -210 0 -511 minecraft:nether_gold_ore
-setblock -211 0 -511 minecraft:black_glazed_terracotta
-setblock -212 0 -511 minecraft:lapis_ore
-setblock -205 0 -511 minecraft:chiseled_nether_bricks
-setblock -206 0 -511 minecraft:melon
-setblock -207 0 -511 minecraft:amethyst_block
-setblock -208 0 -511 minecraft:redstone_lamp
-setblock -201 0 -511 minecraft:chiseled_nether_bricks
-setblock -202 0 -511 minecraft:basalt
-setblock -203 0 -511 minecraft:dark_oak_log
-setblock -204 0 -511 minecraft:air
-setblock -197 0 -511 minecraft:waxed_cut_copper
-setblock -198 0 -511 minecraft:acacia_planks
-setblock -199 0 -511 minecraft:waxed_weathered_copper
-setblock -200 0 -511 minecraft:air
-setblock -193 0 -511 minecraft:pumpkin
-setblock -194 0 -511 minecraft:lapis_block
-setblock -195 0 -511 minecraft:acacia_planks
-setblock -196 0 -511 minecraft:cobbled_deepslate
-setblock -189 0 -511 minecraft:magma_block
-setblock -190 0 -511 minecraft:polished_basalt
-setblock -191 0 -511 minecraft:amethyst_block
-setblock -192 0 -511 minecraft:oak_log
-setblock -185 0 -511 minecraft:crimson_stem
-setblock -186 0 -511 minecraft:purpur_block
-setblock -187 0 -511 minecraft:raw_gold_block
-setblock -188 0 -511 minecraft:cobbled_deepslate
-setblock -181 0 -511 minecraft:black_stained_glass
-setblock -182 0 -511 minecraft:nether_gold_ore
-setblock -183 0 -511 minecraft:end_stone_bricks
-setblock -184 0 -511 minecraft:emerald_ore
-setblock -177 0 -511 minecraft:chiseled_nether_bricks
-setblock -178 0 -511 minecraft:dark_prismarine
-setblock -179 0 -511 minecraft:deepslate_gold_ore
-setblock -180 0 -511 minecraft:redstone_lamp
-setblock -173 0 -511 minecraft:chiseled_nether_bricks
-setblock -174 0 -511 minecraft:redstone_lamp
-setblock -175 0 -511 minecraft:redstone_lamp
-setblock -176 0 -511 minecraft:granite
-setblock -169 0 -511 minecraft:chiseled_nether_bricks
-setblock -170 0 -511 minecraft:end_stone_bricks
-setblock -171 0 -511 minecraft:stripped_crimson_stem
-setblock -172 0 -511 minecraft:air
-setblock -165 0 -511 minecraft:waxed_cut_copper
-setblock -166 0 -511 minecraft:acacia_planks
-setblock -167 0 -511 minecraft:glowstone
-setblock -168 0 -511 minecraft:oak_planks
-setblock -161 0 -511 minecraft:pumpkin
-setblock -162 0 -511 minecraft:lapis_block
-setblock -163 0 -511 minecraft:acacia_planks
-setblock -164 0 -511 minecraft:cobbled_deepslate
-setblock -157 0 -511 minecraft:chiseled_nether_bricks
-setblock -158 0 -511 minecraft:pumpkin
-setblock -159 0 -511 minecraft:amethyst_block
-setblock -160 0 -511 minecraft:redstone_lamp
-setblock -153 0 -511 minecraft:magma_block
-setblock -154 0 -511 minecraft:mossy_stone_bricks
-setblock -155 0 -511 minecraft:air
-setblock -156 0 -511 minecraft:nether_gold_ore
-setblock -149 0 -511 minecraft:magma_block
-setblock -150 0 -511 minecraft:chiseled_stone_bricks
-setblock -151 0 -511 minecraft:lapis_block
-setblock -152 0 -511 minecraft:purpur_block
-setblock -145 0 -511 minecraft:chiseled_nether_bricks
-setblock -146 0 -511 minecraft:amethyst_block
-setblock -147 0 -511 minecraft:amethyst_block
-setblock -148 0 -511 minecraft:granite
-setblock -141 0 -511 minecraft:light_blue_stained_glass
-setblock -142 0 -511 minecraft:chiseled_polished_blackstone
-setblock -143 0 -511 minecraft:acacia_planks
-setblock -144 0 -511 minecraft:smooth_stone
-setblock -137 0 -511 minecraft:chiseled_nether_bricks
-setblock -138 0 -511 minecraft:basalt
-setblock -139 0 -511 minecraft:crimson_stem
-setblock -140 0 -511 minecraft:air
-setblock -133 0 -511 minecraft:waxed_cut_copper
-setblock -134 0 -511 minecraft:acacia_planks
-setblock -135 0 -511 minecraft:waxed_weathered_copper
-setblock -136 0 -511 minecraft:air
-setblock -129 0 -511 minecraft:pumpkin
-setblock -130 0 -511 minecraft:target
-setblock -131 0 -511 minecraft:acacia_planks
-setblock -132 0 -511 minecraft:cobbled_deepslate
-setblock -125 0 -511 minecraft:magma_block
-setblock -126 0 -511 minecraft:chiseled_stone_bricks
-setblock -127 0 -511 minecraft:target
-setblock -128 0 -511 minecraft:purpur_block
-setblock -121 0 -511 minecraft:light_blue_stained_glass
-setblock -122 0 -511 minecraft:cracked_nether_bricks
-setblock -123 0 -511 minecraft:acacia_planks
-setblock -124 0 -511 minecraft:red_stained_glass
-setblock -117 0 -511 minecraft:magma_block
-setblock -118 0 -511 minecraft:basalt
-setblock -119 0 -511 minecraft:granite
-setblock -120 0 -511 minecraft:grass_block
-setblock -113 0 -511 minecraft:light_blue_glazed_terracotta
-setblock -114 0 -511 minecraft:amethyst_block
-setblock -115 0 -511 minecraft:acacia_planks
-setblock -116 0 -511 minecraft:tuff
-setblock -109 0 -511 minecraft:magma_block
-setblock -110 0 -511 minecraft:muddy_mangrove_roots
-setblock -111 0 -511 minecraft:deepslate_diamond_ore
-setblock -112 0 -511 minecraft:purpur_block
-setblock -105 0 -511 minecraft:light_blue_stained_glass
-setblock -106 0 -511 minecraft:sea_lantern
-setblock -107 0 -511 minecraft:mossy_stone_bricks
-setblock -108 0 -511 minecraft:air
-setblock -101 0 -511 minecraft:magma_block
-setblock -102 0 -511 minecraft:bricks
-setblock -103 0 -511 minecraft:raw_gold_block
-setblock -104 0 -511 minecraft:purpur_pillar
-setblock -97 0 -511 minecraft:light_blue_stained_glass
-setblock -98 0 -511 minecraft:hay_block
-setblock -99 0 -511 minecraft:mossy_stone_bricks
-setblock -100 0 -511 minecraft:air
-setblock -93 0 -511 minecraft:mangrove_planks
-setblock -94 0 -511 minecraft:crimson_stem
-setblock -95 0 -511 minecraft:yellow_concrete
-setblock -96 0 -511 minecraft:lime_glazed_terracotta
-setblock -89 0 -511 minecraft:magma_block
-setblock -90 0 -511 minecraft:end_stone
-setblock -91 0 -511 minecraft:deepslate_diamond_ore
-setblock -92 0 -511 minecraft:purpur_block
-setblock -85 0 -511 minecraft:deepslate_iron_ore
-setblock -86 0 -511 minecraft:end_stone
-setblock -87 0 -511 minecraft:mossy_stone_bricks
-setblock -88 0 -511 minecraft:birch_log
-setblock -81 0 -511 minecraft:light_blue_glazed_terracotta
-setblock -82 0 -511 minecraft:granite
-setblock -83 0 -511 minecraft:air
-setblock -84 0 -511 minecraft:nether_gold_ore
-setblock -77 0 -511 minecraft:magma_block
-setblock -78 0 -511 minecraft:melon
-setblock -79 0 -511 minecraft:deepslate_gold_ore
-setblock -80 0 -511 minecraft:purpur_pillar
-setblock -73 0 -511 minecraft:light_blue_glazed_terracotta
-setblock -74 0 -511 minecraft:mangrove_planks
-setblock -75 0 -511 minecraft:deepslate_diamond_ore
-setblock -76 0 -511 minecraft:spruce_log
-setblock -69 0 -511 minecraft:light_blue_stained_glass
-setblock -70 0 -511 minecraft:netherrack
-setblock -71 0 -511 minecraft:acacia_planks
-setblock -72 0 -511 minecraft:dark_oak_planks
-setblock -65 0 -511 minecraft:mangrove_planks
-setblock -66 0 -511 minecraft:crimson_stem
-setblock -67 0 -511 minecraft:stone_bricks
-setblock -68 0 -511 minecraft:gray_glazed_terracotta
-setblock -61 0 -511 minecraft:magma_block
-setblock -62 0 -511 minecraft:deepslate
-setblock -63 0 -511 minecraft:amethyst_block
-setblock -64 0 -511 minecraft:purpur_block
-setblock -57 0 -511 minecraft:light_blue_stained_glass
-setblock -58 0 -511 minecraft:warped_planks
-setblock -59 0 -511 minecraft:acacia_planks
-setblock -60 0 -511 minecraft:light_gray_stained_glass
-setblock -53 0 -511 minecraft:mangrove_planks
-setblock -54 0 -511 minecraft:acacia_log
-setblock -55 0 -511 minecraft:sea_lantern
-setblock -56 0 -511 minecraft:lime_glazed_terracotta
-setblock -49 0 -511 minecraft:pumpkin
-setblock -50 0 -511 minecraft:stripped_mangrove_log
-setblock -51 0 -511 minecraft:calcite
-setblock -52 0 -511 minecraft:pink_glazed_terracotta
-setblock -45 0 -511 minecraft:magma_block
-setblock -46 0 -511 minecraft:amethyst_block
-setblock -47 0 -511 minecraft:pumpkin
-setblock -48 0 -511 minecraft:polished_granite
-setblock -41 0 -511 minecraft:light_blue_glazed_terracotta
-setblock -42 0 -511 minecraft:black_terracotta
-setblock -43 0 -511 minecraft:slime_block
-setblock -44 0 -511 minecraft:oak_planks
-setblock -37 0 -511 minecraft:magma_block
-setblock -38 0 -511 minecraft:deepslate
-setblock -39 0 -511 minecraft:amethyst_block
-setblock -40 0 -511 minecraft:purpur_block
-setblock -33 0 -511 minecraft:deepslate_iron_ore
-setblock -34 0 -511 minecraft:chiseled_polished_blackstone
-setblock -35 0 -511 minecraft:acacia_planks
-setblock -36 0 -511 minecraft:shroomlight
-setblock -29 0 -511 minecraft:mangrove_planks
-setblock -30 0 -511 minecraft:crimson_stem
-setblock -31 0 -511 minecraft:calcite
-setblock -32 0 -511 minecraft:pink_glazed_terracotta
-setblock -25 0 -511 minecraft:magma_block
-setblock -26 0 -511 minecraft:mossy_stone_bricks
-setblock -27 0 -511 minecraft:air
-setblock -28 0 -511 minecraft:nether_gold_ore
-setblock -21 0 -511 minecraft:chiseled_nether_bricks
-setblock -22 0 -511 minecraft:acacia_planks
-setblock -23 0 -511 minecraft:polished_granite
-setblock -24 0 -511 minecraft:air
-setblock -17 0 -511 minecraft:magma_block
-setblock -18 0 -511 minecraft:amethyst_block
-setblock -19 0 -511 minecraft:deepslate_gold_ore
-setblock -20 0 -511 minecraft:crimson_planks
-setblock -13 0 -511 minecraft:chiseled_nether_bricks
-setblock -14 0 -511 minecraft:mossy_stone_bricks
-setblock -15 0 -511 minecraft:nether_gold_ore
-setblock -16 0 -511 minecraft:oak_planks
-setblock -9 0 -511 minecraft:light_blue_glazed_terracotta
-setblock -10 0 -511 minecraft:red_nether_bricks
-setblock -11 0 -511 minecraft:amethyst_block
-setblock -12 0 -511 minecraft:oak_log
-setblock -5 0 -511 minecraft:light_blue_glazed_terracotta
-setblock -6 0 -511 minecraft:amethyst_block
-setblock -7 0 -511 minecraft:acacia_planks
-setblock -8 0 -511 minecraft:tuff
-setblock -1 0 -511 minecraft:chiseled_nether_bricks
-setblock -2 0 -511 minecraft:melon
-setblock -3 0 -511 minecraft:deepslate
-setblock -4 0 -511 minecraft:air
-setblock 3 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 2 0 -511 minecraft:amethyst_block
-setblock 1 0 -511 minecraft:deepslate_gold_ore
-setblock 0 0 -511 minecraft:polished_deepslate
-setblock 7 0 -511 minecraft:magma_block
-setblock 6 0 -511 minecraft:amethyst_block
-setblock 5 0 -511 minecraft:pumpkin
-setblock 4 0 -511 minecraft:polished_granite
-setblock 11 0 -511 minecraft:magma_block
-setblock 10 0 -511 minecraft:shroomlight
-setblock 9 0 -511 minecraft:diamond_ore
-setblock 8 0 -511 minecraft:air
-setblock 15 0 -511 minecraft:deepslate_iron_ore
-setblock 14 0 -511 minecraft:smooth_basalt
-setblock 13 0 -511 minecraft:crying_obsidian
-setblock 12 0 -511 minecraft:redstone_lamp
-setblock 19 0 -511 minecraft:mangrove_planks
-setblock 18 0 -511 minecraft:lapis_block
-setblock 17 0 -511 minecraft:blue_ice
-setblock 16 0 -511 minecraft:blue_glazed_terracotta
-setblock 23 0 -511 minecraft:light_blue_concrete
-setblock 22 0 -511 minecraft:gray_terracotta
-setblock 21 0 -511 minecraft:deepslate_diamond_ore
-setblock 20 0 -511 minecraft:redstone_ore
-setblock 27 0 -511 minecraft:pumpkin
-setblock 26 0 -511 minecraft:stripped_mangrove_log
-setblock 25 0 -511 minecraft:calcite
-setblock 24 0 -511 minecraft:pink_glazed_terracotta
-setblock 31 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 30 0 -511 minecraft:redstone_lamp
-setblock 29 0 -511 minecraft:deepslate_diamond_ore
-setblock 28 0 -511 minecraft:polished_granite
-setblock 35 0 -511 minecraft:chiseled_nether_bricks
-setblock 34 0 -511 minecraft:acacia_planks
-setblock 33 0 -511 minecraft:polished_granite
-setblock 32 0 -511 minecraft:air
-setblock 39 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 38 0 -511 minecraft:pumpkin
-setblock 37 0 -511 minecraft:verdant_froglight
-setblock 36 0 -511 minecraft:spruce_log
-setblock 43 0 -511 minecraft:chiseled_nether_bricks
-setblock 42 0 -511 minecraft:mossy_stone_bricks
-setblock 41 0 -511 minecraft:white_glazed_terracotta
-setblock 40 0 -511 minecraft:oak_planks
-setblock 47 0 -511 minecraft:magma_block
-setblock 46 0 -511 minecraft:amethyst_block
-setblock 45 0 -511 minecraft:acacia_planks
-setblock 44 0 -511 minecraft:tuff
-setblock 51 0 -511 minecraft:chiseled_nether_bricks
-setblock 50 0 -511 minecraft:melon
-setblock 49 0 -511 minecraft:deepslate
-setblock 48 0 -511 minecraft:air
-setblock 55 0 -511 minecraft:magma_block
-setblock 54 0 -511 minecraft:gray_terracotta
-setblock 53 0 -511 minecraft:redstone_lamp
-setblock 52 0 -511 minecraft:polished_deepslate
-setblock 59 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 58 0 -511 minecraft:gray_terracotta
-setblock 57 0 -511 minecraft:amethyst_block
-setblock 56 0 -511 minecraft:polished_granite
-setblock 63 0 -511 minecraft:magma_block
-setblock 62 0 -511 minecraft:shroomlight
-setblock 61 0 -511 minecraft:diamond_ore
-setblock 60 0 -511 minecraft:air
-setblock 67 0 -511 minecraft:deepslate_iron_ore
-setblock 66 0 -511 minecraft:smooth_basalt
-setblock 65 0 -511 minecraft:crying_obsidian
-setblock 64 0 -511 minecraft:redstone_lamp
-setblock 71 0 -511 minecraft:waxed_cut_copper
-setblock 70 0 -511 minecraft:granite
-setblock 69 0 -511 minecraft:glowstone
-setblock 68 0 -511 minecraft:oak_planks
-setblock 75 0 -511 minecraft:crimson_stem
-setblock 74 0 -511 minecraft:purpur_block
-setblock 73 0 -511 minecraft:slime_block
-setblock 72 0 -511 minecraft:chiseled_deepslate
-setblock 79 0 -511 minecraft:black_stained_glass
-setblock 78 0 -511 minecraft:nether_gold_ore
-setblock 77 0 -511 minecraft:black_glazed_terracotta
-setblock 76 0 -511 minecraft:soul_soil
-setblock 83 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 82 0 -511 minecraft:amethyst_block
-setblock 81 0 -511 minecraft:deepslate_gold_ore
-setblock 80 0 -511 minecraft:crimson_planks
-setblock 87 0 -511 minecraft:waxed_cut_copper
-setblock 86 0 -511 minecraft:mangrove_planks
-setblock 85 0 -511 minecraft:glowstone
-setblock 84 0 -511 minecraft:air
-setblock 91 0 -511 minecraft:crimson_stem
-setblock 90 0 -511 minecraft:purpur_block
-setblock 89 0 -511 minecraft:deepslate_gold_ore
-setblock 88 0 -511 minecraft:cobbled_deepslate
-setblock 95 0 -511 minecraft:chiseled_nether_bricks
-setblock 94 0 -511 minecraft:pumpkin
-setblock 93 0 -511 minecraft:acacia_planks
-setblock 92 0 -511 minecraft:air
-setblock 99 0 -511 minecraft:black_stained_glass
-setblock 98 0 -511 minecraft:nether_gold_ore
-setblock 97 0 -511 minecraft:packed_mud
-setblock 96 0 -511 minecraft:soul_sand
-setblock 103 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 102 0 -511 minecraft:gray_terracotta
-setblock 101 0 -511 minecraft:amethyst_block
-setblock 100 0 -511 minecraft:air
-setblock 107 0 -511 minecraft:black_stained_glass
-setblock 106 0 -511 minecraft:nether_gold_ore
-setblock 105 0 -511 minecraft:slime_block
-setblock 104 0 -511 minecraft:shroomlight
-setblock 111 0 -511 minecraft:magma_block
-setblock 110 0 -511 minecraft:mossy_stone_bricks
-setblock 109 0 -511 minecraft:air
-setblock 108 0 -511 minecraft:nether_gold_ore
-setblock 115 0 -511 minecraft:magma_block
-setblock 114 0 -511 minecraft:muddy_mangrove_roots
-setblock 113 0 -511 minecraft:crimson_nylium
-setblock 112 0 -511 minecraft:purpur_pillar
-setblock 119 0 -511 minecraft:deepslate_iron_ore
-setblock 118 0 -511 minecraft:cracked_nether_bricks
-setblock 117 0 -511 minecraft:mossy_stone_bricks
-setblock 116 0 -511 minecraft:crimson_planks
-setblock 123 0 -511 minecraft:magma_block
-setblock 122 0 -511 minecraft:stripped_mangrove_log
-setblock 121 0 -511 minecraft:crimson_nylium
-setblock 120 0 -511 minecraft:purpur_pillar
-setblock 127 0 -511 minecraft:deepslate_iron_ore
-setblock 126 0 -511 minecraft:smooth_basalt
-setblock 125 0 -511 minecraft:mossy_stone_bricks
-setblock 124 0 -511 minecraft:cracked_deepslate_bricks
-setblock 131 0 -511 minecraft:magma_block
-setblock 130 0 -511 minecraft:bricks
-setblock 129 0 -511 minecraft:mangrove_planks
-setblock 128 0 -511 minecraft:grass_block
-setblock 135 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 134 0 -511 minecraft:redstone_lamp
-setblock 133 0 -511 minecraft:mossy_stone_bricks
-setblock 132 0 -511 minecraft:tuff
-setblock 139 0 -511 minecraft:magma_block
-setblock 138 0 -511 minecraft:stripped_crimson_stem
-setblock 137 0 -511 minecraft:deepslate_gold_ore
-setblock 136 0 -511 minecraft:purpur_pillar
-setblock 143 0 -511 minecraft:light_blue_stained_glass
-setblock 142 0 -511 minecraft:sea_lantern
-setblock 141 0 -511 minecraft:granite
-setblock 140 0 -511 minecraft:air
-setblock 147 0 -511 minecraft:magma_block
-setblock 146 0 -511 minecraft:end_stone_bricks
-setblock 145 0 -511 minecraft:diamond_ore
-setblock 144 0 -511 minecraft:purpur_block
-setblock 151 0 -511 minecraft:light_blue_stained_glass
-setblock 150 0 -511 minecraft:hay_block
-setblock 149 0 -511 minecraft:granite
-setblock 148 0 -511 minecraft:air
-setblock 155 0 -511 minecraft:pumpkin
-setblock 154 0 -511 minecraft:stripped_mangrove_log
-setblock 153 0 -511 minecraft:yellow_concrete
-setblock 152 0 -511 minecraft:lime_glazed_terracotta
-setblock 159 0 -511 minecraft:magma_block
-setblock 158 0 -511 minecraft:packed_mud
-setblock 157 0 -511 minecraft:crimson_nylium
-setblock 156 0 -511 minecraft:purpur_pillar
-setblock 163 0 -511 minecraft:deepslate_iron_ore
-setblock 162 0 -511 minecraft:polished_blackstone_bricks
-setblock 161 0 -511 minecraft:granite
-setblock 160 0 -511 minecraft:cracked_deepslate_tiles
-setblock 167 0 -511 minecraft:magma_block
-setblock 166 0 -511 minecraft:granite
-setblock 165 0 -511 minecraft:air
-setblock 164 0 -511 minecraft:nether_gold_ore
-setblock 171 0 -511 minecraft:magma_block
-setblock 170 0 -511 minecraft:prismarine_bricks
-setblock 169 0 -511 minecraft:amethyst_block
-setblock 168 0 -511 minecraft:purpur_pillar
-setblock 175 0 -511 minecraft:magma_block
-setblock 174 0 -511 minecraft:prismarine_bricks
-setblock 173 0 -511 minecraft:redstone_lamp
-setblock 172 0 -511 minecraft:spruce_log
-setblock 179 0 -511 minecraft:light_blue_stained_glass
-setblock 178 0 -511 minecraft:polished_blackstone_bricks
-setblock 177 0 -511 minecraft:mossy_stone_bricks
-setblock 176 0 -511 minecraft:jungle_planks
-setblock 183 0 -511 minecraft:magma_block
-setblock 182 0 -511 minecraft:end_stone
-setblock 181 0 -511 minecraft:budding_amethyst
-setblock 180 0 -511 minecraft:purpur_block
-setblock 187 0 -511 minecraft:deepslate_iron_ore
-setblock 186 0 -511 minecraft:hay_block
-setblock 185 0 -511 minecraft:mossy_stone_bricks
-setblock 184 0 -511 minecraft:polished_andesite
-setblock 191 0 -511 minecraft:mangrove_planks
-setblock 190 0 -511 minecraft:stripped_crimson_stem
-setblock 189 0 -511 minecraft:calcite
-setblock 188 0 -511 minecraft:pink_glazed_terracotta
-setblock 195 0 -511 minecraft:pumpkin
-setblock 194 0 -511 minecraft:stripped_mangrove_log
-setblock 193 0 -511 minecraft:stone_bricks
-setblock 192 0 -511 minecraft:gray_glazed_terracotta
-setblock 199 0 -511 minecraft:magma_block
-setblock 198 0 -511 minecraft:amethyst_block
-setblock 197 0 -511 minecraft:crimson_stem
-setblock 196 0 -511 minecraft:polished_granite
-setblock 203 0 -511 minecraft:magma_block
-setblock 202 0 -511 minecraft:redstone_lamp
-setblock 201 0 -511 minecraft:deepslate_diamond_ore
-setblock 200 0 -511 minecraft:oak_planks
-setblock 207 0 -511 minecraft:magma_block
-setblock 206 0 -511 minecraft:end_stone
-setblock 205 0 -511 minecraft:shroomlight
-setblock 204 0 -511 minecraft:purpur_block
-setblock 211 0 -511 minecraft:deepslate_iron_ore
-setblock 210 0 -511 minecraft:chiseled_polished_blackstone
-setblock 209 0 -511 minecraft:mossy_stone_bricks
-setblock 208 0 -511 minecraft:shroomlight
-setblock 215 0 -511 minecraft:pumpkin
-setblock 214 0 -511 minecraft:stripped_mangrove_log
-setblock 213 0 -511 minecraft:calcite
-setblock 212 0 -511 minecraft:pink_glazed_terracotta
-setblock 219 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 218 0 -511 minecraft:granite
-setblock 217 0 -511 minecraft:air
-setblock 216 0 -511 minecraft:nether_gold_ore
-setblock 223 0 -511 minecraft:chiseled_nether_bricks
-setblock 222 0 -511 minecraft:mossy_stone_bricks
-setblock 221 0 -511 minecraft:polished_granite
-setblock 220 0 -511 minecraft:air
-setblock 227 0 -511 minecraft:magma_block
-setblock 226 0 -511 minecraft:amethyst_block
-setblock 225 0 -511 minecraft:crimson_nylium
-setblock 224 0 -511 minecraft:stone
-setblock 231 0 -511 minecraft:chiseled_nether_bricks
-setblock 230 0 -511 minecraft:granite
-setblock 229 0 -511 minecraft:nether_gold_ore
-setblock 228 0 -511 minecraft:oak_planks
-setblock 235 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 234 0 -511 minecraft:red_nether_bricks
-setblock 233 0 -511 minecraft:amethyst_block
-setblock 232 0 -511 minecraft:oak_log
-setblock 239 0 -511 minecraft:magma_block
-setblock 238 0 -511 minecraft:shroomlight
-setblock 237 0 -511 minecraft:mossy_stone_bricks
-setblock 236 0 -511 minecraft:tuff
-setblock 243 0 -511 minecraft:chiseled_nether_bricks
-setblock 242 0 -511 minecraft:prismarine_bricks
-setblock 241 0 -511 minecraft:bricks
-setblock 240 0 -511 minecraft:air
-setblock 247 0 -511 minecraft:magma_block
-setblock 246 0 -511 minecraft:shroomlight
-setblock 245 0 -511 minecraft:crimson_nylium
-setblock 244 0 -511 minecraft:deepslate_bricks
-setblock 251 0 -511 minecraft:magma_block
-setblock 250 0 -511 minecraft:amethyst_block
-setblock 249 0 -511 minecraft:pumpkin
-setblock 248 0 -511 minecraft:polished_granite
-setblock 255 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 254 0 -511 minecraft:black_terracotta
-setblock 253 0 -511 minecraft:slime_block
-setblock 252 0 -511 minecraft:oak_planks
-setblock 259 0 -511 minecraft:deepslate_iron_ore
-setblock 258 0 -511 minecraft:smooth_basalt
-setblock 257 0 -511 minecraft:shroomlight
-setblock 256 0 -511 minecraft:redstone_lamp
-setblock 263 0 -511 minecraft:dirt
-setblock 262 0 -511 minecraft:shroomlight
-setblock 261 0 -511 minecraft:granite
-setblock 260 0 -511 minecraft:nether_quartz_ore
-setblock 267 0 -511 minecraft:magma_block
-setblock 266 0 -511 minecraft:red_terracotta
-setblock 265 0 -511 minecraft:crimson_nylium
-setblock 264 0 -511 minecraft:diorite
-setblock 271 0 -511 minecraft:mangrove_planks
-setblock 270 0 -511 minecraft:crimson_stem
-setblock 269 0 -511 minecraft:calcite
-setblock 268 0 -511 minecraft:pink_glazed_terracotta
-setblock 275 0 -511 minecraft:chiseled_nether_bricks
-setblock 274 0 -511 minecraft:mossy_stone_bricks
-setblock 273 0 -511 minecraft:polished_granite
-setblock 272 0 -511 minecraft:air
-setblock 279 0 -511 minecraft:chiseled_nether_bricks
-setblock 278 0 -511 minecraft:granite
-setblock 277 0 -511 minecraft:white_glazed_terracotta
-setblock 276 0 -511 minecraft:oak_planks
-setblock 283 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 282 0 -511 minecraft:granite
-setblock 281 0 -511 minecraft:deepslate_gold_ore
-setblock 280 0 -511 minecraft:oak_log
-setblock 287 0 -511 minecraft:magma_block
-setblock 286 0 -511 minecraft:amethyst_block
-setblock 285 0 -511 minecraft:mossy_stone_bricks
-setblock 284 0 -511 minecraft:tuff
-setblock 291 0 -511 minecraft:chiseled_nether_bricks
-setblock 290 0 -511 minecraft:prismarine_bricks
-setblock 289 0 -511 minecraft:bricks
-setblock 288 0 -511 minecraft:air
-setblock 295 0 -511 minecraft:magma_block
-setblock 294 0 -511 minecraft:amethyst_block
-setblock 293 0 -511 minecraft:shroomlight
-setblock 292 0 -511 minecraft:polished_deepslate
-setblock 299 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 298 0 -511 minecraft:black_terracotta
-setblock 297 0 -511 minecraft:redstone_lamp
-setblock 296 0 -511 minecraft:polished_granite
-setblock 303 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 302 0 -511 minecraft:gray_terracotta
-setblock 301 0 -511 minecraft:deepslate_gold_ore
-setblock 300 0 -511 minecraft:oak_planks
-setblock 307 0 -511 minecraft:deepslate_iron_ore
-setblock 306 0 -511 minecraft:smooth_basalt
-setblock 305 0 -511 minecraft:shroomlight
-setblock 304 0 -511 minecraft:redstone_lamp
-setblock 311 0 -511 minecraft:black_stained_glass
-setblock 310 0 -511 minecraft:nether_gold_ore
-setblock 309 0 -511 minecraft:packed_mud
-setblock 308 0 -511 minecraft:ancient_debris
-setblock 315 0 -511 minecraft:magma_block
-setblock 314 0 -511 minecraft:mossy_stone_bricks
-setblock 313 0 -511 minecraft:air
-setblock 312 0 -511 minecraft:nether_gold_ore
-setblock 319 0 -511 minecraft:magma_block
-setblock 318 0 -511 minecraft:stripped_mangrove_log
-setblock 317 0 -511 minecraft:crimson_nylium
-setblock 316 0 -511 minecraft:purpur_pillar
-setblock 323 0 -511 minecraft:light_blue_stained_glass
-setblock 322 0 -511 minecraft:polished_blackstone_bricks
-setblock 321 0 -511 minecraft:mossy_stone_bricks
-setblock 320 0 -511 minecraft:purple_terracotta
-setblock 327 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 326 0 -511 minecraft:amethyst_block
-setblock 325 0 -511 minecraft:deepslate_gold_ore
-setblock 324 0 -511 minecraft:polished_deepslate
-setblock 331 0 -511 minecraft:black_stained_glass
-setblock 330 0 -511 minecraft:nether_gold_ore
-setblock 329 0 -511 minecraft:slime_block
-setblock 328 0 -511 minecraft:nether_gold_ore
-setblock 335 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 334 0 -511 minecraft:gray_terracotta
-setblock 333 0 -511 minecraft:amethyst_block
-setblock 332 0 -511 minecraft:polished_granite
-setblock 339 0 -511 minecraft:black_stained_glass
-setblock 338 0 -511 minecraft:nether_gold_ore
-setblock 337 0 -511 minecraft:black_glazed_terracotta
-setblock 336 0 -511 minecraft:nether_gold_ore
-setblock 343 0 -511 minecraft:mangrove_planks
-setblock 342 0 -511 minecraft:crimson_stem
-setblock 341 0 -511 minecraft:calcite
-setblock 340 0 -511 minecraft:pink_glazed_terracotta
-setblock 347 0 -511 minecraft:chiseled_nether_bricks
-setblock 346 0 -511 minecraft:mossy_stone_bricks
-setblock 345 0 -511 minecraft:polished_granite
-setblock 344 0 -511 minecraft:air
-setblock 351 0 -511 minecraft:chiseled_nether_bricks
-setblock 350 0 -511 minecraft:granite
-setblock 349 0 -511 minecraft:white_glazed_terracotta
-setblock 348 0 -511 minecraft:oak_planks
-setblock 355 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 354 0 -511 minecraft:granite
-setblock 353 0 -511 minecraft:deepslate_gold_ore
-setblock 352 0 -511 minecraft:oak_log
-setblock 359 0 -511 minecraft:magma_block
-setblock 358 0 -511 minecraft:shroomlight
-setblock 357 0 -511 minecraft:mossy_stone_bricks
-setblock 356 0 -511 minecraft:tuff
-setblock 363 0 -511 minecraft:chiseled_nether_bricks
-setblock 362 0 -511 minecraft:prismarine_bricks
-setblock 361 0 -511 minecraft:bricks
-setblock 360 0 -511 minecraft:air
-setblock 367 0 -511 minecraft:magma_block
-setblock 366 0 -511 minecraft:shroomlight
-setblock 365 0 -511 minecraft:crimson_nylium
-setblock 364 0 -511 minecraft:deepslate_bricks
-setblock 371 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 370 0 -511 minecraft:black_terracotta
-setblock 369 0 -511 minecraft:slime_block
-setblock 368 0 -511 minecraft:diorite
-setblock 375 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 374 0 -511 minecraft:gray_terracotta
-setblock 373 0 -511 minecraft:deepslate_gold_ore
-setblock 372 0 -511 minecraft:oak_planks
-setblock 379 0 -511 minecraft:deepslate_iron_ore
-setblock 378 0 -511 minecraft:smooth_basalt
-setblock 377 0 -511 minecraft:shroomlight
-setblock 376 0 -511 minecraft:redstone_lamp
-setblock 383 0 -511 minecraft:black_stained_glass
-setblock 382 0 -511 minecraft:air
-setblock 381 0 -511 minecraft:air
-setblock 380 0 -511 minecraft:orange_wool
-setblock 387 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 386 0 -511 minecraft:mangrove_planks
-setblock 385 0 -511 minecraft:air
-setblock 384 0 -511 minecraft:nether_gold_ore
-setblock 391 0 -511 minecraft:magma_block
-setblock 390 0 -511 minecraft:prismarine_bricks
-setblock 389 0 -511 minecraft:deepslate_gold_ore
-setblock 388 0 -511 minecraft:purpur_block
-setblock 395 0 -511 minecraft:light_blue_stained_glass
-setblock 394 0 -511 minecraft:pearlescent_froglight
-setblock 393 0 -511 minecraft:mossy_stone_bricks
-setblock 392 0 -511 minecraft:red_concrete
-setblock 399 0 -511 minecraft:pumpkin
-setblock 398 0 -511 minecraft:stripped_mangrove_log
-setblock 397 0 -511 minecraft:stone_bricks
-setblock 396 0 -511 minecraft:gray_glazed_terracotta
-setblock 403 0 -511 minecraft:magma_block
-setblock 402 0 -511 minecraft:end_stone
-setblock 401 0 -511 minecraft:shroomlight
-setblock 400 0 -511 minecraft:purpur_block
-setblock 407 0 -511 minecraft:light_blue_stained_glass
-setblock 406 0 -511 minecraft:prismarine_bricks
-setblock 405 0 -511 minecraft:mossy_stone_bricks
-setblock 404 0 -511 minecraft:light_gray_terracotta
-setblock 411 0 -511 minecraft:pumpkin
-setblock 410 0 -511 minecraft:stripped_crimson_stem
-setblock 409 0 -511 minecraft:sea_lantern
-setblock 408 0 -511 minecraft:lime_glazed_terracotta
-setblock 415 0 -511 minecraft:mangrove_planks
-setblock 414 0 -511 minecraft:stripped_crimson_stem
-setblock 413 0 -511 minecraft:calcite
-setblock 412 0 -511 minecraft:pink_glazed_terracotta
-setblock 419 0 -511 minecraft:magma_block
-setblock 418 0 -511 minecraft:amethyst_block
-setblock 417 0 -511 minecraft:amethyst_block
-setblock 416 0 -511 minecraft:diorite
-setblock 423 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 422 0 -511 minecraft:gray_terracotta
-setblock 421 0 -511 minecraft:deepslate_gold_ore
-setblock 420 0 -511 minecraft:oak_planks
-setblock 427 0 -511 minecraft:magma_block
-setblock 426 0 -511 minecraft:end_stone
-setblock 425 0 -511 minecraft:shroomlight
-setblock 424 0 -511 minecraft:purpur_block
-setblock 431 0 -511 minecraft:deepslate_iron_ore
-setblock 430 0 -511 minecraft:chiseled_polished_blackstone
-setblock 429 0 -511 minecraft:mossy_stone_bricks
-setblock 428 0 -511 minecraft:shroomlight
-setblock 435 0 -511 minecraft:pumpkin
-setblock 434 0 -511 minecraft:stripped_mangrove_log
-setblock 433 0 -511 minecraft:calcite
-setblock 432 0 -511 minecraft:pink_glazed_terracotta
-setblock 439 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 438 0 -511 minecraft:granite
-setblock 437 0 -511 minecraft:air
-setblock 436 0 -511 minecraft:nether_gold_ore
-setblock 443 0 -511 minecraft:chiseled_nether_bricks
-setblock 442 0 -511 minecraft:mossy_stone_bricks
-setblock 441 0 -511 minecraft:polished_granite
-setblock 440 0 -511 minecraft:air
-setblock 447 0 -511 minecraft:magma_block
-setblock 446 0 -511 minecraft:shroomlight
-setblock 445 0 -511 minecraft:crimson_nylium
-setblock 444 0 -511 minecraft:stone
-setblock 451 0 -511 minecraft:chiseled_nether_bricks
-setblock 450 0 -511 minecraft:granite
-setblock 449 0 -511 minecraft:nether_gold_ore
-setblock 448 0 -511 minecraft:oak_planks
-setblock 455 0 -511 minecraft:magma_block
-setblock 454 0 -511 minecraft:end_stone_bricks
-setblock 453 0 -511 minecraft:verdant_froglight
-setblock 452 0 -511 minecraft:spruce_log
-setblock 459 0 -511 minecraft:magma_block
-setblock 458 0 -511 minecraft:amethyst_block
-setblock 457 0 -511 minecraft:mossy_stone_bricks
-setblock 456 0 -511 minecraft:tuff
-setblock 463 0 -511 minecraft:chiseled_nether_bricks
-setblock 462 0 -511 minecraft:prismarine_bricks
-setblock 461 0 -511 minecraft:bricks
-setblock 460 0 -511 minecraft:air
-setblock 467 0 -511 minecraft:magma_block
-setblock 466 0 -511 minecraft:amethyst_block
-setblock 465 0 -511 minecraft:shroomlight
-setblock 464 0 -511 minecraft:polished_deepslate
-setblock 471 0 -511 minecraft:magma_block
-setblock 470 0 -511 minecraft:shroomlight
-setblock 469 0 -511 minecraft:shroomlight
-setblock 468 0 -511 minecraft:diorite
-setblock 475 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 474 0 -511 minecraft:black_terracotta
-setblock 473 0 -511 minecraft:redstone_lamp
-setblock 472 0 -511 minecraft:air
-setblock 479 0 -511 minecraft:deepslate_iron_ore
-setblock 478 0 -511 minecraft:smooth_basalt
-setblock 477 0 -511 minecraft:shroomlight
-setblock 476 0 -511 minecraft:redstone_lamp
-setblock 483 0 -511 minecraft:pumpkin
-setblock 482 0 -511 minecraft:lapis_block
-setblock 481 0 -511 minecraft:blue_ice
-setblock 480 0 -511 minecraft:blue_glazed_terracotta
-setblock 487 0 -511 minecraft:light_blue_concrete
-setblock 486 0 -511 minecraft:gray_terracotta
-setblock 485 0 -511 minecraft:amethyst_block
-setblock 484 0 -511 minecraft:nether_gold_ore
-setblock 491 0 -511 minecraft:black_stained_glass
-setblock 490 0 -511 minecraft:air
-setblock 489 0 -511 minecraft:white_concrete
-setblock 488 0 -511 minecraft:stripped_birch_log
-setblock 495 0 -511 minecraft:light_blue_glazed_terracotta
-setblock 494 0 -511 minecraft:mangrove_planks
-setblock 493 0 -511 minecraft:air
-setblock 492 0 -511 minecraft:nether_gold_ore
-setblock 499 0 -511 minecraft:magma_block
-setblock 498 0 -511 minecraft:prismarine_bricks
-setblock 497 0 -511 minecraft:deepslate_gold_ore
-setblock 496 0 -511 minecraft:purpur_block
-setblock 503 0 -511 minecraft:light_blue_stained_glass
-setblock 502 0 -511 minecraft:cracked_nether_bricks
-setblock 501 0 -511 minecraft:mossy_stone_bricks
-setblock 500 0 -511 minecraft:light_gray_concrete
-setblock 507 0 -511 minecraft:pumpkin
-setblock 506 0 -511 minecraft:stripped_mangrove_log
-setblock 505 0 -511 minecraft:stone_bricks
-setblock 504 0 -511 minecraft:gray_glazed_terracotta
-setblock 511 0 -511 minecraft:magma_block
-setblock 510 0 -511 minecraft:end_stone
-setblock 509 0 -511 minecraft:shroomlight
-setblock 508 0 -511 minecraft:purpur_block
-setblock -509 0 -510 minecraft:light_blue_stained_glass
-setblock -510 0 -510 minecraft:hay_block
-setblock -511 0 -510 minecraft:mossy_stone_bricks
-setblock -512 0 -510 minecraft:white_terracotta
-setblock -505 0 -510 minecraft:pumpkin
-setblock -506 0 -510 minecraft:stripped_crimson_stem
-setblock -507 0 -510 minecraft:sea_lantern
-setblock -508 0 -510 minecraft:lime_glazed_terracotta
-setblock -501 0 -510 minecraft:mangrove_planks
-setblock -502 0 -510 minecraft:stripped_crimson_stem
-setblock -503 0 -510 minecraft:calcite
-setblock -504 0 -510 minecraft:pink_glazed_terracotta
-setblock -497 0 -510 minecraft:magma_block
-setblock -498 0 -510 minecraft:amethyst_block
-setblock -499 0 -510 minecraft:amethyst_block
-setblock -500 0 -510 minecraft:diorite
-setblock -493 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -494 0 -510 minecraft:gray_terracotta
-setblock -495 0 -510 minecraft:deepslate_gold_ore
-setblock -496 0 -510 minecraft:oak_planks
-setblock -489 0 -510 minecraft:magma_block
-setblock -490 0 -510 minecraft:end_stone
-setblock -491 0 -510 minecraft:shroomlight
-setblock -492 0 -510 minecraft:purpur_block
-setblock -485 0 -510 minecraft:deepslate_iron_ore
-setblock -486 0 -510 minecraft:chiseled_polished_blackstone
-setblock -487 0 -510 minecraft:mossy_stone_bricks
-setblock -488 0 -510 minecraft:shroomlight
-setblock -481 0 -510 minecraft:pumpkin
-setblock -482 0 -510 minecraft:stripped_mangrove_log
-setblock -483 0 -510 minecraft:calcite
-setblock -484 0 -510 minecraft:pink_glazed_terracotta
-setblock -477 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -478 0 -510 minecraft:granite
-setblock -479 0 -510 minecraft:air
-setblock -480 0 -510 minecraft:nether_gold_ore
-setblock -473 0 -510 minecraft:chiseled_nether_bricks
-setblock -474 0 -510 minecraft:mossy_stone_bricks
-setblock -475 0 -510 minecraft:polished_granite
-setblock -476 0 -510 minecraft:air
-setblock -469 0 -510 minecraft:magma_block
-setblock -470 0 -510 minecraft:shroomlight
-setblock -471 0 -510 minecraft:crimson_nylium
-setblock -472 0 -510 minecraft:stone
-setblock -465 0 -510 minecraft:chiseled_nether_bricks
-setblock -466 0 -510 minecraft:granite
-setblock -467 0 -510 minecraft:nether_gold_ore
-setblock -468 0 -510 minecraft:oak_planks
-setblock -461 0 -510 minecraft:magma_block
-setblock -462 0 -510 minecraft:end_stone_bricks
-setblock -463 0 -510 minecraft:verdant_froglight
-setblock -464 0 -510 minecraft:spruce_log
-setblock -457 0 -510 minecraft:magma_block
-setblock -458 0 -510 minecraft:amethyst_block
-setblock -459 0 -510 minecraft:mossy_stone_bricks
-setblock -460 0 -510 minecraft:tuff
-setblock -453 0 -510 minecraft:chiseled_nether_bricks
-setblock -454 0 -510 minecraft:prismarine_bricks
-setblock -455 0 -510 minecraft:bricks
-setblock -456 0 -510 minecraft:air
-setblock -449 0 -510 minecraft:magma_block
-setblock -450 0 -510 minecraft:amethyst_block
-setblock -451 0 -510 minecraft:shroomlight
-setblock -452 0 -510 minecraft:polished_deepslate
-setblock -445 0 -510 minecraft:magma_block
-setblock -446 0 -510 minecraft:shroomlight
-setblock -447 0 -510 minecraft:shroomlight
-setblock -448 0 -510 minecraft:diorite
-setblock -441 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -442 0 -510 minecraft:black_terracotta
-setblock -443 0 -510 minecraft:redstone_lamp
-setblock -444 0 -510 minecraft:air
-setblock -437 0 -510 minecraft:deepslate_iron_ore
-setblock -438 0 -510 minecraft:smooth_basalt
-setblock -439 0 -510 minecraft:shroomlight
-setblock -440 0 -510 minecraft:redstone_lamp
-setblock -433 0 -510 minecraft:pumpkin
-setblock -434 0 -510 minecraft:muddy_mangrove_roots
-setblock -435 0 -510 minecraft:blue_ice
-setblock -436 0 -510 minecraft:blue_glazed_terracotta
-setblock -429 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -430 0 -510 minecraft:stripped_mangrove_log
-setblock -431 0 -510 minecraft:air
-setblock -432 0 -510 minecraft:air
-setblock -425 0 -510 minecraft:pumpkin
-setblock -426 0 -510 minecraft:lapis_block
-setblock -427 0 -510 minecraft:mossy_stone_bricks
-setblock -428 0 -510 minecraft:brown_glazed_terracotta
-setblock -421 0 -510 minecraft:light_blue_concrete
-setblock -422 0 -510 minecraft:gray_terracotta
-setblock -423 0 -510 minecraft:crimson_nylium
-setblock -424 0 -510 minecraft:nether_quartz_ore
-setblock -417 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -418 0 -510 minecraft:gray_terracotta
-setblock -419 0 -510 minecraft:amethyst_block
-setblock -420 0 -510 minecraft:polished_deepslate
-setblock -413 0 -510 minecraft:black_stained_glass
-setblock -414 0 -510 minecraft:air
-setblock -415 0 -510 minecraft:grass_block
-setblock -416 0 -510 minecraft:birch_log
-setblock -409 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -410 0 -510 minecraft:stripped_mangrove_log
-setblock -411 0 -510 minecraft:air
-setblock -412 0 -510 minecraft:air
-setblock -405 0 -510 minecraft:mangrove_planks
-setblock -406 0 -510 minecraft:target
-setblock -407 0 -510 minecraft:mossy_stone_bricks
-setblock -408 0 -510 minecraft:light_gray_glazed_terracotta
-setblock -401 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -402 0 -510 minecraft:stripped_mangrove_log
-setblock -403 0 -510 minecraft:air
-setblock -404 0 -510 minecraft:air
-setblock -397 0 -510 minecraft:mangrove_planks
-setblock -398 0 -510 minecraft:lapis_block
-setblock -399 0 -510 minecraft:red_concrete
-setblock -400 0 -510 minecraft:blue_glazed_terracotta
-setblock -393 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -394 0 -510 minecraft:redstone_lamp
-setblock -395 0 -510 minecraft:deepslate_gold_ore
-setblock -396 0 -510 minecraft:diorite
-setblock -389 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -390 0 -510 minecraft:stripped_mangrove_log
-setblock -391 0 -510 minecraft:air
-setblock -392 0 -510 minecraft:air
-setblock -385 0 -510 minecraft:pumpkin
-setblock -386 0 -510 minecraft:muddy_mangrove_roots
-setblock -387 0 -510 minecraft:red_concrete
-setblock -388 0 -510 minecraft:light_gray_glazed_terracotta
-setblock -381 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -382 0 -510 minecraft:stripped_mangrove_log
-setblock -383 0 -510 minecraft:air
-setblock -384 0 -510 minecraft:air
-setblock -377 0 -510 minecraft:pumpkin
-setblock -378 0 -510 minecraft:target
-setblock -379 0 -510 minecraft:red_concrete
-setblock -380 0 -510 minecraft:gray_glazed_terracotta
-setblock -373 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -374 0 -510 minecraft:gray_terracotta
-setblock -375 0 -510 minecraft:deepslate_diamond_ore
-setblock -376 0 -510 minecraft:air
-setblock -369 0 -510 minecraft:magma_block
-setblock -370 0 -510 minecraft:gray_terracotta
-setblock -371 0 -510 minecraft:crimson_nylium
-setblock -372 0 -510 minecraft:deepslate_bricks
-setblock -365 0 -510 minecraft:magma_block
-setblock -366 0 -510 minecraft:end_stone
-setblock -367 0 -510 minecraft:mangrove_planks
-setblock -368 0 -510 minecraft:grass_block
-setblock -361 0 -510 minecraft:magma_block
-setblock -362 0 -510 minecraft:amethyst_block
-setblock -363 0 -510 minecraft:mossy_stone_bricks
-setblock -364 0 -510 minecraft:tuff
-setblock -357 0 -510 minecraft:packed_ice
-setblock -358 0 -510 minecraft:amethyst_block
-setblock -359 0 -510 minecraft:crimson_nylium
-setblock -360 0 -510 minecraft:orange_terracotta
-setblock -353 0 -510 minecraft:magma_block
-setblock -354 0 -510 minecraft:end_stone
-setblock -355 0 -510 minecraft:redstone_lamp
-setblock -356 0 -510 minecraft:purpur_block
-setblock -349 0 -510 minecraft:light_blue_stained_glass
-setblock -350 0 -510 minecraft:warped_stem
-setblock -351 0 -510 minecraft:mossy_stone_bricks
-setblock -352 0 -510 minecraft:red_stained_glass
-setblock -345 0 -510 minecraft:magma_block
-setblock -346 0 -510 minecraft:amethyst_block
-setblock -347 0 -510 minecraft:crimson_nylium
-setblock -348 0 -510 minecraft:stone
-setblock -341 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -342 0 -510 minecraft:polished_basalt
-setblock -343 0 -510 minecraft:amethyst_block
-setblock -344 0 -510 minecraft:oak_log
-setblock -337 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -338 0 -510 minecraft:stripped_mangrove_log
-setblock -339 0 -510 minecraft:air
-setblock -340 0 -510 minecraft:air
-setblock -333 0 -510 minecraft:pumpkin
-setblock -334 0 -510 minecraft:gold_block
-setblock -335 0 -510 minecraft:moss_block
-setblock -336 0 -510 minecraft:light_gray_glazed_terracotta
-setblock -329 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -330 0 -510 minecraft:gray_terracotta
-setblock -331 0 -510 minecraft:amethyst_block
-setblock -332 0 -510 minecraft:polished_granite
-setblock -325 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -326 0 -510 minecraft:stripped_mangrove_log
-setblock -327 0 -510 minecraft:air
-setblock -328 0 -510 minecraft:air
-setblock -321 0 -510 minecraft:mangrove_planks
-setblock -322 0 -510 minecraft:quartz_block
-setblock -323 0 -510 minecraft:mossy_stone_bricks
-setblock -324 0 -510 minecraft:cyan_glazed_terracotta
-setblock -317 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -318 0 -510 minecraft:stripped_mangrove_log
-setblock -319 0 -510 minecraft:air
-setblock -320 0 -510 minecraft:air
-setblock -313 0 -510 minecraft:pumpkin
-setblock -314 0 -510 minecraft:netherite_block
-setblock -315 0 -510 minecraft:red_concrete
-setblock -316 0 -510 minecraft:cyan_glazed_terracotta
-setblock -309 0 -510 minecraft:magma_block
-setblock -310 0 -510 minecraft:yellow_terracotta
-setblock -311 0 -510 minecraft:polished_basalt
-setblock -312 0 -510 minecraft:polished_deepslate
-setblock -305 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -306 0 -510 minecraft:stripped_mangrove_log
-setblock -307 0 -510 minecraft:air
-setblock -308 0 -510 minecraft:air
-setblock -301 0 -510 minecraft:pumpkin
-setblock -302 0 -510 minecraft:quartz_block
-setblock -303 0 -510 minecraft:prismarine_bricks
-setblock -304 0 -510 minecraft:cyan_glazed_terracotta
-setblock -297 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -298 0 -510 minecraft:stripped_mangrove_log
-setblock -299 0 -510 minecraft:air
-setblock -300 0 -510 minecraft:air
-setblock -293 0 -510 minecraft:mangrove_planks
-setblock -294 0 -510 minecraft:quartz_bricks
-setblock -295 0 -510 minecraft:moss_block
-setblock -296 0 -510 minecraft:cyan_glazed_terracotta
-setblock -289 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -290 0 -510 minecraft:stripped_mangrove_log
-setblock -291 0 -510 minecraft:air
-setblock -292 0 -510 minecraft:air
-setblock -285 0 -510 minecraft:pumpkin
-setblock -286 0 -510 minecraft:chiseled_quartz_block
-setblock -287 0 -510 minecraft:mossy_stone_bricks
-setblock -288 0 -510 minecraft:purple_glazed_terracotta
-setblock -281 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -282 0 -510 minecraft:purple_terracotta
-setblock -283 0 -510 minecraft:gray_concrete
-setblock -284 0 -510 minecraft:deepslate_bricks
-setblock -277 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -278 0 -510 minecraft:stripped_mangrove_log
-setblock -279 0 -510 minecraft:air
-setblock -280 0 -510 minecraft:air
-setblock -273 0 -510 minecraft:mangrove_planks
-setblock -274 0 -510 minecraft:chiseled_quartz_block
-setblock -275 0 -510 minecraft:red_concrete
-setblock -276 0 -510 minecraft:purple_glazed_terracotta
-setblock -269 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -270 0 -510 minecraft:stripped_mangrove_log
-setblock -271 0 -510 minecraft:air
-setblock -272 0 -510 minecraft:air
-setblock -265 0 -510 minecraft:mangrove_planks
-setblock -266 0 -510 minecraft:gold_block
-setblock -267 0 -510 minecraft:prismarine_bricks
-setblock -268 0 -510 minecraft:purple_glazed_terracotta
-setblock -261 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -262 0 -510 minecraft:stripped_crimson_stem
-setblock -263 0 -510 minecraft:air
-setblock -264 0 -510 minecraft:air
-setblock -257 0 -510 minecraft:pumpkin
-setblock -258 0 -510 minecraft:muddy_mangrove_roots
-setblock -259 0 -510 minecraft:calcite
-setblock -260 0 -510 minecraft:purple_glazed_terracotta
-setblock -253 0 -510 minecraft:magma_block
-setblock -254 0 -510 minecraft:cyan_terracotta
-setblock -255 0 -510 minecraft:gray_wool
-setblock -256 0 -510 minecraft:deepslate_bricks
-setblock -249 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -250 0 -510 minecraft:stripped_mangrove_log
-setblock -251 0 -510 minecraft:air
-setblock -252 0 -510 minecraft:air
-setblock -245 0 -510 minecraft:mangrove_planks
-setblock -246 0 -510 minecraft:netherite_block
-setblock -247 0 -510 minecraft:mossy_stone_bricks
-setblock -248 0 -510 minecraft:blue_glazed_terracotta
-setblock -241 0 -510 minecraft:magma_block
-setblock -242 0 -510 minecraft:granite
-setblock -243 0 -510 minecraft:air
-setblock -244 0 -510 minecraft:nether_gold_ore
-setblock -237 0 -510 minecraft:magma_block
-setblock -238 0 -510 minecraft:raw_copper_block
-setblock -239 0 -510 minecraft:raw_copper_block
-setblock -240 0 -510 minecraft:polished_granite
-setblock -233 0 -510 minecraft:magma_block
-setblock -234 0 -510 minecraft:purple_terracotta
-setblock -235 0 -510 minecraft:gray_glazed_terracotta
-setblock -236 0 -510 minecraft:deepslate_bricks
-setblock -229 0 -510 minecraft:magma_block
-setblock -230 0 -510 minecraft:amethyst_block
-setblock -231 0 -510 minecraft:polished_basalt
-setblock -232 0 -510 minecraft:air
-setblock -225 0 -510 minecraft:magma_block
-setblock -226 0 -510 minecraft:yellow_terracotta
-setblock -227 0 -510 minecraft:chiseled_polished_blackstone
-setblock -228 0 -510 minecraft:polished_granite
-setblock -221 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -222 0 -510 minecraft:purple_terracotta
-setblock -223 0 -510 minecraft:pumpkin
-setblock -224 0 -510 minecraft:deepslate_bricks
-setblock -217 0 -510 minecraft:magma_block
-setblock -218 0 -510 minecraft:amethyst_block
-setblock -219 0 -510 minecraft:polished_basalt
-setblock -220 0 -510 minecraft:air
-setblock -213 0 -510 minecraft:magma_block
-setblock -214 0 -510 minecraft:raw_copper_block
-setblock -215 0 -510 minecraft:gilded_blackstone
-setblock -216 0 -510 minecraft:polished_granite
-setblock -209 0 -510 minecraft:magma_block
-setblock -210 0 -510 minecraft:cyan_terracotta
-setblock -211 0 -510 minecraft:gray_terracotta
-setblock -212 0 -510 minecraft:deepslate_bricks
-setblock -205 0 -510 minecraft:magma_block
-setblock -206 0 -510 minecraft:amethyst_block
-setblock -207 0 -510 minecraft:polished_basalt
-setblock -208 0 -510 minecraft:air
-setblock -201 0 -510 minecraft:magma_block
-setblock -202 0 -510 minecraft:brown_mushroom_block
-setblock -203 0 -510 minecraft:chiseled_polished_blackstone
-setblock -204 0 -510 minecraft:polished_granite
-setblock -197 0 -510 minecraft:magma_block
-setblock -198 0 -510 minecraft:yellow_terracotta
-setblock -199 0 -510 minecraft:gray_stained_glass
-setblock -200 0 -510 minecraft:deepslate_bricks
-setblock -193 0 -510 minecraft:magma_block
-setblock -194 0 -510 minecraft:amethyst_block
-setblock -195 0 -510 minecraft:gray_glazed_terracotta
-setblock -196 0 -510 minecraft:oak_planks
-setblock -189 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -190 0 -510 minecraft:purple_terracotta
-setblock -191 0 -510 minecraft:purple_glazed_terracotta
-setblock -192 0 -510 minecraft:diorite
-setblock -185 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -186 0 -510 minecraft:yellow_terracotta
-setblock -187 0 -510 minecraft:pumpkin
-setblock -188 0 -510 minecraft:polished_deepslate
-setblock -181 0 -510 minecraft:magma_block
-setblock -182 0 -510 minecraft:amethyst_block
-setblock -183 0 -510 minecraft:gray_concrete
-setblock -184 0 -510 minecraft:oak_planks
-setblock -177 0 -510 minecraft:magma_block
-setblock -178 0 -510 minecraft:note_block
-setblock -179 0 -510 minecraft:cyan_concrete
-setblock -180 0 -510 minecraft:diorite
-setblock -173 0 -510 minecraft:magma_block
-setblock -174 0 -510 minecraft:red_terracotta
-setblock -175 0 -510 minecraft:crimson_nylium
-setblock -176 0 -510 minecraft:deepslate_bricks
-setblock -169 0 -510 minecraft:magma_block
-setblock -170 0 -510 minecraft:amethyst_block
-setblock -171 0 -510 minecraft:gray_wool
-setblock -172 0 -510 minecraft:oak_planks
-setblock -165 0 -510 minecraft:magma_block
-setblock -166 0 -510 minecraft:raw_copper_block
-setblock -167 0 -510 minecraft:yellow_wool
-setblock -168 0 -510 minecraft:diorite
-setblock -161 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -162 0 -510 minecraft:gray_terracotta
-setblock -163 0 -510 minecraft:crimson_stem
-setblock -164 0 -510 minecraft:deepslate_bricks
-setblock -157 0 -510 minecraft:magma_block
-setblock -158 0 -510 minecraft:amethyst_block
-setblock -159 0 -510 minecraft:polished_basalt
-setblock -160 0 -510 minecraft:air
-setblock -153 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -154 0 -510 minecraft:yellow_terracotta
-setblock -155 0 -510 minecraft:red_nether_bricks
-setblock -156 0 -510 minecraft:polished_granite
-setblock -149 0 -510 minecraft:magma_block
-setblock -150 0 -510 minecraft:amethyst_block
-setblock -151 0 -510 minecraft:pumpkin
-setblock -152 0 -510 minecraft:air
-setblock -145 0 -510 minecraft:magma_block
-setblock -146 0 -510 minecraft:shroomlight
-setblock -147 0 -510 minecraft:prismarine_bricks
-setblock -148 0 -510 minecraft:polished_granite
-setblock -141 0 -510 minecraft:magma_block
-setblock -142 0 -510 minecraft:amethyst_block
-setblock -143 0 -510 minecraft:crimson_nylium
-setblock -144 0 -510 minecraft:oak_planks
-setblock -137 0 -510 minecraft:dirt
-setblock -138 0 -510 minecraft:shroomlight
-setblock -139 0 -510 minecraft:diamond_ore
-setblock -140 0 -510 minecraft:light_gray_terracotta
-setblock -133 0 -510 minecraft:magma_block
-setblock -134 0 -510 minecraft:cracked_polished_blackstone_bricks
-setblock -135 0 -510 minecraft:shroomlight
-setblock -136 0 -510 minecraft:purpur_pillar
-setblock -129 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -130 0 -510 minecraft:pumpkin
-setblock -131 0 -510 minecraft:verdant_froglight
-setblock -132 0 -510 minecraft:spruce_log
-setblock -125 0 -510 minecraft:light_blue_stained_glass
-setblock -126 0 -510 minecraft:wet_sponge
-setblock -127 0 -510 minecraft:stone_bricks
-setblock -128 0 -510 minecraft:air
-setblock -121 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -122 0 -510 minecraft:polished_basalt
-setblock -123 0 -510 minecraft:verdant_froglight
-setblock -124 0 -510 minecraft:spruce_log
-setblock -117 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -118 0 -510 minecraft:stripped_dark_oak_log
-setblock -119 0 -510 minecraft:air
-setblock -120 0 -510 minecraft:air
-setblock -113 0 -510 minecraft:pumpkin
-setblock -114 0 -510 minecraft:lapis_block
-setblock -115 0 -510 minecraft:prismarine
-setblock -116 0 -510 minecraft:blue_glazed_terracotta
-setblock -109 0 -510 minecraft:magma_block
-setblock -110 0 -510 minecraft:reinforced_deepslate
-setblock -111 0 -510 minecraft:amethyst_block
-setblock -112 0 -510 minecraft:purpur_block
-setblock -105 0 -510 minecraft:light_blue_stained_glass
-setblock -106 0 -510 minecraft:cracked_nether_bricks
-setblock -107 0 -510 minecraft:stone_bricks
-setblock -108 0 -510 minecraft:stripped_mangrove_log
-setblock -101 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -102 0 -510 minecraft:stripped_dark_oak_log
-setblock -103 0 -510 minecraft:air
-setblock -104 0 -510 minecraft:air
-setblock -97 0 -510 minecraft:pumpkin
-setblock -98 0 -510 minecraft:lapis_block
-setblock -99 0 -510 minecraft:green_concrete
-setblock -100 0 -510 minecraft:light_gray_glazed_terracotta
-setblock -93 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -94 0 -510 minecraft:stripped_dark_oak_log
-setblock -95 0 -510 minecraft:air
-setblock -96 0 -510 minecraft:air
-setblock -89 0 -510 minecraft:pumpkin
-setblock -90 0 -510 minecraft:target
-setblock -91 0 -510 minecraft:green_concrete
-setblock -92 0 -510 minecraft:gray_glazed_terracotta
-setblock -85 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -86 0 -510 minecraft:gray_terracotta
-setblock -87 0 -510 minecraft:redstone_lamp
-setblock -88 0 -510 minecraft:polished_deepslate
-setblock -81 0 -510 minecraft:magma_block
-setblock -82 0 -510 minecraft:reinforced_deepslate
-setblock -83 0 -510 minecraft:mangrove_planks
-setblock -84 0 -510 minecraft:grass_block
-setblock -77 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -78 0 -510 minecraft:amethyst_block
-setblock -79 0 -510 minecraft:stone_bricks
-setblock -80 0 -510 minecraft:tuff
-setblock -73 0 -510 minecraft:blue_concrete
-setblock -74 0 -510 minecraft:gray_terracotta
-setblock -75 0 -510 minecraft:amethyst_block
-setblock -76 0 -510 minecraft:nether_gold_ore
-setblock -69 0 -510 minecraft:magma_block
-setblock -70 0 -510 minecraft:cracked_polished_blackstone_bricks
-setblock -71 0 -510 minecraft:deepslate_diamond_ore
-setblock -72 0 -510 minecraft:purpur_block
-setblock -65 0 -510 minecraft:light_blue_stained_glass
-setblock -66 0 -510 minecraft:hay_block
-setblock -67 0 -510 minecraft:stone_bricks
-setblock -68 0 -510 minecraft:white_stained_glass
-setblock -61 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -62 0 -510 minecraft:gray_terracotta
-setblock -63 0 -510 minecraft:amethyst_block
-setblock -64 0 -510 minecraft:crimson_planks
-setblock -57 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -58 0 -510 minecraft:packed_mud
-setblock -59 0 -510 minecraft:deepslate_gold_ore
-setblock -60 0 -510 minecraft:oak_log
-setblock -53 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -54 0 -510 minecraft:stripped_dark_oak_log
-setblock -55 0 -510 minecraft:air
-setblock -56 0 -510 minecraft:air
-setblock -49 0 -510 minecraft:pumpkin
-setblock -50 0 -510 minecraft:chiseled_quartz_block
-setblock -51 0 -510 minecraft:snow_block
-setblock -52 0 -510 minecraft:light_gray_glazed_terracotta
-setblock -45 0 -510 minecraft:light_blue_glazed_terracotta
-setblock -46 0 -510 minecraft:black_terracotta
-setblock -47 0 -510 minecraft:deepslate_diamond_ore
-setblock -48 0 -510 minecraft:polished_granite
-setblock -41 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -42 0 -510 minecraft:stripped_dark_oak_log
-setblock -43 0 -510 minecraft:air
-setblock -44 0 -510 minecraft:air
-setblock -37 0 -510 minecraft:mangrove_planks
-setblock -38 0 -510 minecraft:chiseled_quartz_block
-setblock -39 0 -510 minecraft:stone_bricks
-setblock -40 0 -510 minecraft:cyan_glazed_terracotta
-setblock -33 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -34 0 -510 minecraft:stripped_dark_oak_log
-setblock -35 0 -510 minecraft:air
-setblock -36 0 -510 minecraft:air
-setblock -29 0 -510 minecraft:pumpkin
-setblock -30 0 -510 minecraft:quartz_block
-setblock -31 0 -510 minecraft:green_concrete
-setblock -32 0 -510 minecraft:cyan_glazed_terracotta
-setblock -25 0 -510 minecraft:magma_block
-setblock -26 0 -510 minecraft:blue_terracotta
-setblock -27 0 -510 minecraft:black_terracotta
-setblock -28 0 -510 minecraft:deepslate_bricks
-setblock -21 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -22 0 -510 minecraft:stripped_dark_oak_log
-setblock -23 0 -510 minecraft:air
-setblock -24 0 -510 minecraft:air
-setblock -17 0 -510 minecraft:mangrove_planks
-setblock -18 0 -510 minecraft:quartz_block
-setblock -19 0 -510 minecraft:prismarine
-setblock -20 0 -510 minecraft:cyan_glazed_terracotta
-setblock -13 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -14 0 -510 minecraft:stripped_dark_oak_log
-setblock -15 0 -510 minecraft:air
-setblock -16 0 -510 minecraft:air
-setblock -9 0 -510 minecraft:pumpkin
-setblock -10 0 -510 minecraft:netherite_block
-setblock -11 0 -510 minecraft:snow_block
-setblock -12 0 -510 minecraft:cyan_glazed_terracotta
-setblock -5 0 -510 minecraft:waxed_weathered_cut_copper
-setblock -6 0 -510 minecraft:stripped_dark_oak_log
-setblock -7 0 -510 minecraft:air
-setblock -8 0 -510 minecraft:air
-setblock -1 0 -510 minecraft:mangrove_planks
-setblock -2 0 -510 minecraft:netherite_block
-setblock -3 0 -510 minecraft:stone_bricks
-setblock -4 0 -510 minecraft:purple_glazed_terracotta
-setblock 3 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 2 0 -510 minecraft:blue_terracotta
-setblock 1 0 -510 minecraft:black_stained_glass
-setblock 0 0 -510 minecraft:deepslate_bricks
-setblock 7 0 -510 minecraft:waxed_weathered_cut_copper
-setblock 6 0 -510 minecraft:stripped_dark_oak_log
-setblock 5 0 -510 minecraft:air
-setblock 4 0 -510 minecraft:air
-setblock 11 0 -510 minecraft:mangrove_planks
-setblock 10 0 -510 minecraft:gold_block
-setblock 9 0 -510 minecraft:green_concrete
-setblock 8 0 -510 minecraft:purple_glazed_terracotta
-setblock 15 0 -510 minecraft:waxed_weathered_cut_copper
-setblock 14 0 -510 minecraft:stripped_dark_oak_log
-setblock 13 0 -510 minecraft:air
-setblock 12 0 -510 minecraft:air
-setblock 19 0 -510 minecraft:pumpkin
-setblock 18 0 -510 minecraft:target
-setblock 17 0 -510 minecraft:prismarine
-setblock 16 0 -510 minecraft:purple_glazed_terracotta
-setblock 23 0 -510 minecraft:pumpkin
-setblock 22 0 -510 minecraft:lapis_block
-setblock 21 0 -510 minecraft:calcite
-setblock 20 0 -510 minecraft:purple_glazed_terracotta
-setblock 27 0 -510 minecraft:pumpkin
-setblock 26 0 -510 minecraft:gold_block
-setblock 25 0 -510 minecraft:mossy_stone_bricks
-setblock 24 0 -510 minecraft:blue_glazed_terracotta
-setblock 31 0 -510 minecraft:magma_block
-setblock 30 0 -510 minecraft:purple_terracotta
-setblock 29 0 -510 minecraft:black_glazed_terracotta
-setblock 28 0 -510 minecraft:deepslate_bricks
-setblock 35 0 -510 minecraft:magma_block
-setblock 34 0 -510 minecraft:red_mushroom_block
-setblock 33 0 -510 minecraft:deepslate_emerald_ore
-setblock 32 0 -510 minecraft:polished_granite
-setblock 39 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 38 0 -510 minecraft:purple_terracotta
-setblock 37 0 -510 minecraft:black_concrete
-setblock 36 0 -510 minecraft:deepslate_bricks
-setblock 43 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 42 0 -510 minecraft:gray_terracotta
-setblock 41 0 -510 minecraft:gray_terracotta
-setblock 40 0 -510 minecraft:oak_planks
-setblock 47 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 46 0 -510 minecraft:blue_terracotta
-setblock 45 0 -510 minecraft:blue_terracotta
-setblock 44 0 -510 minecraft:diorite
-setblock 51 0 -510 minecraft:magma_block
-setblock 50 0 -510 minecraft:cyan_terracotta
-setblock 49 0 -510 minecraft:black_wool
-setblock 48 0 -510 minecraft:deepslate_bricks
-setblock 55 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 54 0 -510 minecraft:gray_terracotta
-setblock 53 0 -510 minecraft:gray_stained_glass
-setblock 52 0 -510 minecraft:oak_planks
-setblock 59 0 -510 minecraft:magma_block
-setblock 58 0 -510 minecraft:brown_mushroom_block
-setblock 57 0 -510 minecraft:purple_stained_glass
-setblock 56 0 -510 minecraft:diorite
-setblock 63 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 62 0 -510 minecraft:cyan_terracotta
-setblock 61 0 -510 minecraft:stripped_crimson_stem
-setblock 60 0 -510 minecraft:deepslate_bricks
-setblock 67 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 66 0 -510 minecraft:gray_terracotta
-setblock 65 0 -510 minecraft:gray_glazed_terracotta
-setblock 64 0 -510 minecraft:oak_planks
-setblock 71 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 70 0 -510 minecraft:purple_terracotta
-setblock 69 0 -510 minecraft:purple_glazed_terracotta
-setblock 68 0 -510 minecraft:diorite
-setblock 75 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 74 0 -510 minecraft:yellow_terracotta
-setblock 73 0 -510 minecraft:dark_prismarine
-setblock 72 0 -510 minecraft:polished_deepslate
-setblock 79 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 78 0 -510 minecraft:gray_terracotta
-setblock 77 0 -510 minecraft:gray_concrete
-setblock 76 0 -510 minecraft:oak_planks
-setblock 83 0 -510 minecraft:magma_block
-setblock 82 0 -510 minecraft:note_block
-setblock 81 0 -510 minecraft:cyan_concrete
-setblock 80 0 -510 minecraft:diorite
-setblock 87 0 -510 minecraft:magma_block
-setblock 86 0 -510 minecraft:black_terracotta
-setblock 85 0 -510 minecraft:redstone_lamp
-setblock 84 0 -510 minecraft:deepslate_bricks
-setblock 91 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 90 0 -510 minecraft:gray_terracotta
-setblock 89 0 -510 minecraft:gray_wool
-setblock 88 0 -510 minecraft:oak_planks
-setblock 95 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 94 0 -510 minecraft:cyan_terracotta
-setblock 93 0 -510 minecraft:cyan_wool
-setblock 92 0 -510 minecraft:diorite
-setblock 99 0 -510 minecraft:magma_block
-setblock 98 0 -510 minecraft:gray_terracotta
-setblock 97 0 -510 minecraft:redstone_lamp
-setblock 96 0 -510 minecraft:polished_deepslate
-setblock 103 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 102 0 -510 minecraft:gray_terracotta
-setblock 101 0 -510 minecraft:crimson_stem
-setblock 100 0 -510 minecraft:oak_planks
-setblock 107 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 106 0 -510 minecraft:yellow_terracotta
-setblock 105 0 -510 minecraft:acacia_log
-setblock 104 0 -510 minecraft:diorite
-setblock 111 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 110 0 -510 minecraft:black_terracotta
-setblock 109 0 -510 minecraft:end_stone_bricks
-setblock 108 0 -510 minecraft:polished_deepslate
-setblock 115 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 114 0 -510 minecraft:gray_terracotta
-setblock 113 0 -510 minecraft:pumpkin
-setblock 112 0 -510 minecraft:air
-setblock 119 0 -510 minecraft:magma_block
-setblock 118 0 -510 minecraft:redstone_lamp
-setblock 117 0 -510 minecraft:dark_prismarine
-setblock 116 0 -510 minecraft:polished_granite
-setblock 123 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 122 0 -510 minecraft:gray_terracotta
-setblock 121 0 -510 minecraft:amethyst_block
-setblock 120 0 -510 minecraft:oak_planks
-setblock 127 0 -510 minecraft:magma_block
-setblock 126 0 -510 minecraft:amethyst_block
-setblock 125 0 -510 minecraft:amethyst_block
-setblock 124 0 -510 minecraft:diorite
-setblock 131 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 130 0 -510 minecraft:gray_terracotta
-setblock 129 0 -510 minecraft:amethyst_block
-setblock 128 0 -510 minecraft:air
-setblock 135 0 -510 minecraft:dirt
-setblock 134 0 -510 minecraft:amethyst_block
-setblock 133 0 -510 minecraft:deepslate_gold_ore
-setblock 132 0 -510 minecraft:orange_terracotta
-setblock 139 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 138 0 -510 minecraft:amethyst_block
-setblock 137 0 -510 minecraft:crimson_nylium
-setblock 136 0 -510 minecraft:deepslate_bricks
-setblock 143 0 -510 minecraft:waxed_cut_copper
-setblock 142 0 -510 minecraft:acacia_planks
-setblock 141 0 -510 minecraft:waxed_weathered_copper
-setblock 140 0 -510 minecraft:air
-setblock 147 0 -510 minecraft:crimson_stem
-setblock 146 0 -510 minecraft:purpur_block
-setblock 145 0 -510 minecraft:deepslate_copper_ore
-setblock 144 0 -510 minecraft:cobbled_deepslate
-setblock 151 0 -510 minecraft:black_stained_glass
-setblock 150 0 -510 minecraft:nether_gold_ore
-setblock 149 0 -510 minecraft:slime_block
-setblock 148 0 -510 minecraft:basalt
-setblock 155 0 -510 minecraft:waxed_weathered_cut_copper
-setblock 154 0 -510 minecraft:stripped_mangrove_log
-setblock 153 0 -510 minecraft:air
-setblock 152 0 -510 minecraft:air
-setblock 159 0 -510 minecraft:pumpkin
-setblock 158 0 -510 minecraft:target
-setblock 157 0 -510 minecraft:red_concrete
-setblock 156 0 -510 minecraft:blue_glazed_terracotta
-setblock 163 0 -510 minecraft:waxed_weathered_cut_copper
-setblock 162 0 -510 minecraft:stripped_mangrove_log
-setblock 161 0 -510 minecraft:air
-setblock 160 0 -510 minecraft:air
-setblock 167 0 -510 minecraft:mangrove_planks
-setblock 166 0 -510 minecraft:lapis_block
-setblock 165 0 -510 minecraft:mossy_stone_bricks
-setblock 164 0 -510 minecraft:light_gray_glazed_terracotta
-setblock 171 0 -510 minecraft:waxed_weathered_cut_copper
-setblock 170 0 -510 minecraft:stripped_mangrove_log
-setblock 169 0 -510 minecraft:air
-setblock 168 0 -510 minecraft:air
-setblock 175 0 -510 minecraft:pumpkin
-setblock 174 0 -510 minecraft:muddy_mangrove_roots
-setblock 173 0 -510 minecraft:red_concrete
-setblock 172 0 -510 minecraft:light_gray_glazed_terracotta
-setblock 179 0 -510 minecraft:light_blue_concrete
-setblock 178 0 -510 minecraft:amethyst_block
-setblock 177 0 -510 minecraft:deepslate_gold_ore
-setblock 176 0 -510 minecraft:budding_amethyst
-setblock 183 0 -510 minecraft:waxed_weathered_cut_copper
-setblock 182 0 -510 minecraft:stripped_mangrove_log
-setblock 181 0 -510 minecraft:air
-setblock 180 0 -510 minecraft:air
-setblock 187 0 -510 minecraft:mangrove_planks
-setblock 186 0 -510 minecraft:target
-setblock 185 0 -510 minecraft:red_concrete
-setblock 184 0 -510 minecraft:gray_glazed_terracotta
-setblock 191 0 -510 minecraft:magma_block
-setblock 190 0 -510 minecraft:gray_terracotta
-setblock 189 0 -510 minecraft:crimson_nylium
-setblock 188 0 -510 minecraft:deepslate_bricks
-setblock 195 0 -510 minecraft:magma_block
-setblock 194 0 -510 minecraft:end_stone
-setblock 193 0 -510 minecraft:mangrove_planks
-setblock 192 0 -510 minecraft:grass_block
-setblock 199 0 -510 minecraft:magma_block
-setblock 198 0 -510 minecraft:amethyst_block
-setblock 197 0 -510 minecraft:mossy_stone_bricks
-setblock 196 0 -510 minecraft:tuff
-setblock 203 0 -510 minecraft:packed_ice
-setblock 202 0 -510 minecraft:amethyst_block
-setblock 201 0 -510 minecraft:crimson_nylium
-setblock 200 0 -510 minecraft:orange_terracotta
-setblock 207 0 -510 minecraft:magma_block
-setblock 206 0 -510 minecraft:bricks
-setblock 205 0 -510 minecraft:redstone_lamp
-setblock 204 0 -510 minecraft:purpur_block
-setblock 211 0 -510 minecraft:light_blue_stained_glass
-setblock 210 0 -510 minecraft:warped_stem
-setblock 209 0 -510 minecraft:mossy_stone_bricks
-setblock 208 0 -510 minecraft:light_gray_concrete
-setblock 215 0 -510 minecraft:magma_block
-setblock 214 0 -510 minecraft:amethyst_block
-setblock 213 0 -510 minecraft:crimson_nylium
-setblock 212 0 -510 minecraft:stone
-setblock 219 0 -510 minecraft:magma_block
-setblock 218 0 -510 minecraft:end_stone
-setblock 217 0 -510 minecraft:amethyst_block
-setblock 216 0 -510 minecraft:oak_log
-setblock 223 0 -510 minecraft:waxed_weathered_cut_copper
-setblock 222 0 -510 minecraft:stripped_mangrove_log
-setblock 221 0 -510 minecraft:air
-setblock 220 0 -510 minecraft:air
-setblock 227 0 -510 minecraft:mangrove_planks
-setblock 226 0 -510 minecraft:target
-setblock 225 0 -510 minecraft:moss_block
-setblock 224 0 -510 minecraft:light_gray_glazed_terracotta
-setblock 231 0 -510 minecraft:magma_block
-setblock 230 0 -510 minecraft:shroomlight
-setblock 229 0 -510 minecraft:shroomlight
-setblock 228 0 -510 minecraft:polished_granite
-setblock 235 0 -510 minecraft:waxed_weathered_cut_copper
-setblock 234 0 -510 minecraft:stripped_mangrove_log
-setblock 233 0 -510 minecraft:air
-setblock 232 0 -510 minecraft:air
-setblock 239 0 -510 minecraft:pumpkin
-setblock 238 0 -510 minecraft:gold_block
-setblock 237 0 -510 minecraft:mossy_stone_bricks
-setblock 236 0 -510 minecraft:cyan_glazed_terracotta
-setblock 243 0 -510 minecraft:waxed_weathered_cut_copper
-setblock 242 0 -510 minecraft:stripped_mangrove_log
-setblock 241 0 -510 minecraft:air
-setblock 240 0 -510 minecraft:air
-setblock 247 0 -510 minecraft:pumpkin
-setblock 246 0 -510 minecraft:quartz_block
-setblock 245 0 -510 minecraft:red_concrete
-setblock 244 0 -510 minecraft:cyan_glazed_terracotta
-setblock 251 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 250 0 -510 minecraft:redstone_lamp
-setblock 249 0 -510 minecraft:diamond_ore
-setblock 248 0 -510 minecraft:deepslate_bricks
-setblock 255 0 -510 minecraft:waxed_weathered_cut_copper
-setblock 254 0 -510 minecraft:stripped_mangrove_log
-setblock 253 0 -510 minecraft:air
-setblock 252 0 -510 minecraft:air
-setblock 259 0 -510 minecraft:mangrove_planks
-setblock 258 0 -510 minecraft:quartz_block
-setblock 257 0 -510 minecraft:prismarine_bricks
-setblock 256 0 -510 minecraft:cyan_glazed_terracotta
-setblock 263 0 -510 minecraft:waxed_weathered_cut_copper
-setblock 262 0 -510 minecraft:stripped_mangrove_log
-setblock 261 0 -510 minecraft:air
-setblock 260 0 -510 minecraft:air
-setblock 267 0 -510 minecraft:mangrove_planks
-setblock 266 0 -510 minecraft:chiseled_quartz_block
-setblock 265 0 -510 minecraft:moss_block
-setblock 264 0 -510 minecraft:cyan_glazed_terracotta
-setblock 271 0 -510 minecraft:waxed_weathered_cut_copper
-setblock 270 0 -510 minecraft:stripped_mangrove_log
-setblock 269 0 -510 minecraft:air
-setblock 268 0 -510 minecraft:air
-setblock 275 0 -510 minecraft:mangrove_planks
-setblock 274 0 -510 minecraft:gold_block
-setblock 273 0 -510 minecraft:mossy_stone_bricks
-setblock 272 0 -510 minecraft:purple_glazed_terracotta
-setblock 279 0 -510 minecraft:magma_block
-setblock 278 0 -510 minecraft:raw_copper_block
-setblock 277 0 -510 minecraft:end_stone
-setblock 276 0 -510 minecraft:polished_deepslate
-setblock 283 0 -510 minecraft:waxed_weathered_cut_copper
-setblock 282 0 -510 minecraft:stripped_mangrove_log
-setblock 281 0 -510 minecraft:air
-setblock 280 0 -510 minecraft:air
-setblock 287 0 -510 minecraft:pumpkin
-setblock 286 0 -510 minecraft:target
-setblock 285 0 -510 minecraft:red_concrete
-setblock 284 0 -510 minecraft:purple_glazed_terracotta
-setblock 291 0 -510 minecraft:waxed_weathered_cut_copper
-setblock 290 0 -510 minecraft:stripped_mangrove_log
-setblock 289 0 -510 minecraft:air
-setblock 288 0 -510 minecraft:air
-setblock 295 0 -510 minecraft:pumpkin
-setblock 294 0 -510 minecraft:netherite_block
-setblock 293 0 -510 minecraft:prismarine_bricks
-setblock 292 0 -510 minecraft:purple_glazed_terracotta
-setblock 299 0 -510 minecraft:waxed_weathered_cut_copper
-setblock 298 0 -510 minecraft:stripped_mangrove_log
-setblock 297 0 -510 minecraft:air
-setblock 296 0 -510 minecraft:air
-setblock 303 0 -510 minecraft:mangrove_planks
-setblock 302 0 -510 minecraft:lapis_block
-setblock 301 0 -510 minecraft:moss_block
-setblock 300 0 -510 minecraft:purple_glazed_terracotta
-setblock 307 0 -510 minecraft:magma_block
-setblock 306 0 -510 minecraft:brown_mushroom_block
-setblock 305 0 -510 minecraft:red_glazed_terracotta
-setblock 304 0 -510 minecraft:deepslate_bricks
-setblock 311 0 -510 minecraft:waxed_weathered_cut_copper
-setblock 310 0 -510 minecraft:stripped_mangrove_log
-setblock 309 0 -510 minecraft:air
-setblock 308 0 -510 minecraft:air
-setblock 315 0 -510 minecraft:mangrove_planks
-setblock 314 0 -510 minecraft:netherite_block
-setblock 313 0 -510 minecraft:mossy_stone_bricks
-setblock 312 0 -510 minecraft:blue_glazed_terracotta
-setblock 319 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 318 0 -510 minecraft:black_terracotta
-setblock 317 0 -510 minecraft:redstone_lamp
-setblock 316 0 -510 minecraft:polished_granite
-setblock 323 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 322 0 -510 minecraft:brown_mushroom_block
-setblock 321 0 -510 minecraft:red_concrete
-setblock 320 0 -510 minecraft:deepslate_bricks
-setblock 327 0 -510 minecraft:magma_block
-setblock 326 0 -510 minecraft:amethyst_block
-setblock 325 0 -510 minecraft:deepslate_gold_ore
-setblock 324 0 -510 minecraft:oak_planks
-setblock 331 0 -510 minecraft:magma_block
-setblock 330 0 -510 minecraft:raw_copper_block
-setblock 329 0 -510 minecraft:copper_ore
-setblock 328 0 -510 minecraft:diorite
-setblock 335 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 334 0 -510 minecraft:redstone_lamp
-setblock 333 0 -510 minecraft:red_stained_glass
-setblock 332 0 -510 minecraft:deepslate_bricks
-setblock 339 0 -510 minecraft:magma_block
-setblock 338 0 -510 minecraft:amethyst_block
-setblock 337 0 -510 minecraft:polished_basalt
-setblock 336 0 -510 minecraft:air
-setblock 343 0 -510 minecraft:magma_block
-setblock 342 0 -510 minecraft:raw_copper_block
-setblock 341 0 -510 minecraft:chiseled_polished_blackstone
-setblock 340 0 -510 minecraft:polished_granite
-setblock 347 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 346 0 -510 minecraft:raw_copper_block
-setblock 345 0 -510 minecraft:prismarine_bricks
-setblock 344 0 -510 minecraft:polished_deepslate
-setblock 351 0 -510 minecraft:magma_block
-setblock 350 0 -510 minecraft:amethyst_block
-setblock 349 0 -510 minecraft:polished_basalt
-setblock 348 0 -510 minecraft:air
-setblock 355 0 -510 minecraft:magma_block
-setblock 354 0 -510 minecraft:yellow_terracotta
-setblock 353 0 -510 minecraft:chiseled_polished_blackstone
-setblock 352 0 -510 minecraft:polished_granite
-setblock 359 0 -510 minecraft:magma_block
-setblock 358 0 -510 minecraft:redstone_lamp
-setblock 357 0 -510 minecraft:shroomlight
-setblock 356 0 -510 minecraft:deepslate_bricks
-setblock 363 0 -510 minecraft:magma_block
-setblock 362 0 -510 minecraft:amethyst_block
-setblock 361 0 -510 minecraft:polished_basalt
-setblock 360 0 -510 minecraft:air
-setblock 367 0 -510 minecraft:magma_block
-setblock 366 0 -510 minecraft:yellow_terracotta
-setblock 365 0 -510 minecraft:end_stone_bricks
-setblock 364 0 -510 minecraft:polished_granite
-setblock 371 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 370 0 -510 minecraft:amethyst_block
-setblock 369 0 -510 minecraft:diamond_ore
-setblock 368 0 -510 minecraft:polished_deepslate
-setblock 375 0 -510 minecraft:magma_block
-setblock 374 0 -510 minecraft:amethyst_block
-setblock 373 0 -510 minecraft:polished_basalt
-setblock 372 0 -510 minecraft:air
-setblock 379 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 378 0 -510 minecraft:yellow_terracotta
-setblock 377 0 -510 minecraft:red_nether_bricks
-setblock 376 0 -510 minecraft:polished_granite
-setblock 383 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 382 0 -510 minecraft:redstone_lamp
-setblock 381 0 -510 minecraft:red_wool
-setblock 380 0 -510 minecraft:deepslate_bricks
-setblock 387 0 -510 minecraft:magma_block
-setblock 386 0 -510 minecraft:amethyst_block
-setblock 385 0 -510 minecraft:pumpkin
-setblock 384 0 -510 minecraft:air
-setblock 391 0 -510 minecraft:magma_block
-setblock 390 0 -510 minecraft:redstone_lamp
-setblock 389 0 -510 minecraft:dark_prismarine
-setblock 388 0 -510 minecraft:polished_granite
-setblock 395 0 -510 minecraft:magma_block
-setblock 394 0 -510 minecraft:shroomlight
-setblock 393 0 -510 minecraft:stripped_mangrove_log
-setblock 392 0 -510 minecraft:deepslate_bricks
-setblock 399 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 398 0 -510 minecraft:black_terracotta
-setblock 397 0 -510 minecraft:redstone_lamp
-setblock 396 0 -510 minecraft:diorite
-setblock 403 0 -510 minecraft:magma_block
-setblock 402 0 -510 minecraft:amethyst_block
-setblock 401 0 -510 minecraft:amethyst_block
-setblock 400 0 -510 minecraft:oak_planks
-setblock 407 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 406 0 -510 minecraft:gray_terracotta
-setblock 405 0 -510 minecraft:deepslate_gold_ore
-setblock 404 0 -510 minecraft:diorite
-setblock 411 0 -510 minecraft:magma_block
-setblock 410 0 -510 minecraft:amethyst_block
-setblock 409 0 -510 minecraft:deepslate_gold_ore
-setblock 408 0 -510 minecraft:oak_planks
-setblock 415 0 -510 minecraft:magma_block
-setblock 414 0 -510 minecraft:amethyst_block
-setblock 413 0 -510 minecraft:deepslate_gold_ore
-setblock 412 0 -510 minecraft:air
-setblock 419 0 -510 minecraft:light_blue_concrete
-setblock 418 0 -510 minecraft:gray_terracotta
-setblock 417 0 -510 minecraft:crimson_nylium
-setblock 416 0 -510 minecraft:cyan_terracotta
-setblock 423 0 -510 minecraft:black_stained_glass
-setblock 422 0 -510 minecraft:nether_gold_ore
-setblock 421 0 -510 minecraft:end_stone_bricks
-setblock 420 0 -510 minecraft:diamond_ore
-setblock 427 0 -510 minecraft:magma_block
-setblock 426 0 -510 minecraft:mossy_stone_bricks
-setblock 425 0 -510 minecraft:air
-setblock 424 0 -510 minecraft:nether_gold_ore
-setblock 431 0 -510 minecraft:magma_block
-setblock 430 0 -510 minecraft:prismarine_bricks
-setblock 429 0 -510 minecraft:crimson_nylium
-setblock 428 0 -510 minecraft:purpur_pillar
-setblock 435 0 -510 minecraft:light_blue_stained_glass
-setblock 434 0 -510 minecraft:red_nether_bricks
-setblock 433 0 -510 minecraft:mossy_stone_bricks
-setblock 432 0 -510 minecraft:smooth_stone
-setblock 439 0 -510 minecraft:mangrove_planks
-setblock 438 0 -510 minecraft:crimson_stem
-setblock 437 0 -510 minecraft:stone_bricks
-setblock 436 0 -510 minecraft:gray_glazed_terracotta
-setblock 443 0 -510 minecraft:magma_block
-setblock 442 0 -510 minecraft:bricks
-setblock 441 0 -510 minecraft:amethyst_block
-setblock 440 0 -510 minecraft:purpur_block
-setblock 447 0 -510 minecraft:light_blue_stained_glass
-setblock 446 0 -510 minecraft:mushroom_stem
-setblock 445 0 -510 minecraft:mossy_stone_bricks
-setblock 444 0 -510 minecraft:red_wool
-setblock 451 0 -510 minecraft:pumpkin
-setblock 450 0 -510 minecraft:stripped_crimson_stem
-setblock 449 0 -510 minecraft:sea_lantern
-setblock 448 0 -510 minecraft:lime_glazed_terracotta
-setblock 455 0 -510 minecraft:mangrove_planks
-setblock 454 0 -510 minecraft:stripped_crimson_stem
-setblock 453 0 -510 minecraft:calcite
-setblock 452 0 -510 minecraft:pink_glazed_terracotta
-setblock 459 0 -510 minecraft:waxed_weathered_cut_copper
-setblock 458 0 -510 minecraft:stripped_dark_oak_log
-setblock 457 0 -510 minecraft:air
-setblock 456 0 -510 minecraft:air
-setblock 463 0 -510 minecraft:magma_block
-setblock 462 0 -510 minecraft:amethyst_block
-setblock 461 0 -510 minecraft:amethyst_block
-setblock 460 0 -510 minecraft:diorite
-setblock 467 0 -510 minecraft:magma_block
-setblock 466 0 -510 minecraft:shroomlight
-setblock 465 0 -510 minecraft:diamond_ore
-setblock 464 0 -510 minecraft:oak_planks
-setblock 471 0 -510 minecraft:magma_block
-setblock 470 0 -510 minecraft:bricks
-setblock 469 0 -510 minecraft:amethyst_block
-setblock 468 0 -510 minecraft:purpur_block
-setblock 475 0 -510 minecraft:deepslate_iron_ore
-setblock 474 0 -510 minecraft:chiseled_polished_blackstone
-setblock 473 0 -510 minecraft:mossy_stone_bricks
-setblock 472 0 -510 minecraft:shroomlight
-setblock 479 0 -510 minecraft:mangrove_planks
-setblock 478 0 -510 minecraft:crimson_stem
-setblock 477 0 -510 minecraft:calcite
-setblock 476 0 -510 minecraft:pink_glazed_terracotta
-setblock 483 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 482 0 -510 minecraft:granite
-setblock 481 0 -510 minecraft:air
-setblock 480 0 -510 minecraft:nether_gold_ore
-setblock 487 0 -510 minecraft:chiseled_nether_bricks
-setblock 486 0 -510 minecraft:mossy_stone_bricks
-setblock 485 0 -510 minecraft:polished_granite
-setblock 484 0 -510 minecraft:air
-setblock 491 0 -510 minecraft:magma_block
-setblock 490 0 -510 minecraft:amethyst_block
-setblock 489 0 -510 minecraft:deepslate_gold_ore
-setblock 488 0 -510 minecraft:crimson_planks
-setblock 495 0 -510 minecraft:chiseled_nether_bricks
-setblock 494 0 -510 minecraft:granite
-setblock 493 0 -510 minecraft:nether_gold_ore
-setblock 492 0 -510 minecraft:oak_planks
-setblock 499 0 -510 minecraft:magma_block
-setblock 498 0 -510 minecraft:end_stone_bricks
-setblock 497 0 -510 minecraft:amethyst_block
-setblock 496 0 -510 minecraft:oak_log
-setblock 503 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 502 0 -510 minecraft:amethyst_block
-setblock 501 0 -510 minecraft:mossy_stone_bricks
-setblock 500 0 -510 minecraft:tuff
-setblock 507 0 -510 minecraft:chiseled_nether_bricks
-setblock 506 0 -510 minecraft:prismarine_bricks
-setblock 505 0 -510 minecraft:bricks
-setblock 504 0 -510 minecraft:air
-setblock 511 0 -510 minecraft:light_blue_glazed_terracotta
-setblock 510 0 -510 minecraft:amethyst_block
-setblock 509 0 -510 minecraft:deepslate_gold_ore
-setblock 508 0 -510 minecraft:polished_deepslate
-setblock -509 0 -509 minecraft:magma_block
-setblock -510 0 -509 minecraft:amethyst_block
-setblock -511 0 -509 minecraft:amethyst_block
-setblock -512 0 -509 minecraft:diorite
-setblock -505 0 -509 minecraft:light_blue_glazed_terracotta
-setblock -506 0 -509 minecraft:black_terracotta
-setblock -507 0 -509 minecraft:deepslate_diamond_ore
-setblock -508 0 -509 minecraft:air
-setblock -501 0 -509 minecraft:deepslate_iron_ore
-setblock -502 0 -509 minecraft:smooth_basalt
-setblock -503 0 -509 minecraft:shroomlight
-setblock -504 0 -509 minecraft:redstone_lamp
-setblock -497 0 -509 minecraft:pumpkin
-setblock -498 0 -509 minecraft:target
-setblock -499 0 -509 minecraft:blue_ice
-setblock -500 0 -509 minecraft:blue_glazed_terracotta
-setblock -493 0 -509 minecraft:pumpkin
-setblock -494 0 -509 minecraft:lapis_block
-setblock -495 0 -509 minecraft:prismarine
-setblock -496 0 -509 minecraft:lime_glazed_terracotta
-setblock -489 0 -509 minecraft:mangrove_planks
-setblock -490 0 -509 minecraft:crimson_stem
-setblock -491 0 -509 minecraft:calcite
-setblock -492 0 -509 minecraft:pink_glazed_terracotta
-setblock -485 0 -509 minecraft:light_blue_concrete
-setblock -486 0 -509 minecraft:redstone_lamp
-setblock -487 0 -509 minecraft:shroomlight
-setblock -488 0 -509 minecraft:nether_quartz_ore
-setblock -481 0 -509 minecraft:chiseled_nether_bricks
-setblock -482 0 -509 minecraft:mossy_stone_bricks
-setblock -483 0 -509 minecraft:polished_granite
-setblock -484 0 -509 minecraft:air
-setblock -477 0 -509 minecraft:magma_block
-setblock -478 0 -509 minecraft:mossy_stone_bricks
-setblock -479 0 -509 minecraft:deepslate_gold_ore
-setblock -480 0 -509 minecraft:oak_log
-setblock -473 0 -509 minecraft:chiseled_nether_bricks
-setblock -474 0 -509 minecraft:granite
-setblock -475 0 -509 minecraft:white_glazed_terracotta
-setblock -476 0 -509 minecraft:oak_planks
-setblock -469 0 -509 minecraft:light_blue_glazed_terracotta
-setblock -470 0 -509 minecraft:black_terracotta
-setblock -471 0 -509 minecraft:redstone_lamp
-setblock -472 0 -509 minecraft:polished_granite
-setblock -465 0 -509 minecraft:magma_block
-setblock -466 0 -509 minecraft:amethyst_block
-setblock -467 0 -509 minecraft:mossy_stone_bricks
-setblock -468 0 -509 minecraft:tuff
-setblock -461 0 -509 minecraft:chiseled_nether_bricks
-setblock -462 0 -509 minecraft:prismarine_bricks
-setblock -463 0 -509 minecraft:bricks
-setblock -464 0 -509 minecraft:air
-setblock -457 0 -509 minecraft:magma_block
-setblock -458 0 -509 minecraft:gray_terracotta
-setblock -459 0 -509 minecraft:redstone_lamp
-setblock -460 0 -509 minecraft:polished_deepslate
-setblock -453 0 -509 minecraft:magma_block
-setblock -454 0 -509 minecraft:shroomlight
-setblock -455 0 -509 minecraft:shroomlight
-setblock -456 0 -509 minecraft:polished_granite
-setblock -449 0 -509 minecraft:light_blue_glazed_terracotta
-setblock -450 0 -509 minecraft:gray_terracotta
-setblock -451 0 -509 minecraft:crimson_nylium
-setblock -452 0 -509 minecraft:oak_planks
-setblock -445 0 -509 minecraft:deepslate_iron_ore
-setblock -446 0 -509 minecraft:smooth_basalt
-setblock -447 0 -509 minecraft:shroomlight
-setblock -448 0 -509 minecraft:redstone_lamp
-setblock -441 0 -509 minecraft:black_stained_glass
-setblock -442 0 -509 minecraft:nether_gold_ore
-setblock -443 0 -509 minecraft:end_stone_bricks
-setblock -444 0 -509 minecraft:copper_ore
-setblock -437 0 -509 minecraft:mangrove_planks
-setblock -438 0 -509 minecraft:crimson_stem
-setblock -439 0 -509 minecraft:calcite
-setblock -440 0 -509 minecraft:pink_glazed_terracotta
-setblock -433 0 -509 minecraft:magma_block
-setblock -434 0 -509 minecraft:basalt
-setblock -435 0 -509 minecraft:deepslate_gold_ore
-setblock -436 0 -509 minecraft:purpur_block
-setblock -429 0 -509 minecraft:deepslate_iron_ore
-setblock -430 0 -509 minecraft:hay_block
-setblock -431 0 -509 minecraft:acacia_planks
-setblock -432 0 -509 minecraft:pearlescent_froglight
-setblock -425 0 -509 minecraft:magma_block
-setblock -426 0 -509 minecraft:amethyst_block
-setblock -427 0 -509 minecraft:amethyst_block
-setblock -428 0 -509 minecraft:air
-setblock -421 0 -509 minecraft:light_blue_glazed_terracotta
-setblock -422 0 -509 minecraft:black_terracotta
-setblock -423 0 -509 minecraft:deepslate_diamond_ore
-setblock -424 0 -509 minecraft:crimson_planks
-setblock -417 0 -509 minecraft:magma_block
-setblock -418 0 -509 minecraft:basalt
-setblock -419 0 -509 minecraft:deepslate_gold_ore
-setblock -420 0 -509 minecraft:purpur_block
-setblock -413 0 -509 minecraft:deepslate_iron_ore
-setblock -414 0 -509 minecraft:chiseled_polished_blackstone
-setblock -415 0 -509 minecraft:acacia_planks
-setblock -416 0 -509 minecraft:shroomlight
-setblock -409 0 -509 minecraft:black_stained_glass
-setblock -410 0 -509 minecraft:nether_gold_ore
-setblock -411 0 -509 minecraft:slime_block
-setblock -412 0 -509 minecraft:polished_basalt
-setblock -405 0 -509 minecraft:pumpkin
-setblock -406 0 -509 minecraft:stripped_mangrove_log
-setblock -407 0 -509 minecraft:calcite
-setblock -408 0 -509 minecraft:pink_glazed_terracotta
-setblock -401 0 -509 minecraft:waxed_cut_copper
-setblock -402 0 -509 minecraft:granite
-setblock -403 0 -509 minecraft:glowstone
-setblock -404 0 -509 minecraft:oak_planks
-setblock -397 0 -509 minecraft:crimson_stem
-setblock -398 0 -509 minecraft:purpur_block
-setblock -399 0 -509 minecraft:slime_block
-setblock -400 0 -509 minecraft:chiseled_deepslate
-setblock -393 0 -509 minecraft:black_stained_glass
-setblock -394 0 -509 minecraft:nether_gold_ore
-setblock -395 0 -509 minecraft:calcite
-setblock -396 0 -509 minecraft:amethyst_block
-setblock -389 0 -509 minecraft:light_blue_glazed_terracotta
-setblock -390 0 -509 minecraft:mangrove_planks
-setblock -391 0 -509 minecraft:air
-setblock -392 0 -509 minecraft:nether_gold_ore
-setblock -385 0 -509 minecraft:black_stained_glass
-setblock -386 0 -509 minecraft:nether_gold_ore
-setblock -387 0 -509 minecraft:packed_mud
-setblock -388 0 -509 minecraft:deepslate_coal_ore
-setblock -381 0 -509 minecraft:andesite
-setblock -382 0 -509 minecraft:sea_lantern
-setblock -383 0 -509 minecraft:cobblestone
-setblock -384 0 -509 minecraft:air
-setblock -377 0 -509 minecraft:chiseled_nether_bricks
-setblock -378 0 -509 minecraft:stone
-setblock -379 0 -509 minecraft:air
-setblock -380 0 -509 minecraft:air
-setblock -373 0 -509 minecraft:chiseled_nether_bricks
-setblock -374 0 -509 minecraft:cobblestone
-setblock -375 0 -509 minecraft:air
-setblock -376 0 -509 minecraft:air
-setblock -369 0 -509 minecraft:chiseled_nether_bricks
-setblock -370 0 -509 minecraft:cracked_deepslate_tiles
-setblock -371 0 -509 minecraft:cobblestone
-setblock -372 0 -509 minecraft:oak_planks
-setblock -365 0 -509 minecraft:chiseled_nether_bricks
-setblock -366 0 -509 minecraft:tinted_glass
-setblock -367 0 -509 minecraft:smooth_stone
-setblock -368 0 -509 minecraft:oak_planks
-setblock -361 0 -509 minecraft:chiseled_nether_bricks
-setblock -362 0 -509 minecraft:basalt
-setblock -363 0 -509 minecraft:stone
-setblock -364 0 -509 minecraft:oak_planks
-setblock -357 0 -509 minecraft:chiseled_nether_bricks
-setblock -358 0 -509 minecraft:crying_obsidian
-setblock -359 0 -509 minecraft:acacia_planks
-setblock -360 0 -509 minecraft:oak_planks
-setblock -353 0 -509 minecraft:andesite
-setblock -354 0 -509 minecraft:mangrove_planks
-setblock -355 0 -509 minecraft:air
-setblock -356 0 -509 minecraft:air
-setblock -349 0 -509 minecraft:chiseled_nether_bricks
-setblock -350 0 -509 minecraft:dark_oak_planks
-setblock -351 0 -509 minecraft:nether_gold_ore
-setblock -352 0 -509 minecraft:granite
-setblock -345 0 -509 minecraft:andesite
-setblock -346 0 -509 minecraft:dark_oak_planks
-setblock -347 0 -509 minecraft:air
-setblock -348 0 -509 minecraft:air
-setblock -341 0 -509 minecraft:andesite
-setblock -342 0 -509 minecraft:melon
-setblock -343 0 -509 minecraft:smooth_stone
-setblock -344 0 -509 minecraft:air
-setblock -337 0 -509 minecraft:chiseled_nether_bricks
-setblock -338 0 -509 minecraft:bee_nest
-setblock -339 0 -509 minecraft:deepslate_bricks
-setblock -340 0 -509 minecraft:air
-setblock -333 0 -509 minecraft:deepslate_diamond_ore
-setblock -334 0 -509 minecraft:polished_granite
-setblock -335 0 -509 minecraft:warped_stem
-setblock -336 0 -509 minecraft:white_wool
-setblock -329 0 -509 minecraft:deepslate_iron_ore
-setblock -330 0 -509 minecraft:white_glazed_terracotta
-setblock -331 0 -509 minecraft:brown_wool
-setblock -332 0 -509 minecraft:redstone_lamp
-setblock -325 0 -509 minecraft:andesite
-setblock -326 0 -509 minecraft:cobblestone
-setblock -327 0 -509 minecraft:cracked_deepslate_bricks
-setblock -328 0 -509 minecraft:air
-setblock -321 0 -509 minecraft:chiseled_nether_bricks
-setblock -322 0 -509 minecraft:wet_sponge
-setblock -323 0 -509 minecraft:yellow_concrete
-setblock -324 0 -509 minecraft:air
-setblock -317 0 -509 minecraft:deepslate_iron_ore
-setblock -318 0 -509 minecraft:bricks
-setblock -319 0 -509 minecraft:purple_terracotta
-setblock -320 0 -509 minecraft:stripped_warped_stem
-setblock -313 0 -509 minecraft:deepslate_diamond_ore
-setblock -314 0 -509 minecraft:polished_granite
-setblock -315 0 -509 minecraft:grass_block
-setblock -316 0 -509 minecraft:stripped_mangrove_log
-setblock -309 0 -509 minecraft:gray_wool
-setblock -310 0 -509 minecraft:gray_wool
-setblock -311 0 -509 minecraft:light_gray_terracotta
-setblock -312 0 -509 minecraft:stripped_spruce_log
-setblock -305 0 -509 minecraft:waxed_weathered_cut_copper
-setblock -306 0 -509 minecraft:gray_concrete
-setblock -307 0 -509 minecraft:air
-setblock -308 0 -509 minecraft:air
-setblock -301 0 -509 minecraft:andesite
-setblock -302 0 -509 minecraft:mangrove_planks
-setblock -303 0 -509 minecraft:gray_stained_glass
-setblock -304 0 -509 minecraft:mushroom_stem
-setblock -297 0 -509 minecraft:chiseled_nether_bricks
-setblock -298 0 -509 minecraft:pumpkin
-setblock -299 0 -509 minecraft:mangrove_planks
-setblock -300 0 -509 minecraft:terracotta
-setblock -293 0 -509 minecraft:chiseled_nether_bricks
-setblock -294 0 -509 minecraft:dark_oak_planks
-setblock -295 0 -509 minecraft:air
-setblock -296 0 -509 minecraft:spruce_planks
-setblock -289 0 -509 minecraft:jungle_log
-setblock -290 0 -509 minecraft:cracked_deepslate_tiles
-setblock -291 0 -509 minecraft:nether_quartz_ore
-setblock -292 0 -509 minecraft:air
-setblock -285 0 -509 minecraft:jungle_log
-setblock -286 0 -509 minecraft:stripped_birch_log
-setblock -287 0 -509 minecraft:deepslate_coal_ore
-setblock -288 0 -509 minecraft:air
-setblock -281 0 -509 minecraft:jungle_log
-setblock -282 0 -509 minecraft:stone_bricks
-setblock -283 0 -509 minecraft:dripstone_block
-setblock -284 0 -509 minecraft:air
-setblock -277 0 -509 minecraft:birch_planks
-setblock -278 0 -509 minecraft:gray_concrete
-setblock -279 0 -509 minecraft:stone
-setblock -280 0 -509 minecraft:air
-setblock -273 0 -509 minecraft:chiseled_nether_bricks
-setblock -274 0 -509 minecraft:mangrove_planks
-setblock -275 0 -509 minecraft:oxidized_cut_copper
-setblock -276 0 -509 minecraft:oak_planks
-setblock -269 0 -509 minecraft:light_blue_stained_glass
-setblock -270 0 -509 minecraft:smooth_stone
-setblock -271 0 -509 minecraft:mangrove_planks
-setblock -272 0 -509 minecraft:air
-setblock -265 0 -509 minecraft:andesite
-setblock -266 0 -509 minecraft:stone
-setblock -267 0 -509 minecraft:deepslate_bricks
-setblock -268 0 -509 minecraft:air
-setblock -261 0 -509 minecraft:jungle_log
-setblock -262 0 -509 minecraft:warped_stem
-setblock -263 0 -509 minecraft:deepslate_gold_ore
-setblock -264 0 -509 minecraft:air
-setblock -257 0 -509 minecraft:birch_planks
-setblock -258 0 -509 minecraft:gray_concrete
-setblock -259 0 -509 minecraft:stone
-setblock -260 0 -509 minecraft:air
-setblock -253 0 -509 minecraft:chiseled_nether_bricks
-setblock -254 0 -509 minecraft:pumpkin
-setblock -255 0 -509 minecraft:chiseled_deepslate
-setblock -256 0 -509 minecraft:air
-setblock -249 0 -509 minecraft:deepslate_iron_ore
-setblock -250 0 -509 minecraft:polished_deepslate
-setblock -251 0 -509 minecraft:mangrove_planks
-setblock -252 0 -509 minecraft:shroomlight
-setblock -245 0 -509 minecraft:gray_wool
-setblock -246 0 -509 minecraft:stripped_spruce_log
-setblock -247 0 -509 minecraft:air
-setblock -248 0 -509 minecraft:air
-setblock -241 0 -509 minecraft:chiseled_nether_bricks
-setblock -242 0 -509 minecraft:acacia_planks
-setblock -243 0 -509 minecraft:orange_concrete
-setblock -244 0 -509 minecraft:oak_planks
-setblock -237 0 -509 minecraft:andesite
-setblock -238 0 -509 minecraft:acacia_planks
-setblock -239 0 -509 minecraft:stone
-setblock -240 0 -509 minecraft:red_concrete
-setblock -233 0 -509 minecraft:jungle_log
-setblock -234 0 -509 minecraft:warped_stem
-setblock -235 0 -509 minecraft:mangrove_planks
-setblock -236 0 -509 minecraft:air
-setblock -229 0 -509 minecraft:deepslate_diamond_ore
-setblock -230 0 -509 minecraft:air
-setblock -231 0 -509 minecraft:polished_granite
-setblock -232 0 -509 minecraft:green_wool
-setblock -225 0 -509 minecraft:waxed_weathered_cut_copper
-setblock -226 0 -509 minecraft:crimson_stem
-setblock -227 0 -509 minecraft:air
-setblock -228 0 -509 minecraft:air
-setblock -221 0 -509 minecraft:mangrove_planks
-setblock -222 0 -509 minecraft:chiseled_stone_bricks
-setblock -223 0 -509 minecraft:clay
-setblock -224 0 -509 minecraft:brown_glazed_terracotta
-setblock -217 0 -509 minecraft:waxed_weathered_cut_copper
-setblock -218 0 -509 minecraft:gray_concrete
-setblock -219 0 -509 minecraft:air
-setblock -220 0 -509 minecraft:air
-setblock -213 0 -509 minecraft:chiseled_nether_bricks
-setblock -214 0 -509 minecraft:jungle_planks
-setblock -215 0 -509 minecraft:air
-setblock -216 0 -509 minecraft:spruce_planks
-setblock -209 0 -509 minecraft:chiseled_nether_bricks
-setblock -210 0 -509 minecraft:pumpkin
-setblock -211 0 -509 minecraft:pumpkin
-setblock -212 0 -509 minecraft:chiseled_stone_bricks
-setblock -205 0 -509 minecraft:andesite
-setblock -206 0 -509 minecraft:acacia_planks
-setblock -207 0 -509 minecraft:orange_terracotta
-setblock -208 0 -509 minecraft:oak_planks
-setblock -201 0 -509 minecraft:jungle_log
-setblock -202 0 -509 minecraft:cracked_deepslate_bricks
-setblock -203 0 -509 minecraft:nether_quartz_ore
-setblock -204 0 -509 minecraft:air
-setblock -197 0 -509 minecraft:jungle_log
-setblock -198 0 -509 minecraft:mossy_cobblestone
-setblock -199 0 -509 minecraft:nether_bricks
-setblock -200 0 -509 minecraft:air
-setblock -193 0 -509 minecraft:deepslate_diamond_ore
-setblock -194 0 -509 minecraft:air
-setblock -195 0 -509 minecraft:white_glazed_terracotta
-setblock -196 0 -509 minecraft:orange_wool
-setblock -189 0 -509 minecraft:mangrove_planks
-setblock -190 0 -509 minecraft:dark_oak_log
-setblock -191 0 -509 minecraft:yellow_concrete
-setblock -192 0 -509 minecraft:lime_glazed_terracotta
-setblock -185 0 -509 minecraft:chiseled_nether_bricks
-setblock -186 0 -509 minecraft:stone
-setblock -187 0 -509 minecraft:white_concrete
-setblock -188 0 -509 minecraft:mangrove_planks
-setblock -181 0 -509 minecraft:andesite
-setblock -182 0 -509 minecraft:jungle_planks
-setblock -183 0 -509 minecraft:nether_gold_ore
-setblock -184 0 -509 minecraft:dark_oak_planks
-setblock -177 0 -509 minecraft:jungle_log
-setblock -178 0 -509 minecraft:air
-setblock -179 0 -509 minecraft:basalt
-setblock -180 0 -509 minecraft:air
-setblock -173 0 -509 minecraft:iron_block
-setblock -174 0 -509 minecraft:oak_planks
-setblock -175 0 -509 minecraft:basalt
-setblock -176 0 -509 minecraft:air
-setblock -169 0 -509 minecraft:iron_block
-setblock -170 0 -509 minecraft:air
-setblock -171 0 -509 minecraft:lime_wool
-setblock -172 0 -509 minecraft:oak_planks
-setblock -165 0 -509 minecraft:jungle_log
-setblock -166 0 -509 minecraft:oak_planks
-setblock -167 0 -509 minecraft:melon
-setblock -168 0 -509 minecraft:air
-setblock -161 0 -509 minecraft:andesite
-setblock -162 0 -509 minecraft:acacia_planks
-setblock -163 0 -509 minecraft:lime_concrete
-setblock -164 0 -509 minecraft:air
-setblock -157 0 -509 minecraft:deepslate_diamond_ore
-setblock -158 0 -509 minecraft:air
-setblock -159 0 -509 minecraft:polished_granite
-setblock -160 0 -509 minecraft:stripped_crimson_stem
-setblock -153 0 -509 minecraft:chiseled_nether_bricks
-setblock -154 0 -509 minecraft:acacia_planks
-setblock -155 0 -509 minecraft:orange_concrete
-setblock -156 0 -509 minecraft:oak_planks
-setblock -149 0 -509 minecraft:jungle_log
-setblock -150 0 -509 minecraft:air
-setblock -151 0 -509 minecraft:acacia_planks
-setblock -152 0 -509 minecraft:air
-setblock -145 0 -509 minecraft:andesite
-setblock -146 0 -509 minecraft:acacia_planks
-setblock -147 0 -509 minecraft:stone
-setblock -148 0 -509 minecraft:red_concrete
-setblock -141 0 -509 minecraft:deepslate_diamond_ore
-setblock -142 0 -509 minecraft:air
-setblock -143 0 -509 minecraft:netherrack
-setblock -144 0 -509 minecraft:gray_wool
-setblock -137 0 -509 minecraft:light_blue_glazed_terracotta
-setblock -138 0 -509 minecraft:acacia_planks
-setblock -139 0 -509 minecraft:wet_sponge
-setblock -140 0 -509 minecraft:oak_log
-setblock -133 0 -509 minecraft:waxed_weathered_cut_copper
-setblock -134 0 -509 minecraft:gray_concrete
-setblock -135 0 -509 minecraft:air
-setblock -136 0 -509 minecraft:air
-setblock -129 0 -509 minecraft:chiseled_nether_bricks
-setblock -130 0 -509 minecraft:pumpkin
-setblock -131 0 -509 minecraft:polished_basalt
-setblock -132 0 -509 minecraft:chiseled_stone_bricks
-setblock -125 0 -509 minecraft:andesite
-setblock -126 0 -509 minecraft:acacia_planks
-setblock -127 0 -509 minecraft:orange_terracotta
-setblock -128 0 -509 minecraft:oak_planks
-setblock -121 0 -509 minecraft:jungle_log
-setblock -122 0 -509 minecraft:cracked_deepslate_bricks
-setblock -123 0 -509 minecraft:nether_quartz_ore
-setblock -124 0 -509 minecraft:air
-setblock -117 0 -509 minecraft:jungle_log
-setblock -118 0 -509 minecraft:mossy_cobblestone
-setblock -119 0 -509 minecraft:nether_bricks
-setblock -120 0 -509 minecraft:air
-setblock -113 0 -509 minecraft:deepslate_diamond_ore
-setblock -114 0 -509 minecraft:air
-setblock -115 0 -509 minecraft:white_glazed_terracotta
-setblock -116 0 -509 minecraft:oak_log
-setblock -109 0 -509 minecraft:light_blue_glazed_terracotta
-setblock -110 0 -509 minecraft:melon
-setblock -111 0 -509 minecraft:cyan_wool
-setblock -112 0 -509 minecraft:spruce_log
-setblock -105 0 -509 minecraft:jungle_log
-setblock -106 0 -509 minecraft:air
-setblock -107 0 -509 minecraft:basalt
-setblock -108 0 -509 minecraft:air
-setblock -101 0 -509 minecraft:iron_block
-setblock -102 0 -509 minecraft:air
-setblock -103 0 -509 minecraft:lime_wool
-setblock -104 0 -509 minecraft:oak_planks
-setblock -97 0 -509 minecraft:jungle_log
-setblock -98 0 -509 minecraft:oak_planks
-setblock -99 0 -509 minecraft:melon
-setblock -100 0 -509 minecraft:air
-setblock -93 0 -509 minecraft:iron_block
-setblock -94 0 -509 minecraft:oak_planks
-setblock -95 0 -509 minecraft:basalt
-setblock -96 0 -509 minecraft:air
-setblock -89 0 -509 minecraft:andesite
-setblock -90 0 -509 minecraft:acacia_planks
-setblock -91 0 -509 minecraft:lime_concrete
-setblock -92 0 -509 minecraft:air
-setblock -85 0 -509 minecraft:deepslate_diamond_ore
-setblock -86 0 -509 minecraft:air
-setblock -87 0 -509 minecraft:netherrack
-setblock -88 0 -509 minecraft:bricks
-setblock -81 0 -509 minecraft:chiseled_nether_bricks
-setblock -82 0 -509 minecraft:mangrove_planks
-setblock -83 0 -509 minecraft:acacia_planks
-setblock -84 0 -509 minecraft:air
-setblock -77 0 -509 minecraft:chiseled_nether_bricks
-setblock -78 0 -509 minecraft:acacia_planks
-setblock -79 0 -509 minecraft:orange_concrete
-setblock -80 0 -509 minecraft:oak_planks
-setblock -73 0 -509 minecraft:andesite
-setblock -74 0 -509 minecraft:acacia_planks
-setblock -75 0 -509 minecraft:stone
-setblock -76 0 -509 minecraft:red_concrete
-setblock -69 0 -509 minecraft:jungle_log
-setblock -70 0 -509 minecraft:warped_stem
-setblock -71 0 -509 minecraft:mangrove_planks
-setblock -72 0 -509 minecraft:air
-setblock -65 0 -509 minecraft:deepslate_diamond_ore
-setblock -66 0 -509 minecraft:air
-setblock -67 0 -509 minecraft:tuff
-setblock -68 0 -509 minecraft:magenta_wool
-setblock -61 0 -509 minecraft:deepslate_diamond_ore
-setblock -62 0 -509 minecraft:polished_granite
-setblock -63 0 -509 minecraft:white_concrete
-setblock -64 0 -509 minecraft:packed_mud
-setblock -57 0 -509 minecraft:mud_bricks
-setblock -58 0 -509 minecraft:oak_log
-setblock -59 0 -509 minecraft:podzol
-setblock -60 0 -509 minecraft:stripped_jungle_log
-setblock -53 0 -509 minecraft:birch_planks
-setblock -54 0 -509 minecraft:acacia_log
-setblock -55 0 -509 minecraft:stripped_warped_stem
-setblock -56 0 -509 minecraft:stripped_jungle_log
-setblock -49 0 -509 minecraft:mud_bricks
-setblock -50 0 -509 minecraft:acacia_log
-setblock -51 0 -509 minecraft:orange_concrete
-setblock -52 0 -509 minecraft:stripped_jungle_log
-setblock -45 0 -509 minecraft:birch_planks
-setblock -46 0 -509 minecraft:stripped_spruce_log
-setblock -47 0 -509 minecraft:oak_planks
-setblock -48 0 -509 minecraft:stripped_jungle_log
-setblock -41 0 -509 minecraft:mud_bricks
-setblock -42 0 -509 minecraft:stripped_spruce_log
-setblock -43 0 -509 minecraft:podzol
-setblock -44 0 -509 minecraft:stripped_birch_log
-setblock -37 0 -509 minecraft:birch_planks
-setblock -38 0 -509 minecraft:stripped_birch_log
-setblock -39 0 -509 minecraft:stripped_warped_stem
-setblock -40 0 -509 minecraft:stripped_birch_log
-setblock -33 0 -509 minecraft:mud_bricks
-setblock -34 0 -509 minecraft:stripped_birch_log
-setblock -35 0 -509 minecraft:orange_concrete
-setblock -36 0 -509 minecraft:stripped_birch_log
-setblock -29 0 -509 minecraft:birch_planks
-setblock -30 0 -509 minecraft:stripped_jungle_log
-setblock -31 0 -509 minecraft:oak_planks
-setblock -32 0 -509 minecraft:stripped_birch_log
-setblock -25 0 -509 minecraft:mud_bricks
-setblock -26 0 -509 minecraft:stripped_jungle_log
-setblock -27 0 -509 minecraft:podzol
-setblock -28 0 -509 minecraft:stripped_spruce_log
-setblock -21 0 -509 minecraft:birch_planks
-setblock -22 0 -509 minecraft:stripped_acacia_log
-setblock -23 0 -509 minecraft:stripped_warped_stem
-setblock -24 0 -509 minecraft:stripped_spruce_log
-setblock -17 0 -509 minecraft:mud_bricks
-setblock -18 0 -509 minecraft:stripped_acacia_log
-setblock -19 0 -509 minecraft:orange_concrete
-setblock -20 0 -509 minecraft:stripped_spruce_log
-setblock -13 0 -509 minecraft:birch_planks
-setblock -14 0 -509 minecraft:stripped_dark_oak_log
-setblock -15 0 -509 minecraft:oak_planks
-setblock -16 0 -509 minecraft:stripped_spruce_log
-setblock -9 0 -509 minecraft:mud_bricks
-setblock -10 0 -509 minecraft:stripped_dark_oak_log
-setblock -11 0 -509 minecraft:podzol
-setblock -12 0 -509 minecraft:stripped_oak_log
-setblock -5 0 -509 minecraft:mangrove_planks
-setblock -6 0 -509 minecraft:acacia_log
-setblock -7 0 -509 minecraft:podzol
-setblock -8 0 -509 minecraft:crimson_stem
-setblock -1 0 -509 minecraft:pumpkin
-setblock -2 0 -509 minecraft:acacia_log
-setblock -3 0 -509 minecraft:stripped_warped_stem
-setblock -4 0 -509 minecraft:crimson_stem
-setblock 3 0 -509 minecraft:mangrove_planks
-setblock 2 0 -509 minecraft:stripped_spruce_log
-setblock 1 0 -509 minecraft:orange_concrete
-setblock 0 0 -509 minecraft:crimson_stem
-setblock 7 0 -509 minecraft:pumpkin
-setblock 6 0 -509 minecraft:stripped_spruce_log
-setblock 5 0 -509 minecraft:oak_planks
-setblock 4 0 -509 minecraft:crimson_stem
-setblock 11 0 -509 minecraft:mangrove_planks
-setblock 10 0 -509 minecraft:stripped_birch_log
-setblock 9 0 -509 minecraft:podzol
-setblock 8 0 -509 minecraft:mangrove_log
-setblock 15 0 -509 minecraft:pumpkin
-setblock 14 0 -509 minecraft:stripped_birch_log
-setblock 13 0 -509 minecraft:stripped_warped_stem
-setblock 12 0 -509 minecraft:mangrove_log
-setblock 19 0 -509 minecraft:mangrove_planks
-setblock 18 0 -509 minecraft:stripped_jungle_log
-setblock 17 0 -509 minecraft:orange_concrete
-setblock 16 0 -509 minecraft:mangrove_log
-setblock 23 0 -509 minecraft:pumpkin
-setblock 22 0 -509 minecraft:stripped_jungle_log
-setblock 21 0 -509 minecraft:oak_planks
-setblock 20 0 -509 minecraft:mangrove_log
-setblock 27 0 -509 minecraft:mangrove_planks
-setblock 26 0 -509 minecraft:stripped_acacia_log
-setblock 25 0 -509 minecraft:podzol
-setblock 24 0 -509 minecraft:dark_oak_log
-setblock 31 0 -509 minecraft:andesite
-setblock 30 0 -509 minecraft:acacia_planks
-setblock 29 0 -509 minecraft:air
-setblock 28 0 -509 minecraft:air
-setblock 35 0 -509 minecraft:andesite
-setblock 34 0 -509 minecraft:oak_planks
-setblock 33 0 -509 minecraft:oak_planks
-setblock 32 0 -509 minecraft:stripped_acacia_log
-setblock 39 0 -509 minecraft:gray_stained_glass
-setblock 38 0 -509 minecraft:warped_stem
-setblock 37 0 -509 minecraft:air
-setblock 36 0 -509 minecraft:air
-setblock 43 0 -509 minecraft:light_blue_stained_glass
-setblock 42 0 -509 minecraft:pearlescent_froglight
-setblock 41 0 -509 minecraft:mangrove_planks
-setblock 40 0 -509 minecraft:cobbled_deepslate
-setblock 47 0 -509 minecraft:chiseled_nether_bricks
-setblock 46 0 -509 minecraft:cobblestone
-setblock 45 0 -509 minecraft:nether_gold_ore
-setblock 44 0 -509 minecraft:birch_planks
-setblock 51 0 -509 minecraft:chiseled_nether_bricks
-setblock 50 0 -509 minecraft:melon
-setblock 49 0 -509 minecraft:cobblestone
-setblock 48 0 -509 minecraft:air
-setblock 55 0 -509 minecraft:black_stained_glass
-setblock 54 0 -509 minecraft:nether_gold_ore
-setblock 53 0 -509 minecraft:black_concrete
-setblock 52 0 -509 minecraft:redstone_ore
-setblock 59 0 -509 minecraft:light_blue_glazed_terracotta
-setblock 58 0 -509 minecraft:amethyst_block
-setblock 57 0 -509 minecraft:gray_terracotta
-setblock 56 0 -509 minecraft:polished_granite
-setblock 63 0 -509 minecraft:magma_block
-setblock 62 0 -509 minecraft:gray_terracotta
-setblock 61 0 -509 minecraft:chiseled_deepslate
-setblock 60 0 -509 minecraft:polished_deepslate
-setblock 67 0 -509 minecraft:magma_block
-setblock 66 0 -509 minecraft:end_stone
-setblock 65 0 -509 minecraft:mangrove_planks
-setblock 64 0 -509 minecraft:grass_block
-setblock 71 0 -509 minecraft:magma_block
-setblock 70 0 -509 minecraft:amethyst_block
-setblock 69 0 -509 minecraft:mossy_stone_bricks
-setblock 68 0 -509 minecraft:tuff
-setblock 75 0 -509 minecraft:packed_ice
-setblock 74 0 -509 minecraft:amethyst_block
-setblock 73 0 -509 minecraft:chiseled_deepslate
-setblock 72 0 -509 minecraft:white_terracotta
-setblock 79 0 -509 minecraft:magma_block
-setblock 78 0 -509 minecraft:bricks
-setblock 77 0 -509 minecraft:raw_iron_block
-setblock 76 0 -509 minecraft:purpur_block
-setblock 83 0 -509 minecraft:light_blue_stained_glass
-setblock 82 0 -509 minecraft:sea_lantern
-setblock 81 0 -509 minecraft:mossy_stone_bricks
-setblock 80 0 -509 minecraft:polished_granite
-setblock 87 0 -509 minecraft:magma_block
-setblock 86 0 -509 minecraft:amethyst_block
-setblock 85 0 -509 minecraft:chiseled_deepslate
-setblock 84 0 -509 minecraft:crimson_planks
-setblock 91 0 -509 minecraft:magma_block
-setblock 90 0 -509 minecraft:end_stone
-setblock 89 0 -509 minecraft:amethyst_block
-setblock 88 0 -509 minecraft:oak_log
-setblock 95 0 -509 minecraft:waxed_weathered_cut_copper
-setblock 94 0 -509 minecraft:stripped_mangrove_log
-setblock 93 0 -509 minecraft:air
-setblock 92 0 -509 minecraft:air
-setblock 99 0 -509 minecraft:pumpkin
-setblock 98 0 -509 minecraft:netherite_block
-setblock 97 0 -509 minecraft:prismarine_bricks
-setblock 96 0 -509 minecraft:cyan_glazed_terracotta
-setblock 103 0 -509 minecraft:magma_block
-setblock 102 0 -509 minecraft:shroomlight
-setblock 101 0 -509 minecraft:shroomlight
-setblock 100 0 -509 minecraft:polished_granite
-setblock 107 0 -509 minecraft:waxed_weathered_cut_copper
-setblock 106 0 -509 minecraft:stripped_mangrove_log
-setblock 105 0 -509 minecraft:air
-setblock 104 0 -509 minecraft:air
-setblock 111 0 -509 minecraft:mangrove_planks
-setblock 110 0 -509 minecraft:netherite_block
-setblock 109 0 -509 minecraft:moss_block
-setblock 108 0 -509 minecraft:cyan_glazed_terracotta
-setblock 115 0 -509 minecraft:waxed_weathered_cut_copper
-setblock 114 0 -509 minecraft:stripped_mangrove_log
-setblock 113 0 -509 minecraft:air
-setblock 112 0 -509 minecraft:air
-setblock 119 0 -509 minecraft:mangrove_planks
-setblock 118 0 -509 minecraft:gold_block
-setblock 117 0 -509 minecraft:mossy_stone_bricks
-setblock 116 0 -509 minecraft:purple_glazed_terracotta
-setblock 123 0 -509 minecraft:light_blue_glazed_terracotta
-setblock 122 0 -509 minecraft:red_mushroom_block
-setblock 121 0 -509 minecraft:red_glazed_terracotta
-setblock 120 0 -509 minecraft:polished_deepslate
-setblock 127 0 -509 minecraft:waxed_weathered_cut_copper
-setblock 126 0 -509 minecraft:stripped_mangrove_log
-setblock 125 0 -509 minecraft:air
-setblock 124 0 -509 minecraft:air
-setblock 131 0 -509 minecraft:pumpkin
-setblock 130 0 -509 minecraft:target
-setblock 129 0 -509 minecraft:red_concrete
-setblock 128 0 -509 minecraft:purple_glazed_terracotta
-setblock 135 0 -509 minecraft:waxed_weathered_cut_copper
-setblock 134 0 -509 minecraft:stripped_mangrove_log
-setblock 133 0 -509 minecraft:air
-setblock 132 0 -509 minecraft:air
-setblock 139 0 -509 minecraft:mangrove_planks
-setblock 138 0 -509 minecraft:target
-setblock 137 0 -509 minecraft:prismarine_bricks
-setblock 136 0 -509 minecraft:purple_glazed_terracotta
-setblock 143 0 -509 minecraft:waxed_weathered_cut_copper
-setblock 142 0 -509 minecraft:stripped_mangrove_log
-setblock 141 0 -509 minecraft:air
-setblock 140 0 -509 minecraft:air
-setblock 147 0 -509 minecraft:mangrove_planks
-setblock 146 0 -509 minecraft:lapis_block
-setblock 145 0 -509 minecraft:moss_block
-setblock 144 0 -509 minecraft:purple_glazed_terracotta
-setblock 151 0 -509 minecraft:magma_block
-setblock 150 0 -509 minecraft:brown_mushroom_block
-setblock 149 0 -509 minecraft:red_concrete
-setblock 148 0 -509 minecraft:polished_deepslate
-setblock 155 0 -509 minecraft:waxed_weathered_cut_copper
-setblock 154 0 -509 minecraft:stripped_mangrove_log
-setblock 153 0 -509 minecraft:air
-setblock 152 0 -509 minecraft:air
-setblock 159 0 -509 minecraft:pumpkin
-setblock 158 0 -509 minecraft:gold_block
-setblock 157 0 -509 minecraft:mossy_stone_bricks
-setblock 156 0 -509 minecraft:blue_glazed_terracotta
-setblock 163 0 -509 minecraft:light_blue_glazed_terracotta
-setblock 162 0 -509 minecraft:brown_mushroom_block
-setblock 161 0 -509 minecraft:red_wool
-setblock 160 0 -509 minecraft:polished_deepslate
-setblock 167 0 -509 minecraft:light_blue_glazed_terracotta
-setblock 166 0 -509 minecraft:blue_terracotta
-setblock 165 0 -509 minecraft:red_mushroom_block
-setblock 164 0 -509 minecraft:polished_granite
-setblock 171 0 -509 minecraft:magma_block
-setblock 170 0 -509 minecraft:note_block
-setblock 169 0 -509 minecraft:red_wool
-setblock 168 0 -509 minecraft:deepslate_bricks
-setblock 175 0 -509 minecraft:magma_block
-setblock 174 0 -509 minecraft:amethyst_block
-setblock 173 0 -509 minecraft:gray_stained_glass
-setblock 172 0 -509 minecraft:oak_planks
-setblock 179 0 -509 minecraft:magma_block
-setblock 178 0 -509 minecraft:brown_mushroom_block
-setblock 177 0 -509 minecraft:purple_stained_glass
-setblock 176 0 -509 minecraft:diorite
-setblock 183 0 -509 minecraft:light_blue_glazed_terracotta
-setblock 182 0 -509 minecraft:note_block
-setblock 181 0 -509 minecraft:stripped_mangrove_log
-setblock 180 0 -509 minecraft:deepslate_bricks
-setblock 187 0 -509 minecraft:magma_block
-setblock 186 0 -509 minecraft:amethyst_block
-setblock 185 0 -509 minecraft:brown_mushroom_block
-setblock 184 0 -509 minecraft:air
-setblock 191 0 -509 minecraft:light_blue_glazed_terracotta
-setblock 190 0 -509 minecraft:purple_terracotta
-setblock 189 0 -509 minecraft:purple_glazed_terracotta
-setblock 188 0 -509 minecraft:diorite
-setblock 195 0 -509 minecraft:light_blue_glazed_terracotta
-setblock 194 0 -509 minecraft:raw_copper_block
-setblock 193 0 -509 minecraft:prismarine_bricks
-setblock 192 0 -509 minecraft:polished_deepslate
-setblock 199 0 -509 minecraft:magma_block
-setblock 198 0 -509 minecraft:gray_terracotta
-setblock 197 0 -509 minecraft:brown_mushroom_block
-setblock 196 0 -509 minecraft:air
-setblock 203 0 -509 minecraft:magma_block
-setblock 202 0 -509 minecraft:note_block
-setblock 201 0 -509 minecraft:cyan_concrete
-setblock 200 0 -509 minecraft:diorite
-setblock 207 0 -509 minecraft:magma_block
-setblock 206 0 -509 minecraft:redstone_lamp
-setblock 205 0 -509 minecraft:shroomlight
-setblock 204 0 -509 minecraft:deepslate_bricks
-setblock 211 0 -509 minecraft:magma_block
-setblock 210 0 -509 minecraft:amethyst_block
-setblock 209 0 -509 minecraft:gray_wool
-setblock 208 0 -509 minecraft:oak_planks
-setblock 215 0 -509 minecraft:light_blue_glazed_terracotta
-setblock 214 0 -509 minecraft:cyan_terracotta
-setblock 213 0 -509 minecraft:cyan_wool
-setblock 212 0 -509 minecraft:diorite
-setblock 219 0 -509 minecraft:light_blue_glazed_terracotta
-setblock 218 0 -509 minecraft:redstone_lamp
-setblock 217 0 -509 minecraft:diamond_ore
-setblock 216 0 -509 minecraft:deepslate_bricks
-setblock 223 0 -509 minecraft:magma_block
-setblock 222 0 -509 minecraft:amethyst_block
-setblock 221 0 -509 minecraft:crimson_stem
-setblock 220 0 -509 minecraft:oak_planks
-setblock 227 0 -509 minecraft:light_blue_glazed_terracotta
-setblock 226 0 -509 minecraft:yellow_terracotta
-setblock 225 0 -509 minecraft:acacia_log
-setblock 224 0 -509 minecraft:diorite
-setblock 231 0 -509 minecraft:light_blue_glazed_terracotta
-setblock 230 0 -509 minecraft:amethyst_block
-setblock 229 0 -509 minecraft:diamond_ore
-setblock 228 0 -509 minecraft:polished_deepslate
-setblock 235 0 -509 minecraft:magma_block
-setblock 234 0 -509 minecraft:amethyst_block
-setblock 233 0 -509 minecraft:pumpkin
-setblock 232 0 -509 minecraft:air
-setblock 239 0 -509 minecraft:magma_block
-setblock 238 0 -509 minecraft:redstone_lamp
-setblock 237 0 -509 minecraft:dark_prismarine
-setblock 236 0 -509 minecraft:polished_granite
-setblock 243 0 -509 minecraft:magma_block
-setblock 242 0 -509 minecraft:shroomlight
-setblock 241 0 -509 minecraft:end_stone
-setblock 240 0 -509 minecraft:polished_deepslate
-setblock 247 0 -509 minecraft:black_stained_glass
-setblock 246 0 -509 minecraft:nether_gold_ore
-setblock 245 0 -509 minecraft:end_stone_bricks
-setblock 244 0 -509 minecraft:honey_block
-setblock 251 0 -509 minecraft:light_blue_glazed_terracotta
-setblock 250 0 -509 minecraft:mangrove_planks
-setblock 249 0 -509 minecraft:air
-setblock 248 0 -509 minecraft:nether_gold_ore
-setblock 255 0 -509 minecraft:black_stained_glass
-setblock 254 0 -509 minecraft:nether_gold_ore
-setblock 253 0 -509 minecraft:dark_prismarine
-setblock 252 0 -509 minecraft:raw_gold_block
-setblock 259 0 -509 minecraft:light_blue_stained_glass
-setblock 258 0 -509 minecraft:warped_nylium
-setblock 257 0 -509 minecraft:cyan_glazed_terracotta
-setblock 256 0 -509 minecraft:andesite
-setblock 263 0 -509 minecraft:andesite
-setblock 262 0 -509 minecraft:sea_lantern
-setblock 261 0 -509 minecraft:cobblestone
-setblock 260 0 -509 minecraft:air
-setblock 267 0 -509 minecraft:chiseled_nether_bricks
-setblock 266 0 -509 minecraft:sponge
-setblock 265 0 -509 minecraft:stone
-setblock 264 0 -509 minecraft:air
-setblock 271 0 -509 minecraft:black_stained_glass
-setblock 270 0 -509 minecraft:nether_gold_ore
-setblock 269 0 -509 minecraft:packed_mud
-setblock 268 0 -509 minecraft:warped_nylium
-setblock 275 0 -509 minecraft:pumpkin
-setblock 274 0 -509 minecraft:stripped_mangrove_log
-setblock 273 0 -509 minecraft:calcite
-setblock 272 0 -509 minecraft:pink_glazed_terracotta
-setblock 279 0 -509 minecraft:magma_block
-setblock 278 0 -509 minecraft:end_stone
-setblock 277 0 -509 minecraft:crimson_nylium
-setblock 276 0 -509 minecraft:purpur_pillar
-setblock 283 0 -509 minecraft:deepslate_iron_ore
-setblock 282 0 -509 minecraft:warped_planks
-setblock 281 0 -509 minecraft:mossy_stone_bricks
-setblock 280 0 -509 minecraft:netherrack
-setblock 287 0 -509 minecraft:magma_block
-setblock 286 0 -509 minecraft:amethyst_block
-setblock 285 0 -509 minecraft:amethyst_block
-setblock 284 0 -509 minecraft:air
-setblock 291 0 -509 minecraft:light_blue_glazed_terracotta
-setblock 290 0 -509 minecraft:gray_terracotta
-setblock 289 0 -509 minecraft:crimson_nylium
-setblock 288 0 -509 minecraft:stone
-setblock 295 0 -509 minecraft:magma_block
-setblock 294 0 -509 minecraft:end_stone
-setblock 293 0 -509 minecraft:crimson_nylium
-setblock 292 0 -509 minecraft:purpur_pillar
-setblock 299 0 -509 minecraft:deepslate_iron_ore
-setblock 298 0 -509 minecraft:chiseled_polished_blackstone
-setblock 297 0 -509 minecraft:mossy_stone_bricks
-setblock 296 0 -509 minecraft:shroomlight
-setblock 303 0 -509 minecraft:black_stained_glass
-setblock 302 0 -509 minecraft:nether_gold_ore
-setblock 301 0 -509 minecraft:packed_mud
-setblock 300 0 -509 minecraft:dark_prismarine
-setblock 307 0 -509 minecraft:pumpkin
-setblock 306 0 -509 minecraft:stripped_mangrove_log
-setblock 305 0 -509 minecraft:calcite
-setblock 304 0 -509 minecraft:pink_glazed_terracotta
-setblock 311 0 -509 minecraft:magma_block
-setblock 310 0 -509 minecraft:end_stone
-setblock 309 0 -509 minecraft:crimson_nylium
-setblock 308 0 -509 minecraft:purpur_pillar
-setblock 315 0 -509 minecraft:deepslate_iron_ore
-setblock 314 0 -509 minecraft:sea_lantern
-setblock 313 0 -509 minecraft:mossy_stone_bricks
-setblock 312 0 -509 minecraft:mushroom_stem
-setblock 319 0 -509 minecraft:magma_block
-setblock 318 0 -509 minecraft:amethyst_block
-setblock 317 0 -509 minecraft:amethyst_block
-setblock 316 0 -509 minecraft:air
-setblock 323 0 -509 minecraft:light_blue_glazed_terracotta
-setblock 322 0 -509 minecraft:gray_terracotta
-setblock 321 0 -509 minecraft:crimson_nylium
-setblock 320 0 -509 minecraft:stone
-setblock 327 0 -509 minecraft:magma_block
-setblock 326 0 -509 minecraft:end_stone
-setblock 325 0 -509 minecraft:crimson_nylium
-setblock 324 0 -509 minecraft:purpur_pillar
-setblock 331 0 -509 minecraft:deepslate_iron_ore
-setblock 330 0 -509 minecraft:chiseled_polished_blackstone
-setblock 329 0 -509 minecraft:mossy_stone_bricks
-setblock 328 0 -509 minecraft:shroomlight
-setblock 335 0 -509 minecraft:black_stained_glass
-setblock 334 0 -509 minecraft:nether_gold_ore
-setblock 333 0 -509 minecraft:black_glazed_terracotta
-setblock 332 0 -509 minecraft:mushroom_stem
-setblock 339 0 -509 minecraft:waxed_weathered_cut_copper
-setblock 338 0 -509 minecraft:stripped_mangrove_log
-setblock 337 0 -509 minecraft:air
-setblock 336 0 -509 minecraft:air
-setblock 343 0 -509 minecraft:mangrove_planks
-setblock 342 0 -509 minecraft:lapis_block
-setblock 341 0 -509 minecraft:prismarine_bricks
-setblock 340 0 -509 minecraft:light_gray_glazed_terracotta
-setblock 347 0 -509 minecraft:magma_block
-setblock 346 0 -509 minecraft:end_stone
-setblock 345 0 -509 minecraft:deepslate_gold_ore
-setblock 344 0 -509 minecraft:purpur_block
-setblock 351 0 -509 minecraft:deepslate_iron_ore
-setblock 350 0 -509 minecraft:prismarine_bricks
-setblock 349 0 -509 minecraft:mossy_stone_bricks
-setblock 348 0 -509 minecraft:waxed_weathered_copper
-setblock 355 0 -509 minecraft:magma_block
-setblock 354 0 -509 minecraft:amethyst_block
-setblock 353 0 -509 minecraft:crimson_nylium
-setblock 352 0 -509 minecraft:oak_planks
-setblock 359 0 -509 minecraft:black_stained_glass
-setblock 358 0 -509 minecraft:nether_gold_ore
-setblock 357 0 -509 minecraft:black_glazed_terracotta
-setblock 356 0 -509 minecraft:waxed_weathered_cut_copper
-setblock 363 0 -509 minecraft:waxed_weathered_cut_copper
-setblock 362 0 -509 minecraft:stripped_mangrove_log
-setblock 361 0 -509 minecraft:air
-setblock 360 0 -509 minecraft:air
-setblock 367 0 -509 minecraft:mangrove_planks
-setblock 366 0 -509 minecraft:lapis_block
-setblock 365 0 -509 minecraft:prismarine_bricks
-setblock 364 0 -509 minecraft:light_gray_glazed_terracotta
-setblock 371 0 -509 minecraft:magma_block
-setblock 370 0 -509 minecraft:end_stone
-setblock 369 0 -509 minecraft:deepslate_gold_ore
-setblock 368 0 -509 minecraft:purpur_block
-setblock 375 0 -509 minecraft:deepslate_iron_ore
-setblock 374 0 -509 minecraft:warped_planks
-setblock 373 0 -509 minecraft:mossy_stone_bricks
-setblock 372 0 -509 minecraft:diamond_ore
-setblock 379 0 -509 minecraft:magma_block
-setblock 378 0 -509 minecraft:amethyst_block
-setblock 377 0 -509 minecraft:chiseled_deepslate
-setblock 376 0 -509 minecraft:air
-setblock 383 0 -509 minecraft:black_stained_glass
-setblock 382 0 -509 minecraft:nether_gold_ore
-setblock 381 0 -509 minecraft:slime_block
-setblock 380 0 -509 minecraft:deepslate_lapis_ore
-setblock 387 0 -509 minecraft:waxed_weathered_cut_copper
-setblock 386 0 -509 minecraft:stripped_mangrove_log
-setblock 385 0 -509 minecraft:air
-setblock 384 0 -509 minecraft:air
-setblock 391 0 -509 minecraft:mangrove_planks
-setblock 390 0 -509 minecraft:lapis_block
-setblock 389 0 -509 minecraft:prismarine_bricks
-setblock 388 0 -509 minecraft:light_gray_glazed_terracotta
-setblock 395 0 -509 minecraft:magma_block
-setblock 394 0 -509 minecraft:end_stone
-setblock 393 0 -509 minecraft:deepslate_gold_ore
-setblock 392 0 -509 minecraft:purpur_block
-setblock 399 0 -509 minecraft:deepslate_iron_ore
-setblock 398 0 -509 minecraft:prismarine_bricks
-setblock 397 0 -509 minecraft:mossy_stone_bricks
-setblock 396 0 -509 minecraft:netherrack
-setblock 403 0 -509 minecraft:magma_block
-setblock 402 0 -509 minecraft:amethyst_block
-setblock 401 0 -509 minecraft:crimson_nylium
-setblock 400 0 -509 minecraft:oak_planks
-setblock 407 0 -509 minecraft:black_stained_glass
-setblock 406 0 -509 minecraft:nether_gold_ore
-setblock 405 0 -509 minecraft:black_glazed_terracotta
-setblock 404 0 -509 minecraft:nether_bricks
-setblock 411 0 -509 minecraft:chiseled_nether_bricks
-setblock 410 0 -509 minecraft:bee_nest
-setblock 409 0 -509 minecraft:cobblestone
-setblock 408 0 -509 minecraft:air
-setblock 415 0 -509 minecraft:chiseled_nether_bricks
-setblock 414 0 -509 minecraft:cobblestone
-setblock 413 0 -509 minecraft:nether_gold_ore
-setblock 412 0 -509 minecraft:birch_planks
-setblock 419 0 -509 minecraft:andesite
-setblock 418 0 -509 minecraft:sea_lantern
-setblock 417 0 -509 minecraft:cobblestone
-setblock 416 0 -509 minecraft:air
-setblock 423 0 -509 minecraft:black_stained_glass
-setblock 422 0 -509 minecraft:nether_gold_ore
-setblock 421 0 -509 minecraft:end_stone_bricks
-setblock 420 0 -509 minecraft:moss_block
-setblock 427 0 -509 minecraft:mangrove_planks
-setblock 426 0 -509 minecraft:crimson_stem
-setblock 425 0 -509 minecraft:calcite
-setblock 424 0 -509 minecraft:pink_glazed_terracotta
-setblock 431 0 -509 minecraft:magma_block
-setblock 430 0 -509 minecraft:end_stone
-setblock 429 0 -509 minecraft:deepslate_gold_ore
-setblock 428 0 -509 minecraft:purpur_block
-setblock 435 0 -509 minecraft:light_blue_stained_glass
-setblock 434 0 -509 minecraft:sponge
-setblock 433 0 -509 minecraft:mossy_stone_bricks
-setblock 432 0 -509 minecraft:air
-setblock 439 0 -509 minecraft:magma_block
-setblock 438 0 -509 minecraft:amethyst_block
-setblock 437 0 -509 minecraft:amethyst_block
-setblock 436 0 -509 minecraft:air
-setblock 443 0 -509 minecraft:magma_block
-setblock 442 0 -509 minecraft:shroomlight
-setblock 441 0 -509 minecraft:diamond_ore
-setblock 440 0 -509 minecraft:crimson_planks
-setblock 447 0 -509 minecraft:magma_block
-setblock 446 0 -509 minecraft:end_stone
-setblock 445 0 -509 minecraft:deepslate_gold_ore
-setblock 444 0 -509 minecraft:purpur_block
-setblock 451 0 -509 minecraft:deepslate_iron_ore
-setblock 450 0 -509 minecraft:chiseled_polished_blackstone
-setblock 449 0 -509 minecraft:mossy_stone_bricks
-setblock 448 0 -509 minecraft:shroomlight
-setblock 455 0 -509 minecraft:waxed_weathered_cut_copper
-setblock 454 0 -509 minecraft:stripped_dark_oak_log
-setblock 453 0 -509 minecraft:air
-setblock 452 0 -509 minecraft:air
-setblock 459 0 -509 minecraft:black_stained_glass
-setblock 458 0 -509 minecraft:nether_gold_ore
-setblock 457 0 -509 minecraft:black_glazed_terracotta
-setblock 456 0 -509 minecraft:podzol
-setblock 463 0 -509 minecraft:waxed_weathered_cut_copper
-setblock 462 0 -509 minecraft:stripped_dark_oak_log
-setblock 461 0 -509 minecraft:air
-setblock 460 0 -509 minecraft:air
-setblock 467 0 -509 minecraft:mangrove_planks
-setblock 466 0 -509 minecraft:target
-setblock 465 0 -509 minecraft:prismarine
-setblock 464 0 -509 minecraft:light_gray_glazed_terracotta
-setblock 471 0 -509 minecraft:magma_block
-setblock 470 0 -509 minecraft:reinforced_deepslate
-setblock 469 0 -509 minecraft:deepslate_gold_ore
-setblock 468 0 -509 minecraft:purpur_pillar
-setblock 475 0 -509 minecraft:deepslate_iron_ore
-setblock 474 0 -509 minecraft:mushroom_stem
-setblock 473 0 -509 minecraft:stone_bricks
-setblock 472 0 -509 minecraft:end_stone
-setblock 479 0 -509 minecraft:light_blue_glazed_terracotta
-setblock 478 0 -509 minecraft:gray_terracotta
-setblock 477 0 -509 minecraft:amethyst_block
-setblock 476 0 -509 minecraft:air
-setblock 483 0 -509 minecraft:black_stained_glass
-setblock 482 0 -509 minecraft:nether_gold_ore
-setblock 481 0 -509 minecraft:black_glazed_terracotta
-setblock 480 0 -509 minecraft:end_stone
-setblock 487 0 -509 minecraft:deepslate_iron_ore
-setblock 486 0 -509 minecraft:warped_planks
-setblock 485 0 -509 minecraft:acacia_planks
-setblock 484 0 -509 minecraft:spawner
-setblock 491 0 -509 minecraft:pumpkin
-setblock 490 0 -509 minecraft:stripped_mangrove_log
-setblock 489 0 -509 minecraft:calcite
-setblock 488 0 -509 minecraft:pink_glazed_terracotta
-setblock 495 0 -509 minecraft:chiseled_nether_bricks
-setblock 494 0 -509 minecraft:mossy_stone_bricks
-setblock 493 0 -509 minecraft:air
-setblock 492 0 -509 minecraft:air
-setblock 499 0 -509 minecraft:chiseled_nether_bricks
-setblock 498 0 -509 minecraft:prismarine_bricks
-setblock 497 0 -509 minecraft:bricks
-setblock 496 0 -509 minecraft:air
-setblock 503 0 -509 minecraft:magma_block
-setblock 502 0 -509 minecraft:shroomlight
-setblock 501 0 -509 minecraft:shroomlight
-setblock 500 0 -509 minecraft:polished_granite
-setblock 507 0 -509 minecraft:deepslate_iron_ore
-setblock 506 0 -509 minecraft:polished_blackstone_bricks
-setblock 505 0 -509 minecraft:crying_obsidian
-setblock 504 0 -509 minecraft:redstone_lamp
-setblock 511 0 -509 minecraft:waxed_cut_copper
-setblock 510 0 -509 minecraft:granite
-setblock 509 0 -509 minecraft:glowstone
-setblock 508 0 -509 minecraft:oak_planks
-setblock -509 0 -508 minecraft:crimson_stem
-setblock -510 0 -508 minecraft:purpur_block
-setblock -511 0 -508 minecraft:slime_block
-setblock -512 0 -508 minecraft:chiseled_deepslate
-setblock -505 0 -508 minecraft:black_stained_glass
-setblock -506 0 -508 minecraft:nether_gold_ore
-setblock -507 0 -508 minecraft:calcite
-setblock -508 0 -508 minecraft:dead_fire_coral_block
-setblock -501 0 -508 minecraft:magma_block
-setblock -502 0 -508 minecraft:end_stone
-setblock -503 0 -508 minecraft:clay
-setblock -504 0 -508 minecraft:purpur_pillar
-setblock -497 0 -508 minecraft:light_blue_stained_glass
-setblock -498 0 -508 minecraft:wet_sponge
-setblock -499 0 -508 minecraft:mossy_stone_bricks
-setblock -500 0 -508 minecraft:lapis_ore
-setblock -493 0 -508 minecraft:pumpkin
-setblock -494 0 -508 minecraft:stripped_mangrove_log
-setblock -495 0 -508 minecraft:calcite
-setblock -496 0 -508 minecraft:pink_glazed_terracotta
-setblock -489 0 -508 minecraft:magma_block
-setblock -490 0 -508 minecraft:amethyst_block
-setblock -491 0 -508 minecraft:amethyst_block
-setblock -492 0 -508 minecraft:air
-setblock -485 0 -508 minecraft:magma_block
-setblock -486 0 -508 minecraft:redstone_lamp
-setblock -487 0 -508 minecraft:slime_block
-setblock -488 0 -508 minecraft:stone
-setblock -481 0 -508 minecraft:magma_block
-setblock -482 0 -508 minecraft:end_stone
-setblock -483 0 -508 minecraft:crimson_nylium
-setblock -484 0 -508 minecraft:purpur_pillar
-setblock -477 0 -508 minecraft:deepslate_iron_ore
-setblock -478 0 -508 minecraft:chiseled_polished_blackstone
-setblock -479 0 -508 minecraft:mossy_stone_bricks
-setblock -480 0 -508 minecraft:shroomlight
-setblock -473 0 -508 minecraft:black_stained_glass
-setblock -474 0 -508 minecraft:nether_gold_ore
-setblock -475 0 -508 minecraft:granite
-setblock -476 0 -508 minecraft:deepslate_emerald_ore
-setblock -469 0 -508 minecraft:mangrove_planks
-setblock -470 0 -508 minecraft:crimson_stem
-setblock -471 0 -508 minecraft:calcite
-setblock -472 0 -508 minecraft:pink_glazed_terracotta
-setblock -465 0 -508 minecraft:black_stained_glass
-setblock -466 0 -508 minecraft:nether_gold_ore
-setblock -467 0 -508 minecraft:dark_prismarine
-setblock -468 0 -508 minecraft:iron_ore
-setblock -461 0 -508 minecraft:andesite
-setblock -462 0 -508 minecraft:sea_lantern
-setblock -463 0 -508 minecraft:stone
-setblock -464 0 -508 minecraft:air
-setblock -457 0 -508 minecraft:chiseled_nether_bricks
-setblock -458 0 -508 minecraft:bee_nest
-setblock -459 0 -508 minecraft:cobblestone
-setblock -460 0 -508 minecraft:air
-setblock -453 0 -508 minecraft:chiseled_nether_bricks
-setblock -454 0 -508 minecraft:cobblestone
-setblock -455 0 -508 minecraft:smooth_stone
-setblock -456 0 -508 minecraft:air
-setblock -449 0 -508 minecraft:black_stained_glass
-setblock -450 0 -508 minecraft:nether_gold_ore
-setblock -451 0 -508 minecraft:packed_mud
-setblock -452 0 -508 minecraft:rooted_dirt
-setblock -445 0 -508 minecraft:andesite
-setblock -446 0 -508 minecraft:polished_basalt
-setblock -447 0 -508 minecraft:dark_oak_log
-setblock -448 0 -508 minecraft:air
-setblock -441 0 -508 minecraft:light_blue_wool
-setblock -442 0 -508 minecraft:mangrove_planks
-setblock -443 0 -508 minecraft:gold_ore
-setblock -444 0 -508 minecraft:air
-setblock -437 0 -508 minecraft:chiseled_nether_bricks
-setblock -438 0 -508 minecraft:dark_oak_planks
-setblock -439 0 -508 minecraft:oak_log
-setblock -440 0 -508 minecraft:air
-setblock -433 0 -508 minecraft:jungle_log
-setblock -434 0 -508 minecraft:oak_log
-setblock -435 0 -508 minecraft:mangrove_planks
-setblock -436 0 -508 minecraft:jungle_planks
-setblock -429 0 -508 minecraft:light_blue_wool
-setblock -430 0 -508 minecraft:mangrove_planks
-setblock -431 0 -508 minecraft:waxed_weathered_copper
-setblock -432 0 -508 minecraft:air
-setblock -425 0 -508 minecraft:jungle_log
-setblock -426 0 -508 minecraft:air
-setblock -427 0 -508 minecraft:crimson_nylium
-setblock -428 0 -508 minecraft:air
-setblock -421 0 -508 minecraft:chiseled_nether_bricks
-setblock -422 0 -508 minecraft:spruce_planks
-setblock -423 0 -508 minecraft:acacia_planks
-setblock -424 0 -508 minecraft:air
-setblock -417 0 -508 minecraft:andesite
-setblock -418 0 -508 minecraft:pumpkin
-setblock -419 0 -508 minecraft:deepslate
-setblock -420 0 -508 minecraft:air
-setblock -413 0 -508 minecraft:chiseled_nether_bricks
-setblock -414 0 -508 minecraft:pumpkin
-setblock -415 0 -508 minecraft:chiseled_deepslate
-setblock -416 0 -508 minecraft:air
-setblock -409 0 -508 minecraft:chiseled_nether_bricks
-setblock -410 0 -508 minecraft:lime_terracotta
-setblock -411 0 -508 minecraft:amethyst_block
-setblock -412 0 -508 minecraft:granite
-setblock -405 0 -508 minecraft:andesite
-setblock -406 0 -508 minecraft:crimson_planks
-setblock -407 0 -508 minecraft:polished_granite
-setblock -408 0 -508 minecraft:air
-setblock -401 0 -508 minecraft:chiseled_nether_bricks
-setblock -402 0 -508 minecraft:dark_oak_planks
-setblock -403 0 -508 minecraft:air
-setblock -404 0 -508 minecraft:air
-setblock -397 0 -508 minecraft:light_blue_stained_glass
-setblock -398 0 -508 minecraft:smooth_basalt
-setblock -399 0 -508 minecraft:spruce_planks
-setblock -400 0 -508 minecraft:sea_lantern
-setblock -393 0 -508 minecraft:black_stained_glass
-setblock -394 0 -508 minecraft:nether_gold_ore
-setblock -395 0 -508 minecraft:calcite
-setblock -396 0 -508 minecraft:netherrack
-setblock -389 0 -508 minecraft:deepslate_iron_ore
-setblock -390 0 -508 minecraft:hay_block
-setblock -391 0 -508 minecraft:mossy_stone_bricks
-setblock -392 0 -508 minecraft:brown_mushroom_block
-setblock -385 0 -508 minecraft:waxed_weathered_cut_copper
-setblock -386 0 -508 minecraft:stripped_crimson_stem
-setblock -387 0 -508 minecraft:air
-setblock -388 0 -508 minecraft:air
-setblock -381 0 -508 minecraft:mangrove_planks
-setblock -382 0 -508 minecraft:lapis_block
-setblock -383 0 -508 minecraft:calcite
-setblock -384 0 -508 minecraft:pink_glazed_terracotta
-setblock -377 0 -508 minecraft:chiseled_nether_bricks
-setblock -378 0 -508 minecraft:granite
-setblock -379 0 -508 minecraft:air
-setblock -380 0 -508 minecraft:air
-setblock -373 0 -508 minecraft:chiseled_nether_bricks
-setblock -374 0 -508 minecraft:dark_prismarine
-setblock -375 0 -508 minecraft:packed_mud
-setblock -376 0 -508 minecraft:air
-setblock -369 0 -508 minecraft:light_blue_glazed_terracotta
-setblock -370 0 -508 minecraft:gray_terracotta
-setblock -371 0 -508 minecraft:amethyst_block
-setblock -372 0 -508 minecraft:polished_granite
-setblock -365 0 -508 minecraft:deepslate_iron_ore
-setblock -366 0 -508 minecraft:polished_blackstone_bricks
-setblock -367 0 -508 minecraft:shroomlight
-setblock -368 0 -508 minecraft:redstone_lamp
-setblock -361 0 -508 minecraft:black_stained_glass
-setblock -362 0 -508 minecraft:nether_gold_ore
-setblock -363 0 -508 minecraft:granite
-setblock -364 0 -508 minecraft:tinted_glass
-setblock -357 0 -508 minecraft:light_blue_stained_glass
-setblock -358 0 -508 minecraft:smooth_stone
-setblock -359 0 -508 minecraft:crimson_planks
-setblock -360 0 -508 minecraft:red_nether_bricks
-setblock -353 0 -508 minecraft:iron_block
-setblock -354 0 -508 minecraft:warped_planks
-setblock -355 0 -508 minecraft:dead_bubble_coral_block
-setblock -356 0 -508 minecraft:mycelium
-setblock -349 0 -508 minecraft:chiseled_nether_bricks
-setblock -350 0 -508 minecraft:warped_planks
-setblock -351 0 -508 minecraft:acacia_planks
-setblock -352 0 -508 minecraft:air
-setblock -345 0 -508 minecraft:black_stained_glass
-setblock -346 0 -508 minecraft:nether_gold_ore
-setblock -347 0 -508 minecraft:calcite
-setblock -348 0 -508 minecraft:red_nether_bricks
-setblock -341 0 -508 minecraft:andesite
-setblock -342 0 -508 minecraft:pumpkin
-setblock -343 0 -508 minecraft:spruce_planks
-setblock -344 0 -508 minecraft:warped_wart_block
-setblock -337 0 -508 minecraft:andesite
-setblock -338 0 -508 minecraft:yellow_terracotta
-setblock -339 0 -508 minecraft:amethyst_block
-setblock -340 0 -508 minecraft:granite
-setblock -333 0 -508 minecraft:andesite
-setblock -334 0 -508 minecraft:melon
-setblock -335 0 -508 minecraft:birch_log
-setblock -336 0 -508 minecraft:warped_wart_block
-setblock -329 0 -508 minecraft:chiseled_nether_bricks
-setblock -330 0 -508 minecraft:light_gray_wool
-setblock -331 0 -508 minecraft:gold_block
-setblock -332 0 -508 minecraft:air
-setblock -325 0 -508 minecraft:andesite
-setblock -326 0 -508 minecraft:lime_wool
-setblock -327 0 -508 minecraft:deepslate
-setblock -328 0 -508 minecraft:air
-setblock -321 0 -508 minecraft:waxed_cut_copper
-setblock -322 0 -508 minecraft:redstone_ore
-setblock -323 0 -508 minecraft:diamond_block
-setblock -324 0 -508 minecraft:air
-setblock -317 0 -508 minecraft:light_blue_stained_glass
-setblock -318 0 -508 minecraft:sponge
-setblock -319 0 -508 minecraft:crimson_planks
-setblock -320 0 -508 minecraft:mossy_stone_bricks
-setblock -313 0 -508 minecraft:andesite
-setblock -314 0 -508 minecraft:acacia_planks
-setblock -315 0 -508 minecraft:netherrack
-setblock -316 0 -508 minecraft:air
-setblock -309 0 -508 minecraft:light_blue_stained_glass
-setblock -310 0 -508 minecraft:magenta_stained_glass
-setblock -311 0 -508 minecraft:melon
-setblock -312 0 -508 minecraft:cracked_deepslate_bricks
-setblock -305 0 -508 minecraft:waxed_weathered_cut_copper
-setblock -306 0 -508 minecraft:mangrove_log
-setblock -307 0 -508 minecraft:air
-setblock -308 0 -508 minecraft:air
-setblock -301 0 -508 minecraft:pumpkin
-setblock -302 0 -508 minecraft:emerald_block
-setblock -303 0 -508 minecraft:mud
-setblock -304 0 -508 minecraft:lime_glazed_terracotta
-setblock -297 0 -508 minecraft:magma_block
-setblock -298 0 -508 minecraft:mangrove_planks
-setblock -299 0 -508 minecraft:air
-setblock -300 0 -508 minecraft:nether_gold_ore
-setblock -293 0 -508 minecraft:mud_bricks
-setblock -294 0 -508 minecraft:mycelium
-setblock -295 0 -508 minecraft:chiseled_deepslate
-setblock -296 0 -508 minecraft:air
-setblock -289 0 -508 minecraft:light_blue_glazed_terracotta
-setblock -290 0 -508 minecraft:gray_terracotta
-setblock -291 0 -508 minecraft:mangrove_planks
-setblock -292 0 -508 minecraft:tuff
-setblock -285 0 -508 minecraft:chiseled_nether_bricks
-setblock -286 0 -508 minecraft:pumpkin
-setblock -287 0 -508 minecraft:chiseled_deepslate
-setblock -288 0 -508 minecraft:air
-setblock -281 0 -508 minecraft:andesite
-setblock -282 0 -508 minecraft:pumpkin
-setblock -283 0 -508 minecraft:spruce_planks
-setblock -284 0 -508 minecraft:warped_wart_block
-setblock -277 0 -508 minecraft:chiseled_nether_bricks
-setblock -278 0 -508 minecraft:pink_terracotta
-setblock -279 0 -508 minecraft:amethyst_block
-setblock -280 0 -508 minecraft:granite
-setblock -273 0 -508 minecraft:dirt
-setblock -274 0 -508 minecraft:amethyst_block
-setblock -275 0 -508 minecraft:crimson_nylium
-setblock -276 0 -508 minecraft:white_terracotta
-setblock -269 0 -508 minecraft:deepslate_iron_ore
-setblock -270 0 -508 minecraft:yellow_terracotta
-setblock -271 0 -508 minecraft:crying_obsidian
-setblock -272 0 -508 minecraft:shroomlight
-setblock -265 0 -508 minecraft:andesite
-setblock -266 0 -508 minecraft:mangrove_planks
-setblock -267 0 -508 minecraft:coal_ore
-setblock -268 0 -508 minecraft:spruce_planks
-setblock -261 0 -508 minecraft:light_blue_stained_glass
-setblock -262 0 -508 minecraft:hay_block
-setblock -263 0 -508 minecraft:iron_ore
-setblock -264 0 -508 minecraft:dark_oak_planks
-setblock -257 0 -508 minecraft:andesite
-setblock -258 0 -508 minecraft:polished_basalt
-setblock -259 0 -508 minecraft:dark_oak_log
-setblock -260 0 -508 minecraft:air
-setblock -253 0 -508 minecraft:waxed_cut_copper
-setblock -254 0 -508 minecraft:dark_oak_planks
-setblock -255 0 -508 minecraft:waxed_weathered_copper
-setblock -256 0 -508 minecraft:air
-setblock -249 0 -508 minecraft:light_blue_wool
-setblock -250 0 -508 minecraft:mangrove_planks
-setblock -251 0 -508 minecraft:gold_ore
-setblock -252 0 -508 minecraft:air
-setblock -245 0 -508 minecraft:crimson_stem
-setblock -246 0 -508 minecraft:oak_log
-setblock -247 0 -508 minecraft:amethyst_block
-setblock -248 0 -508 minecraft:jungle_planks
-setblock -241 0 -508 minecraft:jungle_log
-setblock -242 0 -508 minecraft:warped_stem
-setblock -243 0 -508 minecraft:pink_stained_glass
-setblock -244 0 -508 minecraft:oak_planks
-setblock -237 0 -508 minecraft:andesite
-setblock -238 0 -508 minecraft:pumpkin
-setblock -239 0 -508 minecraft:deepslate
-setblock -240 0 -508 minecraft:air
-setblock -233 0 -508 minecraft:andesite
-setblock -234 0 -508 minecraft:hay_block
-setblock -235 0 -508 minecraft:crimson_planks
-setblock -236 0 -508 minecraft:air
-setblock -229 0 -508 minecraft:chiseled_nether_bricks
-setblock -230 0 -508 minecraft:lime_terracotta
-setblock -231 0 -508 minecraft:amethyst_block
-setblock -232 0 -508 minecraft:granite
-setblock -225 0 -508 minecraft:chiseled_nether_bricks
-setblock -226 0 -508 minecraft:dark_oak_planks
-setblock -227 0 -508 minecraft:air
-setblock -228 0 -508 minecraft:air
-setblock -221 0 -508 minecraft:light_blue_stained_glass
-setblock -222 0 -508 minecraft:wet_sponge
-setblock -223 0 -508 minecraft:spruce_planks
-setblock -224 0 -508 minecraft:air
-setblock -217 0 -508 minecraft:black_stained_glass
-setblock -218 0 -508 minecraft:nether_gold_ore
-setblock -219 0 -508 minecraft:dark_prismarine
-setblock -220 0 -508 minecraft:stripped_warped_stem
-setblock -213 0 -508 minecraft:black_stained_glass
-setblock -214 0 -508 minecraft:nether_gold_ore
-setblock -215 0 -508 minecraft:dark_prismarine
-setblock -216 0 -508 minecraft:melon
-setblock -209 0 -508 minecraft:andesite
-setblock -210 0 -508 minecraft:polished_basalt
-setblock -211 0 -508 minecraft:dark_oak_log
-setblock -212 0 -508 minecraft:air
-setblock -205 0 -508 minecraft:light_blue_wool
-setblock -206 0 -508 minecraft:mangrove_planks
-setblock -207 0 -508 minecraft:gold_ore
-setblock -208 0 -508 minecraft:air
-setblock -201 0 -508 minecraft:chiseled_nether_bricks
-setblock -202 0 -508 minecraft:dark_oak_planks
-setblock -203 0 -508 minecraft:oak_log
-setblock -204 0 -508 minecraft:air
-setblock -197 0 -508 minecraft:jungle_log
-setblock -198 0 -508 minecraft:oak_log
-setblock -199 0 -508 minecraft:mangrove_planks
-setblock -200 0 -508 minecraft:jungle_planks
-setblock -193 0 -508 minecraft:light_blue_wool
-setblock -194 0 -508 minecraft:mangrove_planks
-setblock -195 0 -508 minecraft:waxed_weathered_copper
-setblock -196 0 -508 minecraft:air
-setblock -189 0 -508 minecraft:jungle_log
-setblock -190 0 -508 minecraft:air
-setblock -191 0 -508 minecraft:crimson_nylium
-setblock -192 0 -508 minecraft:air
-setblock -185 0 -508 minecraft:chiseled_nether_bricks
-setblock -186 0 -508 minecraft:melon
-setblock -187 0 -508 minecraft:deepslate
-setblock -188 0 -508 minecraft:air
-setblock -181 0 -508 minecraft:chiseled_nether_bricks
-setblock -182 0 -508 minecraft:spruce_planks
-setblock -183 0 -508 minecraft:birch_planks
-setblock -184 0 -508 minecraft:air
-setblock -177 0 -508 minecraft:chiseled_nether_bricks
-setblock -178 0 -508 minecraft:pumpkin
-setblock -179 0 -508 minecraft:chiseled_deepslate
-setblock -180 0 -508 minecraft:air
-setblock -173 0 -508 minecraft:chiseled_nether_bricks
-setblock -174 0 -508 minecraft:raw_gold_block
-setblock -175 0 -508 minecraft:raw_gold_block
-setblock -176 0 -508 minecraft:granite
-setblock -169 0 -508 minecraft:chiseled_nether_bricks
-setblock -170 0 -508 minecraft:dark_oak_planks
-setblock -171 0 -508 minecraft:air
-setblock -172 0 -508 minecraft:air
-setblock -165 0 -508 minecraft:andesite
-setblock -166 0 -508 minecraft:crimson_planks
-setblock -167 0 -508 minecraft:polished_granite
-setblock -168 0 -508 minecraft:air
-setblock -161 0 -508 minecraft:light_blue_stained_glass
-setblock -162 0 -508 minecraft:wet_sponge
-setblock -163 0 -508 minecraft:mycelium
-setblock -164 0 -508 minecraft:oak_planks
-setblock -157 0 -508 minecraft:black_stained_glass
-setblock -158 0 -508 minecraft:coal_ore
-setblock -159 0 -508 minecraft:black_glazed_terracotta
-setblock -160 0 -508 minecraft:shroomlight
-setblock -153 0 -508 minecraft:black_stained_glass
-setblock -154 0 -508 minecraft:nether_gold_ore
-setblock -155 0 -508 minecraft:calcite
-setblock -156 0 -508 minecraft:pearlescent_froglight
-setblock -149 0 -508 minecraft:andesite
-setblock -150 0 -508 minecraft:pumpkin
-setblock -151 0 -508 minecraft:mangrove_planks
-setblock -152 0 -508 minecraft:air
-setblock -145 0 -508 minecraft:mud_bricks
-setblock -146 0 -508 minecraft:magenta_concrete
-setblock -147 0 -508 minecraft:chiseled_deepslate
-setblock -148 0 -508 minecraft:air
-setblock -141 0 -508 minecraft:chiseled_nether_bricks
-setblock -142 0 -508 minecraft:dark_oak_planks
-setblock -143 0 -508 minecraft:netherrack
-setblock -144 0 -508 minecraft:air
-setblock -137 0 -508 minecraft:chiseled_nether_bricks
-setblock -138 0 -508 minecraft:pumpkin
-setblock -139 0 -508 minecraft:chiseled_deepslate
-setblock -140 0 -508 minecraft:air
-setblock -133 0 -508 minecraft:andesite
-setblock -134 0 -508 minecraft:pumpkin
-setblock -135 0 -508 minecraft:spruce_planks
-setblock -136 0 -508 minecraft:warped_wart_block
-setblock -129 0 -508 minecraft:andesite
-setblock -130 0 -508 minecraft:lime_terracotta
-setblock -131 0 -508 minecraft:amethyst_block
-setblock -132 0 -508 minecraft:granite
-setblock -125 0 -508 minecraft:deepslate_iron_ore
-setblock -126 0 -508 minecraft:diamond_ore
-setblock -127 0 -508 minecraft:emerald_block
-setblock -128 0 -508 minecraft:glowstone
-setblock -121 0 -508 minecraft:gray_wool
-setblock -122 0 -508 minecraft:dark_oak_log
-setblock -123 0 -508 minecraft:air
-setblock -124 0 -508 minecraft:air
-setblock -117 0 -508 minecraft:mangrove_planks
-setblock -118 0 -508 minecraft:crimson_stem
-setblock -119 0 -508 minecraft:acacia_planks
-setblock -120 0 -508 minecraft:pink_glazed_terracotta
-setblock -113 0 -508 minecraft:magma_block
-setblock -114 0 -508 minecraft:acacia_planks
-setblock -115 0 -508 minecraft:deepslate_gold_ore
-setblock -116 0 -508 minecraft:oak_log
-setblock -109 0 -508 minecraft:mud_bricks
-setblock -110 0 -508 minecraft:mycelium
-setblock -111 0 -508 minecraft:chiseled_deepslate
-setblock -112 0 -508 minecraft:air
-setblock -105 0 -508 minecraft:magma_block
-setblock -106 0 -508 minecraft:pink_terracotta
-setblock -107 0 -508 minecraft:mangrove_planks
-setblock -108 0 -508 minecraft:tuff
-setblock -101 0 -508 minecraft:chiseled_nether_bricks
-setblock -102 0 -508 minecraft:pumpkin
-setblock -103 0 -508 minecraft:chiseled_deepslate
-setblock -104 0 -508 minecraft:air
-setblock -97 0 -508 minecraft:andesite
-setblock -98 0 -508 minecraft:pumpkin
-setblock -99 0 -508 minecraft:spruce_planks
-setblock -100 0 -508 minecraft:warped_wart_block
-setblock -93 0 -508 minecraft:andesite
-setblock -94 0 -508 minecraft:lime_terracotta
-setblock -95 0 -508 minecraft:amethyst_block
-setblock -96 0 -508 minecraft:granite
-setblock -89 0 -508 minecraft:dirt
-setblock -90 0 -508 minecraft:amethyst_block
-setblock -91 0 -508 minecraft:gold_ore
-setblock -92 0 -508 minecraft:light_gray_terracotta
-setblock -85 0 -508 minecraft:light_blue_glazed_terracotta
-setblock -86 0 -508 minecraft:gray_terracotta
-setblock -87 0 -508 minecraft:waxed_weathered_cut_copper
-setblock -88 0 -508 minecraft:polished_granite
-setblock -81 0 -508 minecraft:deepslate_iron_ore
-setblock -82 0 -508 minecraft:ancient_debris
-setblock -83 0 -508 minecraft:emerald_block
-setblock -84 0 -508 minecraft:shroomlight
-setblock -77 0 -508 minecraft:black_stained_glass
-setblock -78 0 -508 minecraft:nether_gold_ore
-setblock -79 0 -508 minecraft:slime_block
-setblock -80 0 -508 minecraft:raw_copper_block
-setblock -73 0 -508 minecraft:andesite
-setblock -74 0 -508 minecraft:pumpkin
-setblock -75 0 -508 minecraft:spruce_planks
-setblock -76 0 -508 minecraft:air
-setblock -69 0 -508 minecraft:andesite
-setblock -70 0 -508 minecraft:melon
-setblock -71 0 -508 minecraft:granite
-setblock -72 0 -508 minecraft:air
-setblock -65 0 -508 minecraft:chiseled_nether_bricks
-setblock -66 0 -508 minecraft:crimson_planks
-setblock -67 0 -508 minecraft:warped_stem
-setblock -68 0 -508 minecraft:spruce_planks
-setblock -61 0 -508 minecraft:chiseled_nether_bricks
-setblock -62 0 -508 minecraft:granite
-setblock -63 0 -508 minecraft:white_wool
-setblock -64 0 -508 minecraft:mangrove_planks
-setblock -57 0 -508 minecraft:chiseled_nether_bricks
-setblock -58 0 -508 minecraft:spruce_planks
-setblock -59 0 -508 minecraft:netherrack
-setblock -60 0 -508 minecraft:air
-setblock -53 0 -508 minecraft:light_blue_stained_glass
-setblock -54 0 -508 minecraft:bricks
-setblock -55 0 -508 minecraft:amethyst_block
-setblock -56 0 -508 minecraft:acacia_planks
-setblock -49 0 -508 minecraft:mud_bricks
-setblock -50 0 -508 minecraft:spawner
-setblock -51 0 -508 minecraft:chiseled_deepslate
-setblock -52 0 -508 minecraft:air
-setblock -45 0 -508 minecraft:light_blue_stained_glass
-setblock -46 0 -508 minecraft:red_nether_bricks
-setblock -47 0 -508 minecraft:light_gray_terracotta
-setblock -48 0 -508 minecraft:jungle_planks
-setblock -41 0 -508 minecraft:mud_bricks
-setblock -42 0 -508 minecraft:spawner
-setblock -43 0 -508 minecraft:crimson_stem
-setblock -44 0 -508 minecraft:air
-setblock -37 0 -508 minecraft:chiseled_nether_bricks
-setblock -38 0 -508 minecraft:granite
-setblock -39 0 -508 minecraft:coal_ore
-setblock -40 0 -508 minecraft:dark_oak_planks
-setblock -33 0 -508 minecraft:light_blue_stained_glass
-setblock -34 0 -508 minecraft:end_stone
-setblock -35 0 -508 minecraft:budding_amethyst
-setblock -36 0 -508 minecraft:birch_planks
-setblock -29 0 -508 minecraft:mud_bricks
-setblock -30 0 -508 minecraft:mycelium
-setblock -31 0 -508 minecraft:gray_wool
-setblock -32 0 -508 minecraft:air
-setblock -25 0 -508 minecraft:chiseled_nether_bricks
-setblock -26 0 -508 minecraft:crimson_planks
-setblock -27 0 -508 minecraft:warped_stem
-setblock -28 0 -508 minecraft:spruce_planks
-setblock -21 0 -508 minecraft:light_blue_stained_glass
-setblock -22 0 -508 minecraft:pearlescent_froglight
-setblock -23 0 -508 minecraft:polished_diorite
-setblock -24 0 -508 minecraft:birch_planks
-setblock -17 0 -508 minecraft:chiseled_nether_bricks
-setblock -18 0 -508 minecraft:granite
-setblock -19 0 -508 minecraft:deepslate
-setblock -20 0 -508 minecraft:air
-setblock -13 0 -508 minecraft:andesite
-setblock -14 0 -508 minecraft:mangrove_planks
-setblock -15 0 -508 minecraft:warped_stem
-setblock -16 0 -508 minecraft:air
-setblock -9 0 -508 minecraft:light_blue_wool
-setblock -10 0 -508 minecraft:acacia_planks
-setblock -11 0 -508 minecraft:emerald_block
-setblock -12 0 -508 minecraft:air
-setblock -5 0 -508 minecraft:chiseled_nether_bricks
-setblock -6 0 -508 minecraft:dark_oak_planks
-setblock -7 0 -508 minecraft:polished_granite
-setblock -8 0 -508 minecraft:air
-setblock -1 0 -508 minecraft:jungle_log
-setblock -2 0 -508 minecraft:air
-setblock -3 0 -508 minecraft:deepslate_copper_ore
-setblock -4 0 -508 minecraft:polished_andesite
-setblock 3 0 -508 minecraft:chiseled_nether_bricks
-setblock 2 0 -508 minecraft:pumpkin
-setblock 1 0 -508 minecraft:gray_wool
-setblock 0 0 -508 minecraft:air
-setblock 7 0 -508 minecraft:chiseled_nether_bricks
-setblock 6 0 -508 minecraft:redstone_lamp
-setblock 5 0 -508 minecraft:redstone_lamp
-setblock 4 0 -508 minecraft:granite
-setblock 11 0 -508 minecraft:andesite
-setblock 10 0 -508 minecraft:dark_prismarine
-setblock 9 0 -508 minecraft:dark_oak_planks
-setblock 8 0 -508 minecraft:air
-setblock 15 0 -508 minecraft:light_blue_stained_glass
-setblock 14 0 -508 minecraft:wet_sponge
-setblock 13 0 -508 minecraft:mycelium
-setblock 12 0 -508 minecraft:oak_planks
-setblock 19 0 -508 minecraft:black_stained_glass
-setblock 18 0 -508 minecraft:coal_ore
-setblock 17 0 -508 minecraft:black_glazed_terracotta
-setblock 16 0 -508 minecraft:raw_iron_block
-setblock 23 0 -508 minecraft:black_stained_glass
-setblock 22 0 -508 minecraft:nether_gold_ore
-setblock 21 0 -508 minecraft:calcite
-setblock 20 0 -508 minecraft:prismarine
-setblock 27 0 -508 minecraft:chiseled_nether_bricks
-setblock 26 0 -508 minecraft:spruce_planks
-setblock 25 0 -508 minecraft:mangrove_planks
-setblock 24 0 -508 minecraft:air
-setblock 31 0 -508 minecraft:chiseled_nether_bricks
-setblock 30 0 -508 minecraft:granite
-setblock 29 0 -508 minecraft:acacia_planks
-setblock 28 0 -508 minecraft:air
-setblock 35 0 -508 minecraft:black_stained_glass
-setblock 34 0 -508 minecraft:nether_gold_ore
-setblock 33 0 -508 minecraft:black_concrete
-setblock 32 0 -508 minecraft:prismarine_bricks
-setblock 39 0 -508 minecraft:andesite
-setblock 38 0 -508 minecraft:jungle_planks
-setblock 37 0 -508 minecraft:white_wool
-setblock 36 0 -508 minecraft:dark_oak_planks
-setblock 43 0 -508 minecraft:light_blue_stained_glass
-setblock 42 0 -508 minecraft:cobbled_deepslate
-setblock 41 0 -508 minecraft:pumpkin
-setblock 40 0 -508 minecraft:oak_log
-setblock 47 0 -508 minecraft:mud_bricks
-setblock 46 0 -508 minecraft:coarse_dirt
-setblock 45 0 -508 minecraft:chiseled_deepslate
-setblock 44 0 -508 minecraft:air
-setblock 51 0 -508 minecraft:andesite
-setblock 50 0 -508 minecraft:jungle_planks
-setblock 49 0 -508 minecraft:nether_gold_ore
-setblock 48 0 -508 minecraft:dark_oak_planks
-setblock 55 0 -508 minecraft:deepslate_iron_ore
-setblock 54 0 -508 minecraft:cracked_nether_bricks
-setblock 53 0 -508 minecraft:wet_sponge
-setblock 52 0 -508 minecraft:shroomlight
-setblock 59 0 -508 minecraft:birch_planks
-setblock 58 0 -508 minecraft:coarse_dirt
-setblock 57 0 -508 minecraft:crimson_stem
-setblock 56 0 -508 minecraft:air
-setblock 63 0 -508 minecraft:deepslate_iron_ore
-setblock 62 0 -508 minecraft:bricks
-setblock 61 0 -508 minecraft:raw_copper_block
-setblock 60 0 -508 minecraft:warped_wart_block
-setblock 67 0 -508 minecraft:birch_planks
-setblock 66 0 -508 minecraft:coarse_dirt
-setblock 65 0 -508 minecraft:gray_wool
-setblock 64 0 -508 minecraft:air
-setblock 71 0 -508 minecraft:deepslate_iron_ore
-setblock 70 0 -508 minecraft:cracked_deepslate_bricks
-setblock 69 0 -508 minecraft:polished_andesite
-setblock 68 0 -508 minecraft:warped_wart_block
-setblock 75 0 -508 minecraft:andesite
-setblock 74 0 -508 minecraft:mangrove_planks
-setblock 73 0 -508 minecraft:deepslate
-setblock 72 0 -508 minecraft:air
-setblock 79 0 -508 minecraft:chiseled_nether_bricks
-setblock 78 0 -508 minecraft:dark_oak_planks
-setblock 77 0 -508 minecraft:polished_granite
-setblock 76 0 -508 minecraft:air
-setblock 83 0 -508 minecraft:light_blue_wool
-setblock 82 0 -508 minecraft:acacia_planks
-setblock 81 0 -508 minecraft:emerald_block
-setblock 80 0 -508 minecraft:air
-setblock 87 0 -508 minecraft:jungle_log
-setblock 86 0 -508 minecraft:air
-setblock 85 0 -508 minecraft:lime_glazed_terracotta
-setblock 84 0 -508 minecraft:polished_andesite
-setblock 91 0 -508 minecraft:chiseled_nether_bricks
-setblock 90 0 -508 minecraft:pumpkin
-setblock 89 0 -508 minecraft:gray_wool
-setblock 88 0 -508 minecraft:air
-setblock 95 0 -508 minecraft:andesite
-setblock 94 0 -508 minecraft:lime_terracotta
-setblock 93 0 -508 minecraft:amethyst_block
-setblock 92 0 -508 minecraft:granite
-setblock 99 0 -508 minecraft:andesite
-setblock 98 0 -508 minecraft:dark_prismarine
-setblock 97 0 -508 minecraft:dark_oak_planks
-setblock 96 0 -508 minecraft:air
-setblock 103 0 -508 minecraft:andesite
-setblock 102 0 -508 minecraft:pumpkin
-setblock 101 0 -508 minecraft:crimson_planks
-setblock 100 0 -508 minecraft:air
-setblock 107 0 -508 minecraft:black_stained_glass
-setblock 106 0 -508 minecraft:nether_gold_ore
-setblock 105 0 -508 minecraft:packed_mud
-setblock 104 0 -508 minecraft:glowstone
-setblock 111 0 -508 minecraft:magma_block
-setblock 110 0 -508 minecraft:mangrove_planks
-setblock 109 0 -508 minecraft:air
-setblock 108 0 -508 minecraft:nether_gold_ore
-setblock 115 0 -508 minecraft:andesite
-setblock 114 0 -508 minecraft:pumpkin
-setblock 113 0 -508 minecraft:mangrove_planks
-setblock 112 0 -508 minecraft:air
-setblock 119 0 -508 minecraft:black_stained_glass
-setblock 118 0 -508 minecraft:nether_gold_ore
-setblock 117 0 -508 minecraft:end_stone_bricks
-setblock 116 0 -508 minecraft:deepslate_diamond_ore
-setblock 123 0 -508 minecraft:gray_wool
-setblock 122 0 -508 minecraft:dark_oak_log
-setblock 121 0 -508 minecraft:air
-setblock 120 0 -508 minecraft:air
-setblock 127 0 -508 minecraft:andesite
-setblock 126 0 -508 minecraft:acacia_planks
-setblock 125 0 -508 minecraft:lime_concrete
-setblock 124 0 -508 minecraft:brown_concrete
-setblock 131 0 -508 minecraft:andesite
-setblock 130 0 -508 minecraft:mangrove_planks
-setblock 129 0 -508 minecraft:air
-setblock 128 0 -508 minecraft:air
-setblock 135 0 -508 minecraft:chiseled_nether_bricks
-setblock 134 0 -508 minecraft:crimson_planks
-setblock 133 0 -508 minecraft:white_glazed_terracotta
-setblock 132 0 -508 minecraft:air
-setblock 139 0 -508 minecraft:light_blue_stained_glass
-setblock 138 0 -508 minecraft:mossy_stone_bricks
-setblock 137 0 -508 minecraft:chiseled_deepslate
-setblock 136 0 -508 minecraft:packed_mud
-setblock 143 0 -508 minecraft:light_blue_wool
-setblock 142 0 -508 minecraft:jungle_planks
-setblock 141 0 -508 minecraft:lapis_block
-setblock 140 0 -508 minecraft:air
-setblock 147 0 -508 minecraft:andesite
-setblock 146 0 -508 minecraft:mangrove_planks
-setblock 145 0 -508 minecraft:chiseled_deepslate
-setblock 144 0 -508 minecraft:air
-setblock 151 0 -508 minecraft:waxed_cut_copper
-setblock 150 0 -508 minecraft:wet_sponge
-setblock 149 0 -508 minecraft:deepslate_gold_ore
-setblock 148 0 -508 minecraft:air
-setblock 155 0 -508 minecraft:birch_planks
-setblock 154 0 -508 minecraft:yellow_concrete
-setblock 153 0 -508 minecraft:jungle_planks
-setblock 152 0 -508 minecraft:air
-setblock 159 0 -508 minecraft:mud_bricks
-setblock 158 0 -508 minecraft:coarse_dirt
-setblock 157 0 -508 minecraft:raw_copper_block
-setblock 156 0 -508 minecraft:redstone_lamp
-setblock 163 0 -508 minecraft:deepslate_iron_ore
-setblock 162 0 -508 minecraft:wet_sponge
-setblock 161 0 -508 minecraft:wet_sponge
-setblock 160 0 -508 minecraft:shroomlight
-setblock 167 0 -508 minecraft:gray_wool
-setblock 166 0 -508 minecraft:dark_oak_log
-setblock 165 0 -508 minecraft:air
-setblock 164 0 -508 minecraft:air
-setblock 171 0 -508 minecraft:andesite
-setblock 170 0 -508 minecraft:acacia_planks
-setblock 169 0 -508 minecraft:rooted_dirt
-setblock 168 0 -508 minecraft:brown_concrete
-setblock 175 0 -508 minecraft:andesite
-setblock 174 0 -508 minecraft:mangrove_planks
-setblock 173 0 -508 minecraft:air
-setblock 172 0 -508 minecraft:air
-setblock 179 0 -508 minecraft:chiseled_nether_bricks
-setblock 178 0 -508 minecraft:crimson_planks
-setblock 177 0 -508 minecraft:white_wool
-setblock 176 0 -508 minecraft:air
-setblock 183 0 -508 minecraft:light_blue_stained_glass
-setblock 182 0 -508 minecraft:air
-setblock 181 0 -508 minecraft:chiseled_deepslate
-setblock 180 0 -508 minecraft:spruce_log
-setblock 187 0 -508 minecraft:light_blue_wool
-setblock 186 0 -508 minecraft:jungle_planks
-setblock 185 0 -508 minecraft:lapis_block
-setblock 184 0 -508 minecraft:air
-setblock 191 0 -508 minecraft:andesite
-setblock 190 0 -508 minecraft:mangrove_planks
-setblock 189 0 -508 minecraft:chiseled_deepslate
-setblock 188 0 -508 minecraft:air
-setblock 195 0 -508 minecraft:waxed_cut_copper
-setblock 194 0 -508 minecraft:wet_sponge
-setblock 193 0 -508 minecraft:deepslate_gold_ore
-setblock 192 0 -508 minecraft:air
-setblock 199 0 -508 minecraft:birch_planks
-setblock 198 0 -508 minecraft:yellow_concrete
-setblock 197 0 -508 minecraft:jungle_planks
-setblock 196 0 -508 minecraft:air
-setblock 203 0 -508 minecraft:mud_bricks
-setblock 202 0 -508 minecraft:coarse_dirt
-setblock 201 0 -508 minecraft:raw_copper_block
-setblock 200 0 -508 minecraft:redstone_lamp
-setblock 207 0 -508 minecraft:deepslate_iron_ore
-setblock 206 0 -508 minecraft:wet_sponge
-setblock 205 0 -508 minecraft:wet_sponge
-setblock 204 0 -508 minecraft:shroomlight
-setblock 211 0 -508 minecraft:gray_wool
-setblock 210 0 -508 minecraft:dark_oak_log
-setblock 209 0 -508 minecraft:air
-setblock 208 0 -508 minecraft:air
-setblock 215 0 -508 minecraft:andesite
-setblock 214 0 -508 minecraft:acacia_planks
-setblock 213 0 -508 minecraft:acacia_planks
-setblock 212 0 -508 minecraft:green_concrete
-setblock 219 0 -508 minecraft:andesite
-setblock 218 0 -508 minecraft:mangrove_planks
-setblock 217 0 -508 minecraft:air
-setblock 216 0 -508 minecraft:air
-setblock 223 0 -508 minecraft:chiseled_nether_bricks
-setblock 222 0 -508 minecraft:crimson_planks
-setblock 221 0 -508 minecraft:white_concrete
-setblock 220 0 -508 minecraft:air
-setblock 227 0 -508 minecraft:light_blue_stained_glass
-setblock 226 0 -508 minecraft:spruce_planks
-setblock 225 0 -508 minecraft:chiseled_deepslate
-setblock 224 0 -508 minecraft:spruce_log
-setblock 231 0 -508 minecraft:light_blue_wool
-setblock 230 0 -508 minecraft:jungle_planks
-setblock 229 0 -508 minecraft:lapis_block
-setblock 228 0 -508 minecraft:air
-setblock 235 0 -508 minecraft:andesite
-setblock 234 0 -508 minecraft:mangrove_planks
-setblock 233 0 -508 minecraft:chiseled_deepslate
-setblock 232 0 -508 minecraft:air
-setblock 239 0 -508 minecraft:waxed_cut_copper
-setblock 238 0 -508 minecraft:wet_sponge
-setblock 237 0 -508 minecraft:deepslate_gold_ore
-setblock 236 0 -508 minecraft:air
-setblock 243 0 -508 minecraft:birch_planks
-setblock 242 0 -508 minecraft:yellow_concrete
-setblock 241 0 -508 minecraft:jungle_planks
-setblock 240 0 -508 minecraft:air
-setblock 247 0 -508 minecraft:mud_bricks
-setblock 246 0 -508 minecraft:coarse_dirt
-setblock 245 0 -508 minecraft:raw_copper_block
-setblock 244 0 -508 minecraft:redstone_lamp
-setblock 251 0 -508 minecraft:deepslate_iron_ore
-setblock 250 0 -508 minecraft:wet_sponge
-setblock 249 0 -508 minecraft:wet_sponge
-setblock 248 0 -508 minecraft:shroomlight
-setblock 255 0 -508 minecraft:gray_wool
-setblock 254 0 -508 minecraft:dark_oak_log
-setblock 253 0 -508 minecraft:air
-setblock 252 0 -508 minecraft:air
-setblock 259 0 -508 minecraft:andesite
-setblock 258 0 -508 minecraft:acacia_planks
-setblock 257 0 -508 minecraft:melon
-setblock 256 0 -508 minecraft:green_concrete
-setblock 263 0 -508 minecraft:andesite
-setblock 262 0 -508 minecraft:mangrove_planks
-setblock 261 0 -508 minecraft:air
-setblock 260 0 -508 minecraft:air
-setblock 267 0 -508 minecraft:chiseled_nether_bricks
-setblock 266 0 -508 minecraft:crimson_planks
-setblock 265 0 -508 minecraft:white_concrete
-setblock 264 0 -508 minecraft:air
-setblock 271 0 -508 minecraft:light_blue_stained_glass
-setblock 270 0 -508 minecraft:spruce_planks
-setblock 269 0 -508 minecraft:chiseled_deepslate
-setblock 268 0 -508 minecraft:packed_mud
-setblock 275 0 -508 minecraft:light_blue_wool
-setblock 274 0 -508 minecraft:jungle_planks
-setblock 273 0 -508 minecraft:lapis_block
-setblock 272 0 -508 minecraft:air
-setblock 279 0 -508 minecraft:andesite
-setblock 278 0 -508 minecraft:mangrove_planks
-setblock 277 0 -508 minecraft:chiseled_deepslate
-setblock 276 0 -508 minecraft:air
-setblock 283 0 -508 minecraft:waxed_cut_copper
-setblock 282 0 -508 minecraft:wet_sponge
-setblock 281 0 -508 minecraft:deepslate_gold_ore
-setblock 280 0 -508 minecraft:air
-setblock 287 0 -508 minecraft:birch_planks
-setblock 286 0 -508 minecraft:yellow_concrete
-setblock 285 0 -508 minecraft:jungle_planks
-setblock 284 0 -508 minecraft:air
-setblock 291 0 -508 minecraft:mud_bricks
-setblock 290 0 -508 minecraft:coarse_dirt
-setblock 289 0 -508 minecraft:raw_copper_block
-setblock 288 0 -508 minecraft:redstone_lamp
-setblock 295 0 -508 minecraft:deepslate_iron_ore
-setblock 294 0 -508 minecraft:wet_sponge
-setblock 293 0 -508 minecraft:wet_sponge
-setblock 292 0 -508 minecraft:shroomlight
-setblock 299 0 -508 minecraft:andesite
-setblock 298 0 -508 minecraft:mangrove_planks
-setblock 297 0 -508 minecraft:grass_block
-setblock 296 0 -508 minecraft:spruce_planks
-setblock 303 0 -508 minecraft:andesite
-setblock 302 0 -508 minecraft:wet_sponge
-setblock 301 0 -508 minecraft:chiseled_deepslate
-setblock 300 0 -508 minecraft:air
-setblock 307 0 -508 minecraft:light_blue_stained_glass
-setblock 306 0 -508 minecraft:mushroom_stem
-setblock 305 0 -508 minecraft:iron_ore
-setblock 304 0 -508 minecraft:cracked_deepslate_tiles
-setblock 311 0 -508 minecraft:andesite
-setblock 310 0 -508 minecraft:mangrove_planks
-setblock 309 0 -508 minecraft:warped_stem
-setblock 308 0 -508 minecraft:spruce_planks
-setblock 315 0 -508 minecraft:light_blue_stained_glass
-setblock 314 0 -508 minecraft:prismarine_bricks
-setblock 313 0 -508 minecraft:iron_ore
-setblock 312 0 -508 minecraft:light_gray_wool
-setblock 319 0 -508 minecraft:andesite
-setblock 318 0 -508 minecraft:mangrove_planks
-setblock 317 0 -508 minecraft:netherrack
-setblock 316 0 -508 minecraft:spruce_planks
-setblock 323 0 -508 minecraft:light_blue_stained_glass
-setblock 322 0 -508 minecraft:sponge
-setblock 321 0 -508 minecraft:iron_ore
-setblock 320 0 -508 minecraft:magenta_wool
-setblock 327 0 -508 minecraft:andesite
-setblock 326 0 -508 minecraft:mangrove_planks
-setblock 325 0 -508 minecraft:tuff
-setblock 324 0 -508 minecraft:spruce_planks
-setblock 331 0 -508 minecraft:light_blue_stained_glass
-setblock 330 0 -508 minecraft:prismarine_bricks
-setblock 329 0 -508 minecraft:iron_ore
-setblock 328 0 -508 minecraft:stripped_mangrove_log
-setblock 335 0 -508 minecraft:andesite
-setblock 334 0 -508 minecraft:mangrove_planks
-setblock 333 0 -508 minecraft:nether_gold_ore
-setblock 332 0 -508 minecraft:spruce_planks
-setblock 339 0 -508 minecraft:light_blue_stained_glass
-setblock 338 0 -508 minecraft:mushroom_stem
-setblock 337 0 -508 minecraft:iron_ore
-setblock 336 0 -508 minecraft:stripped_mangrove_log
-setblock 343 0 -508 minecraft:light_blue_stained_glass
-setblock 342 0 -508 minecraft:white_stained_glass
-setblock 341 0 -508 minecraft:gray_glazed_terracotta
-setblock 340 0 -508 minecraft:stripped_acacia_log
-setblock 347 0 -508 minecraft:andesite
-setblock 346 0 -508 minecraft:mangrove_planks
-setblock 345 0 -508 minecraft:purpur_block
-setblock 344 0 -508 minecraft:spruce_planks
-setblock 351 0 -508 minecraft:light_blue_stained_glass
-setblock 350 0 -508 minecraft:sea_lantern
-setblock 349 0 -508 minecraft:iron_ore
-setblock 348 0 -508 minecraft:stripped_acacia_log
-setblock 355 0 -508 minecraft:andesite
-setblock 354 0 -508 minecraft:mangrove_planks
-setblock 353 0 -508 minecraft:oxidized_copper
-setblock 352 0 -508 minecraft:spruce_planks
-setblock 359 0 -508 minecraft:chiseled_nether_bricks
-setblock 358 0 -508 minecraft:crimson_planks
-setblock 357 0 -508 minecraft:white_wool
-setblock 356 0 -508 minecraft:air
-setblock 363 0 -508 minecraft:light_blue_stained_glass
-setblock 362 0 -508 minecraft:polished_blackstone_bricks
-setblock 361 0 -508 minecraft:iron_ore
-setblock 360 0 -508 minecraft:stripped_birch_log
-setblock 367 0 -508 minecraft:chiseled_nether_bricks
-setblock 366 0 -508 minecraft:wet_sponge
-setblock 365 0 -508 minecraft:warped_nylium
-setblock 364 0 -508 minecraft:redstone_lamp
-setblock 371 0 -508 minecraft:chiseled_nether_bricks
-setblock 370 0 -508 minecraft:raw_copper_block
-setblock 369 0 -508 minecraft:raw_copper_block
-setblock 368 0 -508 minecraft:granite
-setblock 375 0 -508 minecraft:andesite
-setblock 374 0 -508 minecraft:dried_kelp_block
-setblock 373 0 -508 minecraft:acacia_log
-setblock 372 0 -508 minecraft:air
-setblock 379 0 -508 minecraft:andesite
-setblock 378 0 -508 minecraft:purple_wool
-setblock 377 0 -508 minecraft:cracked_deepslate_bricks
-setblock 376 0 -508 minecraft:air
-setblock 383 0 -508 minecraft:chiseled_nether_bricks
-setblock 382 0 -508 minecraft:bee_nest
-setblock 381 0 -508 minecraft:pearlescent_froglight
-setblock 380 0 -508 minecraft:redstone_lamp
-setblock 387 0 -508 minecraft:andesite
-setblock 386 0 -508 minecraft:melon
-setblock 385 0 -508 minecraft:granite
-setblock 384 0 -508 minecraft:air
-setblock 391 0 -508 minecraft:light_blue_wool
-setblock 390 0 -508 minecraft:pumpkin
-setblock 389 0 -508 minecraft:dead_horn_coral_block
-setblock 388 0 -508 minecraft:air
-setblock 395 0 -508 minecraft:andesite
-setblock 394 0 -508 minecraft:cobblestone
-setblock 393 0 -508 minecraft:cracked_deepslate_bricks
-setblock 392 0 -508 minecraft:air
-setblock 399 0 -508 minecraft:chiseled_nether_bricks
-setblock 398 0 -508 minecraft:waxed_oxidized_cut_copper
-setblock 397 0 -508 minecraft:deepslate_bricks
-setblock 396 0 -508 minecraft:air
-setblock 403 0 -508 minecraft:andesite
-setblock 402 0 -508 minecraft:smooth_stone
-setblock 401 0 -508 minecraft:white_terracotta
-setblock 400 0 -508 minecraft:air
-setblock 407 0 -508 minecraft:chiseled_nether_bricks
-setblock 406 0 -508 minecraft:granite
-setblock 405 0 -508 minecraft:polished_granite
-setblock 404 0 -508 minecraft:air
-setblock 411 0 -508 minecraft:waxed_cut_copper
-setblock 410 0 -508 minecraft:dark_oak_planks
-setblock 409 0 -508 minecraft:lapis_block
-setblock 408 0 -508 minecraft:white_concrete
-setblock 415 0 -508 minecraft:chiseled_nether_bricks
-setblock 414 0 -508 minecraft:acacia_planks
-setblock 413 0 -508 minecraft:acacia_planks
-setblock 412 0 -508 minecraft:air
-setblock 419 0 -508 minecraft:chiseled_nether_bricks
-setblock 418 0 -508 minecraft:glowstone
-setblock 417 0 -508 minecraft:glowstone
-setblock 416 0 -508 minecraft:granite
-setblock 423 0 -508 minecraft:light_blue_stained_glass
-setblock 422 0 -508 minecraft:spruce_planks
-setblock 421 0 -508 minecraft:acacia_planks
-setblock 420 0 -508 minecraft:mangrove_log
-setblock 427 0 -508 minecraft:gray_wool
-setblock 426 0 -508 minecraft:black_wool
-setblock 425 0 -508 minecraft:air
-setblock 424 0 -508 minecraft:air
-setblock 431 0 -508 minecraft:andesite
-setblock 430 0 -508 minecraft:granite
-setblock 429 0 -508 minecraft:black_concrete
-setblock 428 0 -508 minecraft:waxed_oxidized_copper
-setblock 435 0 -508 minecraft:light_blue_wool
-setblock 434 0 -508 minecraft:granite
-setblock 433 0 -508 minecraft:target
-setblock 432 0 -508 minecraft:air
-setblock 439 0 -508 minecraft:mud_bricks
-setblock 438 0 -508 minecraft:magenta_concrete
-setblock 437 0 -508 minecraft:redstone_lamp
-setblock 436 0 -508 minecraft:redstone_lamp
-setblock 443 0 -508 minecraft:andesite
-setblock 442 0 -508 minecraft:granite
-setblock 441 0 -508 minecraft:coal_ore
-setblock 440 0 -508 minecraft:granite
-setblock 447 0 -508 minecraft:chiseled_nether_bricks
-setblock 446 0 -508 minecraft:mossy_cobblestone
-setblock 445 0 -508 minecraft:acacia_planks
-setblock 444 0 -508 minecraft:air
-setblock 451 0 -508 minecraft:light_blue_stained_glass
-setblock 450 0 -508 minecraft:warped_stem
-setblock 449 0 -508 minecraft:iron_ore
-setblock 448 0 -508 minecraft:packed_mud
-setblock 455 0 -508 minecraft:andesite
-setblock 454 0 -508 minecraft:dark_prismarine
-setblock 453 0 -508 minecraft:warped_planks
-setblock 452 0 -508 minecraft:redstone_lamp
-setblock 459 0 -508 minecraft:andesite
-setblock 458 0 -508 minecraft:black_terracotta
-setblock 457 0 -508 minecraft:redstone_lamp
-setblock 456 0 -508 minecraft:granite
-setblock 463 0 -508 minecraft:light_blue_stained_glass
-setblock 462 0 -508 minecraft:purple_terracotta
-setblock 461 0 -508 minecraft:lapis_ore
-setblock 460 0 -508 minecraft:reinforced_deepslate
-setblock 467 0 -508 minecraft:chiseled_nether_bricks
-setblock 466 0 -508 minecraft:sea_lantern
-setblock 465 0 -508 minecraft:terracotta
-setblock 464 0 -508 minecraft:redstone_lamp
-setblock 471 0 -508 minecraft:chiseled_nether_bricks
-setblock 470 0 -508 minecraft:nether_wart_block
-setblock 469 0 -508 minecraft:nether_wart_block
-setblock 468 0 -508 minecraft:granite
-setblock 475 0 -508 minecraft:light_blue_stained_glass
-setblock 474 0 -508 minecraft:nether_wart_block
-setblock 473 0 -508 minecraft:end_stone_bricks
-setblock 472 0 -508 minecraft:packed_mud
-setblock 479 0 -508 minecraft:chiseled_nether_bricks
-setblock 478 0 -508 minecraft:sponge
-setblock 477 0 -508 minecraft:waxed_copper_block
-setblock 476 0 -508 minecraft:redstone_lamp
-setblock 483 0 -508 minecraft:andesite
-setblock 482 0 -508 minecraft:redstone_lamp
-setblock 481 0 -508 minecraft:brown_mushroom_block
-setblock 480 0 -508 minecraft:granite
-setblock 487 0 -508 minecraft:light_blue_stained_glass
-setblock 486 0 -508 minecraft:shroomlight
-setblock 485 0 -508 minecraft:deepslate_diamond_ore
-setblock 484 0 -508 minecraft:packed_mud
-setblock 491 0 -508 minecraft:light_blue_stained_glass
-setblock 490 0 -508 minecraft:sea_lantern
-setblock 489 0 -508 minecraft:warped_planks
-setblock 488 0 -508 minecraft:deepslate_bricks
-setblock 495 0 -508 minecraft:andesite
-setblock 494 0 -508 minecraft:dark_prismarine
-setblock 493 0 -508 minecraft:spruce_planks
-setblock 492 0 -508 minecraft:redstone_lamp
-setblock 499 0 -508 minecraft:andesite
-setblock 498 0 -508 minecraft:black_wool
-setblock 497 0 -508 minecraft:packed_mud
-setblock 496 0 -508 minecraft:air
-setblock 503 0 -508 minecraft:andesite
-setblock 502 0 -508 minecraft:packed_mud
-setblock 501 0 -508 minecraft:stripped_crimson_stem
-setblock 500 0 -508 minecraft:air
-setblock 507 0 -508 minecraft:light_blue_stained_glass
-setblock 506 0 -508 minecraft:nether_gold_ore
-setblock 505 0 -508 minecraft:end_stone_bricks
-setblock 504 0 -508 minecraft:polished_deepslate
-setblock 511 0 -508 minecraft:chiseled_nether_bricks
-setblock 510 0 -508 minecraft:sponge
-setblock 509 0 -508 minecraft:stripped_spruce_log
-setblock 508 0 -508 minecraft:air
-setblock -509 0 -507 minecraft:light_blue_stained_glass
-setblock -510 0 -507 minecraft:obsidian
-setblock -511 0 -507 minecraft:emerald_ore
-setblock -512 0 -507 minecraft:packed_mud
-setblock -505 0 -507 minecraft:chiseled_nether_bricks
-setblock -506 0 -507 minecraft:melon
-setblock -507 0 -507 minecraft:raw_gold_block
-setblock -508 0 -507 minecraft:redstone_lamp
-setblock -501 0 -507 minecraft:chiseled_nether_bricks
-setblock -502 0 -507 minecraft:raw_gold_block
-setblock -503 0 -507 minecraft:raw_gold_block
-setblock -504 0 -507 minecraft:granite
-setblock -497 0 -507 minecraft:waxed_cut_copper
-setblock -498 0 -507 minecraft:acacia_planks
-setblock -499 0 -507 minecraft:waxed_weathered_copper
-setblock -500 0 -507 minecraft:air
-setblock -493 0 -507 minecraft:birch_planks
-setblock -494 0 -507 minecraft:spawner
-setblock -495 0 -507 minecraft:acacia_planks
-setblock -496 0 -507 minecraft:polished_andesite
-setblock -489 0 -507 minecraft:waxed_cut_copper
-setblock -490 0 -507 minecraft:acacia_planks
-setblock -491 0 -507 minecraft:glass
-setblock -492 0 -507 minecraft:air
-setblock -485 0 -507 minecraft:chiseled_nether_bricks
-setblock -486 0 -507 minecraft:smooth_basalt
-setblock -487 0 -507 minecraft:mangrove_log
-setblock -488 0 -507 minecraft:air
-setblock -481 0 -507 minecraft:waxed_cut_copper
-setblock -482 0 -507 minecraft:dark_oak_planks
-setblock -483 0 -507 minecraft:glass
-setblock -484 0 -507 minecraft:air
-setblock -477 0 -507 minecraft:jungle_log
-setblock -478 0 -507 minecraft:warped_stem
-setblock -479 0 -507 minecraft:acacia_planks
-setblock -480 0 -507 minecraft:oak_planks
-setblock -473 0 -507 minecraft:andesite
-setblock -474 0 -507 minecraft:acacia_planks
-setblock -475 0 -507 minecraft:raw_gold_block
-setblock -476 0 -507 minecraft:redstone_lamp
-setblock -469 0 -507 minecraft:jungle_log
-setblock -470 0 -507 minecraft:purpur_block
-setblock -471 0 -507 minecraft:dark_oak_planks
-setblock -472 0 -507 minecraft:jungle_planks
-setblock -465 0 -507 minecraft:andesite
-setblock -466 0 -507 minecraft:crimson_planks
-setblock -467 0 -507 minecraft:polished_granite
-setblock -468 0 -507 minecraft:air
-setblock -461 0 -507 minecraft:black_stained_glass
-setblock -462 0 -507 minecraft:nether_gold_ore
-setblock -463 0 -507 minecraft:end_stone_bricks
-setblock -464 0 -507 minecraft:glowstone
-setblock -457 0 -507 minecraft:chiseled_nether_bricks
-setblock -458 0 -507 minecraft:crimson_planks
-setblock -459 0 -507 minecraft:white_concrete
-setblock -460 0 -507 minecraft:mangrove_planks
-setblock -453 0 -507 minecraft:deepslate_iron_ore
-setblock -454 0 -507 minecraft:polished_granite
-setblock -455 0 -507 minecraft:chiseled_deepslate
-setblock -456 0 -507 minecraft:slime_block
-setblock -449 0 -507 minecraft:mud_bricks
-setblock -450 0 -507 minecraft:calcite
-setblock -451 0 -507 minecraft:chiseled_deepslate
-setblock -452 0 -507 minecraft:air
-setblock -445 0 -507 minecraft:chiseled_nether_bricks
-setblock -446 0 -507 minecraft:crimson_planks
-setblock -447 0 -507 minecraft:polished_granite
-setblock -448 0 -507 minecraft:dark_oak_planks
-setblock -441 0 -507 minecraft:deepslate_iron_ore
-setblock -442 0 -507 minecraft:chiseled_polished_blackstone
-setblock -443 0 -507 minecraft:packed_mud
-setblock -444 0 -507 minecraft:ochre_froglight
-setblock -437 0 -507 minecraft:mud_bricks
-setblock -438 0 -507 minecraft:calcite
-setblock -439 0 -507 minecraft:crimson_stem
-setblock -440 0 -507 minecraft:air
-setblock -433 0 -507 minecraft:chiseled_nether_bricks
-setblock -434 0 -507 minecraft:crimson_planks
-setblock -435 0 -507 minecraft:coal_ore
-setblock -436 0 -507 minecraft:dark_oak_planks
-setblock -429 0 -507 minecraft:deepslate_iron_ore
-setblock -430 0 -507 minecraft:red_nether_bricks
-setblock -431 0 -507 minecraft:packed_mud
-setblock -432 0 -507 minecraft:ochre_froglight
-setblock -425 0 -507 minecraft:mud_bricks
-setblock -426 0 -507 minecraft:mycelium
-setblock -427 0 -507 minecraft:gray_wool
-setblock -428 0 -507 minecraft:air
-setblock -421 0 -507 minecraft:chiseled_nether_bricks
-setblock -422 0 -507 minecraft:crimson_planks
-setblock -423 0 -507 minecraft:warped_stem
-setblock -424 0 -507 minecraft:spruce_planks
-setblock -417 0 -507 minecraft:deepslate_iron_ore
-setblock -418 0 -507 minecraft:end_stone
-setblock -419 0 -507 minecraft:polished_diorite
-setblock -420 0 -507 minecraft:bone_block
-setblock -413 0 -507 minecraft:chiseled_nether_bricks
-setblock -414 0 -507 minecraft:granite
-setblock -415 0 -507 minecraft:deepslate
-setblock -416 0 -507 minecraft:air
-setblock -409 0 -507 minecraft:andesite
-setblock -410 0 -507 minecraft:mangrove_planks
-setblock -411 0 -507 minecraft:purpur_block
-setblock -412 0 -507 minecraft:air
-setblock -405 0 -507 minecraft:light_blue_wool
-setblock -406 0 -507 minecraft:acacia_planks
-setblock -407 0 -507 minecraft:emerald_block
-setblock -408 0 -507 minecraft:air
-setblock -401 0 -507 minecraft:chiseled_nether_bricks
-setblock -402 0 -507 minecraft:dark_oak_planks
-setblock -403 0 -507 minecraft:polished_granite
-setblock -404 0 -507 minecraft:air
-setblock -397 0 -507 minecraft:chiseled_nether_bricks
-setblock -398 0 -507 minecraft:pumpkin
-setblock -399 0 -507 minecraft:gray_wool
-setblock -400 0 -507 minecraft:air
-setblock -393 0 -507 minecraft:chiseled_nether_bricks
-setblock -394 0 -507 minecraft:redstone_lamp
-setblock -395 0 -507 minecraft:redstone_lamp
-setblock -396 0 -507 minecraft:granite
-setblock -389 0 -507 minecraft:jungle_log
-setblock -390 0 -507 minecraft:air
-setblock -391 0 -507 minecraft:deepslate_copper_ore
-setblock -392 0 -507 minecraft:polished_andesite
-setblock -385 0 -507 minecraft:andesite
-setblock -386 0 -507 minecraft:dark_prismarine
-setblock -387 0 -507 minecraft:dark_oak_planks
-setblock -388 0 -507 minecraft:air
-setblock -381 0 -507 minecraft:black_stained_glass
-setblock -382 0 -507 minecraft:coal_ore
-setblock -383 0 -507 minecraft:black_glazed_terracotta
-setblock -384 0 -507 minecraft:blue_ice
-setblock -377 0 -507 minecraft:light_blue_wool
-setblock -378 0 -507 minecraft:mangrove_planks
-setblock -379 0 -507 minecraft:glowstone
-setblock -380 0 -507 minecraft:oak_planks
-setblock -373 0 -507 minecraft:chiseled_nether_bricks
-setblock -374 0 -507 minecraft:dark_oak_planks
-setblock -375 0 -507 minecraft:coal_ore
-setblock -376 0 -507 minecraft:air
-setblock -369 0 -507 minecraft:jungle_log
-setblock -370 0 -507 minecraft:air
-setblock -371 0 -507 minecraft:crimson_nylium
-setblock -372 0 -507 minecraft:polished_andesite
-setblock -365 0 -507 minecraft:mud_bricks
-setblock -366 0 -507 minecraft:mycelium
-setblock -367 0 -507 minecraft:gray_concrete
-setblock -368 0 -507 minecraft:air
-setblock -361 0 -507 minecraft:andesite
-setblock -362 0 -507 minecraft:melon
-setblock -363 0 -507 minecraft:packed_mud
-setblock -364 0 -507 minecraft:air
-setblock -357 0 -507 minecraft:andesite
-setblock -358 0 -507 minecraft:granite
-setblock -359 0 -507 minecraft:polished_granite
-setblock -360 0 -507 minecraft:air
-setblock -353 0 -507 minecraft:chiseled_nether_bricks
-setblock -354 0 -507 minecraft:black_terracotta
-setblock -355 0 -507 minecraft:raw_gold_block
-setblock -356 0 -507 minecraft:granite
-setblock -349 0 -507 minecraft:chiseled_nether_bricks
-setblock -350 0 -507 minecraft:dark_oak_planks
-setblock -351 0 -507 minecraft:granite
-setblock -352 0 -507 minecraft:air
-setblock -345 0 -507 minecraft:chiseled_nether_bricks
-setblock -346 0 -507 minecraft:pumpkin
-setblock -347 0 -507 minecraft:gray_concrete
-setblock -348 0 -507 minecraft:air
-setblock -341 0 -507 minecraft:light_blue_stained_glass
-setblock -342 0 -507 minecraft:wet_sponge
-setblock -343 0 -507 minecraft:spruce_planks
-setblock -344 0 -507 minecraft:air
-setblock -337 0 -507 minecraft:black_stained_glass
-setblock -338 0 -507 minecraft:coal_ore
-setblock -339 0 -507 minecraft:packed_mud
-setblock -340 0 -507 minecraft:honey_block
-setblock -333 0 -507 minecraft:black_stained_glass
-setblock -334 0 -507 minecraft:coal_ore
-setblock -335 0 -507 minecraft:packed_mud
-setblock -336 0 -507 minecraft:snow_block
-setblock -329 0 -507 minecraft:light_blue_wool
-setblock -330 0 -507 minecraft:mangrove_planks
-setblock -331 0 -507 minecraft:glowstone
-setblock -332 0 -507 minecraft:oak_planks
-setblock -325 0 -507 minecraft:chiseled_nether_bricks
-setblock -326 0 -507 minecraft:dark_oak_planks
-setblock -327 0 -507 minecraft:grass_block
-setblock -328 0 -507 minecraft:air
-setblock -321 0 -507 minecraft:jungle_log
-setblock -322 0 -507 minecraft:air
-setblock -323 0 -507 minecraft:crimson_nylium
-setblock -324 0 -507 minecraft:polished_andesite
-setblock -317 0 -507 minecraft:mud_bricks
-setblock -318 0 -507 minecraft:mycelium
-setblock -319 0 -507 minecraft:crimson_stem
-setblock -320 0 -507 minecraft:air
-setblock -313 0 -507 minecraft:andesite
-setblock -314 0 -507 minecraft:melon
-setblock -315 0 -507 minecraft:packed_mud
-setblock -316 0 -507 minecraft:air
-setblock -309 0 -507 minecraft:andesite
-setblock -310 0 -507 minecraft:granite
-setblock -311 0 -507 minecraft:polished_granite
-setblock -312 0 -507 minecraft:air
-setblock -305 0 -507 minecraft:chiseled_nether_bricks
-setblock -306 0 -507 minecraft:black_terracotta
-setblock -307 0 -507 minecraft:raw_gold_block
-setblock -308 0 -507 minecraft:granite
-setblock -301 0 -507 minecraft:chiseled_nether_bricks
-setblock -302 0 -507 minecraft:dark_oak_planks
-setblock -303 0 -507 minecraft:granite
-setblock -304 0 -507 minecraft:air
-setblock -297 0 -507 minecraft:chiseled_nether_bricks
-setblock -298 0 -507 minecraft:pumpkin
-setblock -299 0 -507 minecraft:crimson_stem
-setblock -300 0 -507 minecraft:air
-setblock -293 0 -507 minecraft:light_blue_stained_glass
-setblock -294 0 -507 minecraft:wet_sponge
-setblock -295 0 -507 minecraft:spruce_planks
-setblock -296 0 -507 minecraft:air
-setblock -289 0 -507 minecraft:black_stained_glass
-setblock -290 0 -507 minecraft:coal_ore
-setblock -291 0 -507 minecraft:packed_mud
-setblock -292 0 -507 minecraft:mud
-setblock -285 0 -507 minecraft:black_stained_glass
-setblock -286 0 -507 minecraft:coal_ore
-setblock -287 0 -507 minecraft:packed_mud
-setblock -288 0 -507 minecraft:ice
-setblock -281 0 -507 minecraft:light_blue_wool
-setblock -282 0 -507 minecraft:mangrove_planks
-setblock -283 0 -507 minecraft:glowstone
-setblock -284 0 -507 minecraft:oak_planks
-setblock -277 0 -507 minecraft:chiseled_nether_bricks
-setblock -278 0 -507 minecraft:dark_oak_planks
-setblock -279 0 -507 minecraft:tuff
-setblock -280 0 -507 minecraft:air
-setblock -273 0 -507 minecraft:black_stained_glass
-setblock -274 0 -507 minecraft:coal_ore
-setblock -275 0 -507 minecraft:end_stone_bricks
-setblock -276 0 -507 minecraft:copper_ore
-setblock -269 0 -507 minecraft:light_blue_wool
-setblock -270 0 -507 minecraft:mangrove_planks
-setblock -271 0 -507 minecraft:glowstone
-setblock -272 0 -507 minecraft:oak_planks
-setblock -265 0 -507 minecraft:chiseled_nether_bricks
-setblock -266 0 -507 minecraft:dark_oak_planks
-setblock -267 0 -507 minecraft:nether_gold_ore
-setblock -268 0 -507 minecraft:air
-setblock -261 0 -507 minecraft:black_stained_glass
-setblock -262 0 -507 minecraft:coal_ore
-setblock -263 0 -507 minecraft:slime_block
-setblock -264 0 -507 minecraft:deepslate_iron_ore
-setblock -257 0 -507 minecraft:chiseled_nether_bricks
-setblock -258 0 -507 minecraft:crimson_planks
-setblock -259 0 -507 minecraft:dark_oak_planks
-setblock -260 0 -507 minecraft:polished_andesite
-setblock -253 0 -507 minecraft:andesite
-setblock -254 0 -507 minecraft:melon
-setblock -255 0 -507 minecraft:granite
-setblock -256 0 -507 minecraft:air
-setblock -249 0 -507 minecraft:waxed_cut_copper
-setblock -250 0 -507 minecraft:hay_block
-setblock -251 0 -507 minecraft:budding_amethyst
-setblock -252 0 -507 minecraft:oak_planks
-setblock -245 0 -507 minecraft:waxed_cut_copper
-setblock -246 0 -507 minecraft:mushroom_stem
-setblock -247 0 -507 minecraft:dead_horn_coral_block
-setblock -248 0 -507 minecraft:air
-setblock -241 0 -507 minecraft:chiseled_nether_bricks
-setblock -242 0 -507 minecraft:granite
-setblock -243 0 -507 minecraft:coal_ore
-setblock -244 0 -507 minecraft:granite
-setblock -237 0 -507 minecraft:black_stained_glass
-setblock -238 0 -507 minecraft:air
-setblock -239 0 -507 minecraft:grass_block
-setblock -240 0 -507 minecraft:birch_planks
-setblock -233 0 -507 minecraft:mud_bricks
-setblock -234 0 -507 minecraft:rooted_dirt
-setblock -235 0 -507 minecraft:budding_amethyst
-setblock -236 0 -507 minecraft:redstone_lamp
-setblock -229 0 -507 minecraft:chiseled_nether_bricks
-setblock -230 0 -507 minecraft:hay_block
-setblock -231 0 -507 minecraft:budding_amethyst
-setblock -232 0 -507 minecraft:redstone_lamp
-setblock -225 0 -507 minecraft:light_blue_stained_glass
-setblock -226 0 -507 minecraft:prismarine_bricks
-setblock -227 0 -507 minecraft:raw_gold_block
-setblock -228 0 -507 minecraft:birch_planks
-setblock -221 0 -507 minecraft:andesite
-setblock -222 0 -507 minecraft:acacia_planks
-setblock -223 0 -507 minecraft:raw_gold_block
-setblock -224 0 -507 minecraft:redstone_lamp
-setblock -217 0 -507 minecraft:andesite
-setblock -218 0 -507 minecraft:lime_terracotta
-setblock -219 0 -507 minecraft:raw_gold_block
-setblock -220 0 -507 minecraft:granite
-setblock -213 0 -507 minecraft:waxed_cut_copper
-setblock -214 0 -507 minecraft:acacia_planks
-setblock -215 0 -507 minecraft:emerald_block
-setblock -216 0 -507 minecraft:air
-setblock -209 0 -507 minecraft:birch_planks
-setblock -210 0 -507 minecraft:spawner
-setblock -211 0 -507 minecraft:acacia_planks
-setblock -212 0 -507 minecraft:polished_andesite
-setblock -205 0 -507 minecraft:waxed_cut_copper
-setblock -206 0 -507 minecraft:acacia_planks
-setblock -207 0 -507 minecraft:gold_ore
-setblock -208 0 -507 minecraft:air
-setblock -201 0 -507 minecraft:andesite
-setblock -202 0 -507 minecraft:chiseled_deepslate
-setblock -203 0 -507 minecraft:crimson_stem
-setblock -204 0 -507 minecraft:air
-setblock -197 0 -507 minecraft:light_blue_wool
-setblock -198 0 -507 minecraft:mangrove_planks
-setblock -199 0 -507 minecraft:gold_ore
-setblock -200 0 -507 minecraft:air
-setblock -193 0 -507 minecraft:andesite
-setblock -194 0 -507 minecraft:granite
-setblock -195 0 -507 minecraft:polished_granite
-setblock -196 0 -507 minecraft:air
-setblock -189 0 -507 minecraft:jungle_log
-setblock -190 0 -507 minecraft:warped_stem
-setblock -191 0 -507 minecraft:acacia_planks
-setblock -192 0 -507 minecraft:oak_planks
-setblock -185 0 -507 minecraft:jungle_log
-setblock -186 0 -507 minecraft:oak_log
-setblock -187 0 -507 minecraft:mangrove_planks
-setblock -188 0 -507 minecraft:jungle_planks
-setblock -181 0 -507 minecraft:andesite
-setblock -182 0 -507 minecraft:crimson_planks
-setblock -183 0 -507 minecraft:granite
-setblock -184 0 -507 minecraft:air
-setblock -177 0 -507 minecraft:light_blue_wool
-setblock -178 0 -507 minecraft:pumpkin
-setblock -179 0 -507 minecraft:emerald_block
-setblock -180 0 -507 minecraft:white_concrete
-setblock -173 0 -507 minecraft:andesite
-setblock -174 0 -507 minecraft:gray_terracotta
-setblock -175 0 -507 minecraft:amethyst_block
-setblock -176 0 -507 minecraft:granite
-setblock -169 0 -507 minecraft:deepslate_iron_ore
-setblock -170 0 -507 minecraft:polished_granite
-setblock -171 0 -507 minecraft:acacia_planks
-setblock -172 0 -507 minecraft:nether_wart_block
-setblock -165 0 -507 minecraft:mud_bricks
-setblock -166 0 -507 minecraft:mycelium
-setblock -167 0 -507 minecraft:chiseled_deepslate
-setblock -168 0 -507 minecraft:air
-setblock -161 0 -507 minecraft:chiseled_nether_bricks
-setblock -162 0 -507 minecraft:granite
-setblock -163 0 -507 minecraft:acacia_planks
-setblock -164 0 -507 minecraft:air
-setblock -157 0 -507 minecraft:chiseled_nether_bricks
-setblock -158 0 -507 minecraft:acacia_planks
-setblock -159 0 -507 minecraft:mangrove_planks
-setblock -160 0 -507 minecraft:air
-setblock -153 0 -507 minecraft:chiseled_nether_bricks
-setblock -154 0 -507 minecraft:mangrove_planks
-setblock -155 0 -507 minecraft:jungle_planks
-setblock -156 0 -507 minecraft:air
-setblock -149 0 -507 minecraft:chiseled_nether_bricks
-setblock -150 0 -507 minecraft:dark_oak_planks
-setblock -151 0 -507 minecraft:polished_granite
-setblock -152 0 -507 minecraft:air
-setblock -145 0 -507 minecraft:light_blue_stained_glass
-setblock -146 0 -507 minecraft:wet_sponge
-setblock -147 0 -507 minecraft:spruce_planks
-setblock -148 0 -507 minecraft:air
-setblock -141 0 -507 minecraft:black_stained_glass
-setblock -142 0 -507 minecraft:coal_ore
-setblock -143 0 -507 minecraft:slime_block
-setblock -144 0 -507 minecraft:dead_brain_coral_block
-setblock -137 0 -507 minecraft:black_stained_glass
-setblock -138 0 -507 minecraft:coal_ore
-setblock -139 0 -507 minecraft:slime_block
-setblock -140 0 -507 minecraft:grass_block
-setblock -133 0 -507 minecraft:chiseled_nether_bricks
-setblock -134 0 -507 minecraft:cobblestone
-setblock -135 0 -507 minecraft:polished_granite
-setblock -136 0 -507 minecraft:air
-setblock -129 0 -507 minecraft:black_stained_glass
-setblock -130 0 -507 minecraft:nether_gold_ore
-setblock -131 0 -507 minecraft:black_glazed_terracotta
-setblock -132 0 -507 minecraft:redstone_ore
-setblock -125 0 -507 minecraft:andesite
-setblock -126 0 -507 minecraft:granite
-setblock -127 0 -507 minecraft:white_wool
-setblock -128 0 -507 minecraft:air
-setblock -121 0 -507 minecraft:deepslate_iron_ore
-setblock -122 0 -507 minecraft:nether_gold_ore
-setblock -123 0 -507 minecraft:end_stone_bricks
-setblock -124 0 -507 minecraft:redstone_ore
-setblock -117 0 -507 minecraft:light_blue_stained_glass
-setblock -118 0 -507 minecraft:polished_blackstone_bricks
-setblock -119 0 -507 minecraft:hay_block
-setblock -120 0 -507 minecraft:mangrove_planks
-setblock -113 0 -507 minecraft:chiseled_nether_bricks
-setblock -114 0 -507 minecraft:brown_mushroom_block
-setblock -115 0 -507 minecraft:brown_mushroom_block
-setblock -116 0 -507 minecraft:granite
-setblock -109 0 -507 minecraft:light_blue_stained_glass
-setblock -110 0 -507 minecraft:redstone_ore
-setblock -111 0 -507 minecraft:black_glazed_terracotta
-setblock -112 0 -507 minecraft:oak_planks
-setblock -105 0 -507 minecraft:andesite
-setblock -106 0 -507 minecraft:granite
-setblock -107 0 -507 minecraft:oak_log
-setblock -108 0 -507 minecraft:air
-setblock -101 0 -507 minecraft:light_blue_stained_glass
-setblock -102 0 -507 minecraft:wet_sponge
-setblock -103 0 -507 minecraft:hay_block
-setblock -104 0 -507 minecraft:oak_planks
-setblock -97 0 -507 minecraft:deepslate_iron_ore
-setblock -98 0 -507 minecraft:jungle_planks
-setblock -99 0 -507 minecraft:emerald_ore
-setblock -100 0 -507 minecraft:deepslate_gold_ore
-setblock -93 0 -507 minecraft:waxed_cut_copper
-setblock -94 0 -507 minecraft:mossy_cobblestone
-setblock -95 0 -507 minecraft:pink_terracotta
-setblock -96 0 -507 minecraft:oak_planks
-setblock -89 0 -507 minecraft:jungle_log
-setblock -90 0 -507 minecraft:warped_stem
-setblock -91 0 -507 minecraft:deepslate_tiles
-setblock -92 0 -507 minecraft:deepslate
-setblock -85 0 -507 minecraft:mud_bricks
-setblock -86 0 -507 minecraft:mycelium
-setblock -87 0 -507 minecraft:chiseled_deepslate
-setblock -88 0 -507 minecraft:air
-setblock -81 0 -507 minecraft:chiseled_nether_bricks
-setblock -82 0 -507 minecraft:melon
-setblock -83 0 -507 minecraft:deepslate
-setblock -84 0 -507 minecraft:air
-setblock -77 0 -507 minecraft:andesite
-setblock -78 0 -507 minecraft:granite
-setblock -79 0 -507 minecraft:polished_granite
-setblock -80 0 -507 minecraft:air
-setblock -73 0 -507 minecraft:chiseled_nether_bricks
-setblock -74 0 -507 minecraft:redstone_lamp
-setblock -75 0 -507 minecraft:raw_gold_block
-setblock -76 0 -507 minecraft:granite
-setblock -69 0 -507 minecraft:chiseled_nether_bricks
-setblock -70 0 -507 minecraft:mangrove_planks
-setblock -71 0 -507 minecraft:jungle_planks
-setblock -72 0 -507 minecraft:air
-setblock -65 0 -507 minecraft:chiseled_nether_bricks
-setblock -66 0 -507 minecraft:melon
-setblock -67 0 -507 minecraft:dark_oak_planks
-setblock -68 0 -507 minecraft:air
-setblock -61 0 -507 minecraft:chiseled_nether_bricks
-setblock -62 0 -507 minecraft:dark_oak_planks
-setblock -63 0 -507 minecraft:granite
-setblock -64 0 -507 minecraft:air
-setblock -57 0 -507 minecraft:light_blue_stained_glass
-setblock -58 0 -507 minecraft:wet_sponge
-setblock -59 0 -507 minecraft:spruce_planks
-setblock -60 0 -507 minecraft:air
-setblock -53 0 -507 minecraft:black_stained_glass
-setblock -54 0 -507 minecraft:coal_ore
-setblock -55 0 -507 minecraft:black_glazed_terracotta
-setblock -56 0 -507 minecraft:waxed_weathered_cut_copper
-setblock -49 0 -507 minecraft:black_stained_glass
-setblock -50 0 -507 minecraft:coal_ore
-setblock -51 0 -507 minecraft:black_glazed_terracotta
-setblock -52 0 -507 minecraft:dead_tube_coral_block
-setblock -45 0 -507 minecraft:andesite
-setblock -46 0 -507 minecraft:granite
-setblock -47 0 -507 minecraft:polished_granite
-setblock -48 0 -507 minecraft:air
-setblock -41 0 -507 minecraft:deepslate_iron_ore
-setblock -42 0 -507 minecraft:raw_copper_block
-setblock -43 0 -507 minecraft:end_stone_bricks
-setblock -44 0 -507 minecraft:nether_wart_block
-setblock -37 0 -507 minecraft:chiseled_nether_bricks
-setblock -38 0 -507 minecraft:sponge
-setblock -39 0 -507 minecraft:stripped_spruce_log
-setblock -40 0 -507 minecraft:air
-setblock -33 0 -507 minecraft:black_stained_glass
-setblock -34 0 -507 minecraft:nether_gold_ore
-setblock -35 0 -507 minecraft:black_glazed_terracotta
-setblock -36 0 -507 minecraft:iron_ore
-setblock -29 0 -507 minecraft:andesite
-setblock -30 0 -507 minecraft:granite
-setblock -31 0 -507 minecraft:oak_log
-setblock -32 0 -507 minecraft:air
-setblock -25 0 -507 minecraft:black_stained_glass
-setblock -26 0 -507 minecraft:nether_gold_ore
-setblock -27 0 -507 minecraft:packed_mud
-setblock -28 0 -507 minecraft:brown_mushroom_block
-setblock -21 0 -507 minecraft:light_blue_stained_glass
-setblock -22 0 -507 minecraft:glowstone
-setblock -23 0 -507 minecraft:end_stone_bricks
-setblock -24 0 -507 minecraft:oak_planks
-setblock -17 0 -507 minecraft:chiseled_nether_bricks
-setblock -18 0 -507 minecraft:sponge
-setblock -19 0 -507 minecraft:waxed_copper_block
-setblock -20 0 -507 minecraft:redstone_lamp
-setblock -13 0 -507 minecraft:black_stained_glass
-setblock -14 0 -507 minecraft:nether_gold_ore
-setblock -15 0 -507 minecraft:slime_block
-setblock -16 0 -507 minecraft:note_block
-setblock -9 0 -507 minecraft:andesite
-setblock -10 0 -507 minecraft:granite
-setblock -11 0 -507 minecraft:polished_granite
-setblock -12 0 -507 minecraft:air
-setblock -5 0 -507 minecraft:deepslate_iron_ore
-setblock -6 0 -507 minecraft:cracked_nether_bricks
-setblock -7 0 -507 minecraft:hay_block
-setblock -8 0 -507 minecraft:red_mushroom_block
-setblock -1 0 -507 minecraft:black_stained_glass
-setblock -2 0 -507 minecraft:nether_gold_ore
-setblock -3 0 -507 minecraft:black_glazed_terracotta
-setblock -4 0 -507 minecraft:brown_mushroom_block
-setblock 3 0 -507 minecraft:chiseled_nether_bricks
-setblock 2 0 -507 minecraft:cobblestone
-setblock 1 0 -507 minecraft:oak_log
-setblock 0 0 -507 minecraft:air
-setblock 7 0 -507 minecraft:black_stained_glass
-setblock 6 0 -507 minecraft:nether_gold_ore
-setblock 5 0 -507 minecraft:slime_block
-setblock 4 0 -507 minecraft:slime_block
-setblock 11 0 -507 minecraft:chiseled_nether_bricks
-setblock 10 0 -507 minecraft:acacia_planks
-setblock 9 0 -507 minecraft:air
-setblock 8 0 -507 minecraft:air
-setblock 15 0 -507 minecraft:chiseled_nether_bricks
-setblock 14 0 -507 minecraft:mossy_cobblestone
-setblock 13 0 -507 minecraft:air
-setblock 12 0 -507 minecraft:air
-setblock 19 0 -507 minecraft:black_stained_glass
-setblock 18 0 -507 minecraft:nether_gold_ore
-setblock 17 0 -507 minecraft:packed_mud
-setblock 16 0 -507 minecraft:note_block
-setblock 23 0 -507 minecraft:andesite
-setblock 22 0 -507 minecraft:mangrove_planks
-setblock 21 0 -507 minecraft:coal_ore
-setblock 20 0 -507 minecraft:acacia_planks
-setblock 27 0 -507 minecraft:chiseled_nether_bricks
-setblock 26 0 -507 minecraft:crimson_planks
-setblock 25 0 -507 minecraft:white_terracotta
-setblock 24 0 -507 minecraft:air
-setblock 31 0 -507 minecraft:deepslate_iron_ore
-setblock 30 0 -507 minecraft:hay_block
-setblock 29 0 -507 minecraft:iron_ore
-setblock 28 0 -507 minecraft:obsidian
-setblock 35 0 -507 minecraft:mud_bricks
-setblock 34 0 -507 minecraft:mycelium
-setblock 33 0 -507 minecraft:chiseled_deepslate
-setblock 32 0 -507 minecraft:air
-setblock 39 0 -507 minecraft:chiseled_nether_bricks
-setblock 38 0 -507 minecraft:mangrove_planks
-setblock 37 0 -507 minecraft:jungle_planks
-setblock 36 0 -507 minecraft:air
-setblock 43 0 -507 minecraft:light_blue_stained_glass
-setblock 42 0 -507 minecraft:wet_sponge
-setblock 41 0 -507 minecraft:spruce_planks
-setblock 40 0 -507 minecraft:air
-setblock 47 0 -507 minecraft:black_stained_glass
-setblock 46 0 -507 minecraft:coal_ore
-setblock 45 0 -507 minecraft:packed_mud
-setblock 44 0 -507 minecraft:oxidized_cut_copper
-setblock 51 0 -507 minecraft:black_stained_glass
-setblock 50 0 -507 minecraft:coal_ore
-setblock 49 0 -507 minecraft:packed_mud
-setblock 48 0 -507 minecraft:waxed_exposed_cut_copper
-setblock 55 0 -507 minecraft:chiseled_nether_bricks
-setblock 54 0 -507 minecraft:crimson_planks
-setblock 53 0 -507 minecraft:white_glazed_terracotta
-setblock 52 0 -507 minecraft:air
-setblock 59 0 -507 minecraft:black_stained_glass
-setblock 58 0 -507 minecraft:nether_gold_ore
-setblock 57 0 -507 minecraft:black_glazed_terracotta
-setblock 56 0 -507 minecraft:magma_block
-setblock 63 0 -507 minecraft:chiseled_nether_bricks
-setblock 62 0 -507 minecraft:crimson_planks
-setblock 61 0 -507 minecraft:white_stained_glass
-setblock 60 0 -507 minecraft:air
-setblock 67 0 -507 minecraft:black_stained_glass
-setblock 66 0 -507 minecraft:nether_gold_ore
-setblock 65 0 -507 minecraft:slime_block
-setblock 64 0 -507 minecraft:terracotta
-setblock 71 0 -507 minecraft:light_blue_stained_glass
-setblock 70 0 -507 minecraft:warped_stem
-setblock 69 0 -507 minecraft:dark_oak_planks
-setblock 68 0 -507 minecraft:smooth_stone
-setblock 75 0 -507 minecraft:light_blue_wool
-setblock 74 0 -507 minecraft:mangrove_planks
-setblock 73 0 -507 minecraft:glowstone
-setblock 72 0 -507 minecraft:oak_planks
-setblock 79 0 -507 minecraft:chiseled_nether_bricks
-setblock 78 0 -507 minecraft:crimson_planks
-setblock 77 0 -507 minecraft:air
-setblock 76 0 -507 minecraft:oak_planks
-setblock 83 0 -507 minecraft:jungle_log
-setblock 82 0 -507 minecraft:air
-setblock 81 0 -507 minecraft:chiseled_deepslate
-setblock 80 0 -507 minecraft:deepslate
-setblock 87 0 -507 minecraft:mud_bricks
-setblock 86 0 -507 minecraft:mycelium
-setblock 85 0 -507 minecraft:chiseled_deepslate
-setblock 84 0 -507 minecraft:air
-setblock 91 0 -507 minecraft:andesite
-setblock 90 0 -507 minecraft:melon
-setblock 89 0 -507 minecraft:packed_mud
-setblock 88 0 -507 minecraft:air
-setblock 95 0 -507 minecraft:chiseled_nether_bricks
-setblock 94 0 -507 minecraft:black_terracotta
-setblock 93 0 -507 minecraft:raw_gold_block
-setblock 92 0 -507 minecraft:granite
-setblock 99 0 -507 minecraft:andesite
-setblock 98 0 -507 minecraft:granite
-setblock 97 0 -507 minecraft:polished_granite
-setblock 96 0 -507 minecraft:air
-setblock 103 0 -507 minecraft:chiseled_nether_bricks
-setblock 102 0 -507 minecraft:mangrove_planks
-setblock 101 0 -507 minecraft:jungle_planks
-setblock 100 0 -507 minecraft:air
-setblock 107 0 -507 minecraft:light_blue_stained_glass
-setblock 106 0 -507 minecraft:wet_sponge
-setblock 105 0 -507 minecraft:spruce_planks
-setblock 104 0 -507 minecraft:air
-setblock 111 0 -507 minecraft:black_stained_glass
-setblock 110 0 -507 minecraft:coal_ore
-setblock 109 0 -507 minecraft:packed_mud
-setblock 108 0 -507 minecraft:quartz_pillar
-setblock 115 0 -507 minecraft:black_stained_glass
-setblock 114 0 -507 minecraft:coal_ore
-setblock 113 0 -507 minecraft:packed_mud
-setblock 112 0 -507 minecraft:oxidized_cut_copper
-setblock 119 0 -507 minecraft:chiseled_nether_bricks
-setblock 118 0 -507 minecraft:crimson_planks
-setblock 117 0 -507 minecraft:dark_oak_planks
-setblock 116 0 -507 minecraft:polished_andesite
-setblock 123 0 -507 minecraft:andesite
-setblock 122 0 -507 minecraft:melon
-setblock 121 0 -507 minecraft:granite
-setblock 120 0 -507 minecraft:air
-setblock 127 0 -507 minecraft:waxed_cut_copper
-setblock 126 0 -507 minecraft:hay_block
-setblock 125 0 -507 minecraft:budding_amethyst
-setblock 124 0 -507 minecraft:oak_planks
-setblock 131 0 -507 minecraft:waxed_cut_copper
-setblock 130 0 -507 minecraft:mushroom_stem
-setblock 129 0 -507 minecraft:dead_horn_coral_block
-setblock 128 0 -507 minecraft:air
-setblock 135 0 -507 minecraft:chiseled_nether_bricks
-setblock 134 0 -507 minecraft:granite
-setblock 133 0 -507 minecraft:coal_ore
-setblock 132 0 -507 minecraft:granite
-setblock 139 0 -507 minecraft:black_stained_glass
-setblock 138 0 -507 minecraft:air
-setblock 137 0 -507 minecraft:grass_block
-setblock 136 0 -507 minecraft:birch_planks
-setblock 143 0 -507 minecraft:mud_bricks
-setblock 142 0 -507 minecraft:rooted_dirt
-setblock 141 0 -507 minecraft:budding_amethyst
-setblock 140 0 -507 minecraft:redstone_lamp
-setblock 147 0 -507 minecraft:chiseled_nether_bricks
-setblock 146 0 -507 minecraft:hay_block
-setblock 145 0 -507 minecraft:budding_amethyst
-setblock 144 0 -507 minecraft:redstone_lamp
-setblock 151 0 -507 minecraft:light_blue_stained_glass
-setblock 150 0 -507 minecraft:sea_lantern
-setblock 149 0 -507 minecraft:raw_gold_block
-setblock 148 0 -507 minecraft:mangrove_planks
-setblock 155 0 -507 minecraft:andesite
-setblock 154 0 -507 minecraft:acacia_planks
-setblock 153 0 -507 minecraft:raw_gold_block
-setblock 152 0 -507 minecraft:redstone_lamp
-setblock 159 0 -507 minecraft:andesite
-setblock 158 0 -507 minecraft:lime_terracotta
-setblock 157 0 -507 minecraft:raw_gold_block
-setblock 156 0 -507 minecraft:granite
-setblock 163 0 -507 minecraft:waxed_cut_copper
-setblock 162 0 -507 minecraft:acacia_planks
-setblock 161 0 -507 minecraft:emerald_block
-setblock 160 0 -507 minecraft:air
-setblock 167 0 -507 minecraft:birch_planks
-setblock 166 0 -507 minecraft:spawner
-setblock 165 0 -507 minecraft:acacia_planks
-setblock 164 0 -507 minecraft:polished_andesite
-setblock 171 0 -507 minecraft:waxed_cut_copper
-setblock 170 0 -507 minecraft:acacia_planks
-setblock 169 0 -507 minecraft:gold_ore
-setblock 168 0 -507 minecraft:air
-setblock 175 0 -507 minecraft:andesite
-setblock 174 0 -507 minecraft:chiseled_deepslate
-setblock 173 0 -507 minecraft:crimson_stem
-setblock 172 0 -507 minecraft:air
-setblock 179 0 -507 minecraft:light_blue_wool
-setblock 178 0 -507 minecraft:mangrove_planks
-setblock 177 0 -507 minecraft:gold_ore
-setblock 176 0 -507 minecraft:air
-setblock 183 0 -507 minecraft:andesite
-setblock 182 0 -507 minecraft:granite
-setblock 181 0 -507 minecraft:polished_granite
-setblock 180 0 -507 minecraft:air
-setblock 187 0 -507 minecraft:jungle_log
-setblock 186 0 -507 minecraft:warped_stem
-setblock 185 0 -507 minecraft:acacia_planks
-setblock 184 0 -507 minecraft:oak_planks
-setblock 191 0 -507 minecraft:jungle_log
-setblock 190 0 -507 minecraft:oak_log
-setblock 189 0 -507 minecraft:mangrove_planks
-setblock 188 0 -507 minecraft:jungle_planks
-setblock 195 0 -507 minecraft:andesite
-setblock 194 0 -507 minecraft:crimson_planks
-setblock 193 0 -507 minecraft:granite
-setblock 192 0 -507 minecraft:air
-setblock 199 0 -507 minecraft:light_blue_wool
-setblock 198 0 -507 minecraft:pumpkin
-setblock 197 0 -507 minecraft:emerald_block
-setblock 196 0 -507 minecraft:white_concrete
-setblock 203 0 -507 minecraft:andesite
-setblock 202 0 -507 minecraft:gray_terracotta
-setblock 201 0 -507 minecraft:amethyst_block
-setblock 200 0 -507 minecraft:granite
-setblock 207 0 -507 minecraft:deepslate_iron_ore
-setblock 206 0 -507 minecraft:polished_granite
-setblock 205 0 -507 minecraft:acacia_planks
-setblock 204 0 -507 minecraft:nether_wart_block
-setblock 211 0 -507 minecraft:black_stained_glass
-setblock 210 0 -507 minecraft:air
-setblock 209 0 -507 minecraft:warped_stem
-setblock 208 0 -507 minecraft:dark_oak_planks
-setblock 215 0 -507 minecraft:light_blue_wool
-setblock 214 0 -507 minecraft:mangrove_planks
-setblock 213 0 -507 minecraft:glowstone
-setblock 212 0 -507 minecraft:oak_planks
-setblock 219 0 -507 minecraft:chiseled_nether_bricks
-setblock 218 0 -507 minecraft:dark_oak_planks
-setblock 217 0 -507 minecraft:coal_ore
-setblock 216 0 -507 minecraft:redstone_lamp
-setblock 223 0 -507 minecraft:jungle_log
-setblock 222 0 -507 minecraft:air
-setblock 221 0 -507 minecraft:crimson_nylium
-setblock 220 0 -507 minecraft:polished_andesite
-setblock 227 0 -507 minecraft:mud_bricks
-setblock 226 0 -507 minecraft:mycelium
-setblock 225 0 -507 minecraft:chiseled_deepslate
-setblock 224 0 -507 minecraft:air
-setblock 231 0 -507 minecraft:andesite
-setblock 230 0 -507 minecraft:melon
-setblock 229 0 -507 minecraft:packed_mud
-setblock 228 0 -507 minecraft:air
-setblock 235 0 -507 minecraft:andesite
-setblock 234 0 -507 minecraft:granite
-setblock 233 0 -507 minecraft:polished_granite
-setblock 232 0 -507 minecraft:air
-setblock 239 0 -507 minecraft:chiseled_nether_bricks
-setblock 238 0 -507 minecraft:black_terracotta
-setblock 237 0 -507 minecraft:raw_gold_block
-setblock 236 0 -507 minecraft:granite
-setblock 243 0 -507 minecraft:chiseled_nether_bricks
-setblock 242 0 -507 minecraft:dark_oak_planks
-setblock 241 0 -507 minecraft:granite
-setblock 240 0 -507 minecraft:air
-setblock 247 0 -507 minecraft:chiseled_nether_bricks
-setblock 246 0 -507 minecraft:mangrove_planks
-setblock 245 0 -507 minecraft:jungle_planks
-setblock 244 0 -507 minecraft:air
-setblock 251 0 -507 minecraft:light_blue_stained_glass
-setblock 250 0 -507 minecraft:wet_sponge
-setblock 249 0 -507 minecraft:spruce_planks
-setblock 248 0 -507 minecraft:air
-setblock 255 0 -507 minecraft:black_stained_glass
-setblock 254 0 -507 minecraft:coal_ore
-setblock 253 0 -507 minecraft:packed_mud
-setblock 252 0 -507 minecraft:gold_block
-setblock 259 0 -507 minecraft:black_stained_glass
-setblock 258 0 -507 minecraft:coal_ore
-setblock 257 0 -507 minecraft:packed_mud
-setblock 256 0 -507 minecraft:diamond_block
-setblock 263 0 -507 minecraft:chiseled_nether_bricks
-setblock 262 0 -507 minecraft:crimson_planks
-setblock 261 0 -507 minecraft:white_concrete
-setblock 260 0 -507 minecraft:air
-setblock 267 0 -507 minecraft:black_stained_glass
-setblock 266 0 -507 minecraft:nether_gold_ore
-setblock 265 0 -507 minecraft:black_glazed_terracotta
-setblock 264 0 -507 minecraft:mud
-setblock 271 0 -507 minecraft:chiseled_nether_bricks
-setblock 270 0 -507 minecraft:dark_oak_planks
-setblock 269 0 -507 minecraft:raw_gold_block
-setblock 268 0 -507 minecraft:redstone_lamp
-setblock 275 0 -507 minecraft:chiseled_nether_bricks
-setblock 274 0 -507 minecraft:glowstone
-setblock 273 0 -507 minecraft:glowstone
-setblock 272 0 -507 minecraft:granite
-setblock 279 0 -507 minecraft:light_blue_stained_glass
-setblock 278 0 -507 minecraft:prismarine_bricks
-setblock 277 0 -507 minecraft:dark_oak_planks
-setblock 276 0 -507 minecraft:air
-setblock 283 0 -507 minecraft:waxed_cut_copper
-setblock 282 0 -507 minecraft:acacia_planks
-setblock 281 0 -507 minecraft:glass
-setblock 280 0 -507 minecraft:air
-setblock 287 0 -507 minecraft:mud_bricks
-setblock 286 0 -507 minecraft:rooted_dirt
-setblock 285 0 -507 minecraft:raw_gold_block
-setblock 284 0 -507 minecraft:andesite
-setblock 291 0 -507 minecraft:chiseled_nether_bricks
-setblock 290 0 -507 minecraft:crimson_planks
-setblock 289 0 -507 minecraft:white_terracotta
-setblock 288 0 -507 minecraft:air
-setblock 295 0 -507 minecraft:chiseled_nether_bricks
-setblock 294 0 -507 minecraft:melon
-setblock 293 0 -507 minecraft:melon
-setblock 292 0 -507 minecraft:redstone_lamp
-setblock 299 0 -507 minecraft:chiseled_nether_bricks
-setblock 298 0 -507 minecraft:raw_gold_block
-setblock 297 0 -507 minecraft:raw_gold_block
-setblock 296 0 -507 minecraft:granite
-setblock 303 0 -507 minecraft:light_blue_stained_glass
-setblock 302 0 -507 minecraft:glowstone
-setblock 301 0 -507 minecraft:waxed_oxidized_copper
-setblock 300 0 -507 minecraft:spruce_planks
-setblock 307 0 -507 minecraft:andesite
-setblock 306 0 -507 minecraft:melon
-setblock 305 0 -507 minecraft:dark_oak_planks
-setblock 304 0 -507 minecraft:air
-setblock 311 0 -507 minecraft:andesite
-setblock 310 0 -507 minecraft:granite
-setblock 309 0 -507 minecraft:polished_granite
-setblock 308 0 -507 minecraft:air
-setblock 315 0 -507 minecraft:mud_bricks
-setblock 314 0 -507 minecraft:mycelium
-setblock 313 0 -507 minecraft:chiseled_deepslate
-setblock 312 0 -507 minecraft:air
-setblock 319 0 -507 minecraft:chiseled_nether_bricks
-setblock 318 0 -507 minecraft:granite
-setblock 317 0 -507 minecraft:acacia_planks
-setblock 316 0 -507 minecraft:air
-setblock 323 0 -507 minecraft:chiseled_nether_bricks
-setblock 322 0 -507 minecraft:acacia_planks
-setblock 321 0 -507 minecraft:mangrove_planks
-setblock 320 0 -507 minecraft:air
-setblock 327 0 -507 minecraft:chiseled_nether_bricks
-setblock 326 0 -507 minecraft:mangrove_planks
-setblock 325 0 -507 minecraft:jungle_planks
-setblock 324 0 -507 minecraft:air
-setblock 331 0 -507 minecraft:chiseled_nether_bricks
-setblock 330 0 -507 minecraft:dark_oak_planks
-setblock 329 0 -507 minecraft:air
-setblock 328 0 -507 minecraft:air
-setblock 335 0 -507 minecraft:light_blue_stained_glass
-setblock 334 0 -507 minecraft:wet_sponge
-setblock 333 0 -507 minecraft:spruce_planks
-setblock 332 0 -507 minecraft:air
-setblock 339 0 -507 minecraft:black_stained_glass
-setblock 338 0 -507 minecraft:coal_ore
-setblock 337 0 -507 minecraft:slime_block
-setblock 336 0 -507 minecraft:end_stone
-setblock 343 0 -507 minecraft:black_stained_glass
-setblock 342 0 -507 minecraft:coal_ore
-setblock 341 0 -507 minecraft:slime_block
-setblock 340 0 -507 minecraft:coal_block
-setblock 347 0 -507 minecraft:andesite
-setblock 346 0 -507 minecraft:acacia_planks
-setblock 345 0 -507 minecraft:deepslate_copper_ore
-setblock 344 0 -507 minecraft:redstone_lamp
-setblock 351 0 -507 minecraft:andesite
-setblock 350 0 -507 minecraft:lime_terracotta
-setblock 349 0 -507 minecraft:raw_gold_block
-setblock 348 0 -507 minecraft:granite
-setblock 355 0 -507 minecraft:waxed_cut_copper
-setblock 354 0 -507 minecraft:dark_oak_planks
-setblock 353 0 -507 minecraft:emerald_block
-setblock 352 0 -507 minecraft:air
-setblock 359 0 -507 minecraft:birch_planks
-setblock 358 0 -507 minecraft:spawner
-setblock 357 0 -507 minecraft:dark_oak_planks
-setblock 356 0 -507 minecraft:polished_andesite
-setblock 363 0 -507 minecraft:chiseled_nether_bricks
-setblock 362 0 -507 minecraft:cobbled_deepslate
-setblock 361 0 -507 minecraft:crimson_stem
-setblock 360 0 -507 minecraft:air
-setblock 367 0 -507 minecraft:waxed_cut_copper
-setblock 366 0 -507 minecraft:acacia_planks
-setblock 365 0 -507 minecraft:gold_ore
-setblock 364 0 -507 minecraft:air
-setblock 371 0 -507 minecraft:waxed_cut_copper
-setblock 370 0 -507 minecraft:dark_oak_planks
-setblock 369 0 -507 minecraft:glass
-setblock 368 0 -507 minecraft:air
-setblock 375 0 -507 minecraft:andesite
-setblock 374 0 -507 minecraft:mangrove_planks
-setblock 373 0 -507 minecraft:chiseled_deepslate
-setblock 372 0 -507 minecraft:air
-setblock 379 0 -507 minecraft:andesite
-setblock 378 0 -507 minecraft:granite
-setblock 377 0 -507 minecraft:polished_granite
-setblock 376 0 -507 minecraft:air
-setblock 383 0 -507 minecraft:jungle_log
-setblock 382 0 -507 minecraft:warped_stem
-setblock 381 0 -507 minecraft:acacia_planks
-setblock 380 0 -507 minecraft:oak_planks
-setblock 387 0 -507 minecraft:jungle_log
-setblock 386 0 -507 minecraft:purpur_block
-setblock 385 0 -507 minecraft:dark_oak_planks
-setblock 384 0 -507 minecraft:jungle_planks
-setblock 391 0 -507 minecraft:andesite
-setblock 390 0 -507 minecraft:gray_terracotta
-setblock 389 0 -507 minecraft:amethyst_block
-setblock 388 0 -507 minecraft:granite
-setblock 395 0 -507 minecraft:andesite
-setblock 394 0 -507 minecraft:crimson_planks
-setblock 393 0 -507 minecraft:granite
-setblock 392 0 -507 minecraft:air
-setblock 399 0 -507 minecraft:black_stained_glass
-setblock 398 0 -507 minecraft:nether_gold_ore
-setblock 397 0 -507 minecraft:slime_block
-setblock 396 0 -507 minecraft:brown_mushroom_block
-setblock 403 0 -507 minecraft:magma_block
-setblock 402 0 -507 minecraft:mangrove_planks
-setblock 401 0 -507 minecraft:air
-setblock 400 0 -507 minecraft:nether_gold_ore
-setblock 407 0 -507 minecraft:andesite
-setblock 406 0 -507 minecraft:oak_planks
-setblock 405 0 -507 minecraft:oak_planks
-setblock 404 0 -507 minecraft:redstone_lamp
-setblock 411 0 -507 minecraft:jungle_log
-setblock 410 0 -507 minecraft:mangrove_log
-setblock 409 0 -507 minecraft:diorite
-setblock 408 0 -507 minecraft:air
-setblock 415 0 -507 minecraft:magma_block
-setblock 414 0 -507 minecraft:chiseled_deepslate
-setblock 413 0 -507 minecraft:raw_gold_block
-setblock 412 0 -507 minecraft:purpur_block
-setblock 419 0 -507 minecraft:jungle_log
-setblock 418 0 -507 minecraft:acacia_log
-setblock 417 0 -507 minecraft:stripped_warped_stem
-setblock 416 0 -507 minecraft:air
-setblock 423 0 -507 minecraft:chiseled_nether_bricks
-setblock 422 0 -507 minecraft:acacia_planks
-setblock 421 0 -507 minecraft:acacia_planks
-setblock 420 0 -507 minecraft:air
-setblock 427 0 -507 minecraft:light_blue_stained_glass
-setblock 426 0 -507 minecraft:sponge
-setblock 425 0 -507 minecraft:mangrove_planks
-setblock 424 0 -507 minecraft:air
-setblock 431 0 -507 minecraft:light_blue_glazed_terracotta
-setblock 430 0 -507 minecraft:deepslate
-setblock 429 0 -507 minecraft:chiseled_stone_bricks
-setblock 428 0 -507 minecraft:oak_log
-setblock 435 0 -507 minecraft:chiseled_nether_bricks
-setblock 434 0 -507 minecraft:mangrove_planks
-setblock 433 0 -507 minecraft:tuff
-setblock 432 0 -507 minecraft:spruce_planks
-setblock 439 0 -507 minecraft:jungle_log
-setblock 438 0 -507 minecraft:air
-setblock 437 0 -507 minecraft:raw_gold_block
-setblock 436 0 -507 minecraft:air
-setblock 443 0 -507 minecraft:chiseled_nether_bricks
-setblock 442 0 -507 minecraft:acacia_planks
-setblock 441 0 -507 minecraft:deepslate
-setblock 440 0 -507 minecraft:air
-setblock 447 0 -507 minecraft:waxed_weathered_cut_copper
-setblock 446 0 -507 minecraft:crimson_stem
-setblock 445 0 -507 minecraft:air
-setblock 444 0 -507 minecraft:air
-setblock 451 0 -507 minecraft:mangrove_planks
-setblock 450 0 -507 minecraft:lapis_block
-setblock 449 0 -507 minecraft:gray_concrete
-setblock 448 0 -507 minecraft:lime_glazed_terracotta
-setblock 455 0 -507 minecraft:waxed_weathered_cut_copper
-setblock 454 0 -507 minecraft:crimson_stem
-setblock 453 0 -507 minecraft:air
-setblock 452 0 -507 minecraft:air
-setblock 459 0 -507 minecraft:pumpkin
-setblock 458 0 -507 minecraft:lapis_block
-setblock 457 0 -507 minecraft:pumpkin
-setblock 456 0 -507 minecraft:lime_glazed_terracotta
-setblock 463 0 -507 minecraft:waxed_weathered_cut_copper
-setblock 462 0 -507 minecraft:pumpkin
-setblock 461 0 -507 minecraft:deepslate_emerald_ore
-setblock 460 0 -507 minecraft:orange_glazed_terracotta
-setblock 467 0 -507 minecraft:chiseled_nether_bricks
-setblock 466 0 -507 minecraft:pumpkin
-setblock 465 0 -507 minecraft:amethyst_block
-setblock 464 0 -507 minecraft:orange_glazed_terracotta
-setblock 471 0 -507 minecraft:light_blue_concrete
-setblock 470 0 -507 minecraft:lime_terracotta
-setblock 469 0 -507 minecraft:deepslate_copper_ore
-setblock 468 0 -507 minecraft:light_gray_terracotta
-setblock 475 0 -507 minecraft:chiseled_nether_bricks
-setblock 474 0 -507 minecraft:dark_oak_planks
-setblock 473 0 -507 minecraft:white_concrete
-setblock 472 0 -507 minecraft:dark_oak_planks
-setblock 479 0 -507 minecraft:light_blue_glazed_terracotta
-setblock 478 0 -507 minecraft:chiseled_deepslate
-setblock 477 0 -507 minecraft:deepslate
-setblock 476 0 -507 minecraft:grass_block
-setblock 483 0 -507 minecraft:light_blue_wool
-setblock 482 0 -507 minecraft:lime_wool
-setblock 481 0 -507 minecraft:amethyst_block
-setblock 480 0 -507 minecraft:spruce_planks
-setblock 487 0 -507 minecraft:andesite
-setblock 486 0 -507 minecraft:yellow_glazed_terracotta
-setblock 485 0 -507 minecraft:lime_glazed_terracotta
-setblock 484 0 -507 minecraft:air
-setblock 491 0 -507 minecraft:light_blue_wool
-setblock 490 0 -507 minecraft:jungle_planks
-setblock 489 0 -507 minecraft:obsidian
-setblock 488 0 -507 minecraft:spruce_planks
-setblock 495 0 -507 minecraft:andesite
-setblock 494 0 -507 minecraft:lime_glazed_terracotta
-setblock 493 0 -507 minecraft:lime_glazed_terracotta
-setblock 492 0 -507 minecraft:air
-setblock 499 0 -507 minecraft:light_blue_wool
-setblock 498 0 -507 minecraft:jungle_planks
-setblock 497 0 -507 minecraft:pumpkin
-setblock 496 0 -507 minecraft:white_concrete
-setblock 503 0 -507 minecraft:deepslate_diamond_ore
-setblock 502 0 -507 minecraft:air
-setblock 501 0 -507 minecraft:air
-setblock 500 0 -507 minecraft:magenta_terracotta
-setblock 507 0 -507 minecraft:chiseled_nether_bricks
-setblock 506 0 -507 minecraft:dark_oak_planks
-setblock 505 0 -507 minecraft:acacia_planks
-setblock 504 0 -507 minecraft:air
-setblock 511 0 -507 minecraft:light_blue_stained_glass
-setblock 510 0 -507 minecraft:air
-setblock 509 0 -507 minecraft:jungle_planks
-setblock 508 0 -507 minecraft:jungle_planks
-setblock -509 0 -506 minecraft:chiseled_nether_bricks
-setblock -510 0 -506 minecraft:mangrove_planks
-setblock -511 0 -506 minecraft:purpur_block
-setblock -512 0 -506 minecraft:air
-setblock -505 0 -506 minecraft:light_blue_wool
-setblock -506 0 -506 minecraft:gray_glazed_terracotta
-setblock -507 0 -506 minecraft:raw_copper_block
-setblock -508 0 -506 minecraft:spruce_planks
-setblock -501 0 -506 minecraft:andesite
-setblock -502 0 -506 minecraft:dark_oak_planks
-setblock -503 0 -506 minecraft:coal_ore
-setblock -504 0 -506 minecraft:spruce_planks
-setblock -497 0 -506 minecraft:jungle_log
-setblock -498 0 -506 minecraft:air
-setblock -499 0 -506 minecraft:rooted_dirt
-setblock -500 0 -506 minecraft:air
-setblock -493 0 -506 minecraft:andesite
-setblock -494 0 -506 minecraft:dark_oak_planks
-setblock -495 0 -506 minecraft:air
-setblock -496 0 -506 minecraft:birch_planks
-setblock -489 0 -506 minecraft:andesite
-setblock -490 0 -506 minecraft:acacia_planks
-setblock -491 0 -506 minecraft:lime_wool
-setblock -492 0 -506 minecraft:air
-setblock -485 0 -506 minecraft:waxed_cut_copper
-setblock -486 0 -506 minecraft:gray_terracotta
-setblock -487 0 -506 minecraft:raw_copper_block
-setblock -488 0 -506 minecraft:spruce_planks
-setblock -481 0 -506 minecraft:light_blue_wool
-setblock -482 0 -506 minecraft:mangrove_planks
-setblock -483 0 -506 minecraft:clay
-setblock -484 0 -506 minecraft:air
-setblock -477 0 -506 minecraft:jungle_log
-setblock -478 0 -506 minecraft:granite
-setblock -479 0 -506 minecraft:deepslate_copper_ore
-setblock -480 0 -506 minecraft:shroomlight
-setblock -473 0 -506 minecraft:waxed_cut_copper
-setblock -474 0 -506 minecraft:pumpkin
-setblock -475 0 -506 minecraft:clay
-setblock -476 0 -506 minecraft:air
-setblock -469 0 -506 minecraft:jungle_log
-setblock -470 0 -506 minecraft:stripped_warped_stem
-setblock -471 0 -506 minecraft:glowstone
-setblock -472 0 -506 minecraft:air
-setblock -465 0 -506 minecraft:light_blue_stained_glass
-setblock -466 0 -506 minecraft:pearlescent_froglight
-setblock -467 0 -506 minecraft:clay
-setblock -468 0 -506 minecraft:air
-setblock -461 0 -506 minecraft:birch_planks
-setblock -462 0 -506 minecraft:gray_concrete
-setblock -463 0 -506 minecraft:deepslate_copper_ore
-setblock -464 0 -506 minecraft:redstone_lamp
-setblock -457 0 -506 minecraft:andesite
-setblock -458 0 -506 minecraft:acacia_planks
-setblock -459 0 -506 minecraft:raw_gold_block
-setblock -460 0 -506 minecraft:redstone_lamp
-setblock -453 0 -506 minecraft:deepslate_iron_ore
-setblock -454 0 -506 minecraft:smooth_stone
-setblock -455 0 -506 minecraft:amethyst_block
-setblock -456 0 -506 minecraft:shroomlight
-setblock -449 0 -506 minecraft:jungle_log
-setblock -450 0 -506 minecraft:air
-setblock -451 0 -506 minecraft:acacia_planks
-setblock -452 0 -506 minecraft:air
-setblock -445 0 -506 minecraft:mud_bricks
-setblock -446 0 -506 minecraft:oak_log
-setblock -447 0 -506 minecraft:podzol
-setblock -448 0 -506 minecraft:air
-setblock -441 0 -506 minecraft:birch_planks
-setblock -442 0 -506 minecraft:acacia_log
-setblock -443 0 -506 minecraft:stripped_warped_stem
-setblock -444 0 -506 minecraft:air
-setblock -437 0 -506 minecraft:andesite
-setblock -438 0 -506 minecraft:oak_planks
-setblock -439 0 -506 minecraft:oak_planks
-setblock -440 0 -506 minecraft:oak_planks
-setblock -433 0 -506 minecraft:gray_stained_glass
-setblock -434 0 -506 minecraft:warped_stem
-setblock -435 0 -506 minecraft:air
-setblock -436 0 -506 minecraft:air
-setblock -429 0 -506 minecraft:magma_block
-setblock -430 0 -506 minecraft:mangrove_planks
-setblock -431 0 -506 minecraft:air
-setblock -432 0 -506 minecraft:nether_gold_ore
-setblock -425 0 -506 minecraft:andesite
-setblock -426 0 -506 minecraft:oak_planks
-setblock -427 0 -506 minecraft:oak_planks
-setblock -428 0 -506 minecraft:redstone_lamp
-setblock -421 0 -506 minecraft:jungle_log
-setblock -422 0 -506 minecraft:mangrove_log
-setblock -423 0 -506 minecraft:diorite
-setblock -424 0 -506 minecraft:air
-setblock -417 0 -506 minecraft:magma_block
-setblock -418 0 -506 minecraft:chiseled_deepslate
-setblock -419 0 -506 minecraft:raw_gold_block
-setblock -420 0 -506 minecraft:purpur_block
-setblock -413 0 -506 minecraft:jungle_log
-setblock -414 0 -506 minecraft:acacia_log
-setblock -415 0 -506 minecraft:stripped_warped_stem
-setblock -416 0 -506 minecraft:air
-setblock -409 0 -506 minecraft:chiseled_nether_bricks
-setblock -410 0 -506 minecraft:acacia_planks
-setblock -411 0 -506 minecraft:acacia_planks
-setblock -412 0 -506 minecraft:air
-setblock -405 0 -506 minecraft:light_blue_stained_glass
-setblock -406 0 -506 minecraft:sponge
-setblock -407 0 -506 minecraft:mangrove_planks
-setblock -408 0 -506 minecraft:air
-setblock -401 0 -506 minecraft:light_blue_glazed_terracotta
-setblock -402 0 -506 minecraft:deepslate
-setblock -403 0 -506 minecraft:chiseled_stone_bricks
-setblock -404 0 -506 minecraft:oak_log
-setblock -397 0 -506 minecraft:chiseled_nether_bricks
-setblock -398 0 -506 minecraft:mangrove_planks
-setblock -399 0 -506 minecraft:tuff
-setblock -400 0 -506 minecraft:spruce_planks
-setblock -393 0 -506 minecraft:jungle_log
-setblock -394 0 -506 minecraft:air
-setblock -395 0 -506 minecraft:raw_gold_block
-setblock -396 0 -506 minecraft:air
-setblock -389 0 -506 minecraft:chiseled_nether_bricks
-setblock -390 0 -506 minecraft:acacia_planks
-setblock -391 0 -506 minecraft:deepslate
-setblock -392 0 -506 minecraft:air
-setblock -385 0 -506 minecraft:waxed_weathered_cut_copper
-setblock -386 0 -506 minecraft:crimson_stem
-setblock -387 0 -506 minecraft:air
-setblock -388 0 -506 minecraft:air
-setblock -381 0 -506 minecraft:mangrove_planks
-setblock -382 0 -506 minecraft:lapis_block
-setblock -383 0 -506 minecraft:clay
-setblock -384 0 -506 minecraft:lime_glazed_terracotta
-setblock -377 0 -506 minecraft:waxed_weathered_cut_copper
-setblock -378 0 -506 minecraft:crimson_stem
-setblock -379 0 -506 minecraft:air
-setblock -380 0 -506 minecraft:air
-setblock -373 0 -506 minecraft:pumpkin
-setblock -374 0 -506 minecraft:lapis_block
-setblock -375 0 -506 minecraft:pumpkin
-setblock -376 0 -506 minecraft:lime_glazed_terracotta
-setblock -369 0 -506 minecraft:waxed_weathered_cut_copper
-setblock -370 0 -506 minecraft:crimson_nylium
-setblock -371 0 -506 minecraft:blue_ice
-setblock -372 0 -506 minecraft:blue_ice
-setblock -365 0 -506 minecraft:chiseled_nether_bricks
-setblock -366 0 -506 minecraft:pumpkin
-setblock -367 0 -506 minecraft:crimson_nylium
-setblock -368 0 -506 minecraft:blue_ice
-setblock -361 0 -506 minecraft:light_blue_concrete
-setblock -362 0 -506 minecraft:lime_terracotta
-setblock -363 0 -506 minecraft:deepslate_copper_ore
-setblock -364 0 -506 minecraft:light_gray_terracotta
-setblock -357 0 -506 minecraft:light_blue_glazed_terracotta
-setblock -358 0 -506 minecraft:chiseled_deepslate
-setblock -359 0 -506 minecraft:deepslate
-setblock -360 0 -506 minecraft:grass_block
-setblock -353 0 -506 minecraft:light_blue_wool
-setblock -354 0 -506 minecraft:lime_wool
-setblock -355 0 -506 minecraft:amethyst_block
-setblock -356 0 -506 minecraft:spruce_planks
-setblock -349 0 -506 minecraft:andesite
-setblock -350 0 -506 minecraft:yellow_glazed_terracotta
-setblock -351 0 -506 minecraft:lime_wool
-setblock -352 0 -506 minecraft:air
-setblock -345 0 -506 minecraft:chiseled_nether_bricks
-setblock -346 0 -506 minecraft:chiseled_deepslate
-setblock -347 0 -506 minecraft:acacia_log
-setblock -348 0 -506 minecraft:air
-setblock -341 0 -506 minecraft:waxed_cut_copper
-setblock -342 0 -506 minecraft:pumpkin
-setblock -343 0 -506 minecraft:pumpkin
-setblock -344 0 -506 minecraft:air
-setblock -337 0 -506 minecraft:chiseled_nether_bricks
-setblock -338 0 -506 minecraft:polished_basalt
-setblock -339 0 -506 minecraft:chiseled_deepslate
-setblock -340 0 -506 minecraft:air
-setblock -333 0 -506 minecraft:andesite
-setblock -334 0 -506 minecraft:acacia_planks
-setblock -335 0 -506 minecraft:jungle_planks
-setblock -336 0 -506 minecraft:air
-setblock -329 0 -506 minecraft:light_blue_wool
-setblock -330 0 -506 minecraft:jungle_planks
-setblock -331 0 -506 minecraft:amethyst_block
-setblock -332 0 -506 minecraft:white_concrete
-setblock -325 0 -506 minecraft:deepslate_diamond_ore
-setblock -326 0 -506 minecraft:air
-setblock -327 0 -506 minecraft:grass_block
-setblock -328 0 -506 minecraft:lime_stained_glass
-setblock -321 0 -506 minecraft:light_blue_stained_glass
-setblock -322 0 -506 minecraft:smooth_stone
-setblock -323 0 -506 minecraft:jungle_planks
-setblock -324 0 -506 minecraft:air
-setblock -317 0 -506 minecraft:andesite
-setblock -318 0 -506 minecraft:jungle_planks
-setblock -319 0 -506 minecraft:jungle_planks
-setblock -320 0 -506 minecraft:birch_planks
-setblock -313 0 -506 minecraft:chiseled_nether_bricks
-setblock -314 0 -506 minecraft:mangrove_planks
-setblock -315 0 -506 minecraft:coal_ore
-setblock -316 0 -506 minecraft:spruce_planks
-setblock -309 0 -506 minecraft:iron_block
-setblock -310 0 -506 minecraft:air
-setblock -311 0 -506 minecraft:melon
-setblock -312 0 -506 minecraft:air
-setblock -305 0 -506 minecraft:jungle_log
-setblock -306 0 -506 minecraft:air
-setblock -307 0 -506 minecraft:raw_gold_block
-setblock -308 0 -506 minecraft:air
-setblock -301 0 -506 minecraft:andesite
-setblock -302 0 -506 minecraft:acacia_planks
-setblock -303 0 -506 minecraft:dark_oak_log
-setblock -304 0 -506 minecraft:air
-setblock -297 0 -506 minecraft:jungle_log
-setblock -298 0 -506 minecraft:air
-setblock -299 0 -506 minecraft:acacia_planks
-setblock -300 0 -506 minecraft:air
-setblock -293 0 -506 minecraft:mud_bricks
-setblock -294 0 -506 minecraft:oak_log
-setblock -295 0 -506 minecraft:podzol
-setblock -296 0 -506 minecraft:air
-setblock -289 0 -506 minecraft:birch_planks
-setblock -290 0 -506 minecraft:acacia_log
-setblock -291 0 -506 minecraft:stripped_warped_stem
-setblock -292 0 -506 minecraft:air
-setblock -285 0 -506 minecraft:andesite
-setblock -286 0 -506 minecraft:oak_planks
-setblock -287 0 -506 minecraft:oak_planks
-setblock -288 0 -506 minecraft:oak_planks
-setblock -281 0 -506 minecraft:gray_stained_glass
-setblock -282 0 -506 minecraft:warped_stem
-setblock -283 0 -506 minecraft:air
-setblock -284 0 -506 minecraft:air
-setblock -277 0 -506 minecraft:andesite
-setblock -278 0 -506 minecraft:oak_planks
-setblock -279 0 -506 minecraft:oak_planks
-setblock -280 0 -506 minecraft:nether_wart_block
-setblock -273 0 -506 minecraft:birch_planks
-setblock -274 0 -506 minecraft:light_blue_concrete
-setblock -275 0 -506 minecraft:acacia_planks
-setblock -276 0 -506 minecraft:air
-setblock -269 0 -506 minecraft:andesite
-setblock -270 0 -506 minecraft:mossy_stone_bricks
-setblock -271 0 -506 minecraft:orange_concrete
-setblock -272 0 -506 minecraft:spruce_planks
-setblock -265 0 -506 minecraft:jungle_log
-setblock -266 0 -506 minecraft:birch_log
-setblock -267 0 -506 minecraft:oxidized_cut_copper
-setblock -268 0 -506 minecraft:spruce_planks
-setblock -261 0 -506 minecraft:jungle_log
-setblock -262 0 -506 minecraft:acacia_log
-setblock -263 0 -506 minecraft:podzol
-setblock -264 0 -506 minecraft:spruce_planks
-setblock -257 0 -506 minecraft:jungle_log
-setblock -258 0 -506 minecraft:mangrove_log
-setblock -259 0 -506 minecraft:dripstone_block
-setblock -260 0 -506 minecraft:spruce_planks
-setblock -253 0 -506 minecraft:jungle_log
-setblock -254 0 -506 minecraft:stripped_oak_log
-setblock -255 0 -506 minecraft:deepslate_coal_ore
-setblock -256 0 -506 minecraft:spruce_planks
-setblock -249 0 -506 minecraft:jungle_log
-setblock -250 0 -506 minecraft:stripped_birch_log
-setblock -251 0 -506 minecraft:nether_quartz_ore
-setblock -252 0 -506 minecraft:spruce_planks
-setblock -245 0 -506 minecraft:jungle_log
-setblock -246 0 -506 minecraft:stripped_acacia_log
-setblock -247 0 -506 minecraft:oak_planks
-setblock -248 0 -506 minecraft:birch_planks
-setblock -241 0 -506 minecraft:jungle_log
-setblock -242 0 -506 minecraft:stripped_mangrove_log
-setblock -243 0 -506 minecraft:diorite
-setblock -244 0 -506 minecraft:birch_planks
-setblock -237 0 -506 minecraft:jungle_log
-setblock -238 0 -506 minecraft:oak_log
-setblock -239 0 -506 minecraft:podzol
-setblock -240 0 -506 minecraft:oak_planks
-setblock -233 0 -506 minecraft:light_blue_stained_glass
-setblock -234 0 -506 minecraft:dark_oak_planks
-setblock -235 0 -506 minecraft:birch_planks
-setblock -236 0 -506 minecraft:yellow_glazed_terracotta
-setblock -229 0 -506 minecraft:gray_wool
-setblock -230 0 -506 minecraft:stripped_mangrove_log
-setblock -231 0 -506 minecraft:air
-setblock -232 0 -506 minecraft:air
-setblock -225 0 -506 minecraft:gray_wool
-setblock -226 0 -506 minecraft:crimson_planks
-setblock -227 0 -506 minecraft:shroomlight
-setblock -228 0 -506 minecraft:granite
-setblock -221 0 -506 minecraft:andesite
-setblock -222 0 -506 minecraft:crimson_planks
-setblock -223 0 -506 minecraft:light_gray_concrete
-setblock -224 0 -506 minecraft:white_glazed_terracotta
-setblock -217 0 -506 minecraft:andesite
-setblock -218 0 -506 minecraft:mossy_stone_bricks
-setblock -219 0 -506 minecraft:mossy_stone_bricks
-setblock -220 0 -506 minecraft:green_glazed_terracotta
-setblock -213 0 -506 minecraft:chiseled_nether_bricks
-setblock -214 0 -506 minecraft:mangrove_planks
-setblock -215 0 -506 minecraft:air
-setblock -216 0 -506 minecraft:air
-setblock -209 0 -506 minecraft:chiseled_nether_bricks
-setblock -210 0 -506 minecraft:acacia_planks
-setblock -211 0 -506 minecraft:white_glazed_terracotta
-setblock -212 0 -506 minecraft:spruce_planks
-setblock -205 0 -506 minecraft:chiseled_nether_bricks
-setblock -206 0 -506 minecraft:crimson_planks
-setblock -207 0 -506 minecraft:oxidized_copper
-setblock -208 0 -506 minecraft:granite
-setblock -201 0 -506 minecraft:chiseled_nether_bricks
-setblock -202 0 -506 minecraft:mossy_stone_bricks
-setblock -203 0 -506 minecraft:white_glazed_terracotta
-setblock -204 0 -506 minecraft:oak_planks
-setblock -197 0 -506 minecraft:light_blue_stained_glass
-setblock -198 0 -506 minecraft:air
-setblock -199 0 -506 minecraft:waxed_cut_copper
-setblock -200 0 -506 minecraft:jungle_planks
-setblock -193 0 -506 minecraft:light_blue_wool
-setblock -194 0 -506 minecraft:pumpkin
-setblock -195 0 -506 minecraft:mangrove_planks
-setblock -196 0 -506 minecraft:oak_planks
-setblock -189 0 -506 minecraft:andesite
-setblock -190 0 -506 minecraft:acacia_planks
-setblock -191 0 -506 minecraft:deepslate
-setblock -192 0 -506 minecraft:air
-setblock -185 0 -506 minecraft:jungle_log
-setblock -186 0 -506 minecraft:air
-setblock -187 0 -506 minecraft:gray_stained_glass
-setblock -188 0 -506 minecraft:air
-setblock -181 0 -506 minecraft:birch_planks
-setblock -182 0 -506 minecraft:light_blue_concrete
-setblock -183 0 -506 minecraft:acacia_planks
-setblock -184 0 -506 minecraft:air
-setblock -177 0 -506 minecraft:chiseled_nether_bricks
-setblock -178 0 -506 minecraft:pumpkin
-setblock -179 0 -506 minecraft:chiseled_deepslate
-setblock -180 0 -506 minecraft:air
-setblock -173 0 -506 minecraft:light_blue_stained_glass
-setblock -174 0 -506 minecraft:jungle_planks
-setblock -175 0 -506 minecraft:birch_planks
-setblock -176 0 -506 minecraft:polished_deepslate
-setblock -169 0 -506 minecraft:deepslate_iron_ore
-setblock -170 0 -506 minecraft:cracked_nether_bricks
-setblock -171 0 -506 minecraft:chiseled_deepslate
-setblock -172 0 -506 minecraft:redstone_lamp
-setblock -165 0 -506 minecraft:waxed_weathered_cut_copper
-setblock -166 0 -506 minecraft:mangrove_planks
-setblock -167 0 -506 minecraft:shroomlight
-setblock -168 0 -506 minecraft:granite
-setblock -161 0 -506 minecraft:chiseled_nether_bricks
-setblock -162 0 -506 minecraft:pumpkin
-setblock -163 0 -506 minecraft:amethyst_block
-setblock -164 0 -506 minecraft:black_glazed_terracotta
-setblock -157 0 -506 minecraft:jungle_log
-setblock -158 0 -506 minecraft:warped_stem
-setblock -159 0 -506 minecraft:mangrove_planks
-setblock -160 0 -506 minecraft:air
-setblock -153 0 -506 minecraft:andesite
-setblock -154 0 -506 minecraft:mangrove_planks
-setblock -155 0 -506 minecraft:polished_granite
-setblock -156 0 -506 minecraft:air
-setblock -149 0 -506 minecraft:waxed_weathered_cut_copper
-setblock -150 0 -506 minecraft:mangrove_planks
-setblock -151 0 -506 minecraft:shroomlight
-setblock -152 0 -506 minecraft:granite
-setblock -145 0 -506 minecraft:jungle_log
-setblock -146 0 -506 minecraft:purpur_block
-setblock -147 0 -506 minecraft:deepslate_gold_ore
-setblock -148 0 -506 minecraft:white_glazed_terracotta
-setblock -141 0 -506 minecraft:andesite
-setblock -142 0 -506 minecraft:oak_planks
-setblock -143 0 -506 minecraft:oak_planks
-setblock -144 0 -506 minecraft:jungle_planks
-setblock -137 0 -506 minecraft:gray_stained_glass
-setblock -138 0 -506 minecraft:warped_stem
-setblock -139 0 -506 minecraft:air
-setblock -140 0 -506 minecraft:air
-setblock -133 0 -506 minecraft:birch_planks
-setblock -134 0 -506 minecraft:gray_concrete
-setblock -135 0 -506 minecraft:deepslate
-setblock -136 0 -506 minecraft:air
-setblock -129 0 -506 minecraft:light_blue_stained_glass
-setblock -130 0 -506 minecraft:mossy_stone_bricks
-setblock -131 0 -506 minecraft:gray_stained_glass
-setblock -132 0 -506 minecraft:pink_concrete
-setblock -125 0 -506 minecraft:andesite
-setblock -126 0 -506 minecraft:mangrove_planks
-setblock -127 0 -506 minecraft:crimson_nylium
-setblock -128 0 -506 minecraft:note_block
-setblock -121 0 -506 minecraft:andesite
-setblock -122 0 -506 minecraft:gray_terracotta
-setblock -123 0 -506 minecraft:amethyst_block
-setblock -124 0 -506 minecraft:granite
-setblock -117 0 -506 minecraft:light_blue_stained_glass
-setblock -118 0 -506 minecraft:emerald_ore
-setblock -119 0 -506 minecraft:diamond_ore
-setblock -120 0 -506 minecraft:air
-setblock -113 0 -506 minecraft:andesite
-setblock -114 0 -506 minecraft:chiseled_deepslate
-setblock -115 0 -506 minecraft:crimson_stem
-setblock -116 0 -506 minecraft:air
-setblock -109 0 -506 minecraft:light_blue_wool
-setblock -110 0 -506 minecraft:mangrove_planks
-setblock -111 0 -506 minecraft:clay
-setblock -112 0 -506 minecraft:oak_planks
-setblock -105 0 -506 minecraft:birch_planks
-setblock -106 0 -506 minecraft:crimson_stem
-setblock -107 0 -506 minecraft:mangrove_planks
-setblock -108 0 -506 minecraft:air
-setblock -101 0 -506 minecraft:gray_stained_glass
-setblock -102 0 -506 minecraft:air
-setblock -103 0 -506 minecraft:mangrove_planks
-setblock -104 0 -506 minecraft:air
-setblock -97 0 -506 minecraft:birch_planks
-setblock -98 0 -506 minecraft:light_blue_concrete
-setblock -99 0 -506 minecraft:dark_oak_log
-setblock -100 0 -506 minecraft:air
-setblock -93 0 -506 minecraft:light_blue_stained_glass
-setblock -94 0 -506 minecraft:smooth_stone
-setblock -95 0 -506 minecraft:birch_planks
-setblock -96 0 -506 minecraft:polished_diorite
-setblock -89 0 -506 minecraft:andesite
-setblock -90 0 -506 minecraft:acacia_planks
-setblock -91 0 -506 minecraft:dark_oak_log
-setblock -92 0 -506 minecraft:air
-setblock -85 0 -506 minecraft:black_stained_glass
-setblock -86 0 -506 minecraft:nether_gold_ore
-setblock -87 0 -506 minecraft:packed_mud
-setblock -88 0 -506 minecraft:note_block
-setblock -81 0 -506 minecraft:birch_planks
-setblock -82 0 -506 minecraft:crimson_stem
-setblock -83 0 -506 minecraft:oak_planks
-setblock -84 0 -506 minecraft:air
-setblock -77 0 -506 minecraft:mud_bricks
-setblock -78 0 -506 minecraft:mangrove_log
-setblock -79 0 -506 minecraft:mangrove_planks
-setblock -80 0 -506 minecraft:air
-setblock -73 0 -506 minecraft:andesite
-setblock -74 0 -506 minecraft:mangrove_planks
-setblock -75 0 -506 minecraft:gray_concrete
-setblock -76 0 -506 minecraft:air
-setblock -69 0 -506 minecraft:jungle_log
-setblock -70 0 -506 minecraft:oak_log
-setblock -71 0 -506 minecraft:deepslate_coal_ore
-setblock -72 0 -506 minecraft:air
-setblock -65 0 -506 minecraft:andesite
-setblock -66 0 -506 minecraft:crimson_nylium
-setblock -67 0 -506 minecraft:mud
-setblock -68 0 -506 minecraft:oak_planks
-setblock -61 0 -506 minecraft:light_blue_stained_glass
-setblock -62 0 -506 minecraft:polished_granite
-setblock -63 0 -506 minecraft:mangrove_planks
-setblock -64 0 -506 minecraft:stripped_acacia_log
-setblock -57 0 -506 minecraft:andesite
-setblock -58 0 -506 minecraft:crimson_nylium
-setblock -59 0 -506 minecraft:mushroom_stem
-setblock -60 0 -506 minecraft:oak_planks
-setblock -53 0 -506 minecraft:light_blue_stained_glass
-setblock -54 0 -506 minecraft:cobbled_deepslate
-setblock -55 0 -506 minecraft:mangrove_planks
-setblock -56 0 -506 minecraft:stripped_mangrove_log
-setblock -49 0 -506 minecraft:andesite
-setblock -50 0 -506 minecraft:crimson_nylium
-setblock -51 0 -506 minecraft:pink_concrete
-setblock -52 0 -506 minecraft:oak_planks
-setblock -45 0 -506 minecraft:light_blue_stained_glass
-setblock -46 0 -506 minecraft:cracked_deepslate_bricks
-setblock -47 0 -506 minecraft:mangrove_planks
-setblock -48 0 -506 minecraft:white_wool
-setblock -41 0 -506 minecraft:andesite
-setblock -42 0 -506 minecraft:crimson_nylium
-setblock -43 0 -506 minecraft:dark_oak_planks
-setblock -44 0 -506 minecraft:oak_planks
-setblock -37 0 -506 minecraft:light_blue_stained_glass
-setblock -38 0 -506 minecraft:bricks
-setblock -39 0 -506 minecraft:mangrove_planks
-setblock -40 0 -506 minecraft:magenta_wool
-setblock -33 0 -506 minecraft:andesite
-setblock -34 0 -506 minecraft:crimson_nylium
-setblock -35 0 -506 minecraft:mud
-setblock -36 0 -506 minecraft:air
-setblock -29 0 -506 minecraft:light_blue_stained_glass
-setblock -30 0 -506 minecraft:polished_diorite
-setblock -31 0 -506 minecraft:mangrove_planks
-setblock -32 0 -506 minecraft:pink_wool
-setblock -25 0 -506 minecraft:andesite
-setblock -26 0 -506 minecraft:crimson_nylium
-setblock -27 0 -506 minecraft:mushroom_stem
-setblock -28 0 -506 minecraft:air
-setblock -21 0 -506 minecraft:light_blue_stained_glass
-setblock -22 0 -506 minecraft:cobbled_deepslate
-setblock -23 0 -506 minecraft:mangrove_planks
-setblock -24 0 -506 minecraft:light_gray_wool
-setblock -17 0 -506 minecraft:andesite
-setblock -18 0 -506 minecraft:crimson_nylium
-setblock -19 0 -506 minecraft:pink_concrete
-setblock -20 0 -506 minecraft:air
-setblock -13 0 -506 minecraft:andesite
-setblock -14 0 -506 minecraft:mushroom_stem
-setblock -15 0 -506 minecraft:mangrove_planks
-setblock -16 0 -506 minecraft:air
-setblock -9 0 -506 minecraft:light_blue_stained_glass
-setblock -10 0 -506 minecraft:smooth_stone
-setblock -11 0 -506 minecraft:mangrove_planks
-setblock -12 0 -506 minecraft:brown_wool
-setblock -5 0 -506 minecraft:black_stained_glass
-setblock -6 0 -506 minecraft:air
-setblock -7 0 -506 minecraft:grass_block
-setblock -8 0 -506 minecraft:purple_wool
-setblock -1 0 -506 minecraft:birch_planks
-setblock -2 0 -506 minecraft:crimson_stem
-setblock -3 0 -506 minecraft:oak_planks
-setblock -4 0 -506 minecraft:air
-setblock 3 0 -506 minecraft:chiseled_nether_bricks
-setblock 2 0 -506 minecraft:dark_oak_planks
-setblock 1 0 -506 minecraft:netherrack
-setblock 0 0 -506 minecraft:air
-setblock 7 0 -506 minecraft:birch_planks
-setblock 6 0 -506 minecraft:stripped_crimson_stem
-setblock 5 0 -506 minecraft:mangrove_planks
-setblock 4 0 -506 minecraft:air
-setblock 11 0 -506 minecraft:andesite
-setblock 10 0 -506 minecraft:mangrove_planks
-setblock 9 0 -506 minecraft:gray_concrete
-setblock 8 0 -506 minecraft:air
-setblock 15 0 -506 minecraft:jungle_log
-setblock 14 0 -506 minecraft:oak_log
-setblock 13 0 -506 minecraft:deepslate_coal_ore
-setblock 12 0 -506 minecraft:air
-setblock 19 0 -506 minecraft:light_blue_stained_glass
-setblock 18 0 -506 minecraft:shroomlight
-setblock 17 0 -506 minecraft:gold_ore
-setblock 16 0 -506 minecraft:lime_concrete
-setblock 23 0 -506 minecraft:waxed_weathered_cut_copper
-setblock 22 0 -506 minecraft:slime_block
-setblock 21 0 -506 minecraft:blue_ice
-setblock 20 0 -506 minecraft:blue_ice
-setblock 27 0 -506 minecraft:chiseled_nether_bricks
-setblock 26 0 -506 minecraft:dark_prismarine
-setblock 25 0 -506 minecraft:slime_block
-setblock 24 0 -506 minecraft:blue_ice
-setblock 31 0 -506 minecraft:chiseled_nether_bricks
-setblock 30 0 -506 minecraft:dark_oak_planks
-setblock 29 0 -506 minecraft:granite
-setblock 28 0 -506 minecraft:air
-setblock 35 0 -506 minecraft:andesite
-setblock 34 0 -506 minecraft:mangrove_planks
-setblock 33 0 -506 minecraft:polished_granite
-setblock 32 0 -506 minecraft:air
-setblock 39 0 -506 minecraft:chiseled_nether_bricks
-setblock 38 0 -506 minecraft:spruce_planks
-setblock 37 0 -506 minecraft:white_wool
-setblock 36 0 -506 minecraft:dark_oak_planks
-setblock 43 0 -506 minecraft:light_blue_wool
-setblock 42 0 -506 minecraft:waxed_cut_copper
-setblock 41 0 -506 minecraft:glowstone
-setblock 40 0 -506 minecraft:birch_planks
-setblock 47 0 -506 minecraft:andesite
-setblock 46 0 -506 minecraft:cobbled_deepslate
-setblock 45 0 -506 minecraft:crimson_stem
-setblock 44 0 -506 minecraft:air
-setblock 51 0 -506 minecraft:light_blue_wool
-setblock 50 0 -506 minecraft:mangrove_planks
-setblock 49 0 -506 minecraft:gold_ore
-setblock 48 0 -506 minecraft:air
-setblock 55 0 -506 minecraft:andesite
-setblock 54 0 -506 minecraft:mushroom_stem
-setblock 53 0 -506 minecraft:dark_oak_planks
-setblock 52 0 -506 minecraft:air
-setblock 59 0 -506 minecraft:andesite
-setblock 58 0 -506 minecraft:chiseled_deepslate
-setblock 57 0 -506 minecraft:chiseled_deepslate
-setblock 56 0 -506 minecraft:air
-setblock 63 0 -506 minecraft:chiseled_nether_bricks
-setblock 62 0 -506 minecraft:pink_glazed_terracotta
-setblock 61 0 -506 minecraft:light_blue_wool
-setblock 60 0 -506 minecraft:air
-setblock 67 0 -506 minecraft:deepslate_iron_ore
-setblock 66 0 -506 minecraft:copper_ore
-setblock 65 0 -506 minecraft:mycelium
-setblock 64 0 -506 minecraft:shroomlight
-setblock 71 0 -506 minecraft:deepslate_iron_ore
-setblock 70 0 -506 minecraft:smooth_stone
-setblock 69 0 -506 minecraft:mangrove_planks
-setblock 68 0 -506 minecraft:raw_copper_block
-setblock 75 0 -506 minecraft:jungle_log
-setblock 74 0 -506 minecraft:stripped_mangrove_log
-setblock 73 0 -506 minecraft:stripped_warped_stem
-setblock 72 0 -506 minecraft:air
-setblock 79 0 -506 minecraft:jungle_log
-setblock 78 0 -506 minecraft:stripped_acacia_log
-setblock 77 0 -506 minecraft:nether_bricks
-setblock 76 0 -506 minecraft:air
-setblock 83 0 -506 minecraft:andesite
-setblock 82 0 -506 minecraft:dark_oak_planks
-setblock 81 0 -506 minecraft:orange_concrete
-setblock 80 0 -506 minecraft:air
-setblock 87 0 -506 minecraft:gray_wool
-setblock 86 0 -506 minecraft:obsidian
-setblock 85 0 -506 minecraft:blue_ice
-setblock 84 0 -506 minecraft:blue_ice
-setblock 91 0 -506 minecraft:chiseled_nether_bricks
-setblock 90 0 -506 minecraft:dark_oak_planks
-setblock 89 0 -506 minecraft:dark_oak_planks
-setblock 88 0 -506 minecraft:air
-setblock 95 0 -506 minecraft:andesite
-setblock 94 0 -506 minecraft:jungle_planks
-setblock 93 0 -506 minecraft:obsidian
-setblock 92 0 -506 minecraft:blue_ice
-setblock 99 0 -506 minecraft:chiseled_nether_bricks
-setblock 98 0 -506 minecraft:jungle_planks
-setblock 97 0 -506 minecraft:netherrack
-setblock 96 0 -506 minecraft:air
-setblock 103 0 -506 minecraft:light_blue_wool
-setblock 102 0 -506 minecraft:light_blue_glazed_terracotta
-setblock 101 0 -506 minecraft:deepslate_diamond_ore
-setblock 100 0 -506 minecraft:spruce_planks
-setblock 107 0 -506 minecraft:chiseled_nether_bricks
-setblock 106 0 -506 minecraft:granite
-setblock 105 0 -506 minecraft:mangrove_planks
-setblock 104 0 -506 minecraft:air
-setblock 111 0 -506 minecraft:chiseled_nether_bricks
-setblock 110 0 -506 minecraft:mushroom_stem
-setblock 109 0 -506 minecraft:cobbled_deepslate
-setblock 108 0 -506 minecraft:air
-setblock 115 0 -506 minecraft:waxed_cut_copper
-setblock 114 0 -506 minecraft:light_blue_wool
-setblock 113 0 -506 minecraft:pumpkin
-setblock 112 0 -506 minecraft:spruce_planks
-setblock 119 0 -506 minecraft:light_blue_wool
-setblock 118 0 -506 minecraft:black_terracotta
-setblock 117 0 -506 minecraft:deepslate_diamond_ore
-setblock 116 0 -506 minecraft:spruce_planks
-setblock 123 0 -506 minecraft:andesite
-setblock 122 0 -506 minecraft:crimson_nylium
-setblock 121 0 -506 minecraft:light_blue_wool
-setblock 120 0 -506 minecraft:air
-setblock 127 0 -506 minecraft:andesite
-setblock 126 0 -506 minecraft:birch_planks
-setblock 125 0 -506 minecraft:birch_planks
-setblock 124 0 -506 minecraft:birch_planks
-setblock 131 0 -506 minecraft:iron_block
-setblock 130 0 -506 minecraft:dark_prismarine
-setblock 129 0 -506 minecraft:pink_stained_glass
-setblock 128 0 -506 minecraft:shroomlight
-setblock 135 0 -506 minecraft:deepslate_iron_ore
-setblock 134 0 -506 minecraft:coal_ore
-setblock 133 0 -506 minecraft:raw_copper_block
-setblock 132 0 -506 minecraft:redstone_lamp
-setblock 139 0 -506 minecraft:andesite
-setblock 138 0 -506 minecraft:dark_prismarine
-setblock 137 0 -506 minecraft:dark_oak_planks
-setblock 136 0 -506 minecraft:air
-setblock 143 0 -506 minecraft:light_blue_stained_glass
-setblock 142 0 -506 minecraft:white_terracotta
-setblock 141 0 -506 minecraft:glass
-setblock 140 0 -506 minecraft:white_concrete
-setblock 147 0 -506 minecraft:waxed_weathered_cut_copper
-setblock 146 0 -506 minecraft:spruce_planks
-setblock 145 0 -506 minecraft:shroomlight
-setblock 144 0 -506 minecraft:granite
-setblock 151 0 -506 minecraft:andesite
-setblock 150 0 -506 minecraft:mangrove_planks
-setblock 149 0 -506 minecraft:dark_oak_planks
-setblock 148 0 -506 minecraft:air
-setblock 155 0 -506 minecraft:chiseled_nether_bricks
-setblock 154 0 -506 minecraft:warped_planks
-setblock 153 0 -506 minecraft:magenta_concrete
-setblock 152 0 -506 minecraft:white_glazed_terracotta
-setblock 159 0 -506 minecraft:mud_bricks
-setblock 158 0 -506 minecraft:black_concrete
-setblock 157 0 -506 minecraft:mangrove_planks
-setblock 156 0 -506 minecraft:air
-setblock 163 0 -506 minecraft:light_blue_wool
-setblock 162 0 -506 minecraft:mud_bricks
-setblock 161 0 -506 minecraft:gray_glazed_terracotta
-setblock 160 0 -506 minecraft:air
-setblock 167 0 -506 minecraft:chiseled_nether_bricks
-setblock 166 0 -506 minecraft:pumpkin
-setblock 165 0 -506 minecraft:chiseled_deepslate
-setblock 164 0 -506 minecraft:air
-setblock 171 0 -506 minecraft:andesite
-setblock 170 0 -506 minecraft:mangrove_planks
-setblock 169 0 -506 minecraft:chiseled_deepslate
-setblock 168 0 -506 minecraft:air
-setblock 175 0 -506 minecraft:andesite
-setblock 174 0 -506 minecraft:mushroom_stem
-setblock 173 0 -506 minecraft:gray_glazed_terracotta
-setblock 172 0 -506 minecraft:nether_gold_ore
-setblock 179 0 -506 minecraft:light_blue_wool
-setblock 178 0 -506 minecraft:pink_wool
-setblock 177 0 -506 minecraft:grass_block
-setblock 176 0 -506 minecraft:air
-setblock 183 0 -506 minecraft:waxed_cut_copper
-setblock 182 0 -506 minecraft:pink_wool
-setblock 181 0 -506 minecraft:deepslate_gold_ore
-setblock 180 0 -506 minecraft:oak_planks
-setblock 187 0 -506 minecraft:jungle_log
-setblock 186 0 -506 minecraft:air
-setblock 185 0 -506 minecraft:raw_iron_block
-setblock 184 0 -506 minecraft:oak_planks
-setblock 191 0 -506 minecraft:waxed_cut_copper
-setblock 190 0 -506 minecraft:glowstone
-setblock 189 0 -506 minecraft:mud
-setblock 188 0 -506 minecraft:air
-setblock 195 0 -506 minecraft:deepslate_iron_ore
-setblock 194 0 -506 minecraft:end_stone
-setblock 193 0 -506 minecraft:dark_oak_planks
-setblock 192 0 -506 minecraft:nether_wart_block
-setblock 199 0 -506 minecraft:birch_planks
-setblock 198 0 -506 minecraft:acacia_log
-setblock 197 0 -506 minecraft:podzol
-setblock 196 0 -506 minecraft:oak_planks
-setblock 203 0 -506 minecraft:mud_bricks
-setblock 202 0 -506 minecraft:acacia_log
-setblock 201 0 -506 minecraft:stripped_warped_stem
-setblock 200 0 -506 minecraft:oak_planks
-setblock 207 0 -506 minecraft:andesite
-setblock 206 0 -506 minecraft:acacia_planks
-setblock 205 0 -506 minecraft:dark_oak_log
-setblock 204 0 -506 minecraft:air
-setblock 211 0 -506 minecraft:birch_planks
-setblock 210 0 -506 minecraft:light_blue_concrete
-setblock 209 0 -506 minecraft:acacia_planks
-setblock 208 0 -506 minecraft:air
-setblock 215 0 -506 minecraft:deepslate_iron_ore
-setblock 214 0 -506 minecraft:polished_granite
-setblock 213 0 -506 minecraft:birch_planks
-setblock 212 0 -506 minecraft:redstone_ore
-setblock 219 0 -506 minecraft:gray_wool
-setblock 218 0 -506 minecraft:mangrove_planks
-setblock 217 0 -506 minecraft:shroomlight
-setblock 216 0 -506 minecraft:granite
-setblock 223 0 -506 minecraft:andesite
-setblock 222 0 -506 minecraft:mangrove_planks
-setblock 221 0 -506 minecraft:gray_concrete
-setblock 220 0 -506 minecraft:white_glazed_terracotta
-setblock 227 0 -506 minecraft:waxed_cut_copper
-setblock 226 0 -506 minecraft:pumpkin
-setblock 225 0 -506 minecraft:deepslate_gold_ore
-setblock 224 0 -506 minecraft:air
-setblock 231 0 -506 minecraft:jungle_log
-setblock 230 0 -506 minecraft:warped_stem
-setblock 229 0 -506 minecraft:mangrove_planks
-setblock 228 0 -506 minecraft:air
-setblock 235 0 -506 minecraft:andesite
-setblock 234 0 -506 minecraft:mangrove_planks
-setblock 233 0 -506 minecraft:polished_granite
-setblock 232 0 -506 minecraft:air
-setblock 239 0 -506 minecraft:waxed_weathered_cut_copper
-setblock 238 0 -506 minecraft:mangrove_planks
-setblock 237 0 -506 minecraft:shroomlight
-setblock 236 0 -506 minecraft:granite
-setblock 243 0 -506 minecraft:jungle_log
-setblock 242 0 -506 minecraft:purpur_block
-setblock 241 0 -506 minecraft:deepslate_gold_ore
-setblock 240 0 -506 minecraft:white_glazed_terracotta
-setblock 247 0 -506 minecraft:andesite
-setblock 246 0 -506 minecraft:oak_planks
-setblock 245 0 -506 minecraft:oak_planks
-setblock 244 0 -506 minecraft:jungle_planks
-setblock 251 0 -506 minecraft:gray_stained_glass
-setblock 250 0 -506 minecraft:warped_stem
-setblock 249 0 -506 minecraft:air
-setblock 248 0 -506 minecraft:air
-setblock 255 0 -506 minecraft:birch_planks
-setblock 254 0 -506 minecraft:crimson_stem
-setblock 253 0 -506 minecraft:oak_planks
-setblock 252 0 -506 minecraft:air
-setblock 259 0 -506 minecraft:gray_wool
-setblock 258 0 -506 minecraft:granite
-setblock 257 0 -506 minecraft:shroomlight
-setblock 256 0 -506 minecraft:granite
-setblock 263 0 -506 minecraft:andesite
-setblock 262 0 -506 minecraft:granite
-setblock 261 0 -506 minecraft:black_concrete
-setblock 260 0 -506 minecraft:white_glazed_terracotta
-setblock 267 0 -506 minecraft:mud_bricks
-setblock 266 0 -506 minecraft:stripped_crimson_stem
-setblock 265 0 -506 minecraft:mangrove_planks
-setblock 264 0 -506 minecraft:air
-setblock 271 0 -506 minecraft:andesite
-setblock 270 0 -506 minecraft:mangrove_planks
-setblock 269 0 -506 minecraft:gray_concrete
-setblock 268 0 -506 minecraft:air
-setblock 275 0 -506 minecraft:jungle_log
-setblock 274 0 -506 minecraft:oak_log
-setblock 273 0 -506 minecraft:deepslate_coal_ore
-setblock 272 0 -506 minecraft:air
-setblock 279 0 -506 minecraft:birch_planks
-setblock 278 0 -506 minecraft:dirt
-setblock 277 0 -506 minecraft:granite
-setblock 276 0 -506 minecraft:air
-setblock 283 0 -506 minecraft:andesite
-setblock 282 0 -506 minecraft:pumpkin
-setblock 281 0 -506 minecraft:mangrove_planks
-setblock 280 0 -506 minecraft:air
-setblock 287 0 -506 minecraft:chiseled_nether_bricks
-setblock 286 0 -506 minecraft:spruce_planks
-setblock 285 0 -506 minecraft:oxidized_copper
-setblock 284 0 -506 minecraft:granite
-setblock 291 0 -506 minecraft:deepslate_iron_ore
-setblock 290 0 -506 minecraft:mossy_stone_bricks
-setblock 289 0 -506 minecraft:birch_planks
-setblock 288 0 -506 minecraft:gold_ore
-setblock 295 0 -506 minecraft:light_blue_wool
-setblock 294 0 -506 minecraft:dark_oak_planks
-setblock 293 0 -506 minecraft:deepslate_gold_ore
-setblock 292 0 -506 minecraft:oak_planks
-setblock 299 0 -506 minecraft:andesite
-setblock 298 0 -506 minecraft:mangrove_planks
-setblock 297 0 -506 minecraft:chiseled_deepslate
-setblock 296 0 -506 minecraft:air
-setblock 303 0 -506 minecraft:waxed_cut_copper
-setblock 302 0 -506 minecraft:dark_oak_planks
-setblock 301 0 -506 minecraft:amethyst_block
-setblock 300 0 -506 minecraft:white_concrete
-setblock 307 0 -506 minecraft:jungle_log
-setblock 306 0 -506 minecraft:air
-setblock 305 0 -506 minecraft:pink_stained_glass
-setblock 304 0 -506 minecraft:air
-setblock 311 0 -506 minecraft:waxed_cut_copper
-setblock 310 0 -506 minecraft:mushroom_stem
-setblock 309 0 -506 minecraft:slime_block
-setblock 308 0 -506 minecraft:air
-setblock 315 0 -506 minecraft:birch_planks
-setblock 314 0 -506 minecraft:dirt
-setblock 313 0 -506 minecraft:dark_oak_planks
-setblock 312 0 -506 minecraft:air
-setblock 319 0 -506 minecraft:light_blue_stained_glass
-setblock 318 0 -506 minecraft:jungle_planks
-setblock 317 0 -506 minecraft:birch_planks
-setblock 316 0 -506 minecraft:air
-setblock 323 0 -506 minecraft:deepslate_iron_ore
-setblock 322 0 -506 minecraft:polished_diorite
-setblock 321 0 -506 minecraft:gray_glazed_terracotta
-setblock 320 0 -506 minecraft:shroomlight
-setblock 327 0 -506 minecraft:chiseled_nether_bricks
-setblock 326 0 -506 minecraft:mangrove_planks
-setblock 325 0 -506 minecraft:mangrove_planks
-setblock 324 0 -506 minecraft:air
-setblock 331 0 -506 minecraft:andesite
-setblock 330 0 -506 minecraft:acacia_planks
-setblock 329 0 -506 minecraft:dark_oak_log
-setblock 328 0 -506 minecraft:air
-setblock 335 0 -506 minecraft:black_stained_glass
-setblock 334 0 -506 minecraft:nether_gold_ore
-setblock 333 0 -506 minecraft:black_glazed_terracotta
-setblock 332 0 -506 minecraft:budding_amethyst
-setblock 339 0 -506 minecraft:birch_planks
-setblock 338 0 -506 minecraft:crimson_stem
-setblock 337 0 -506 minecraft:oak_planks
-setblock 336 0 -506 minecraft:air
-setblock 343 0 -506 minecraft:birch_planks
-setblock 342 0 -506 minecraft:stripped_crimson_stem
-setblock 341 0 -506 minecraft:mangrove_planks
-setblock 340 0 -506 minecraft:air
-setblock 347 0 -506 minecraft:andesite
-setblock 346 0 -506 minecraft:mangrove_planks
-setblock 345 0 -506 minecraft:gray_concrete
-setblock 344 0 -506 minecraft:air
-setblock 351 0 -506 minecraft:jungle_log
-setblock 350 0 -506 minecraft:oak_log
-setblock 349 0 -506 minecraft:deepslate_coal_ore
-setblock 348 0 -506 minecraft:air
-setblock 355 0 -506 minecraft:light_blue_stained_glass
-setblock 354 0 -506 minecraft:white_glazed_terracotta
-setblock 353 0 -506 minecraft:granite
-setblock 352 0 -506 minecraft:spruce_planks
-setblock 359 0 -506 minecraft:gray_wool
-setblock 358 0 -506 minecraft:mangrove_planks
-setblock 357 0 -506 minecraft:shroomlight
-setblock 356 0 -506 minecraft:granite
-setblock 363 0 -506 minecraft:andesite
-setblock 362 0 -506 minecraft:mangrove_planks
-setblock 361 0 -506 minecraft:gray_concrete
-setblock 360 0 -506 minecraft:white_glazed_terracotta
-setblock 367 0 -506 minecraft:light_blue_wool
-setblock 366 0 -506 minecraft:pumpkin
-setblock 365 0 -506 minecraft:deepslate_gold_ore
-setblock 364 0 -506 minecraft:air
-setblock 371 0 -506 minecraft:chiseled_nether_bricks
-setblock 370 0 -506 minecraft:dark_oak_planks
-setblock 369 0 -506 minecraft:tuff
-setblock 368 0 -506 minecraft:spruce_planks
-setblock 375 0 -506 minecraft:light_blue_wool
-setblock 374 0 -506 minecraft:granite
-setblock 373 0 -506 minecraft:coal_ore
-setblock 372 0 -506 minecraft:orange_concrete
-setblock 379 0 -506 minecraft:jungle_log
-setblock 378 0 -506 minecraft:air
-setblock 377 0 -506 minecraft:crimson_nylium
-setblock 376 0 -506 minecraft:air
-setblock 383 0 -506 minecraft:chiseled_nether_bricks
-setblock 382 0 -506 minecraft:pumpkin
-setblock 381 0 -506 minecraft:chiseled_deepslate
-setblock 380 0 -506 minecraft:air
-setblock 387 0 -506 minecraft:andesite
-setblock 386 0 -506 minecraft:mangrove_planks
-setblock 385 0 -506 minecraft:netherrack
-setblock 384 0 -506 minecraft:air
-setblock 391 0 -506 minecraft:light_blue_stained_glass
-setblock 390 0 -506 minecraft:brown_glazed_terracotta
-setblock 389 0 -506 minecraft:deepslate_gold_ore
-setblock 388 0 -506 minecraft:stripped_crimson_stem
-setblock 395 0 -506 minecraft:waxed_weathered_cut_copper
-setblock 394 0 -506 minecraft:slime_block
-setblock 393 0 -506 minecraft:blue_ice
-setblock 392 0 -506 minecraft:blue_ice
-setblock 399 0 -506 minecraft:chiseled_nether_bricks
-setblock 398 0 -506 minecraft:dark_prismarine
-setblock 397 0 -506 minecraft:slime_block
-setblock 396 0 -506 minecraft:blue_ice
-setblock 403 0 -506 minecraft:chiseled_nether_bricks
-setblock 402 0 -506 minecraft:dark_oak_planks
-setblock 401 0 -506 minecraft:granite
-setblock 400 0 -506 minecraft:air
-setblock 407 0 -506 minecraft:andesite
-setblock 406 0 -506 minecraft:mangrove_planks
-setblock 405 0 -506 minecraft:polished_granite
-setblock 404 0 -506 minecraft:air
-setblock 411 0 -506 minecraft:chiseled_nether_bricks
-setblock 410 0 -506 minecraft:spruce_planks
-setblock 409 0 -506 minecraft:white_wool
-setblock 408 0 -506 minecraft:dark_oak_planks
-setblock 415 0 -506 minecraft:light_blue_wool
-setblock 414 0 -506 minecraft:waxed_cut_copper
-setblock 413 0 -506 minecraft:glowstone
-setblock 412 0 -506 minecraft:birch_planks
-setblock 419 0 -506 minecraft:andesite
-setblock 418 0 -506 minecraft:cobbled_deepslate
-setblock 417 0 -506 minecraft:crimson_stem
-setblock 416 0 -506 minecraft:air
-setblock 423 0 -506 minecraft:light_blue_wool
-setblock 422 0 -506 minecraft:mangrove_planks
-setblock 421 0 -506 minecraft:gold_ore
-setblock 420 0 -506 minecraft:air
-setblock 427 0 -506 minecraft:andesite
-setblock 426 0 -506 minecraft:mushroom_stem
-setblock 425 0 -506 minecraft:dark_oak_planks
-setblock 424 0 -506 minecraft:air
-setblock 431 0 -506 minecraft:andesite
-setblock 430 0 -506 minecraft:chiseled_deepslate
-setblock 429 0 -506 minecraft:chiseled_deepslate
-setblock 428 0 -506 minecraft:air
-setblock 435 0 -506 minecraft:chiseled_nether_bricks
-setblock 434 0 -506 minecraft:pink_glazed_terracotta
-setblock 433 0 -506 minecraft:light_blue_wool
-setblock 432 0 -506 minecraft:air
-setblock 439 0 -506 minecraft:deepslate_iron_ore
-setblock 438 0 -506 minecraft:copper_ore
-setblock 437 0 -506 minecraft:mycelium
-setblock 436 0 -506 minecraft:shroomlight
-setblock 443 0 -506 minecraft:deepslate_iron_ore
-setblock 442 0 -506 minecraft:cobblestone
-setblock 441 0 -506 minecraft:mangrove_planks
-setblock 440 0 -506 minecraft:nether_gold_ore
-setblock 447 0 -506 minecraft:jungle_log
-setblock 446 0 -506 minecraft:stripped_mangrove_log
-setblock 445 0 -506 minecraft:stripped_warped_stem
-setblock 444 0 -506 minecraft:air
-setblock 451 0 -506 minecraft:jungle_log
-setblock 450 0 -506 minecraft:stripped_acacia_log
-setblock 449 0 -506 minecraft:nether_bricks
-setblock 448 0 -506 minecraft:air
-setblock 455 0 -506 minecraft:andesite
-setblock 454 0 -506 minecraft:dark_oak_planks
-setblock 453 0 -506 minecraft:orange_concrete
-setblock 452 0 -506 minecraft:air
-setblock 459 0 -506 minecraft:gray_wool
-setblock 458 0 -506 minecraft:obsidian
-setblock 457 0 -506 minecraft:blue_ice
-setblock 456 0 -506 minecraft:blue_ice
-setblock 463 0 -506 minecraft:chiseled_nether_bricks
-setblock 462 0 -506 minecraft:dark_oak_planks
-setblock 461 0 -506 minecraft:dark_oak_planks
-setblock 460 0 -506 minecraft:air
-setblock 467 0 -506 minecraft:andesite
-setblock 466 0 -506 minecraft:jungle_planks
-setblock 465 0 -506 minecraft:obsidian
-setblock 464 0 -506 minecraft:blue_ice
-setblock 471 0 -506 minecraft:chiseled_nether_bricks
-setblock 470 0 -506 minecraft:jungle_planks
-setblock 469 0 -506 minecraft:netherrack
-setblock 468 0 -506 minecraft:air
-setblock 475 0 -506 minecraft:light_blue_wool
-setblock 474 0 -506 minecraft:light_blue_glazed_terracotta
-setblock 473 0 -506 minecraft:deepslate_diamond_ore
-setblock 472 0 -506 minecraft:spruce_planks
-setblock 479 0 -506 minecraft:chiseled_nether_bricks
-setblock 478 0 -506 minecraft:granite
-setblock 477 0 -506 minecraft:mangrove_planks
-setblock 476 0 -506 minecraft:air
-setblock 483 0 -506 minecraft:chiseled_nether_bricks
-setblock 482 0 -506 minecraft:mushroom_stem
-setblock 481 0 -506 minecraft:cobbled_deepslate
-setblock 480 0 -506 minecraft:air
-setblock 487 0 -506 minecraft:waxed_cut_copper
-setblock 486 0 -506 minecraft:light_blue_wool
-setblock 485 0 -506 minecraft:pumpkin
-setblock 484 0 -506 minecraft:spruce_planks
-setblock 491 0 -506 minecraft:light_blue_wool
-setblock 490 0 -506 minecraft:black_terracotta
-setblock 489 0 -506 minecraft:deepslate_diamond_ore
-setblock 488 0 -506 minecraft:spruce_planks
-setblock 495 0 -506 minecraft:andesite
-setblock 494 0 -506 minecraft:crimson_nylium
-setblock 493 0 -506 minecraft:light_blue_wool
-setblock 492 0 -506 minecraft:air
-setblock 499 0 -506 minecraft:andesite
-setblock 498 0 -506 minecraft:birch_planks
-setblock 497 0 -506 minecraft:birch_planks
-setblock 496 0 -506 minecraft:birch_planks
-setblock 503 0 -506 minecraft:iron_block
-setblock 502 0 -506 minecraft:dark_prismarine
-setblock 501 0 -506 minecraft:pink_stained_glass
-setblock 500 0 -506 minecraft:shroomlight
-setblock 507 0 -506 minecraft:deepslate_iron_ore
-setblock 506 0 -506 minecraft:coal_ore
-setblock 505 0 -506 minecraft:raw_copper_block
-setblock 504 0 -506 minecraft:redstone_lamp
-setblock 511 0 -506 minecraft:andesite
-setblock 510 0 -506 minecraft:pumpkin
-setblock 509 0 -506 minecraft:gray_glazed_terracotta
-setblock 508 0 -506 minecraft:nether_gold_ore
-setblock -509 0 -505 minecraft:light_blue_wool
-setblock -510 0 -505 minecraft:gray_wool
-setblock -511 0 -505 minecraft:coal_ore
-setblock -512 0 -505 minecraft:air
-setblock -505 0 -505 minecraft:andesite
-setblock -506 0 -505 minecraft:dark_prismarine
-setblock -507 0 -505 minecraft:dark_oak_planks
-setblock -508 0 -505 minecraft:air
-setblock -501 0 -505 minecraft:waxed_cut_copper
-setblock -502 0 -505 minecraft:pink_wool
-setblock -503 0 -505 minecraft:glass
-setblock -504 0 -505 minecraft:air
-setblock -497 0 -505 minecraft:waxed_cut_copper
-setblock -498 0 -505 minecraft:glowstone
-setblock -499 0 -505 minecraft:gold_ore
-setblock -500 0 -505 minecraft:air
-setblock -493 0 -505 minecraft:waxed_weathered_cut_copper
-setblock -494 0 -505 minecraft:spruce_planks
-setblock -495 0 -505 minecraft:shroomlight
-setblock -496 0 -505 minecraft:granite
-setblock -489 0 -505 minecraft:andesite
-setblock -490 0 -505 minecraft:mangrove_planks
-setblock -491 0 -505 minecraft:dark_oak_planks
-setblock -492 0 -505 minecraft:air
-setblock -485 0 -505 minecraft:chiseled_nether_bricks
-setblock -486 0 -505 minecraft:warped_planks
-setblock -487 0 -505 minecraft:magenta_concrete
-setblock -488 0 -505 minecraft:white_glazed_terracotta
-setblock -481 0 -505 minecraft:deepslate_iron_ore
-setblock -482 0 -505 minecraft:wet_sponge
-setblock -483 0 -505 minecraft:dark_oak_planks
-setblock -484 0 -505 minecraft:emerald_ore
-setblock -477 0 -505 minecraft:mud_bricks
-setblock -478 0 -505 minecraft:black_concrete
-setblock -479 0 -505 minecraft:mangrove_planks
-setblock -480 0 -505 minecraft:air
-setblock -473 0 -505 minecraft:light_blue_wool
-setblock -474 0 -505 minecraft:mud_bricks
-setblock -475 0 -505 minecraft:gray_glazed_terracotta
-setblock -476 0 -505 minecraft:air
-setblock -469 0 -505 minecraft:chiseled_nether_bricks
-setblock -470 0 -505 minecraft:pumpkin
-setblock -471 0 -505 minecraft:chiseled_deepslate
-setblock -472 0 -505 minecraft:air
-setblock -465 0 -505 minecraft:andesite
-setblock -466 0 -505 minecraft:mangrove_planks
-setblock -467 0 -505 minecraft:chiseled_deepslate
-setblock -468 0 -505 minecraft:air
-setblock -461 0 -505 minecraft:andesite
-setblock -462 0 -505 minecraft:mushroom_stem
-setblock -463 0 -505 minecraft:gray_glazed_terracotta
-setblock -464 0 -505 minecraft:nether_gold_ore
-setblock -457 0 -505 minecraft:light_blue_wool
-setblock -458 0 -505 minecraft:pink_wool
-setblock -459 0 -505 minecraft:grass_block
-setblock -460 0 -505 minecraft:air
-setblock -453 0 -505 minecraft:waxed_cut_copper
-setblock -454 0 -505 minecraft:pink_wool
-setblock -455 0 -505 minecraft:deepslate_gold_ore
-setblock -456 0 -505 minecraft:oak_planks
-setblock -449 0 -505 minecraft:jungle_log
-setblock -450 0 -505 minecraft:air
-setblock -451 0 -505 minecraft:raw_iron_block
-setblock -452 0 -505 minecraft:oak_planks
-setblock -445 0 -505 minecraft:waxed_cut_copper
-setblock -446 0 -505 minecraft:glowstone
-setblock -447 0 -505 minecraft:mud
-setblock -448 0 -505 minecraft:air
-setblock -441 0 -505 minecraft:deepslate_iron_ore
-setblock -442 0 -505 minecraft:end_stone
-setblock -443 0 -505 minecraft:dark_oak_planks
-setblock -444 0 -505 minecraft:nether_wart_block
-setblock -437 0 -505 minecraft:birch_planks
-setblock -438 0 -505 minecraft:acacia_log
-setblock -439 0 -505 minecraft:podzol
-setblock -440 0 -505 minecraft:oak_planks
-setblock -433 0 -505 minecraft:mud_bricks
-setblock -434 0 -505 minecraft:acacia_log
-setblock -435 0 -505 minecraft:stripped_warped_stem
-setblock -436 0 -505 minecraft:oak_planks
-setblock -429 0 -505 minecraft:black_stained_glass
-setblock -430 0 -505 minecraft:nether_gold_ore
-setblock -431 0 -505 minecraft:slime_block
-setblock -432 0 -505 minecraft:deepslate_gold_ore
-setblock -425 0 -505 minecraft:mud_bricks
-setblock -426 0 -505 minecraft:mangrove_log
-setblock -427 0 -505 minecraft:oak_planks
-setblock -428 0 -505 minecraft:air
-setblock -421 0 -505 minecraft:gray_wool
-setblock -422 0 -505 minecraft:mangrove_planks
-setblock -423 0 -505 minecraft:shroomlight
-setblock -424 0 -505 minecraft:granite
-setblock -417 0 -505 minecraft:andesite
-setblock -418 0 -505 minecraft:mangrove_planks
-setblock -419 0 -505 minecraft:gray_concrete
-setblock -420 0 -505 minecraft:white_glazed_terracotta
-setblock -413 0 -505 minecraft:birch_planks
-setblock -414 0 -505 minecraft:emerald_block
-setblock -415 0 -505 minecraft:dark_oak_planks
-setblock -416 0 -505 minecraft:air
-setblock -409 0 -505 minecraft:light_blue_wool
-setblock -410 0 -505 minecraft:pumpkin
-setblock -411 0 -505 minecraft:deepslate_gold_ore
-setblock -412 0 -505 minecraft:air
-setblock -405 0 -505 minecraft:chiseled_nether_bricks
-setblock -406 0 -505 minecraft:mushroom_stem
-setblock -407 0 -505 minecraft:pink_concrete
-setblock -408 0 -505 minecraft:air
-setblock -401 0 -505 minecraft:jungle_log
-setblock -402 0 -505 minecraft:air
-setblock -403 0 -505 minecraft:clay
-setblock -404 0 -505 minecraft:air
-setblock -397 0 -505 minecraft:chiseled_nether_bricks
-setblock -398 0 -505 minecraft:pumpkin
-setblock -399 0 -505 minecraft:chiseled_deepslate
-setblock -400 0 -505 minecraft:air
-setblock -393 0 -505 minecraft:jungle_log
-setblock -394 0 -505 minecraft:oak_log
-setblock -395 0 -505 minecraft:dripstone_block
-setblock -396 0 -505 minecraft:air
-setblock -389 0 -505 minecraft:andesite
-setblock -390 0 -505 minecraft:acacia_planks
-setblock -391 0 -505 minecraft:dark_oak_log
-setblock -392 0 -505 minecraft:air
-setblock -385 0 -505 minecraft:black_stained_glass
-setblock -386 0 -505 minecraft:nether_gold_ore
-setblock -387 0 -505 minecraft:black_glazed_terracotta
-setblock -388 0 -505 minecraft:deepslate_copper_ore
-setblock -381 0 -505 minecraft:andesite
-setblock -382 0 -505 minecraft:birch_planks
-setblock -383 0 -505 minecraft:netherrack
-setblock -384 0 -505 minecraft:air
-setblock -377 0 -505 minecraft:andesite
-setblock -378 0 -505 minecraft:dark_oak_planks
-setblock -379 0 -505 minecraft:mangrove_planks
-setblock -380 0 -505 minecraft:birch_planks
-setblock -373 0 -505 minecraft:light_blue_stained_glass
-setblock -374 0 -505 minecraft:yellow_terracotta
-setblock -375 0 -505 minecraft:deepslate_iron_ore
-setblock -376 0 -505 minecraft:air
-setblock -369 0 -505 minecraft:andesite
-setblock -370 0 -505 minecraft:dark_oak_planks
-setblock -371 0 -505 minecraft:gray_terracotta
-setblock -372 0 -505 minecraft:acacia_planks
-setblock -365 0 -505 minecraft:gray_wool
-setblock -366 0 -505 minecraft:mangrove_planks
-setblock -367 0 -505 minecraft:shroomlight
-setblock -368 0 -505 minecraft:granite
-setblock -361 0 -505 minecraft:andesite
-setblock -362 0 -505 minecraft:mangrove_planks
-setblock -363 0 -505 minecraft:gray_concrete
-setblock -364 0 -505 minecraft:white_glazed_terracotta
-setblock -357 0 -505 minecraft:light_blue_wool
-setblock -358 0 -505 minecraft:pumpkin
-setblock -359 0 -505 minecraft:deepslate_gold_ore
-setblock -360 0 -505 minecraft:air
-setblock -353 0 -505 minecraft:jungle_log
-setblock -354 0 -505 minecraft:air
-setblock -355 0 -505 minecraft:clay
-setblock -356 0 -505 minecraft:air
-setblock -349 0 -505 minecraft:chiseled_nether_bricks
-setblock -350 0 -505 minecraft:pumpkin
-setblock -351 0 -505 minecraft:chiseled_deepslate
-setblock -352 0 -505 minecraft:air
-setblock -345 0 -505 minecraft:andesite
-setblock -346 0 -505 minecraft:mangrove_planks
-setblock -347 0 -505 minecraft:oxidized_copper
-setblock -348 0 -505 minecraft:granite
-setblock -341 0 -505 minecraft:deepslate_iron_ore
-setblock -342 0 -505 minecraft:hay_block
-setblock -343 0 -505 minecraft:deepslate_gold_ore
-setblock -344 0 -505 minecraft:ice
-setblock -337 0 -505 minecraft:andesite
-setblock -338 0 -505 minecraft:crimson_nylium
-setblock -339 0 -505 minecraft:mushroom_stem
-setblock -340 0 -505 minecraft:oak_planks
-setblock -333 0 -505 minecraft:andesite
-setblock -334 0 -505 minecraft:gray_terracotta
-setblock -335 0 -505 minecraft:amethyst_block
-setblock -336 0 -505 minecraft:air
-setblock -329 0 -505 minecraft:andesite
-setblock -330 0 -505 minecraft:birch_planks
-setblock -331 0 -505 minecraft:netherrack
-setblock -332 0 -505 minecraft:air
-setblock -325 0 -505 minecraft:andesite
-setblock -326 0 -505 minecraft:dark_oak_planks
-setblock -327 0 -505 minecraft:mangrove_planks
-setblock -328 0 -505 minecraft:birch_planks
-setblock -321 0 -505 minecraft:light_blue_stained_glass
-setblock -322 0 -505 minecraft:purple_stained_glass
-setblock -323 0 -505 minecraft:deepslate_iron_ore
-setblock -324 0 -505 minecraft:cobbled_deepslate
-setblock -317 0 -505 minecraft:gray_wool
-setblock -318 0 -505 minecraft:mangrove_planks
-setblock -319 0 -505 minecraft:shroomlight
-setblock -320 0 -505 minecraft:granite
-setblock -313 0 -505 minecraft:andesite
-setblock -314 0 -505 minecraft:mangrove_planks
-setblock -315 0 -505 minecraft:gray_concrete
-setblock -316 0 -505 minecraft:white_glazed_terracotta
-setblock -309 0 -505 minecraft:light_blue_wool
-setblock -310 0 -505 minecraft:pumpkin
-setblock -311 0 -505 minecraft:deepslate_gold_ore
-setblock -312 0 -505 minecraft:air
-setblock -305 0 -505 minecraft:jungle_log
-setblock -306 0 -505 minecraft:air
-setblock -307 0 -505 minecraft:clay
-setblock -308 0 -505 minecraft:air
-setblock -301 0 -505 minecraft:chiseled_nether_bricks
-setblock -302 0 -505 minecraft:pumpkin
-setblock -303 0 -505 minecraft:chiseled_deepslate
-setblock -304 0 -505 minecraft:air
-setblock -297 0 -505 minecraft:andesite
-setblock -298 0 -505 minecraft:mangrove_planks
-setblock -299 0 -505 minecraft:oxidized_copper
-setblock -300 0 -505 minecraft:granite
-setblock -293 0 -505 minecraft:deepslate_iron_ore
-setblock -294 0 -505 minecraft:warped_stem
-setblock -295 0 -505 minecraft:deepslate_gold_ore
-setblock -296 0 -505 minecraft:spawner
-setblock -289 0 -505 minecraft:andesite
-setblock -290 0 -505 minecraft:crimson_nylium
-setblock -291 0 -505 minecraft:pink_concrete
-setblock -292 0 -505 minecraft:oak_planks
-setblock -285 0 -505 minecraft:andesite
-setblock -286 0 -505 minecraft:gray_terracotta
-setblock -287 0 -505 minecraft:amethyst_block
-setblock -288 0 -505 minecraft:air
-setblock -281 0 -505 minecraft:andesite
-setblock -282 0 -505 minecraft:birch_planks
-setblock -283 0 -505 minecraft:netherrack
-setblock -284 0 -505 minecraft:air
-setblock -277 0 -505 minecraft:andesite
-setblock -278 0 -505 minecraft:dark_oak_planks
-setblock -279 0 -505 minecraft:mangrove_planks
-setblock -280 0 -505 minecraft:birch_planks
-setblock -273 0 -505 minecraft:light_blue_stained_glass
-setblock -274 0 -505 minecraft:pink_stained_glass
-setblock -275 0 -505 minecraft:deepslate_iron_ore
-setblock -276 0 -505 minecraft:polished_andesite
-setblock -269 0 -505 minecraft:gray_wool
-setblock -270 0 -505 minecraft:mangrove_planks
-setblock -271 0 -505 minecraft:shroomlight
-setblock -272 0 -505 minecraft:granite
-setblock -265 0 -505 minecraft:andesite
-setblock -266 0 -505 minecraft:mangrove_planks
-setblock -267 0 -505 minecraft:gray_concrete
-setblock -268 0 -505 minecraft:white_glazed_terracotta
-setblock -261 0 -505 minecraft:light_blue_wool
-setblock -262 0 -505 minecraft:pumpkin
-setblock -263 0 -505 minecraft:deepslate_gold_ore
-setblock -264 0 -505 minecraft:air
-setblock -257 0 -505 minecraft:jungle_log
-setblock -258 0 -505 minecraft:air
-setblock -259 0 -505 minecraft:clay
-setblock -260 0 -505 minecraft:air
-setblock -253 0 -505 minecraft:chiseled_nether_bricks
-setblock -254 0 -505 minecraft:pumpkin
-setblock -255 0 -505 minecraft:chiseled_deepslate
-setblock -256 0 -505 minecraft:air
-setblock -249 0 -505 minecraft:andesite
-setblock -250 0 -505 minecraft:mangrove_planks
-setblock -251 0 -505 minecraft:oxidized_copper
-setblock -252 0 -505 minecraft:granite
-setblock -245 0 -505 minecraft:deepslate_iron_ore
-setblock -246 0 -505 minecraft:hay_block
-setblock -247 0 -505 minecraft:deepslate_gold_ore
-setblock -248 0 -505 minecraft:coarse_dirt
-setblock -241 0 -505 minecraft:andesite
-setblock -242 0 -505 minecraft:crimson_nylium
-setblock -243 0 -505 minecraft:dark_oak_planks
-setblock -244 0 -505 minecraft:oak_planks
-setblock -237 0 -505 minecraft:andesite
-setblock -238 0 -505 minecraft:gray_terracotta
-setblock -239 0 -505 minecraft:amethyst_block
-setblock -240 0 -505 minecraft:air
-setblock -233 0 -505 minecraft:andesite
-setblock -234 0 -505 minecraft:birch_planks
-setblock -235 0 -505 minecraft:netherrack
-setblock -236 0 -505 minecraft:air
-setblock -229 0 -505 minecraft:andesite
-setblock -230 0 -505 minecraft:dark_oak_planks
-setblock -231 0 -505 minecraft:mangrove_planks
-setblock -232 0 -505 minecraft:birch_planks
-setblock -225 0 -505 minecraft:light_blue_stained_glass
-setblock -226 0 -505 minecraft:magenta_stained_glass
-setblock -227 0 -505 minecraft:deepslate_iron_ore
-setblock -228 0 -505 minecraft:polished_diorite
-setblock -221 0 -505 minecraft:gray_wool
-setblock -222 0 -505 minecraft:mangrove_planks
-setblock -223 0 -505 minecraft:shroomlight
-setblock -224 0 -505 minecraft:granite
-setblock -217 0 -505 minecraft:andesite
-setblock -218 0 -505 minecraft:mangrove_planks
-setblock -219 0 -505 minecraft:gray_concrete
-setblock -220 0 -505 minecraft:white_glazed_terracotta
-setblock -213 0 -505 minecraft:light_blue_wool
-setblock -214 0 -505 minecraft:pumpkin
-setblock -215 0 -505 minecraft:deepslate_gold_ore
-setblock -216 0 -505 minecraft:air
-setblock -209 0 -505 minecraft:jungle_log
-setblock -210 0 -505 minecraft:air
-setblock -211 0 -505 minecraft:clay
-setblock -212 0 -505 minecraft:air
-setblock -205 0 -505 minecraft:chiseled_nether_bricks
-setblock -206 0 -505 minecraft:pumpkin
-setblock -207 0 -505 minecraft:chiseled_deepslate
-setblock -208 0 -505 minecraft:air
-setblock -201 0 -505 minecraft:andesite
-setblock -202 0 -505 minecraft:mangrove_planks
-setblock -203 0 -505 minecraft:oxidized_copper
-setblock -204 0 -505 minecraft:granite
-setblock -197 0 -505 minecraft:deepslate_iron_ore
-setblock -198 0 -505 minecraft:warped_stem
-setblock -199 0 -505 minecraft:deepslate_gold_ore
-setblock -200 0 -505 minecraft:mycelium
-setblock -193 0 -505 minecraft:andesite
-setblock -194 0 -505 minecraft:crimson_nylium
-setblock -195 0 -505 minecraft:mud
-setblock -196 0 -505 minecraft:air
-setblock -189 0 -505 minecraft:andesite
-setblock -190 0 -505 minecraft:gray_terracotta
-setblock -191 0 -505 minecraft:amethyst_block
-setblock -192 0 -505 minecraft:air
-setblock -185 0 -505 minecraft:andesite
-setblock -186 0 -505 minecraft:birch_planks
-setblock -187 0 -505 minecraft:netherrack
-setblock -188 0 -505 minecraft:air
-setblock -181 0 -505 minecraft:andesite
-setblock -182 0 -505 minecraft:dark_oak_planks
-setblock -183 0 -505 minecraft:mangrove_planks
-setblock -184 0 -505 minecraft:birch_planks
-setblock -177 0 -505 minecraft:light_blue_stained_glass
-setblock -178 0 -505 minecraft:red_stained_glass
-setblock -179 0 -505 minecraft:deepslate_iron_ore
-setblock -180 0 -505 minecraft:mossy_stone_bricks
-setblock -173 0 -505 minecraft:gray_wool
-setblock -174 0 -505 minecraft:mangrove_planks
-setblock -175 0 -505 minecraft:shroomlight
-setblock -176 0 -505 minecraft:granite
-setblock -169 0 -505 minecraft:andesite
-setblock -170 0 -505 minecraft:mangrove_planks
-setblock -171 0 -505 minecraft:gray_concrete
-setblock -172 0 -505 minecraft:white_glazed_terracotta
-setblock -165 0 -505 minecraft:light_blue_wool
-setblock -166 0 -505 minecraft:pumpkin
-setblock -167 0 -505 minecraft:deepslate_gold_ore
-setblock -168 0 -505 minecraft:air
-setblock -161 0 -505 minecraft:jungle_log
-setblock -162 0 -505 minecraft:air
-setblock -163 0 -505 minecraft:clay
-setblock -164 0 -505 minecraft:air
-setblock -157 0 -505 minecraft:chiseled_nether_bricks
-setblock -158 0 -505 minecraft:pumpkin
-setblock -159 0 -505 minecraft:chiseled_deepslate
-setblock -160 0 -505 minecraft:air
-setblock -153 0 -505 minecraft:andesite
-setblock -154 0 -505 minecraft:mangrove_planks
-setblock -155 0 -505 minecraft:oxidized_copper
-setblock -156 0 -505 minecraft:granite
-setblock -149 0 -505 minecraft:deepslate_iron_ore
-setblock -150 0 -505 minecraft:hay_block
-setblock -151 0 -505 minecraft:deepslate_gold_ore
-setblock -152 0 -505 minecraft:dead_fire_coral_block
-setblock -145 0 -505 minecraft:andesite
-setblock -146 0 -505 minecraft:crimson_nylium
-setblock -147 0 -505 minecraft:mushroom_stem
-setblock -148 0 -505 minecraft:air
-setblock -141 0 -505 minecraft:andesite
-setblock -142 0 -505 minecraft:gray_terracotta
-setblock -143 0 -505 minecraft:amethyst_block
-setblock -144 0 -505 minecraft:air
-setblock -137 0 -505 minecraft:andesite
-setblock -138 0 -505 minecraft:birch_planks
-setblock -139 0 -505 minecraft:netherrack
-setblock -140 0 -505 minecraft:air
-setblock -133 0 -505 minecraft:andesite
-setblock -134 0 -505 minecraft:dark_oak_planks
-setblock -135 0 -505 minecraft:mangrove_planks
-setblock -136 0 -505 minecraft:birch_planks
-setblock -129 0 -505 minecraft:light_blue_stained_glass
-setblock -130 0 -505 minecraft:purple_stained_glass
-setblock -131 0 -505 minecraft:deepslate_iron_ore
-setblock -132 0 -505 minecraft:smooth_stone
-setblock -125 0 -505 minecraft:gray_wool
-setblock -126 0 -505 minecraft:mangrove_planks
-setblock -127 0 -505 minecraft:shroomlight
-setblock -128 0 -505 minecraft:granite
-setblock -121 0 -505 minecraft:andesite
-setblock -122 0 -505 minecraft:mangrove_planks
-setblock -123 0 -505 minecraft:gray_concrete
-setblock -124 0 -505 minecraft:white_glazed_terracotta
-setblock -117 0 -505 minecraft:light_blue_wool
-setblock -118 0 -505 minecraft:pumpkin
-setblock -119 0 -505 minecraft:deepslate_gold_ore
-setblock -120 0 -505 minecraft:air
-setblock -113 0 -505 minecraft:jungle_log
-setblock -114 0 -505 minecraft:air
-setblock -115 0 -505 minecraft:clay
-setblock -116 0 -505 minecraft:air
-setblock -109 0 -505 minecraft:chiseled_nether_bricks
-setblock -110 0 -505 minecraft:pumpkin
-setblock -111 0 -505 minecraft:chiseled_deepslate
-setblock -112 0 -505 minecraft:air
-setblock -105 0 -505 minecraft:andesite
-setblock -106 0 -505 minecraft:mangrove_planks
-setblock -107 0 -505 minecraft:oxidized_copper
-setblock -108 0 -505 minecraft:granite
-setblock -101 0 -505 minecraft:deepslate_iron_ore
-setblock -102 0 -505 minecraft:warped_stem
-setblock -103 0 -505 minecraft:deepslate_gold_ore
-setblock -104 0 -505 minecraft:dead_brain_coral_block
-setblock -97 0 -505 minecraft:andesite
-setblock -98 0 -505 minecraft:crimson_nylium
-setblock -99 0 -505 minecraft:pink_concrete
-setblock -100 0 -505 minecraft:air
-setblock -93 0 -505 minecraft:andesite
-setblock -94 0 -505 minecraft:gray_terracotta
-setblock -95 0 -505 minecraft:amethyst_block
-setblock -96 0 -505 minecraft:air
-setblock -89 0 -505 minecraft:andesite
-setblock -90 0 -505 minecraft:birch_planks
-setblock -91 0 -505 minecraft:netherrack
-setblock -92 0 -505 minecraft:air
-setblock -85 0 -505 minecraft:andesite
-setblock -86 0 -505 minecraft:dark_oak_planks
-setblock -87 0 -505 minecraft:mangrove_planks
-setblock -88 0 -505 minecraft:birch_planks
-setblock -81 0 -505 minecraft:light_blue_stained_glass
-setblock -82 0 -505 minecraft:pink_stained_glass
-setblock -83 0 -505 minecraft:deepslate_iron_ore
-setblock -84 0 -505 minecraft:cobblestone
-setblock -77 0 -505 minecraft:gray_wool
-setblock -78 0 -505 minecraft:mangrove_planks
-setblock -79 0 -505 minecraft:shroomlight
-setblock -80 0 -505 minecraft:granite
-setblock -73 0 -505 minecraft:andesite
-setblock -74 0 -505 minecraft:mangrove_planks
-setblock -75 0 -505 minecraft:gray_concrete
-setblock -76 0 -505 minecraft:white_glazed_terracotta
-setblock -69 0 -505 minecraft:light_blue_wool
-setblock -70 0 -505 minecraft:pumpkin
-setblock -71 0 -505 minecraft:deepslate_gold_ore
-setblock -72 0 -505 minecraft:air
-setblock -65 0 -505 minecraft:jungle_log
-setblock -66 0 -505 minecraft:air
-setblock -67 0 -505 minecraft:clay
-setblock -68 0 -505 minecraft:air
-setblock -61 0 -505 minecraft:andesite
-setblock -62 0 -505 minecraft:mushroom_stem
-setblock -63 0 -505 minecraft:chiseled_deepslate
-setblock -64 0 -505 minecraft:air
-setblock -57 0 -505 minecraft:chiseled_nether_bricks
-setblock -58 0 -505 minecraft:mangrove_planks
-setblock -59 0 -505 minecraft:oxidized_copper
-setblock -60 0 -505 minecraft:granite
-setblock -53 0 -505 minecraft:deepslate_iron_ore
-setblock -54 0 -505 minecraft:crimson_planks
-setblock -55 0 -505 minecraft:glowstone
-setblock -56 0 -505 minecraft:waxed_oxidized_copper
-setblock -49 0 -505 minecraft:chiseled_nether_bricks
-setblock -50 0 -505 minecraft:amethyst_block
-setblock -51 0 -505 minecraft:glowstone
-setblock -52 0 -505 minecraft:air
-setblock -45 0 -505 minecraft:chiseled_nether_bricks
-setblock -46 0 -505 minecraft:dark_oak_planks
-setblock -47 0 -505 minecraft:netherrack
-setblock -48 0 -505 minecraft:air
-setblock -41 0 -505 minecraft:andesite
-setblock -42 0 -505 minecraft:pumpkin
-setblock -43 0 -505 minecraft:mangrove_planks
-setblock -44 0 -505 minecraft:birch_planks
-setblock -37 0 -505 minecraft:light_blue_stained_glass
-setblock -38 0 -505 minecraft:diamond_ore
-setblock -39 0 -505 minecraft:glowstone
-setblock -40 0 -505 minecraft:spruce_planks
-setblock -33 0 -505 minecraft:waxed_weathered_cut_copper
-setblock -34 0 -505 minecraft:mangrove_planks
-setblock -35 0 -505 minecraft:shroomlight
-setblock -36 0 -505 minecraft:granite
-setblock -29 0 -505 minecraft:chiseled_nether_bricks
-setblock -30 0 -505 minecraft:pumpkin
-setblock -31 0 -505 minecraft:gray_concrete
-setblock -32 0 -505 minecraft:white_glazed_terracotta
-setblock -25 0 -505 minecraft:waxed_cut_copper
-setblock -26 0 -505 minecraft:mangrove_planks
-setblock -27 0 -505 minecraft:glowstone
-setblock -28 0 -505 minecraft:air
-setblock -21 0 -505 minecraft:jungle_log
-setblock -22 0 -505 minecraft:warped_stem
-setblock -23 0 -505 minecraft:deepslate_gold_ore
-setblock -24 0 -505 minecraft:air
-setblock -17 0 -505 minecraft:chiseled_nether_bricks
-setblock -18 0 -505 minecraft:mangrove_planks
-setblock -19 0 -505 minecraft:cobbled_deepslate
-setblock -20 0 -505 minecraft:air
-setblock -13 0 -505 minecraft:andesite
-setblock -14 0 -505 minecraft:acacia_planks
-setblock -15 0 -505 minecraft:dark_oak_log
-setblock -16 0 -505 minecraft:air
-setblock -9 0 -505 minecraft:black_stained_glass
-setblock -10 0 -505 minecraft:nether_gold_ore
-setblock -11 0 -505 minecraft:slime_block
-setblock -12 0 -505 minecraft:snow_block
-setblock -5 0 -505 minecraft:gray_wool
-setblock -6 0 -505 minecraft:mangrove_planks
-setblock -7 0 -505 minecraft:shroomlight
-setblock -8 0 -505 minecraft:granite
-setblock -1 0 -505 minecraft:andesite
-setblock -2 0 -505 minecraft:mangrove_planks
-setblock -3 0 -505 minecraft:gray_concrete
-setblock -4 0 -505 minecraft:white_glazed_terracotta
-setblock 3 0 -505 minecraft:light_blue_wool
-setblock 2 0 -505 minecraft:pumpkin
-setblock 1 0 -505 minecraft:deepslate_gold_ore
-setblock 0 0 -505 minecraft:air
-setblock 7 0 -505 minecraft:jungle_log
-setblock 6 0 -505 minecraft:air
-setblock 5 0 -505 minecraft:waxed_weathered_cut_copper
-setblock 4 0 -505 minecraft:air
-setblock 11 0 -505 minecraft:chiseled_nether_bricks
-setblock 10 0 -505 minecraft:pumpkin
-setblock 9 0 -505 minecraft:chiseled_deepslate
-setblock 8 0 -505 minecraft:air
-setblock 15 0 -505 minecraft:andesite
-setblock 14 0 -505 minecraft:acacia_planks
-setblock 13 0 -505 minecraft:dark_oak_log
-setblock 12 0 -505 minecraft:air
-setblock 19 0 -505 minecraft:black_stained_glass
-setblock 18 0 -505 minecraft:nether_gold_ore
-setblock 17 0 -505 minecraft:packed_mud
-setblock 16 0 -505 minecraft:blue_ice
-setblock 23 0 -505 minecraft:andesite
-setblock 22 0 -505 minecraft:pumpkin
-setblock 21 0 -505 minecraft:gray_terracotta
-setblock 20 0 -505 minecraft:acacia_planks
-setblock 27 0 -505 minecraft:waxed_weathered_cut_copper
-setblock 26 0 -505 minecraft:mangrove_planks
-setblock 25 0 -505 minecraft:shroomlight
-setblock 24 0 -505 minecraft:granite
-setblock 31 0 -505 minecraft:chiseled_nether_bricks
-setblock 30 0 -505 minecraft:pumpkin
-setblock 29 0 -505 minecraft:gray_concrete
-setblock 28 0 -505 minecraft:white_glazed_terracotta
-setblock 35 0 -505 minecraft:waxed_cut_copper
-setblock 34 0 -505 minecraft:mangrove_planks
-setblock 33 0 -505 minecraft:glowstone
-setblock 32 0 -505 minecraft:air
-setblock 39 0 -505 minecraft:jungle_log
-setblock 38 0 -505 minecraft:warped_stem
-setblock 37 0 -505 minecraft:deepslate_gold_ore
-setblock 36 0 -505 minecraft:air
-setblock 43 0 -505 minecraft:chiseled_nether_bricks
-setblock 42 0 -505 minecraft:mangrove_planks
-setblock 41 0 -505 minecraft:cobbled_deepslate
-setblock 40 0 -505 minecraft:air
-setblock 47 0 -505 minecraft:black_stained_glass
-setblock 46 0 -505 minecraft:nether_gold_ore
-setblock 45 0 -505 minecraft:black_glazed_terracotta
-setblock 44 0 -505 minecraft:nether_wart_block
-setblock 51 0 -505 minecraft:andesite
-setblock 50 0 -505 minecraft:dark_oak_planks
-setblock 49 0 -505 minecraft:gray_terracotta
-setblock 48 0 -505 minecraft:acacia_planks
-setblock 55 0 -505 minecraft:black_stained_glass
-setblock 54 0 -505 minecraft:nether_gold_ore
-setblock 53 0 -505 minecraft:slime_block
-setblock 52 0 -505 minecraft:redstone_ore
-setblock 59 0 -505 minecraft:andesite
-setblock 58 0 -505 minecraft:dark_oak_planks
-setblock 57 0 -505 minecraft:gray_terracotta
-setblock 56 0 -505 minecraft:acacia_planks
-setblock 63 0 -505 minecraft:black_stained_glass
-setblock 62 0 -505 minecraft:nether_gold_ore
-setblock 61 0 -505 minecraft:black_glazed_terracotta
-setblock 60 0 -505 minecraft:deepslate_emerald_ore
-setblock 67 0 -505 minecraft:andesite
-setblock 66 0 -505 minecraft:dark_oak_planks
-setblock 65 0 -505 minecraft:gray_terracotta
-setblock 64 0 -505 minecraft:acacia_planks
-setblock 71 0 -505 minecraft:black_stained_glass
-setblock 70 0 -505 minecraft:nether_gold_ore
-setblock 69 0 -505 minecraft:slime_block
-setblock 68 0 -505 minecraft:deepslate_lapis_ore
-setblock 75 0 -505 minecraft:andesite
-setblock 74 0 -505 minecraft:dark_oak_planks
-setblock 73 0 -505 minecraft:gray_terracotta
-setblock 72 0 -505 minecraft:acacia_planks
-setblock 79 0 -505 minecraft:black_stained_glass
-setblock 78 0 -505 minecraft:nether_gold_ore
-setblock 77 0 -505 minecraft:black_glazed_terracotta
-setblock 76 0 -505 minecraft:nether_gold_ore
-setblock 83 0 -505 minecraft:andesite
-setblock 82 0 -505 minecraft:dark_oak_planks
-setblock 81 0 -505 minecraft:gray_terracotta
-setblock 80 0 -505 minecraft:acacia_planks
-setblock 87 0 -505 minecraft:black_stained_glass
-setblock 86 0 -505 minecraft:nether_gold_ore
-setblock 85 0 -505 minecraft:slime_block
-setblock 84 0 -505 minecraft:ancient_debris
-setblock 91 0 -505 minecraft:andesite
-setblock 90 0 -505 minecraft:dark_oak_planks
-setblock 89 0 -505 minecraft:gray_terracotta
-setblock 88 0 -505 minecraft:acacia_planks
-setblock 95 0 -505 minecraft:black_stained_glass
-setblock 94 0 -505 minecraft:nether_gold_ore
-setblock 93 0 -505 minecraft:black_glazed_terracotta
-setblock 92 0 -505 minecraft:raw_gold_block
-setblock 99 0 -505 minecraft:waxed_weathered_cut_copper
-setblock 98 0 -505 minecraft:mangrove_planks
-setblock 97 0 -505 minecraft:shroomlight
-setblock 96 0 -505 minecraft:granite
-setblock 103 0 -505 minecraft:chiseled_nether_bricks
-setblock 102 0 -505 minecraft:pumpkin
-setblock 101 0 -505 minecraft:gray_concrete
-setblock 100 0 -505 minecraft:white_glazed_terracotta
-setblock 107 0 -505 minecraft:black_stained_glass
-setblock 106 0 -505 minecraft:nether_gold_ore
-setblock 105 0 -505 minecraft:end_stone_bricks
-setblock 104 0 -505 minecraft:target
-setblock 111 0 -505 minecraft:jungle_log
-setblock 110 0 -505 minecraft:stripped_mangrove_log
-setblock 109 0 -505 minecraft:stripped_warped_stem
-setblock 108 0 -505 minecraft:air
-setblock 115 0 -505 minecraft:jungle_log
-setblock 114 0 -505 minecraft:stripped_acacia_log
-setblock 113 0 -505 minecraft:nether_bricks
-setblock 112 0 -505 minecraft:air
-setblock 119 0 -505 minecraft:andesite
-setblock 118 0 -505 minecraft:mangrove_planks
-setblock 117 0 -505 minecraft:polished_granite
-setblock 116 0 -505 minecraft:air
-setblock 123 0 -505 minecraft:black_stained_glass
-setblock 122 0 -505 minecraft:nether_gold_ore
-setblock 121 0 -505 minecraft:end_stone_bricks
-setblock 120 0 -505 minecraft:dead_bubble_coral_block
-setblock 127 0 -505 minecraft:jungle_log
-setblock 126 0 -505 minecraft:stripped_mangrove_log
-setblock 125 0 -505 minecraft:stripped_warped_stem
-setblock 124 0 -505 minecraft:air
-setblock 131 0 -505 minecraft:jungle_log
-setblock 130 0 -505 minecraft:stripped_acacia_log
-setblock 129 0 -505 minecraft:nether_bricks
-setblock 128 0 -505 minecraft:air
-setblock 135 0 -505 minecraft:andesite
-setblock 134 0 -505 minecraft:mangrove_planks
-setblock 133 0 -505 minecraft:polished_granite
-setblock 132 0 -505 minecraft:air
-setblock 139 0 -505 minecraft:black_stained_glass
-setblock 138 0 -505 minecraft:nether_gold_ore
-setblock 137 0 -505 minecraft:slime_block
-setblock 136 0 -505 minecraft:magma_block
-setblock 143 0 -505 minecraft:birch_planks
-setblock 142 0 -505 minecraft:light_blue_concrete
-setblock 141 0 -505 minecraft:dark_oak_log
-setblock 140 0 -505 minecraft:air
-setblock 147 0 -505 minecraft:light_blue_stained_glass
-setblock 146 0 -505 minecraft:cobblestone
-setblock 145 0 -505 minecraft:birch_planks
-setblock 144 0 -505 minecraft:air
-setblock 151 0 -505 minecraft:birch_planks
-setblock 150 0 -505 minecraft:acacia_log
-setblock 149 0 -505 minecraft:podzol
-setblock 148 0 -505 minecraft:oak_planks
-setblock 155 0 -505 minecraft:mud_bricks
-setblock 154 0 -505 minecraft:acacia_log
-setblock 153 0 -505 minecraft:stripped_warped_stem
-setblock 152 0 -505 minecraft:oak_planks
-setblock 159 0 -505 minecraft:andesite
-setblock 158 0 -505 minecraft:acacia_planks
-setblock 157 0 -505 minecraft:dark_oak_log
-setblock 156 0 -505 minecraft:air
-setblock 163 0 -505 minecraft:black_stained_glass
-setblock 162 0 -505 minecraft:nether_gold_ore
-setblock 161 0 -505 minecraft:end_stone_bricks
-setblock 160 0 -505 minecraft:netherite_block
-setblock 167 0 -505 minecraft:birch_planks
-setblock 166 0 -505 minecraft:acacia_log
-setblock 165 0 -505 minecraft:podzol
-setblock 164 0 -505 minecraft:oak_planks
-setblock 171 0 -505 minecraft:mud_bricks
-setblock 170 0 -505 minecraft:acacia_log
-setblock 169 0 -505 minecraft:stripped_warped_stem
-setblock 168 0 -505 minecraft:oak_planks
-setblock 175 0 -505 minecraft:black_stained_glass
-setblock 174 0 -505 minecraft:nether_gold_ore
-setblock 173 0 -505 minecraft:slime_block
-setblock 172 0 -505 minecraft:mycelium
-setblock 179 0 -505 minecraft:mud_bricks
-setblock 178 0 -505 minecraft:pink_concrete
-setblock 177 0 -505 minecraft:acacia_planks
-setblock 176 0 -505 minecraft:air
-setblock 183 0 -505 minecraft:andesite
-setblock 182 0 -505 minecraft:dark_oak_planks
-setblock 181 0 -505 minecraft:netherrack
-setblock 180 0 -505 minecraft:air
-setblock 187 0 -505 minecraft:andesite
-setblock 186 0 -505 minecraft:mangrove_planks
-setblock 185 0 -505 minecraft:acacia_planks
-setblock 184 0 -505 minecraft:air
-setblock 191 0 -505 minecraft:chiseled_nether_bricks
-setblock 190 0 -505 minecraft:pumpkin
-setblock 189 0 -505 minecraft:dark_oak_planks
-setblock 188 0 -505 minecraft:warped_wart_block
-setblock 195 0 -505 minecraft:chiseled_nether_bricks
-setblock 194 0 -505 minecraft:amethyst_block
-setblock 193 0 -505 minecraft:amethyst_block
-setblock 192 0 -505 minecraft:granite
-setblock 199 0 -505 minecraft:andesite
-setblock 198 0 -505 minecraft:acacia_planks
-setblock 197 0 -505 minecraft:air
-setblock 196 0 -505 minecraft:air
-setblock 203 0 -505 minecraft:light_blue_stained_glass
-setblock 202 0 -505 minecraft:light_gray_stained_glass
-setblock 201 0 -505 minecraft:glowstone
-setblock 200 0 -505 minecraft:spruce_planks
-setblock 207 0 -505 minecraft:chiseled_nether_bricks
-setblock 206 0 -505 minecraft:chiseled_deepslate
-setblock 205 0 -505 minecraft:dark_oak_log
-setblock 204 0 -505 minecraft:air
-setblock 211 0 -505 minecraft:waxed_cut_copper
-setblock 210 0 -505 minecraft:pumpkin
-setblock 209 0 -505 minecraft:lapis_block
-setblock 208 0 -505 minecraft:air
-setblock 215 0 -505 minecraft:andesite
-setblock 214 0 -505 minecraft:mangrove_planks
-setblock 213 0 -505 minecraft:chiseled_deepslate
-setblock 212 0 -505 minecraft:air
-setblock 219 0 -505 minecraft:chiseled_nether_bricks
-setblock 218 0 -505 minecraft:polished_basalt
-setblock 217 0 -505 minecraft:chiseled_deepslate
-setblock 216 0 -505 minecraft:air
-setblock 223 0 -505 minecraft:waxed_cut_copper
-setblock 222 0 -505 minecraft:pumpkin
-setblock 221 0 -505 minecraft:crimson_nylium
-setblock 220 0 -505 minecraft:air
-setblock 227 0 -505 minecraft:mud_bricks
-setblock 226 0 -505 minecraft:pink_concrete
-setblock 225 0 -505 minecraft:mangrove_planks
-setblock 224 0 -505 minecraft:air
-setblock 231 0 -505 minecraft:andesite
-setblock 230 0 -505 minecraft:melon
-setblock 229 0 -505 minecraft:mangrove_planks
-setblock 228 0 -505 minecraft:warped_wart_block
-setblock 235 0 -505 minecraft:chiseled_nether_bricks
-setblock 234 0 -505 minecraft:pumpkin
-setblock 233 0 -505 minecraft:dark_oak_planks
-setblock 232 0 -505 minecraft:warped_wart_block
-setblock 239 0 -505 minecraft:chiseled_nether_bricks
-setblock 238 0 -505 minecraft:amethyst_block
-setblock 237 0 -505 minecraft:amethyst_block
-setblock 236 0 -505 minecraft:granite
-setblock 243 0 -505 minecraft:deepslate_iron_ore
-setblock 242 0 -505 minecraft:red_terracotta
-setblock 241 0 -505 minecraft:glowstone
-setblock 240 0 -505 minecraft:nether_wart_block
-setblock 247 0 -505 minecraft:gray_stained_glass
-setblock 246 0 -505 minecraft:warped_stem
-setblock 245 0 -505 minecraft:air
-setblock 244 0 -505 minecraft:air
-setblock 251 0 -505 minecraft:gray_stained_glass
-setblock 250 0 -505 minecraft:warped_stem
-setblock 249 0 -505 minecraft:air
-setblock 248 0 -505 minecraft:air
-setblock 255 0 -505 minecraft:waxed_weathered_cut_copper
-setblock 254 0 -505 minecraft:mangrove_planks
-setblock 253 0 -505 minecraft:shroomlight
-setblock 252 0 -505 minecraft:granite
-setblock 259 0 -505 minecraft:andesite
-setblock 258 0 -505 minecraft:mangrove_planks
-setblock 257 0 -505 minecraft:polished_granite
-setblock 256 0 -505 minecraft:air
-setblock 263 0 -505 minecraft:jungle_log
-setblock 262 0 -505 minecraft:purpur_block
-setblock 261 0 -505 minecraft:deepslate_gold_ore
-setblock 260 0 -505 minecraft:white_stained_glass
-setblock 267 0 -505 minecraft:gray_wool
-setblock 266 0 -505 minecraft:acacia_planks
-setblock 265 0 -505 minecraft:shroomlight
-setblock 264 0 -505 minecraft:granite
-setblock 271 0 -505 minecraft:andesite
-setblock 270 0 -505 minecraft:acacia_planks
-setblock 269 0 -505 minecraft:lime_concrete
-setblock 268 0 -505 minecraft:white_stained_glass
-setblock 275 0 -505 minecraft:gray_stained_glass
-setblock 274 0 -505 minecraft:warped_stem
-setblock 273 0 -505 minecraft:air
-setblock 272 0 -505 minecraft:air
-setblock 279 0 -505 minecraft:chiseled_nether_bricks
-setblock 278 0 -505 minecraft:mangrove_planks
-setblock 277 0 -505 minecraft:netherrack
-setblock 276 0 -505 minecraft:air
-setblock 283 0 -505 minecraft:light_blue_stained_glass
-setblock 282 0 -505 minecraft:nether_gold_ore
-setblock 281 0 -505 minecraft:lapis_block
-setblock 280 0 -505 minecraft:crimson_planks
-setblock 287 0 -505 minecraft:gray_wool
-setblock 286 0 -505 minecraft:warped_nylium
-setblock 285 0 -505 minecraft:blue_ice
-setblock 284 0 -505 minecraft:blue_ice
-setblock 291 0 -505 minecraft:andesite
-setblock 290 0 -505 minecraft:crimson_planks
-setblock 289 0 -505 minecraft:warped_nylium
-setblock 288 0 -505 minecraft:blue_ice
-setblock 295 0 -505 minecraft:andesite
-setblock 294 0 -505 minecraft:mangrove_planks
-setblock 293 0 -505 minecraft:acacia_planks
-setblock 292 0 -505 minecraft:air
-setblock 299 0 -505 minecraft:chiseled_nether_bricks
-setblock 298 0 -505 minecraft:mangrove_planks
-setblock 297 0 -505 minecraft:polished_granite
-setblock 296 0 -505 minecraft:air
-setblock 303 0 -505 minecraft:chiseled_nether_bricks
-setblock 302 0 -505 minecraft:crimson_planks
-setblock 301 0 -505 minecraft:white_wool
-setblock 300 0 -505 minecraft:dark_oak_planks
-setblock 307 0 -505 minecraft:light_blue_wool
-setblock 306 0 -505 minecraft:pink_wool
-setblock 305 0 -505 minecraft:mangrove_planks
-setblock 304 0 -505 minecraft:birch_planks
-setblock 311 0 -505 minecraft:chiseled_nether_bricks
-setblock 310 0 -505 minecraft:smooth_basalt
-setblock 309 0 -505 minecraft:crimson_stem
-setblock 308 0 -505 minecraft:air
-setblock 315 0 -505 minecraft:waxed_cut_copper
-setblock 314 0 -505 minecraft:pumpkin
-setblock 313 0 -505 minecraft:glowstone
-setblock 312 0 -505 minecraft:air
-setblock 319 0 -505 minecraft:chiseled_nether_bricks
-setblock 318 0 -505 minecraft:dark_oak_planks
-setblock 317 0 -505 minecraft:mangrove_planks
-setblock 316 0 -505 minecraft:air
-setblock 323 0 -505 minecraft:chiseled_nether_bricks
-setblock 322 0 -505 minecraft:polished_basalt
-setblock 321 0 -505 minecraft:chiseled_deepslate
-setblock 320 0 -505 minecraft:air
-setblock 327 0 -505 minecraft:andesite
-setblock 326 0 -505 minecraft:gray_glazed_terracotta
-setblock 325 0 -505 minecraft:pink_wool
-setblock 324 0 -505 minecraft:air
-setblock 331 0 -505 minecraft:deepslate_iron_ore
-setblock 330 0 -505 minecraft:copper_ore
-setblock 329 0 -505 minecraft:warped_nylium
-setblock 328 0 -505 minecraft:shroomlight
-setblock 335 0 -505 minecraft:light_blue_stained_glass
-setblock 334 0 -505 minecraft:warped_planks
-setblock 333 0 -505 minecraft:mangrove_planks
-setblock 332 0 -505 minecraft:jungle_planks
-setblock 339 0 -505 minecraft:gray_wool
-setblock 338 0 -505 minecraft:magma_block
-setblock 337 0 -505 minecraft:blue_ice
-setblock 336 0 -505 minecraft:blue_ice
-setblock 343 0 -505 minecraft:andesite
-setblock 342 0 -505 minecraft:birch_planks
-setblock 341 0 -505 minecraft:magma_block
-setblock 340 0 -505 minecraft:blue_ice
-setblock 347 0 -505 minecraft:andesite
-setblock 346 0 -505 minecraft:dark_oak_planks
-setblock 345 0 -505 minecraft:air
-setblock 344 0 -505 minecraft:air
-setblock 351 0 -505 minecraft:andesite
-setblock 350 0 -505 minecraft:mossy_stone_bricks
-setblock 349 0 -505 minecraft:netherrack
-setblock 348 0 -505 minecraft:air
-setblock 355 0 -505 minecraft:waxed_cut_copper
-setblock 354 0 -505 minecraft:pink_glazed_terracotta
-setblock 353 0 -505 minecraft:raw_gold_block
-setblock 352 0 -505 minecraft:spruce_planks
-setblock 359 0 -505 minecraft:light_blue_wool
-setblock 358 0 -505 minecraft:pumpkin
-setblock 357 0 -505 minecraft:rooted_dirt
-setblock 356 0 -505 minecraft:air
-setblock 363 0 -505 minecraft:andesite
-setblock 362 0 -505 minecraft:hay_block
-setblock 361 0 -505 minecraft:mangrove_planks
-setblock 360 0 -505 minecraft:air
-setblock 367 0 -505 minecraft:andesite
-setblock 366 0 -505 minecraft:dark_oak_planks
-setblock 365 0 -505 minecraft:cobbled_deepslate
-setblock 364 0 -505 minecraft:air
-setblock 371 0 -505 minecraft:waxed_cut_copper
-setblock 370 0 -505 minecraft:waxed_oxidized_copper
-setblock 369 0 -505 minecraft:gray_stained_glass
-setblock 368 0 -505 minecraft:spruce_planks
-setblock 375 0 -505 minecraft:light_blue_wool
-setblock 374 0 -505 minecraft:lime_terracotta
-setblock 373 0 -505 minecraft:raw_gold_block
-setblock 372 0 -505 minecraft:spruce_planks
-setblock 379 0 -505 minecraft:chiseled_nether_bricks
-setblock 378 0 -505 minecraft:crimson_nylium
-setblock 377 0 -505 minecraft:light_gray_wool
-setblock 376 0 -505 minecraft:air
-setblock 383 0 -505 minecraft:chiseled_nether_bricks
-setblock 382 0 -505 minecraft:mushroom_stem
-setblock 381 0 -505 minecraft:dark_oak_planks
-setblock 380 0 -505 minecraft:birch_planks
-setblock 387 0 -505 minecraft:jungle_log
-setblock 386 0 -505 minecraft:air
-setblock 385 0 -505 minecraft:crimson_nylium
-setblock 384 0 -505 minecraft:air
-setblock 391 0 -505 minecraft:deepslate_iron_ore
-setblock 390 0 -505 minecraft:red_stained_glass
-setblock 389 0 -505 minecraft:mossy_stone_bricks
-setblock 388 0 -505 minecraft:warped_wart_block
-setblock 395 0 -505 minecraft:light_blue_wool
-setblock 394 0 -505 minecraft:melon
-setblock 393 0 -505 minecraft:rooted_dirt
-setblock 392 0 -505 minecraft:air
-setblock 399 0 -505 minecraft:gray_stained_glass
-setblock 398 0 -505 minecraft:warped_stem
-setblock 397 0 -505 minecraft:air
-setblock 396 0 -505 minecraft:air
-setblock 403 0 -505 minecraft:andesite
-setblock 402 0 -505 minecraft:melon
-setblock 401 0 -505 minecraft:acacia_planks
-setblock 400 0 -505 minecraft:air
-setblock 407 0 -505 minecraft:gray_stained_glass
-setblock 406 0 -505 minecraft:warped_stem
-setblock 405 0 -505 minecraft:air
-setblock 404 0 -505 minecraft:air
-setblock 411 0 -505 minecraft:chiseled_nether_bricks
-setblock 410 0 -505 minecraft:mangrove_planks
-setblock 409 0 -505 minecraft:acacia_planks
-setblock 408 0 -505 minecraft:birch_planks
-setblock 415 0 -505 minecraft:andesite
-setblock 414 0 -505 minecraft:dark_oak_planks
-setblock 413 0 -505 minecraft:polished_granite
-setblock 412 0 -505 minecraft:air
-setblock 419 0 -505 minecraft:jungle_log
-setblock 418 0 -505 minecraft:warped_stem
-setblock 417 0 -505 minecraft:raw_gold_block
-setblock 416 0 -505 minecraft:air
-setblock 423 0 -505 minecraft:light_blue_wool
-setblock 422 0 -505 minecraft:melon
-setblock 421 0 -505 minecraft:rooted_dirt
-setblock 420 0 -505 minecraft:air
-setblock 427 0 -505 minecraft:gray_stained_glass
-setblock 426 0 -505 minecraft:warped_stem
-setblock 425 0 -505 minecraft:air
-setblock 424 0 -505 minecraft:air
-setblock 431 0 -505 minecraft:gray_stained_glass
-setblock 430 0 -505 minecraft:warped_stem
-setblock 429 0 -505 minecraft:air
-setblock 428 0 -505 minecraft:air
-setblock 435 0 -505 minecraft:gray_stained_glass
-setblock 434 0 -505 minecraft:warped_stem
-setblock 433 0 -505 minecraft:air
-setblock 432 0 -505 minecraft:air
-setblock 439 0 -505 minecraft:gray_stained_glass
-setblock 438 0 -505 minecraft:warped_stem
-setblock 437 0 -505 minecraft:air
-setblock 436 0 -505 minecraft:air
-setblock 443 0 -505 minecraft:light_blue_wool
-setblock 442 0 -505 minecraft:light_gray_stained_glass
-setblock 441 0 -505 minecraft:waxed_exposed_cut_copper
-setblock 440 0 -505 minecraft:air
-setblock 447 0 -505 minecraft:chiseled_nether_bricks
-setblock 446 0 -505 minecraft:mangrove_planks
-setblock 445 0 -505 minecraft:nether_gold_ore
-setblock 444 0 -505 minecraft:birch_planks
-setblock 451 0 -505 minecraft:light_blue_stained_glass
-setblock 450 0 -505 minecraft:gold_ore
-setblock 449 0 -505 minecraft:mangrove_planks
-setblock 448 0 -505 minecraft:birch_planks
-setblock 455 0 -505 minecraft:chiseled_nether_bricks
-setblock 454 0 -505 minecraft:basalt
-setblock 453 0 -505 minecraft:lime_stained_glass
-setblock 452 0 -505 minecraft:air
-setblock 459 0 -505 minecraft:waxed_cut_copper
-setblock 458 0 -505 minecraft:melon
-setblock 457 0 -505 minecraft:chiseled_stone_bricks
-setblock 456 0 -505 minecraft:air
-setblock 463 0 -505 minecraft:andesite
-setblock 462 0 -505 minecraft:cobbled_deepslate
-setblock 461 0 -505 minecraft:dark_oak_planks
-setblock 460 0 -505 minecraft:oak_planks
-setblock 467 0 -505 minecraft:chiseled_nether_bricks
-setblock 466 0 -505 minecraft:smooth_basalt
-setblock 465 0 -505 minecraft:mushroom_stem
-setblock 464 0 -505 minecraft:air
-setblock 471 0 -505 minecraft:chiseled_nether_bricks
-setblock 470 0 -505 minecraft:basalt
-setblock 469 0 -505 minecraft:dark_oak_log
-setblock 468 0 -505 minecraft:air
-setblock 475 0 -505 minecraft:light_blue_wool
-setblock 474 0 -505 minecraft:dark_oak_planks
-setblock 473 0 -505 minecraft:glass
-setblock 472 0 -505 minecraft:air
-setblock 479 0 -505 minecraft:waxed_weathered_cut_copper
-setblock 478 0 -505 minecraft:mangrove_planks
-setblock 477 0 -505 minecraft:redstone_lamp
-setblock 476 0 -505 minecraft:granite
-setblock 483 0 -505 minecraft:light_blue_wool
-setblock 482 0 -505 minecraft:dark_oak_planks
-setblock 481 0 -505 minecraft:gold_ore
-setblock 480 0 -505 minecraft:air
-setblock 487 0 -505 minecraft:waxed_cut_copper
-setblock 486 0 -505 minecraft:pumpkin
-setblock 485 0 -505 minecraft:waxed_weathered_cut_copper
-setblock 484 0 -505 minecraft:air
-setblock 491 0 -505 minecraft:jungle_log
-setblock 490 0 -505 minecraft:purpur_block
-setblock 489 0 -505 minecraft:clay
-setblock 488 0 -505 minecraft:air
-setblock 495 0 -505 minecraft:gray_stained_glass
-setblock 494 0 -505 minecraft:warped_stem
-setblock 493 0 -505 minecraft:air
-setblock 492 0 -505 minecraft:air
-setblock 499 0 -505 minecraft:andesite
-setblock 498 0 -505 minecraft:dark_oak_planks
-setblock 497 0 -505 minecraft:dark_oak_planks
-setblock 496 0 -505 minecraft:shroomlight
-setblock 503 0 -505 minecraft:andesite
-setblock 502 0 -505 minecraft:pink_terracotta
-setblock 501 0 -505 minecraft:glowstone
-setblock 500 0 -505 minecraft:granite
-setblock 507 0 -505 minecraft:andesite
-setblock 506 0 -505 minecraft:crimson_planks
-setblock 505 0 -505 minecraft:coal_ore
-setblock 504 0 -505 minecraft:acacia_planks
-setblock 511 0 -505 minecraft:light_blue_stained_glass
-setblock 510 0 -505 minecraft:purple_stained_glass
-setblock 509 0 -505 minecraft:spawner
-setblock 508 0 -505 minecraft:bricks
-setblock -509 0 -504 minecraft:andesite
-setblock -510 0 -504 minecraft:deepslate
-setblock -511 0 -504 minecraft:acacia_planks
-setblock -512 0 -504 minecraft:oak_planks
-setblock -505 0 -504 minecraft:andesite
-setblock -506 0 -504 minecraft:lime_glazed_terracotta
-setblock -507 0 -504 minecraft:acacia_planks
-setblock -508 0 -504 minecraft:oak_planks
-setblock -501 0 -504 minecraft:andesite
-setblock -502 0 -504 minecraft:chiseled_deepslate
-setblock -503 0 -504 minecraft:pumpkin
-setblock -504 0 -504 minecraft:air
-setblock -497 0 -504 minecraft:chiseled_nether_bricks
-setblock -498 0 -504 minecraft:basalt
-setblock -499 0 -504 minecraft:acacia_planks
-setblock -500 0 -504 minecraft:oak_planks
-setblock -493 0 -504 minecraft:chiseled_nether_bricks
-setblock -494 0 -504 minecraft:smooth_basalt
-setblock -495 0 -504 minecraft:dark_oak_planks
-setblock -496 0 -504 minecraft:oak_planks
-setblock -489 0 -504 minecraft:chiseled_nether_bricks
-setblock -490 0 -504 minecraft:granite
-setblock -491 0 -504 minecraft:deepslate
-setblock -492 0 -504 minecraft:air
-setblock -485 0 -504 minecraft:andesite
-setblock -486 0 -504 minecraft:granite
-setblock -487 0 -504 minecraft:dark_oak_log
-setblock -488 0 -504 minecraft:air
-setblock -481 0 -504 minecraft:chiseled_nether_bricks
-setblock -482 0 -504 minecraft:mossy_stone_bricks
-setblock -483 0 -504 minecraft:lime_wool
-setblock -484 0 -504 minecraft:air
-setblock -477 0 -504 minecraft:andesite
-setblock -478 0 -504 minecraft:mossy_stone_bricks
-setblock -479 0 -504 minecraft:lime_concrete
-setblock -480 0 -504 minecraft:air
-setblock -473 0 -504 minecraft:andesite
-setblock -474 0 -504 minecraft:birch_planks
-setblock -475 0 -504 minecraft:lime_glazed_terracotta
-setblock -476 0 -504 minecraft:air
-setblock -469 0 -504 minecraft:waxed_cut_copper
-setblock -470 0 -504 minecraft:mushroom_stem
-setblock -471 0 -504 minecraft:gold_ore
-setblock -472 0 -504 minecraft:air
-setblock -465 0 -504 minecraft:chiseled_nether_bricks
-setblock -466 0 -504 minecraft:crying_obsidian
-setblock -467 0 -504 minecraft:acacia_planks
-setblock -468 0 -504 minecraft:oak_planks
-setblock -461 0 -504 minecraft:chiseled_nether_bricks
-setblock -462 0 -504 minecraft:end_stone_bricks
-setblock -463 0 -504 minecraft:granite
-setblock -464 0 -504 minecraft:oak_planks
-setblock -457 0 -504 minecraft:andesite
-setblock -458 0 -504 minecraft:packed_mud
-setblock -459 0 -504 minecraft:granite
-setblock -460 0 -504 minecraft:oak_planks
-setblock -453 0 -504 minecraft:chiseled_nether_bricks
-setblock -454 0 -504 minecraft:end_stone
-setblock -455 0 -504 minecraft:mossy_stone_bricks
-setblock -456 0 -504 minecraft:oak_planks
-setblock -449 0 -504 minecraft:andesite
-setblock -450 0 -504 minecraft:bricks
-setblock -451 0 -504 minecraft:mossy_stone_bricks
-setblock -452 0 -504 minecraft:oak_planks
-setblock -445 0 -504 minecraft:andesite
-setblock -446 0 -504 minecraft:andesite
-setblock -447 0 -504 minecraft:birch_planks
-setblock -448 0 -504 minecraft:oak_planks
-setblock -441 0 -504 minecraft:andesite
-setblock -442 0 -504 minecraft:oak_planks
-setblock -443 0 -504 minecraft:oak_planks
-setblock -444 0 -504 minecraft:redstone_lamp
-setblock -437 0 -504 minecraft:chiseled_nether_bricks
-setblock -438 0 -504 minecraft:slime_block
-setblock -439 0 -504 minecraft:granite
-setblock -440 0 -504 minecraft:oak_planks
-setblock -433 0 -504 minecraft:andesite
-setblock -434 0 -504 minecraft:black_glazed_terracotta
-setblock -435 0 -504 minecraft:granite
-setblock -436 0 -504 minecraft:oak_planks
-setblock -429 0 -504 minecraft:chiseled_nether_bricks
-setblock -430 0 -504 minecraft:verdant_froglight
-setblock -431 0 -504 minecraft:mossy_stone_bricks
-setblock -432 0 -504 minecraft:oak_planks
-setblock -425 0 -504 minecraft:andesite
-setblock -426 0 -504 minecraft:red_glazed_terracotta
-setblock -427 0 -504 minecraft:mossy_stone_bricks
-setblock -428 0 -504 minecraft:oak_planks
-setblock -421 0 -504 minecraft:andesite
-setblock -422 0 -504 minecraft:light_blue_glazed_terracotta
-setblock -423 0 -504 minecraft:birch_planks
-setblock -424 0 -504 minecraft:oak_planks
-setblock -417 0 -504 minecraft:chiseled_nether_bricks
-setblock -418 0 -504 minecraft:hay_block
-setblock -419 0 -504 minecraft:lime_glazed_terracotta
-setblock -420 0 -504 minecraft:air
-setblock -413 0 -504 minecraft:waxed_cut_copper
-setblock -414 0 -504 minecraft:pumpkin
-setblock -415 0 -504 minecraft:glowstone
-setblock -416 0 -504 minecraft:air
-setblock -409 0 -504 minecraft:andesite
-setblock -410 0 -504 minecraft:chiseled_deepslate
-setblock -411 0 -504 minecraft:mangrove_log
-setblock -412 0 -504 minecraft:air
-setblock -405 0 -504 minecraft:waxed_weathered_cut_copper
-setblock -406 0 -504 minecraft:mangrove_log
-setblock -407 0 -504 minecraft:air
-setblock -408 0 -504 minecraft:air
-setblock -401 0 -504 minecraft:jungle_log
-setblock -402 0 -504 minecraft:mangrove_log
-setblock -403 0 -504 minecraft:stripped_warped_stem
-setblock -404 0 -504 minecraft:air
-setblock -397 0 -504 minecraft:jungle_log
-setblock -398 0 -504 minecraft:acacia_log
-setblock -399 0 -504 minecraft:nether_bricks
-setblock -400 0 -504 minecraft:air
-setblock -393 0 -504 minecraft:jungle_log
-setblock -394 0 -504 minecraft:birch_log
-setblock -395 0 -504 minecraft:spruce_log
-setblock -396 0 -504 minecraft:oak_planks
-setblock -389 0 -504 minecraft:chiseled_nether_bricks
-setblock -390 0 -504 minecraft:pearlescent_froglight
-setblock -391 0 -504 minecraft:crimson_planks
-setblock -392 0 -504 minecraft:oak_planks
-setblock -385 0 -504 minecraft:light_blue_wool
-setblock -386 0 -504 minecraft:mangrove_planks
-setblock -387 0 -504 minecraft:clay
-setblock -388 0 -504 minecraft:air
-setblock -381 0 -504 minecraft:andesite
-setblock -382 0 -504 minecraft:waxed_oxidized_cut_copper
-setblock -383 0 -504 minecraft:granite
-setblock -384 0 -504 minecraft:jungle_planks
-setblock -377 0 -504 minecraft:chiseled_nether_bricks
-setblock -378 0 -504 minecraft:yellow_wool
-setblock -379 0 -504 minecraft:granite
-setblock -380 0 -504 minecraft:jungle_planks
-setblock -373 0 -504 minecraft:andesite
-setblock -374 0 -504 minecraft:waxed_exposed_copper
-setblock -375 0 -504 minecraft:mossy_stone_bricks
-setblock -376 0 -504 minecraft:jungle_planks
-setblock -369 0 -504 minecraft:chiseled_nether_bricks
-setblock -370 0 -504 minecraft:light_blue_wool
-setblock -371 0 -504 minecraft:mossy_stone_bricks
-setblock -372 0 -504 minecraft:jungle_planks
-setblock -365 0 -504 minecraft:chiseled_nether_bricks
-setblock -366 0 -504 minecraft:magenta_wool
-setblock -367 0 -504 minecraft:birch_planks
-setblock -368 0 -504 minecraft:jungle_planks
-setblock -361 0 -504 minecraft:chiseled_nether_bricks
-setblock -362 0 -504 minecraft:mushroom_stem
-setblock -363 0 -504 minecraft:mushroom_stem
-setblock -364 0 -504 minecraft:magenta_stained_glass
-setblock -357 0 -504 minecraft:jungle_log
-setblock -358 0 -504 minecraft:oak_log
-setblock -359 0 -504 minecraft:orange_wool
-setblock -360 0 -504 minecraft:oak_planks
-setblock -353 0 -504 minecraft:chiseled_nether_bricks
-setblock -354 0 -504 minecraft:warped_nylium
-setblock -355 0 -504 minecraft:crimson_planks
-setblock -356 0 -504 minecraft:oak_planks
-setblock -349 0 -504 minecraft:waxed_cut_copper
-setblock -350 0 -504 minecraft:mushroom_stem
-setblock -351 0 -504 minecraft:gold_ore
-setblock -352 0 -504 minecraft:air
-setblock -345 0 -504 minecraft:andesite
-setblock -346 0 -504 minecraft:cyan_concrete
-setblock -347 0 -504 minecraft:deepslate_bricks
-setblock -348 0 -504 minecraft:air
-setblock -341 0 -504 minecraft:chiseled_nether_bricks
-setblock -342 0 -504 minecraft:coarse_dirt
-setblock -343 0 -504 minecraft:polished_andesite
-setblock -344 0 -504 minecraft:air
-setblock -337 0 -504 minecraft:andesite
-setblock -338 0 -504 minecraft:yellow_concrete
-setblock -339 0 -504 minecraft:polished_andesite
-setblock -340 0 -504 minecraft:air
-setblock -333 0 -504 minecraft:chiseled_nether_bricks
-setblock -334 0 -504 minecraft:dirt
-setblock -335 0 -504 minecraft:andesite
-setblock -336 0 -504 minecraft:air
-setblock -329 0 -504 minecraft:chiseled_nether_bricks
-setblock -330 0 -504 minecraft:mycelium
-setblock -331 0 -504 minecraft:polished_diorite
-setblock -332 0 -504 minecraft:air
-setblock -325 0 -504 minecraft:chiseled_nether_bricks
-setblock -326 0 -504 minecraft:stone
-setblock -327 0 -504 minecraft:nether_gold_ore
-setblock -328 0 -504 minecraft:birch_planks
-setblock -321 0 -504 minecraft:gray_wool
-setblock -322 0 -504 minecraft:crimson_planks
-setblock -323 0 -504 minecraft:redstone_lamp
-setblock -324 0 -504 minecraft:granite
-setblock -317 0 -504 minecraft:birch_planks
-setblock -318 0 -504 minecraft:clay
-setblock -319 0 -504 minecraft:dark_oak_planks
-setblock -320 0 -504 minecraft:air
-setblock -313 0 -504 minecraft:andesite
-setblock -314 0 -504 minecraft:pink_terracotta
-setblock -315 0 -504 minecraft:mangrove_planks
-setblock -316 0 -504 minecraft:spruce_planks
-setblock -309 0 -504 minecraft:light_blue_stained_glass
-setblock -310 0 -504 minecraft:air
-setblock -311 0 -504 minecraft:dark_oak_planks
-setblock -312 0 -504 minecraft:spruce_planks
-setblock -305 0 -504 minecraft:light_blue_wool
-setblock -306 0 -504 minecraft:gold_ore
-setblock -307 0 -504 minecraft:chiseled_stone_bricks
-setblock -308 0 -504 minecraft:air
-setblock -301 0 -504 minecraft:light_blue_stained_glass
-setblock -302 0 -504 minecraft:lapis_ore
-setblock -303 0 -504 minecraft:honey_block
-setblock -304 0 -504 minecraft:air
-setblock -297 0 -504 minecraft:andesite
-setblock -298 0 -504 minecraft:smooth_basalt
-setblock -299 0 -504 minecraft:lime_stained_glass
-setblock -300 0 -504 minecraft:air
-setblock -293 0 -504 minecraft:light_blue_wool
-setblock -294 0 -504 minecraft:dark_oak_planks
-setblock -295 0 -504 minecraft:emerald_block
-setblock -296 0 -504 minecraft:air
-setblock -289 0 -504 minecraft:andesite
-setblock -290 0 -504 minecraft:cobbled_deepslate
-setblock -291 0 -504 minecraft:mangrove_log
-setblock -292 0 -504 minecraft:air
-setblock -285 0 -504 minecraft:light_blue_wool
-setblock -286 0 -504 minecraft:dark_oak_planks
-setblock -287 0 -504 minecraft:spawner
-setblock -288 0 -504 minecraft:air
-setblock -281 0 -504 minecraft:jungle_log
-setblock -282 0 -504 minecraft:oak_log
-setblock -283 0 -504 minecraft:glowstone
-setblock -284 0 -504 minecraft:air
-setblock -277 0 -504 minecraft:andesite
-setblock -278 0 -504 minecraft:pink_terracotta
-setblock -279 0 -504 minecraft:mangrove_planks
-setblock -280 0 -504 minecraft:oak_planks
-setblock -273 0 -504 minecraft:light_blue_stained_glass
-setblock -274 0 -504 minecraft:jungle_planks
-setblock -275 0 -504 minecraft:dark_oak_planks
-setblock -276 0 -504 minecraft:spruce_planks
-setblock -269 0 -504 minecraft:andesite
-setblock -270 0 -504 minecraft:waxed_weathered_copper
-setblock -271 0 -504 minecraft:acacia_planks
-setblock -272 0 -504 minecraft:jungle_planks
-setblock -265 0 -504 minecraft:andesite
-setblock -266 0 -504 minecraft:pink_wool
-setblock -267 0 -504 minecraft:cobbled_deepslate
-setblock -268 0 -504 minecraft:air
-setblock -261 0 -504 minecraft:light_blue_wool
-setblock -262 0 -504 minecraft:pink_stained_glass
-setblock -263 0 -504 minecraft:honey_block
-setblock -264 0 -504 minecraft:air
-setblock -257 0 -504 minecraft:light_blue_stained_glass
-setblock -258 0 -504 minecraft:cracked_deepslate_tiles
-setblock -259 0 -504 minecraft:dark_oak_planks
-setblock -260 0 -504 minecraft:air
-setblock -253 0 -504 minecraft:andesite
-setblock -254 0 -504 minecraft:smooth_basalt
-setblock -255 0 -504 minecraft:lime_stained_glass
-setblock -256 0 -504 minecraft:air
-setblock -249 0 -504 minecraft:light_blue_wool
-setblock -250 0 -504 minecraft:dark_oak_planks
-setblock -251 0 -504 minecraft:glowstone
-setblock -252 0 -504 minecraft:oak_planks
-setblock -245 0 -504 minecraft:andesite
-setblock -246 0 -504 minecraft:cobbled_deepslate
-setblock -247 0 -504 minecraft:mangrove_log
-setblock -248 0 -504 minecraft:air
-setblock -241 0 -504 minecraft:light_blue_wool
-setblock -242 0 -504 minecraft:dark_oak_planks
-setblock -243 0 -504 minecraft:spawner
-setblock -244 0 -504 minecraft:air
-setblock -237 0 -504 minecraft:jungle_log
-setblock -238 0 -504 minecraft:oak_log
-setblock -239 0 -504 minecraft:glowstone
-setblock -240 0 -504 minecraft:air
-setblock -233 0 -504 minecraft:andesite
-setblock -234 0 -504 minecraft:pink_terracotta
-setblock -235 0 -504 minecraft:pumpkin
-setblock -236 0 -504 minecraft:air
-setblock -229 0 -504 minecraft:light_blue_stained_glass
-setblock -230 0 -504 minecraft:jungle_planks
-setblock -231 0 -504 minecraft:dark_oak_planks
-setblock -232 0 -504 minecraft:spruce_planks
-setblock -225 0 -504 minecraft:andesite
-setblock -226 0 -504 minecraft:waxed_weathered_copper
-setblock -227 0 -504 minecraft:acacia_planks
-setblock -228 0 -504 minecraft:jungle_planks
-setblock -221 0 -504 minecraft:andesite
-setblock -222 0 -504 minecraft:pink_wool
-setblock -223 0 -504 minecraft:cobbled_deepslate
-setblock -224 0 -504 minecraft:air
-setblock -217 0 -504 minecraft:light_blue_wool
-setblock -218 0 -504 minecraft:gold_ore
-setblock -219 0 -504 minecraft:coarse_dirt
-setblock -220 0 -504 minecraft:air
-setblock -213 0 -504 minecraft:light_blue_stained_glass
-setblock -214 0 -504 minecraft:cracked_deepslate_tiles
-setblock -215 0 -504 minecraft:dark_oak_planks
-setblock -216 0 -504 minecraft:air
-setblock -209 0 -504 minecraft:andesite
-setblock -210 0 -504 minecraft:smooth_basalt
-setblock -211 0 -504 minecraft:lime_stained_glass
-setblock -212 0 -504 minecraft:air
-setblock -205 0 -504 minecraft:light_blue_wool
-setblock -206 0 -504 minecraft:dark_oak_planks
-setblock -207 0 -504 minecraft:gold_ore
-setblock -208 0 -504 minecraft:oak_planks
-setblock -201 0 -504 minecraft:andesite
-setblock -202 0 -504 minecraft:cobbled_deepslate
-setblock -203 0 -504 minecraft:mangrove_log
-setblock -204 0 -504 minecraft:air
-setblock -197 0 -504 minecraft:light_blue_wool
-setblock -198 0 -504 minecraft:dark_oak_planks
-setblock -199 0 -504 minecraft:spawner
-setblock -200 0 -504 minecraft:air
-setblock -193 0 -504 minecraft:jungle_log
-setblock -194 0 -504 minecraft:oak_log
-setblock -195 0 -504 minecraft:glowstone
-setblock -196 0 -504 minecraft:air
-setblock -189 0 -504 minecraft:andesite
-setblock -190 0 -504 minecraft:pink_terracotta
-setblock -191 0 -504 minecraft:gray_concrete
-setblock -192 0 -504 minecraft:air
-setblock -185 0 -504 minecraft:light_blue_stained_glass
-setblock -186 0 -504 minecraft:jungle_planks
-setblock -187 0 -504 minecraft:dark_oak_planks
-setblock -188 0 -504 minecraft:spruce_planks
-setblock -181 0 -504 minecraft:andesite
-setblock -182 0 -504 minecraft:waxed_weathered_copper
-setblock -183 0 -504 minecraft:acacia_planks
-setblock -184 0 -504 minecraft:jungle_planks
-setblock -177 0 -504 minecraft:andesite
-setblock -178 0 -504 minecraft:pink_wool
-setblock -179 0 -504 minecraft:cobbled_deepslate
-setblock -180 0 -504 minecraft:air
-setblock -173 0 -504 minecraft:light_blue_wool
-setblock -174 0 -504 minecraft:pink_stained_glass
-setblock -175 0 -504 minecraft:coarse_dirt
-setblock -176 0 -504 minecraft:air
-setblock -169 0 -504 minecraft:light_blue_stained_glass
-setblock -170 0 -504 minecraft:cracked_deepslate_tiles
-setblock -171 0 -504 minecraft:dark_oak_planks
-setblock -172 0 -504 minecraft:air
-setblock -165 0 -504 minecraft:andesite
-setblock -166 0 -504 minecraft:smooth_basalt
-setblock -167 0 -504 minecraft:lime_stained_glass
-setblock -168 0 -504 minecraft:air
-setblock -161 0 -504 minecraft:light_blue_wool
-setblock -162 0 -504 minecraft:dark_oak_planks
-setblock -163 0 -504 minecraft:glass
-setblock -164 0 -504 minecraft:oak_planks
-setblock -157 0 -504 minecraft:andesite
-setblock -158 0 -504 minecraft:cobbled_deepslate
-setblock -159 0 -504 minecraft:mangrove_log
-setblock -160 0 -504 minecraft:air
-setblock -153 0 -504 minecraft:light_blue_wool
-setblock -154 0 -504 minecraft:dark_oak_planks
-setblock -155 0 -504 minecraft:spawner
-setblock -156 0 -504 minecraft:air
-setblock -149 0 -504 minecraft:jungle_log
-setblock -150 0 -504 minecraft:oak_log
-setblock -151 0 -504 minecraft:glowstone
-setblock -152 0 -504 minecraft:air
-setblock -145 0 -504 minecraft:andesite
-setblock -146 0 -504 minecraft:pink_terracotta
-setblock -147 0 -504 minecraft:crimson_stem
-setblock -148 0 -504 minecraft:air
-setblock -141 0 -504 minecraft:light_blue_stained_glass
-setblock -142 0 -504 minecraft:jungle_planks
-setblock -143 0 -504 minecraft:dark_oak_planks
-setblock -144 0 -504 minecraft:spruce_planks
-setblock -137 0 -504 minecraft:andesite
-setblock -138 0 -504 minecraft:waxed_weathered_copper
-setblock -139 0 -504 minecraft:acacia_planks
-setblock -140 0 -504 minecraft:jungle_planks
-setblock -133 0 -504 minecraft:andesite
-setblock -134 0 -504 minecraft:pink_wool
-setblock -135 0 -504 minecraft:cobbled_deepslate
-setblock -136 0 -504 minecraft:air
-setblock -129 0 -504 minecraft:light_blue_wool
-setblock -130 0 -504 minecraft:gold_ore
-setblock -131 0 -504 minecraft:dirt
-setblock -132 0 -504 minecraft:air
-setblock -125 0 -504 minecraft:light_blue_stained_glass
-setblock -126 0 -504 minecraft:cracked_deepslate_tiles
-setblock -127 0 -504 minecraft:dark_oak_planks
-setblock -128 0 -504 minecraft:air
-setblock -121 0 -504 minecraft:andesite
-setblock -122 0 -504 minecraft:smooth_basalt
-setblock -123 0 -504 minecraft:lime_stained_glass
-setblock -124 0 -504 minecraft:air
-setblock -117 0 -504 minecraft:light_blue_wool
-setblock -118 0 -504 minecraft:dark_oak_planks
-setblock -119 0 -504 minecraft:mud
-setblock -120 0 -504 minecraft:oak_planks
-setblock -113 0 -504 minecraft:andesite
-setblock -114 0 -504 minecraft:cobbled_deepslate
-setblock -115 0 -504 minecraft:mangrove_log
-setblock -116 0 -504 minecraft:air
-setblock -109 0 -504 minecraft:light_blue_wool
-setblock -110 0 -504 minecraft:dark_oak_planks
-setblock -111 0 -504 minecraft:spawner
-setblock -112 0 -504 minecraft:air
-setblock -105 0 -504 minecraft:jungle_log
-setblock -106 0 -504 minecraft:oak_log
-setblock -107 0 -504 minecraft:glowstone
-setblock -108 0 -504 minecraft:air
-setblock -101 0 -504 minecraft:andesite
-setblock -102 0 -504 minecraft:gray_terracotta
-setblock -103 0 -504 minecraft:chiseled_deepslate
-setblock -104 0 -504 minecraft:air
-setblock -97 0 -504 minecraft:light_blue_stained_glass
-setblock -98 0 -504 minecraft:jungle_planks
-setblock -99 0 -504 minecraft:mangrove_planks
-setblock -100 0 -504 minecraft:spruce_planks
-setblock -93 0 -504 minecraft:andesite
-setblock -94 0 -504 minecraft:waxed_weathered_cut_copper
-setblock -95 0 -504 minecraft:acacia_planks
-setblock -96 0 -504 minecraft:jungle_planks
-setblock -89 0 -504 minecraft:andesite
-setblock -90 0 -504 minecraft:gray_wool
-setblock -91 0 -504 minecraft:chiseled_deepslate
-setblock -92 0 -504 minecraft:air
-setblock -85 0 -504 minecraft:light_blue_wool
-setblock -86 0 -504 minecraft:deepslate_gold_ore
-setblock -87 0 -504 minecraft:iron_ore
-setblock -88 0 -504 minecraft:air
-setblock -81 0 -504 minecraft:light_blue_stained_glass
-setblock -82 0 -504 minecraft:cracked_deepslate_tiles
-setblock -83 0 -504 minecraft:mangrove_planks
-setblock -84 0 -504 minecraft:air
-setblock -77 0 -504 minecraft:andesite
-setblock -78 0 -504 minecraft:polished_basalt
-setblock -79 0 -504 minecraft:lime_stained_glass
-setblock -80 0 -504 minecraft:air
-setblock -73 0 -504 minecraft:light_blue_wool
-setblock -74 0 -504 minecraft:mangrove_planks
-setblock -75 0 -504 minecraft:gray_stained_glass
-setblock -76 0 -504 minecraft:air
-setblock -69 0 -504 minecraft:andesite
-setblock -70 0 -504 minecraft:chiseled_deepslate
-setblock -71 0 -504 minecraft:crimson_stem
-setblock -72 0 -504 minecraft:air
-setblock -65 0 -504 minecraft:light_blue_wool
-setblock -66 0 -504 minecraft:mangrove_planks
-setblock -67 0 -504 minecraft:redstone_ore
-setblock -68 0 -504 minecraft:air
-setblock -61 0 -504 minecraft:jungle_log
-setblock -62 0 -504 minecraft:oak_log
-setblock -63 0 -504 minecraft:amethyst_block
-setblock -64 0 -504 minecraft:air
-setblock -57 0 -504 minecraft:chiseled_nether_bricks
-setblock -58 0 -504 minecraft:melon
-setblock -59 0 -504 minecraft:deepslate
-setblock -60 0 -504 minecraft:air
-setblock -53 0 -504 minecraft:chiseled_nether_bricks
-setblock -54 0 -504 minecraft:basalt
-setblock -55 0 -504 minecraft:acacia_planks
-setblock -56 0 -504 minecraft:oak_planks
-setblock -49 0 -504 minecraft:chiseled_nether_bricks
-setblock -50 0 -504 minecraft:crying_obsidian
-setblock -51 0 -504 minecraft:acacia_planks
-setblock -52 0 -504 minecraft:oak_planks
-setblock -45 0 -504 minecraft:chiseled_nether_bricks
-setblock -46 0 -504 minecraft:mushroom_stem
-setblock -47 0 -504 minecraft:cobbled_deepslate
-setblock -48 0 -504 minecraft:air
-setblock -41 0 -504 minecraft:deepslate_iron_ore
-setblock -42 0 -504 minecraft:smooth_basalt
-setblock -43 0 -504 minecraft:deepslate
-setblock -44 0 -504 minecraft:deepslate_diamond_ore
-setblock -37 0 -504 minecraft:birch_planks
-setblock -38 0 -504 minecraft:acacia_log
-setblock -39 0 -504 minecraft:podzol
-setblock -40 0 -504 minecraft:air
-setblock -33 0 -504 minecraft:mud_bricks
-setblock -34 0 -504 minecraft:acacia_log
-setblock -35 0 -504 minecraft:stripped_warped_stem
-setblock -36 0 -504 minecraft:air
-setblock -29 0 -504 minecraft:birch_planks
-setblock -30 0 -504 minecraft:stripped_spruce_log
-setblock -31 0 -504 minecraft:orange_concrete
-setblock -32 0 -504 minecraft:air
-setblock -25 0 -504 minecraft:mud_bricks
-setblock -26 0 -504 minecraft:stripped_spruce_log
-setblock -27 0 -504 minecraft:oak_planks
-setblock -28 0 -504 minecraft:air
-setblock -21 0 -504 minecraft:andesite
-setblock -22 0 -504 minecraft:oak_planks
-setblock -23 0 -504 minecraft:oak_planks
-setblock -24 0 -504 minecraft:oak_planks
-setblock -17 0 -504 minecraft:gray_stained_glass
-setblock -18 0 -504 minecraft:warped_stem
-setblock -19 0 -504 minecraft:air
-setblock -20 0 -504 minecraft:air
-setblock -13 0 -504 minecraft:gray_stained_glass
-setblock -14 0 -504 minecraft:warped_stem
-setblock -15 0 -504 minecraft:air
-setblock -16 0 -504 minecraft:air
-setblock -9 0 -504 minecraft:birch_planks
-setblock -10 0 -504 minecraft:light_blue_concrete
-setblock -11 0 -504 minecraft:dark_oak_planks
-setblock -12 0 -504 minecraft:air
-setblock -5 0 -504 minecraft:light_blue_stained_glass
-setblock -6 0 -504 minecraft:jungle_planks
-setblock -7 0 -504 minecraft:birch_planks
-setblock -8 0 -504 minecraft:stripped_birch_log
-setblock -1 0 -504 minecraft:andesite
-setblock -2 0 -504 minecraft:oak_planks
-setblock -3 0 -504 minecraft:oak_planks
-setblock -4 0 -504 minecraft:warped_wart_block
-setblock 3 0 -504 minecraft:chiseled_nether_bricks
-setblock 2 0 -504 minecraft:smooth_basalt
-setblock 1 0 -504 minecraft:dark_oak_planks
-setblock 0 0 -504 minecraft:oak_planks
-setblock 7 0 -504 minecraft:andesite
-setblock 6 0 -504 minecraft:chiseled_deepslate
-setblock 5 0 -504 minecraft:pumpkin
-setblock 4 0 -504 minecraft:air
-setblock 11 0 -504 minecraft:jungle_log
-setblock 10 0 -504 minecraft:mangrove_log
-setblock 9 0 -504 minecraft:stripped_warped_stem
-setblock 8 0 -504 minecraft:oak_planks
-setblock 15 0 -504 minecraft:waxed_cut_copper
-setblock 14 0 -504 minecraft:mushroom_stem
-setblock 13 0 -504 minecraft:gold_ore
-setblock 12 0 -504 minecraft:air
-setblock 19 0 -504 minecraft:gray_wool
-setblock 18 0 -504 minecraft:stripped_acacia_log
-setblock 17 0 -504 minecraft:air
-setblock 16 0 -504 minecraft:air
-setblock 23 0 -504 minecraft:jungle_log
-setblock 22 0 -504 minecraft:oak_log
-setblock 21 0 -504 minecraft:orange_wool
-setblock 20 0 -504 minecraft:birch_planks
-setblock 27 0 -504 minecraft:jungle_log
-setblock 26 0 -504 minecraft:stripped_mangrove_log
-setblock 25 0 -504 minecraft:orange_concrete
-setblock 24 0 -504 minecraft:oak_planks
-setblock 31 0 -504 minecraft:jungle_log
-setblock 30 0 -504 minecraft:stripped_acacia_log
-setblock 29 0 -504 minecraft:orange_glazed_terracotta
-setblock 28 0 -504 minecraft:oak_planks
-setblock 35 0 -504 minecraft:jungle_log
-setblock 34 0 -504 minecraft:stripped_birch_log
-setblock 33 0 -504 minecraft:orange_stained_glass
-setblock 32 0 -504 minecraft:oak_planks
-setblock 39 0 -504 minecraft:jungle_log
-setblock 38 0 -504 minecraft:stripped_oak_log
-setblock 37 0 -504 minecraft:orange_terracotta
-setblock 36 0 -504 minecraft:oak_planks
-setblock 43 0 -504 minecraft:jungle_log
-setblock 42 0 -504 minecraft:acacia_log
-setblock 41 0 -504 minecraft:nether_bricks
-setblock 40 0 -504 minecraft:oak_planks
-setblock 47 0 -504 minecraft:jungle_log
-setblock 46 0 -504 minecraft:birch_log
-setblock 45 0 -504 minecraft:purpur_pillar
-setblock 44 0 -504 minecraft:oak_planks
-setblock 51 0 -504 minecraft:jungle_log
-setblock 50 0 -504 minecraft:mangrove_log
-setblock 49 0 -504 minecraft:stripped_warped_stem
-setblock 48 0 -504 minecraft:spruce_planks
-setblock 55 0 -504 minecraft:jungle_log
-setblock 54 0 -504 minecraft:acacia_log
-setblock 53 0 -504 minecraft:nether_bricks
-setblock 52 0 -504 minecraft:spruce_planks
-setblock 59 0 -504 minecraft:jungle_log
-setblock 58 0 -504 minecraft:birch_log
-setblock 57 0 -504 minecraft:spruce_log
-setblock 56 0 -504 minecraft:birch_planks
-setblock 63 0 -504 minecraft:jungle_log
-setblock 62 0 -504 minecraft:oak_log
-setblock 61 0 -504 minecraft:oxidized_cut_copper
-setblock 60 0 -504 minecraft:oak_planks
-setblock 67 0 -504 minecraft:andesite
-setblock 66 0 -504 minecraft:cobblestone
-setblock 65 0 -504 minecraft:acacia_planks
-setblock 64 0 -504 minecraft:air
-setblock 71 0 -504 minecraft:chiseled_nether_bricks
-setblock 70 0 -504 minecraft:bee_nest
-setblock 69 0 -504 minecraft:acacia_planks
-setblock 68 0 -504 minecraft:air
-setblock 75 0 -504 minecraft:light_blue_wool
-setblock 74 0 -504 minecraft:hay_block
-setblock 73 0 -504 minecraft:glowstone
-setblock 72 0 -504 minecraft:air
-setblock 79 0 -504 minecraft:andesite
-setblock 78 0 -504 minecraft:mossy_stone_bricks
-setblock 77 0 -504 minecraft:cobbled_deepslate
-setblock 76 0 -504 minecraft:air
-setblock 83 0 -504 minecraft:andesite
-setblock 82 0 -504 minecraft:smooth_stone
-setblock 81 0 -504 minecraft:sea_lantern
-setblock 80 0 -504 minecraft:magenta_stained_glass
-setblock 87 0 -504 minecraft:andesite
-setblock 86 0 -504 minecraft:mossy_cobblestone
-setblock 85 0 -504 minecraft:purpur_block
-setblock 84 0 -504 minecraft:air
-setblock 91 0 -504 minecraft:chiseled_nether_bricks
-setblock 90 0 -504 minecraft:smooth_stone
-setblock 89 0 -504 minecraft:netherrack
-setblock 88 0 -504 minecraft:birch_planks
-setblock 95 0 -504 minecraft:andesite
-setblock 94 0 -504 minecraft:stone_bricks
-setblock 93 0 -504 minecraft:purpur_block
-setblock 92 0 -504 minecraft:birch_planks
-setblock 99 0 -504 minecraft:chiseled_nether_bricks
-setblock 98 0 -504 minecraft:mossy_cobblestone
-setblock 97 0 -504 minecraft:coal_ore
-setblock 96 0 -504 minecraft:acacia_planks
-setblock 103 0 -504 minecraft:chiseled_nether_bricks
-setblock 102 0 -504 minecraft:cobblestone
-setblock 101 0 -504 minecraft:nether_gold_ore
-setblock 100 0 -504 minecraft:birch_planks
-setblock 107 0 -504 minecraft:waxed_weathered_cut_copper
-setblock 106 0 -504 minecraft:crimson_planks
-setblock 105 0 -504 minecraft:redstone_lamp
-setblock 104 0 -504 minecraft:granite
-setblock 111 0 -504 minecraft:light_blue_stained_glass
-setblock 110 0 -504 minecraft:dark_oak_planks
-setblock 109 0 -504 minecraft:light_blue_stained_glass
-setblock 108 0 -504 minecraft:spruce_log
-setblock 115 0 -504 minecraft:light_blue_stained_glass
-setblock 114 0 -504 minecraft:magenta_glazed_terracotta
-setblock 113 0 -504 minecraft:green_concrete
-setblock 112 0 -504 minecraft:jungle_log
-setblock 119 0 -504 minecraft:chiseled_nether_bricks
-setblock 118 0 -504 minecraft:bee_nest
-setblock 117 0 -504 minecraft:cyan_terracotta
-setblock 116 0 -504 minecraft:air
-setblock 123 0 -504 minecraft:light_blue_stained_glass
-setblock 122 0 -504 minecraft:coarse_dirt
-setblock 121 0 -504 minecraft:brown_wool
-setblock 120 0 -504 minecraft:reinforced_deepslate
-setblock 127 0 -504 minecraft:andesite
-setblock 126 0 -504 minecraft:cobblestone
-setblock 125 0 -504 minecraft:white_terracotta
-setblock 124 0 -504 minecraft:air
-setblock 131 0 -504 minecraft:andesite
-setblock 130 0 -504 minecraft:dark_oak_planks
-setblock 129 0 -504 minecraft:air
-setblock 128 0 -504 minecraft:air
-setblock 135 0 -504 minecraft:andesite
-setblock 134 0 -504 minecraft:birch_planks
-setblock 133 0 -504 minecraft:birch_planks
-setblock 132 0 -504 minecraft:shroomlight
-setblock 139 0 -504 minecraft:andesite
-setblock 138 0 -504 minecraft:gray_terracotta
-setblock 137 0 -504 minecraft:raw_iron_block
-setblock 136 0 -504 minecraft:granite
-setblock 143 0 -504 minecraft:light_blue_stained_glass
-setblock 142 0 -504 minecraft:copper_ore
-setblock 141 0 -504 minecraft:deepslate_emerald_ore
-setblock 140 0 -504 minecraft:cracked_deepslate_bricks
-setblock 147 0 -504 minecraft:andesite
-setblock 146 0 -504 minecraft:cobbled_deepslate
-setblock 145 0 -504 minecraft:dark_oak_planks
-setblock 144 0 -504 minecraft:oak_planks
-setblock 151 0 -504 minecraft:andesite
-setblock 150 0 -504 minecraft:pink_glazed_terracotta
-setblock 149 0 -504 minecraft:dark_oak_planks
-setblock 148 0 -504 minecraft:oak_planks
-setblock 155 0 -504 minecraft:chiseled_nether_bricks
-setblock 154 0 -504 minecraft:polished_basalt
-setblock 153 0 -504 minecraft:stone
-setblock 152 0 -504 minecraft:oak_planks
-setblock 159 0 -504 minecraft:chiseled_nether_bricks
-setblock 158 0 -504 minecraft:birch_planks
-setblock 157 0 -504 minecraft:cobbled_deepslate
-setblock 156 0 -504 minecraft:air
-setblock 163 0 -504 minecraft:chiseled_nether_bricks
-setblock 162 0 -504 minecraft:spruce_planks
-setblock 161 0 -504 minecraft:mangrove_log
-setblock 160 0 -504 minecraft:air
-setblock 167 0 -504 minecraft:chiseled_nether_bricks
-setblock 166 0 -504 minecraft:granite
-setblock 165 0 -504 minecraft:pink_wool
-setblock 164 0 -504 minecraft:air
-setblock 171 0 -504 minecraft:andesite
-setblock 170 0 -504 minecraft:granite
-setblock 169 0 -504 minecraft:pink_concrete
-setblock 168 0 -504 minecraft:air
-setblock 175 0 -504 minecraft:chiseled_nether_bricks
-setblock 174 0 -504 minecraft:mossy_stone_bricks
-setblock 173 0 -504 minecraft:pink_glazed_terracotta
-setblock 172 0 -504 minecraft:air
-setblock 179 0 -504 minecraft:chiseled_nether_bricks
-setblock 178 0 -504 minecraft:crimson_nylium
-setblock 177 0 -504 minecraft:mangrove_planks
-setblock 176 0 -504 minecraft:oak_planks
-setblock 183 0 -504 minecraft:chiseled_nether_bricks
-setblock 182 0 -504 minecraft:chiseled_nether_bricks
-setblock 181 0 -504 minecraft:birch_planks
-setblock 180 0 -504 minecraft:oak_planks
-setblock 187 0 -504 minecraft:chiseled_nether_bricks
-setblock 186 0 -504 minecraft:cracked_nether_bricks
-setblock 185 0 -504 minecraft:spruce_planks
-setblock 184 0 -504 minecraft:oak_planks
-setblock 191 0 -504 minecraft:chiseled_nether_bricks
-setblock 190 0 -504 minecraft:end_stone_bricks
-setblock 189 0 -504 minecraft:granite
-setblock 188 0 -504 minecraft:oak_planks
-setblock 195 0 -504 minecraft:andesite
-setblock 194 0 -504 minecraft:packed_mud
-setblock 193 0 -504 minecraft:granite
-setblock 192 0 -504 minecraft:oak_planks
-setblock 199 0 -504 minecraft:chiseled_nether_bricks
-setblock 198 0 -504 minecraft:end_stone
-setblock 197 0 -504 minecraft:mossy_stone_bricks
-setblock 196 0 -504 minecraft:oak_planks
-setblock 203 0 -504 minecraft:chiseled_nether_bricks
-setblock 202 0 -504 minecraft:cobbled_deepslate
-setblock 201 0 -504 minecraft:crimson_stem
-setblock 200 0 -504 minecraft:air
-setblock 207 0 -504 minecraft:chiseled_nether_bricks
-setblock 206 0 -504 minecraft:magma_block
-setblock 205 0 -504 minecraft:birch_planks
-setblock 204 0 -504 minecraft:oak_planks
-setblock 211 0 -504 minecraft:chiseled_nether_bricks
-setblock 210 0 -504 minecraft:terracotta
-setblock 209 0 -504 minecraft:spruce_planks
-setblock 208 0 -504 minecraft:oak_planks
-setblock 215 0 -504 minecraft:chiseled_nether_bricks
-setblock 214 0 -504 minecraft:slime_block
-setblock 213 0 -504 minecraft:granite
-setblock 212 0 -504 minecraft:oak_planks
-setblock 219 0 -504 minecraft:andesite
-setblock 218 0 -504 minecraft:black_glazed_terracotta
-setblock 217 0 -504 minecraft:granite
-setblock 216 0 -504 minecraft:oak_planks
-setblock 223 0 -504 minecraft:chiseled_nether_bricks
-setblock 222 0 -504 minecraft:verdant_froglight
-setblock 221 0 -504 minecraft:mossy_stone_bricks
-setblock 220 0 -504 minecraft:oak_planks
-setblock 227 0 -504 minecraft:andesite
-setblock 226 0 -504 minecraft:mud_bricks
-setblock 225 0 -504 minecraft:gray_glazed_terracotta
-setblock 224 0 -504 minecraft:air
-setblock 231 0 -504 minecraft:andesite
-setblock 230 0 -504 minecraft:andesite
-setblock 229 0 -504 minecraft:birch_planks
-setblock 228 0 -504 minecraft:oak_planks
-setblock 235 0 -504 minecraft:andesite
-setblock 234 0 -504 minecraft:waxed_oxidized_cut_copper
-setblock 233 0 -504 minecraft:birch_planks
-setblock 232 0 -504 minecraft:jungle_planks
-setblock 239 0 -504 minecraft:chiseled_nether_bricks
-setblock 238 0 -504 minecraft:waxed_exposed_copper
-setblock 237 0 -504 minecraft:spruce_planks
-setblock 236 0 -504 minecraft:jungle_planks
-setblock 243 0 -504 minecraft:andesite
-setblock 242 0 -504 minecraft:waxed_exposed_copper
-setblock 241 0 -504 minecraft:granite
-setblock 240 0 -504 minecraft:jungle_planks
-setblock 247 0 -504 minecraft:andesite
-setblock 246 0 -504 minecraft:lime_wool
-setblock 245 0 -504 minecraft:granite
-setblock 244 0 -504 minecraft:jungle_planks
-setblock 251 0 -504 minecraft:chiseled_nether_bricks
-setblock 250 0 -504 minecraft:waxed_exposed_cut_copper
-setblock 249 0 -504 minecraft:mossy_stone_bricks
-setblock 248 0 -504 minecraft:jungle_planks
-setblock 255 0 -504 minecraft:waxed_cut_copper
-setblock 254 0 -504 minecraft:mushroom_stem
-setblock 253 0 -504 minecraft:gold_ore
-setblock 252 0 -504 minecraft:air
-setblock 259 0 -504 minecraft:andesite
-setblock 258 0 -504 minecraft:light_blue_glazed_terracotta
-setblock 257 0 -504 minecraft:birch_planks
-setblock 256 0 -504 minecraft:oak_planks
-setblock 263 0 -504 minecraft:andesite
-setblock 262 0 -504 minecraft:cyan_concrete
-setblock 261 0 -504 minecraft:deepslate_bricks
-setblock 260 0 -504 minecraft:air
-setblock 267 0 -504 minecraft:chiseled_nether_bricks
-setblock 266 0 -504 minecraft:coarse_dirt
-setblock 265 0 -504 minecraft:polished_andesite
-setblock 264 0 -504 minecraft:air
-setblock 271 0 -504 minecraft:andesite
-setblock 270 0 -504 minecraft:yellow_concrete
-setblock 269 0 -504 minecraft:polished_andesite
-setblock 268 0 -504 minecraft:air
-setblock 275 0 -504 minecraft:andesite
-setblock 274 0 -504 minecraft:lime_concrete
-setblock 273 0 -504 minecraft:deepslate
-setblock 272 0 -504 minecraft:air
-setblock 279 0 -504 minecraft:chiseled_nether_bricks
-setblock 278 0 -504 minecraft:rooted_dirt
-setblock 277 0 -504 minecraft:deepslate
-setblock 276 0 -504 minecraft:air
-setblock 283 0 -504 minecraft:waxed_cut_copper
-setblock 282 0 -504 minecraft:dark_oak_planks
-setblock 281 0 -504 minecraft:tinted_glass
-setblock 280 0 -504 minecraft:air
-setblock 287 0 -504 minecraft:birch_planks
-setblock 286 0 -504 minecraft:clay
-setblock 285 0 -504 minecraft:dark_oak_planks
-setblock 284 0 -504 minecraft:air
-setblock 291 0 -504 minecraft:chiseled_nether_bricks
-setblock 290 0 -504 minecraft:green_terracotta
-setblock 289 0 -504 minecraft:mangrove_planks
-setblock 288 0 -504 minecraft:spruce_planks
-setblock 295 0 -504 minecraft:light_blue_stained_glass
-setblock 294 0 -504 minecraft:warped_stem
-setblock 293 0 -504 minecraft:stone_bricks
-setblock 292 0 -504 minecraft:spruce_planks
-setblock 299 0 -504 minecraft:waxed_cut_copper
-setblock 298 0 -504 minecraft:deepslate_lapis_ore
-setblock 297 0 -504 minecraft:clay
-setblock 296 0 -504 minecraft:air
-setblock 303 0 -504 minecraft:light_blue_stained_glass
-setblock 302 0 -504 minecraft:lapis_ore
-setblock 301 0 -504 minecraft:dried_kelp_block
-setblock 300 0 -504 minecraft:oak_planks
-setblock 307 0 -504 minecraft:chiseled_nether_bricks
-setblock 306 0 -504 minecraft:cracked_polished_blackstone_bricks
-setblock 305 0 -504 minecraft:gray_stained_glass
-setblock 304 0 -504 minecraft:air
-setblock 311 0 -504 minecraft:waxed_cut_copper
-setblock 310 0 -504 minecraft:prismarine
-setblock 309 0 -504 minecraft:snow_block
-setblock 308 0 -504 minecraft:air
-setblock 315 0 -504 minecraft:chiseled_nether_bricks
-setblock 314 0 -504 minecraft:cracked_polished_blackstone_bricks
-setblock 313 0 -504 minecraft:stripped_dark_oak_log
-setblock 312 0 -504 minecraft:air
-setblock 319 0 -504 minecraft:waxed_cut_copper
-setblock 318 0 -504 minecraft:prismarine
-setblock 317 0 -504 minecraft:waxed_oxidized_copper
-setblock 316 0 -504 minecraft:oak_planks
-setblock 323 0 -504 minecraft:jungle_log
-setblock 322 0 -504 minecraft:purpur_block
-setblock 321 0 -504 minecraft:stone_bricks
-setblock 320 0 -504 minecraft:oak_planks
-setblock 327 0 -504 minecraft:chiseled_nether_bricks
-setblock 326 0 -504 minecraft:green_terracotta
-setblock 325 0 -504 minecraft:mangrove_planks
-setblock 324 0 -504 minecraft:oak_planks
-setblock 331 0 -504 minecraft:light_blue_stained_glass
-setblock 330 0 -504 minecraft:wet_sponge
-setblock 329 0 -504 minecraft:stone_bricks
-setblock 328 0 -504 minecraft:spruce_planks
-setblock 335 0 -504 minecraft:chiseled_nether_bricks
-setblock 334 0 -504 minecraft:dead_bubble_coral_block
-setblock 333 0 -504 minecraft:mangrove_planks
-setblock 332 0 -504 minecraft:jungle_planks
-setblock 339 0 -504 minecraft:chiseled_nether_bricks
-setblock 338 0 -504 minecraft:dead_bubble_coral_block
-setblock 337 0 -504 minecraft:reinforced_deepslate
-setblock 336 0 -504 minecraft:air
-setblock 343 0 -504 minecraft:waxed_cut_copper
-setblock 342 0 -504 minecraft:green_stained_glass
-setblock 341 0 -504 minecraft:waxed_oxidized_cut_copper
-setblock 340 0 -504 minecraft:oak_planks
-setblock 347 0 -504 minecraft:light_blue_stained_glass
-setblock 346 0 -504 minecraft:polished_blackstone_bricks
-setblock 345 0 -504 minecraft:stone_bricks
-setblock 344 0 -504 minecraft:air
-setblock 351 0 -504 minecraft:chiseled_nether_bricks
-setblock 350 0 -504 minecraft:cracked_polished_blackstone_bricks
-setblock 349 0 -504 minecraft:gray_stained_glass
-setblock 348 0 -504 minecraft:air
-setblock 355 0 -504 minecraft:waxed_cut_copper
-setblock 354 0 -504 minecraft:prismarine
-setblock 353 0 -504 minecraft:green_terracotta
-setblock 352 0 -504 minecraft:air
-setblock 359 0 -504 minecraft:chiseled_nether_bricks
-setblock 358 0 -504 minecraft:cracked_polished_blackstone_bricks
-setblock 357 0 -504 minecraft:stripped_dark_oak_log
-setblock 356 0 -504 minecraft:air
-setblock 363 0 -504 minecraft:waxed_cut_copper
-setblock 362 0 -504 minecraft:prismarine
-setblock 361 0 -504 minecraft:waxed_oxidized_copper
-setblock 360 0 -504 minecraft:oak_planks
-setblock 367 0 -504 minecraft:jungle_log
-setblock 366 0 -504 minecraft:purpur_block
-setblock 365 0 -504 minecraft:stone_bricks
-setblock 364 0 -504 minecraft:oak_planks
-setblock 371 0 -504 minecraft:chiseled_nether_bricks
-setblock 370 0 -504 minecraft:green_terracotta
-setblock 369 0 -504 minecraft:pumpkin
-setblock 368 0 -504 minecraft:air
-setblock 375 0 -504 minecraft:light_blue_stained_glass
-setblock 374 0 -504 minecraft:wet_sponge
-setblock 373 0 -504 minecraft:stone_bricks
-setblock 372 0 -504 minecraft:spruce_planks
-setblock 379 0 -504 minecraft:chiseled_nether_bricks
-setblock 378 0 -504 minecraft:dead_bubble_coral_block
-setblock 377 0 -504 minecraft:mangrove_planks
-setblock 376 0 -504 minecraft:jungle_planks
-setblock 383 0 -504 minecraft:chiseled_nether_bricks
-setblock 382 0 -504 minecraft:dead_bubble_coral_block
-setblock 381 0 -504 minecraft:reinforced_deepslate
-setblock 380 0 -504 minecraft:air
-setblock 387 0 -504 minecraft:waxed_cut_copper
-setblock 386 0 -504 minecraft:deepslate_lapis_ore
-setblock 385 0 -504 minecraft:waxed_exposed_copper
-setblock 384 0 -504 minecraft:oak_planks
-setblock 391 0 -504 minecraft:light_blue_stained_glass
-setblock 390 0 -504 minecraft:polished_blackstone_bricks
-setblock 389 0 -504 minecraft:stone_bricks
-setblock 388 0 -504 minecraft:air
-setblock 395 0 -504 minecraft:chiseled_nether_bricks
-setblock 394 0 -504 minecraft:cracked_polished_blackstone_bricks
-setblock 393 0 -504 minecraft:gray_stained_glass
-setblock 392 0 -504 minecraft:air
-setblock 399 0 -504 minecraft:waxed_cut_copper
-setblock 398 0 -504 minecraft:prismarine
-setblock 397 0 -504 minecraft:green_glazed_terracotta
-setblock 396 0 -504 minecraft:air
-setblock 403 0 -504 minecraft:chiseled_nether_bricks
-setblock 402 0 -504 minecraft:cracked_polished_blackstone_bricks
-setblock 401 0 -504 minecraft:stripped_dark_oak_log
-setblock 400 0 -504 minecraft:air
-setblock 407 0 -504 minecraft:waxed_cut_copper
-setblock 406 0 -504 minecraft:prismarine
-setblock 405 0 -504 minecraft:waxed_oxidized_copper
-setblock 404 0 -504 minecraft:oak_planks
-setblock 411 0 -504 minecraft:jungle_log
-setblock 410 0 -504 minecraft:purpur_block
-setblock 409 0 -504 minecraft:stone_bricks
-setblock 408 0 -504 minecraft:oak_planks
-setblock 415 0 -504 minecraft:chiseled_nether_bricks
-setblock 414 0 -504 minecraft:green_terracotta
-setblock 413 0 -504 minecraft:gray_concrete
-setblock 412 0 -504 minecraft:air
-setblock 419 0 -504 minecraft:light_blue_stained_glass
-setblock 418 0 -504 minecraft:wet_sponge
-setblock 417 0 -504 minecraft:stone_bricks
-setblock 416 0 -504 minecraft:spruce_planks
-setblock 423 0 -504 minecraft:chiseled_nether_bricks
-setblock 422 0 -504 minecraft:dead_bubble_coral_block
-setblock 421 0 -504 minecraft:mangrove_planks
-setblock 420 0 -504 minecraft:jungle_planks
-setblock 427 0 -504 minecraft:chiseled_nether_bricks
-setblock 426 0 -504 minecraft:dead_bubble_coral_block
-setblock 425 0 -504 minecraft:reinforced_deepslate
-setblock 424 0 -504 minecraft:air
-setblock 431 0 -504 minecraft:waxed_cut_copper
-setblock 430 0 -504 minecraft:green_stained_glass
-setblock 429 0 -504 minecraft:waxed_exposed_copper
-setblock 428 0 -504 minecraft:oak_planks
-setblock 435 0 -504 minecraft:light_blue_stained_glass
-setblock 434 0 -504 minecraft:polished_blackstone_bricks
-setblock 433 0 -504 minecraft:stone_bricks
-setblock 432 0 -504 minecraft:air
-setblock 439 0 -504 minecraft:chiseled_nether_bricks
-setblock 438 0 -504 minecraft:cracked_polished_blackstone_bricks
-setblock 437 0 -504 minecraft:gray_stained_glass
-setblock 436 0 -504 minecraft:air
-setblock 443 0 -504 minecraft:waxed_cut_copper
-setblock 442 0 -504 minecraft:prismarine
-setblock 441 0 -504 minecraft:warped_wart_block
-setblock 440 0 -504 minecraft:oak_planks
-setblock 447 0 -504 minecraft:chiseled_nether_bricks
-setblock 446 0 -504 minecraft:cracked_polished_blackstone_bricks
-setblock 445 0 -504 minecraft:stripped_dark_oak_log
-setblock 444 0 -504 minecraft:air
-setblock 451 0 -504 minecraft:waxed_cut_copper
-setblock 450 0 -504 minecraft:prismarine
-setblock 449 0 -504 minecraft:waxed_oxidized_copper
-setblock 448 0 -504 minecraft:oak_planks
-setblock 455 0 -504 minecraft:jungle_log
-setblock 454 0 -504 minecraft:purpur_block
-setblock 453 0 -504 minecraft:stone_bricks
-setblock 452 0 -504 minecraft:oak_planks
-setblock 459 0 -504 minecraft:chiseled_nether_bricks
-setblock 458 0 -504 minecraft:green_terracotta
-setblock 457 0 -504 minecraft:crimson_stem
-setblock 456 0 -504 minecraft:air
-setblock 463 0 -504 minecraft:light_blue_stained_glass
-setblock 462 0 -504 minecraft:wet_sponge
-setblock 461 0 -504 minecraft:stone_bricks
-setblock 460 0 -504 minecraft:spruce_planks
-setblock 467 0 -504 minecraft:chiseled_nether_bricks
-setblock 466 0 -504 minecraft:dead_bubble_coral_block
-setblock 465 0 -504 minecraft:mangrove_planks
-setblock 464 0 -504 minecraft:jungle_planks
-setblock 471 0 -504 minecraft:chiseled_nether_bricks
-setblock 470 0 -504 minecraft:dead_bubble_coral_block
-setblock 469 0 -504 minecraft:reinforced_deepslate
-setblock 468 0 -504 minecraft:air
-setblock 475 0 -504 minecraft:waxed_cut_copper
-setblock 474 0 -504 minecraft:green_stained_glass
-setblock 473 0 -504 minecraft:waxed_exposed_cut_copper
-setblock 472 0 -504 minecraft:oak_planks
-setblock 479 0 -504 minecraft:light_blue_stained_glass
-setblock 478 0 -504 minecraft:polished_blackstone_bricks
-setblock 477 0 -504 minecraft:stone_bricks
-setblock 476 0 -504 minecraft:air
-setblock 483 0 -504 minecraft:chiseled_nether_bricks
-setblock 482 0 -504 minecraft:cracked_polished_blackstone_bricks
-setblock 481 0 -504 minecraft:gray_stained_glass
-setblock 480 0 -504 minecraft:air
-setblock 487 0 -504 minecraft:waxed_cut_copper
-setblock 486 0 -504 minecraft:prismarine
-setblock 485 0 -504 minecraft:deepslate_lapis_ore
-setblock 484 0 -504 minecraft:oak_planks
-setblock 491 0 -504 minecraft:chiseled_nether_bricks
-setblock 490 0 -504 minecraft:cracked_polished_blackstone_bricks
-setblock 489 0 -504 minecraft:stripped_dark_oak_log
-setblock 488 0 -504 minecraft:air
-setblock 495 0 -504 minecraft:waxed_cut_copper
-setblock 494 0 -504 minecraft:prismarine
-setblock 493 0 -504 minecraft:waxed_oxidized_copper
-setblock 492 0 -504 minecraft:oak_planks
-setblock 499 0 -504 minecraft:jungle_log
-setblock 498 0 -504 minecraft:purpur_block
-setblock 497 0 -504 minecraft:stone_bricks
-setblock 496 0 -504 minecraft:oak_planks
-setblock 503 0 -504 minecraft:andesite
-setblock 502 0 -504 minecraft:gray_terracotta
-setblock 501 0 -504 minecraft:chiseled_deepslate
-setblock 500 0 -504 minecraft:air
-setblock 507 0 -504 minecraft:light_blue_stained_glass
-setblock 506 0 -504 minecraft:jungle_planks
-setblock 505 0 -504 minecraft:mangrove_planks
-setblock 504 0 -504 minecraft:spruce_planks
-setblock 511 0 -504 minecraft:andesite
-setblock 510 0 -504 minecraft:waxed_weathered_cut_copper
-setblock 509 0 -504 minecraft:mangrove_planks
-setblock 508 0 -504 minecraft:jungle_planks
-setblock -509 0 -503 minecraft:andesite
-setblock -510 0 -503 minecraft:gray_wool
-setblock -511 0 -503 minecraft:chiseled_deepslate
-setblock -512 0 -503 minecraft:air
-setblock -505 0 -503 minecraft:light_blue_wool
-setblock -506 0 -503 minecraft:deepslate_gold_ore
-setblock -507 0 -503 minecraft:deepslate_copper_ore
-setblock -508 0 -503 minecraft:air
-setblock -501 0 -503 minecraft:light_blue_stained_glass
-setblock -502 0 -503 minecraft:cracked_deepslate_tiles
-setblock -503 0 -503 minecraft:mangrove_planks
-setblock -504 0 -503 minecraft:air
-setblock -497 0 -503 minecraft:andesite
-setblock -498 0 -503 minecraft:polished_basalt
-setblock -499 0 -503 minecraft:gray_stained_glass
-setblock -500 0 -503 minecraft:air
-setblock -493 0 -503 minecraft:light_blue_wool
-setblock -494 0 -503 minecraft:mangrove_planks
-setblock -495 0 -503 minecraft:crimson_nylium
-setblock -496 0 -503 minecraft:oak_planks
-setblock -489 0 -503 minecraft:andesite
-setblock -490 0 -503 minecraft:chiseled_deepslate
-setblock -491 0 -503 minecraft:crimson_stem
-setblock -492 0 -503 minecraft:air
-setblock -485 0 -503 minecraft:light_blue_wool
-setblock -486 0 -503 minecraft:pumpkin
-setblock -487 0 -503 minecraft:redstone_ore
-setblock -488 0 -503 minecraft:air
-setblock -481 0 -503 minecraft:jungle_log
-setblock -482 0 -503 minecraft:oak_log
-setblock -483 0 -503 minecraft:mangrove_planks
-setblock -484 0 -503 minecraft:oak_planks
-setblock -477 0 -503 minecraft:chiseled_nether_bricks
-setblock -478 0 -503 minecraft:pumpkin
-setblock -479 0 -503 minecraft:chiseled_deepslate
-setblock -480 0 -503 minecraft:air
-setblock -473 0 -503 minecraft:chiseled_nether_bricks
-setblock -474 0 -503 minecraft:polished_basalt
-setblock -475 0 -503 minecraft:mangrove_planks
-setblock -476 0 -503 minecraft:oak_planks
-setblock -469 0 -503 minecraft:chiseled_nether_bricks
-setblock -470 0 -503 minecraft:crimson_nylium
-setblock -471 0 -503 minecraft:mangrove_planks
-setblock -472 0 -503 minecraft:oak_planks
-setblock -465 0 -503 minecraft:chiseled_nether_bricks
-setblock -466 0 -503 minecraft:mushroom_stem
-setblock -467 0 -503 minecraft:cobbled_deepslate
-setblock -468 0 -503 minecraft:air
-setblock -461 0 -503 minecraft:deepslate_iron_ore
-setblock -462 0 -503 minecraft:smooth_basalt
-setblock -463 0 -503 minecraft:gray_stained_glass
-setblock -464 0 -503 minecraft:diamond_ore
-setblock -457 0 -503 minecraft:birch_planks
-setblock -458 0 -503 minecraft:light_blue_concrete
-setblock -459 0 -503 minecraft:mossy_stone_bricks
-setblock -460 0 -503 minecraft:air
-setblock -453 0 -503 minecraft:andesite
-setblock -454 0 -503 minecraft:mossy_stone_bricks
-setblock -455 0 -503 minecraft:bricks
-setblock -456 0 -503 minecraft:air
-setblock -449 0 -503 minecraft:deepslate_iron_ore
-setblock -450 0 -503 minecraft:polished_deepslate
-setblock -451 0 -503 minecraft:birch_planks
-setblock -452 0 -503 minecraft:iron_ore
-setblock -445 0 -503 minecraft:birch_planks
-setblock -446 0 -503 minecraft:acacia_log
-setblock -447 0 -503 minecraft:podzol
-setblock -448 0 -503 minecraft:spruce_planks
-setblock -441 0 -503 minecraft:mud_bricks
-setblock -442 0 -503 minecraft:acacia_log
-setblock -443 0 -503 minecraft:stripped_warped_stem
-setblock -444 0 -503 minecraft:spruce_planks
-setblock -437 0 -503 minecraft:birch_planks
-setblock -438 0 -503 minecraft:stripped_spruce_log
-setblock -439 0 -503 minecraft:orange_concrete
-setblock -440 0 -503 minecraft:spruce_planks
-setblock -433 0 -503 minecraft:mud_bricks
-setblock -434 0 -503 minecraft:stripped_spruce_log
-setblock -435 0 -503 minecraft:oak_planks
-setblock -436 0 -503 minecraft:spruce_planks
-setblock -429 0 -503 minecraft:birch_planks
-setblock -430 0 -503 minecraft:stripped_birch_log
-setblock -431 0 -503 minecraft:podzol
-setblock -432 0 -503 minecraft:oak_planks
-setblock -425 0 -503 minecraft:mud_bricks
-setblock -426 0 -503 minecraft:stripped_birch_log
-setblock -427 0 -503 minecraft:stripped_warped_stem
-setblock -428 0 -503 minecraft:oak_planks
-setblock -421 0 -503 minecraft:birch_planks
-setblock -422 0 -503 minecraft:stripped_jungle_log
-setblock -423 0 -503 minecraft:orange_concrete
-setblock -424 0 -503 minecraft:oak_planks
-setblock -417 0 -503 minecraft:mud_bricks
-setblock -418 0 -503 minecraft:stripped_jungle_log
-setblock -419 0 -503 minecraft:oak_planks
-setblock -420 0 -503 minecraft:oak_planks
-setblock -413 0 -503 minecraft:birch_planks
-setblock -414 0 -503 minecraft:stripped_acacia_log
-setblock -415 0 -503 minecraft:podzol
-setblock -416 0 -503 minecraft:air
-setblock -409 0 -503 minecraft:mud_bricks
-setblock -410 0 -503 minecraft:stripped_acacia_log
-setblock -411 0 -503 minecraft:stripped_warped_stem
-setblock -412 0 -503 minecraft:air
-setblock -405 0 -503 minecraft:birch_planks
-setblock -406 0 -503 minecraft:stripped_dark_oak_log
-setblock -407 0 -503 minecraft:orange_concrete
-setblock -408 0 -503 minecraft:air
-setblock -401 0 -503 minecraft:mud_bricks
-setblock -402 0 -503 minecraft:stripped_dark_oak_log
-setblock -403 0 -503 minecraft:oak_planks
-setblock -404 0 -503 minecraft:air
-setblock -397 0 -503 minecraft:andesite
-setblock -398 0 -503 minecraft:oak_planks
-setblock -399 0 -503 minecraft:oak_planks
-setblock -400 0 -503 minecraft:birch_planks
-setblock -393 0 -503 minecraft:gray_stained_glass
-setblock -394 0 -503 minecraft:warped_stem
-setblock -395 0 -503 minecraft:air
-setblock -396 0 -503 minecraft:air
-setblock -389 0 -503 minecraft:chiseled_nether_bricks
-setblock -390 0 -503 minecraft:bee_nest
-setblock -391 0 -503 minecraft:cyan_terracotta
-setblock -392 0 -503 minecraft:air
-setblock -385 0 -503 minecraft:deepslate_iron_ore
-setblock -386 0 -503 minecraft:mycelium
-setblock -387 0 -503 minecraft:brown_wool
-setblock -388 0 -503 minecraft:warped_wart_block
-setblock -381 0 -503 minecraft:birch_planks
-setblock -382 0 -503 minecraft:light_blue_concrete
-setblock -383 0 -503 minecraft:mossy_stone_bricks
-setblock -384 0 -503 minecraft:air
-setblock -377 0 -503 minecraft:andesite
-setblock -378 0 -503 minecraft:mossy_stone_bricks
-setblock -379 0 -503 minecraft:bricks
-setblock -380 0 -503 minecraft:air
-setblock -373 0 -503 minecraft:deepslate_iron_ore
-setblock -374 0 -503 minecraft:smooth_stone
-setblock -375 0 -503 minecraft:birch_planks
-setblock -376 0 -503 minecraft:brown_mushroom_block
-setblock -369 0 -503 minecraft:deepslate_iron_ore
-setblock -370 0 -503 minecraft:dark_oak_planks
-setblock -371 0 -503 minecraft:light_blue_stained_glass
-setblock -372 0 -503 minecraft:redstone_lamp
-setblock -365 0 -503 minecraft:andesite
-setblock -366 0 -503 minecraft:cobblestone
-setblock -367 0 -503 minecraft:air
-setblock -368 0 -503 minecraft:air
-setblock -361 0 -503 minecraft:andesite
-setblock -362 0 -503 minecraft:dark_oak_planks
-setblock -363 0 -503 minecraft:cobblestone
-setblock -364 0 -503 minecraft:air
-setblock -357 0 -503 minecraft:andesite
-setblock -358 0 -503 minecraft:cobblestone
-setblock -359 0 -503 minecraft:purple_terracotta
-setblock -360 0 -503 minecraft:air
-setblock -353 0 -503 minecraft:black_stained_glass
-setblock -354 0 -503 minecraft:nether_gold_ore
-setblock -355 0 -503 minecraft:end_stone_bricks
-setblock -356 0 -503 minecraft:verdant_froglight
-setblock -349 0 -503 minecraft:gray_stained_glass
-setblock -350 0 -503 minecraft:warped_stem
-setblock -351 0 -503 minecraft:air
-setblock -352 0 -503 minecraft:air
-setblock -345 0 -503 minecraft:pink_stained_glass
-setblock -346 0 -503 minecraft:stripped_oak_log
-setblock -347 0 -503 minecraft:light_gray_terracotta
-setblock -348 0 -503 minecraft:stripped_spruce_log
-setblock -341 0 -503 minecraft:green_wool
-setblock -342 0 -503 minecraft:oak_log
-setblock -343 0 -503 minecraft:lime_stained_glass
-setblock -344 0 -503 minecraft:gray_stained_glass
-setblock -337 0 -503 minecraft:purple_wool
-setblock -338 0 -503 minecraft:oak_log
-setblock -339 0 -503 minecraft:light_blue_terracotta
-setblock -340 0 -503 minecraft:cyan_stained_glass
-setblock -333 0 -503 minecraft:red_stained_glass
-setblock -334 0 -503 minecraft:stripped_oak_log
-setblock -335 0 -503 minecraft:light_gray_terracotta
-setblock -336 0 -503 minecraft:stripped_spruce_log
-setblock -329 0 -503 minecraft:stripped_jungle_log
-setblock -330 0 -503 minecraft:light_blue_stained_glass
-setblock -331 0 -503 minecraft:black_stained_glass
-setblock -332 0 -503 minecraft:light_blue_terracotta
-setblock -325 0 -503 minecraft:stripped_oak_log
-setblock -326 0 -503 minecraft:light_gray_terracotta
-setblock -327 0 -503 minecraft:stripped_spruce_log
-setblock -328 0 -503 minecraft:air
-setblock -321 0 -503 minecraft:lime_stained_glass
-setblock -322 0 -503 minecraft:light_gray_terracotta
-setblock -323 0 -503 minecraft:white_terracotta
-setblock -324 0 -503 minecraft:stripped_oak_log
-setblock -317 0 -503 minecraft:air
-setblock -318 0 -503 minecraft:air
-setblock -319 0 -503 minecraft:air
-setblock -320 0 -503 minecraft:air
-setblock -313 0 -503 minecraft:light_blue_terracotta
-setblock -314 0 -503 minecraft:orange_terracotta
-setblock -315 0 -503 minecraft:magenta_terracotta
-setblock -316 0 -503 minecraft:yellow_terracotta
-setblock -309 0 -503 minecraft:stripped_oak_log
-setblock -310 0 -503 minecraft:air
-setblock -311 0 -503 minecraft:air
-setblock -312 0 -503 minecraft:air
-setblock -305 0 -503 minecraft:brown_stained_glass
-setblock -306 0 -503 minecraft:red_stained_glass
-setblock -307 0 -503 minecraft:stripped_oak_log
-setblock -308 0 -503 minecraft:air
-setblock -301 0 -503 minecraft:brown_stained_glass
-setblock -302 0 -503 minecraft:black_stained_glass
-setblock -303 0 -503 minecraft:gray_stained_glass
-setblock -304 0 -503 minecraft:stripped_oak_log
-setblock -297 0 -503 minecraft:air
-setblock -298 0 -503 minecraft:air
-setblock -299 0 -503 minecraft:air
-setblock -300 0 -503 minecraft:air
-setblock -293 0 -503 minecraft:white_terracotta
-setblock -294 0 -503 minecraft:black_stained_glass
-setblock -295 0 -503 minecraft:gray_terracotta
-setblock -296 0 -503 minecraft:stripped_oak_log
-setblock -289 0 -503 minecraft:air
-setblock -290 0 -503 minecraft:air
-setblock -291 0 -503 minecraft:air
-setblock -292 0 -503 minecraft:air
-setblock -285 0 -503 minecraft:dark_oak_log
-setblock -286 0 -503 minecraft:light_blue_terracotta
-setblock -287 0 -503 minecraft:air
-setblock -288 0 -503 minecraft:air
-setblock -281 0 -503 minecraft:pearlescent_froglight
-setblock -282 0 -503 minecraft:birch_planks
-setblock -283 0 -503 minecraft:air
-setblock -284 0 -503 minecraft:air
-setblock -277 0 -503 minecraft:polished_andesite
-setblock -278 0 -503 minecraft:acacia_planks
-setblock -279 0 -503 minecraft:air
-setblock -280 0 -503 minecraft:air
-setblock -273 0 -503 minecraft:tinted_glass
-setblock -274 0 -503 minecraft:birch_planks
-setblock -275 0 -503 minecraft:air
-setblock -276 0 -503 minecraft:air
-setblock -269 0 -503 minecraft:pearlescent_froglight
-setblock -270 0 -503 minecraft:birch_planks
-setblock -271 0 -503 minecraft:air
-setblock -272 0 -503 minecraft:air
-setblock -265 0 -503 minecraft:pearlescent_froglight
-setblock -266 0 -503 minecraft:birch_planks
-setblock -267 0 -503 minecraft:air
-setblock -268 0 -503 minecraft:air
-setblock -261 0 -503 minecraft:pearlescent_froglight
-setblock -262 0 -503 minecraft:birch_planks
-setblock -263 0 -503 minecraft:air
-setblock -264 0 -503 minecraft:air
-setblock -257 0 -503 minecraft:pearlescent_froglight
-setblock -258 0 -503 minecraft:birch_planks
-setblock -259 0 -503 minecraft:air
-setblock -260 0 -503 minecraft:air
-setblock -253 0 -503 minecraft:pearlescent_froglight
-setblock -254 0 -503 minecraft:birch_planks
-setblock -255 0 -503 minecraft:air
-setblock -256 0 -503 minecraft:air
-setblock -249 0 -503 minecraft:light_gray_stained_glass
-setblock -250 0 -503 minecraft:birch_planks
-setblock -251 0 -503 minecraft:air
-setblock -252 0 -503 minecraft:air
-setblock -245 0 -503 minecraft:light_gray_stained_glass
-setblock -246 0 -503 minecraft:birch_planks
-setblock -247 0 -503 minecraft:air
-setblock -248 0 -503 minecraft:air
-setblock -241 0 -503 minecraft:light_gray_stained_glass
-setblock -242 0 -503 minecraft:birch_planks
-setblock -243 0 -503 minecraft:air
-setblock -244 0 -503 minecraft:air
-setblock -237 0 -503 minecraft:light_gray_stained_glass
-setblock -238 0 -503 minecraft:birch_planks
-setblock -239 0 -503 minecraft:air
-setblock -240 0 -503 minecraft:air
-setblock -233 0 -503 minecraft:light_gray_stained_glass
-setblock -234 0 -503 minecraft:birch_planks
-setblock -235 0 -503 minecraft:air
-setblock -236 0 -503 minecraft:air
-setblock -229 0 -503 minecraft:light_gray_stained_glass
-setblock -230 0 -503 minecraft:birch_planks
-setblock -231 0 -503 minecraft:air
-setblock -232 0 -503 minecraft:air
-setblock -225 0 -503 minecraft:light_gray_stained_glass
-setblock -226 0 -503 minecraft:birch_planks
-setblock -227 0 -503 minecraft:air
-setblock -228 0 -503 minecraft:air
-setblock -221 0 -503 minecraft:brown_concrete
-setblock -222 0 -503 minecraft:acacia_planks
-setblock -223 0 -503 minecraft:air
-setblock -224 0 -503 minecraft:air
-setblock -217 0 -503 minecraft:white_wool
-setblock -218 0 -503 minecraft:acacia_planks
-setblock -219 0 -503 minecraft:air
-setblock -220 0 -503 minecraft:air
-setblock -213 0 -503 minecraft:pearlescent_froglight
-setblock -214 0 -503 minecraft:cobblestone
-setblock -215 0 -503 minecraft:air
-setblock -216 0 -503 minecraft:air
-setblock -209 0 -503 minecraft:yellow_stained_glass
-setblock -210 0 -503 minecraft:crimson_planks
-setblock -211 0 -503 minecraft:air
-setblock -212 0 -503 minecraft:air
-setblock -205 0 -503 minecraft:yellow_glazed_terracotta
-setblock -206 0 -503 minecraft:mangrove_planks
-setblock -207 0 -503 minecraft:air
-setblock -208 0 -503 minecraft:air
-setblock -201 0 -503 minecraft:warped_stem
-setblock -202 0 -503 minecraft:mangrove_planks
-setblock -203 0 -503 minecraft:air
-setblock -204 0 -503 minecraft:air
-setblock -197 0 -503 minecraft:lapis_ore
-setblock -198 0 -503 minecraft:mangrove_planks
-setblock -199 0 -503 minecraft:air
-setblock -200 0 -503 minecraft:air
-setblock -193 0 -503 minecraft:diamond_block
-setblock -194 0 -503 minecraft:mossy_cobblestone
-setblock -195 0 -503 minecraft:air
-setblock -196 0 -503 minecraft:air
-setblock -189 0 -503 minecraft:yellow_stained_glass
-setblock -190 0 -503 minecraft:dark_oak_planks
-setblock -191 0 -503 minecraft:air
-setblock -192 0 -503 minecraft:air
-setblock -185 0 -503 minecraft:white_glazed_terracotta
-setblock -186 0 -503 minecraft:dark_oak_planks
-setblock -187 0 -503 minecraft:air
-setblock -188 0 -503 minecraft:air
-setblock -181 0 -503 minecraft:brown_concrete
-setblock -182 0 -503 minecraft:mangrove_planks
-setblock -183 0 -503 minecraft:air
-setblock -184 0 -503 minecraft:air
-setblock -177 0 -503 minecraft:light_gray_wool
-setblock -178 0 -503 minecraft:mangrove_planks
-setblock -179 0 -503 minecraft:air
-setblock -180 0 -503 minecraft:air
-setblock -173 0 -503 minecraft:brown_stained_glass
-setblock -174 0 -503 minecraft:dark_oak_planks
-setblock -175 0 -503 minecraft:air
-setblock -176 0 -503 minecraft:air
-setblock -169 0 -503 minecraft:air
-setblock -170 0 -503 minecraft:air
-setblock -171 0 -503 minecraft:spawner
-setblock -172 0 -503 minecraft:magenta_concrete
-setblock -165 0 -503 minecraft:air
-setblock -166 0 -503 minecraft:air
-setblock -167 0 -503 minecraft:air
-setblock -168 0 -503 minecraft:black_wool
-setblock -161 0 -503 minecraft:air
-setblock -162 0 -503 minecraft:air
-setblock -163 0 -503 minecraft:oak_log
-setblock -164 0 -503 minecraft:orange_concrete
-setblock -157 0 -503 minecraft:snow_block
-setblock -158 0 -503 minecraft:blue_ice
-setblock -159 0 -503 minecraft:blue_ice
-setblock -160 0 -503 minecraft:green_wool
-setblock -153 0 -503 minecraft:lapis_ore
-setblock -154 0 -503 minecraft:light_gray_terracotta
-setblock -155 0 -503 minecraft:quartz_pillar
-setblock -156 0 -503 minecraft:coal_ore
-setblock -149 0 -503 minecraft:lapis_ore
-setblock -150 0 -503 minecraft:light_gray_terracotta
-setblock -151 0 -503 minecraft:quartz_pillar
-setblock -152 0 -503 minecraft:white_stained_glass
-setblock -145 0 -503 minecraft:air
-setblock -146 0 -503 minecraft:air
-setblock -147 0 -503 minecraft:warped_stem
-setblock -148 0 -503 minecraft:black_wool
-setblock -141 0 -503 minecraft:air
-setblock -142 0 -503 minecraft:air
-setblock -143 0 -503 minecraft:air
-setblock -144 0 -503 minecraft:white_concrete
-setblock -137 0 -503 minecraft:bone_block
-setblock -138 0 -503 minecraft:granite
-setblock -139 0 -503 minecraft:cyan_concrete
-setblock -140 0 -503 minecraft:white_concrete
-setblock -133 0 -503 minecraft:air
-setblock -134 0 -503 minecraft:air
-setblock -135 0 -503 minecraft:light_gray_concrete
-setblock -136 0 -503 minecraft:light_blue_concrete
-setblock -129 0 -503 minecraft:air
-setblock -130 0 -503 minecraft:air
-setblock -131 0 -503 minecraft:brown_terracotta
-setblock -132 0 -503 minecraft:magenta_concrete
-setblock -125 0 -503 minecraft:lime_wool
-setblock -126 0 -503 minecraft:brown_mushroom_block
-setblock -127 0 -503 minecraft:prismarine_bricks
-setblock -128 0 -503 minecraft:brown_wool
-setblock -121 0 -503 minecraft:bone_block
-setblock -122 0 -503 minecraft:granite
-setblock -123 0 -503 minecraft:honey_block
-setblock -124 0 -503 minecraft:white_concrete
-setblock -117 0 -503 minecraft:bone_block
-setblock -118 0 -503 minecraft:granite
-setblock -119 0 -503 minecraft:cyan_concrete
-setblock -120 0 -503 minecraft:grass_block
-setblock -113 0 -503 minecraft:air
-setblock -114 0 -503 minecraft:air
-setblock -115 0 -503 minecraft:grass_block
-setblock -116 0 -503 minecraft:white_concrete
-setblock -109 0 -503 minecraft:air
-setblock -110 0 -503 minecraft:air
-setblock -111 0 -503 minecraft:purpur_block
-setblock -112 0 -503 minecraft:orange_concrete
-setblock -105 0 -503 minecraft:air
-setblock -106 0 -503 minecraft:air
-setblock -107 0 -503 minecraft:stripped_oak_log
-setblock -108 0 -503 minecraft:magenta_concrete
-setblock -101 0 -503 minecraft:air
-setblock -102 0 -503 minecraft:air
-setblock -103 0 -503 minecraft:netherrack
-setblock -104 0 -503 minecraft:magenta_concrete
-setblock -97 0 -503 minecraft:air
-setblock -98 0 -503 minecraft:air
-setblock -99 0 -503 minecraft:tinted_glass
-setblock -100 0 -503 minecraft:magenta_concrete
-setblock -93 0 -503 minecraft:air
-setblock -94 0 -503 minecraft:air
-setblock -95 0 -503 minecraft:cracked_deepslate_tiles
-setblock -96 0 -503 minecraft:light_blue_concrete
-setblock -89 0 -503 minecraft:air
-setblock -90 0 -503 minecraft:air
-setblock -91 0 -503 minecraft:magenta_glazed_terracotta
-setblock -92 0 -503 minecraft:light_blue_concrete
-setblock -85 0 -503 minecraft:air
-setblock -86 0 -503 minecraft:air
-setblock -87 0 -503 minecraft:hay_block
-setblock -88 0 -503 minecraft:light_blue_concrete
-setblock -81 0 -503 minecraft:air
-setblock -82 0 -503 minecraft:air
-setblock -83 0 -503 minecraft:chiseled_quartz_block
-setblock -84 0 -503 minecraft:light_blue_concrete
-setblock -77 0 -503 minecraft:air
-setblock -78 0 -503 minecraft:air
-setblock -79 0 -503 minecraft:terracotta
-setblock -80 0 -503 minecraft:light_blue_concrete
-setblock -73 0 -503 minecraft:bone_block
-setblock -74 0 -503 minecraft:granite
-setblock -75 0 -503 minecraft:honey_block
-setblock -76 0 -503 minecraft:black_wool
-setblock -69 0 -503 minecraft:basalt
-setblock -70 0 -503 minecraft:dead_horn_coral_block
-setblock -71 0 -503 minecraft:glass
-setblock -72 0 -503 minecraft:light_blue_wool
-setblock -65 0 -503 minecraft:polished_deepslate
-setblock -66 0 -503 minecraft:magenta_terracotta
-setblock -67 0 -503 minecraft:orange_wool
-setblock -68 0 -503 minecraft:black_wool
-setblock -61 0 -503 minecraft:prismarine_bricks
-setblock -62 0 -503 minecraft:green_glazed_terracotta
-setblock -63 0 -503 minecraft:andesite
-setblock -64 0 -503 minecraft:white_concrete
-setblock -57 0 -503 minecraft:black_stained_glass
-setblock -58 0 -503 minecraft:polished_diorite
-setblock -59 0 -503 minecraft:mud_bricks
-setblock -60 0 -503 minecraft:purple_wool
-setblock -53 0 -503 minecraft:snow_block
-setblock -54 0 -503 minecraft:blue_ice
-setblock -55 0 -503 minecraft:brown_concrete
-setblock -56 0 -503 minecraft:green_wool
-setblock -49 0 -503 minecraft:air
-setblock -50 0 -503 minecraft:air
-setblock -51 0 -503 minecraft:spawner
-setblock -52 0 -503 minecraft:mycelium
-setblock -45 0 -503 minecraft:yellow_glazed_terracotta
-setblock -46 0 -503 minecraft:cracked_deepslate_tiles
-setblock -47 0 -503 minecraft:air
-setblock -48 0 -503 minecraft:air
-setblock -41 0 -503 minecraft:white_glazed_terracotta
-setblock -42 0 -503 minecraft:deepslate_tiles
-setblock -43 0 -503 minecraft:air
-setblock -44 0 -503 minecraft:air
-setblock -37 0 -503 minecraft:polished_blackstone_bricks
-setblock -38 0 -503 minecraft:deepslate_bricks
-setblock -39 0 -503 minecraft:air
-setblock -40 0 -503 minecraft:air
-setblock -33 0 -503 minecraft:polished_blackstone_bricks
-setblock -34 0 -503 minecraft:deepslate_bricks
-setblock -35 0 -503 minecraft:air
-setblock -36 0 -503 minecraft:air
-setblock -29 0 -503 minecraft:polished_blackstone_bricks
-setblock -30 0 -503 minecraft:deepslate_bricks
-setblock -31 0 -503 minecraft:air
-setblock -32 0 -503 minecraft:air
-setblock -25 0 -503 minecraft:polished_blackstone_bricks
-setblock -26 0 -503 minecraft:deepslate_bricks
-setblock -27 0 -503 minecraft:air
-setblock -28 0 -503 minecraft:air
-setblock -21 0 -503 minecraft:polished_blackstone_bricks
-setblock -22 0 -503 minecraft:deepslate_bricks
-setblock -23 0 -503 minecraft:air
-setblock -24 0 -503 minecraft:air
-setblock -17 0 -503 minecraft:polished_blackstone_bricks
-setblock -18 0 -503 minecraft:deepslate_bricks
-setblock -19 0 -503 minecraft:air
-setblock -20 0 -503 minecraft:air
-setblock -13 0 -503 minecraft:polished_blackstone_bricks
-setblock -14 0 -503 minecraft:deepslate_bricks
-setblock -15 0 -503 minecraft:air
-setblock -16 0 -503 minecraft:air
-setblock -9 0 -503 minecraft:polished_blackstone_bricks
-setblock -10 0 -503 minecraft:deepslate_bricks
-setblock -11 0 -503 minecraft:air
-setblock -12 0 -503 minecraft:air
-setblock -5 0 -503 minecraft:polished_blackstone_bricks
-setblock -6 0 -503 minecraft:deepslate_bricks
-setblock -7 0 -503 minecraft:air
-setblock -8 0 -503 minecraft:air
-setblock -1 0 -503 minecraft:polished_blackstone_bricks
-setblock -2 0 -503 minecraft:deepslate_bricks
-setblock -3 0 -503 minecraft:air
-setblock -4 0 -503 minecraft:air
-setblock 3 0 -503 minecraft:polished_blackstone_bricks
-setblock 2 0 -503 minecraft:deepslate_bricks
-setblock 1 0 -503 minecraft:air
-setblock 0 0 -503 minecraft:air
-setblock 7 0 -503 minecraft:polished_blackstone_bricks
-setblock 6 0 -503 minecraft:deepslate_bricks
-setblock 5 0 -503 minecraft:air
-setblock 4 0 -503 minecraft:air
-setblock 11 0 -503 minecraft:polished_blackstone_bricks
-setblock 10 0 -503 minecraft:deepslate_bricks
-setblock 9 0 -503 minecraft:air
-setblock 8 0 -503 minecraft:air
-setblock 15 0 -503 minecraft:polished_blackstone_bricks
-setblock 14 0 -503 minecraft:deepslate_bricks
-setblock 13 0 -503 minecraft:air
-setblock 12 0 -503 minecraft:air
-setblock 19 0 -503 minecraft:nether_wart_block
-setblock 18 0 -503 minecraft:cracked_deepslate_bricks
-setblock 17 0 -503 minecraft:air
-setblock 16 0 -503 minecraft:air
-setblock 23 0 -503 minecraft:polished_blackstone_bricks
-setblock 22 0 -503 minecraft:deepslate_bricks
-setblock 21 0 -503 minecraft:air
-setblock 20 0 -503 minecraft:air
-setblock 27 0 -503 minecraft:nether_wart_block
-setblock 26 0 -503 minecraft:deepslate_bricks
-setblock 25 0 -503 minecraft:air
-setblock 24 0 -503 minecraft:air
-setblock 31 0 -503 minecraft:polished_blackstone_bricks
-setblock 30 0 -503 minecraft:deepslate_bricks
-setblock 29 0 -503 minecraft:air
-setblock 28 0 -503 minecraft:air
-setblock 35 0 -503 minecraft:polished_blackstone_bricks
-setblock 34 0 -503 minecraft:deepslate_bricks
-setblock 33 0 -503 minecraft:air
-setblock 32 0 -503 minecraft:air
-setblock 39 0 -503 minecraft:quartz_bricks
-setblock 38 0 -503 minecraft:deepslate_bricks
-setblock 37 0 -503 minecraft:air
-setblock 36 0 -503 minecraft:air
-setblock 43 0 -503 minecraft:air
-setblock 42 0 -503 minecraft:air
-setblock 41 0 -503 minecraft:air
-setblock 40 0 -503 minecraft:air
-setblock 47 0 -503 minecraft:air
-setblock 46 0 -503 minecraft:jungle_planks
-setblock 45 0 -503 minecraft:jungle_planks
-setblock 44 0 -503 minecraft:jungle_planks
-setblock 51 0 -503 minecraft:air
-setblock 50 0 -503 minecraft:jungle_planks
-setblock 49 0 -503 minecraft:cobblestone
-setblock 48 0 -503 minecraft:cobblestone
-setblock 55 0 -503 minecraft:air
-setblock 54 0 -503 minecraft:air
-setblock 53 0 -503 minecraft:air
-setblock 52 0 -503 minecraft:cobblestone
-setblock 59 0 -503 minecraft:packed_mud
-setblock 58 0 -503 minecraft:cobblestone
-setblock 57 0 -503 minecraft:packed_mud
-setblock 56 0 -503 minecraft:cobblestone
-setblock 63 0 -503 minecraft:jungle_planks
-setblock 62 0 -503 minecraft:granite
-setblock 61 0 -503 minecraft:polished_andesite
-setblock 60 0 -503 minecraft:granite
-setblock 67 0 -503 minecraft:jungle_planks
-setblock 66 0 -503 minecraft:andesite
-setblock 65 0 -503 minecraft:crimson_planks
-setblock 64 0 -503 minecraft:jungle_planks
-setblock 71 0 -503 minecraft:spruce_planks
-setblock 70 0 -503 minecraft:deepslate_bricks
-setblock 69 0 -503 minecraft:dark_oak_planks
-setblock 68 0 -503 minecraft:stone
-setblock 75 0 -503 minecraft:deepslate
-setblock 74 0 -503 minecraft:spruce_planks
-setblock 73 0 -503 minecraft:acacia_planks
-setblock 72 0 -503 minecraft:dark_oak_planks
-setblock 79 0 -503 minecraft:dark_oak_planks
-setblock 78 0 -503 minecraft:air
-setblock 77 0 -503 minecraft:air
-setblock 76 0 -503 minecraft:air
-setblock 83 0 -503 minecraft:spruce_planks
-setblock 82 0 -503 minecraft:jungle_planks
-setblock 81 0 -503 minecraft:jungle_planks
-setblock 80 0 -503 minecraft:jungle_planks
-setblock 87 0 -503 minecraft:spruce_planks
-setblock 86 0 -503 minecraft:crimson_planks
-setblock 85 0 -503 minecraft:jungle_planks
-setblock 84 0 -503 minecraft:jungle_planks
-setblock 91 0 -503 minecraft:jungle_planks
-setblock 90 0 -503 minecraft:crimson_planks
-setblock 89 0 -503 minecraft:air
-setblock 88 0 -503 minecraft:cobblestone
-setblock 95 0 -503 minecraft:jungle_planks
-setblock 94 0 -503 minecraft:cobblestone
-setblock 93 0 -503 minecraft:air
-setblock 92 0 -503 minecraft:air
-setblock 99 0 -503 minecraft:jungle_planks
-setblock 98 0 -503 minecraft:mossy_stone_bricks
-setblock 97 0 -503 minecraft:jungle_planks
-setblock 96 0 -503 minecraft:air
-setblock 103 0 -503 minecraft:air
-setblock 102 0 -503 minecraft:air
-setblock 101 0 -503 minecraft:air
-setblock 100 0 -503 minecraft:dark_oak_planks
-setblock 107 0 -503 minecraft:dark_oak_planks
-setblock 106 0 -503 minecraft:air
-setblock 105 0 -503 minecraft:air
-setblock 104 0 -503 minecraft:mossy_stone_bricks
-setblock 111 0 -503 minecraft:air
-setblock 110 0 -503 minecraft:air
-setblock 109 0 -503 minecraft:air
-setblock 108 0 -503 minecraft:air
-setblock 115 0 -503 minecraft:air
-setblock 114 0 -503 minecraft:dark_oak_planks
-setblock 113 0 -503 minecraft:dark_oak_planks
-setblock 112 0 -503 minecraft:air
-setblock 119 0 -503 minecraft:oak_planks
-setblock 118 0 -503 minecraft:spruce_planks
-setblock 117 0 -503 minecraft:jungle_planks
-setblock 116 0 -503 minecraft:crimson_planks
-setblock 123 0 -503 minecraft:mossy_stone_bricks
-setblock 122 0 -503 minecraft:diorite
-setblock 121 0 -503 minecraft:deepslate_bricks
-setblock 120 0 -503 minecraft:deepslate
-setblock 127 0 -503 minecraft:mossy_stone_bricks
-setblock 126 0 -503 minecraft:jungle_planks
-setblock 125 0 -503 minecraft:smooth_stone
-setblock 124 0 -503 minecraft:jungle_planks
-setblock 131 0 -503 minecraft:jungle_planks
-setblock 130 0 -503 minecraft:mossy_stone_bricks
-setblock 129 0 -503 minecraft:mossy_stone_bricks
-setblock 128 0 -503 minecraft:diorite
-setblock 135 0 -503 minecraft:dark_oak_planks
-setblock 134 0 -503 minecraft:crimson_planks
-setblock 133 0 -503 minecraft:packed_mud
-setblock 132 0 -503 minecraft:mossy_stone_bricks
-setblock 139 0 -503 minecraft:diorite
-setblock 138 0 -503 minecraft:dark_oak_planks
-setblock 137 0 -503 minecraft:oak_planks
-setblock 136 0 -503 minecraft:mossy_stone_bricks
-setblock 143 0 -503 minecraft:spruce_planks
-setblock 142 0 -503 minecraft:dark_oak_planks
-setblock 141 0 -503 minecraft:cobblestone
-setblock 140 0 -503 minecraft:packed_mud
-setblock 147 0 -503 minecraft:spruce_planks
-setblock 146 0 -503 minecraft:packed_mud
-setblock 145 0 -503 minecraft:polished_granite
-setblock 144 0 -503 minecraft:bricks
-setblock 151 0 -503 minecraft:oak_planks
-setblock 150 0 -503 minecraft:bricks
-setblock 149 0 -503 minecraft:mossy_stone_bricks
-setblock 148 0 -503 minecraft:polished_granite
-setblock 155 0 -503 minecraft:bricks
-setblock 154 0 -503 minecraft:diorite
-setblock 153 0 -503 minecraft:mossy_stone_bricks
-setblock 152 0 -503 minecraft:packed_mud
-setblock 159 0 -503 minecraft:oak_planks
-setblock 158 0 -503 minecraft:spruce_planks
-setblock 157 0 -503 minecraft:jungle_planks
-setblock 156 0 -503 minecraft:crimson_planks
-setblock 163 0 -503 minecraft:mossy_stone_bricks
-setblock 162 0 -503 minecraft:diorite
-setblock 161 0 -503 minecraft:mossy_stone_bricks
-setblock 160 0 -503 minecraft:diorite
-setblock 167 0 -503 minecraft:mossy_stone_bricks
-setblock 166 0 -503 minecraft:mossy_stone_bricks
-setblock 165 0 -503 minecraft:diorite
-setblock 164 0 -503 minecraft:granite
-setblock 171 0 -503 minecraft:oak_planks
-setblock 170 0 -503 minecraft:mossy_stone_bricks
-setblock 169 0 -503 minecraft:air
-setblock 168 0 -503 minecraft:dark_oak_planks
-setblock 175 0 -503 minecraft:air
-setblock 174 0 -503 minecraft:air
-setblock 173 0 -503 minecraft:dark_oak_planks
-setblock 172 0 -503 minecraft:air
-setblock 179 0 -503 minecraft:dark_oak_planks
-setblock 178 0 -503 minecraft:dark_oak_planks
-setblock 177 0 -503 minecraft:air
-setblock 176 0 -503 minecraft:dark_oak_planks
-setblock 183 0 -503 minecraft:spruce_planks
-setblock 182 0 -503 minecraft:jungle_planks
-setblock 181 0 -503 minecraft:crimson_planks
-setblock 180 0 -503 minecraft:jungle_planks
-setblock 187 0 -503 minecraft:spruce_planks
-setblock 186 0 -503 minecraft:air
-setblock 185 0 -503 minecraft:mossy_stone_bricks
-setblock 184 0 -503 minecraft:air
-setblock 191 0 -503 minecraft:mossy_stone_bricks
-setblock 190 0 -503 minecraft:air
-setblock 189 0 -503 minecraft:crimson_planks
-setblock 188 0 -503 minecraft:jungle_planks
-setblock 195 0 -503 minecraft:spruce_planks
-setblock 194 0 -503 minecraft:jungle_planks
-setblock 193 0 -503 minecraft:crimson_planks
-setblock 192 0 -503 minecraft:mossy_stone_bricks
-setblock 199 0 -503 minecraft:diorite
-setblock 198 0 -503 minecraft:spruce_planks
-setblock 197 0 -503 minecraft:air
-setblock 196 0 -503 minecraft:jungle_planks
-setblock 203 0 -503 minecraft:mossy_stone_bricks
-setblock 202 0 -503 minecraft:deepslate
-setblock 201 0 -503 minecraft:chiseled_deepslate
-setblock 200 0 -503 minecraft:polished_granite
-setblock 207 0 -503 minecraft:mossy_stone_bricks
-setblock 206 0 -503 minecraft:mossy_stone_bricks
-setblock 205 0 -503 minecraft:diorite
-setblock 204 0 -503 minecraft:packed_mud
-setblock 211 0 -503 minecraft:diorite
-setblock 210 0 -503 minecraft:diorite
-setblock 209 0 -503 minecraft:bricks
-setblock 208 0 -503 minecraft:diorite
-setblock 215 0 -503 minecraft:bricks
-setblock 214 0 -503 minecraft:diorite
-setblock 213 0 -503 minecraft:bricks
-setblock 212 0 -503 minecraft:mossy_stone_bricks
-setblock 219 0 -503 minecraft:diorite
-setblock 218 0 -503 minecraft:polished_granite
-setblock 217 0 -503 minecraft:diorite
-setblock 216 0 -503 minecraft:mossy_stone_bricks
-setblock 223 0 -503 minecraft:bricks
-setblock 222 0 -503 minecraft:diorite
-setblock 221 0 -503 minecraft:diorite
-setblock 220 0 -503 minecraft:diorite
-setblock 227 0 -503 minecraft:bricks
-setblock 226 0 -503 minecraft:packed_mud
-setblock 225 0 -503 minecraft:polished_granite
-setblock 224 0 -503 minecraft:bricks
-setblock 231 0 -503 minecraft:polished_granite
-setblock 230 0 -503 minecraft:packed_mud
-setblock 229 0 -503 minecraft:packed_mud
-setblock 228 0 -503 minecraft:polished_granite
-setblock 235 0 -503 minecraft:bricks
-setblock 234 0 -503 minecraft:polished_granite
-setblock 233 0 -503 minecraft:polished_granite
-setblock 232 0 -503 minecraft:mossy_stone_bricks
-setblock 239 0 -503 minecraft:polished_granite
-setblock 238 0 -503 minecraft:andesite
-setblock 237 0 -503 minecraft:diorite
-setblock 236 0 -503 minecraft:mossy_stone_bricks
-setblock 243 0 -503 minecraft:diorite
-setblock 242 0 -503 minecraft:diorite
-setblock 241 0 -503 minecraft:packed_mud
-setblock 240 0 -503 minecraft:diorite
-setblock 247 0 -503 minecraft:diorite
-setblock 246 0 -503 minecraft:mossy_stone_bricks
-setblock 245 0 -503 minecraft:jungle_planks
-setblock 244 0 -503 minecraft:jungle_planks
-setblock 251 0 -503 minecraft:jungle_planks
-setblock 250 0 -503 minecraft:mossy_stone_bricks
-setblock 249 0 -503 minecraft:oak_planks
-setblock 248 0 -503 minecraft:oak_planks
-setblock 255 0 -503 minecraft:oak_planks
-setblock 254 0 -503 minecraft:diorite
-setblock 253 0 -503 minecraft:mossy_stone_bricks
-setblock 252 0 -503 minecraft:diorite
-setblock 259 0 -503 minecraft:polished_diorite
-setblock 258 0 -503 minecraft:cracked_deepslate_tiles
-setblock 257 0 -503 minecraft:polished_diorite
-setblock 256 0 -503 minecraft:diorite
-setblock 263 0 -503 minecraft:polished_granite
-setblock 262 0 -503 minecraft:polished_granite
-setblock 261 0 -503 minecraft:polished_granite
-setblock 260 0 -503 minecraft:polished_granite
-setblock 267 0 -503 minecraft:packed_mud
-setblock 266 0 -503 minecraft:diorite
-setblock 265 0 -503 minecraft:deepslate_tiles
-setblock 264 0 -503 minecraft:deepslate
-setblock 271 0 -503 minecraft:diorite
-setblock 270 0 -503 minecraft:diorite
-setblock 269 0 -503 minecraft:diorite
-setblock 268 0 -503 minecraft:deepslate_bricks
-setblock 275 0 -503 minecraft:deepslate
-setblock 274 0 -503 minecraft:andesite
-setblock 273 0 -503 minecraft:diorite
-setblock 272 0 -503 minecraft:mossy_stone_bricks
-setblock 279 0 -503 minecraft:diorite
-setblock 278 0 -503 minecraft:diorite
-setblock 277 0 -503 minecraft:diorite
-setblock 276 0 -503 minecraft:mossy_stone_bricks
-setblock 283 0 -503 minecraft:bricks
-setblock 282 0 -503 minecraft:diorite
-setblock 281 0 -503 minecraft:bricks
-setblock 280 0 -503 minecraft:polished_granite
-setblock 287 0 -503 minecraft:polished_granite
-setblock 286 0 -503 minecraft:mossy_stone_bricks
-setblock 285 0 -503 minecraft:diorite
-setblock 284 0 -503 minecraft:deepslate
-setblock 291 0 -503 minecraft:polished_diorite
-setblock 290 0 -503 minecraft:stone_bricks
-setblock 289 0 -503 minecraft:bricks
-setblock 288 0 -503 minecraft:diorite
-setblock 295 0 -503 minecraft:bricks
-setblock 294 0 -503 minecraft:polished_diorite
-setblock 293 0 -503 minecraft:diorite
-setblock 292 0 -503 minecraft:mossy_stone_bricks
-setblock 299 0 -503 minecraft:polished_granite
-setblock 298 0 -503 minecraft:mossy_stone_bricks
-setblock 297 0 -503 minecraft:oak_planks
-setblock 296 0 -503 minecraft:mossy_stone_bricks
-setblock 303 0 -503 minecraft:packed_mud
-setblock 302 0 -503 minecraft:jungle_planks
-setblock 301 0 -503 minecraft:jungle_planks
-setblock 300 0 -503 minecraft:jungle_planks
-setblock 307 0 -503 minecraft:jungle_planks
-setblock 306 0 -503 minecraft:diorite
-setblock 305 0 -503 minecraft:diorite
-setblock 304 0 -503 minecraft:diorite
-setblock 311 0 -503 minecraft:diorite
-setblock 310 0 -503 minecraft:mossy_stone_bricks
-setblock 309 0 -503 minecraft:diorite
-setblock 308 0 -503 minecraft:diorite
-setblock 315 0 -503 minecraft:diorite
-setblock 314 0 -503 minecraft:cobblestone
-setblock 313 0 -503 minecraft:jungle_planks
-setblock 312 0 -503 minecraft:diorite
-setblock 319 0 -503 minecraft:diorite
-setblock 318 0 -503 minecraft:deepslate
-setblock 317 0 -503 minecraft:deepslate_tiles
-setblock 316 0 -503 minecraft:diorite
-setblock 323 0 -503 minecraft:diorite
-setblock 322 0 -503 minecraft:cobblestone
-setblock 321 0 -503 minecraft:jungle_planks
-setblock 320 0 -503 minecraft:cobblestone
-setblock 327 0 -503 minecraft:diorite
-setblock 326 0 -503 minecraft:diorite
-setblock 325 0 -503 minecraft:diorite
-setblock 324 0 -503 minecraft:cobblestone
-setblock 331 0 -503 minecraft:jungle_planks
-setblock 330 0 -503 minecraft:jungle_planks
-setblock 329 0 -503 minecraft:packed_mud
-setblock 328 0 -503 minecraft:spruce_planks
-setblock 335 0 -503 minecraft:jungle_planks
-setblock 334 0 -503 minecraft:crimson_planks
-setblock 333 0 -503 minecraft:packed_mud
-setblock 332 0 -503 minecraft:mossy_stone_bricks
-setblock 339 0 -503 minecraft:crimson_planks
-setblock 338 0 -503 minecraft:crimson_planks
-setblock 337 0 -503 minecraft:crimson_planks
-setblock 336 0 -503 minecraft:mossy_stone_bricks
-setblock 343 0 -503 minecraft:air
-setblock 342 0 -503 minecraft:crimson_planks
-setblock 341 0 -503 minecraft:jungle_planks
-setblock 340 0 -503 minecraft:spruce_planks
-setblock 347 0 -503 minecraft:oak_planks
-setblock 346 0 -503 minecraft:mossy_stone_bricks
-setblock 345 0 -503 minecraft:spruce_planks
-setblock 344 0 -503 minecraft:spruce_planks
-setblock 351 0 -503 minecraft:spruce_planks
-setblock 350 0 -503 minecraft:mossy_stone_bricks
-setblock 349 0 -503 minecraft:jungle_planks
-setblock 348 0 -503 minecraft:cobblestone
-setblock 355 0 -503 minecraft:air
-setblock 354 0 -503 minecraft:air
-setblock 353 0 -503 minecraft:air
-setblock 352 0 -503 minecraft:air
-setblock 359 0 -503 minecraft:air
-setblock 358 0 -503 minecraft:air
-setblock 357 0 -503 minecraft:air
-setblock 356 0 -503 minecraft:packed_mud
-setblock 363 0 -503 minecraft:dark_oak_planks
-setblock 362 0 -503 minecraft:spruce_planks
-setblock 361 0 -503 minecraft:air
-setblock 360 0 -503 minecraft:air
-setblock 367 0 -503 minecraft:air
-setblock 366 0 -503 minecraft:jungle_planks
-setblock 365 0 -503 minecraft:cobblestone
-setblock 364 0 -503 minecraft:diorite
-setblock 371 0 -503 minecraft:packed_mud
-setblock 370 0 -503 minecraft:diorite
-setblock 369 0 -503 minecraft:polished_granite
-setblock 368 0 -503 minecraft:bricks
-setblock 375 0 -503 minecraft:diorite
-setblock 374 0 -503 minecraft:diorite
-setblock 373 0 -503 minecraft:bricks
-setblock 372 0 -503 minecraft:air
-setblock 379 0 -503 minecraft:mossy_stone_bricks
-setblock 378 0 -503 minecraft:polished_granite
-setblock 377 0 -503 minecraft:polished_granite
-setblock 376 0 -503 minecraft:mossy_stone_bricks
-setblock 383 0 -503 minecraft:oak_planks
-setblock 382 0 -503 minecraft:granite
-setblock 381 0 -503 minecraft:diorite
-setblock 380 0 -503 minecraft:diorite
-setblock 387 0 -503 minecraft:granite
-setblock 386 0 -503 minecraft:mossy_stone_bricks
-setblock 385 0 -503 minecraft:diorite
-setblock 384 0 -503 minecraft:bricks
-setblock 391 0 -503 minecraft:polished_granite
-setblock 390 0 -503 minecraft:mossy_stone_bricks
-setblock 389 0 -503 minecraft:dark_oak_planks
-setblock 388 0 -503 minecraft:crimson_planks
-setblock 395 0 -503 minecraft:bricks
-setblock 394 0 -503 minecraft:crimson_planks
-setblock 393 0 -503 minecraft:crimson_planks
-setblock 392 0 -503 minecraft:mossy_stone_bricks
-setblock 399 0 -503 minecraft:diorite
-setblock 398 0 -503 minecraft:granite
-setblock 397 0 -503 minecraft:oak_planks
-setblock 396 0 -503 minecraft:mossy_stone_bricks
-setblock 403 0 -503 minecraft:polished_granite
-setblock 402 0 -503 minecraft:bricks
-setblock 401 0 -503 minecraft:diorite
-setblock 400 0 -503 minecraft:diorite
-setblock 407 0 -503 minecraft:diorite
-setblock 406 0 -503 minecraft:jungle_planks
-setblock 405 0 -503 minecraft:air
-setblock 404 0 -503 minecraft:smooth_stone
-setblock 411 0 -503 minecraft:jungle_planks
-setblock 410 0 -503 minecraft:mossy_stone_bricks
-setblock 409 0 -503 minecraft:spruce_planks
-setblock 408 0 -503 minecraft:air
-setblock 415 0 -503 minecraft:spruce_planks
-setblock 414 0 -503 minecraft:polished_diorite
-setblock 413 0 -503 minecraft:smooth_stone
-setblock 412 0 -503 minecraft:polished_granite
-setblock 419 0 -503 minecraft:polished_diorite
-setblock 418 0 -503 minecraft:cracked_deepslate_tiles
-setblock 417 0 -503 minecraft:polished_diorite
-setblock 416 0 -503 minecraft:diorite
-setblock 423 0 -503 minecraft:smooth_stone
-setblock 422 0 -503 minecraft:jungle_planks
-setblock 421 0 -503 minecraft:jungle_planks
-setblock 420 0 -503 minecraft:jungle_planks
-setblock 427 0 -503 minecraft:mossy_stone_bricks
-setblock 426 0 -503 minecraft:air
-setblock 425 0 -503 minecraft:bricks
-setblock 424 0 -503 minecraft:deepslate
-setblock 431 0 -503 minecraft:deepslate
-setblock 430 0 -503 minecraft:deepslate
-setblock 429 0 -503 minecraft:air
-setblock 428 0 -503 minecraft:bricks
-setblock 435 0 -503 minecraft:diorite
-setblock 434 0 -503 minecraft:diorite
-setblock 433 0 -503 minecraft:diorite
-setblock 432 0 -503 minecraft:air
-setblock 439 0 -503 minecraft:mossy_stone_bricks
-setblock 438 0 -503 minecraft:diorite
-setblock 437 0 -503 minecraft:diorite
-setblock 436 0 -503 minecraft:mossy_stone_bricks
-setblock 443 0 -503 minecraft:air
-setblock 442 0 -503 minecraft:bricks
-setblock 441 0 -503 minecraft:diorite
-setblock 440 0 -503 minecraft:bricks
-setblock 447 0 -503 minecraft:polished_granite
-setblock 446 0 -503 minecraft:air
-setblock 445 0 -503 minecraft:granite
-setblock 444 0 -503 minecraft:diorite
-setblock 451 0 -503 minecraft:granite
-setblock 450 0 -503 minecraft:oak_planks
-setblock 449 0 -503 minecraft:air
-setblock 448 0 -503 minecraft:bricks
-setblock 455 0 -503 minecraft:diorite
-setblock 454 0 -503 minecraft:polished_granite
-setblock 453 0 -503 minecraft:polished_granite
-setblock 452 0 -503 minecraft:mossy_stone_bricks
-setblock 459 0 -503 minecraft:polished_granite
-setblock 458 0 -503 minecraft:mossy_stone_bricks
-setblock 457 0 -503 minecraft:oak_planks
-setblock 456 0 -503 minecraft:mossy_stone_bricks
-setblock 463 0 -503 minecraft:crimson_planks
-setblock 462 0 -503 minecraft:bricks
-setblock 461 0 -503 minecraft:crimson_planks
-setblock 460 0 -503 minecraft:crimson_planks
-setblock 467 0 -503 minecraft:dark_oak_planks
-setblock 466 0 -503 minecraft:air
-setblock 465 0 -503 minecraft:diorite
-setblock 464 0 -503 minecraft:diorite
-setblock 471 0 -503 minecraft:diorite
-setblock 470 0 -503 minecraft:granite
-setblock 469 0 -503 minecraft:air
-setblock 468 0 -503 minecraft:diorite
-setblock 475 0 -503 minecraft:diorite
-setblock 474 0 -503 minecraft:cobblestone
-setblock 473 0 -503 minecraft:jungle_planks
-setblock 472 0 -503 minecraft:air
-setblock 479 0 -503 minecraft:diorite
-setblock 478 0 -503 minecraft:deepslate
-setblock 477 0 -503 minecraft:deepslate
-setblock 476 0 -503 minecraft:cobblestone
-setblock 483 0 -503 minecraft:air
-setblock 482 0 -503 minecraft:diorite
-setblock 481 0 -503 minecraft:cobblestone
-setblock 480 0 -503 minecraft:jungle_planks
-setblock 487 0 -503 minecraft:cobblestone
-setblock 486 0 -503 minecraft:air
-setblock 485 0 -503 minecraft:diorite
-setblock 484 0 -503 minecraft:diorite
-setblock 491 0 -503 minecraft:granite
-setblock 490 0 -503 minecraft:oak_planks
-setblock 489 0 -503 minecraft:air
-setblock 488 0 -503 minecraft:packed_mud
-setblock 495 0 -503 minecraft:spruce_planks
-setblock 494 0 -503 minecraft:jungle_planks
-setblock 493 0 -503 minecraft:packed_mud
-setblock 492 0 -503 minecraft:dark_oak_planks
-setblock 499 0 -503 minecraft:crimson_planks
-setblock 498 0 -503 minecraft:polished_granite
-setblock 497 0 -503 minecraft:crimson_planks
-setblock 496 0 -503 minecraft:dark_oak_planks
-setblock 503 0 -503 minecraft:jungle_planks
-setblock 502 0 -503 minecraft:jungle_planks
-setblock 501 0 -503 minecraft:jungle_planks
-setblock 500 0 -503 minecraft:jungle_planks
-setblock 507 0 -503 minecraft:jungle_planks
-setblock 506 0 -503 minecraft:smooth_stone
-setblock 505 0 -503 minecraft:spruce_planks
-setblock 504 0 -503 minecraft:oak_planks
-setblock 511 0 -503 minecraft:spruce_planks
-setblock 510 0 -503 minecraft:smooth_stone
-setblock 509 0 -503 minecraft:crimson_planks
-setblock 508 0 -503 minecraft:deepslate
-setblock -509 0 -502 minecraft:spruce_planks
-setblock -510 0 -502 minecraft:air
-setblock -511 0 -502 minecraft:air
-setblock -512 0 -502 minecraft:air
-setblock -505 0 -502 minecraft:polished_granite
-setblock -506 0 -502 minecraft:air
-setblock -507 0 -502 minecraft:air
-setblock -508 0 -502 minecraft:air
-setblock -501 0 -502 minecraft:air
-setblock -502 0 -502 minecraft:air
-setblock -503 0 -502 minecraft:air
-setblock -504 0 -502 minecraft:air
-setblock -497 0 -502 minecraft:birch_planks
-setblock -498 0 -502 minecraft:purple_terracotta
-setblock -499 0 -502 minecraft:magenta_glazed_terracotta
-setblock -500 0 -502 minecraft:air
-setblock -493 0 -502 minecraft:oak_planks
-setblock -494 0 -502 minecraft:brown_terracotta
-setblock -495 0 -502 minecraft:oak_planks
-setblock -496 0 -502 minecraft:oak_planks
-setblock -489 0 -502 minecraft:deepslate_tiles
-setblock -490 0 -502 minecraft:smooth_stone
-setblock -491 0 -502 minecraft:spruce_planks
-setblock -492 0 -502 minecraft:air
-setblock -485 0 -502 minecraft:oak_log
-setblock -486 0 -502 minecraft:air
-setblock -487 0 -502 minecraft:air
-setblock -488 0 -502 minecraft:air
-setblock -481 0 -502 minecraft:polished_deepslate
-setblock -482 0 -502 minecraft:air
-setblock -483 0 -502 minecraft:air
-setblock -484 0 -502 minecraft:air
-setblock -477 0 -502 minecraft:white_terracotta
-setblock -478 0 -502 minecraft:deepslate_diamond_ore
-setblock -479 0 -502 minecraft:redstone_lamp
-setblock -480 0 -502 minecraft:redstone_lamp
-setblock -473 0 -502 minecraft:grass_block
-setblock -474 0 -502 minecraft:air
-setblock -475 0 -502 minecraft:air
-setblock -476 0 -502 minecraft:air
-setblock -469 0 -502 minecraft:air
-setblock -470 0 -502 minecraft:light_gray_concrete
-setblock -471 0 -502 minecraft:mossy_stone_bricks
-setblock -472 0 -502 minecraft:polished_granite
-setblock -465 0 -502 minecraft:brown_concrete
-setblock -466 0 -502 minecraft:stripped_warped_stem
-setblock -467 0 -502 minecraft:oak_planks
-setblock -468 0 -502 minecraft:hay_block
-setblock -461 0 -502 minecraft:spruce_planks
-setblock -462 0 -502 minecraft:spruce_planks
-setblock -463 0 -502 minecraft:purpur_block
-setblock -464 0 -502 minecraft:podzol
-setblock -457 0 -502 minecraft:yellow_concrete
-setblock -458 0 -502 minecraft:spawner
-setblock -459 0 -502 minecraft:yellow_concrete
-setblock -460 0 -502 minecraft:mossy_stone_bricks
-setblock -453 0 -502 minecraft:air
-setblock -454 0 -502 minecraft:air
-setblock -455 0 -502 minecraft:air
-setblock -456 0 -502 minecraft:air
-setblock -449 0 -502 minecraft:oak_log
-setblock -450 0 -502 minecraft:air
-setblock -451 0 -502 minecraft:air
-setblock -452 0 -502 minecraft:air
-setblock -445 0 -502 minecraft:brown_wool
-setblock -446 0 -502 minecraft:air
-setblock -447 0 -502 minecraft:air
-setblock -448 0 -502 minecraft:air
-setblock -441 0 -502 minecraft:smooth_stone
-setblock -442 0 -502 minecraft:nether_gold_ore
-setblock -443 0 -502 minecraft:redstone_lamp
-setblock -444 0 -502 minecraft:redstone_lamp
-setblock -437 0 -502 minecraft:pearlescent_froglight
-setblock -438 0 -502 minecraft:air
-setblock -439 0 -502 minecraft:air
-setblock -440 0 -502 minecraft:air
-setblock -433 0 -502 minecraft:air
-setblock -434 0 -502 minecraft:light_gray_concrete
-setblock -435 0 -502 minecraft:mossy_stone_bricks
-setblock -436 0 -502 minecraft:polished_granite
-setblock -429 0 -502 minecraft:brown_concrete
-setblock -430 0 -502 minecraft:stripped_warped_stem
-setblock -431 0 -502 minecraft:oak_planks
-setblock -432 0 -502 minecraft:hay_block
-setblock -425 0 -502 minecraft:spruce_planks
-setblock -426 0 -502 minecraft:spruce_planks
-setblock -427 0 -502 minecraft:light_gray_terracotta
-setblock -428 0 -502 minecraft:podzol
-setblock -421 0 -502 minecraft:yellow_concrete
-setblock -422 0 -502 minecraft:spawner
-setblock -423 0 -502 minecraft:yellow_concrete
-setblock -424 0 -502 minecraft:mossy_stone_bricks
-setblock -417 0 -502 minecraft:air
-setblock -418 0 -502 minecraft:air
-setblock -419 0 -502 minecraft:air
-setblock -420 0 -502 minecraft:air
-setblock -413 0 -502 minecraft:yellow_terracotta
-setblock -414 0 -502 minecraft:air
-setblock -415 0 -502 minecraft:air
-setblock -416 0 -502 minecraft:air
-setblock -409 0 -502 minecraft:white_stained_glass
-setblock -410 0 -502 minecraft:air
-setblock -411 0 -502 minecraft:air
-setblock -412 0 -502 minecraft:air
-setblock -405 0 -502 minecraft:pearlescent_froglight
-setblock -406 0 -502 minecraft:crimson_nylium
-setblock -407 0 -502 minecraft:redstone_lamp
-setblock -408 0 -502 minecraft:redstone_lamp
-setblock -401 0 -502 minecraft:netherrack
-setblock -402 0 -502 minecraft:chiseled_deepslate
-setblock -403 0 -502 minecraft:air
-setblock -404 0 -502 minecraft:air
-setblock -397 0 -502 minecraft:air
-setblock -398 0 -502 minecraft:yellow_concrete
-setblock -399 0 -502 minecraft:mossy_stone_bricks
-setblock -400 0 -502 minecraft:grass_block
-setblock -393 0 -502 minecraft:acacia_planks
-setblock -394 0 -502 minecraft:spruce_planks
-setblock -395 0 -502 minecraft:light_gray_glazed_terracotta
-setblock -396 0 -502 minecraft:hay_block
-setblock -389 0 -502 minecraft:spruce_planks
-setblock -390 0 -502 minecraft:bee_nest
-setblock -391 0 -502 minecraft:birch_planks
-setblock -392 0 -502 minecraft:stripped_warped_stem
-setblock -385 0 -502 minecraft:oak_planks
-setblock -386 0 -502 minecraft:cracked_nether_bricks
-setblock -387 0 -502 minecraft:jungle_planks
-setblock -388 0 -502 minecraft:chiseled_nether_bricks
-setblock -381 0 -502 minecraft:acacia_planks
-setblock -382 0 -502 minecraft:red_nether_bricks
-setblock -383 0 -502 minecraft:dark_oak_planks
-setblock -384 0 -502 minecraft:basalt
-setblock -377 0 -502 minecraft:mangrove_planks
-setblock -378 0 -502 minecraft:smooth_basalt
-setblock -379 0 -502 minecraft:crimson_planks
-setblock -380 0 -502 minecraft:polished_basalt
-setblock -373 0 -502 minecraft:stone
-setblock -374 0 -502 minecraft:pearlescent_froglight
-setblock -375 0 -502 minecraft:cobblestone
-setblock -376 0 -502 minecraft:gilded_blackstone
-setblock -369 0 -502 minecraft:mossy_cobblestone
-setblock -370 0 -502 minecraft:chiseled_polished_blackstone
-setblock -371 0 -502 minecraft:smooth_stone
-setblock -372 0 -502 minecraft:polished_blackstone
-setblock -365 0 -502 minecraft:stone_bricks
-setblock -366 0 -502 minecraft:diamond_block
-setblock -367 0 -502 minecraft:diorite
-setblock -368 0 -502 minecraft:netherite_block
-setblock -361 0 -502 minecraft:polished_diorite
-setblock -362 0 -502 minecraft:waxed_copper_block
-setblock -363 0 -502 minecraft:andesite
-setblock -364 0 -502 minecraft:waxed_cut_copper
-setblock -357 0 -502 minecraft:polished_andesite
-setblock -358 0 -502 minecraft:waxed_exposed_copper
-setblock -359 0 -502 minecraft:deepslate
-setblock -360 0 -502 minecraft:waxed_exposed_cut_copper
-setblock -353 0 -502 minecraft:cobbled_deepslate
-setblock -354 0 -502 minecraft:waxed_weathered_copper
-setblock -355 0 -502 minecraft:chiseled_deepslate
-setblock -356 0 -502 minecraft:waxed_weathered_cut_copper
-setblock -349 0 -502 minecraft:polished_deepslate
-setblock -350 0 -502 minecraft:waxed_oxidized_copper
-setblock -351 0 -502 minecraft:deepslate_bricks
-setblock -352 0 -502 minecraft:birch_planks
-setblock -345 0 -502 minecraft:brown_stained_glass
-setblock -346 0 -502 minecraft:stone_bricks
-setblock -347 0 -502 minecraft:cobblestone
-setblock -348 0 -502 minecraft:podzol
-setblock -341 0 -502 minecraft:yellow_concrete
-setblock -342 0 -502 minecraft:spawner
-setblock -343 0 -502 minecraft:yellow_concrete
-setblock -344 0 -502 minecraft:honey_block
-setblock -337 0 -502 minecraft:yellow_concrete
-setblock -338 0 -502 minecraft:terracotta
-setblock -339 0 -502 minecraft:yellow_concrete
-setblock -340 0 -502 minecraft:magma_block
-setblock -333 0 -502 minecraft:yellow_concrete
-setblock -334 0 -502 minecraft:obsidian
-setblock -335 0 -502 minecraft:yellow_concrete
-setblock -336 0 -502 minecraft:crying_obsidian
-setblock -329 0 -502 minecraft:yellow_concrete
-setblock -330 0 -502 minecraft:glass
-setblock -331 0 -502 minecraft:yellow_concrete
-setblock -332 0 -502 minecraft:crimson_nylium
-setblock -325 0 -502 minecraft:yellow_concrete
-setblock -326 0 -502 minecraft:warped_nylium
-setblock -327 0 -502 minecraft:yellow_concrete
-setblock -328 0 -502 minecraft:soul_sand
-setblock -321 0 -502 minecraft:yellow_concrete
-setblock -322 0 -502 minecraft:soul_soil
-setblock -323 0 -502 minecraft:yellow_concrete
-setblock -324 0 -502 minecraft:bone_block
-setblock -317 0 -502 minecraft:yellow_concrete
-setblock -318 0 -502 minecraft:redstone_ore
-setblock -319 0 -502 minecraft:yellow_concrete
-setblock -320 0 -502 minecraft:deepslate_redstone_ore
-setblock -313 0 -502 minecraft:yellow_concrete
-setblock -314 0 -502 minecraft:ancient_debris
-setblock -315 0 -502 minecraft:yellow_concrete
-setblock -316 0 -502 minecraft:raw_iron_block
-setblock -309 0 -502 minecraft:yellow_concrete
-setblock -310 0 -502 minecraft:raw_copper_block
-setblock -311 0 -502 minecraft:yellow_concrete
-setblock -312 0 -502 minecraft:raw_gold_block
-setblock -305 0 -502 minecraft:yellow_concrete
-setblock -306 0 -502 minecraft:glowstone
-setblock -307 0 -502 minecraft:yellow_concrete
-setblock -308 0 -502 minecraft:amethyst_block
-setblock -301 0 -502 minecraft:yellow_concrete
-setblock -302 0 -502 minecraft:budding_amethyst
-setblock -303 0 -502 minecraft:light_gray_concrete
-setblock -304 0 -502 minecraft:mossy_stone_bricks
-setblock -297 0 -502 minecraft:air
-setblock -298 0 -502 minecraft:yellow_concrete
-setblock -299 0 -502 minecraft:mossy_cobblestone
-setblock -300 0 -502 minecraft:air
-setblock -293 0 -502 minecraft:white_glazed_terracotta
-setblock -294 0 -502 minecraft:air
-setblock -295 0 -502 minecraft:air
-setblock -296 0 -502 minecraft:air
-setblock -289 0 -502 minecraft:warped_nylium
-setblock -290 0 -502 minecraft:air
-setblock -291 0 -502 minecraft:air
-setblock -292 0 -502 minecraft:air
-setblock -285 0 -502 minecraft:crimson_planks
-setblock -286 0 -502 minecraft:nether_gold_ore
-setblock -287 0 -502 minecraft:redstone_lamp
-setblock -288 0 -502 minecraft:redstone_lamp
-setblock -281 0 -502 minecraft:spawner
-setblock -282 0 -502 minecraft:acacia_planks
-setblock -283 0 -502 minecraft:air
-setblock -284 0 -502 minecraft:air
-setblock -277 0 -502 minecraft:air
-setblock -278 0 -502 minecraft:yellow_concrete
-setblock -279 0 -502 minecraft:mossy_stone_bricks
-setblock -280 0 -502 minecraft:white_concrete
-setblock -273 0 -502 minecraft:spruce_planks
-setblock -274 0 -502 minecraft:hay_block
-setblock -275 0 -502 minecraft:cobblestone
-setblock -276 0 -502 minecraft:mossy_stone_bricks
-setblock -269 0 -502 minecraft:air
-setblock -270 0 -502 minecraft:yellow_concrete
-setblock -271 0 -502 minecraft:mossy_cobblestone
-setblock -272 0 -502 minecraft:spruce_planks
-setblock -265 0 -502 minecraft:warped_nylium
-setblock -266 0 -502 minecraft:hay_block
-setblock -267 0 -502 minecraft:stone
-setblock -268 0 -502 minecraft:bee_nest
-setblock -261 0 -502 minecraft:cobblestone
-setblock -262 0 -502 minecraft:spruce_planks
-setblock -263 0 -502 minecraft:light_gray_terracotta
-setblock -264 0 -502 minecraft:spawner
-setblock -257 0 -502 minecraft:yellow_concrete
-setblock -258 0 -502 minecraft:honey_block
-setblock -259 0 -502 minecraft:brown_stained_glass
-setblock -260 0 -502 minecraft:cobblestone
-setblock -253 0 -502 minecraft:mossy_stone_bricks
-setblock -254 0 -502 minecraft:air
-setblock -255 0 -502 minecraft:yellow_concrete
-setblock -256 0 -502 minecraft:mossy_cobblestone
-setblock -249 0 -502 minecraft:spruce_planks
-setblock -250 0 -502 minecraft:spawner
-setblock -251 0 -502 minecraft:hay_block
-setblock -252 0 -502 minecraft:stone
-setblock -245 0 -502 minecraft:bee_nest
-setblock -246 0 -502 minecraft:cobblestone
-setblock -247 0 -502 minecraft:spruce_planks
-setblock -248 0 -502 minecraft:hay_block
-setblock -241 0 -502 minecraft:spawner
-setblock -242 0 -502 minecraft:yellow_concrete
-setblock -243 0 -502 minecraft:honey_block
-setblock -244 0 -502 minecraft:birch_planks
-setblock -237 0 -502 minecraft:stripped_oak_log
-setblock -238 0 -502 minecraft:spruce_planks
-setblock -239 0 -502 minecraft:cobblestone
-setblock -240 0 -502 minecraft:hay_block
-setblock -233 0 -502 minecraft:stone
-setblock -234 0 -502 minecraft:bee_nest
-setblock -235 0 -502 minecraft:cobblestone
-setblock -236 0 -502 minecraft:yellow_concrete
-setblock -229 0 -502 minecraft:mossy_cobblestone
-setblock -230 0 -502 minecraft:light_gray_concrete
-setblock -231 0 -502 minecraft:hay_block
-setblock -232 0 -502 minecraft:stone
-setblock -225 0 -502 minecraft:bee_nest
-setblock -226 0 -502 minecraft:cobblestone
-setblock -227 0 -502 minecraft:yellow_glazed_terracotta
-setblock -228 0 -502 minecraft:cobblestone
-setblock -221 0 -502 minecraft:spawner
-setblock -222 0 -502 minecraft:yellow_concrete
-setblock -223 0 -502 minecraft:honey_block
-setblock -224 0 -502 minecraft:light_gray_concrete
-setblock -217 0 -502 minecraft:mossy_cobblestone
-setblock -218 0 -502 minecraft:yellow_concrete
-setblock -219 0 -502 minecraft:spawner
-setblock -220 0 -502 minecraft:yellow_concrete
-setblock -213 0 -502 minecraft:honey_block
-setblock -214 0 -502 minecraft:air
-setblock -215 0 -502 minecraft:air
-setblock -216 0 -502 minecraft:air
-setblock -209 0 -502 minecraft:polished_granite
-setblock -210 0 -502 minecraft:air
-setblock -211 0 -502 minecraft:air
-setblock -212 0 -502 minecraft:air
-setblock -205 0 -502 minecraft:stripped_acacia_log
-setblock -206 0 -502 minecraft:oak_planks
-setblock -207 0 -502 minecraft:air
-setblock -208 0 -502 minecraft:air
-setblock -201 0 -502 minecraft:brown_terracotta
-setblock -202 0 -502 minecraft:raw_gold_block
-setblock -203 0 -502 minecraft:redstone_lamp
-setblock -204 0 -502 minecraft:redstone_lamp
-setblock -197 0 -502 minecraft:brown_concrete
-setblock -198 0 -502 minecraft:air
-setblock -199 0 -502 minecraft:air
-setblock -200 0 -502 minecraft:air
-setblock -193 0 -502 minecraft:air
-setblock -194 0 -502 minecraft:air
-setblock -195 0 -502 minecraft:air
-setblock -196 0 -502 minecraft:air
-setblock -189 0 -502 minecraft:polished_granite
-setblock -190 0 -502 minecraft:air
-setblock -191 0 -502 minecraft:air
-setblock -192 0 -502 minecraft:air
-setblock -185 0 -502 minecraft:white_concrete
-setblock -186 0 -502 minecraft:oak_planks
-setblock -187 0 -502 minecraft:air
-setblock -188 0 -502 minecraft:air
-setblock -181 0 -502 minecraft:waxed_exposed_copper
-setblock -182 0 -502 minecraft:raw_gold_block
-setblock -183 0 -502 minecraft:redstone_lamp
-setblock -184 0 -502 minecraft:redstone_lamp
-setblock -177 0 -502 minecraft:polished_deepslate
-setblock -178 0 -502 minecraft:air
-setblock -179 0 -502 minecraft:air
-setblock -180 0 -502 minecraft:air
-setblock -173 0 -502 minecraft:air
-setblock -174 0 -502 minecraft:air
-setblock -175 0 -502 minecraft:air
-setblock -176 0 -502 minecraft:air
-setblock -169 0 -502 minecraft:polished_granite
-setblock -170 0 -502 minecraft:air
-setblock -171 0 -502 minecraft:air
-setblock -172 0 -502 minecraft:air
-setblock -165 0 -502 minecraft:yellow_glazed_terracotta
-setblock -166 0 -502 minecraft:oak_planks
-setblock -167 0 -502 minecraft:air
-setblock -168 0 -502 minecraft:air
-setblock -161 0 -502 minecraft:waxed_oxidized_copper
-setblock -162 0 -502 minecraft:raw_gold_block
-setblock -163 0 -502 minecraft:redstone_lamp
-setblock -164 0 -502 minecraft:redstone_lamp
-setblock -157 0 -502 minecraft:pearlescent_froglight
-setblock -158 0 -502 minecraft:air
-setblock -159 0 -502 minecraft:air
-setblock -160 0 -502 minecraft:air
-setblock -153 0 -502 minecraft:air
-setblock -154 0 -502 minecraft:air
-setblock -155 0 -502 minecraft:air
-setblock -156 0 -502 minecraft:air
-setblock -149 0 -502 minecraft:polished_granite
-setblock -150 0 -502 minecraft:air
-setblock -151 0 -502 minecraft:air
-setblock -152 0 -502 minecraft:air
-setblock -145 0 -502 minecraft:light_gray_stained_glass
-setblock -146 0 -502 minecraft:oak_planks
-setblock -147 0 -502 minecraft:air
-setblock -148 0 -502 minecraft:air
-setblock -141 0 -502 minecraft:brown_wool
-setblock -142 0 -502 minecraft:glowstone
-setblock -143 0 -502 minecraft:redstone_lamp
-setblock -144 0 -502 minecraft:redstone_lamp
-setblock -137 0 -502 minecraft:jungle_planks
-setblock -138 0 -502 minecraft:air
-setblock -139 0 -502 minecraft:air
-setblock -140 0 -502 minecraft:air
-setblock -133 0 -502 minecraft:air
-setblock -134 0 -502 minecraft:air
-setblock -135 0 -502 minecraft:air
-setblock -136 0 -502 minecraft:air
-setblock -129 0 -502 minecraft:polished_granite
-setblock -130 0 -502 minecraft:air
-setblock -131 0 -502 minecraft:air
-setblock -132 0 -502 minecraft:air
-setblock -125 0 -502 minecraft:brown_terracotta
-setblock -126 0 -502 minecraft:oak_planks
-setblock -127 0 -502 minecraft:air
-setblock -128 0 -502 minecraft:air
-setblock -121 0 -502 minecraft:stripped_acacia_log
-setblock -122 0 -502 minecraft:glowstone
-setblock -123 0 -502 minecraft:redstone_lamp
-setblock -124 0 -502 minecraft:redstone_lamp
-setblock -117 0 -502 minecraft:jungle_planks
-setblock -118 0 -502 minecraft:air
-setblock -119 0 -502 minecraft:air
-setblock -120 0 -502 minecraft:air
-setblock -113 0 -502 minecraft:air
-setblock -114 0 -502 minecraft:air
-setblock -115 0 -502 minecraft:air
-setblock -116 0 -502 minecraft:air
-setblock -109 0 -502 minecraft:polished_granite
-setblock -110 0 -502 minecraft:air
-setblock -111 0 -502 minecraft:air
-setblock -112 0 -502 minecraft:air
-setblock -105 0 -502 minecraft:netherrack
-setblock -106 0 -502 minecraft:oak_planks
-setblock -107 0 -502 minecraft:air
-setblock -108 0 -502 minecraft:air
-setblock -101 0 -502 minecraft:cracked_deepslate_tiles
-setblock -102 0 -502 minecraft:glowstone
-setblock -103 0 -502 minecraft:redstone_lamp
-setblock -104 0 -502 minecraft:redstone_lamp
-setblock -97 0 -502 minecraft:jungle_planks
-setblock -98 0 -502 minecraft:air
-setblock -99 0 -502 minecraft:air
-setblock -100 0 -502 minecraft:air
-setblock -93 0 -502 minecraft:air
-setblock -94 0 -502 minecraft:air
-setblock -95 0 -502 minecraft:air
-setblock -96 0 -502 minecraft:air
-setblock -89 0 -502 minecraft:polished_granite
-setblock -90 0 -502 minecraft:air
-setblock -91 0 -502 minecraft:air
-setblock -92 0 -502 minecraft:air
-setblock -85 0 -502 minecraft:gold_block
-setblock -86 0 -502 minecraft:oak_planks
-setblock -87 0 -502 minecraft:air
-setblock -88 0 -502 minecraft:air
-setblock -81 0 -502 minecraft:smooth_stone
-setblock -82 0 -502 minecraft:glowstone
-setblock -83 0 -502 minecraft:redstone_lamp
-setblock -84 0 -502 minecraft:redstone_lamp
-setblock -77 0 -502 minecraft:light_gray_wool
-setblock -78 0 -502 minecraft:air
-setblock -79 0 -502 minecraft:air
-setblock -80 0 -502 minecraft:air
-setblock -73 0 -502 minecraft:air
-setblock -74 0 -502 minecraft:air
-setblock -75 0 -502 minecraft:air
-setblock -76 0 -502 minecraft:air
-setblock -69 0 -502 minecraft:stripped_oak_log
-setblock -70 0 -502 minecraft:air
-setblock -71 0 -502 minecraft:air
-setblock -72 0 -502 minecraft:air
-setblock -65 0 -502 minecraft:waxed_oxidized_copper
-setblock -66 0 -502 minecraft:oak_planks
-setblock -67 0 -502 minecraft:air
-setblock -68 0 -502 minecraft:air
-setblock -61 0 -502 minecraft:white_wool
-setblock -62 0 -502 minecraft:glowstone
-setblock -63 0 -502 minecraft:redstone_lamp
-setblock -64 0 -502 minecraft:redstone_lamp
-setblock -57 0 -502 minecraft:jungle_planks
-setblock -58 0 -502 minecraft:spruce_planks
-setblock -59 0 -502 minecraft:air
-setblock -60 0 -502 minecraft:air
-setblock -53 0 -502 minecraft:air
-setblock -54 0 -502 minecraft:spruce_planks
-setblock -55 0 -502 minecraft:light_gray_glazed_terracotta
-setblock -56 0 -502 minecraft:mossy_stone_bricks
-setblock -49 0 -502 minecraft:polished_granite
-setblock -50 0 -502 minecraft:light_gray_terracotta
-setblock -51 0 -502 minecraft:hay_block
-setblock -52 0 -502 minecraft:oak_planks
-setblock -45 0 -502 minecraft:bee_nest
-setblock -46 0 -502 minecraft:spruce_planks
-setblock -47 0 -502 minecraft:cracked_nether_bricks
-setblock -48 0 -502 minecraft:birch_planks
-setblock -41 0 -502 minecraft:brown_glazed_terracotta
-setblock -42 0 -502 minecraft:chiseled_nether_bricks
-setblock -43 0 -502 minecraft:jungle_planks
-setblock -44 0 -502 minecraft:birch_planks
-setblock -37 0 -502 minecraft:white_concrete
-setblock -38 0 -502 minecraft:oak_planks
-setblock -39 0 -502 minecraft:spawner
-setblock -40 0 -502 minecraft:yellow_concrete
-setblock -33 0 -502 minecraft:honey_block
-setblock -34 0 -502 minecraft:yellow_concrete
-setblock -35 0 -502 minecraft:terracotta
-setblock -36 0 -502 minecraft:yellow_concrete
-setblock -29 0 -502 minecraft:magma_block
-setblock -30 0 -502 minecraft:yellow_concrete
-setblock -31 0 -502 minecraft:mossy_stone_bricks
-setblock -32 0 -502 minecraft:air
-setblock -25 0 -502 minecraft:brown_glazed_terracotta
-setblock -26 0 -502 minecraft:air
-setblock -27 0 -502 minecraft:air
-setblock -28 0 -502 minecraft:air
-setblock -21 0 -502 minecraft:copper_ore
-setblock -22 0 -502 minecraft:oak_planks
-setblock -23 0 -502 minecraft:air
-setblock -24 0 -502 minecraft:air
-setblock -17 0 -502 minecraft:crimson_planks
-setblock -18 0 -502 minecraft:budding_amethyst
-setblock -19 0 -502 minecraft:redstone_lamp
-setblock -20 0 -502 minecraft:redstone_lamp
-setblock -13 0 -502 minecraft:oxidized_copper
-setblock -14 0 -502 minecraft:spruce_planks
-setblock -15 0 -502 minecraft:air
-setblock -16 0 -502 minecraft:air
-setblock -9 0 -502 minecraft:air
-setblock -10 0 -502 minecraft:brown_concrete
-setblock -11 0 -502 minecraft:mossy_stone_bricks
-setblock -12 0 -502 minecraft:white_wool
-setblock -5 0 -502 minecraft:white_glazed_terracotta
-setblock -6 0 -502 minecraft:pearlescent_froglight
-setblock -7 0 -502 minecraft:stone
-setblock -8 0 -502 minecraft:white_terracotta
-setblock -1 0 -502 minecraft:chiseled_nether_bricks
-setblock -2 0 -502 minecraft:jungle_planks
-setblock -3 0 -502 minecraft:red_nether_bricks
-setblock -4 0 -502 minecraft:acacia_planks
-setblock 3 0 -502 minecraft:basalt
-setblock 2 0 -502 minecraft:dark_oak_planks
-setblock 1 0 -502 minecraft:smooth_basalt
-setblock 0 0 -502 minecraft:mangrove_planks
-setblock 7 0 -502 minecraft:polished_basalt
-setblock 6 0 -502 minecraft:crimson_planks
-setblock 5 0 -502 minecraft:gilded_blackstone
-setblock 4 0 -502 minecraft:cobblestone
-setblock 11 0 -502 minecraft:chiseled_polished_blackstone
-setblock 10 0 -502 minecraft:mossy_cobblestone
-setblock 9 0 -502 minecraft:hay_block
-setblock 8 0 -502 minecraft:oak_planks
-setblock 15 0 -502 minecraft:bee_nest
-setblock 14 0 -502 minecraft:spruce_planks
-setblock 13 0 -502 minecraft:cracked_nether_bricks
-setblock 12 0 -502 minecraft:birch_planks
-setblock 19 0 -502 minecraft:polished_blackstone
-setblock 18 0 -502 minecraft:smooth_stone
-setblock 17 0 -502 minecraft:birch_planks
-setblock 16 0 -502 minecraft:jungle_planks
-setblock 23 0 -502 minecraft:spruce_planks
-setblock 22 0 -502 minecraft:cobblestone
-setblock 21 0 -502 minecraft:spawner
-setblock 20 0 -502 minecraft:yellow_concrete
-setblock 27 0 -502 minecraft:honey_block
-setblock 26 0 -502 minecraft:yellow_concrete
-setblock 25 0 -502 minecraft:terracotta
-setblock 24 0 -502 minecraft:yellow_concrete
-setblock 31 0 -502 minecraft:magma_block
-setblock 30 0 -502 minecraft:yellow_concrete
-setblock 29 0 -502 minecraft:obsidian
-setblock 28 0 -502 minecraft:yellow_concrete
-setblock 35 0 -502 minecraft:crying_obsidian
-setblock 34 0 -502 minecraft:yellow_concrete
-setblock 33 0 -502 minecraft:glass
-setblock 32 0 -502 minecraft:yellow_concrete
-setblock 39 0 -502 minecraft:crimson_nylium
-setblock 38 0 -502 minecraft:yellow_concrete
-setblock 37 0 -502 minecraft:warped_nylium
-setblock 36 0 -502 minecraft:yellow_concrete
-setblock 43 0 -502 minecraft:soul_sand
-setblock 42 0 -502 minecraft:yellow_concrete
-setblock 41 0 -502 minecraft:soul_soil
-setblock 40 0 -502 minecraft:yellow_concrete
-setblock 47 0 -502 minecraft:bone_block
-setblock 46 0 -502 minecraft:yellow_concrete
-setblock 45 0 -502 minecraft:mossy_stone_bricks
-setblock 44 0 -502 minecraft:air
-setblock 51 0 -502 minecraft:yellow_concrete
-setblock 50 0 -502 minecraft:mossy_cobblestone
-setblock 49 0 -502 minecraft:light_gray_stained_glass
-setblock 48 0 -502 minecraft:mossy_stone_bricks
-setblock 55 0 -502 minecraft:air
-setblock 54 0 -502 minecraft:spawner
-setblock 53 0 -502 minecraft:honey_block
-setblock 52 0 -502 minecraft:terracotta
-setblock 59 0 -502 minecraft:magma_block
-setblock 58 0 -502 minecraft:obsidian
-setblock 57 0 -502 minecraft:crying_obsidian
-setblock 56 0 -502 minecraft:glass
-setblock 63 0 -502 minecraft:crimson_nylium
-setblock 62 0 -502 minecraft:warped_nylium
-setblock 61 0 -502 minecraft:soul_sand
-setblock 60 0 -502 minecraft:soul_soil
-setblock 67 0 -502 minecraft:bone_block
-setblock 66 0 -502 minecraft:air
-setblock 65 0 -502 minecraft:air
-setblock 64 0 -502 minecraft:air
+data modify storage computer:ram_0 value set value -738131693
+data modify storage computer:ram_4 value set value 713108515
+data modify storage computer:ram_8 value set value 714156579
+data modify storage computer:ram_12 value set value 705768995
+data modify storage computer:ram_16 value set value 723593251
+data modify storage computer:ram_20 value set value 724641315
+data modify storage computer:ram_24 value set value 725689379
+data modify storage computer:ram_28 value set value 726737443
+data modify storage computer:ram_32 value set value 727785507
+data modify storage computer:ram_36 value set value 695283235
+data modify storage computer:ram_40 value set value 696331299
+data modify storage computer:ram_44 value set value 697379363
+data modify storage computer:ram_48 value set value 698427427
+data modify storage computer:ram_52 value set value 699475491
+data modify storage computer:ram_56 value set value 646000167
+data modify storage computer:ram_60 value set value 647048231
+data modify storage computer:ram_64 value set value 656484903
+data modify storage computer:ram_68 value set value 657532967
+data modify storage computer:ram_72 value set value 658581031
+data modify storage computer:ram_76 value set value 659629095
+data modify storage computer:ram_80 value set value 660677159
+data modify storage computer:ram_84 value set value 661725223
+data modify storage computer:ram_88 value set value 629222951
+data modify storage computer:ram_92 value set value 1043
+data modify storage computer:ram_96 value set value 1959792879
+data modify storage computer:ram_100 value set value 67110035
+data modify storage computer:ram_104 value set value 41944851
+data modify storage computer:ram_108 value set value 17044883
+data modify storage computer:ram_112 value set value 17159571
+data modify storage computer:ram_116 value set value 460435
+data modify storage computer:ram_120 value set value 460307
+data modify storage computer:ram_124 value set value 33555731
+data modify storage computer:ram_128 value set value 1311763
+data modify storage computer:ram_132 value set value 1934627055
+data modify storage computer:ram_136 value set value -23850781
+data modify storage computer:ram_140 value set value 1043
+data modify storage computer:ram_144 value set value 67110035
+data modify storage computer:ram_148 value set value 41944851
+data modify storage computer:ram_152 value set value 17044755
+data modify storage computer:ram_156 value set value 17126675
+data modify storage computer:ram_160 value set value 460435
+data modify storage computer:ram_164 value set value 460307
+data modify storage computer:ram_168 value set value 33555859
+data modify storage computer:ram_172 value set value 1311763
+data modify storage computer:ram_176 value set value 1888489711
+data modify storage computer:ram_180 value set value -23850781
+data modify storage computer:ram_184 value set value 9527
+data modify storage computer:ram_188 value set value 1246037267
+data modify storage computer:ram_192 value set value 42995951
+data modify storage computer:ram_196 value set value 88147219
+data modify storage computer:ram_200 value set value 264242579
+data modify storage computer:ram_204 value set value 1661997295
+data modify storage computer:ram_208 value set value 344707
+data modify storage computer:ram_212 value set value 15799
+data modify storage computer:ram_216 value set value 15671
+data modify storage computer:ram_220 value set value 13879
+data modify storage computer:ram_224 value set value -1039301981
+data modify storage computer:ram_228 value set value -1039334877
+data modify storage computer:ram_232 value set value 330003
+data modify storage computer:ram_236 value set value -1538914797
+data modify storage computer:ram_240 value set value 268599395
+data modify storage computer:ram_244 value set value 10167
+data modify storage computer:ram_248 value set value 1464313351
+data modify storage computer:ram_252 value set value 10167
+data modify storage computer:ram_256 value set value 1271367571
+data modify storage computer:ram_260 value set value 13879
+data modify storage computer:ram_264 value set value 15803939
+data modify storage computer:ram_268 value set value 1051411
+data modify storage computer:ram_272 value set value -1538914797
+data modify storage computer:ram_276 value set value 329619
+data modify storage computer:ram_280 value set value 3859
+data modify storage computer:ram_284 value set value 2067
+data modify storage computer:ram_288 value set value 1427
+data modify storage computer:ram_292 value set value 33558163
+data modify storage computer:ram_296 value set value 125832723
+data modify storage computer:ram_300 value set value 117441299
+data modify storage computer:ram_304 value set value 110101395
+data modify storage computer:ram_308 value set value 3987
+data modify storage computer:ram_312 value set value 1050259
+data modify storage computer:ram_316 value set value 567447139
+data modify storage computer:ram_320 value set value 465733731
+data modify storage computer:ram_324 value set value 1986171619
+data modify storage computer:ram_328 value set value 1558275
+data modify storage computer:ram_332 value set value 444013667
+data modify storage computer:ram_336 value set value 2463507
+data modify storage computer:ram_340 value set value 15075123
+data modify storage computer:ram_344 value set value 80158759
+data modify storage computer:ram_348 value set value 11929395
+data modify storage computer:ram_352 value set value 23527459
+data modify storage computer:ram_356 value set value 2605699
+data modify storage computer:ram_360 value set value 1410835
+data modify storage computer:ram_364 value set value 267875731
+data modify storage computer:ram_368 value set value 1050643
+data modify storage computer:ram_372 value set value 2590611
+data modify storage computer:ram_376 value set value 1683
+data modify storage computer:ram_380 value set value -66940701
+data modify storage computer:ram_384 value set value 1017619
+data modify storage computer:ram_388 value set value 1880034019
+data modify storage computer:ram_392 value set value -1006829021
+data modify storage computer:ram_396 value set value 525923
+data modify storage computer:ram_400 value set value -1027767645
+data modify storage computer:ram_404 value set value 361107
+data modify storage computer:ram_408 value set value 67570787
+data modify storage computer:ram_412 value set value -588141
+data modify storage computer:ram_416 value set value 267843219
+data modify storage computer:ram_420 value set value 335939475
+data modify storage computer:ram_424 value set value 16156339
+data modify storage computer:ram_428 value set value 14391
+data modify storage computer:ram_432 value set value 13797555
+data modify storage computer:ram_436 value set value -1204287469
+data modify storage computer:ram_440 value set value 1087932339
+data modify storage computer:ram_444 value set value 443651
+data modify storage computer:ram_448 value set value 267909011
+data modify storage computer:ram_452 value set value 2594195
+data modify storage computer:ram_456 value set value 11929011
+data modify storage computer:ram_460 value set value 16123827
+data modify storage computer:ram_464 value set value 67477539
+data modify storage computer:ram_468 value set value 10977315
+data modify storage computer:ram_472 value set value -620909
+data modify storage computer:ram_476 value set value -52945181
+data modify storage computer:ram_480 value set value 5703475
+data modify storage computer:ram_484 value set value 267874963
+data modify storage computer:ram_488 value set value -1034059101
+data modify storage computer:ram_492 value set value -1039334877
+data modify storage computer:ram_496 value set value 10167
+data modify storage computer:ram_500 value set value 1447536135
+data modify storage computer:ram_504 value set value 10167
+data modify storage computer:ram_508 value set value 1451730311
+data modify storage computer:ram_512 value set value 10167
+data modify storage computer:ram_516 value set value 1468506119
+data modify storage computer:ram_520 value set value 10167
+data modify storage computer:ram_524 value set value 1476895623
+data modify storage computer:ram_528 value set value 10167
+data modify storage computer:ram_532 value set value 1481089159
+data modify storage computer:ram_536 value set value 10167
+data modify storage computer:ram_540 value set value 1464312583
+data modify storage computer:ram_544 value set value 10167
+data modify storage computer:ram_548 value set value 1489478279
+data modify storage computer:ram_552 value set value 10167
+data modify storage computer:ram_556 value set value 1493672455
+data modify storage computer:ram_560 value set value 12087
+data modify storage computer:ram_564 value set value 11575
+data modify storage computer:ram_568 value set value 11447
+data modify storage computer:ram_572 value set value 11319
+data modify storage computer:ram_576 value set value 10167
+data modify storage computer:ram_580 value set value 1456418311
+data modify storage computer:ram_584 value set value 1460480135
+data modify storage computer:ram_588 value set value 1540139015
+data modify storage computer:ram_592 value set value 1435246855
+data modify storage computer:ram_596 value set value 1497866631
+data modify storage computer:ram_600 value set value 67504531
+data modify storage computer:ram_604 value set value 2267283
+data modify storage computer:ram_608 value set value 352391059
+data modify storage computer:ram_612 value set value 20482227
+data modify storage computer:ram_616 value set value 3731
+data modify storage computer:ram_620 value set value 11191
+data modify storage computer:ram_624 value set value 9271
+data modify storage computer:ram_628 value set value 352388499
+data modify storage computer:ram_632 value set value 402819683
+data modify storage computer:ram_636 value set value -804325677
+data modify storage computer:ram_640 value set value 1472964359
+data modify storage computer:ram_644 value set value 1430529927
+data modify storage computer:ram_648 value set value 268891859
+data modify storage computer:ram_652 value set value -268434093
+data modify storage computer:ram_656 value set value 11831
+data modify storage computer:ram_660 value set value 9527
+data modify storage computer:ram_664 value set value 9015
+data modify storage computer:ram_668 value set value 417789651
+data modify storage computer:ram_672 value set value 166547
+data modify storage computer:ram_676 value set value 1410207251
+data modify storage computer:ram_680 value set value 1313146131
+data modify storage computer:ram_684 value set value 1384317715
+data modify storage computer:ram_688 value set value 394899
+data modify storage computer:ram_692 value set value 624403
+data modify storage computer:ram_696 value set value 1939
+data modify storage computer:ram_700 value set value 16779283
+data modify storage computer:ram_704 value set value 4195475
+data modify storage computer:ram_708 value set value 5245715
+data modify storage computer:ram_712 value set value 1016723
+data modify storage computer:ram_716 value set value 952851
+data modify storage computer:ram_720 value set value 361107
+data modify storage computer:ram_724 value set value 150402771
+data modify storage computer:ram_728 value set value 446083
+data modify storage computer:ram_732 value set value 198733411
+data modify storage computer:ram_736 value set value 3052947
+data modify storage computer:ram_740 value set value 10847667
+data modify storage computer:ram_744 value set value 370051
+data modify storage computer:ram_748 value set value 360551
+data modify storage computer:ram_752 value set value 1557763
+data modify storage computer:ram_756 value set value 1415911139
+data modify storage computer:ram_760 value set value 2606851
+data modify storage computer:ram_764 value set value 41944339
+data modify storage computer:ram_768 value set value 1655117539
+data modify storage computer:ram_772 value set value 1811
+data modify storage computer:ram_776 value set value 12657923
+data modify storage computer:ram_780 value set value 15009075
+data modify storage computer:ram_784 value set value 1509139
+data modify storage computer:ram_788 value set value 15173811
+data modify storage computer:ram_792 value set value 345347
+data modify storage computer:ram_796 value set value -472957
+data modify storage computer:ram_800 value set value 1957207267
+data modify storage computer:ram_804 value set value 4195603
+data modify storage computer:ram_808 value set value -22605597
+data modify storage computer:ram_812 value set value 32900915
+data modify storage computer:ram_816 value set value 11536019
+data modify storage computer:ram_820 value set value 349634595
+data modify storage computer:ram_824 value set value 3654275
+data modify storage computer:ram_828 value set value 2065683
+data modify storage computer:ram_832 value set value 1052435
+data modify storage computer:ram_836 value set value 267747219
+data modify storage computer:ram_840 value set value 984723
+data modify storage computer:ram_844 value set value 3639187
+data modify storage computer:ram_848 value set value -570255645
+data modify storage computer:ram_852 value set value -488640401
+data modify storage computer:ram_856 value set value 1557123
+data modify storage computer:ram_860 value set value 1542035
+data modify storage computer:ram_864 value set value -603808029
+data modify storage computer:ram_868 value set value -505417617
+data modify storage computer:ram_872 value set value -555629
+data modify storage computer:ram_876 value set value 267777427
+data modify storage computer:ram_880 value set value -8483181
+data modify storage computer:ram_884 value set value 2463123
+data modify storage computer:ram_888 value set value 11931571
+data modify storage computer:ram_892 value set value 268369555
+data modify storage computer:ram_896 value set value 370124679
+data modify storage computer:ram_900 value set value 735800035
+data modify storage computer:ram_904 value set value 3055251
+data modify storage computer:ram_908 value set value 7245491
+data modify storage computer:ram_912 value set value 962179
+data modify storage computer:ram_916 value set value 950375
+data modify storage computer:ram_920 value set value -555629
+data modify storage computer:ram_924 value set value -1603693
+data modify storage computer:ram_928 value set value 267909011
+data modify storage computer:ram_932 value set value 2594707
+data modify storage computer:ram_936 value set value 16125875
+data modify storage computer:ram_940 value set value 267777427
+data modify storage computer:ram_944 value set value 370124679
+data modify storage computer:ram_948 value set value -2191725
+data modify storage computer:ram_952 value set value 2465683
+data modify storage computer:ram_956 value set value 32903091
+data modify storage computer:ram_960 value set value 268369555
+data modify storage computer:ram_964 value set value 370124551
+data modify storage computer:ram_968 value set value 869591267
+data modify storage computer:ram_972 value set value 3055251
+data modify storage computer:ram_976 value set value 30314163
+data modify storage computer:ram_980 value set value 962179
+data modify storage computer:ram_984 value set value 950375
+data modify storage computer:ram_988 value set value 2594195
+data modify storage computer:ram_992 value set value 11929011
+data modify storage computer:ram_996 value set value 1542035
+data modify storage computer:ram_1000 value set value 383098919
+data modify storage computer:ram_1004 value set value 267909011
+data modify storage computer:ram_1008 value set value 4654867
+data modify storage computer:ram_1012 value set value 1476243
+data modify storage computer:ram_1016 value set value -286748445
+data modify storage computer:ram_1020 value set value 165267
+data modify storage computer:ram_1024 value set value 233363
+data modify storage computer:ram_1028 value set value 659091
+data modify storage computer:ram_1032 value set value 688787
+data modify storage computer:ram_1036 value set value 369502087
+data modify storage computer:ram_1040 value set value 548767571
+data modify storage computer:ram_1044 value set value -1598580781
+data modify storage computer:ram_1048 value set value 16752679
+data modify storage computer:ram_1052 value set value 492643
+data modify storage computer:ram_1056 value set value 553092947
+data modify storage computer:ram_1060 value set value -1594484781
+data modify storage computer:ram_1064 value set value 552011219
+data modify storage computer:ram_1068 value set value 492643
+data modify storage computer:ram_1072 value set value 553092691
+data modify storage computer:ram_1076 value set value 2002579
+data modify storage computer:ram_1080 value set value 67110803
+data modify storage computer:ram_1084 value set value 5214099
+data modify storage computer:ram_1088 value set value -486630173
+data modify storage computer:ram_1092 value set value 149321683
+data modify storage computer:ram_1096 value set value 10167
+data modify storage computer:ram_1100 value set value 1548199559
+data modify storage computer:ram_1104 value set value 361619
+data modify storage computer:ram_1108 value set value -1596483629
+data modify storage computer:ram_1112 value set value 495203
+data modify storage computer:ram_1116 value set value 10167
+data modify storage computer:ram_1120 value set value 1455924871
+data modify storage computer:ram_1124 value set value 10167
+data modify storage computer:ram_1128 value set value 1460119431
+data modify storage computer:ram_1132 value set value 148338131
+data modify storage computer:ram_1136 value set value 14054995
+data modify storage computer:ram_1140 value set value 10167
+data modify storage computer:ram_1144 value set value 1552393991
+data modify storage computer:ram_1148 value set value 1472964871
+data modify storage computer:ram_1152 value set value 2579
+data modify storage computer:ram_1156 value set value 1491596363
+data modify storage computer:ram_1160 value set value 1625815491
+data modify storage computer:ram_1164 value set value -1045869
+data modify storage computer:ram_1168 value set value 66063123
+data modify storage computer:ram_1172 value set value 67111827
+data modify storage computer:ram_1176 value set value 143258835
+data modify storage computer:ram_1180 value set value 67108975
+data modify storage computer:ram_1184 value set value 403293411
+data modify storage computer:ram_1188 value set value 1094388147
+data modify storage computer:ram_1192 value set value 604478691
+data modify storage computer:ram_1196 value set value 17405331
+data modify storage computer:ram_1200 value set value 17159571
+data modify storage computer:ram_1204 value set value 625299
+data modify storage computer:ram_1208 value set value 17437971
+data modify storage computer:ram_1212 value set value 17126675
+data modify storage computer:ram_1216 value set value 1811
+data modify storage computer:ram_1220 value set value 267388563
+data modify storage computer:ram_1224 value set value 1555
+data modify storage computer:ram_1228 value set value 1706515
+data modify storage computer:ram_1232 value set value 781193455
+data modify storage computer:ram_1236 value set value 4490387
+data modify storage computer:ram_1240 value set value 2138703459
+data modify storage computer:ram_1244 value set value 305031
+data modify storage computer:ram_1248 value set value 1738643
+data modify storage computer:ram_1252 value set value 15742899
+data modify storage computer:ram_1256 value set value 143128531
+data modify storage computer:ram_1260 value set value 20985651
+data modify storage computer:ram_1264 value set value 15202227
+data modify storage computer:ram_1268 value set value 412612563
+data modify storage computer:ram_1272 value set value 287832019
+data modify storage computer:ram_1276 value set value -1073243693
+data modify storage computer:ram_1280 value set value -79998749
+data modify storage computer:ram_1284 value set value 1980210787
+data modify storage computer:ram_1288 value set value 1427
+data modify storage computer:ram_1292 value set value 2707
+data modify storage computer:ram_1296 value set value -90181521
+data modify storage computer:ram_1300 value set value 468871
+data modify storage computer:ram_1304 value set value 2594195
+data modify storage computer:ram_1308 value set value 11929011
+data modify storage computer:ram_1312 value set value 1542035
+data modify storage computer:ram_1316 value set value 267909011
+data modify storage computer:ram_1320 value set value 385196071
+data modify storage computer:ram_1324 value set value -329256849
+data modify storage computer:ram_1328 value set value -555629
+data modify storage computer:ram_1332 value set value 2463123
+data modify storage computer:ram_1336 value set value 11929011
+data modify storage computer:ram_1340 value set value 369469319
+data modify storage computer:ram_1344 value set value 553097171
+data modify storage computer:ram_1348 value set value 385196071
+data modify storage computer:ram_1352 value set value -358616977
+data modify storage computer:ram_1356 value set value -1601645
+data modify storage computer:ram_1360 value set value 268435347
+data modify storage computer:ram_1364 value set value 3121043
+data modify storage computer:ram_1368 value set value 32900531
+data modify storage computer:ram_1372 value set value 369469319
+data modify storage computer:ram_1376 value set value -555117
+data modify storage computer:ram_1380 value set value -268431661
+data modify storage computer:ram_1384 value set value -1599625773
+data modify storage computer:ram_1388 value set value 267909011
+data modify storage computer:ram_1392 value set value 201693795
+data modify storage computer:ram_1396 value set value 2594195
+data modify storage computer:ram_1400 value set value 11929011
+data modify storage computer:ram_1404 value set value 369471367
+data modify storage computer:ram_1408 value set value -1599101485
+data modify storage computer:ram_1412 value set value 1845858915
+data modify storage computer:ram_1416 value set value -1072720429
+data modify storage computer:ram_1420 value set value -804915373
+data modify storage computer:ram_1424 value set value -1594904877
+data modify storage computer:ram_1428 value set value 953443
+data modify storage computer:ram_1432 value set value -1577771309
+data modify storage computer:ram_1436 value set value 952419
+data modify storage computer:ram_1440 value set value 1430529799
+data modify storage computer:ram_1444 value set value -1594908973
+data modify storage computer:ram_1448 value set value 571383523
+data modify storage computer:ram_1452 value set value -268431533
+data modify storage computer:ram_1456 value set value -1578662445
+data modify storage computer:ram_1460 value set value 569313107
+data modify storage computer:ram_1464 value set value 101027939
+data modify storage computer:ram_1468 value set value 1460479751
+data modify storage computer:ram_1472 value set value -1594419757
+data modify storage computer:ram_1476 value set value 1745191523
+data modify storage computer:ram_1480 value set value 1435247623
+data modify storage computer:ram_1484 value set value 1456418439
+data modify storage computer:ram_1488 value set value 277346259
+data modify storage computer:ram_1492 value set value 31424339
+data modify storage computer:ram_1496 value set value -1594419757
+data modify storage computer:ram_1500 value set value -33187101
+data modify storage computer:ram_1504 value set value 1456416519
+data modify storage computer:ram_1508 value set value -268431661
+data modify storage computer:ram_1512 value set value 1050003
+data modify storage computer:ram_1516 value set value 149419987
+data modify storage computer:ram_1520 value set value 32509587
+data modify storage computer:ram_1524 value set value 553096275
+data modify storage computer:ram_1528 value set value -804915373
+data modify storage computer:ram_1532 value set value 1410451
+data modify storage computer:ram_1536 value set value 417855315
+data modify storage computer:ram_1540 value set value 277346259
+data modify storage computer:ram_1544 value set value 15662803
+data modify storage computer:ram_1548 value set value -2779421
+data modify storage computer:ram_1552 value set value 1540138759
+data modify storage computer:ram_1556 value set value -386959549
+data modify storage computer:ram_1560 value set value 1456418439
+data modify storage computer:ram_1564 value set value 284163923
+data modify storage computer:ram_1568 value set value 1050003
+data modify storage computer:ram_1572 value set value 568231763
+data modify storage computer:ram_1576 value set value 22023827
+data modify storage computer:ram_1580 value set value -804915245
+data modify storage computer:ram_1584 value set value 1410451
+data modify storage computer:ram_1588 value set value 419395539
+data modify storage computer:ram_1592 value set value 284653395
+data modify storage computer:ram_1596 value set value 15662803
+data modify storage computer:ram_1600 value set value -2779421
+data modify storage computer:ram_1604 value set value 32903091
+data modify storage computer:ram_1608 value set value 400531495
+data modify storage computer:ram_1612 value set value -631246737
+data modify storage computer:ram_1616 value set value 149419859
+data modify storage computer:ram_1620 value set value 16123827
+data modify storage computer:ram_1624 value set value 384278567
+data modify storage computer:ram_1628 value set value 362387
+data modify storage computer:ram_1632 value set value -652218257
+data modify storage computer:ram_1636 value set value 16217939
+data modify storage computer:ram_1640 value set value -18878353
+data modify storage computer:ram_1644 value set value -268431661
+data modify storage computer:ram_1648 value set value -1579700525
+data modify storage computer:ram_1652 value set value 135172835
+data modify storage computer:ram_1656 value set value -1579733293
+data modify storage computer:ram_1660 value set value 437163747
+data modify storage computer:ram_1664 value set value -1073275181
+data modify storage computer:ram_1668 value set value -804323501
+data modify storage computer:ram_1672 value set value -1578684461
+data modify storage computer:ram_1676 value set value 1018979
+data modify storage computer:ram_1680 value set value -1594974253
+data modify storage computer:ram_1684 value set value 1017955
+data modify storage computer:ram_1688 value set value 1430531719
+data modify storage computer:ram_1692 value set value -1579737133
+data modify storage computer:ram_1696 value set value 470785251
+data modify storage computer:ram_1700 value set value -268431405
+data modify storage computer:ram_1704 value set value -1577611565
+data modify storage computer:ram_1708 value set value 570396371
+data modify storage computer:ram_1712 value set value 68066403
+data modify storage computer:ram_1716 value set value -1594319149
+data modify storage computer:ram_1720 value set value 336496867
+data modify storage computer:ram_1724 value set value 1456418567
+data modify storage computer:ram_1728 value set value 1460481671
+data modify storage computer:ram_1732 value set value 271054803
+data modify storage computer:ram_1736 value set value 32505811
+data modify storage computer:ram_1740 value set value -1593925933
+data modify storage computer:ram_1744 value set value -32597277
+data modify storage computer:ram_1748 value set value 1456418439
+data modify storage computer:ram_1752 value set value -268431533
+data modify storage computer:ram_1756 value set value 1052307
+data modify storage computer:ram_1760 value set value 165148627
+data modify storage computer:ram_1764 value set value 32509843
+data modify storage computer:ram_1768 value set value 553096275
+data modify storage computer:ram_1772 value set value -804323629
+data modify storage computer:ram_1776 value set value 2002579
+data modify storage computer:ram_1780 value set value 433585875
+data modify storage computer:ram_1784 value set value 277346259
+data modify storage computer:ram_1788 value set value 31424339
+data modify storage computer:ram_1792 value set value -92445
+data modify storage computer:ram_1796 value set value -250609981
+data modify storage computer:ram_1800 value set value 299335379
+data modify storage computer:ram_1804 value set value 1456416519
+data modify storage computer:ram_1808 value set value 1052307
+data modify storage computer:ram_1812 value set value 22024083
+data modify storage computer:ram_1816 value set value 552013651
+data modify storage computer:ram_1820 value set value -804325421
+data modify storage computer:ram_1824 value set value 2002579
+data modify storage computer:ram_1828 value set value 419362771
+data modify storage computer:ram_1832 value set value 285179731
+data modify storage computer:ram_1836 value set value 31946579
+data modify storage computer:ram_1840 value set value -92445
+data modify storage computer:ram_1844 value set value -232787857
+data modify storage computer:ram_1848 value set value -268431661
+data modify storage computer:ram_1852 value set value -1579733293
+data modify storage computer:ram_1856 value set value 2047777891
+data modify storage computer:ram_1860 value set value 417855315
+data modify storage computer:ram_1864 value set value -253759377
+data modify storage computer:ram_1868 value set value 284653395
+data modify storage computer:ram_1872 value set value -262147985
+data modify storage computer:ram_1876 value set value 1456416519
+data modify storage computer:ram_1880 value set value 1052307
+data modify storage computer:ram_1884 value set value 22024083
+data modify storage computer:ram_1888 value set value 552013651
+data modify storage computer:ram_1892 value set value -804323629
+data modify storage computer:ram_1896 value set value 2002579
+data modify storage computer:ram_1900 value set value 433585875
+data modify storage computer:ram_1904 value set value 299859795
+data modify storage computer:ram_1908 value set value 31946579
+data modify storage computer:ram_1912 value set value -92445
+data modify storage computer:ram_1916 value set value 822083695
+data modify storage computer:ram_1920 value set value -268433581
+data modify storage computer:ram_1924 value set value -1595437357
+data modify storage computer:ram_1928 value set value 1309579363
+data modify storage computer:ram_1932 value set value 1460481671
+data modify storage computer:ram_1936 value set value -1593925933
+data modify storage computer:ram_1940 value set value 2014219875
+data modify storage computer:ram_1944 value set value 1435250567
+data modify storage computer:ram_1948 value set value 1456418567
+data modify storage computer:ram_1952 value set value 301463507
+data modify storage computer:ram_1956 value set value 31946579
+data modify storage computer:ram_1960 value set value -1593925933
+data modify storage computer:ram_1964 value set value -32597277
+data modify storage computer:ram_1968 value set value 1456418439
+data modify storage computer:ram_1972 value set value -268431533
+data modify storage computer:ram_1976 value set value 1052307
+data modify storage computer:ram_1980 value set value 165150419
+data modify storage computer:ram_1984 value set value 32509843
+data modify storage computer:ram_1988 value set value 568238035
+data modify storage computer:ram_1992 value set value -804325421
+data modify storage computer:ram_1996 value set value 2002579
+data modify storage computer:ram_2000 value set value 419362771
+data modify storage computer:ram_2004 value set value 301924051
+data modify storage computer:ram_2008 value set value 16744275
+data modify storage computer:ram_2012 value set value -92445
+data modify storage computer:ram_2016 value set value 1540138887
+data modify storage computer:ram_2020 value set value -252217533
+data modify storage computer:ram_2024 value set value 708837487
+data modify storage computer:ram_2028 value set value -268433581
+data modify storage computer:ram_2032 value set value -1595437357
+data modify storage computer:ram_2036 value set value 1208914531
+data modify storage computer:ram_2040 value set value 1460481671
+data modify storage computer:ram_2044 value set value -1593925933
+data modify storage computer:ram_2048 value set value 1880000611
+data modify storage computer:ram_2052 value set value 1435250567
+data modify storage computer:ram_2056 value set value 1456418567
+data modify storage computer:ram_2060 value set value 301463507
+data modify storage computer:ram_2064 value set value 31946579
+data modify storage computer:ram_2068 value set value -1593925933
+data modify storage computer:ram_2072 value set value -32597277
+data modify storage computer:ram_2076 value set value 1456418439
+data modify storage computer:ram_2080 value set value -268431533
+data modify storage computer:ram_2084 value set value 1052307
+data modify storage computer:ram_2088 value set value 165150419
+data modify storage computer:ram_2092 value set value 32509843
+data modify storage computer:ram_2096 value set value 568238035
+data modify storage computer:ram_2100 value set value -804325421
+data modify storage computer:ram_2104 value set value 2002579
+data modify storage computer:ram_2108 value set value 419362771
+data modify storage computer:ram_2112 value set value 301924051
+data modify storage computer:ram_2116 value set value 16744275
+data modify storage computer:ram_2120 value set value -92445
+data modify storage computer:ram_2124 value set value 1540140679
+data modify storage computer:ram_2128 value set value 11959
+data modify storage computer:ram_2132 value set value 1544464263
+data modify storage computer:ram_2136 value set value -237537469
+data modify storage computer:ram_2140 value set value 418871123
+data modify storage computer:ram_2144 value set value 583008367
+data modify storage computer:ram_2148 value set value 11959
+data modify storage computer:ram_2152 value set value 1477357319
+data modify storage computer:ram_2156 value set value 11959
+data modify storage computer:ram_2160 value set value 1531881223
+data modify storage computer:ram_2164 value set value 300416851
+data modify storage computer:ram_2168 value set value 11959
+data modify storage computer:ram_2172 value set value 1481551495
+data modify storage computer:ram_2176 value set value 11959
+data modify storage computer:ram_2180 value set value 1464774535
+data modify storage computer:ram_2184 value set value 15693651
+data modify storage computer:ram_2188 value set value 433551315
+data modify storage computer:ram_2192 value set value -1073242413
+data modify storage computer:ram_2196 value set value -804325421
+data modify storage computer:ram_2200 value set value 1909979083
+data modify storage computer:ram_2204 value set value -1593860397
+data modify storage computer:ram_2208 value set value 1846444131
+data modify storage computer:ram_2212 value set value 165148627
+data modify storage computer:ram_2216 value set value 553097043
+data modify storage computer:ram_2220 value set value 11959
+data modify storage computer:ram_2224 value set value 1489937543
+data modify storage computer:ram_2228 value set value 284653395
+data modify storage computer:ram_2232 value set value 11959
+data modify storage computer:ram_2236 value set value 1494133255
+data modify storage computer:ram_2240 value set value 11959
+data modify storage computer:ram_2244 value set value 1498327431
+data modify storage computer:ram_2248 value set value 412579027
+data modify storage computer:ram_2252 value set value 11959
+data modify storage computer:ram_2256 value set value 1502521991
+data modify storage computer:ram_2260 value set value 11959
+data modify storage computer:ram_2264 value set value 1506716679
+data modify storage computer:ram_2268 value set value 11959
+data modify storage computer:ram_2272 value set value 1510910855
+data modify storage computer:ram_2276 value set value 424114771
+data modify storage computer:ram_2280 value set value 11959
+data modify storage computer:ram_2284 value set value 1515105031
+data modify storage computer:ram_2288 value set value 11959
+data modify storage computer:ram_2292 value set value 1519297543
+data modify storage computer:ram_2296 value set value 12215
+data modify storage computer:ram_2300 value set value 1523560071
+data modify storage computer:ram_2304 value set value 423066067
+data modify storage computer:ram_2308 value set value 11959
+data modify storage computer:ram_2312 value set value 1527687431
+data modify storage computer:ram_2316 value set value -268431405
+data modify storage computer:ram_2320 value set value 284488915
+data modify storage computer:ram_2324 value set value 425163475
+data modify storage computer:ram_2328 value set value 9959379
+data modify storage computer:ram_2332 value set value 278557907
+data modify storage computer:ram_2336 value set value 428309075
+data modify storage computer:ram_2340 value set value 9959379
+data modify storage computer:ram_2344 value set value 278525139
+data modify storage computer:ram_2348 value set value 427260371
+data modify storage computer:ram_2352 value set value 9959379
+data modify storage computer:ram_2356 value set value 278592211
+data modify storage computer:ram_2360 value set value 426210515
+data modify storage computer:ram_2364 value set value 22542291
+data modify storage computer:ram_2368 value set value 291142227
+data modify storage computer:ram_2372 value set value 411530323
+data modify storage computer:ram_2376 value set value 21493715
+data modify storage computer:ram_2380 value set value 290060755
+data modify storage computer:ram_2384 value set value 433553107
+data modify storage computer:ram_2388 value set value 20445139
+data modify storage computer:ram_2392 value set value 288683219
+data modify storage computer:ram_2396 value set value 422016851
+data modify storage computer:ram_2400 value set value 9959379
+data modify storage computer:ram_2404 value set value 278164563
+data modify storage computer:ram_2408 value set value 8910803
+data modify storage computer:ram_2412 value set value 277806803
+data modify storage computer:ram_2416 value set value 30930899
+data modify storage computer:ram_2420 value set value 2028928707
+data modify storage computer:ram_2424 value set value -1577148973
+data modify storage computer:ram_2428 value set value 568231763
+data modify storage computer:ram_2432 value set value 885859
+data modify storage computer:ram_2436 value set value 568235859
+data modify storage computer:ram_2440 value set value 11703
+data modify storage computer:ram_2444 value set value 1536010119
+data modify storage computer:ram_2448 value set value -1594417709
+data modify storage computer:ram_2452 value set value 772641379
+data modify storage computer:ram_2456 value set value 11703
+data modify storage computer:ram_2460 value set value 1481484167
+data modify storage computer:ram_2464 value set value 11703
+data modify storage computer:ram_2468 value set value 1464708999
+data modify storage computer:ram_2472 value set value 419395411
+data modify storage computer:ram_2476 value set value -1073275437
+data modify storage computer:ram_2480 value set value -804391085
+data modify storage computer:ram_2484 value set value -252217525
+data modify storage computer:ram_2488 value set value -1594909229
+data modify storage computer:ram_2492 value set value 1611499619
+data modify storage computer:ram_2496 value set value 150435667
+data modify storage computer:ram_2500 value set value 552017747
+data modify storage computer:ram_2504 value set value 11703
+data modify storage computer:ram_2508 value set value 1489873799
+data modify storage computer:ram_2512 value set value 284131155
+data modify storage computer:ram_2516 value set value 11703
+data modify storage computer:ram_2520 value set value 1494067975
+data modify storage computer:ram_2524 value set value 11703
+data modify storage computer:ram_2528 value set value 1498262151
+data modify storage computer:ram_2532 value set value 427785171
+data modify storage computer:ram_2536 value set value 11703
+data modify storage computer:ram_2540 value set value 1502456327
+data modify storage computer:ram_2544 value set value 11703
+data modify storage computer:ram_2548 value set value 1506650503
+data modify storage computer:ram_2552 value set value 11703
+data modify storage computer:ram_2556 value set value 1510844679
+data modify storage computer:ram_2560 value set value 426736467
+data modify storage computer:ram_2564 value set value 11703
+data modify storage computer:ram_2568 value set value 1515037703
+data modify storage computer:ram_2572 value set value 11703
+data modify storage computer:ram_2576 value set value 1519234951
+data modify storage computer:ram_2580 value set value 1523558279
+data modify storage computer:ram_2584 value set value 1527686279
+data modify storage computer:ram_2588 value set value 425687763
+data modify storage computer:ram_2592 value set value 283900883
+data modify storage computer:ram_2596 value set value 424639059
+data modify storage computer:ram_2600 value set value 24606547
+data modify storage computer:ram_2604 value set value 293305171
+data modify storage computer:ram_2608 value set value 423590355
+data modify storage computer:ram_2612 value set value 23557971
+data modify storage computer:ram_2616 value set value 292223699
+data modify storage computer:ram_2620 value set value 422541651
+data modify storage computer:ram_2624 value set value 22509395
+data modify storage computer:ram_2628 value set value 291142227
+data modify storage computer:ram_2632 value set value 412054611
+data modify storage computer:ram_2636 value set value 21460819
+data modify storage computer:ram_2640 value set value 290060755
+data modify storage computer:ram_2644 value set value 436174803
+data modify storage computer:ram_2648 value set value 20412243
+data modify storage computer:ram_2652 value set value 288979283
+data modify storage computer:ram_2656 value set value 419395539
+data modify storage computer:ram_2660 value set value 19363667
+data modify storage computer:ram_2664 value set value 287601747
+data modify storage computer:ram_2668 value set value 413106003
+data modify storage computer:ram_2672 value set value 8877907
+data modify storage computer:ram_2676 value set value 277872595
+data modify storage computer:ram_2680 value set value 32995155
+data modify storage computer:ram_2684 value set value 301463507
+data modify storage computer:ram_2688 value set value 16217939
+data modify storage computer:ram_2692 value set value 1911027651
+data modify storage computer:ram_2696 value set value 433583955
+data modify storage computer:ram_2700 value set value 11929011
+data modify storage computer:ram_2704 value set value 384147495
+data modify storage computer:ram_2708 value set value -1780486033
+data modify storage computer:ram_2712 value set value 11959
+data modify storage computer:ram_2716 value set value 1531883399
+data modify storage computer:ram_2720 value set value 11959
+data modify storage computer:ram_2724 value set value 1477355271
+data modify storage computer:ram_2728 value set value 11959
+data modify storage computer:ram_2732 value set value 1481551495
+data modify storage computer:ram_2736 value set value -119015613
+data modify storage computer:ram_2740 value set value 11959
+data modify storage computer:ram_2744 value set value 1464774407
+data modify storage computer:ram_2748 value set value 433551315
+data modify storage computer:ram_2752 value set value -1073242413
+data modify storage computer:ram_2756 value set value -804325421
+data modify storage computer:ram_2760 value set value 1909979083
+data modify storage computer:ram_2764 value set value -1593893165
+data modify storage computer:ram_2768 value set value 1208909923
+data modify storage computer:ram_2772 value set value 165148627
+data modify storage computer:ram_2776 value set value 553098963
+data modify storage computer:ram_2780 value set value 11959
+data modify storage computer:ram_2784 value set value 1489940231
+data modify storage computer:ram_2788 value set value 285146835
+data modify storage computer:ram_2792 value set value 11959
+data modify storage computer:ram_2796 value set value 1494131847
+data modify storage computer:ram_2800 value set value 11959
+data modify storage computer:ram_2804 value set value 1498327687
+data modify storage computer:ram_2808 value set value 435093331
+data modify storage computer:ram_2812 value set value 11959
+data modify storage computer:ram_2816 value set value 1502521863
+data modify storage computer:ram_2820 value set value 11959
+data modify storage computer:ram_2824 value set value 1506716423
+data modify storage computer:ram_2828 value set value 11959
+data modify storage computer:ram_2832 value set value 1510908935
+data modify storage computer:ram_2836 value set value 413070547
+data modify storage computer:ram_2840 value set value 11959
+data modify storage computer:ram_2844 value set value 1515106183
+data modify storage computer:ram_2848 value set value 11959
+data modify storage computer:ram_2852 value set value 1519298951
+data modify storage computer:ram_2856 value set value 11959
+data modify storage computer:ram_2860 value set value 1523492615
+data modify storage computer:ram_2864 value set value 425654995
+data modify storage computer:ram_2868 value set value 11959
+data modify storage computer:ram_2872 value set value 1527687431
+data modify storage computer:ram_2876 value set value 285179731
+data modify storage computer:ram_2880 value set value 424606291
+data modify storage computer:ram_2884 value set value 31979475
+data modify storage computer:ram_2888 value set value 300217555
+data modify storage computer:ram_2892 value set value 426704723
+data modify storage computer:ram_2896 value set value 9959379
+data modify storage computer:ram_2900 value set value 278590675
+data modify storage computer:ram_2904 value set value 412021843
+data modify storage computer:ram_2908 value set value 9959379
+data modify storage computer:ram_2912 value set value 278557907
+data modify storage computer:ram_2916 value set value 436142035
+data modify storage computer:ram_2920 value set value 9959379
+data modify storage computer:ram_2924 value set value 278885587
+data modify storage computer:ram_2928 value set value 418314067
+data modify storage computer:ram_2932 value set value 9959379
+data modify storage computer:ram_2936 value set value 278164563
+data modify storage computer:ram_2940 value set value 423558995
+data modify storage computer:ram_2944 value set value 8910803
+data modify storage computer:ram_2948 value set value 277872595
+data modify storage computer:ram_2952 value set value 422510291
+data modify storage computer:ram_2956 value set value 301956947
+data modify storage computer:ram_2960 value set value 33028051
+data modify storage computer:ram_2964 value set value 300382035
+data modify storage computer:ram_2968 value set value 31979475
+data modify storage computer:ram_2972 value set value 15202259
+data modify storage computer:ram_2976 value set value 2044163907
+data modify storage computer:ram_2980 value set value -291508113
+data modify storage computer:ram_2984 value set value -268431661
+data modify storage computer:ram_2988 value set value -1579708717
+data modify storage computer:ram_2992 value set value 202282083
+data modify storage computer:ram_2996 value set value 1460479751
+data modify storage computer:ram_3000 value set value -1594417453
+data modify storage computer:ram_3004 value set value 1041139299
+data modify storage computer:ram_3008 value set value 1435250567
+data modify storage computer:ram_3012 value set value 1456418567
+data modify storage computer:ram_3016 value set value 11703
+data modify storage computer:ram_3020 value set value 301463507
+data modify storage computer:ram_3024 value set value 32440019
+data modify storage computer:ram_3028 value set value -1594417453
+data modify storage computer:ram_3032 value set value -32597277
+data modify storage computer:ram_3036 value set value 1456416519
+data modify storage computer:ram_3040 value set value -268431533
+data modify storage computer:ram_3044 value set value 1052307
+data modify storage computer:ram_3048 value set value 149419987
+data modify storage computer:ram_3052 value set value 32509843
+data modify storage computer:ram_3056 value set value 553099219
+data modify storage computer:ram_3060 value set value -804325549
+data modify storage computer:ram_3064 value set value 2002579
+data modify storage computer:ram_3068 value set value 417855315
+data modify storage computer:ram_3072 value set value 301463507
+data modify storage computer:ram_3076 value set value 15695699
+data modify storage computer:ram_3080 value set value -92445
+data modify storage computer:ram_3084 value set value 1540140935
+data modify storage computer:ram_3088 value set value 1435346823
+data modify storage computer:ram_3092 value set value 1456416519
+data modify storage computer:ram_3096 value set value -234946749
+data modify storage computer:ram_3100 value set value 1052307
+data modify storage computer:ram_3104 value set value 552013523
+data modify storage computer:ram_3108 value set value 22024083
+data modify storage computer:ram_3112 value set value 285179731
+data modify storage computer:ram_3116 value set value -804325421
+data modify storage computer:ram_3120 value set value 2002579
+data modify storage computer:ram_3124 value set value 419395539
+data modify storage computer:ram_3128 value set value 285146835
+data modify storage computer:ram_3132 value set value 30898003
+data modify storage computer:ram_3136 value set value -92445
+data modify storage computer:ram_3140 value set value -459280273
+data modify storage computer:ram_3144 value set value 1456416519
+data modify storage computer:ram_3148 value set value -1595435565
+data modify storage computer:ram_3152 value set value -1744467741
+data modify storage computer:ram_3156 value set value 16250835
+data modify storage computer:ram_3160 value set value 149913427
+data modify storage computer:ram_3164 value set value -1595435565
+data modify storage computer:ram_3168 value set value -33187101
+data modify storage computer:ram_3172 value set value -1746931601
+data modify storage computer:ram_3176 value set value 1456418439
+data modify storage computer:ram_3180 value set value 32903091
+data modify storage computer:ram_3184 value set value 400531495
+data modify storage computer:ram_3188 value set value -137367441
+data modify storage computer:ram_3192 value set value -268433581
+data modify storage computer:ram_3196 value set value -518000529
+data modify storage computer:ram_3200 value set value 691219
+data modify storage computer:ram_3204 value set value 2451
+data modify storage computer:ram_3208 value set value 2707
+data modify storage computer:ram_3212 value set value 17439891
+data modify storage computer:ram_3216 value set value 17620115
+data modify storage computer:ram_3220 value set value 17405331
+data modify storage computer:ram_3224 value set value 17159571
+data modify storage computer:ram_3228 value set value 1811
+data modify storage computer:ram_3232 value set value 267388563
+data modify storage computer:ram_3236 value set value 1555
+data modify storage computer:ram_3240 value set value 820499
+data modify storage computer:ram_3244 value set value 1673619
+data modify storage computer:ram_3248 value set value 813699311
+data modify storage computer:ram_3252 value set value -12824349
+data modify storage computer:ram_3256 value set value 1706515
+data modify storage computer:ram_3260 value set value 4490387
+data modify storage computer:ram_3264 value set value -2122703133
+data modify storage computer:ram_3268 value set value 784339183
+data modify storage computer:ram_3272 value set value 695744311
+data modify storage computer:ram_3276 value set value 18359
+data modify storage computer:ram_3280 value set value -2040068333
+data modify storage computer:ram_3284 value set value -771258477
+data modify storage computer:ram_3288 value set value 33556115
+data modify storage computer:ram_3292 value set value 15801379
+data modify storage computer:ram_3296 value set value 14756387
+data modify storage computer:ram_3300 value set value 13700387
+data modify storage computer:ram_3304 value set value 608003
+data modify storage computer:ram_3308 value set value 28379027
+data modify storage computer:ram_3312 value set value 461923
+data modify storage computer:ram_3316 value set value 1640723
+data modify storage computer:ram_3320 value set value 15171619
+data modify storage computer:ram_3324 value set value 608003
+data modify storage computer:ram_3328 value set value 1542035
+data modify storage computer:ram_3332 value set value -33089309
+data modify storage computer:ram_3336 value set value 10551
+data modify storage computer:ram_3340 value set value 21038483
+data modify storage computer:ram_3344 value set value 1309213971
+data modify storage computer:ram_3348 value set value 491555
+data modify storage computer:ram_3352 value set value 1024458991
+data modify storage computer:ram_3356 value set value 10167
+data modify storage computer:ram_3360 value set value 1556587783
+data modify storage computer:ram_3364 value set value 18359
+data modify storage computer:ram_3368 value set value 33555603
+data modify storage computer:ram_3372 value set value -1517844589
+data modify storage computer:ram_3376 value set value 24184083
+data modify storage computer:ram_3380 value set value 15800867
+data modify storage computer:ram_3384 value set value 9505571
+data modify storage computer:ram_3388 value set value 827326703
+data modify storage computer:ram_3392 value set value 1430529287
+data modify storage computer:ram_3396 value set value 121637267
+data modify storage computer:ram_3400 value set value 116392979
+data modify storage computer:ram_3404 value set value 9764899
+data modify storage computer:ram_3408 value set value 9765283
+data modify storage computer:ram_3412 value set value 20250787
+data modify storage computer:ram_3416 value set value 8716579
+data modify storage computer:ram_3420 value set value 4523283
+data modify storage computer:ram_3424 value set value 789577967
+data modify storage computer:ram_3428 value set value 21038483
+data modify storage computer:ram_3432 value set value 327715
+data modify storage computer:ram_3436 value set value 1309213971
+data modify storage computer:ram_3440 value set value 932184303
+data modify storage computer:ram_3444 value set value 545523027
+data modify storage computer:ram_3448 value set value 18359
+data modify storage computer:ram_3452 value set value -1516796013
+data modify storage computer:ram_3456 value set value 24184083
+data modify storage computer:ram_3460 value set value 15800867
+data modify storage computer:ram_3464 value set value 9505571
+data modify storage computer:ram_3468 value set value 542114031
+data modify storage computer:ram_3472 value set value 557417811
+data modify storage computer:ram_3476 value set value 9764899
+data modify storage computer:ram_3480 value set value 20250787
+data modify storage computer:ram_3484 value set value 8716579
+data modify storage computer:ram_3488 value set value 9765283
+data modify storage computer:ram_3492 value set value 4523283
+data modify storage computer:ram_3496 value set value 512753903
+data modify storage computer:ram_3500 value set value 329619
+data modify storage computer:ram_3504 value set value 21038483
+data modify storage computer:ram_3508 value set value 1309213971
+data modify storage computer:ram_3512 value set value 491555
+data modify storage computer:ram_3516 value set value 852492527
+data modify storage computer:ram_3520 value set value 524292335
+data modify storage computer:ram_3524 value set value 734077059
+data modify storage computer:ram_3528 value set value 729883651
+data modify storage computer:ram_3532 value set value 725689475
+data modify storage computer:ram_3536 value set value 721496323
+data modify storage computer:ram_3540 value set value 717302147
+data modify storage computer:ram_3544 value set value 713107971
+data modify storage computer:ram_3548 value set value 708913795
+data modify storage computer:ram_3552 value set value 704719619
+data modify storage computer:ram_3556 value set value 700525443
+data modify storage computer:ram_3560 value set value 696331267
+data modify storage computer:ram_3564 value set value 692137091
+data modify storage computer:ram_3568 value set value 687942915
+data modify storage computer:ram_3572 value set value 683748739
+data modify storage computer:ram_3576 value set value 666969095
+data modify storage computer:ram_3580 value set value 662774919
+data modify storage computer:ram_3584 value set value 658581767
+data modify storage computer:ram_3588 value set value 654387591
+data modify storage computer:ram_3592 value set value 650193415
+data modify storage computer:ram_3596 value set value 645999239
+data modify storage computer:ram_3600 value set value 641805063
+data modify storage computer:ram_3604 value set value 637610887
+data modify storage computer:ram_3608 value set value 633416711
+data modify storage computer:ram_3612 value set value 1299
+data modify storage computer:ram_3616 value set value 738263315
+data modify storage computer:ram_3620 value set value 32871
+data modify storage computer:ram_3624 value set value 369596515
+data modify storage computer:ram_3628 value set value 66062995
+data modify storage computer:ram_3632 value set value 689555
+data modify storage computer:ram_3636 value set value -397414289
+data modify storage computer:ram_3640 value set value 276297555
+data modify storage computer:ram_3644 value set value 404191187
+data modify storage computer:ram_3648 value set value -1073242413
+data modify storage computer:ram_3652 value set value -804325421
+data modify storage computer:ram_3656 value set value 1880618955
+data modify storage computer:ram_3660 value set value -1594679597
+data modify storage computer:ram_3664 value set value 269388899
+data modify storage computer:ram_3668 value set value 135788499
+data modify storage computer:ram_3672 value set value 553098963
+data modify storage computer:ram_3676 value set value 11959
+data modify storage computer:ram_3680 value set value 1502521735
+data modify storage computer:ram_3684 value set value 285146835
+data modify storage computer:ram_3688 value set value 11959
+data modify storage computer:ram_3692 value set value 1506715911
+data modify storage computer:ram_3696 value set value 11959
+data modify storage computer:ram_3700 value set value 1510908935
+data modify storage computer:ram_3704 value set value 408877907
+data modify storage computer:ram_3708 value set value 11959
+data modify storage computer:ram_3712 value set value 1515106183
+data modify storage computer:ram_3716 value set value 11959
+data modify storage computer:ram_3720 value set value 1519300359
+data modify storage computer:ram_3724 value set value 11959
+data modify storage computer:ram_3728 value set value 1523492615
+data modify storage computer:ram_3732 value set value 407829203
+data modify storage computer:ram_3736 value set value 11959
+data modify storage computer:ram_3740 value set value 1527686279
+data modify storage computer:ram_3744 value set value 406780499
+data modify storage computer:ram_3748 value set value 284916563
+data modify storage computer:ram_3752 value set value 423557587
+data modify storage computer:ram_3756 value set value 23590867
+data modify storage computer:ram_3760 value set value 292223699
+data modify storage computer:ram_3764 value set value 422508883
+data modify storage computer:ram_3768 value set value 16447443
+data modify storage computer:ram_3772 value set value 291142227
+data modify storage computer:ram_3776 value set value 412021843
+data modify storage computer:ram_3780 value set value 16414675
+data modify storage computer:ram_3784 value set value 290060755
+data modify storage computer:ram_3788 value set value 436142035
+data modify storage computer:ram_3792 value set value 20445139
+data modify storage computer:ram_3796 value set value 288979283
+data modify storage computer:ram_3800 value set value 435093331
+data modify storage computer:ram_3804 value set value 19396563
+data modify storage computer:ram_3808 value set value 287601747
+data modify storage computer:ram_3812 value set value 418314067
+data modify storage computer:ram_3816 value set value 8910803
+data modify storage computer:ram_3820 value set value 277872595
+data modify storage computer:ram_3824 value set value 413073107
+data modify storage computer:ram_3828 value set value -912265105
+data modify storage computer:ram_3832 value set value -268433581
+data modify storage computer:ram_3836 value set value -175116177
+data modify storage computer:ram_3840 value set value 324655203
+data modify storage computer:ram_3844 value set value 691219
+data modify storage computer:ram_3848 value set value 625299
+data modify storage computer:ram_3852 value set value -668995473
+data modify storage computer:ram_3856 value set value 1456418439
+data modify storage computer:ram_3860 value set value -1579704621
+data modify storage computer:ram_3864 value set value -1878097181
+data modify storage computer:ram_3868 value set value 16250835
+data modify storage computer:ram_3872 value set value 165115731
+data modify storage computer:ram_3876 value set value -1579704621
+data modify storage computer:ram_3880 value set value -32597277
+data modify storage computer:ram_3884 value set value -1893732241
+data modify storage computer:ram_3888 value set value 1456418439
+data modify storage computer:ram_3892 value set value -1579704621
+data modify storage computer:ram_3896 value set value -2045866781
+data modify storage computer:ram_3900 value set value 16250835
+data modify storage computer:ram_3904 value set value 165115731
+data modify storage computer:ram_3908 value set value -1579704621
+data modify storage computer:ram_3912 value set value -32597277
+data modify storage computer:ram_3916 value set value -2040532881
+data modify storage computer:ram_3920 value set value 11959
+data modify storage computer:ram_3924 value set value 1485743879
+data modify storage computer:ram_3928 value set value -1595433261
+data modify storage computer:ram_3932 value set value -1240559901
+data modify storage computer:ram_3936 value set value 30930899
+data modify storage computer:ram_3940 value set value -1218449297
+data modify storage computer:ram_3944 value set value 11959
+data modify storage computer:ram_3948 value set value 1485743879
+data modify storage computer:ram_3952 value set value -1595433261
+data modify storage computer:ram_3956 value set value -301038877
+data modify storage computer:ram_3960 value set value 1570771
+data modify storage computer:ram_3964 value set value -304091025
+data modify storage computer:ram_3968 value set value 11959
+data modify storage computer:ram_3972 value set value 1485743879
+data modify storage computer:ram_3976 value set value -1595433261
+data modify storage computer:ram_3980 value set value -1878094109
+data modify storage computer:ram_3984 value set value 30930899
+data modify storage computer:ram_3988 value set value -1855983505
+data modify storage computer:ram_3992 value set value 690579
+data modify storage computer:ram_3996 value set value 66062995
+data modify storage computer:ram_4000 value set value 691219
+data modify storage computer:ram_4004 value set value -828379025
+data modify storage computer:ram_4008 value set value 1456416519
+data modify storage computer:ram_4012 value set value -1595433261
+data modify storage computer:ram_4016 value set value 952931
+data modify storage computer:ram_4020 value set value 16250835
+data modify storage computer:ram_4024 value set value 149880531
+data modify storage computer:ram_4028 value set value -1595433261
+data modify storage computer:ram_4032 value set value -32597277
+data modify storage computer:ram_4036 value set value 11703
+data modify storage computer:ram_4040 value set value -1050677137
+data modify storage computer:ram_4044 value set value 11703
+data modify storage computer:ram_4048 value set value 1485680391
+data modify storage computer:ram_4052 value set value -1578689069
+data modify storage computer:ram_4056 value set value -1643280669
+data modify storage computer:ram_4060 value set value 16217939
+data modify storage computer:ram_4064 value set value -1637879697
+data modify storage computer:ram_4068 value set value -939162909
+data modify storage computer:ram_4072 value set value 1456418439
+data modify storage computer:ram_4076 value set value 3731
+data modify storage computer:ram_4080 value set value 2002579
+data modify storage computer:ram_4084 value set value 285146835
+data modify storage computer:ram_4088 value set value -2777885
+data modify storage computer:ram_4092 value set value 32903091
+data modify storage computer:ram_4096 value set value 400531495
+data modify storage computer:ram_4100 value set value -1093668753
+data modify storage computer:ram_4104 value set value -1580753197
+data modify storage computer:ram_4108 value set value -334592925
+data modify storage computer:ram_4112 value set value 1456418439
+data modify storage computer:ram_4116 value set value 16250835
+data modify storage computer:ram_4120 value set value 165674963
+data modify storage computer:ram_4124 value set value -1579704621
+data modify storage computer:ram_4128 value set value -32597277
+data modify storage computer:ram_4132 value set value -351276945
+data modify storage computer:ram_4136 value set value 1456416519
+data modify storage computer:ram_4140 value set value -493883281
+data modify storage computer:ram_4144 value set value 625683
+data modify storage computer:ram_4148 value set value 690579
+data modify storage computer:ram_4152 value set value 789139
+data modify storage computer:ram_4156 value set value -987762577
+data modify storage computer:ram_4160 value set value 2463507
+data modify storage computer:ram_4164 value set value 15075123
+data modify storage computer:ram_4168 value set value 2098835
+data modify storage computer:ram_4172 value set value 67575843
+data modify storage computer:ram_4176 value set value 11929395
+data modify storage computer:ram_4180 value set value 14090275
+data modify storage computer:ram_4184 value set value 328339
+data modify storage computer:ram_4188 value set value 1410835
+data modify storage computer:ram_4192 value set value 1542035
+data modify storage computer:ram_4196 value set value 267875731
+data modify storage computer:ram_4200 value set value 1050643
+data modify storage computer:ram_4204 value set value 1683
+data modify storage computer:ram_4208 value set value -1945987485
+data modify storage computer:ram_4212 value set value -1865420689
+data modify storage computer:ram_4216 value set value -99710749
+data modify storage computer:ram_4220 value set value 12215
+data modify storage computer:ram_4224 value set value 1456449287
+data modify storage computer:ram_4228 value set value 3987
+data modify storage computer:ram_4232 value set value 2068371
+data modify storage computer:ram_4236 value set value 284653395
+data modify storage computer:ram_4240 value set value -90909
+data modify storage computer:ram_4244 value set value -602935185
+data modify storage computer:ram_4248 value set value -1811411869
+data modify storage computer:ram_4252 value set value -1027767645
+data modify storage computer:ram_4256 value set value 361107
+data modify storage computer:ram_4260 value set value -1798311825
+data modify storage computer:ram_4264 value set value -50165997
+data modify storage computer:ram_4268 value set value 267875347
+data modify storage computer:ram_4272 value set value -48069357
+data modify storage computer:ram_4276 value set value 10762387
+data modify storage computer:ram_4280 value set value 1389843
+data modify storage computer:ram_4284 value set value 11069619
+data modify storage computer:ram_4288 value set value 235440739
+data modify storage computer:ram_4292 value set value 9438483
+data modify storage computer:ram_4296 value set value 444949091
+data modify storage computer:ram_4300 value set value 9911
+data modify storage computer:ram_4304 value set value 1439082119
+data modify storage computer:ram_4308 value set value -268433453
+data modify storage computer:ram_4312 value set value 1557123
+data modify storage computer:ram_4316 value set value -804817069
+data modify storage computer:ram_4320 value set value 1542035
+data modify storage computer:ram_4324 value set value -50165997
+data modify storage computer:ram_4328 value set value 267875987
+data modify storage computer:ram_4332 value set value 1893201859
+data modify storage computer:ram_4336 value set value -19565341
+data modify storage computer:ram_4340 value set value 48236307
+data modify storage computer:ram_4344 value set value 115509347
+data modify storage computer:ram_4348 value set value 2463507
+data modify storage computer:ram_4352 value set value 11929267
+data modify storage computer:ram_4356 value set value 15075123
+data modify storage computer:ram_4360 value set value 83304487
+data modify storage computer:ram_4364 value set value 23494691
+data modify storage computer:ram_4368 value set value 1410835
+data modify storage computer:ram_4372 value set value 559123
+data modify storage computer:ram_4376 value set value 267875731
+data modify storage computer:ram_4380 value set value 1683
+data modify storage computer:ram_4384 value set value 164963
+data modify storage computer:ram_4388 value set value -2121273233
+data modify storage computer:ram_4392 value set value -2054164369
+data modify storage computer:ram_4396 value set value 2463507
+data modify storage computer:ram_4400 value set value 15075123
+data modify storage computer:ram_4404 value set value 2098835
+data modify storage computer:ram_4408 value set value 67575843
+data modify storage computer:ram_4412 value set value 11929395
+data modify storage computer:ram_4416 value set value 14090275
+data modify storage computer:ram_4420 value set value 1410451
+data modify storage computer:ram_4424 value set value 197267
+data modify storage computer:ram_4428 value set value 1542035
+data modify storage computer:ram_4432 value set value 267777427
+data modify storage computer:ram_4436 value set value 1683
+data modify storage computer:ram_4440 value set value 1050643
+data modify storage computer:ram_4444 value set value 29525091
+data modify storage computer:ram_4448 value set value -27271057
+data modify storage computer:ram_4452 value set value -1731202961
+data modify storage computer:ram_4456 value set value 493331
+data modify storage computer:ram_4460 value set value 1524355
+data modify storage computer:ram_4464 value set value 9438867
+data modify storage computer:ram_4468 value set value 1542035
+data modify storage computer:ram_4472 value set value -50165997
+data modify storage computer:ram_4476 value set value 267875603
+data modify storage computer:ram_4480 value set value -156832029
+data modify storage computer:ram_4484 value set value 9527
+data modify storage computer:ram_4488 value set value 1443178247
+data modify storage computer:ram_4492 value set value 552011219
+data modify storage computer:ram_4496 value set value 1557123
+data modify storage computer:ram_4500 value set value -804817197
+data modify storage computer:ram_4504 value set value 1542035
+data modify storage computer:ram_4508 value set value -50165997
+data modify storage computer:ram_4512 value set value 267875603
+data modify storage computer:ram_4516 value set value 2028402627
+data modify storage computer:ram_4520 value set value 280459091
+data modify storage computer:ram_4524 value set value -22613277
+data modify storage computer:ram_4528 value set value -186650513
+data modify storage computer:ram_4532 value set value 165651
+data modify storage computer:ram_4536 value set value 1017107
+data modify storage computer:ram_4540 value set value 41945235
+data modify storage computer:ram_4544 value set value 120590227
+data modify storage computer:ram_4548 value set value 9437843
+data modify storage computer:ram_4552 value set value 100081251
+data modify storage computer:ram_4556 value set value 1558659
+data modify storage computer:ram_4560 value set value 75011171
+data modify storage computer:ram_4564 value set value 2607235
+data modify storage computer:ram_4568 value set value 115347347
+data modify storage computer:ram_4572 value set value 66625123
+data modify storage computer:ram_4576 value set value 3654275
+data modify storage computer:ram_4580 value set value 41945235
+data modify storage computer:ram_4584 value set value 51550307
+data modify storage computer:ram_4588 value set value 1380243
+data modify storage computer:ram_4592 value set value 8390419
+data modify storage computer:ram_4596 value set value 10880307
+data modify storage computer:ram_4600 value set value 1050259
+data modify storage computer:ram_4604 value set value 350552099
+data modify storage computer:ram_4608 value set value 3639187
+data modify storage computer:ram_4612 value set value 268435347
+data modify storage computer:ram_4616 value set value 429843
+data modify storage computer:ram_4620 value set value 29525091
+data modify storage computer:ram_4624 value set value -211820433
+data modify storage computer:ram_4628 value set value -1915752337
+data modify storage computer:ram_4632 value set value 459411
+data modify storage computer:ram_4636 value set value 331667
+data modify storage computer:ram_4640 value set value -1907363729
+data modify storage computer:ram_4644 value set value 103810067
+data modify storage computer:ram_4648 value set value 545724003
+data modify storage computer:ram_4652 value set value 1557635
+data modify storage computer:ram_4656 value set value 116392979
+data modify storage computer:ram_4660 value set value -24866077
+data modify storage computer:ram_4664 value set value 2606083
+data modify storage computer:ram_4668 value set value -34332957
+data modify storage computer:ram_4672 value set value 3654659
+data modify storage computer:ram_4676 value set value -49014045
+data modify storage computer:ram_4680 value set value 1378067
+data modify storage computer:ram_4684 value set value 1050259
+data modify storage computer:ram_4688 value set value 10880307
+data modify storage computer:ram_4692 value set value 341114915
+data modify storage computer:ram_4696 value set value 3639187
+data modify storage computer:ram_4700 value set value 267875603
+data modify storage computer:ram_4704 value set value 429843
+data modify storage computer:ram_4708 value set value 558867
+data modify storage computer:ram_4712 value set value -165678993
+data modify storage computer:ram_4716 value set value -268433453
+data modify storage computer:ram_4720 value set value 493331
+data modify storage computer:ram_4724 value set value -274730897
+data modify storage computer:ram_4728 value set value 9527
+data modify storage computer:ram_4732 value set value 1279591699
+data modify storage computer:ram_4736 value set value 1811
+data modify storage computer:ram_4740 value set value 5245075
+data modify storage computer:ram_4744 value set value 521604707
+data modify storage computer:ram_4748 value set value 10945587
+data modify storage computer:ram_4752 value set value 1509139
+data modify storage computer:ram_4756 value set value 15172787
+data modify storage computer:ram_4760 value set value 279555
+data modify storage computer:ram_4764 value set value -736125
+data modify storage computer:ram_4768 value set value -24869661
+data modify storage computer:ram_4772 value set value 9527
+data modify storage computer:ram_4776 value set value 1287980307
+data modify storage computer:ram_4780 value set value 1811
+data modify storage computer:ram_4784 value set value 3147923
+data modify storage computer:ram_4788 value set value 555155555
+data modify storage computer:ram_4792 value set value 10945587
+data modify storage computer:ram_4796 value set value 1509139
+data modify storage computer:ram_4800 value set value 15172787
+data modify storage computer:ram_4804 value set value 279555
+data modify storage computer:ram_4808 value set value -736125
+data modify storage computer:ram_4812 value set value -24869661
+data modify storage computer:ram_4816 value set value 9527
+data modify storage computer:ram_4820 value set value 1292174611
+data modify storage computer:ram_4824 value set value 1811
+data modify storage computer:ram_4828 value set value 4196499
+data modify storage computer:ram_4832 value set value 555156067
+data modify storage computer:ram_4836 value set value 10945587
+data modify storage computer:ram_4840 value set value 1509139
+data modify storage computer:ram_4844 value set value 15172787
+data modify storage computer:ram_4848 value set value 279555
+data modify storage computer:ram_4852 value set value -736125
+data modify storage computer:ram_4856 value set value -24869661
+data modify storage computer:ram_4860 value set value 9527
+data modify storage computer:ram_4864 value set value 1300563219
+data modify storage computer:ram_4868 value set value 1811
+data modify storage computer:ram_4872 value set value 4196499
+data modify storage computer:ram_4876 value set value 521601635
+data modify storage computer:ram_4880 value set value 10945587
+data modify storage computer:ram_4884 value set value 1509139
+data modify storage computer:ram_4888 value set value 15172787
+data modify storage computer:ram_4892 value set value 279555
+data modify storage computer:ram_4896 value set value -736125
+data modify storage computer:ram_4900 value set value -24869661
+data modify storage computer:ram_4904 value set value 46139155
+data modify storage computer:ram_4908 value set value 1541139
+data modify storage computer:ram_4912 value set value 484607587
+data modify storage computer:ram_4916 value set value 41944851
+data modify storage computer:ram_4920 value set value 954371683
+data modify storage computer:ram_4924 value set value 42993427
+data modify storage computer:ram_4928 value set value 853707363
+data modify storage computer:ram_4932 value set value 47187731
+data modify storage computer:ram_4936 value set value 786599523
+data modify storage computer:ram_4940 value set value 49284883
+data modify storage computer:ram_4944 value set value 786597475
+data modify storage computer:ram_4948 value set value 743923811
+data modify storage computer:ram_4952 value set value 44042003
+data modify storage computer:ram_4956 value set value 753044579
+data modify storage computer:ram_4960 value set value 45090579
+data modify storage computer:ram_4964 value set value 3147923
+data modify storage computer:ram_4968 value set value 719494243
+data modify storage computer:ram_4972 value set value -2587501
+data modify storage computer:ram_4976 value set value 267711635
+data modify storage computer:ram_4980 value set value 2406931
+data modify storage computer:ram_4984 value set value 1718803
+data modify storage computer:ram_4988 value set value -6780525
+data modify storage computer:ram_4992 value set value 1017107
+data modify storage computer:ram_4996 value set value 12551987
+data modify storage computer:ram_5000 value set value 1706515
+data modify storage computer:ram_5004 value set value 1685907
+data modify storage computer:ram_5008 value set value 7343123
+data modify storage computer:ram_5012 value set value 1052563
+data modify storage computer:ram_5016 value set value 1084688051
+data modify storage computer:ram_5020 value set value 329107
+data modify storage computer:ram_5024 value set value 267843219
+data modify storage computer:ram_5028 value set value 637862499
+data modify storage computer:ram_5032 value set value 16183
+data modify storage computer:ram_5036 value set value -1202778349
+data modify storage computer:ram_5040 value set value 11472691
+data modify storage computer:ram_5044 value set value -48509
+data modify storage computer:ram_5048 value set value 266342163
+data modify storage computer:ram_5052 value set value 330643
+data modify storage computer:ram_5056 value set value 534937699
+data modify storage computer:ram_5060 value set value -8220909
+data modify storage computer:ram_5064 value set value 268402451
+data modify storage computer:ram_5068 value set value 502037091
+data modify storage computer:ram_5072 value set value -2978669
+data modify storage computer:ram_5076 value set value 268237971
+data modify storage computer:ram_5080 value set value 530578531
+data modify storage computer:ram_5084 value set value -5076333
+data modify storage computer:ram_5088 value set value 268107539
+data modify storage computer:ram_5092 value set value 535821923
+data modify storage computer:ram_5096 value set value 427986019
+data modify storage computer:ram_5100 value set value -16609517
+data modify storage computer:ram_5104 value set value 2047763
+data modify storage computer:ram_5108 value set value 3088147
+data modify storage computer:ram_5112 value set value 413134947
+data modify storage computer:ram_5116 value set value 2722451
+data modify storage computer:ram_5120 value set value 535483491
+data modify storage computer:ram_5124 value set value -686701
+data modify storage computer:ram_5128 value set value 267777427
+data modify storage computer:ram_5132 value set value 11929011
+data modify storage computer:ram_5136 value set value 335923203
+data modify storage computer:ram_5140 value set value 14026163
+data modify storage computer:ram_5144 value set value 2528915
+data modify storage computer:ram_5148 value set value 14026419
+data modify storage computer:ram_5152 value set value 17137699
+data modify storage computer:ram_5156 value set value -719597
+data modify storage computer:ram_5160 value set value 67543075
+data modify storage computer:ram_5164 value set value 1050643
+data modify storage computer:ram_5168 value set value -157290385
+data modify storage computer:ram_5172 value set value 121637011
+data modify storage computer:ram_5176 value set value -552136477
+data modify storage computer:ram_5180 value set value 1560451
+data modify storage computer:ram_5184 value set value 101714067
+data modify storage computer:ram_5188 value set value -585131293
+data modify storage computer:ram_5192 value set value 2609027
+data modify storage computer:ram_5196 value set value 115345555
+data modify storage computer:ram_5200 value set value -585132829
+data modify storage computer:ram_5204 value set value 3654275
+data modify storage computer:ram_5208 value set value 41945235
+data modify storage computer:ram_5212 value set value -619536669
+data modify storage computer:ram_5216 value set value 1380243
+data modify storage computer:ram_5220 value set value 10487571
+data modify storage computer:ram_5224 value set value 10880307
+data modify storage computer:ram_5228 value set value 1050259
+data modify storage computer:ram_5232 value set value 3639187
+data modify storage computer:ram_5236 value set value 268435347
+data modify storage computer:ram_5240 value set value 350552099
+data modify storage computer:ram_5244 value set value 429843
+data modify storage computer:ram_5248 value set value -866131857
+data modify storage computer:ram_5252 value set value 32900915
+data modify storage computer:ram_5256 value set value 14681747
+data modify storage computer:ram_5260 value set value 349634595
+data modify storage computer:ram_5264 value set value 4702851
+data modify storage computer:ram_5268 value set value 2065683
+data modify storage computer:ram_5272 value set value 1052435
+data modify storage computer:ram_5276 value set value 267747219
+data modify storage computer:ram_5280 value set value 984723
+data modify storage computer:ram_5284 value set value 4687763
+data modify storage computer:ram_5288 value set value 164963
+data modify storage computer:ram_5292 value set value -920657809
+data modify storage computer:ram_5296 value set value -853548945
+data modify storage computer:ram_5300 value set value 32900915
+data modify storage computer:ram_5304 value set value 12584595
+data modify storage computer:ram_5308 value set value 349634595
+data modify storage computer:ram_5312 value set value 2605699
+data modify storage computer:ram_5316 value set value 2065683
+data modify storage computer:ram_5320 value set value 1052435
+data modify storage computer:ram_5324 value set value 267747219
+data modify storage computer:ram_5328 value set value 984723
+data modify storage computer:ram_5332 value set value 2590611
+data modify storage computer:ram_5336 value set value 164963
+data modify storage computer:ram_5340 value set value -970989457
+data modify storage computer:ram_5344 value set value -903880593
+data modify storage computer:ram_5348 value set value 32900915
+data modify storage computer:ram_5352 value set value 13633171
+data modify storage computer:ram_5356 value set value -459284369
+data modify storage computer:ram_5360 value set value 32900915
+data modify storage computer:ram_5364 value set value 15730323
+data modify storage computer:ram_5368 value set value -471867281
+data modify storage computer:ram_5372 value set value 335939731
+data modify storage computer:ram_5376 value set value 1017107
+data modify storage computer:ram_5380 value set value 33065139
+data modify storage computer:ram_5384 value set value 12551859
+data modify storage computer:ram_5388 value set value 266342291
+data modify storage computer:ram_5392 value set value 62914671
+data modify storage computer:ram_5396 value set value -473725
+data modify storage computer:ram_5400 value set value -489325
+data modify storage computer:ram_5404 value set value 66424419
+data modify storage computer:ram_5408 value set value -719597
+data modify storage computer:ram_5412 value set value 267744531
+data modify storage computer:ram_5416 value set value 10880435
+data modify storage computer:ram_5420 value set value 335923203
+data modify storage computer:ram_5424 value set value 15074739
+data modify storage computer:ram_5428 value set value 2561811
+data modify storage computer:ram_5432 value set value 15075123
+data modify storage computer:ram_5436 value set value 1052435
+data modify storage computer:ram_5440 value set value 17137699
+data modify storage computer:ram_5444 value set value 67575843
+data modify storage computer:ram_5448 value set value 985107
+data modify storage computer:ram_5452 value set value 1084655411
+data modify storage computer:ram_5456 value set value 267876115
+data modify storage computer:ram_5460 value set value -66776861
+data modify storage computer:ram_5464 value set value 1557123
+data modify storage computer:ram_5468 value set value 331667
+data modify storage computer:ram_5472 value set value 460179
+data modify storage computer:ram_5476 value set value 264083
+data modify storage computer:ram_5480 value set value 1050259
+data modify storage computer:ram_5484 value set value 164963
+data modify storage computer:ram_5488 value set value -1126178705
+data modify storage computer:ram_5492 value set value -1059069841
+data modify storage computer:ram_5496 value set value 1051283
+data modify storage computer:ram_5500 value set value -396365713
+data modify storage computer:ram_5504 value set value 3149587
+data modify storage computer:ram_5508 value set value -392171293
+data modify storage computer:ram_5512 value set value 126393443
+data modify storage computer:ram_5516 value set value 268106387
+data modify storage computer:ram_5520 value set value 23062627
+data modify storage computer:ram_5524 value set value 2101011
+data modify storage computer:ram_5528 value set value 25724003
+data modify storage computer:ram_5532 value set value -404093725
+data modify storage computer:ram_5536 value set value 24513459
+data modify storage computer:ram_5540 value set value 354123811
+data modify storage computer:ram_5544 value set value 1557123
+data modify storage computer:ram_5548 value set value 1410451
+data modify storage computer:ram_5552 value set value 1052435
+data modify storage computer:ram_5556 value set value 267779987
+data modify storage computer:ram_5560 value set value 264083
+data modify storage computer:ram_5564 value set value 427411
+data modify storage computer:ram_5568 value set value 984723
+data modify storage computer:ram_5572 value set value 164963
+data modify storage computer:ram_5576 value set value -1218453393
+data modify storage computer:ram_5580 value set value -1151344529
+data modify storage computer:ram_5584 value set value 1052435
+data modify storage computer:ram_5588 value set value -56625949
+data modify storage computer:ram_5592 value set value 2722451
+data modify storage computer:ram_5596 value set value -497029009
+data modify storage computer:ram_5600 value set value 2101011
+data modify storage computer:ram_5604 value set value -98570129
+data modify storage computer:ram_5608 value set value 27260515
+data modify storage computer:ram_5612 value set value -5076333
+data modify storage computer:ram_5616 value set value -102764433
+data modify storage computer:ram_5620 value set value 1052435
+data modify storage computer:ram_5624 value set value -74935581
+data modify storage computer:ram_5628 value set value -94375825
+data modify storage computer:ram_5632 value set value 2099859
+data modify storage computer:ram_5636 value set value -538972049
+data modify storage computer:ram_5640 value set value 1427
+data modify storage computer:ram_5644 value set value 2963
+data modify storage computer:ram_5648 value set value -115347345
+data modify storage computer:ram_5652 value set value 98567955
+data modify storage computer:ram_5656 value set value 7342227
+data modify storage computer:ram_5660 value set value -723351325
+data modify storage computer:ram_5664 value set value 1557123
+data modify storage computer:ram_5668 value set value 264083
+data modify storage computer:ram_5672 value set value 164963
+data modify storage computer:ram_5676 value set value -1323310993
+data modify storage computer:ram_5680 value set value -1256202129
+data modify storage computer:ram_5684 value set value 5245075
+data modify storage computer:ram_5688 value set value -748687249
+data modify storage computer:ram_5692 value set value 6293651
+data modify storage computer:ram_5696 value set value -757075857
+data modify storage computer:ram_5700 value set value 201752675
+data modify storage computer:ram_5704 value set value 32900915
+data modify storage computer:ram_5708 value set value 16779411
+data modify storage computer:ram_5712 value set value 353828899
+data modify storage computer:ram_5716 value set value 1557123
+data modify storage computer:ram_5720 value set value 2065683
+data modify storage computer:ram_5724 value set value 267747219
+data modify storage computer:ram_5728 value set value 1052435
+data modify storage computer:ram_5732 value set value 264083
+data modify storage computer:ram_5736 value set value 164963
+data modify storage computer:ram_5740 value set value -1390419857
+data modify storage computer:ram_5744 value set value -1323310993
+data modify storage computer:ram_5748 value set value 335939731
+data modify storage computer:ram_5752 value set value 1017107
+data modify storage computer:ram_5756 value set value 33065139
+data modify storage computer:ram_5760 value set value 12551859
+data modify storage computer:ram_5764 value set value 266342291
+data modify storage computer:ram_5768 value set value 62914671
+data modify storage computer:ram_5772 value set value -473725
+data modify storage computer:ram_5776 value set value -489325
+data modify storage computer:ram_5780 value set value 133532771
+data modify storage computer:ram_5784 value set value -719597
+data modify storage computer:ram_5788 value set value 267744531
+data modify storage computer:ram_5792 value set value 10880435
+data modify storage computer:ram_5796 value set value 335923203
+data modify storage computer:ram_5800 value set value 15074739
+data modify storage computer:ram_5804 value set value 2561811
+data modify storage computer:ram_5808 value set value 15075123
+data modify storage computer:ram_5812 value set value 1052435
+data modify storage computer:ram_5816 value set value 17137699
+data modify storage computer:ram_5820 value set value 67575843
+data modify storage computer:ram_5824 value set value 985107
+data modify storage computer:ram_5828 value set value 1084655411
+data modify storage computer:ram_5832 value set value 267876115
+data modify storage computer:ram_5836 value set value -66776861
+data modify storage computer:ram_5840 value set value 109052015
+data modify storage computer:ram_5844 value set value 32900915
+data modify storage computer:ram_5848 value set value -2095469
+data modify storage computer:ram_5852 value set value 349634595
+data modify storage computer:ram_5856 value set value 1557123
+data modify storage computer:ram_5860 value set value 2065683
+data modify storage computer:ram_5864 value set value 1052435
+data modify storage computer:ram_5868 value set value 267747219
+data modify storage computer:ram_5872 value set value 984723
+data modify storage computer:ram_5876 value set value 264083
+data modify storage computer:ram_5880 value set value 164963
+data modify storage computer:ram_5884 value set value -1541414801
+data modify storage computer:ram_5888 value set value -1474305937
+data modify storage computer:ram_5892 value set value 4196499
+data modify storage computer:ram_5896 value set value -966791057
+data modify storage computer:ram_5900 value set value -719213
+data modify storage computer:ram_5904 value set value 267843219
+data modify storage computer:ram_5908 value set value 429667
+data modify storage computer:ram_5912 value set value 14026163
+data modify storage computer:ram_5916 value set value 334873987
+data modify storage computer:ram_5920 value set value 7342227
+data modify storage computer:ram_5924 value set value -8026733
+data modify storage computer:ram_5928 value set value 267777427
+data modify storage computer:ram_5932 value set value 45676131
+data modify storage computer:ram_5936 value set value 427283
+data modify storage computer:ram_5940 value set value 1052435
+data modify storage computer:ram_5944 value set value 1557123
+data modify storage computer:ram_5948 value set value 331667
+data modify storage computer:ram_5952 value set value 460179
+data modify storage computer:ram_5956 value set value 264083
+data modify storage computer:ram_5960 value set value 1683
+data modify storage computer:ram_5964 value set value 164963
+data modify storage computer:ram_5968 value set value -1629495185
+data modify storage computer:ram_5972 value set value -1562386321
+data modify storage computer:ram_5976 value set value -1768173
+data modify storage computer:ram_5980 value set value 267744531
+data modify storage computer:ram_5984 value set value 10880691
+data modify storage computer:ram_5988 value set value 335988739
+data modify storage computer:ram_5992 value set value 2561683
+data modify storage computer:ram_5996 value set value 15074739
+data modify storage computer:ram_6000 value set value 14026419
+data modify storage computer:ram_6004 value set value 1509139
+data modify storage computer:ram_6008 value set value 1052435
+data modify storage computer:ram_6012 value set value 17137699
+data modify storage computer:ram_6016 value set value 67543075
+data modify storage computer:ram_6020 value set value 267876115
+data modify storage computer:ram_6024 value set value 985107
+data modify storage computer:ram_6028 value set value -85987217
+data modify storage computer:ram_6032 value set value -268433453
+data modify storage computer:ram_6036 value set value -16711405
+data modify storage computer:ram_6040 value set value 1123875
+data modify storage computer:ram_6044 value set value -1594550317
+data modify storage computer:ram_6048 value set value 8463395
+data modify storage computer:ram_6052 value set value 329107
+data modify storage computer:ram_6056 value set value 494179
+data modify storage computer:ram_6060 value set value 547689811
+data modify storage computer:ram_6064 value set value 47187859
+data modify storage computer:ram_6068 value set value 16056355
+data modify storage computer:ram_6072 value set value 1377683
+data modify storage computer:ram_6076 value set value 10167
+data modify storage computer:ram_6080 value set value 1430759175
+data modify storage computer:ram_6084 value set value 10167
+data modify storage computer:ram_6088 value set value 1434953607
+data modify storage computer:ram_6092 value set value 1374390199
+data modify storage computer:ram_6096 value set value 1375176595
+data modify storage computer:ram_6100 value set value 2028303683
+data modify storage computer:ram_6104 value set value 104859283
+data modify storage computer:ram_6108 value set value -1072359597
+data modify storage computer:ram_6112 value set value 49755443
+data modify storage computer:ram_6116 value set value 5592083
+data modify storage computer:ram_6120 value set value 47449139
+data modify storage computer:ram_6124 value set value 5592339
+data modify storage computer:ram_6128 value set value 1082590259
+data modify storage computer:ram_6132 value set value 1912602863
+data modify storage computer:ram_6136 value set value 329363
+data modify storage computer:ram_6140 value set value 67371107
+data modify storage computer:ram_6144 value set value 10487699
+data modify storage computer:ram_6148 value set value 49567539
+data modify storage computer:ram_6152 value set value 48236051
+data modify storage computer:ram_6156 value set value 12910627
+data modify storage computer:ram_6160 value set value 50333203
+data modify storage computer:ram_6164 value set value 3474707
+data modify storage computer:ram_6168 value set value 49575859
+data modify storage computer:ram_6172 value set value 13043507
+data modify storage computer:ram_6176 value set value -18542813
+data modify storage computer:ram_6180 value set value 13076403
+data modify storage computer:ram_6184 value set value 16154915
+data modify storage computer:ram_6188 value set value 13080675
+data modify storage computer:ram_6192 value set value -1751293
+data modify storage computer:ram_6196 value set value -719597
+data modify storage computer:ram_6200 value set value -17363741
+data modify storage computer:ram_6204 value set value 327715
+data modify storage computer:ram_6208 value set value 12656771
+data modify storage computer:ram_6212 value set value 8463363
+data modify storage computer:ram_6216 value set value 16843027
+data modify storage computer:ram_6220 value set value 32871
+data modify storage computer:ram_6224 value set value -268433453
+data modify storage computer:ram_6228 value set value -16711405
+data modify storage computer:ram_6232 value set value 1123875
+data modify storage computer:ram_6236 value set value -1594550317
+data modify storage computer:ram_6240 value set value 8463395
+data modify storage computer:ram_6244 value set value 329107
+data modify storage computer:ram_6248 value set value 494179
+data modify storage computer:ram_6252 value set value 547689811
+data modify storage computer:ram_6256 value set value 47187859
+data modify storage computer:ram_6260 value set value 16056355
+data modify storage computer:ram_6264 value set value 1377683
+data modify storage computer:ram_6268 value set value 10167
+data modify storage computer:ram_6272 value set value 1439147783
+data modify storage computer:ram_6276 value set value 10167
+data modify storage computer:ram_6280 value set value 1434953607
+data modify storage computer:ram_6284 value set value -858990665
+data modify storage computer:ram_6288 value set value -858290285
+data modify storage computer:ram_6292 value set value 2028303683
+data modify storage computer:ram_6296 value set value -1072359597
+data modify storage computer:ram_6300 value set value 49755443
+data modify storage computer:ram_6304 value set value 3494931
+data modify storage computer:ram_6308 value set value 2365331
+data modify storage computer:ram_6312 value set value 8882099
+data modify storage computer:ram_6316 value set value 1546131
+data modify storage computer:ram_6320 value set value 263443
+data modify storage computer:ram_6324 value set value 1089930291
+data modify storage computer:ram_6328 value set value 1707081967
+data modify storage computer:ram_6332 value set value 265315
+data modify storage computer:ram_6336 value set value 50594835
+data modify storage computer:ram_6340 value set value 48236435
+data modify storage computer:ram_6344 value set value 8716451
+data modify storage computer:ram_6348 value set value 16056355
+data modify storage computer:ram_6352 value set value 2426131
+data modify storage computer:ram_6356 value set value 327715
+data modify storage computer:ram_6360 value set value 12656771
+data modify storage computer:ram_6364 value set value 8463363
+data modify storage computer:ram_6368 value set value 16843027
+data modify storage computer:ram_6372 value set value 32871
+data modify storage computer:ram_6376 value set value -67043053
+data modify storage computer:ram_6380 value set value 344835
+data modify storage computer:ram_6384 value set value 37817875
+data modify storage computer:ram_6388 value set value 45163043
+data modify storage computer:ram_6392 value set value 46212131
+data modify storage computer:ram_6396 value set value 47261219
+data modify storage computer:ram_6400 value set value 48310307
+data modify storage computer:ram_6404 value set value 49359395
+data modify storage computer:ram_6408 value set value 50408483
+data modify storage computer:ram_6412 value set value 51457571
+data modify storage computer:ram_6416 value set value 29433891
+data modify storage computer:ram_6420 value set value 1409484387
+data modify storage computer:ram_6424 value set value 11831
+data modify storage computer:ram_6428 value set value 268306487
+data modify storage computer:ram_6432 value set value 1346897939
+data modify storage computer:ram_6436 value set value 1561202195
+data modify storage computer:ram_6440 value set value 1939
+data modify storage computer:ram_6444 value set value 38798739
+data modify storage computer:ram_6448 value set value 263194771
+data modify storage computer:ram_6452 value set value 22023827
+data modify storage computer:ram_6456 value set value 78839907
+data modify storage computer:ram_6460 value set value 17270579
+data modify storage computer:ram_6464 value set value 1377555
+data modify storage computer:ram_6468 value set value 6750243
+data modify storage computer:ram_6472 value set value 344835
+data modify storage computer:ram_6476 value set value 1542035
+data modify storage computer:ram_6480 value set value 402850915
+data modify storage computer:ram_6484 value set value -15232285
+data modify storage computer:ram_6488 value set value 268306359
+data modify storage computer:ram_6492 value set value 1610057619
+data modify storage computer:ram_6496 value set value 491555
+data modify storage computer:ram_6500 value set value 1050387
+data modify storage computer:ram_6504 value set value 268306359
+data modify storage computer:ram_6508 value set value 1357357091
+data modify storage computer:ram_6512 value set value 67174675
+data modify storage computer:ram_6516 value set value 32871
+data modify storage computer:ram_6520 value set value 1394435
+data modify storage computer:ram_6524 value set value 1181159011
+data modify storage computer:ram_6528 value set value -103348461
+data modify storage computer:ram_6532 value set value 267876115
+data modify storage computer:ram_6536 value set value 15657571
+data modify storage computer:ram_6540 value set value 2561811
+data modify storage computer:ram_6544 value set value 29820723
+data modify storage computer:ram_6548 value set value 468739
+data modify storage computer:ram_6552 value set value 458855
+data modify storage computer:ram_6556 value set value 2441987
+data modify storage computer:ram_6560 value set value 302189667
+data modify storage computer:ram_6564 value set value 2426131
+data modify storage computer:ram_6568 value set value -115347345
+data modify storage computer:ram_6572 value set value 75523
+data modify storage computer:ram_6576 value set value 468611
+data modify storage computer:ram_6580 value set value 4654867
+data modify storage computer:ram_6584 value set value 14753827
+data modify storage computer:ram_6588 value set value 29808403
+data modify storage computer:ram_6592 value set value 738660451
+data modify storage computer:ram_6596 value set value 25614099
+data modify storage computer:ram_6600 value set value 772216419
+data modify storage computer:ram_6604 value set value 21419795
+data modify storage computer:ram_6608 value set value 805771875
+data modify storage computer:ram_6612 value set value 17225491
+data modify storage computer:ram_6616 value set value 839327331
+data modify storage computer:ram_6620 value set value 13031187
+data modify storage computer:ram_6624 value set value 906433123
+data modify storage computer:ram_6628 value set value 8836883
+data modify storage computer:ram_6632 value set value 939988579
+data modify storage computer:ram_6636 value set value 4642579
+data modify storage computer:ram_6640 value set value 493075
+data modify storage computer:ram_6644 value set value 1007094883
+data modify storage computer:ram_6648 value set value 985661551
+data modify storage computer:ram_6652 value set value 75523
+data modify storage computer:ram_6656 value set value 9438867
+data modify storage computer:ram_6660 value set value 470787
+data modify storage computer:ram_6664 value set value 4654867
+data modify storage computer:ram_6668 value set value 14753827
+data modify storage computer:ram_6672 value set value 1172766307
+data modify storage computer:ram_6676 value set value -858988617
+data modify storage computer:ram_6680 value set value -857763949
+data modify storage computer:ram_6684 value set value 984723
+data modify storage computer:ram_6688 value set value 1050387
+data modify storage computer:ram_6692 value set value 103809683
+data modify storage computer:ram_6696 value set value 66499379
+data modify storage computer:ram_6700 value set value 2561555
+data modify storage computer:ram_6704 value set value 15075123
+data modify storage computer:ram_6708 value set value 427539
+data modify storage computer:ram_6712 value set value 1513235
+data modify storage computer:ram_6716 value set value 3364499
+data modify storage computer:ram_6720 value set value -20781853
+data modify storage computer:ram_6724 value set value -200864541
+data modify storage computer:ram_6728 value set value 8465955
+data modify storage computer:ram_6732 value set value 9514019
+data modify storage computer:ram_6736 value set value 4261395
+data modify storage computer:ram_6740 value set value -858991561
+data modify storage computer:ram_6744 value set value 394899
+data modify storage computer:ram_6748 value set value -858520557
+data modify storage computer:ram_6752 value set value 9438355
+data modify storage computer:ram_6756 value set value 49238835
+data modify storage computer:ram_6760 value set value 462739
+data modify storage computer:ram_6764 value set value 1476243
+data modify storage computer:ram_6768 value set value 42415027
+data modify storage computer:ram_6772 value set value 49250099
+data modify storage computer:ram_6776 value set value 3397395
+data modify storage computer:ram_6780 value set value 50529043
+data modify storage computer:ram_6784 value set value -26832989
+data modify storage computer:ram_6788 value set value -728861
+data modify storage computer:ram_6792 value set value 429843
+data modify storage computer:ram_6796 value set value 1087795299
+data modify storage computer:ram_6800 value set value 268305079
+data modify storage computer:ram_6804 value set value 395027
+data modify storage computer:ram_6808 value set value 1346536083
+data modify storage computer:ram_6812 value set value 479107
+data modify storage computer:ram_6816 value set value 5735219
+data modify storage computer:ram_6820 value set value 1542035
+data modify storage computer:ram_6824 value set value 1509139
+data modify storage computer:ram_6828 value set value -262699501
+data modify storage computer:ram_6832 value set value 12596787
+data modify storage computer:ram_6836 value set value 31930035
+data modify storage computer:ram_6840 value set value 32702499
+data modify storage computer:ram_6844 value set value 13039283
+data modify storage computer:ram_6848 value set value -66674973
+data modify storage computer:ram_6852 value set value 29434883
+data modify storage computer:ram_6856 value set value 25240707
+data modify storage computer:ram_6860 value set value 2426131
+data modify storage computer:ram_6864 value set value 344835
+data modify storage computer:ram_6868 value set value -402452253
+data modify storage computer:ram_6872 value set value 268306231
+data modify storage computer:ram_6876 value set value 1346832147
+data modify storage computer:ram_6880 value set value 15173555
+data modify storage computer:ram_6884 value set value 491555
+data modify storage computer:ram_6888 value set value 1050387
+data modify storage computer:ram_6892 value set value 268306359
+data modify storage computer:ram_6896 value set value 1357357091
+data modify storage computer:ram_6900 value set value 67174675
+data modify storage computer:ram_6904 value set value 32871
+data modify storage computer:ram_6908 value set value 75523
+data modify storage computer:ram_6912 value set value 268308279
+data modify storage computer:ram_6916 value set value 1347358483
+data modify storage computer:ram_6920 value set value 470915
+data modify storage computer:ram_6924 value set value 4654867
+data modify storage computer:ram_6928 value set value 14753827
+data modify storage computer:ram_6932 value set value 1032963
+data modify storage computer:ram_6936 value set value 493331
+data modify storage computer:ram_6940 value set value 263193235
+data modify storage computer:ram_6944 value set value -436007197
+data modify storage computer:ram_6948 value set value 31917619
+data modify storage computer:ram_6952 value set value 1509139
+data modify storage computer:ram_6956 value set value 1089930931
+data modify storage computer:ram_6960 value set value 6684707
+data modify storage computer:ram_6964 value set value 14649011
+data modify storage computer:ram_6968 value set value 443139
+data modify storage computer:ram_6972 value set value 197731
+data modify storage computer:ram_6976 value set value -27847965
+data modify storage computer:ram_6980 value set value 460691
+data modify storage computer:ram_6984 value set value 2426131
+data modify storage computer:ram_6988 value set value -127930257
+data modify storage computer:ram_6992 value set value 75523
+data modify storage computer:ram_6996 value set value 470787
+data modify storage computer:ram_7000 value set value 4654867
+data modify storage computer:ram_7004 value set value 14753827
+data modify storage computer:ram_7008 value set value 34558051
+data modify storage computer:ram_7012 value set value 268306231
+data modify storage computer:ram_7016 value set value 1346832147
+data modify storage computer:ram_7020 value set value 15173427
+data modify storage computer:ram_7024 value set value 47187603
+data modify storage computer:ram_7028 value set value 1105202995
+data modify storage computer:ram_7032 value set value 14090275
+data modify storage computer:ram_7036 value set value 1542035
+data modify storage computer:ram_7040 value set value 9438995
+data modify storage computer:ram_7044 value set value 803691619
+data modify storage computer:ram_7048 value set value -858988617
+data modify storage computer:ram_7052 value set value -857763949
+data modify storage computer:ram_7056 value set value 984723
+data modify storage computer:ram_7060 value set value 1050387
+data modify storage computer:ram_7064 value set value 103809683
+data modify storage computer:ram_7068 value set value 66499379
+data modify storage computer:ram_7072 value set value 2561555
+data modify storage computer:ram_7076 value set value 15075123
+data modify storage computer:ram_7080 value set value 427539
+data modify storage computer:ram_7084 value set value 1513235
+data modify storage computer:ram_7088 value set value 3364499
+data modify storage computer:ram_7092 value set value -20781853
+data modify storage computer:ram_7096 value set value -267973917
+data modify storage computer:ram_7100 value set value 8465955
+data modify storage computer:ram_7104 value set value 9514019
+data modify storage computer:ram_7108 value set value 4261395
+data modify storage computer:ram_7112 value set value -858991561
+data modify storage computer:ram_7116 value set value 394899
+data modify storage computer:ram_7120 value set value -858520557
+data modify storage computer:ram_7124 value set value 9438355
+data modify storage computer:ram_7128 value set value 49238835
+data modify storage computer:ram_7132 value set value 462739
+data modify storage computer:ram_7136 value set value 1476243
+data modify storage computer:ram_7140 value set value 42415027
+data modify storage computer:ram_7144 value set value 49250099
+data modify storage computer:ram_7148 value set value 3397395
+data modify storage computer:ram_7152 value set value 50529043
+data modify storage computer:ram_7156 value set value -26832989
+data modify storage computer:ram_7160 value set value -728861
+data modify storage computer:ram_7164 value set value -262699245
+data modify storage computer:ram_7168 value set value 14694195
+data modify storage computer:ram_7172 value set value 429843
+data modify storage computer:ram_7176 value set value 14038707
+data modify storage computer:ram_7180 value set value 15136435
+data modify storage computer:ram_7184 value set value 268305079
+data modify storage computer:ram_7188 value set value 395027
+data modify storage computer:ram_7192 value set value 1346536083
+data modify storage computer:ram_7196 value set value -368671517
+data modify storage computer:ram_7200 value set value 479107
+data modify storage computer:ram_7204 value set value 5735219
+data modify storage computer:ram_7208 value set value 1542035
+data modify storage computer:ram_7212 value set value 1509139
+data modify storage computer:ram_7216 value set value -262699501
+data modify storage computer:ram_7220 value set value 12596787
+data modify storage computer:ram_7224 value set value 31930035
+data modify storage computer:ram_7228 value set value 32702499
+data modify storage computer:ram_7232 value set value 13039283
+data modify storage computer:ram_7236 value set value -66674973
+data modify storage computer:ram_7240 value set value 29434883
+data modify storage computer:ram_7244 value set value 25240707
+data modify storage computer:ram_7248 value set value -404754321
+data modify storage computer:ram_7252 value set value 75395
+data modify storage computer:ram_7256 value set value 268306231
+data modify storage computer:ram_7260 value set value 1346832147
+data modify storage computer:ram_7264 value set value 435715
+data modify storage computer:ram_7268 value set value 15173427
+data modify storage computer:ram_7272 value set value 4621971
+data modify storage computer:ram_7276 value set value 13041699
+data modify storage computer:ram_7280 value set value 1542035
+data modify storage computer:ram_7284 value set value 13705251
+data modify storage computer:ram_7288 value set value 2426131
+data modify storage computer:ram_7292 value set value -446697361
+data modify storage computer:ram_7296 value set value 9437971
+data modify storage computer:ram_7300 value set value 50791955
+data modify storage computer:ram_7304 value set value 14906467
+data modify storage computer:ram_7308 value set value 91686419
+data modify storage computer:ram_7312 value set value 268306231
+data modify storage computer:ram_7316 value set value 1346832147
+data modify storage computer:ram_7320 value set value 15173427
+data modify storage computer:ram_7324 value set value 13041699
+data modify storage computer:ram_7328 value set value 1542035
+data modify storage computer:ram_7332 value set value 263194387
+data modify storage computer:ram_7336 value set value -890795805
+data modify storage computer:ram_7340 value set value 25614099
+data modify storage computer:ram_7344 value set value 16217875
+data modify storage computer:ram_7348 value set value 9437971
+data modify storage computer:ram_7352 value set value 50791955
+data modify storage computer:ram_7356 value set value 384002659
+data modify storage computer:ram_7360 value set value 268306231
+data modify storage computer:ram_7364 value set value 1346832147
+data modify storage computer:ram_7368 value set value 15173427
+data modify storage computer:ram_7372 value set value 13041699
+data modify storage computer:ram_7376 value set value 1542035
+data modify storage computer:ram_7380 value set value 263194387
+data modify storage computer:ram_7384 value set value -924352285
+data modify storage computer:ram_7388 value set value 21419795
+data modify storage computer:ram_7392 value set value 16217875
+data modify storage computer:ram_7396 value set value 9437971
+data modify storage computer:ram_7400 value set value 50791955
+data modify storage computer:ram_7404 value set value 350447203
+data modify storage computer:ram_7408 value set value 268306231
+data modify storage computer:ram_7412 value set value 1346832147
+data modify storage computer:ram_7416 value set value 15173427
+data modify storage computer:ram_7420 value set value 13041699
+data modify storage computer:ram_7424 value set value 1542035
+data modify storage computer:ram_7428 value set value 263194387
+data modify storage computer:ram_7432 value set value -991459101
+data modify storage computer:ram_7436 value set value 17225491
+data modify storage computer:ram_7440 value set value 16217875
+data modify storage computer:ram_7444 value set value 9437971
+data modify storage computer:ram_7448 value set value 50791955
+data modify storage computer:ram_7452 value set value 316891747
+data modify storage computer:ram_7456 value set value 268306231
+data modify storage computer:ram_7460 value set value 1346832147
+data modify storage computer:ram_7464 value set value 15173427
+data modify storage computer:ram_7468 value set value 13041699
+data modify storage computer:ram_7472 value set value 1542035
+data modify storage computer:ram_7476 value set value 263194387
+data modify storage computer:ram_7480 value set value -1025015581
+data modify storage computer:ram_7484 value set value 13031187
+data modify storage computer:ram_7488 value set value 16217875
+data modify storage computer:ram_7492 value set value 9437971
+data modify storage computer:ram_7496 value set value 50791955
+data modify storage computer:ram_7500 value set value 249785955
+data modify storage computer:ram_7504 value set value 268306231
+data modify storage computer:ram_7508 value set value 1346832147
+data modify storage computer:ram_7512 value set value 15173427
+data modify storage computer:ram_7516 value set value 13041699
+data modify storage computer:ram_7520 value set value 1542035
+data modify storage computer:ram_7524 value set value 263194387
+data modify storage computer:ram_7528 value set value -1092122397
+data modify storage computer:ram_7532 value set value 8836883
+data modify storage computer:ram_7536 value set value 16217875
+data modify storage computer:ram_7540 value set value 9437971
+data modify storage computer:ram_7544 value set value 50791955
+data modify storage computer:ram_7548 value set value 216230499
+data modify storage computer:ram_7552 value set value 268306231
+data modify storage computer:ram_7556 value set value 1346832147
+data modify storage computer:ram_7560 value set value 15173427
+data modify storage computer:ram_7564 value set value 13041699
+data modify storage computer:ram_7568 value set value 1542035
+data modify storage computer:ram_7572 value set value 263194387
+data modify storage computer:ram_7576 value set value -1125678877
+data modify storage computer:ram_7580 value set value 4642579
+data modify storage computer:ram_7584 value set value 16217875
+data modify storage computer:ram_7588 value set value 9437971
+data modify storage computer:ram_7592 value set value 50791955
+data modify storage computer:ram_7596 value set value 182675043
+data modify storage computer:ram_7600 value set value 268306231
+data modify storage computer:ram_7604 value set value 1346832147
+data modify storage computer:ram_7608 value set value 15173427
+data modify storage computer:ram_7612 value set value 13041699
+data modify storage computer:ram_7616 value set value 1541651
+data modify storage computer:ram_7620 value set value 263194515
+data modify storage computer:ram_7624 value set value -1191835421
+data modify storage computer:ram_7628 value set value 16185235
+data modify storage computer:ram_7632 value set value 9438867
+data modify storage computer:ram_7636 value set value 50824979
+data modify storage computer:ram_7640 value set value 49737315
+data modify storage computer:ram_7644 value set value 268306359
+data modify storage computer:ram_7648 value set value 1346865043
+data modify storage computer:ram_7652 value set value 16123827
+data modify storage computer:ram_7656 value set value 15171619
+data modify storage computer:ram_7660 value set value 1443731
+data modify storage computer:ram_7664 value set value 2426131
+data modify storage computer:ram_7668 value set value -840961937
+data modify storage computer:ram_7672 value set value 268306231
+data modify storage computer:ram_7676 value set value 1346832147
+data modify storage computer:ram_7680 value set value 15173427
+data modify storage computer:ram_7684 value set value 11993123
+data modify storage computer:ram_7688 value set value 1542035
+data modify storage computer:ram_7692 value set value 2426131
+data modify storage computer:ram_7696 value set value -870322065
+data modify storage computer:ram_7700 value set value 91719443
+data modify storage computer:ram_7704 value set value 268306359
+data modify storage computer:ram_7708 value set value 1346865043
+data modify storage computer:ram_7712 value set value 16123827
+data modify storage computer:ram_7716 value set value 15171619
+data modify storage computer:ram_7720 value set value 1443731
+data modify storage computer:ram_7724 value set value -60821393
+data modify storage computer:ram_7728 value set value 91686419
+data modify storage computer:ram_7732 value set value -387977105
+data modify storage computer:ram_7736 value set value 91686419
+data modify storage computer:ram_7740 value set value -346034065
+data modify storage computer:ram_7744 value set value 91686419
+data modify storage computer:ram_7748 value set value -304091025
+data modify storage computer:ram_7752 value set value 91686419
+data modify storage computer:ram_7756 value set value -262147985
+data modify storage computer:ram_7760 value set value 91686419
+data modify storage computer:ram_7764 value set value -220204945
+data modify storage computer:ram_7768 value set value 91686419
+data modify storage computer:ram_7772 value set value -178261905
+data modify storage computer:ram_7776 value set value 268306359
+data modify storage computer:ram_7780 value set value 1346865043
+data modify storage computer:ram_7784 value set value -1348472721
+data modify storage computer:ram_7788 value set value 8465955
+data modify storage computer:ram_7792 value set value 9514019
+data modify storage computer:ram_7796 value set value 1050387
+data modify storage computer:ram_7800 value set value -1113591697
+data modify storage computer:ram_7804 value set value 8465955
+data modify storage computer:ram_7808 value set value 9514019
+data modify storage computer:ram_7812 value set value 1050387
+data modify storage computer:ram_7816 value set value -740298641
+data modify storage computer:ram_7820 value set value 2441987
+data modify storage computer:ram_7824 value set value 199267
+data modify storage computer:ram_7828 value set value 29434883
+data modify storage computer:ram_7832 value set value 25240707
+data modify storage computer:ram_7836 value set value 2426131
+data modify storage computer:ram_7840 value set value -1449136017
+data modify storage computer:ram_7844 value set value 29434883
+data modify storage computer:ram_7848 value set value 25240707
+data modify storage computer:ram_7852 value set value -1025511313
+data modify storage computer:ram_7856 value set value 345731
+data modify storage computer:ram_7860 value set value 9438739
+data modify storage computer:ram_7864 value set value 329491
+data modify storage computer:ram_7868 value set value -49903725
+data modify storage computer:ram_7872 value set value 267909011
+data modify storage computer:ram_7876 value set value 1299
+data modify storage computer:ram_7880 value set value 49703011
+data modify storage computer:ram_7884 value set value 2430867
+data modify storage computer:ram_7888 value set value 10979251
+data modify storage computer:ram_7892 value set value 1509139
+data modify storage computer:ram_7896 value set value 1546131
+data modify storage computer:ram_7900 value set value 14124979
+data modify storage computer:ram_7904 value set value 476803
+data modify storage computer:ram_7908 value set value -49838829
+data modify storage computer:ram_7912 value set value -49903725
+data modify storage computer:ram_7916 value set value 267909011
+data modify storage computer:ram_7920 value set value -50954525
+data modify storage computer:ram_7924 value set value 32871
+data modify storage computer:ram_7928 value set value 32871
+data modify storage computer:ram_7932 value set value 268306359
+data modify storage computer:ram_7936 value set value 1050387
+data modify storage computer:ram_7940 value set value 1625792547
+data modify storage computer:ram_7944 value set value 268305719
+data modify storage computer:ram_7948 value set value 1615136019
+data modify storage computer:ram_7952 value set value 32871
+data modify storage computer:ram_7956 value set value 9439123
+data modify storage computer:ram_7960 value set value 145223779
+data modify storage computer:ram_7964 value set value -858990537
+data modify storage computer:ram_7968 value set value -858257389
+data modify storage computer:ram_7972 value set value 329491
+data modify storage computer:ram_7976 value set value 1050515
+data modify storage computer:ram_7980 value set value 103811219
+data modify storage computer:ram_7984 value set value 50804275
+data modify storage computer:ram_7988 value set value 2594451
+data modify storage computer:ram_7992 value set value 16156595
+data modify storage computer:ram_7996 value set value 460435
+data modify storage computer:ram_8000 value set value 1546131
+data modify storage computer:ram_8004 value set value 3561235
+data modify storage computer:ram_8008 value set value -19340061
+data modify storage computer:ram_8012 value set value 67600995
+data modify storage computer:ram_8016 value set value -858991817
+data modify storage computer:ram_8020 value set value -858586349
+data modify storage computer:ram_8024 value set value 1555
+data modify storage computer:ram_8028 value set value 9440787
+data modify storage computer:ram_8032 value set value 49632947
+data modify storage computer:ram_8036 value set value 12945203
+data modify storage computer:ram_8040 value set value 493587
+data modify storage computer:ram_8044 value set value 1443347
+data modify storage computer:ram_8048 value set value 40351923
+data modify storage computer:ram_8052 value set value 49640755
+data modify storage computer:ram_8056 value set value 3725203
+data modify storage computer:ram_8060 value set value 50759315
+data modify storage computer:ram_8064 value set value 14090275
+data modify storage computer:ram_8068 value set value -49385757
+data modify storage computer:ram_8072 value set value 12944691
+data modify storage computer:ram_8076 value set value 32871
+data modify storage computer:ram_8080 value set value 361747
+data modify storage computer:ram_8084 value set value 32871
+data modify storage computer:ram_8088 value set value 50661267
+data modify storage computer:ram_8092 value set value 1050131
+data modify storage computer:ram_8096 value set value 16089123
+data modify storage computer:ram_8100 value set value 12944691
+data modify storage computer:ram_8104 value set value 32871
+data modify storage computer:ram_8108 value set value 32871
+data modify storage computer:ram_8112 value set value 32871
+data modify storage computer:ram_8116 value set value 32871
+data modify storage computer:ram_8120 value set value 11888691
+data modify storage computer:ram_8124 value set value 66062227
+data modify storage computer:ram_8128 value set value 50849379
+data modify storage computer:ram_8132 value set value 6657427
+data modify storage computer:ram_8136 value set value 10847667
+data modify storage computer:ram_8140 value set value 17176083
+data modify storage computer:ram_8144 value set value 8820371
+data modify storage computer:ram_8148 value set value 2463123
+data modify storage computer:ram_8152 value set value 14026291
+data modify storage computer:ram_8156 value set value 268371895
+data modify storage computer:ram_8160 value set value 15074867
+data modify storage computer:ram_8164 value set value 12027827
+data modify storage computer:ram_8168 value set value 13082659
+data modify storage computer:ram_8172 value set value 32871
+data modify storage computer:ram_8176 value set value -33159661
+data modify storage computer:ram_8180 value set value 267810323
+data modify storage computer:ram_8184 value set value 98568211
+data modify storage computer:ram_8188 value set value 516450915
+data modify storage computer:ram_8192 value set value 17110291
+data modify storage computer:ram_8196 value set value 17126675
+data modify storage computer:ram_8200 value set value 8853267
+data modify storage computer:ram_8204 value set value 17143187
+data modify storage computer:ram_8208 value set value 17208979
+data modify storage computer:ram_8212 value set value 1380243
+data modify storage computer:ram_8216 value set value 2428691
+data modify storage computer:ram_8220 value set value 3477139
+data modify storage computer:ram_8224 value set value 4525587
+data modify storage computer:ram_8228 value set value 5571347
+data modify storage computer:ram_8232 value set value 15107763
+data modify storage computer:ram_8236 value set value 17159571
+data modify storage computer:ram_8240 value set value 17801107
+data modify storage computer:ram_8244 value set value 17768211
+data modify storage computer:ram_8248 value set value 17735315
+data modify storage computer:ram_8252 value set value 17702419
+data modify storage computer:ram_8256 value set value 16978707
+data modify storage computer:ram_8260 value set value -16711405
+data modify storage computer:ram_8264 value set value 17817491
+data modify storage computer:ram_8268 value set value 17784595
+data modify storage computer:ram_8272 value set value 17751699
+data modify storage computer:ram_8276 value set value 17718803
+data modify storage computer:ram_8280 value set value 16995091
+data modify storage computer:ram_8284 value set value 5605523
+data modify storage computer:ram_8288 value set value 16156595
+data modify storage computer:ram_8292 value set value 2496275
+data modify storage computer:ram_8296 value set value 9911
+data modify storage computer:ram_8300 value set value 8463907
+data modify storage computer:ram_8304 value set value 9511971
+data modify storage computer:ram_8308 value set value 18948643
+data modify storage computer:ram_8312 value set value 17340563
+data modify storage computer:ram_8316 value set value 13043507
+data modify storage computer:ram_8320 value set value 68139283
+data modify storage computer:ram_8324 value set value 68105363
+data modify storage computer:ram_8328 value set value 68072467
+data modify storage computer:ram_8332 value set value 68039571
+data modify storage computer:ram_8336 value set value 67318419
+data modify storage computer:ram_8340 value set value 1652983443
+data modify storage computer:ram_8344 value set value 19996707
+data modify storage computer:ram_8348 value set value 17356947
+data modify storage computer:ram_8352 value set value 15107763
+data modify storage computer:ram_8356 value set value 1657107
+data modify storage computer:ram_8360 value set value 1361043
+data modify storage computer:ram_8364 value set value 1328147
+data modify storage computer:ram_8368 value set value 1295251
+data modify storage computer:ram_8372 value set value 1229459
+data modify storage computer:ram_8376 value set value 66062739
+data modify storage computer:ram_8380 value set value 268372023
+data modify storage computer:ram_8384 value set value 444163
+data modify storage computer:ram_8388 value set value 34043411
+data modify storage computer:ram_8392 value set value 33947747
+data modify storage computer:ram_8396 value set value 10872371
+data modify storage computer:ram_8400 value set value 13233251
+data modify storage computer:ram_8404 value set value 6657555
+data modify storage computer:ram_8408 value set value 10880563
+data modify storage computer:ram_8412 value set value 2496019
+data modify storage computer:ram_8416 value set value 13108787
+data modify storage computer:ram_8420 value set value 16130083
+data modify storage computer:ram_8424 value set value 17266195
+data modify storage computer:ram_8428 value set value 33948771
+data modify storage computer:ram_8432 value set value 67483155
+data modify storage computer:ram_8436 value set value 1455635
+data modify storage computer:ram_8440 value set value 13198899
+data modify storage computer:ram_8444 value set value 400483
+data modify storage computer:ram_8448 value set value 6657555
+data modify storage computer:ram_8452 value set value 32900659
+data modify storage computer:ram_8456 value set value 2496019
+data modify storage computer:ram_8460 value set value 13108787
+data modify storage computer:ram_8464 value set value 16130083
+data modify storage computer:ram_8468 value set value 8877587
+data modify storage computer:ram_8472 value set value 33948771
+data modify storage computer:ram_8476 value set value 67483155
+data modify storage computer:ram_8480 value set value 1455635
+data modify storage computer:ram_8484 value set value 12903987
+data modify storage computer:ram_8488 value set value 400483
+data modify storage computer:ram_8492 value set value 6657555
+data modify storage computer:ram_8496 value set value 31852083
+data modify storage computer:ram_8500 value set value 2496019
+data modify storage computer:ram_8504 value set value 13108787
+data modify storage computer:ram_8508 value set value 16130083
+data modify storage computer:ram_8512 value set value 4683283
+data modify storage computer:ram_8516 value set value 33948771
+data modify storage computer:ram_8520 value set value 67483155
+data modify storage computer:ram_8524 value set value 1455635
+data modify storage computer:ram_8528 value set value 12871219
+data modify storage computer:ram_8532 value set value 400483
+data modify storage computer:ram_8536 value set value 6657555
+data modify storage computer:ram_8540 value set value 30803507
+data modify storage computer:ram_8544 value set value 2496019
+data modify storage computer:ram_8548 value set value 13108787
+data modify storage computer:ram_8552 value set value 16130083
+data modify storage computer:ram_8556 value set value 2586131
+data modify storage computer:ram_8560 value set value 33948771
+data modify storage computer:ram_8564 value set value 67483155
+data modify storage computer:ram_8568 value set value 1455635
+data modify storage computer:ram_8572 value set value 12838451
+data modify storage computer:ram_8576 value set value 400483
+data modify storage computer:ram_8580 value set value 6657555
+data modify storage computer:ram_8584 value set value 29754931
+data modify storage computer:ram_8588 value set value 2496019
+data modify storage computer:ram_8592 value set value 13108787
+data modify storage computer:ram_8596 value set value 16130083
+data modify storage computer:ram_8600 value set value 1537811
+data modify storage computer:ram_8604 value set value 34014307
+data modify storage computer:ram_8608 value set value 67483411
+data modify storage computer:ram_8612 value set value 1521427
+data modify storage computer:ram_8616 value set value 14870323
+data modify storage computer:ram_8620 value set value 466019
+data modify storage computer:ram_8624 value set value 6657811
+data modify storage computer:ram_8628 value set value 6752051
+data modify storage computer:ram_8632 value set value 2561811
+data modify storage computer:ram_8636 value set value 15206195
+data modify storage computer:ram_8640 value set value 16195619
+data modify storage computer:ram_8644 value set value 1410451
+data modify storage computer:ram_8648 value set value 17143187
+data modify storage computer:ram_8652 value set value 17159571
+data modify storage computer:ram_8656 value set value 1476243
+data modify storage computer:ram_8660 value set value -283797789
+data modify storage computer:ram_8664 value set value 12657667
+data modify storage computer:ram_8668 value set value 8463491
+data modify storage computer:ram_8672 value set value 4270339
+data modify storage computer:ram_8676 value set value 76163
+data modify storage computer:ram_8680 value set value 16843027
+data modify storage computer:ram_8684 value set value 32871
+data modify storage computer:ram_8688 value set value 32871
+data modify storage computer:ram_8692 value set value 410371
+data modify storage computer:ram_8696 value set value 704840803
+data modify storage computer:ram_8700 value set value -50265837
+data modify storage computer:ram_8704 value set value 17208979
+data modify storage computer:ram_8708 value set value 8853267
+data modify storage computer:ram_8712 value set value 25241123
+data modify storage computer:ram_8716 value set value 15107763
+data modify storage computer:ram_8720 value set value 11319
+data modify storage computer:ram_8724 value set value 53551139
+data modify storage computer:ram_8728 value set value 21048867
+data modify storage computer:ram_8732 value set value 22096931
+data modify storage computer:ram_8736 value set value 23144995
+data modify storage computer:ram_8740 value set value 24193059
+data modify storage computer:ram_8744 value set value 26289187
+data modify storage computer:ram_8748 value set value 27337251
+data modify storage computer:ram_8752 value set value 42018339
+data modify storage computer:ram_8756 value set value 43066403
+data modify storage computer:ram_8760 value set value 52503075
+data modify storage computer:ram_8764 value set value 28385315
+data modify storage computer:ram_8768 value set value 330259
+data modify storage computer:ram_8772 value set value 362899
+data modify storage computer:ram_8776 value set value 16156723
+data modify storage computer:ram_8780 value set value 1445395
+data modify storage computer:ram_8784 value set value 1653345299
+data modify storage computer:ram_8788 value set value 10488595
+data modify storage computer:ram_8792 value set value 59772051
+data modify storage computer:ram_8796 value set value 60820755
+data modify storage computer:ram_8800 value set value 98569107
+data modify storage computer:ram_8804 value set value 66062995
+data modify storage computer:ram_8808 value set value 268372151
+data modify storage computer:ram_8812 value set value 560137827
+data modify storage computer:ram_8816 value set value 592269923
+data modify storage computer:ram_8820 value set value 7965075
+data modify storage computer:ram_8824 value set value 490521699
+data modify storage computer:ram_8828 value set value 7342611
+data modify storage computer:ram_8832 value set value 1555
+data modify storage computer:ram_8836 value set value -33357037
+data modify storage computer:ram_8840 value set value 267613971
+data modify storage computer:ram_8844 value set value 451667043
+data modify storage computer:ram_8848 value set value 17176083
+data modify storage computer:ram_8852 value set value 17192467
+data modify storage computer:ram_8856 value set value 17405843
+data modify storage computer:ram_8860 value set value 1442707
+data modify storage computer:ram_8864 value set value 2491027
+data modify storage computer:ram_8868 value set value 3542931
+data modify storage computer:ram_8872 value set value 4591379
+data modify storage computer:ram_8876 value set value 5639827
+data modify storage computer:ram_8880 value set value 17291155
+data modify storage computer:ram_8884 value set value 17011603
+data modify storage computer:ram_8888 value set value 16945811
+data modify storage computer:ram_8892 value set value 17801107
+data modify storage computer:ram_8896 value set value 17768211
+data modify storage computer:ram_8900 value set value 17735315
+data modify storage computer:ram_8904 value set value 2561683
+data modify storage computer:ram_8908 value set value 17027987
+data modify storage computer:ram_8912 value set value 16962195
+data modify storage computer:ram_8916 value set value 17817491
+data modify storage computer:ram_8920 value set value 17784595
+data modify storage computer:ram_8924 value set value 17751699
+data modify storage computer:ram_8928 value set value 5735187
+data modify storage computer:ram_8932 value set value 16978707
+data modify storage computer:ram_8936 value set value 67352851
+data modify storage computer:ram_8940 value set value 67286163
+data modify storage computer:ram_8944 value set value 68138003
+data modify storage computer:ram_8948 value set value 68105491
+data modify storage computer:ram_8952 value set value 68072851
+data modify storage computer:ram_8956 value set value 15107763
+data modify storage computer:ram_8960 value set value 16995091
+data modify storage computer:ram_8964 value set value 1657107
+data modify storage computer:ram_8968 value set value 1361043
+data modify storage computer:ram_8972 value set value 1328147
+data modify storage computer:ram_8976 value set value 1393939
+data modify storage computer:ram_8980 value set value 1426835
+data modify storage computer:ram_8984 value set value 14419635
+data modify storage computer:ram_8988 value set value 444163
+data modify storage computer:ram_8992 value set value 34045331
+data modify storage computer:ram_8996 value set value 34439267
+data modify storage computer:ram_9000 value set value 13102515
+data modify storage computer:ram_9004 value set value 29027427
+data modify storage computer:ram_9008 value set value 6790547
+data modify storage computer:ram_9012 value set value 13471155
+data modify storage computer:ram_9016 value set value 2989459
+data modify storage computer:ram_9020 value set value 28872115
+data modify storage computer:ram_9024 value set value 17670179
+data modify storage computer:ram_9028 value set value 17268115
+data modify storage computer:ram_9032 value set value 34440291
+data modify storage computer:ram_9036 value set value 67616147
+data modify storage computer:ram_9040 value set value 1949075
+data modify storage computer:ram_9044 value set value 28929459
+data modify storage computer:ram_9048 value set value 892003
+data modify storage computer:ram_9052 value set value 6790547
+data modify storage computer:ram_9056 value set value 8228275
+data modify storage computer:ram_9060 value set value 2989459
+data modify storage computer:ram_9064 value set value 28872115
+data modify storage computer:ram_9068 value set value 17670179
+data modify storage computer:ram_9072 value set value 8879507
+data modify storage computer:ram_9076 value set value 34440291
+data modify storage computer:ram_9080 value set value 67616147
+data modify storage computer:ram_9084 value set value 1949075
+data modify storage computer:ram_9088 value set value 28634547
+data modify storage computer:ram_9092 value set value 892003
+data modify storage computer:ram_9096 value set value 6790547
+data modify storage computer:ram_9100 value set value 6131123
+data modify storage computer:ram_9104 value set value 2989459
+data modify storage computer:ram_9108 value set value 28872115
+data modify storage computer:ram_9112 value set value 17670179
+data modify storage computer:ram_9116 value set value 4685203
+data modify storage computer:ram_9120 value set value 34440291
+data modify storage computer:ram_9124 value set value 67616147
+data modify storage computer:ram_9128 value set value 1949075
+data modify storage computer:ram_9132 value set value 28601779
+data modify storage computer:ram_9136 value set value 892003
+data modify storage computer:ram_9140 value set value 6790547
+data modify storage computer:ram_9144 value set value 33394099
+data modify storage computer:ram_9148 value set value 2989459
+data modify storage computer:ram_9152 value set value 28872115
+data modify storage computer:ram_9156 value set value 17670179
+data modify storage computer:ram_9160 value set value 2588051
+data modify storage computer:ram_9164 value set value 34440291
+data modify storage computer:ram_9168 value set value 67616147
+data modify storage computer:ram_9172 value set value 1949075
+data modify storage computer:ram_9176 value set value 28667315
+data modify storage computer:ram_9180 value set value 892003
+data modify storage computer:ram_9184 value set value 6790547
+data modify storage computer:ram_9188 value set value 32345523
+data modify storage computer:ram_9192 value set value 2989459
+data modify storage computer:ram_9196 value set value 28872115
+data modify storage computer:ram_9200 value set value 17670179
+data modify storage computer:ram_9204 value set value 1537811
+data modify storage computer:ram_9208 value set value 34014307
+data modify storage computer:ram_9212 value set value 67614483
+data modify storage computer:ram_9216 value set value 1521427
+data modify storage computer:ram_9220 value set value 15066931
+data modify storage computer:ram_9224 value set value 466019
+data modify storage computer:ram_9228 value set value 6788883
+data modify storage computer:ram_9232 value set value 30869299
+data modify storage computer:ram_9236 value set value 2561811
+data modify storage computer:ram_9240 value set value 15238963
+data modify storage computer:ram_9244 value set value 17244195
+data modify storage computer:ram_9248 value set value 1542035
+data modify storage computer:ram_9252 value set value 17274771
+data modify storage computer:ram_9256 value set value 17291155
+data modify storage computer:ram_9260 value set value 1476243
+data modify storage computer:ram_9264 value set value -295201053
+data modify storage computer:ram_9268 value set value 934659
+data modify storage computer:ram_9272 value set value 1969683
+data modify storage computer:ram_9276 value set value -503113501
+data modify storage computer:ram_9280 value set value 46212099
+data modify storage computer:ram_9284 value set value 42017923
+data modify storage computer:ram_9288 value set value 37824771
+data modify storage computer:ram_9292 value set value 33630595
+data modify storage computer:ram_9296 value set value 29436419
+data modify storage computer:ram_9300 value set value 25242243
+data modify storage computer:ram_9304 value set value 21048067
+data modify storage computer:ram_9308 value set value 16853891
+data modify storage computer:ram_9312 value set value 12659715
+data modify storage computer:ram_9316 value set value 8465539
+data modify storage computer:ram_9320 value set value 4271363
+data modify storage computer:ram_9324 value set value 77187
+data modify storage computer:ram_9328 value set value 50397459
+data modify storage computer:ram_9332 value set value 32871
+data modify storage computer:ram_9336 value set value 7965075
+data modify storage computer:ram_9340 value set value -46349597
+data modify storage computer:ram_9344 value set value 934659
+data modify storage computer:ram_9348 value set value 1969683
+data modify storage computer:ram_9352 value set value -100463389
+data modify storage computer:ram_9356 value set value -10287389
+data modify storage computer:ram_9360 value set value 2579
+data modify storage computer:ram_9364 value set value 656915
+data modify storage computer:ram_9368 value set value 7997971
+data modify storage computer:ram_9372 value set value -559943569
+data modify storage computer:ram_9376 value set value 32871
+data modify storage computer:ram_9380 value set value 695740518
+data modify storage computer:ram_9384 value set value 1734680637
+data modify storage computer:ram_9388 value set value 1769152570
+data modify storage computer:ram_9392 value set value 695740526
+data modify storage computer:ram_9396 value set value 1936679723
+data modify storage computer:ram_9400 value set value 2717736
+data modify storage computer:ram_9404 value set value 678459493
+data modify storage computer:ram_9412 value set value 1953657203
+data modify storage computer:ram_9416 value set value 40
+data modify storage computer:ram_9420 value set value 2649708
+data modify storage computer:ram_9424 value set value 677867372
+data modify storage computer:ram_9432 value set value 678915952
+data modify storage computer:ram_9440 value set value 29477
+data modify storage computer:ram_9444 value set value 920
+data modify storage computer:ram_9448 value set value 1300
+data modify storage computer:ram_9452 value set value 988
+data modify storage computer:ram_9456 value set value 920
+data modify storage computer:ram_9460 value set value 920
+data modify storage computer:ram_9464 value set value 920
+data modify storage computer:ram_9468 value set value 920
+data modify storage computer:ram_9472 value set value 920
+data modify storage computer:ram_9476 value set value 872
+data modify storage computer:ram_9480 value set value 872
+data modify storage computer:ram_9484 value set value 872
+data modify storage computer:ram_9488 value set value 872
+data modify storage computer:ram_9492 value set value 872
+data modify storage computer:ram_9496 value set value 872
+data modify storage computer:ram_9500 value set value 872
+data modify storage computer:ram_9504 value set value 1356
+data modify storage computer:ram_9508 value set value 1328
+data modify storage computer:ram_9512 value set value 2712
+data modify storage computer:ram_9516 value set value 2148
+data modify storage computer:ram_9520 value set value 1876
+data modify storage computer:ram_9524 value set value 1920
+data modify storage computer:ram_9528 value set value 2028
+data modify storage computer:ram_9532 value set value 2984
+data modify storage computer:ram_9536 value set value 1636
+data modify storage computer:ram_9540 value set value 1616
+data modify storage computer:ram_9544 value set value 1868
+data modify storage computer:ram_9548 value set value 1848
+data modify storage computer:ram_9552 value set value 1644
+data modify storage computer:ram_9556 value set value 1120403456
+data modify storage computer:ram_9560 value set value 1056964608
+data modify storage computer:ram_9564 value set value 1092616192
+data modify storage computer:ram_9568 value set value 1036831949
+data modify storage computer:ram_9572 value set value -525502228
+data modify storage computer:ram_9576 value set value 1621981420
+data modify storage computer:ram_9580 value set value 1065353216
+data modify storage computer:ram_9584 value set value 1073741824
+data modify storage computer:ram_9588 value set value 1078530011
+data modify storage computer:ram_9592 value set value 1128792064
+data modify storage computer:ram_9596 value set value 1115422720
+data modify storage computer:ram_9600 value set value 1016003125
+data modify storage computer:ram_9604 value set value 1086918619
+data modify storage computer:ram_9608 value set value -1068953637
+data modify storage computer:ram_9612 value set value 1086324736
+data modify storage computer:ram_9616 value set value 1101004800
+data modify storage computer:ram_9620 value set value 1109917696
+data modify storage computer:ram_9624 value set value 1116733440
+data modify storage computer:ram_9628 value set value 1121714176
+data modify storage computer:ram_9632 value set value 1125908480
+data modify storage computer:ram_9636 value set value 1129447424
+data modify storage computer:ram_9640 value set value 1132986368
+data modify storage computer:ram_9644 value set value 1135280128
+data modify storage computer:ram_9648 value set value 1137836032
+data modify storage computer:ram_9652 value set value 1070141403
+data modify storage computer:ram_9656 value set value 869711765
+data modify storage computer:ram_9660 value set value 1060205080
+data modify storage computer:ram_9664 value set value 1075010958
+data modify storage computer:ram_9668 value set value 981668463
+data modify storage computer:ram_9672 value set value 1028443341
+data modify storage computer:ram_9676 value set value -1027080192
+data modify storage computer:ram_9680 value set value 7252
+data modify storage computer:ram_9684 value set value 6992
+data modify storage computer:ram_9688 value set value 6556
+data modify storage computer:ram_9692 value set value 6556
+data modify storage computer:ram_9696 value set value 6556
+data modify storage computer:ram_9700 value set value 6556
+data modify storage computer:ram_9704 value set value 6556
+data modify storage computer:ram_9708 value set value 6556
+data modify storage computer:ram_9712 value set value 6556
+data modify storage computer:ram_9716 value set value 6556
+data modify storage computer:ram_9720 value set value 6556
+data modify storage computer:ram_9724 value set value 6556
+data modify storage computer:ram_9728 value set value 6556
+data modify storage computer:ram_9732 value set value 6556
+data modify storage computer:ram_9736 value set value 6556
+data modify storage computer:ram_9740 value set value 6556
+data modify storage computer:ram_9744 value set value 6908
+data modify storage computer:ram_9748 value set value 6556
+data modify storage computer:ram_9752 value set value 6652
+data modify storage computer:ram_9756 value set value 6556
+data modify storage computer:ram_9760 value set value 6556
+data modify storage computer:ram_9764 value set value 6572
+data modify storage computer:ram_9772 value set value 67372032
+data modify storage computer:ram_9776 value set value 168428544
+data modify storage computer:ram_9780 value set value 167772160
+data modify storage computer:ram_9784 value set value 169806367
+data modify storage computer:ram_9788 value set value 252972804
+data modify storage computer:ram_9792 value set value 67638020
+data modify storage computer:ram_9796 value set value 151394562
+data modify storage computer:ram_9800 value set value 100991509
+data modify storage computer:ram_9804 value set value 6
+data modify storage computer:ram_9808 value set value 67372034
+data modify storage computer:ram_9812 value set value 67373058
+data modify storage computer:ram_9816 value set value 167774212
+data modify storage computer:ram_9820 value set value 2564
+data modify storage computer:ram_9824 value set value 265732
+data modify storage computer:ram_9828 value set value 100663296
+data modify storage computer:ram_9832 value set value 234881030
+data modify storage computer:ram_9840 value set value 394752
+data modify storage computer:ram_9844 value set value 134480385
+data modify storage computer:ram_9848 value set value 353964302
+data modify storage computer:ram_9852 value set value 67896334
+data modify storage computer:ram_9856 value set value 286133764
+data modify storage computer:ram_9860 value set value 236914694
+data modify storage computer:ram_9864 value set value 234948113
+data modify storage computer:ram_9868 value set value 520750594
+data modify storage computer:ram_9872 value set value 504372994
+data modify storage computer:ram_9876 value set value 269360641
+data modify storage computer:ram_9880 value set value 521015582
+data modify storage computer:ram_9884 value set value 134480385
+data modify storage computer:ram_9888 value set value 286134542
+data modify storage computer:ram_9892 value set value 252775950
+data modify storage computer:ram_9896 value set value 100666881
+data modify storage computer:ram_9900 value set value 393216
+data modify storage computer:ram_9904 value set value 100664838
+data modify storage computer:ram_9908 value set value 67634178
+data modify storage computer:ram_9912 value set value 917506
+data modify storage computer:ram_9916 value set value 67633166
+data modify storage computer:ram_9920 value set value 235406338
+data modify storage computer:ram_9924 value set value 67109393
+data modify storage computer:ram_9928 value set value 269948174
+data modify storage computer:ram_9932 value set value 521211406
+data modify storage computer:ram_9936 value set value 287183121
+data modify storage computer:ram_9940 value set value 236851486
+data modify storage computer:ram_9944 value set value 235999249
+data modify storage computer:ram_9948 value set value 286331166
+data modify storage computer:ram_9952 value set value 504373022
+data modify storage computer:ram_9956 value set value 270475024
+data modify storage computer:ram_9960 value set value 235933726
+data modify storage computer:ram_9964 value set value 236000016
+data modify storage computer:ram_9968 value set value 287248657
+data modify storage computer:ram_9972 value set value 67374609
+data modify storage computer:ram_9976 value set value 16846340
+data modify storage computer:ram_9980 value set value 286134529
+data modify storage computer:ram_9984 value set value 286399506
+data modify storage computer:ram_9988 value set value 269488144
+data modify storage computer:ram_9992 value set value 354095391
+data modify storage computer:ram_9996 value set value 420548881
+data modify storage computer:ram_10000 value set value 236000021
+data modify storage computer:ram_10004 value set value 235999505
+data modify storage computer:ram_10008 value set value 270405918
+data modify storage computer:ram_10012 value set value 353439248
+data modify storage computer:ram_10016 value set value 287182098
+data modify storage computer:ram_10020 value set value 235999774
+data modify storage computer:ram_10024 value set value 234950160
+data modify storage computer:ram_10028 value set value 67372063
+data modify storage computer:ram_10032 value set value 286331140
+data modify storage computer:ram_10036 value set value 286330385
+data modify storage computer:ram_10040 value set value 285477393
+data modify storage computer:ram_10044 value set value 286987537
+data modify storage computer:ram_10048 value set value 168036881
+data modify storage computer:ram_10052 value set value 168890641
+data modify storage computer:ram_10056 value set value 35587076
+data modify storage computer:ram_10060 value set value 236914692
+data modify storage computer:ram_10064 value set value 235407368
+data modify storage computer:ram_10068 value set value 33818624
+data modify storage computer:ram_10072 value set value 33689089
+data modify storage computer:ram_10076 value set value 168037890
+data modify storage computer:ram_10084 value set value 520093696
+data modify storage computer:ram_10088 value set value 518
+data modify storage computer:ram_10092 value set value 285869056
+data modify storage computer:ram_10096 value set value 504369439
+data modify storage computer:ram_10100 value set value 1970449
+data modify storage computer:ram_10104 value set value 235933710
+data modify storage computer:ram_10108 value set value 286330625
+data modify storage computer:ram_10112 value set value 504434191
+data modify storage computer:ram_10116 value set value 134614544
+data modify storage computer:ram_10120 value set value 235407390
+data modify storage computer:ram_10124 value set value 234950417
+data modify storage computer:ram_10128 value set value 286334480
+data modify storage computer:ram_10132 value set value 201327633
+data modify storage computer:ram_10136 value set value 134660
+data modify storage computer:ram_10140 value set value 269226498
+data modify storage computer:ram_10144 value set value 286399506
+data modify storage computer:ram_10148 value set value 67372044
+data modify storage computer:ram_10152 value set value 354287630
+data modify storage computer:ram_10156 value set value 503321877
+data modify storage computer:ram_10160 value set value 1118481
+data modify storage computer:ram_10164 value set value 235999502
+data modify storage computer:ram_10168 value set value 504438272
+data modify storage computer:ram_10172 value set value 286195728
+data modify storage computer:ram_10176 value set value 503316751
+data modify storage computer:ram_10180 value set value 235933713
+data modify storage computer:ram_10184 value set value 234950160
+data modify storage computer:ram_10188 value set value 134749704
+data modify storage computer:ram_10192 value set value 286326790
+data modify storage computer:ram_10196 value set value 285216529
+data modify storage computer:ram_10200 value set value 264721
+data modify storage computer:ram_10204 value set value 169153809
+data modify storage computer:ram_10208 value set value 67768576
+data modify storage computer:ram_10212 value set value 286326794
+data modify storage computer:ram_10216 value set value 520093967
+data modify storage computer:ram_10220 value set value 102695938
+data modify storage computer:ram_10224 value set value 101191688
+data modify storage computer:ram_10228 value set value 67372036
+data modify storage computer:ram_10232 value set value 16911364
+data modify storage computer:ram_10236 value set value 352848898
+data modify storage computer:ram_10240 value set value 2
+data modify storage computer:ram_10244 value set value 16
+data modify storage computer:ram_10252 value set value 5405187
+data modify storage computer:ram_10256 value set value 16874497
+data modify storage computer:ram_10260 value set value 134171
+data modify storage computer:ram_10264 value set value 32
+data modify storage computer:ram_10268 value set value 24
+data modify storage computer:ram_10272 value set value -4240
+data modify storage computer:ram_10276 value set value 192
+data modify storage computer:ram_10280 value set value 269371392
+data modify storage computer:ram_10284 value set value -2013167284
+data modify storage computer:ram_10288 value set value -1046478334
+data modify storage computer:ram_10292 value set value 239388740
+data modify storage computer:ram_10300 value set value 32
+data modify storage computer:ram_10304 value set value 60
+data modify storage computer:ram_10308 value set value -4084
+data modify storage computer:ram_10312 value set value 152
+data modify storage computer:ram_10316 value set value 269371392
+data modify storage computer:ram_10320 value set value -2013167284
+data modify storage computer:ram_10324 value set value -1049099774
+data modify storage computer:ram_10328 value set value 239388740
+data modify storage computer:ram_10336 value set value 116
+data modify storage computer:ram_10340 value set value 96
+data modify storage computer:ram_10344 value set value -10344
+data modify storage computer:ram_10348 value set value 6032
+data modify storage computer:ram_10352 value set value -1072806912
+data modify storage computer:ram_10356 value set value -2007498235
+data modify storage computer:ram_10360 value set value -2130474750
+data modify storage computer:ram_10364 value set value -1828417023
+data modify storage computer:ram_10368 value set value -1794731003
+data modify storage computer:ram_10372 value set value -1761044985
+data modify storage computer:ram_10376 value set value -1727358967
+data modify storage computer:ram_10380 value set value -1693672949
+data modify storage computer:ram_10384 value set value -1458460659
+data modify storage computer:ram_10388 value set value -1290554862
+data modify storage computer:ram_10392 value set value -1256868844
+data modify storage computer:ram_10396 value set value -1223182826
+data modify storage computer:ram_10400 value set value 52017176
+data modify storage computer:ram_10404 value set value -1056305812
+data modify storage computer:ram_10408 value set value -918239164
+data modify storage computer:ram_10412 value set value -750464444
+data modify storage computer:ram_10416 value set value -716909500
+data modify storage computer:ram_10420 value set value -683354556
+data modify storage computer:ram_10424 value set value -649799612
+data modify storage computer:ram_10428 value set value -616244668
+data modify storage computer:ram_10432 value set value -381360060
+data modify storage computer:ram_10436 value set value -213585340
+data modify storage computer:ram_10440 value set value -180030396
+data modify storage computer:ram_10444 value set value -146475452
+data modify storage computer:ram_10448 value set value 239663172
+data modify storage computer:ram_10452 value set value 738304
+data modify storage computer:ram_10456 value set value 80
+data modify storage computer:ram_10460 value set value 216
+data modify storage computer:ram_10464 value set value -4088
+data modify storage computer:ram_10468 value set value 1480
+data modify storage computer:ram_10472 value set value 1074676736
+data modify storage computer:ram_10476 value set value 235571202
+data modify storage computer:ram_10480 value set value 34292736
+data modify storage computer:ram_10484 value set value -1995863848
+data modify storage computer:ram_10488 value set value -931659254
+data modify storage computer:ram_10492 value set value 174901572
+data modify storage computer:ram_10496 value set value 189005838
+data modify storage computer:ram_10500 value set value 159959042
+data modify storage computer:ram_10504 value set value -2013132151
+data modify storage computer:ram_10508 value set value 63521992
+data modify storage computer:ram_10512 value set value -2012610008
+data modify storage computer:ram_10516 value set value 1141541129
+data modify storage computer:ram_10520 value set value 159926283
+data modify storage computer:ram_10524 value set value 173279881
+data modify storage computer:ram_10528 value set value 1221149896
+data modify storage computer:ram_10532 value set value 1153975307
+data modify storage computer:ram_10536 value set value 201
+data modify storage computer:ram_10540 value set value 16
+data modify storage computer:ram_10544 value set value 300
+data modify storage computer:ram_10548 value set value -2692
+data modify storage computer:ram_10552 value set value 76
+data modify storage computer:ram_10560 value set value 16
+data modify storage computer:ram_10564 value set value 320
+data modify storage computer:ram_10568 value set value -2636
+data modify storage computer:ram_10572 value set value 24
+data modify storage computer:ram_10580 value set value 16
+data modify storage computer:ram_10584 value set value 340
+data modify storage computer:ram_10588 value set value -2632
+data modify storage computer:ram_10592 value set value 152
+data modify storage computer:ram_10600 value set value 16
+data modify storage computer:ram_10604 value set value 360
+data modify storage computer:ram_10608 value set value -2500
+data modify storage computer:ram_10612 value set value 4
+data modify storage computer:ram_10620 value set value 16
+data modify storage computer:ram_10624 value set value 380
+data modify storage computer:ram_10628 value set value -2516
+data modify storage computer:ram_10632 value set value 4
+data modify storage computer:ram_10640 value set value 16
+data modify storage computer:ram_10644 value set value 400
+data modify storage computer:ram_10648 value set value -2532
+data modify storage computer:ram_10652 value set value 4
+data modify storage computer:ram_10660 value set value 16
+data modify storage computer:ram_10664 value set value 420
+data modify storage computer:ram_10668 value set value -2548
+data modify storage computer:ram_10672 value set value 56
+data modify storage computer:ram_10680 value set value 40
+data modify storage computer:ram_10684 value set value 440
+data modify storage computer:ram_10688 value set value -2512
+data modify storage computer:ram_10692 value set value 516
+data modify storage computer:ram_10696 value set value 240648704
+data modify storage computer:ram_10700 value set value 25720848
+data modify storage computer:ram_10704 value set value 59900553
+data modify storage computer:ram_10708 value set value 50631516
+data modify storage computer:ram_10712 value set value 1153958208
+data modify storage computer:ram_10716 value set value 1154630857
+data modify storage computer:ram_10720 value set value 935123
+data modify storage computer:ram_10724 value set value 92
+data modify storage computer:ram_10728 value set value 484
+data modify storage computer:ram_10732 value set value -2040
+data modify storage computer:ram_10736 value set value 688
+data modify storage computer:ram_10740 value set value 806243328
+data modify storage computer:ram_10744 value set value 1879677008
+data modify storage computer:ram_10748 value set value 93586579
+data modify storage computer:ram_10752 value set value 127272597
+data modify storage computer:ram_10756 value set value 177801367
+data modify storage computer:ram_10760 value set value 25693082
+data modify storage computer:ram_10764 value set value 59900553
+data modify storage computer:ram_10768 value set value 67308699
+data modify storage computer:ram_10772 value set value 1153960450
+data modify storage computer:ram_10776 value set value 1154630857
+data modify storage computer:ram_10780 value set value 1154761939
+data modify storage computer:ram_10784 value set value 1154893013
+data modify storage computer:ram_10788 value set value 1155024087
+data modify storage computer:ram_10792 value set value 1155155161
+data modify storage computer:ram_10796 value set value 935131
+data modify storage computer:ram_10800 value set value 241699652
+data modify storage computer:ram_10804 value set value -758528000
+data modify storage computer:ram_10808 value set value -690629421
+data modify storage computer:ram_10812 value set value -623257385
+data modify storage computer:ram_10816 value set value 219
 function computer:reset
