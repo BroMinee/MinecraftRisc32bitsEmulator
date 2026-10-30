@@ -1,3 +1,4 @@
+#!jvmtimer start alu_int_shr_u
 # Inputs: computer:alu a, computer:alu shift
 # Outputs: computer:alu result
 # public static int shrU(int a, int shift) {
@@ -62,3 +63,4 @@ data modify storage computer:alu result set from storage computer:alu stack[-1].
 
 # pop frame
 function computer:alu/stack/pop
+#!jvmtimer end alu_int_shr_u

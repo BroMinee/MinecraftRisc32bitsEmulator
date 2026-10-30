@@ -1,3 +1,4 @@
+#!jvmtimer start alu_int_div_rem_unsigned
 # Inputs: computer:alu a, computer:alu b
 # Outputs: computer:alu result (quotient), computer:alu result_hi (remainder)
 # private static void divRemUnsigned(int a, int b, int[] outQR)
@@ -21,3 +22,4 @@ data modify storage computer:alu result_hi set from storage computer:alu stack[-
 
 # pop frame
 function computer:alu/stack/pop
+#!jvmtimer end alu_int_div_rem_unsigned

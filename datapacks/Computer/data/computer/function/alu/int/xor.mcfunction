@@ -1,3 +1,4 @@
+#!jvmtimer start alu_int_xor
 # Inputs: computer:alu a, computer:alu b
 # Outputs: computer:alu result
 # public static int xor(int a, int b) { return bitwiseOp(a, b, 2); }
@@ -12,3 +13,4 @@ function computer:alu/int/bitwise_op
 
 # pop frame
 # function computer:alu/stack/pop
+#!jvmtimer end alu_int_xor

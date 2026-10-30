@@ -1,3 +1,4 @@
+#!jvmtimer start alu_int_flip_sign_bit
 # Inputs: computer:alu a
 # Outputs: computer:alu result
 # public static int flipSignBit(int a) {
@@ -34,3 +35,4 @@ function computer:alu/int/hw_add
 
 # pop frame
 function computer:alu/stack/pop
+#!jvmtimer end alu_int_flip_sign_bit

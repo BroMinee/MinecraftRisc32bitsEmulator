@@ -1,3 +1,4 @@
+#!jvmtimer start alu_int_hw_add
 # Inputs: computer:alu a, computer:alu b
 # Outputs: computer:alu result
 # public static int hwAdd(int a, int b) {
@@ -26,3 +27,4 @@ data modify storage computer:alu result set compute default integer computer:alu
 
 # pop frame
 function computer:alu/stack/pop
+#!jvmtimer end alu_int_hw_add

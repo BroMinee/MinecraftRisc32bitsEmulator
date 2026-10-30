@@ -1,3 +1,4 @@
+#!jvmtimer start alu_int_sub
 # Inputs: computer:alu a, computer:alu b
 # Outputs: computer:alu result
 # public static int sub(int a, int b) { return add(a, negate(b)); }
@@ -18,3 +19,4 @@ function computer:alu/int/add
 
 # pop frame
 function computer:alu/stack/pop
+#!jvmtimer end alu_int_sub

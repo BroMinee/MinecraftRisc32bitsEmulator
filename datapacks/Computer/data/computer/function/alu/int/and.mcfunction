@@ -1,3 +1,4 @@
+#!jvmtimer start alu_int_and
 # Inputs: computer:alu a, computer:alu b
 # Outputs: computer:alu result
 # public static int and(int a, int b) { return bitwiseOp(a, b, 0); }
@@ -12,3 +13,5 @@ function computer:alu/int/bitwise_op
 
 # pop frame
 # function computer:alu/stack/pop
+
+#!jvmtimer end alu_int_and

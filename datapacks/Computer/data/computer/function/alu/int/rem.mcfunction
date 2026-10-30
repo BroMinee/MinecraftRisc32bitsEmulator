@@ -1,3 +1,4 @@
+#!jvmtimer start alu_int_rem
 # Inputs: computer:alu a, computer:alu b
 # Outputs: computer:alu result
 # public static int rem(int a, int b) {
@@ -30,3 +31,4 @@ function computer:alu/int/hw_sub
 
 # pop frame
 function computer:alu/stack/pop
+#!jvmtimer end alu_int_rem

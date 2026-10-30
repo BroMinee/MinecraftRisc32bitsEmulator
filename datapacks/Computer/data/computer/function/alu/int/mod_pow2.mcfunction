@@ -1,3 +1,4 @@
+#!jvmtimer start alu_int_mod_pow2
 # Inputs: computer:alu a, computer:alu bits
 # Outputs: computer:alu result
 # public static int modPow2(int a, int bits) {
@@ -36,3 +37,4 @@ function computer:alu/int/hw_sub
 
 # pop frame
 function computer:alu/stack/pop
+#!jvmtimer end alu_int_mod_pow2

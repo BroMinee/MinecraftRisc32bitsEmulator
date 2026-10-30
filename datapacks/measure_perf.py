@@ -51,6 +51,20 @@ ALL_INSTRUCTIONS = [
     "sb", "sh", "sll", "slli", "slt", "slti", "sltiu", "sltu",
     "sra", "srai", "srl", "srli", "sub", "sw",
     "system", "xor", "xori",
+    # ALU int functions
+    "alu_int_add", "alu_int_and", "alu_int_clear_bit0", "alu_int_compare_unsigned",
+    "alu_int_copy_negated_sign_bit", "alu_int_copy_sign_bit",
+    "alu_int_div", "alu_int_div_rem_unsigned", "alu_int_divu",
+    "alu_int_flip_sign_bit",
+    "alu_int_hw_add", "alu_int_hw_div", "alu_int_hw_mul", "alu_int_hw_sub",
+    "alu_int_low31", "alu_int_mask_low_bits", "alu_int_mod_pow2",
+    "alu_int_mul", "alu_int_mul_unsigned_64",
+    "alu_int_mulh", "alu_int_mulhsu", "alu_int_mulhu",
+    "alu_int_negate", "alu_int_not", "alu_int_or", "alu_int_pow2",
+    "alu_int_rem", "alu_int_remu",
+    "alu_int_shl", "alu_int_shr_s", "alu_int_shr_u",
+    "alu_int_sign_extend_8", "alu_int_sign_extend_16",
+    "alu_int_sub", "alu_int_xor", "alu_int_xor_sign_bit",
 ]
 
 
@@ -145,7 +159,6 @@ async def measure(instructions):
                 results[name] = NAN_RESULT
                 print(f"  {name}: NaN (feedback={feedback})")
 
-            await asyncio.sleep(0.1)
 
         # Reset all timers
         print("\nResetting timers...")

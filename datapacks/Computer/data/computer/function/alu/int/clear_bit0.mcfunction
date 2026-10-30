@@ -1,3 +1,4 @@
+#!jvmtimer start alu_int_clear_bit0
 # Inputs: computer:alu a
 # Outputs: computer:alu result
 # public static int clearBit0(int a) {
@@ -34,3 +35,4 @@ data modify storage computer:alu result set from storage computer:alu stack[-1].
 
 # pop frame
 function computer:alu/stack/pop
+#!jvmtimer end alu_int_clear_bit0

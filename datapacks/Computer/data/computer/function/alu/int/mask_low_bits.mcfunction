@@ -1,3 +1,4 @@
+#!jvmtimer start alu_int_mask_low_bits
 # Inputs: computer:alu a, computer:alu bits
 # Outputs: computer:alu result
 # public static int maskLowBits(int a, int bits) {
@@ -27,3 +28,4 @@ function computer:alu/int/mod_pow2
 
 # pop frame
 function computer:alu/stack/pop
+#!jvmtimer end alu_int_mask_low_bits
