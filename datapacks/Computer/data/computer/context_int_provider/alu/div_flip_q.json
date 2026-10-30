@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:add",
+  "inputs": [
+    {"type": "minecraft:storage", "storage": "computer:alu", "path": "stack[-1].q"},
+    -2147483648
+  ]
+}

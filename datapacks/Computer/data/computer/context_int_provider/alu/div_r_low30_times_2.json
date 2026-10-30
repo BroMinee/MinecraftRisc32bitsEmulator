@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:mul",
+  "inputs": [
+    {
+      "type": "minecraft:mod",
+      "left": {
+        "type": "minecraft:add",
+        "inputs": [
+          {
+            "type": "minecraft:mod",
+            "left": {
+              "type": "minecraft:storage",
+              "storage": "computer:alu",
+              "path": "stack[-1].r"
+            },
+            "right": 1073741824
+          },
+          1073741824
+        ]
+      },
+      "right": 1073741824
+    },
+    2
+  ]
+}
