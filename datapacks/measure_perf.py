@@ -28,7 +28,13 @@ NAN_RESULT = {
 }
 
 ALL_INSTRUCTIONS = [
-    "do_cycle", "_dispatcher",
+    "do_cycle", "_fetch", "_opcode_decode",
+    "_dispatcher", "_disp_opcode_switch",
+    "_disp_decode_op_imm", "_disp_decode_branch", "_disp_decode_op",
+    "_disp_decode_op_fp", "_disp_decode_store", "_disp_decode_load",
+    "_disp_decode_fmadd", "_disp_decode_fmsub", "_disp_decode_fnmadd", "_disp_decode_fnmsub",
+    "_disp_funct3_switch", "_disp_funct7_switch",
+    "_mem_compute_addr", "_mem_read_word", "_mem_write_word",
     "add", "addi", "and", "andi", "auipc",
     "beq", "bge", "bgeu", "blt", "bltu", "bne",
     "div", "divu",

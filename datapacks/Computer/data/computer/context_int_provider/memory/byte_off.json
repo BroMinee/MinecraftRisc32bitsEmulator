@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:mod",
+  "left": {
+    "type": "minecraft:add",
+    "inputs": [
+      {
+        "type": "minecraft:mod",
+        "left": {
+          "type": "minecraft:storage",
+          "storage": "computer:cpu",
+          "path": "_mem_addr"
+        },
+        "right": 4
+      },
+      4
+    ]
+  },
+  "right": 4
+}
