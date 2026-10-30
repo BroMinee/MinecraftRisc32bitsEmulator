@@ -6,27 +6,20 @@
 #!jvmtimer start _disp_decode_op_imm
 
 # int rd = rd(instr);
-function computer:cpu/rd
-data modify storage computer:cpu rd set from storage computer:alu result
+data modify storage computer:cpu rd set compute default integer computer:cpu/rd
 
 # int rs1v = x[rs1(instr)];
-function computer:cpu/rs1
-data modify storage computer:cpu rs1 set from storage computer:alu result
+data modify storage computer:cpu rs1 set compute default integer computer:cpu/rs1
 function computer:cycle/load_rs1 with storage computer:cpu
 
 # int imm = immI(instr);
-function computer:cpu/imm_i
-data modify storage computer:cpu imm set from storage computer:alu result
+data modify storage computer:cpu imm set compute default integer computer:cpu/imm_i
 
 # int shamt = SafeAdderInt.maskLowBits(imm, 5);
-data modify storage computer:alu a set from storage computer:alu result
-data modify storage computer:alu bits set value 5
-function computer:alu/int/mask_low_bits
-data modify storage computer:cpu shamt set from storage computer:alu result
+data modify storage computer:cpu shamt set compute default integer computer:cpu/shamt
 
 # switch (funct3(instr)) { ... } -> result in computer:alu result
-function computer:cpu/funct3
-data modify storage computer:cpu funct3 set from storage computer:alu result
+data modify storage computer:cpu funct3 set compute default integer computer:cpu/funct3
 #!jvmtimer end _disp_decode_op_imm
 #!jvmtimer start _disp_funct3_switch
 function computer:cpu/execute/op_imm_dispatch

@@ -15,8 +15,7 @@ data modify storage computer:cpu instr set from storage computer:alu result
 
 # int opcode = SafeAdderInt.maskLowBits(instr, 7);
 #!jvmtimer start _opcode_decode
-function computer:cpu/opcode
-data modify storage computer:cpu opcode set from storage computer:alu result
+data modify storage computer:cpu opcode set compute default integer computer:cpu/opcode
 #!jvmtimer end _opcode_decode
 
 # Decode + Execute

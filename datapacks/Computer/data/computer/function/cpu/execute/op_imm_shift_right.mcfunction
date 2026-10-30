@@ -7,18 +7,9 @@
 # else
 #     x[rd] = SafeAdderInt.shrU(rs1v, shamt);
 
-function computer:cpu/funct7
-
-# SafeAdderInt.shrU(funct7(instr), 5)
-data modify storage computer:alu a set from storage computer:alu result
-data modify storage computer:alu shift set value 5
-function computer:alu/int/shr_u
-
-# SafeAdderInt.maskLowBits(SafeAdderInt.shrU(funct7(instr), 5), 1)
-data modify storage computer:alu a set from storage computer:alu result
-data modify storage computer:alu bits set value 1
-function computer:alu/int/mask_low_bits
-
-# if SafeAdderInt.maskLowBits(SafeAdderInt.shrU(funct7(instr), 5), 1) != 0 -> SRAI, else -> SRLI
-execute unless data storage computer:alu {result: 0} run function computer:instruction/srai
-execute if data storage computer:alu {result: 0} run function computer:instruction/srli
+# funct7 bit 5 = 0x20 -> SRAI, else -> SRLI
+# check if >= 32 (bit 5 set)
+data modify storage computer:cpu funct7 set compute default integer computer:cpu/funct7
+execute store result score _f7 alu run data get storage computer:cpu funct7
+execute if score _f7 alu matches 32.. run return run function computer:instruction/srai
+function computer:instruction/srli

@@ -6,22 +6,19 @@
 #!jvmtimer start _disp_decode_load
 
 # int rd = rd(instr);
-function computer:cpu/rd
-data modify storage computer:cpu rd set from storage computer:alu result
+data modify storage computer:cpu rd set compute default integer computer:cpu/rd
 
 # int addr = SafeAdderInt.add(x[rs1(instr)], immI(instr));
-function computer:cpu/rs1
-data modify storage computer:cpu rs1 set from storage computer:alu result
+data modify storage computer:cpu rs1 set compute default integer computer:cpu/rs1
 function computer:cycle/load_rs1 with storage computer:cpu
-function computer:cpu/imm_i
+data modify storage computer:cpu imm set compute default integer computer:cpu/imm_i
 data modify storage computer:alu a set from storage computer:cpu rs1_val
-data modify storage computer:alu b set from storage computer:alu result
+data modify storage computer:alu b set from storage computer:cpu imm
 function computer:alu/int/add
 data modify storage computer:cpu _mem_addr set from storage computer:alu result
 
 # switch (funct3(instr)) { ... } -> result in computer:alu result
-function computer:cpu/funct3
-data modify storage computer:cpu funct3 set from storage computer:alu result
+data modify storage computer:cpu funct3 set compute default integer computer:cpu/funct3
 #!jvmtimer end _disp_decode_load
 #!jvmtimer start _disp_funct3_switch
 function computer:cpu/execute/load_dispatch

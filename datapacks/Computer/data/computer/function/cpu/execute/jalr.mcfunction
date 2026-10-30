@@ -5,15 +5,12 @@
 #!jvmtimer end _disp_opcode_switch
 
 # int rd = rd(instr);
-function computer:cpu/rd
-data modify storage computer:cpu rd set from storage computer:alu result
+data modify storage computer:cpu rd set compute default integer computer:cpu/rd
 
 # int target = Instructions.jalr(x[rs1(instr)], immI(instr));
-function computer:cpu/rs1
-data modify storage computer:cpu rs1 set from storage computer:alu result
+data modify storage computer:cpu rs1 set compute default integer computer:cpu/rs1
 function computer:cycle/load_rs1 with storage computer:cpu
-function computer:cpu/imm_i
-data modify storage computer:cpu imm set from storage computer:alu result
+data modify storage computer:cpu imm set compute default integer computer:cpu/imm_i
 function computer:instruction/jalr
 data modify storage computer:cpu target set from storage computer:alu result
 

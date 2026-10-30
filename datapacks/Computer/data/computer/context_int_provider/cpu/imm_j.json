@@ -1,0 +1,158 @@
+{
+  "type": "minecraft:add",
+  "inputs": [
+    {
+      "type": "minecraft:mul",
+      "inputs": [
+        {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:add",
+            "inputs": [
+              {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:div",
+                  "left": {
+                    "type": "minecraft:sub",
+                    "left": {
+                      "type": "minecraft:storage",
+                      "storage": "computer:cpu",
+                      "path": "instr"
+                    },
+                    "right": {
+                      "type": "minecraft:mod",
+                      "left": {
+                        "type": "minecraft:add",
+                        "inputs": [
+                          {
+                            "type": "minecraft:mod",
+                            "left": {
+                              "type": "minecraft:storage",
+                              "storage": "computer:cpu",
+                              "path": "instr"
+                            },
+                            "right": 4096
+                          },
+                          4096
+                        ]
+                      },
+                      "right": 4096
+                    }
+                  },
+                  "right": 4096
+                },
+                "right": 256
+              },
+              256
+            ]
+          },
+          "right": 256
+        },
+        4096
+      ]
+    },
+    {
+      "type": "minecraft:mul",
+      "inputs": [
+        {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:add",
+            "inputs": [
+              {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:div",
+                  "left": {
+                    "type": "minecraft:sub",
+                    "left": {
+                      "type": "minecraft:storage",
+                      "storage": "computer:cpu",
+                      "path": "instr"
+                    },
+                    "right": {
+                      "type": "minecraft:mod",
+                      "left": {
+                        "type": "minecraft:add",
+                        "inputs": [
+                          {
+                            "type": "minecraft:mod",
+                            "left": {
+                              "type": "minecraft:storage",
+                              "storage": "computer:cpu",
+                              "path": "instr"
+                            },
+                            "right": 1048576
+                          },
+                          1048576
+                        ]
+                      },
+                      "right": 1048576
+                    }
+                  },
+                  "right": 1048576
+                },
+                "right": 2
+              },
+              2
+            ]
+          },
+          "right": 2
+        },
+        2048
+      ]
+    },
+    {
+      "type": "minecraft:mul",
+      "inputs": [
+        {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:add",
+            "inputs": [
+              {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:div",
+                  "left": {
+                    "type": "minecraft:sub",
+                    "left": {
+                      "type": "minecraft:storage",
+                      "storage": "computer:cpu",
+                      "path": "instr"
+                    },
+                    "right": {
+                      "type": "minecraft:mod",
+                      "left": {
+                        "type": "minecraft:add",
+                        "inputs": [
+                          {
+                            "type": "minecraft:mod",
+                            "left": {
+                              "type": "minecraft:storage",
+                              "storage": "computer:cpu",
+                              "path": "instr"
+                            },
+                            "right": 2097152
+                          },
+                          2097152
+                        ]
+                      },
+                      "right": 2097152
+                    }
+                  },
+                  "right": 2097152
+                },
+                "right": 1024
+              },
+              1024
+            ]
+          },
+          "right": 1024
+        },
+        2
+      ]
+    }
+  ]
+}

@@ -5,11 +5,10 @@
 #!jvmtimer end _disp_opcode_switch
 
 # int rd = rd(instr);
-function computer:cpu/rd
-data modify storage computer:cpu rd set from storage computer:alu result
+data modify storage computer:cpu rd set compute default integer computer:cpu/rd
 
 # x[rd] = Instructions.auipc(pc, immU(instr));
-function computer:cpu/imm_u
+data modify storage computer:alu result set compute default integer computer:cpu/imm_u
 function computer:instruction/auipc
 data modify storage computer:cpu rd_val set from storage computer:alu result
 function computer:cycle/write_rd with storage computer:cpu

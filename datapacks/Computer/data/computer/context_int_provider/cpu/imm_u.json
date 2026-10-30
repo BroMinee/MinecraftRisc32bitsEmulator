@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:sub",
+  "left": {
+    "type": "minecraft:storage",
+    "storage": "computer:cpu",
+    "path": "instr"
+  },
+  "right": {
+    "type": "minecraft:mod",
+    "left": {
+      "type": "minecraft:add",
+      "inputs": [
+        {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:storage",
+            "storage": "computer:cpu",
+            "path": "instr"
+          },
+          "right": 4096
+        },
+        4096
+      ]
+    },
+    "right": 4096
+  }
+}
