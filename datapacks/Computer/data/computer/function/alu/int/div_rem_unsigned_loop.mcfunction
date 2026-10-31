@@ -1,4 +1,4 @@
-# Loop body for divRemUnsigned — operates on parent's frame (stack[-1])
+# Loop body for divRemUnsigned operates on parent's frame (stack[-1])
 # Reads/writes: stack[-1].a (dividend), .b (divisor), .q, .r, .i
 #
 # Optimized version using number providers instead of ALU function calls.

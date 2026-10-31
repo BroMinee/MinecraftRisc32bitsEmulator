@@ -1,4 +1,4 @@
-# Loop body for extractMantissaBits — operates on parent's frame (stack[-1])
+# Loop body for extractMantissaBits operates on parent's frame (stack[-1])
 # Reads/writes: stack[-1].f (float), .bits (int), .i (int)
 
 # if (i < 0) return;

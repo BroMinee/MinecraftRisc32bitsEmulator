@@ -1,4 +1,4 @@
-# Loop body for bitsToFraction — operates on parent's frame (stack[-1])
+# Loop body for bitsToFraction operates on parent's frame (stack[-1])
 # Reads/writes: stack[-1].a (int bits), .n (int), .res (float), .i (int)
 
 # if (i >= n) return;

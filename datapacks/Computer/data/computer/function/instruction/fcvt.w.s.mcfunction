@@ -11,13 +11,13 @@
 
 function computer:debug/print_log {"message": {"text": "Running fcvt.w.s", "color":"gold"}}
 
-# if (isNaN(a)) return MAX_INT  — NaN != NaN
+# if (isNaN(a)) return MAX_INT  NaN != NaN
 data modify storage computer:alu a set from storage computer:cpu rs1_val
 data modify storage computer:alu b set from storage computer:cpu rs1_val
 execute unless predicate computer:alu/float_eq run return run data modify storage computer:alu result set value 2147483647
 
 # if (a >= intToFloat(MAX_INT)) return MAX_INT
-# intToFloat(2147483647) — compute it
+# intToFloat(2147483647) compute it
 data modify storage computer:alu a set value 2147483647
 function computer:alu/float/int_to_float
 data modify storage computer:cpu _fmax set from storage computer:alu result

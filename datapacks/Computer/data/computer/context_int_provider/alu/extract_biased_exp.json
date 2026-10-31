@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:mod",
+  "left": {
+    "type": "minecraft:add",
+    "inputs": [
+      {
+        "type": "minecraft:mod",
+        "left": {
+          "type": "minecraft:div",
+          "left": {
+            "type": "minecraft:sub",
+            "left": {
+              "type": "minecraft:storage",
+              "storage": "computer:alu",
+              "path": "a"
+            },
+            "right": {
+              "type": "minecraft:mod",
+              "left": {
+                "type": "minecraft:add",
+                "inputs": [
+                  {
+                    "type": "minecraft:mod",
+                    "left": {
+                      "type": "minecraft:storage",
+                      "storage": "computer:alu",
+                      "path": "a"
+                    },
+                    "right": 8388608
+                  },
+                  8388608
+                ]
+              },
+              "right": 8388608
+            }
+          },
+          "right": 8388608
+        },
+        "right": 256
+      },
+      256
+    ]
+  },
+  "right": 256
+}

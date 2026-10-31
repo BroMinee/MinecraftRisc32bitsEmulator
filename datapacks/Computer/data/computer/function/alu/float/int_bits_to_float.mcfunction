@@ -7,29 +7,11 @@
 function computer:alu/stack/push
 data modify storage computer:alu stack[-1].a set from storage computer:alu a
 
-# int sign = maskLowBits(shrU(a, 31), 1);
-data modify storage computer:alu a set from storage computer:alu stack[-1].a
-data modify storage computer:alu shift set value 31
-function computer:alu/int/shr_u
-data modify storage computer:alu a set from storage computer:alu result
-data modify storage computer:alu bits set value 1
-function computer:alu/int/mask_low_bits
-data modify storage computer:alu stack[-1].sign set from storage computer:alu result
-
+# int sign: a < 0 means sign=1 (checked via scoreboard later)
 # int biasedExp = maskLowBits(shrU(a, 23), 8);
-data modify storage computer:alu a set from storage computer:alu stack[-1].a
-data modify storage computer:alu shift set value 23
-function computer:alu/int/shr_u
-data modify storage computer:alu a set from storage computer:alu result
-data modify storage computer:alu bits set value 8
-function computer:alu/int/mask_low_bits
-data modify storage computer:alu stack[-1].biasedExp set from storage computer:alu result
-
+data modify storage computer:alu stack[-1].biasedExp set compute default integer computer:alu/extract_biased_exp
 # int mantissaBits = maskLowBits(a, 23);
-data modify storage computer:alu a set from storage computer:alu stack[-1].a
-data modify storage computer:alu bits set value 23
-function computer:alu/int/mask_low_bits
-data modify storage computer:alu stack[-1].mantissaBits set from storage computer:alu result
+data modify storage computer:alu stack[-1].mantissaBits set compute default integer computer:alu/extract_mantissa_bits
 
 # Branch on biasedExp and mantissaBits
 execute store result score _exp alu run data get storage computer:alu stack[-1].biasedExp

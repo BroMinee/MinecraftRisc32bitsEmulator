@@ -43,7 +43,7 @@ execute store result score _ai alu run data get storage computer:alu stack[-1].a
 execute if score _ai alu matches ..-1 run data modify storage computer:alu stack[-1].abs set from storage computer:alu result
 # Also catch -0.x floats where data get returns 0 but value is negative
 # (these are handled above by the -0.0f check... but small negatives like -0.5f truncate to 0)
-# Check: floatSub(0.0f, a) — if positive, a was negative
+# Check: floatSub(0.0f, a) if positive, a was negative
 data modify storage computer:alu a set value 0.0f
 data modify storage computer:alu b set from storage computer:alu stack[-1].a
 function computer:alu/float/float_sub
