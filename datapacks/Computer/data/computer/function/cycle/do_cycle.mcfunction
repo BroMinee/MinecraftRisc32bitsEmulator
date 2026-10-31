@@ -9,6 +9,8 @@ execute store result score _stdin_ctrl alu run data get storage computer:ram_268
 execute if score _stdin_ctrl alu matches 1 run function computer:cycle/stdin/show_dialog with storage computer:memory
 execute if score _stdin_ctrl alu matches 1 run return 0
 
+function computer:cycle/input/write_keys_to_memory
+
 # cycleCount = SafeAdderInt.add(cycleCount, 1);
 scoreboard players add cycle stats 1
 
