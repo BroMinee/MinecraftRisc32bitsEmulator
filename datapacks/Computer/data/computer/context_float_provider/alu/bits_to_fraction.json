@@ -1,0 +1,771 @@
+{
+  "type": "minecraft:add",
+  "inputs": [
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:storage",
+            "storage": "computer:alu",
+            "path": "a"
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 1.1920928955078125e-07,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 2
+              }
+            },
+            "right": 2
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 2.384185791015625e-07,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 4
+              }
+            },
+            "right": 4
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 4.76837158203125e-07,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 8
+              }
+            },
+            "right": 8
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 9.5367431640625e-07,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 16
+              }
+            },
+            "right": 16
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 1.9073486328125e-06,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 32
+              }
+            },
+            "right": 32
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 3.814697265625e-06,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 64
+              }
+            },
+            "right": 64
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 7.62939453125e-06,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 128
+              }
+            },
+            "right": 128
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 1.52587890625e-05,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 256
+              }
+            },
+            "right": 256
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 3.0517578125e-05,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 512
+              }
+            },
+            "right": 512
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 6.103515625e-05,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 1024
+              }
+            },
+            "right": 1024
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 0.0001220703125,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 2048
+              }
+            },
+            "right": 2048
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 0.000244140625,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 4096
+              }
+            },
+            "right": 4096
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 0.00048828125,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 8192
+              }
+            },
+            "right": 8192
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 0.0009765625,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 16384
+              }
+            },
+            "right": 16384
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 0.001953125,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 32768
+              }
+            },
+            "right": 32768
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 0.00390625,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 65536
+              }
+            },
+            "right": 65536
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 0.0078125,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 131072
+              }
+            },
+            "right": 131072
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 0.015625,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 262144
+              }
+            },
+            "right": 262144
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 0.03125,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 524288
+              }
+            },
+            "right": 524288
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 0.0625,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 1048576
+              }
+            },
+            "right": 1048576
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 0.125,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 2097152
+              }
+            },
+            "right": 2097152
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 0.25,
+      "on_false": 0.0
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "value": {
+          "type": "minecraft:mod",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:storage",
+                "storage": "computer:alu",
+                "path": "a"
+              },
+              "right": {
+                "type": "minecraft:mod",
+                "left": {
+                  "type": "minecraft:storage",
+                  "storage": "computer:alu",
+                  "path": "a"
+                },
+                "right": 4194304
+              }
+            },
+            "right": 4194304
+          },
+          "right": 2
+        },
+        "test": 1
+      },
+      "on_true": 0.5,
+      "on_false": 0.0
+    }
+  ]
+}

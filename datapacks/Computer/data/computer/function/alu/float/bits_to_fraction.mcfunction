@@ -2,20 +2,17 @@
 # Outputs: computer:alu result (float)
 # public static float bitsToFraction(int bits, int n) {
 
-# push new frame context
+# Fast path for n=23 (used by intBitsToFloat): single set compute
+execute if data storage computer:alu {n:23} run return run data modify storage computer:alu result set compute default float computer:alu/bits_to_fraction
+
+
+# I believe this case is totally useless in production but let's keep it in case it becomes handy later (I because I don't want to cut the UT)
+# Slow path for other n values: loop
 function computer:alu/stack/push
 data modify storage computer:alu stack[-1].a set from storage computer:alu a
 data modify storage computer:alu stack[-1].n set from storage computer:alu n
-
-# float result = 0.0f; int i = 0;
 data modify storage computer:alu stack[-1].res set value 0.0f
 data modify storage computer:alu stack[-1].i set value 0
-
-# for (int i = 0; i < n; i++)
 function computer:alu/float/bits_to_fraction_loop
-
-# return result;
 data modify storage computer:alu result set from storage computer:alu stack[-1].res
-
-# pop frame
 function computer:alu/stack/pop
