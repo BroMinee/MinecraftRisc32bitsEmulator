@@ -66,24 +66,24 @@ static uint8_t game_over;
 
 static void draw_paddle(uint8_t px, int16_t py, uint8_t r, uint8_t g, uint8_t b) {
   for (uint8_t i = 0; i < PADDLE_H; i++) {
-    write_pixel(px, py + i, r, g, b);
+    write_pixel(px, py + i,255, r, g, b);
   }
 }
 
 static void draw_ball(int16_t bx, int16_t by, uint8_t r, uint8_t g, uint8_t b) {
-  write_pixel(bx, by, r, g, b);
+  write_pixel(bx, by,255, r, g, b);
 }
 
 static void restore_midline(int16_t bx, int16_t by) {
   if (bx == SCREEN / 2 && (by % 4) < 2) {
-    write_pixel(SCREEN / 2, by, 40, 40, 40);
+    write_pixel(SCREEN / 2, by,255, 40, 40, 40);
   }
 }
 
 static void draw_midline(void) {
   for (uint8_t y = 0; y < SCREEN; y += 4) {
-    write_pixel(SCREEN / 2, y,     40, 40, 40);
-    write_pixel(SCREEN / 2, y + 1, 40, 40, 40);
+    write_pixel(SCREEN / 2, y,    255, 40, 40, 40);
+    write_pixel(SCREEN / 2, y + 1, 255, 40, 40, 40);
   }
 }
 
@@ -149,18 +149,18 @@ int main() {
     }
 
     if (paddle_l_y < old_l) {
-      write_pixel(PADDLE_X_L, old_l + PADDLE_H - 1, 0, 0, 0);
-      write_pixel(PADDLE_X_L, paddle_l_y, 0, 180, 255);
+      write_pixel(PADDLE_X_L, old_l + PADDLE_H - 1,255, 0, 0, 0);
+      write_pixel(PADDLE_X_L, paddle_l_y,255, 0, 180, 255);
     } else if (paddle_l_y > old_l) {
-      write_pixel(PADDLE_X_L, old_l, 0, 0, 0);
-      write_pixel(PADDLE_X_L, paddle_l_y + PADDLE_H - 1, 0, 180, 255);
+      write_pixel(PADDLE_X_L, old_l,255, 0, 0, 0);
+      write_pixel(PADDLE_X_L, paddle_l_y + PADDLE_H - 1, 0,255, 180, 255);
     }
     if (paddle_r_y < old_r) {
-      write_pixel(PADDLE_X_R, old_r + PADDLE_H - 1, 0, 0, 0);
-      write_pixel(PADDLE_X_R, paddle_r_y, 255, 180, 0);
+      write_pixel(PADDLE_X_R, old_r + PADDLE_H - 1,255, 0, 0, 0);
+      write_pixel(PADDLE_X_R, paddle_r_y,255, 255, 180, 0);
     } else if (paddle_r_y > old_r) {
-      write_pixel(PADDLE_X_R, old_r, 0, 0, 0);
-      write_pixel(PADDLE_X_R, paddle_r_y + PADDLE_H - 1, 255, 180, 0);
+      write_pixel(PADDLE_X_R, old_r,255, 0, 0, 0);
+      write_pixel(PADDLE_X_R, paddle_r_y + PADDLE_H - 1,255, 255, 180, 0);
     }
     draw_ball(ball_x, ball_y, 0, 0, 0);
     restore_midline(ball_x, ball_y);

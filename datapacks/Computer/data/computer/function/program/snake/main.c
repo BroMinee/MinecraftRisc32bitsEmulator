@@ -91,7 +91,7 @@ static void place_food(void) {
   } while (grid_get(pos) != 0);
 
   grid_set(pos, 2);
-  write_pixel(pos & 63, pos >> 6, 255, 0, 0);
+  write_pixel(pos & 63, pos >> 6,255, 255, 0, 0);
 }
 
 int main() {
@@ -125,9 +125,9 @@ int main() {
   grid_set(snake[1], 1);
   grid_set(snake[2], 1);
 
-  write_pixel(30, 32, 0, 130, 0);
-  write_pixel(31, 32, 0, 130, 0);
-  write_pixel(32, 32, 0, 200, 0);
+  write_pixel(30, 32,255, 0, 130, 0);
+  write_pixel(31, 32,255, 0, 130, 0);
+  write_pixel(32, 32,255, 0, 200, 0);
 
   
 
@@ -185,7 +185,7 @@ int main() {
       uint16_t tail_idx = (head_idx + MAX_SNAKE - snake_len + 1) % MAX_SNAKE;
       uint16_t tail_pos = snake[tail_idx];
       grid_set(tail_pos, 0);
-      write_pixel(tail_pos & 63, tail_pos >> 6, 0, 0, 0);
+      write_pixel(tail_pos & 63, tail_pos >> 6,255, 0, 0, 0);
     } else {
       snake_len++;
       score++;
@@ -193,13 +193,13 @@ int main() {
     }
 
     // Old head becomes body color (1 pixel)
-    write_pixel(snake[head_idx] & 63, snake[head_idx] >> 6, 0, 130, 0);
+    write_pixel(snake[head_idx] & 63, snake[head_idx] >> 6,255, 0, 130, 0);
 
     // New head
     head_idx = (head_idx + 1) % MAX_SNAKE;
     snake[head_idx] = new_pos;
     grid_set(new_pos, 1);
-    write_pixel(hx, hy, 0, 200, 0);
+    write_pixel(hx, hy,255, 0, 200, 0);
 
     if (ate)
       place_food();
