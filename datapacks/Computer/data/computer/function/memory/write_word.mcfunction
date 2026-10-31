@@ -13,8 +13,13 @@ function computer:memory/__internal/compute_addr
 # _mem_word = saved value (overwrite the old word read by compute_addr)
 data modify storage computer:cpu _mem_word set from storage computer:cpu _mem_val
 
-# Check if address is in screen MMIO range (268369920 - 268386300)
+# Check MMIO ranges
 execute store result score _addr alu run data get storage computer:cpu _mem_word_addr
+
+# 7-segment display (0x0FFE0000-0x0FFE001C = 268304384-268304412)
+execute if score _addr alu matches 268304384..268304412 run return run function computer:7seg/write_7seg
+
+# Check if address is in screen MMIO range (268369920 - 268386300)
 execute if score _addr alu matches 268369920..268386300 run return run function computer:screen/__internal/write_pixel with storage computer:cpu
 
 # Write word back to RAM
