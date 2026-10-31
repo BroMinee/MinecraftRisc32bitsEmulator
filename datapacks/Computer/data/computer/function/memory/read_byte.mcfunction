@@ -2,6 +2,7 @@
 # Input:  computer:cpu _mem_addr
 # Output: computer:alu result (unsigned 8-bit, 0-255)
 
+scoreboard players add read stats 1
 # Compute word-aligned address, byte offset, shift, read word
 function computer:memory/__internal/compute_addr
 

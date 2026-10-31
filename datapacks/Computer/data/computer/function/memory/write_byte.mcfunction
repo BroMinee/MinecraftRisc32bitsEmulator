@@ -3,6 +3,7 @@
 # Output: None
 # Update: RAM at _mem_addr
 
+scoreboard players add write stats 1
 # Save value before compute_addr clobbers alu
 data modify storage computer:cpu _mem_val set from storage computer:alu a
 
