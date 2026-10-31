@@ -95,7 +95,7 @@ To execute 25 cycles at a time, use:
 
 # Screen Specifications
 
-The display is a **64 x 64 pixel screen** supporting 16,777,216 colors (24-bit color depth).
+The display is a **64 x 64 pixel screen** supporting 16,777,216 colors (32-bit ARGB format).
 
 ## Display Properties
 
@@ -103,8 +103,8 @@ The display is a **64 x 64 pixel screen** supporting 16,777,216 colors (24-bit c
 | -------------------------- | ------------------------- |
 | Resolution                 | 64 x 64 pixels            |
 | Total pixels               | 4,096                     |
-| Color depth                | 24 bits per pixel (RGB)   |
-| Number of colors           | 16,777,216                |
+| Color depth                | 32 bits per pixel (ARGB)  |
+| Number of colors           | 16,777,216 + alpha        |
 | Storage size per pixel     | 32 bits (4 bytes)         |
 | Total reserved memory      | `0xC000` bytes            |
 | Start address              | `0x0FFF_0000`             |
@@ -112,11 +112,22 @@ The display is a **64 x 64 pixel screen** supporting 16,777,216 colors (24-bit c
 
 ## Memory Layout
 
-Each pixel occupies **4 bytes** in memory. Although only 24 bits are required to represent the RGB color, 32 bits are reserved for each pixel, to preserve memory alignement.
+Each pixel occupies **4 bytes** in memory in **ARGB format** (signed 32-bit integer). The alpha channel must be set to `0xFF` for opaque pixels.
 
-The last byte of the first row is located at `0x0FFF_00FF`, since each row occupies `64 x 4 = 256` bytes.
+| Color   | ARGB hex     | Signed int32  |
+| ------- | ------------ | ------------- |
+| Red     | `0xFFFF0000` | `-65536`      |
+| Green   | `0xFF00FF00` | `-16711936`   |
+| Blue    | `0xFF0000FF` | `-16776961`   |
+| Black   | `0xFF000000` | `-16777216`   |
+| White   | `0xFFFFFFFF` | `-1`          |
 
-> **Performance recommendation:** Using Lunar Client or a similar Minecraft launcher is highly recommended for FPS optimization, as the screen uses 4,096 entities.
+Example in C:
+```c
+write_pixel(x, y, 255, r, g, b);
+```
+
+The last byte of the first row is located at `0x0FFF_00FF`, since each row occupies `64 x 4 = 256` bytes. Pixels are stored in row-major order: `address = base + (y * 64 + x) * 4`.
 
 # Peripherals (Memory-Mapped I/O)
 
@@ -134,7 +145,7 @@ All peripherals are accessed through memory-mapped I/O (MMIO). Reading from or w
 | `0x0FFE_0504 - 0x0FFE_05FF` | Stdout Buffer      | Write  | Null-terminated string to display (max 251 chars + null)|
 | `0x0FFE_0600`               | Stdin Control      | Write  | Write `1` to request input (blocks CPU until received) |
 | `0x0FFE_0604 - 0x0FFE_06FF` | Stdin Buffer       | Read   | Null-terminated string from user (max 251 chars + null) |
-| `0x0FFF_0000 - 0x0FFF_BFFF` | Screen             | Write  | 64×64 pixel display, 32 bits per pixel (RGB)     |
+| `0x0FFF_0000 - 0x0FFF_BFFF` | Screen             | Write  | 64×64 pixel display, 32 bits per pixel (ARGB)    |
 
 ## 7-Segment Displays
 

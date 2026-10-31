@@ -32,18 +32,18 @@ void close_display(void) {
 #endif
 }
 
-void write_pixel(uint16_t x, uint16_t y, uint16_t r, uint16_t g, uint16_t b) {
+void write_pixel(uint16_t x, uint16_t y, uint8_t a, uint16_t r, uint16_t g, uint16_t b) {
     if (x >= SCREEN_WIDTH || y >= SCREEN_HEIGHT) {
         return;
     }
 #ifdef LOCAL
-    SDL_SetRenderDrawColor(renderer, r, g, b, 255);
+    SDL_SetRenderDrawColor(renderer, r, g, b, a);
     SDL_Rect pixel = { x * 10, y * 10, 10, 10 };
     SDL_RenderFillRect(renderer, &pixel);
 #else
-    uint32_t color = (r << 16) + (g << 8) + b;
+    uint32_t color = (a << 24) | (r << 16) | (g << 8) | b;
     uint32_t *screen = (uint32_t *)SCREEN_START_ADDRESS;
-    uint32_t pixel_offset = x + y * SCREEN_HEIGHT;
+    uint32_t pixel_offset = x + y * SCREEN_WIDTH;
     screen[pixel_offset] = color;
 #endif
 }
@@ -157,7 +157,7 @@ void draw_char(int x, int y, char c, uint8_t r, uint8_t g, uint8_t b) {
         uint8_t line = font_5x7[(int)c][row];
         for (int col = 0; col < 6; col++) {
             if (line & (1 << (5 - col))) {
-                write_pixel(x + col, y + row, r, g, b);
+                write_pixel(x + col, y + row, 255, r, g, b);
             }
         }
     }
