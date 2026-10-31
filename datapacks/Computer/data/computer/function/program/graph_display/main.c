@@ -300,9 +300,9 @@ int main() {
 
   // Draw axes
   for (int i = 0; i < H; i++)
-    write_pixel(W / 2, i, 40, 40, 40);
+    write_pixel(W / 2, i,255, 40, 40, 40);
   for (int i = 0; i < W; i++)
-    write_pixel(i, H / 2, 40, 40, 40);
+    write_pixel(i, H / 2,255, 40, 40, 40);
 
   my_printf("f(x)= eg: sin(x)+cos(x)");
   char stdin_buf[252];
@@ -337,9 +337,9 @@ int main() {
       int from = prev_py, to = py;
       if (from > to) { int tmp = from; from = to; to = tmp; }
       for (int y = from; y <= to; y++)
-        write_pixel(i, y, 0, 255, 0);
+        write_pixel(i, y,255, 0, 255, 0);
     } else {
-      write_pixel(i, py, 0, 255, 0);
+      write_pixel(i, py,255, 0, 255, 0);
     }
     prev_py = py;
   }
