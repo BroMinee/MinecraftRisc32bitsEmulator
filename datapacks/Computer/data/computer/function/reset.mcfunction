@@ -26,11 +26,11 @@ scoreboard players set done stats 0
 scoreboard players set screen_write stats 0
 scoreboard players set debug stats 0
 
-# Reset stdin control (0x0FFE_0600 = 268370432) to 0 = no stdin pending
-data modify storage computer:ram_268370432 value set value 0
+# Reset stdin control (0x0FFE_0600 = 268305920) to 0 = no stdin pending
+data modify storage computer:ram_268305920 value set value 0
 
-# Reset stdout control (0x0FFE_0500 = 268370176) to 0 = no stdout pending
-data modify storage computer:ram_268370176 value set value 0
+# Reset stdout control (0x0FFE_0500 = 268305664) to 0 = no stdout pending
+data modify storage computer:ram_268305664 value set value 0
 
 data modify storage computer:alu stack set value []
 data modify storage computer:alu _temp set value 0
@@ -105,3 +105,4 @@ data modify storage computer:cpu f30 set value 0.0f
 data modify storage computer:cpu f31 set value 0.0f
 
 function computer:screen/init_screen
+function computer:cycle/stdout/init_ascii

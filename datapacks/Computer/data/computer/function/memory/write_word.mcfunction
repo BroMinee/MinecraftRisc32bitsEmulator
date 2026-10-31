@@ -19,3 +19,6 @@ execute if score _addr alu matches 268369920..268386300 run return run function 
 
 # Write word back to RAM
 function computer:memory/__internal/write_word with storage computer:cpu
+
+# Check MMIO stdout control (0x0FFE0500 = 268305664): flush if written 1
+execute if score _addr alu matches 268305664 run function computer:cycle/stdout/flush

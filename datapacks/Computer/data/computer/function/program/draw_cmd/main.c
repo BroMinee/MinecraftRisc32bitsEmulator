@@ -200,7 +200,7 @@ static void draw_textured_face(uint8_t vi0, uint8_t vi1, uint8_t vi2, uint8_t vi
                     if (r > 255) r = 255;
                     if (g > 255) g = 255;
                     if (b > 255) b = 255;
-                    write_pixel(spx, spy, r, g, b);
+                    write_pixel(spx, spy,255, r, g, b);
                     continue;
                 }
             }
@@ -221,7 +221,7 @@ static void draw_textured_face(uint8_t vi0, uint8_t vi1, uint8_t vi2, uint8_t vi
                     if (r > 255) r = 255;
                     if (g > 255) g = 255;
                     if (b > 255) b = 255;
-                    write_pixel(spx, spy, r, g, b);
+                    write_pixel(spx, spy,255, r, g, b);
                 }
             }
         }
@@ -237,7 +237,7 @@ static void draw_line(int32_t x0, int32_t y0, int32_t x1, int32_t y1,
     int32_t err = dx - dy;
     while (1) {
         if (x0 >= 0 && x0 < SCREEN_WIDTH && y0 >= 0 && y0 < SCREEN_HEIGHT)
-            write_pixel(x0, y0, r, g, b);
+            write_pixel(x0, y0,255, r, g, b);
         if (x0 == x1 && y0 == y1) break;
         int32_t e2 = err * 2;
         if (e2 > -dy) { err -= dy; x0 += stepx; }
