@@ -1,3 +1,4 @@
+#!jvmtimer start alu_float_float_add
 # Inputs: computer:alu a, computer:alu b
 # Outputs: computer:alu result
 # public static float floatAdd(float a, float b) { return a + b; }
@@ -13,3 +14,4 @@ execute if score _r alu matches 0 run execute store success score _ok alu run co
 execute if score _r alu matches 0 if score _ok alu matches 0 run return run function computer:debug/print_error {"message": {"text": "float_add: overflow (inf/NaN)", "color":"gold"}}
 
 function computer:alu/stack/pop
+#!jvmtimer end alu_float_float_add

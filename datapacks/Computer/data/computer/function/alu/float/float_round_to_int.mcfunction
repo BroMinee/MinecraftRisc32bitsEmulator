@@ -1,3 +1,4 @@
+#!jvmtimer start alu_float_float_round_to_int
 # Inputs: computer:alu a (float)
 # Outputs: computer:alu result (int)
 # public static int floatRoundToInt(float a) { // banker's rounding
@@ -63,3 +64,4 @@ data modify storage computer:alu result set from storage computer:alu stack[-1].
 
 # pop frame
 function computer:alu/stack/pop
+#!jvmtimer end alu_float_float_round_to_int

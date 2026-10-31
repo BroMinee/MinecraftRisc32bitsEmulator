@@ -1,3 +1,4 @@
+#!jvmtimer start alu_float_float_round
 # Inputs: computer:alu a
 # Outputs: computer:alu result (int)
 # public static int floatRound(float a) { return Math.round(a); }
@@ -14,3 +15,4 @@ execute if score _r alu matches 0 if score _ok alu matches 0 run return run func
 data modify storage computer:alu result set compute default integer {"type":"minecraft:storage","storage":"computer:alu","path":"_temp"}
 
 function computer:alu/stack/pop
+#!jvmtimer end alu_float_float_round

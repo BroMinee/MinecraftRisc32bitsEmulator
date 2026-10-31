@@ -65,6 +65,14 @@ ALL_INSTRUCTIONS = [
     "alu_int_shl", "alu_int_shr_s", "alu_int_shr_u",
     "alu_int_sign_extend_8", "alu_int_sign_extend_16",
     "alu_int_sub", "alu_int_xor", "alu_int_xor_sign_bit",
+    # ALU float functions
+    "alu_float_float_abs", "alu_float_float_add", "alu_float_float_ceil",
+    "alu_float_float_div", "alu_float_float_floor", "alu_float_float_mul",
+    "alu_float_float_neg", "alu_float_float_round", "alu_float_float_round_to_int",
+    "alu_float_float_sub", "alu_float_float_to_int_trunc",
+    "alu_float_float_to_raw_int_bits", "alu_float_float_to_unsigned_int",
+    "alu_float_int_bits_to_float", "alu_float_int_to_float",
+    "alu_float_unsigned_int_to_float",
 ]
 
 
