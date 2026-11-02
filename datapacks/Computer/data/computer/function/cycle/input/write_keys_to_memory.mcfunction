@@ -11,5 +11,13 @@ execute as @p if predicate computer:input/right run scoreboard players add _keys
 execute as @p if predicate computer:input/jump run scoreboard players add _keys alu 16
 execute as @p if predicate computer:input/sneak run scoreboard players add _keys alu 32
 execute as @p if predicate computer:input/sprint run scoreboard players add _keys alu 64
-
 execute store result storage computer:ram_268304640 value int 1 run scoreboard players get _keys alu
+
+
+# Mouse clicks: written to 0x0FFE0104 = 268304644
+# Values: 0=nothing, 1=left_click, 2=right_click (left click has priority)
+# Only write if register is 0 (consumer cleared it); don't reset flag until consumed
+execute if data storage computer:ram_268304644 {value:0} if score _left_click alu matches 1 run data modify storage computer:ram_268304644 value set value 1
+execute if data storage computer:ram_268304644 {value:0} if score _right_click alu matches 1 run data modify storage computer:ram_268304644 value set value 2
+execute unless data storage computer:ram_268304644 {value:0} run scoreboard players set _left_click alu 0
+execute unless data storage computer:ram_268304644 {value:0} run scoreboard players set _right_click alu 0

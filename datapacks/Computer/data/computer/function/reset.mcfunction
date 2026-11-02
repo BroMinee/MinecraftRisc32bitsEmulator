@@ -106,3 +106,6 @@ data modify storage computer:cpu f31 set value 0.0f
 
 function computer:screen/init_screen
 function computer:cycle/stdout/init_ascii
+
+clear @a stick[consumable={consume_seconds:1000000000},enchantments={"computer:left_click":1},piercing_weapon={},enchantment_glint_override=false,item_name={text:"Mouse"},lore=[{text:"Point screen and left/right click",color:"blue",italic:false}]]
+give @a minecraft:stick[consumable={consume_seconds:1000000000},enchantments={"computer:left_click":1},piercing_weapon={},enchantment_glint_override=false,item_name={text:"Mouse"},lore=[{text:"Point screen and left/right click",color:"blue",italic:false}]]

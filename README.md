@@ -139,6 +139,7 @@ All peripherals are accessed through memory-mapped I/O (MMIO). Reading from or w
 | --------------------------- | ------------------ | ------ | ------------------------------------------------ |
 | `0x0FFE_0000 - 0x0FFE_001C` | 7-Segment Displays | Write  | 8 displays, 4 bytes each                         |
 | `0x0FFE_0100`               | Player Input       | Read   | Movement keys as a bitmask (see below)           |
+| `0x0FFE_0104`               | Mouse Clicks       | R/W    | Click bitmask; consumer **must** write `0` to clear  |
 | `0x0FFE_0200 - 0x0FFE_0203` | Random             | Read   | Random value, changes every cycle                |
 | `0x0FFE_0300`               | Clock              | Read   | Cycle count since startup                        |
 | `0x0FFE_0500`               | Stdout Control     | Write  | Write `1` to send buffer to chat                 |
@@ -166,16 +167,15 @@ Eight 7-segment displays are mapped starting at `0x0FFE_0000`, each occupying 4 
 
 The player input register at `0x0FFE_0100` is a bitmask updated every cycle, reflecting the keys currently held by the nearest player:
 
-| Bit | Mask   | Key     |
-| --- | ------ | ------- |
-| 0   | `0x01` | Forward |
-| 1   | `0x02` | Backward|
-| 2   | `0x04` | Left    |
-| 3   | `0x08` | Right   |
-| 4   | `0x10` | Jump    |
-| 5   | `0x20` | Sneak   |
-| 6   | `0x40` | Sprint  |
-
+| Bit | Mask    | Key         |
+| --- | ------- | ----------- |
+| 0   | `0x01`  | Forward     |
+| 1   | `0x02`  | Backward    |
+| 2   | `0x04`  | Left        |
+| 3   | `0x08`  | Right       |
+| 4   | `0x10`  | Jump        |
+| 5   | `0x20`  | Sneak       |
+| 6   | `0x40`  | Sprint      |
 Example in C:
 
 ```c
@@ -183,6 +183,28 @@ volatile uint32_t *input = (volatile uint32_t *)0x0FFE0100;
 uint32_t keys = *input;
 if (keys & 0x01) { /* forward */ }
 if (keys & 0x10) { /* jump */ }
+```
+
+## Mouse Clicks
+
+The mouse click register at `0x0FFE_0104` is a bitmask with the following layout:
+
+| Bit | Mask   | Button      |
+| --- | ------ | ----------- |
+| 0   | `0x01` | Left Click  |
+| 1   | `0x02` | Right Click |
+
+**Important**: The CPU only sets bits when the register is `0`. The consumer (your program) must write `0` to `0x0FFE_0104` after reading to signal it is ready for the next click event.
+
+Example in C:
+
+```c
+#define MOUSE_CLICKS (*(volatile uint32_t *)0x0FFE0104)
+
+uint32_t clicks = MOUSE_CLICKS;
+if (clicks & 0x01) { /* left click */ }
+if (clicks & 0x02) { /* right click */ }
+MOUSE_CLICKS = 0; // clear to accept next click
 ```
 
 ## Stdout / Stdin
