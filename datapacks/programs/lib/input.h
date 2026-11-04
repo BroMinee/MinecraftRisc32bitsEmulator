@@ -5,6 +5,8 @@
 
 #define INPUT_KEYS_ADDRESS  0x0FFE0100
 #define INPUT_MOUSE_ADDRESS 0x0FFE0104
+#define INPUT_CURSOR_X_ADDRESS 0x0FFE0108
+#define INPUT_CURSOR_Y_ADDRESS 0x0FFE010C
 
 #define KEY_FORWARD  0x01
 #define KEY_BACKWARD 0x02
@@ -19,5 +21,7 @@
 
 uint32_t get_keys(void);
 uint32_t get_mouse(void);
+int32_t get_cursor_x(void);
+int32_t get_cursor_y(void);
 
 #endif

@@ -140,6 +140,8 @@ All peripherals are accessed through memory-mapped I/O (MMIO). Reading from or w
 | `0x0FFE_0000 - 0x0FFE_001C` | 7-Segment Displays | Write  | 8 displays, 4 bytes each                         |
 | `0x0FFE_0100`               | Player Input       | Read   | Movement keys as a bitmask (see below)           |
 | `0x0FFE_0104`               | Mouse Clicks       | R/W    | Click bitmask; consumer **must** write `0` to clear  |
+| `0x0FFE_0108`               | Cursor X           | Read   | X coordinate of pixel aimed at (0-63), or `-1` if off screen |
+| `0x0FFE_010C`               | Cursor Y           | Read   | Y coordinate of pixel aimed at (0-63), or `-1` if off screen |
 | `0x0FFE_0200 - 0x0FFE_0203` | Random             | Read   | Random value, changes every cycle                |
 | `0x0FFE_0300`               | Clock              | Read   | Cycle count since startup                        |
 | `0x0FFE_0500`               | Stdout Control     | Write  | Write `1` to send buffer to chat                 |

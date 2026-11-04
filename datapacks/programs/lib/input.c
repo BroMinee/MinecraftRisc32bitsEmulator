@@ -36,6 +36,20 @@ uint32_t get_mouse(void) {
     return m;
 }
 
+int32_t get_cursor_x(void) {
+    int mx, my;
+    SDL_GetMouseState(&mx, &my);
+    int x = mx / 10;
+    return (x >= 0 && x < 64) ? x : -1;
+}
+
+int32_t get_cursor_y(void) {
+    int mx, my;
+    SDL_GetMouseState(&mx, &my);
+    int y = my / 10;
+    return (y >= 0 && y < 64) ? y : -1;
+}
+
 #else
 
 uint32_t get_keys(void) {
@@ -47,6 +61,14 @@ uint32_t get_mouse(void) {
     uint32_t val = *mouse;
     if (val) *mouse = 0;
     return val;
+}
+
+int32_t get_cursor_x(void) {
+    return *(volatile int32_t *)INPUT_CURSOR_X_ADDRESS;
+}
+
+int32_t get_cursor_y(void) {
+    return *(volatile int32_t *)INPUT_CURSOR_Y_ADDRESS;
 }
 
 #endif

@@ -50,7 +50,8 @@ with open("../Computer/data/computer/function/screen/init_screen.mcfunction", 'w
                 f'{{UUID:[I;{a},{b},{c},{d}],'
                 f'transformation:{{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],'
                 f'translation:[0f,0f,0f],scale:[{pw}f,{ph}f,{ph}f]}},'
-                f'text:{{"text":"x", "bold": true}}, text_opacity:4, background:-16777216}}\n'
+                f'text:{{"text":"x", "bold": true}}, text_opacity:4, background:-16777216,'
+                f'data:{{px:{x},py:{y}}}}}\n'
             )
 
 print("Done")
