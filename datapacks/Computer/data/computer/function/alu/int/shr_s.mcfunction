@@ -1,4 +1,4 @@
-#!jvmtimer start alu_int_shr_s
+#!jvmtimer profile file
 # Inputs: computer:alu a, computer:alu shift
 # Outputs: computer:alu result
 # public static int shrS(int a, int shift) {
@@ -58,4 +58,3 @@ function computer:alu/int/not
 
 # pop frame
 function computer:alu/stack/pop
-#!jvmtimer end alu_int_shr_s

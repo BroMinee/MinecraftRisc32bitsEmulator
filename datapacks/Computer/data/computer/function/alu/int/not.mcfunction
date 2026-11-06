@@ -1,4 +1,4 @@
-#!jvmtimer start alu_int_not
+#!jvmtimer profile file
 # Inputs: computer:alu a
 # Outputs: computer:alu result
 # public static int not(int a) { return hwSub(-1, a); }
@@ -14,4 +14,3 @@ function computer:alu/int/hw_sub
 
 # pop frame
 function computer:alu/stack/pop
-#!jvmtimer end alu_int_not

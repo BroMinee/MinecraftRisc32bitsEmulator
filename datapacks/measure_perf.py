@@ -2,12 +2,12 @@
 """Measure performance of all RISC-V instructions via jvmtimer.
 
 Connects to Minecraft websocket, runs /jvmtimer get <name> for each
-instruction (+ _dispatcher), parses the results, and outputs a markdown
+instruction, parses the results, and outputs a markdown
 report with two tables: alphabetical and sorted by average time descending.
 
 Usage:
     python3 measure_perf.py
-    python3 measure_perf.py add sub mul   # measure only specific instructions
+    python3 measure_perf.py computer:instruction/add computer:instruction/sub   # measure only specific instructions
 """
 
 import asyncio
@@ -28,51 +28,76 @@ NAN_RESULT = {
 }
 
 ALL_INSTRUCTIONS = [
-    "do_cycle", "_fetch", "_opcode_decode",
+    # Cycle / dispatch
+    "computer:cycle/do_cycle", "computer:cycle/fetch", "_opcode_decode",
     "_dispatcher", "_disp_opcode_switch",
     "_disp_decode_op_imm", "_disp_decode_branch", "_disp_decode_op",
     "_disp_decode_op_fp", "_disp_decode_store", "_disp_decode_load",
     "_disp_decode_fmadd", "_disp_decode_fmsub", "_disp_decode_fnmadd", "_disp_decode_fnmsub",
     "_disp_funct3_switch", "_disp_funct7_switch",
-    "_mem_compute_addr", "_mem_read_word", "_mem_write_word",
-    "add", "addi", "and", "andi", "auipc",
-    "beq", "bge", "bgeu", "blt", "bltu", "bne",
-    "div", "divu",
-    "fadd.s", "fclass.s", "fcvt.s.w", "fcvt.s.wu", "fcvt.w.s", "fcvt.wu.s",
-    "fdiv.s", "feq.s", "fle.s", "flt.s", "flw",
-    "fmadd", "fmax.s", "fmin.s", "fmsub", "fmul.s",
-    "fmv.w.x", "fmv.x.w", "fnmadd", "fnmsub",
-    "fsgnjn.s", "fsgnj.s", "fsgnjx.s", "fsub.s", "fsw",
-    "jal", "jalr",
-    "lb", "lbu", "lh", "lhu", "lui", "lw",
-    "mul", "mulh", "mulhsu", "mulhu",
-    "or", "ori",
-    "rem", "remu",
-    "sb", "sh", "sll", "slli", "slt", "slti", "sltiu", "sltu",
-    "sra", "srai", "srl", "srli", "sub", "sw",
-    "system", "xor", "xori",
+    # Memory (profile file timers)
+    "computer:memory/__internal/compute_addr", "computer:memory/__internal/read_word",
+    "computer:memory/__internal/write_word",
+    # CPU helpers (profile file timers)
+    "computer:cpu/increase_pc",
+    # Instructions
+    "computer:instruction/add", "computer:instruction/addi",
+    "computer:instruction/and", "computer:instruction/andi", "computer:instruction/auipc",
+    "computer:instruction/beq", "computer:instruction/bge", "computer:instruction/bgeu",
+    "computer:instruction/blt", "computer:instruction/bltu", "computer:instruction/bne",
+    "computer:instruction/div", "computer:instruction/divu",
+    "computer:instruction/fadd.s", "computer:instruction/fclass.s",
+    "computer:instruction/fcvt.s.w", "computer:instruction/fcvt.s.wu",
+    "computer:instruction/fcvt.w.s", "computer:instruction/fcvt.wu.s",
+    "computer:instruction/fdiv.s", "computer:instruction/feq.s",
+    "computer:instruction/fle.s", "computer:instruction/flt.s", "computer:instruction/flw",
+    "computer:instruction/fmadd", "computer:instruction/fmax.s",
+    "computer:instruction/fmin.s", "computer:instruction/fmsub", "computer:instruction/fmul.s",
+    "computer:instruction/fmv.w.x", "computer:instruction/fmv.x.w",
+    "computer:instruction/fnmadd", "computer:instruction/fnmsub",
+    "computer:instruction/fsgnjn.s", "computer:instruction/fsgnj.s",
+    "computer:instruction/fsgnjx.s", "computer:instruction/fsub.s", "computer:instruction/fsw",
+    "computer:instruction/jal", "computer:instruction/jalr",
+    "computer:instruction/lb", "computer:instruction/lbu",
+    "computer:instruction/lh", "computer:instruction/lhu",
+    "computer:instruction/lui", "computer:instruction/lw",
+    "computer:instruction/mul", "computer:instruction/mulh",
+    "computer:instruction/mulhsu", "computer:instruction/mulhu",
+    "computer:instruction/or", "computer:instruction/ori",
+    "computer:instruction/rem", "computer:instruction/remu",
+    "computer:instruction/sb", "computer:instruction/sh",
+    "computer:instruction/sll", "computer:instruction/slli",
+    "computer:instruction/slt", "computer:instruction/slti",
+    "computer:instruction/sltiu", "computer:instruction/sltu",
+    "computer:instruction/sra", "computer:instruction/srai",
+    "computer:instruction/srl", "computer:instruction/srli",
+    "computer:instruction/sub", "computer:instruction/sw",
+    "computer:instruction/system", "computer:instruction/xor", "computer:instruction/xori",
     # ALU int functions
-    "alu_int_add", "alu_int_and", "alu_int_clear_bit0", "alu_int_compare_unsigned",
-    "alu_int_copy_negated_sign_bit", "alu_int_copy_sign_bit",
-    "alu_int_div", "alu_int_div_rem_unsigned", "alu_int_divu",
-    "alu_int_flip_sign_bit",
-    "alu_int_hw_add", "alu_int_hw_div", "alu_int_hw_mul", "alu_int_hw_sub",
-    "alu_int_low31", "alu_int_mask_low_bits", "alu_int_mod_pow2",
-    "alu_int_mul", "alu_int_mul_unsigned_64",
-    "alu_int_mulh", "alu_int_mulhsu", "alu_int_mulhu",
-    "alu_int_negate", "alu_int_not", "alu_int_or", "alu_int_pow2",
-    "alu_int_rem", "alu_int_remu",
-    "alu_int_shl", "alu_int_shr_s", "alu_int_shr_u",
-    "alu_int_sign_extend_8", "alu_int_sign_extend_16",
-    "alu_int_sub", "alu_int_xor", "alu_int_xor_sign_bit",
+    "computer:alu/int/add", "computer:alu/int/and", "computer:alu/int/clear_bit0",
+    "computer:alu/int/compare_unsigned", "computer:alu/int/copy_negated_sign_bit",
+    "computer:alu/int/copy_sign_bit", "computer:alu/int/div",
+    "computer:alu/int/div_rem_unsigned", "computer:alu/int/divu",
+    "computer:alu/int/flip_sign_bit",
+    "computer:alu/int/hw_add", "computer:alu/int/hw_div",
+    "computer:alu/int/hw_mul", "computer:alu/int/hw_sub",
+    "computer:alu/int/low31", "computer:alu/int/mask_low_bits", "computer:alu/int/mod_pow2",
+    "computer:alu/int/mul", "computer:alu/int/mul_unsigned_64",
+    "computer:alu/int/mulh", "computer:alu/int/mulhsu", "computer:alu/int/mulhu",
+    "computer:alu/int/negate", "computer:alu/int/not", "computer:alu/int/or",
+    "computer:alu/int/pow2", "computer:alu/int/rem", "computer:alu/int/remu",
+    "computer:alu/int/shl", "computer:alu/int/shr_s", "computer:alu/int/shr_u",
+    "computer:alu/int/sign_extend_8", "computer:alu/int/sign_extend_16",
+    "computer:alu/int/sub", "computer:alu/int/xor", "computer:alu/int/xor_sign_bit",
     # ALU float functions
-    "alu_float_float_abs", "alu_float_float_add", "alu_float_float_ceil",
-    "alu_float_float_div", "alu_float_float_floor", "alu_float_float_mul",
-    "alu_float_float_neg", "alu_float_float_round", "alu_float_float_round_to_int",
-    "alu_float_float_sub", "alu_float_float_to_int_trunc",
-    "alu_float_float_to_raw_int_bits", "alu_float_float_to_unsigned_int",
-    "alu_float_int_bits_to_float", "alu_float_int_to_float",
-    "alu_float_unsigned_int_to_float",
+    "computer:alu/float/float_abs", "computer:alu/float/float_add",
+    "computer:alu/float/float_ceil", "computer:alu/float/float_div",
+    "computer:alu/float/float_floor", "computer:alu/float/float_mul",
+    "computer:alu/float/float_neg", "computer:alu/float/float_round",
+    "computer:alu/float/float_round_to_int", "computer:alu/float/float_sub",
+    "computer:alu/float/float_to_int_trunc", "computer:alu/float/float_to_raw_int_bits",
+    "computer:alu/float/float_to_unsigned_int", "computer:alu/float/int_bits_to_float",
+    "computer:alu/float/int_to_float", "computer:alu/float/unsigned_int_to_float",
 ]
 
 
@@ -119,9 +144,9 @@ def parse_timer_message(lines):
     m_total = re.search(r'Total time:\s*\n?\s*([^\n]+)', text)
     m_count = re.search(r'Count:\s*\n?\s*(\d+)', text)
     m_avg = re.search(r'Average time:\s*\n?\s*([^\n]+)', text)
-    m_maxmin = re.search(r'Max/Min time:\s*\n?\s*([^\n/]+)/([^\n]+)', text)
+    m_minmax = re.search(r'Min/Max time:\s*\n?\s*([^\n/]+)/([^\n]+)', text)
 
-    if not all([m_total, m_count, m_avg, m_maxmin]):
+    if not all([m_total, m_count, m_avg, m_minmax]):
         return None
 
     return {
@@ -130,10 +155,10 @@ def parse_timer_message(lines):
         "count": int(m_count.group(1)),
         "avg": m_avg.group(1).strip(),
         "avg_us": parse_time_to_us(m_avg.group(1).strip()),
-        "max": m_maxmin.group(1).strip(),
-        "max_us": parse_time_to_us(m_maxmin.group(1).strip()),
-        "min": m_maxmin.group(2).strip(),
-        "min_us": parse_time_to_us(m_maxmin.group(2).strip()),
+        "min": m_minmax.group(1).strip(),
+        "min_us": parse_time_to_us(m_minmax.group(1).strip()),
+        "max": m_minmax.group(2).strip(),
+        "max_us": parse_time_to_us(m_minmax.group(2).strip()),
     }
 
 

@@ -1,5 +1,5 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer start bgeu
+#!jvmtimer profile file
 # Input:  computer:cpu rs1_val, computer:cpu rs2_val
 # Output: computer:alu result (1 if taken, 0 if not)
 # static boolean bgeu(int rs1, int rs2) { return SafeAdderInt.compareUnsigned(rs1, rs2) >= 0; }
@@ -13,4 +13,3 @@ execute store result score _cmp alu run data get storage computer:alu result
 data modify storage computer:alu result set value 1
 execute if score _cmp alu matches ..-1 run data modify storage computer:alu result set value 0
 
-#!jvmtimer end bgeu

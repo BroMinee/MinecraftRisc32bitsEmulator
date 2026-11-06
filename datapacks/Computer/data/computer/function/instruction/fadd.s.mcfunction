@@ -1,5 +1,5 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer start fadd.s
+#!jvmtimer profile file
 # Input:  computer:cpu rs1_val, computer:cpu rs2_val (float)
 # Output: computer:alu result (float)
 # static float fadd_s(float a, float b) { return floatAdd(a, b); }
@@ -10,4 +10,3 @@ data modify storage computer:alu a set from storage computer:cpu rs1_val
 data modify storage computer:alu b set from storage computer:cpu rs2_val
 function computer:alu/float/float_add
 
-#!jvmtimer end fadd.s

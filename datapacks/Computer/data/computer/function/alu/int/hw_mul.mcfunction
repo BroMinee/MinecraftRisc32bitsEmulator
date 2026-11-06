@@ -1,4 +1,4 @@
-#!jvmtimer start alu_int_hw_mul
+#!jvmtimer profile file
 # Inputs: computer:alu a, computer:alu b
 # Outputs: computer:alu result
 # public static int hwMul(int a, int b) {
@@ -28,4 +28,3 @@ execute unless score _check alu = _a alu run return run function computer:debug/
 
 # return res;
 function computer:alu/stack/pop
-#!jvmtimer end alu_int_hw_mul

@@ -1,5 +1,5 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer start flw
+#!jvmtimer profile file
 # Input:  computer:cpu _mem_addr
 # Output: computer:alu result (float)
 # f[rd] = Float.intBitsToFloat(mem.readWord(addr))
@@ -13,4 +13,3 @@ function computer:memory/read_word
 data modify storage computer:alu a set from storage computer:alu result
 function computer:alu/float/int_bits_to_float
 
-#!jvmtimer end flw

@@ -1,4 +1,4 @@
-#!jvmtimer start alu_int_mulh
+#!jvmtimer profile file
 # Inputs: computer:alu a, computer:alu b
 # Outputs: computer:alu result
 # public static int mulh(int a, int b) {
@@ -33,4 +33,3 @@ data modify storage computer:alu result set from storage computer:alu stack[-1].
 
 # pop frame
 function computer:alu/stack/pop
-#!jvmtimer end alu_int_mulh

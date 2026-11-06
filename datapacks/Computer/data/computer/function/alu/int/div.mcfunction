@@ -1,4 +1,4 @@
-#!jvmtimer start alu_int_div
+#!jvmtimer profile file
 # Inputs: computer:alu a, computer:alu b
 # Outputs: computer:alu result
 # public static int div(int a, int b) {
@@ -21,4 +21,3 @@ function computer:alu/int/hw_div
 
 # pop frame
 # function computer:alu/stack/pop
-#!jvmtimer end alu_int_div

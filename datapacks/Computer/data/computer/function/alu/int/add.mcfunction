@@ -1,4 +1,4 @@
-#!jvmtimer start alu_int_add
+#!jvmtimer profile file
 # Inputs: computer:alu a, computer:alu b
 # Outputs: computer:alu result
 # public static int add(int a, int b) {
@@ -38,4 +38,3 @@ function computer:alu/int/hw_add
 
 # pop frame
 function computer:alu/stack/pop
-#!jvmtimer end alu_int_add

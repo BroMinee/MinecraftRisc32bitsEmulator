@@ -1,4 +1,4 @@
-#!jvmtimer start alu_int_compare_unsigned
+#!jvmtimer profile file
 # Inputs: computer:alu a, computer:alu b
 # Outputs: computer:alu result
 # public static int compareUnsigned(int a, int b) {
@@ -28,4 +28,3 @@ execute if score _ua alu > _ub alu run data modify storage computer:alu result s
 
 # pop frame
 function computer:alu/stack/pop
-#!jvmtimer end alu_int_compare_unsigned

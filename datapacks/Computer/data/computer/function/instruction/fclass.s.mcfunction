@@ -1,5 +1,5 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer start fclass.s
+#!jvmtimer profile file
 # Input:  computer:cpu rs1_val (float)
 # Output: computer:alu result (fclass bitmask)
 # static int fclass_s(int bits) {
@@ -54,4 +54,3 @@ execute if score _exp alu matches 0 unless score _mant alu matches 0 if score _s
 execute if score _sign alu matches 1 run return run data modify storage computer:alu result set value 2
 data modify storage computer:alu result set value 64
 
-#!jvmtimer end fclass.s

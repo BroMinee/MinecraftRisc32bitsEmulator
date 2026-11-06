@@ -1,5 +1,5 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer start sll
+#!jvmtimer profile file
 # Input:  computer:cpu rs1_val, computer:cpu rs2_val
 # Output: computer:alu result
 # static int sll(int rs1, int rs2) { return SafeAdderInt.shl(rs1, SafeAdderInt.maskLowBits(rs2, 5)); }
@@ -14,4 +14,3 @@ data modify storage computer:alu shift set from storage computer:alu result
 data modify storage computer:alu a set from storage computer:cpu rs1_val
 function computer:alu/int/shl
 
-#!jvmtimer end sll

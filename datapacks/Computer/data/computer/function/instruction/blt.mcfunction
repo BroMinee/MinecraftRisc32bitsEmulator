@@ -1,5 +1,5 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer start blt
+#!jvmtimer profile file
 # Input:  computer:cpu rs1_val, computer:cpu rs2_val
 # Output: computer:alu result (1 if taken, 0 if not)
 # static boolean blt(int rs1, int rs2) { return rs1 < rs2; }
@@ -11,4 +11,3 @@ execute store result score _rs2 alu run data get storage computer:cpu rs2_val
 data modify storage computer:alu result set value 0
 execute if score _rs1 alu < _rs2 alu run data modify storage computer:alu result set value 1
 
-#!jvmtimer end blt

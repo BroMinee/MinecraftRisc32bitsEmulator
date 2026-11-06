@@ -1,4 +1,4 @@
-#!jvmtimer start _mem_compute_addr
+#!jvmtimer profile file
 # Compute memory address components from _mem_addr
 # Input:  computer:cpu _mem_addr
 # Output: computer:cpu _mem_word_addr, _mem_byte_off, _mem_shift, _mem_word
@@ -13,5 +13,4 @@ data modify storage computer:cpu _mem_word_addr set compute default integer comp
 data modify storage computer:cpu _mem_shift set compute default integer computer:memory/shift
 
 # Read the word from RAM
-#!jvmtimer end _mem_compute_addr
 function computer:memory/__internal/read_word with storage computer:cpu

@@ -1,4 +1,4 @@
-#!jvmtimer start alu_float_float_to_raw_int_bits
+#!jvmtimer profile file
 # Inputs: computer:alu a (float)
 # Outputs: computer:alu result (int)
 # public static int floatToRawIntBits(float a) {
@@ -141,4 +141,3 @@ data modify storage computer:alu result set from storage computer:alu stack[-1].
 
 # pop frame
 function computer:alu/stack/pop
-#!jvmtimer end alu_float_float_to_raw_int_bits

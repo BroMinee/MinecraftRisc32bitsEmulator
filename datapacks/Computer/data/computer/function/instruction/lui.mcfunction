@@ -1,5 +1,5 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer start lui
+#!jvmtimer profile file
 # Input:  computer:alu result (immU)
 # Output: computer:alu result
 # static int lui(final int imm) { return imm; }
@@ -8,4 +8,3 @@
 
 function computer:debug/print_log {"message": {"text": "Running lui", "color":"gold"}}
 
-#!jvmtimer end lui

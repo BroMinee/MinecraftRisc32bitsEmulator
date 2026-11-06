@@ -1,4 +1,4 @@
-#!jvmtimer start alu_float_float_to_unsigned_int
+#!jvmtimer profile file
 # Inputs: computer:alu a (float)
 # Outputs: computer:alu result (int, unsigned)
 # public static int floatToUnsignedInt(float a) {
@@ -59,4 +59,3 @@ function computer:alu/int/flip_sign_bit
 
 # pop frame
 function computer:alu/stack/pop
-#!jvmtimer end alu_float_float_to_unsigned_int

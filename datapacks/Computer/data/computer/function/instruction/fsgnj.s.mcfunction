@@ -1,5 +1,5 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer start fsgnj.s
+#!jvmtimer profile file
 # Input:  computer:cpu rs1_val, computer:cpu rs2_val (float)
 # Output: computer:alu result (float)
 # f[rd] = intBitsToFloat(copySignBit(floatToRawIntBits(f[r1]), floatToRawIntBits(f[r2])))
@@ -23,4 +23,3 @@ function computer:alu/int/copy_sign_bit
 data modify storage computer:alu a set from storage computer:alu result
 function computer:alu/float/int_bits_to_float
 
-#!jvmtimer end fsgnj.s

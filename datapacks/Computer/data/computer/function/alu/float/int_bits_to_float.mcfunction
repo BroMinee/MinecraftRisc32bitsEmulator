@@ -1,4 +1,4 @@
-#!jvmtimer start alu_float_int_bits_to_float
+#!jvmtimer profile file
 # Inputs: computer:alu a (int bits)
 # Outputs: computer:alu result (float)
 # public static float intBitsToFloat(int a) {
@@ -97,4 +97,3 @@ function computer:alu/float/int_bits_to_float_apply_sign
 
 # pop frame
 function computer:alu/stack/pop
-#!jvmtimer end alu_float_int_bits_to_float

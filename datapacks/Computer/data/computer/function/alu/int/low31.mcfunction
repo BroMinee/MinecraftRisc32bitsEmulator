@@ -1,4 +1,4 @@
-#!jvmtimer start alu_int_low31
+#!jvmtimer profile file
 # Inputs: computer:alu a
 # Outputs: computer:alu result
 # public static int low31(int a) { return a < 0 ? flipSignBit(a) : a; }
@@ -21,4 +21,3 @@ data modify storage computer:alu result set from storage computer:alu stack[-1].
 
 # pop frame
 function computer:alu/stack/pop
-#!jvmtimer end alu_int_low31

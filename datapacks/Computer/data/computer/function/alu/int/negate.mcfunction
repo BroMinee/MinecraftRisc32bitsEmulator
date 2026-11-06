@@ -1,4 +1,4 @@
-#!jvmtimer start alu_int_negate
+#!jvmtimer profile file
 # Inputs: computer:alu a
 # Outputs: computer:alu result
 # public static int negate(int a) { return add(not(a), 1); }
@@ -17,4 +17,3 @@ function computer:alu/int/add
 
 # pop frame
 function computer:alu/stack/pop
-#!jvmtimer end alu_int_negate

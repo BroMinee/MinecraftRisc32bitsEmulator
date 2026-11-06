@@ -1,5 +1,5 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer start fcvt.w.s
+#!jvmtimer profile file
 # Input:  computer:cpu rs1_val (float)
 # Output: computer:alu result (signed int)
 # static int fcvt_w_s(float a) {
@@ -39,4 +39,3 @@ execute if predicate computer:alu/float_le run return run data modify storage co
 data modify storage computer:alu a set from storage computer:cpu rs1_val
 function computer:alu/float/float_round_to_int
 
-#!jvmtimer end fcvt.w.s

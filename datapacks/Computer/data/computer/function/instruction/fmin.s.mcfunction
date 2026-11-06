@@ -1,5 +1,5 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer start fmin.s
+#!jvmtimer profile file
 # Input:  computer:cpu rs1_val, computer:cpu rs2_val (float)
 # Output: computer:alu result (float)
 # static float fmin_s(float a, float b) { ... return a < b ? a : b; }
@@ -16,4 +16,3 @@ execute if predicate computer:alu/float_le unless predicate computer:alu/float_e
 # a >= b, return b
 data modify storage computer:alu result set from storage computer:cpu rs2_val
 
-#!jvmtimer end fmin.s

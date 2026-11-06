@@ -1,4 +1,4 @@
-#!jvmtimer start alu_int_mul_unsigned_64
+#!jvmtimer profile file
 # Inputs: computer:alu a, computer:alu b
 # Outputs: computer:alu result (lo), computer:alu result_hi (hi)
 # private static void mulUnsigned64(int a, int b, int[] outLoHi)
@@ -245,4 +245,3 @@ data modify storage computer:alu result set from storage computer:alu stack[-1].
 
 # pop frame
 function computer:alu/stack/pop
-#!jvmtimer end alu_int_mul_unsigned_64

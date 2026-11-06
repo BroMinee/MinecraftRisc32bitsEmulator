@@ -1,4 +1,4 @@
-#!jvmtimer start alu_int_remu
+#!jvmtimer profile file
 # Inputs: computer:alu a, computer:alu b
 # Outputs: computer:alu result
 # public static int remu(int a, int b) {
@@ -18,4 +18,3 @@ data modify storage computer:alu result set from storage computer:alu result_hi
 
 # pop frame
 function computer:alu/stack/pop
-#!jvmtimer end alu_int_remu
