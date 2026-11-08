@@ -1,5 +1,4 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer profile file
 # Input:  computer:cpu rs1_val (int bits)
 # Output: computer:alu result (float)
 # f[rd] = Float.intBitsToFloat(x[rs1])

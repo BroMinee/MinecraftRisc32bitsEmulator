@@ -1,4 +1,3 @@
-#!jvmtimer profile file
 # Inputs: computer:alu a, computer:alu b
 # Outputs: computer:alu result (quotient), computer:alu result_hi (remainder)
 # private static void divRemUnsigned(int a, int b, int[] outQR)

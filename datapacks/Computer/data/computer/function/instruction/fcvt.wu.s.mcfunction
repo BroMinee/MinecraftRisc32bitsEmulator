@@ -1,5 +1,4 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer profile file
 # Input:  computer:cpu rs1_val (float)
 # Output: computer:alu result (unsigned int as signed)
 # static int fcvt_wu_s(float a) { return floatToUnsignedInt(a); }

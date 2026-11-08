@@ -1,5 +1,4 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer profile file
 # Input:  computer:cpu rs1_val, computer:cpu shamt
 # Output: computer:alu result
 # static int slli(int rs1, int shamt) { return SafeAdderInt.shl(rs1, shamt); }

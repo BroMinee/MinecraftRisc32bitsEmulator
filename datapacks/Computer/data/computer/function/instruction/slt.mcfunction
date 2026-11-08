@@ -1,5 +1,4 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer profile file
 # Input:  computer:cpu rs1_val, computer:cpu rs2_val
 # Output: computer:alu result
 # static int slt(int rs1, int rs2) { return (rs1 < rs2) ? 1 : 0; }

@@ -1,5 +1,4 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer profile file
 # Input:  computer:cpu _mem_addr
 # Output: computer:alu result (float)
 # f[rd] = Float.intBitsToFloat(mem.readWord(addr))

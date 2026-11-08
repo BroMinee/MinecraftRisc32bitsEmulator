@@ -1,4 +1,3 @@
-#!jvmtimer profile file
 # Inputs: computer:alu a, computer:alu bits
 # Outputs: computer:alu result
 # public static int modPow2(int a, int bits) {

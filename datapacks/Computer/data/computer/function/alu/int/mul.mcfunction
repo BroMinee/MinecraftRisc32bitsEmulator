@@ -1,4 +1,3 @@
-#!jvmtimer profile file
 # Inputs: computer:alu a, computer:alu b
 # Outputs: computer:alu result
 # public static int mul(int a, int b) { return mulUnsigned64(a, b)[0]; }

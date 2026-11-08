@@ -1,4 +1,3 @@
-#!jvmtimer profile file
 # public void step() {
 # if (halted || error) return;
 execute if score error stats matches 1.. run return 0

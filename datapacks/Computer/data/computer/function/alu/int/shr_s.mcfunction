@@ -1,4 +1,3 @@
-#!jvmtimer profile file
 # Inputs: computer:alu a, computer:alu shift
 # Outputs: computer:alu result
 # public static int shrS(int a, int shift) {

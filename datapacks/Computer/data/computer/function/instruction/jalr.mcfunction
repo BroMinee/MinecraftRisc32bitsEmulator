@@ -1,5 +1,4 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer profile file
 # Input:  computer:cpu rs1_val, computer:cpu imm
 # Output: computer:alu result (target address)
 # static int jalr(int rs1, int imm) { return SafeAdderInt.clearBit0(SafeAdderInt.add(rs1, imm)); }

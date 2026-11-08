@@ -1,5 +1,4 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer profile file
 # Input:  computer:cpu rs1_val, computer:cpu rs2_val
 # Output: computer:alu result
 # static int mul(int rs1, int rs2) { return SafeAdderInt.mul(rs1, rs2); }

@@ -1,5 +1,4 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer profile file
 # Input:  computer:cpu _mem_addr
 # Output: computer:alu result
 # static int lb(Memory mem, int addr) { return SafeAdderInt.signExtend8(mem.readByte(addr)); }

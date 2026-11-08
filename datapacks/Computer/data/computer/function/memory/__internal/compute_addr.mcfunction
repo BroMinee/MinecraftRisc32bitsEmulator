@@ -1,4 +1,3 @@
-#!jvmtimer profile file
 # Compute memory address components from _mem_addr
 # Input:  computer:cpu _mem_addr
 # Output: computer:cpu _mem_word_addr, _mem_byte_off, _mem_shift, _mem_word

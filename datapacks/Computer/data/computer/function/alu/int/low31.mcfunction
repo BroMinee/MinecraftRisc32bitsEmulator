@@ -1,4 +1,3 @@
-#!jvmtimer profile file
 # Inputs: computer:alu a
 # Outputs: computer:alu result
 # public static int low31(int a) { return a < 0 ? flipSignBit(a) : a; }

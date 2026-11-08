@@ -1,4 +1,3 @@
-#!jvmtimer profile file
 # Inputs: computer:alu a
 # Outputs: computer:alu result
 # public static float floatCeil(float a) { return (float) Math.ceil(a); }

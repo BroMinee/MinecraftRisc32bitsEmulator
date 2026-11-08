@@ -1,4 +1,3 @@
-#!jvmtimer profile file
 # Inputs: computer:alu a, computer:alu b
 # Outputs: computer:alu result
 # public static int xorSignBit(int a, int b) {

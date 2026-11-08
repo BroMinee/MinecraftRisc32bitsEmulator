@@ -1,5 +1,4 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer profile file
 # Input:  computer:cpu rs1_val, computer:cpu imm
 # Output: computer:alu result
 # static int sltiu(int rs1, int imm) { return (SafeAdderInt.compareUnsigned(rs1, imm) < 0) ? 1 : 0; }

@@ -1,5 +1,4 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer profile file
 # Input:  computer:cpu _mem_addr, computer:cpu rs2_val (float)
 # Output: None
 # Update: RAM at _mem_addr

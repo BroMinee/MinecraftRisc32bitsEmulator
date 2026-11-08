@@ -1,5 +1,4 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer profile file
 # Input:  computer:cpu rs1_val, computer:cpu rs2_val (float)
 # Output: computer:alu result (int: 1 if less or equal, 0 if not)
 # static int fle_s(float a, float b) { return (a <= b) ? 1 : 0; }

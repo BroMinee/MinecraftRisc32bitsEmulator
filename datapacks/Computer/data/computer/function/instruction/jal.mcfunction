@@ -1,5 +1,4 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer profile file
 # Input:  computer:cpu pc
 # Output: computer:alu result (pc + 4, the return address)
 # static int jal(int pc) { return SafeAdderInt.add(pc, 4); }

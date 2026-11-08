@@ -1,4 +1,3 @@
-#!jvmtimer profile file
 # Inputs: computer:alu a
 # Outputs: computer:alu result
 # public static int signExtend16(int a) {

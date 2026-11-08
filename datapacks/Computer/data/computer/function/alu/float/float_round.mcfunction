@@ -1,4 +1,3 @@
-#!jvmtimer profile file
 # Inputs: computer:alu a
 # Outputs: computer:alu result (int)
 # public static int floatRound(float a) { return Math.round(a); }

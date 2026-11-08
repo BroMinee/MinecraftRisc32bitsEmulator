@@ -1,5 +1,4 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer profile file
 # Input:  computer:cpu rs1_val, computer:cpu rs2_val (float)
 # Output: computer:alu result (float)
 # f[rd] = intBitsToFloat(copySignBit(floatToRawIntBits(f[r1]), floatToRawIntBits(f[r2])))

@@ -1,4 +1,3 @@
-#!jvmtimer profile file
 # Inputs: computer:alu a
 # Outputs: computer:alu result
 # public static float floatAbs(float a) { return a < 0 ? -a : a; }

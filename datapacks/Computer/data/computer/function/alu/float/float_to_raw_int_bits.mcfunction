@@ -1,4 +1,3 @@
-#!jvmtimer profile file
 # Inputs: computer:alu a (float)
 # Outputs: computer:alu result (int)
 # public static int floatToRawIntBits(float a) {

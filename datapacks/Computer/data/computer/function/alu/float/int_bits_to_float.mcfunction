@@ -1,4 +1,3 @@
-#!jvmtimer profile file
 # Inputs: computer:alu a (int bits)
 # Outputs: computer:alu result (float)
 # public static float intBitsToFloat(int a) {

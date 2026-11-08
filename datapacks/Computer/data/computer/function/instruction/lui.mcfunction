@@ -1,5 +1,4 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer profile file
 # Input:  computer:alu result (immU)
 # Output: computer:alu result
 # static int lui(final int imm) { return imm; }

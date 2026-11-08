@@ -1,5 +1,4 @@
 #!jvmtimer end _dispatcher
-#!jvmtimer profile file
 # Input:  computer:cpu _mem_addr
 # Output: computer:alu result
 # static int lw(Memory mem, int addr) { return mem.readWord(addr); }
